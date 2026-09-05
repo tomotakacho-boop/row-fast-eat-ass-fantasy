@@ -28,6 +28,8 @@ const state = {
   comments: [],
   reactions: [],
   profiles: [],
+  activeReplyPostId: null,
+  activeReactionPostId: null,
   feedTimer: null,
   authJustCompleted: false,
   authError: "",
@@ -568,6 +570,8 @@ function renderFeedError(error) {
 
 function renderFeed() {
   const root = $("#message-list");
+  const wasNearBottom = root.scrollHeight - root.scrollTop - root.clientHeight < 100;
+  const previousScrollTop = root.scrollTop;
   const messages = state.posts.map((post) => {
     const postProfile = profileFor(post.user_id);
     const postAuthor = postProfile?.display_name || post.author_name;
@@ -577,25 +581,32 @@ function renderFeed() {
     const reactions = state.reactions.filter((reaction) => reaction.post_id === post.id);
     const reactionButtons = EMOJIS.map((emoji) => {
       const matching = reactions.filter((reaction) => reaction.emoji === emoji);
+      if (!matching.length) return "";
       const mine = matching.some((reaction) => reaction.user_id === state.user?.id);
-      return `<button class="reaction ${mine ? "is-mine" : ""}" data-reaction="${emoji}" data-post-id="${post.id}" aria-label="React ${emoji}">${emoji}${matching.length ? ` ${matching.length}` : ""}</button>`;
+      return `<button class="reaction ${mine ? "is-mine" : ""}" data-reaction="${emoji}" data-post-id="${post.id}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction">${emoji} ${matching.length}</button>`;
     }).join("");
+    const replyIsOpen = state.activeReplyPostId === post.id;
+    const reactionPickerIsOpen = state.activeReactionPostId === post.id;
 
     return `<article class="message" data-post-id="${post.id}">
       ${postAvatar ? `<img class="avatar" src="${escapeAttr(postAvatar)}" alt="" />` : `<span class="avatar-fallback">${initials(postAuthor)}</span>`}
       <div>
         <div class="message-meta"><span class="message-author">${escapeHtml(postAuthor)}</span>${postTeam ? `<span class="message-team">${escapeHtml(postTeam)}</span>` : ""}<time class="message-time">${formatMessageTime(post.created_at)}</time></div>
         <p class="message-body">${escapeHtml(post.body)}</p>
-        <div class="reaction-row">${reactionButtons}</div>
+        ${reactionButtons ? `<div class="reaction-row">${reactionButtons}</div>` : ""}
         ${comments.length ? `<div class="thread">${comments.map((comment) => { const commentProfile = profileFor(comment.user_id); return `<div class="comment"><strong>${escapeHtml(commentProfile?.display_name || comment.author_name)}</strong>${escapeHtml(comment.body)}<small>${formatMessageTime(comment.created_at)}</small></div>`; }).join("")}</div>` : ""}
-        <form class="reply-form" data-reply-form="${post.id}" hidden><input maxlength="500" placeholder="Reply to ${escapeAttr(postAuthor)}" required /><button type="submit">Reply</button></form>
+        ${replyIsOpen ? `<form class="reply-form" data-reply-form="${post.id}"><input maxlength="500" placeholder="Reply to ${escapeAttr(postAuthor)}" aria-label="Reply to ${escapeAttr(postAuthor)}" required /><button type="submit">Reply</button><button class="reply-cancel" type="button" data-cancel-reply>Cancel</button></form>` : ""}
       </div>
-      <div class="message-tools"><button data-reply="${post.id}">↩ Reply</button></div>
+      <div class="message-tools" aria-label="Message actions">
+        <button data-add-reaction="${post.id}" title="Add reaction" aria-label="Add reaction">☺<span class="tool-plus">+</span></button>
+        <button data-reply="${post.id}" title="Reply" aria-label="Reply">↩</button>
+      </div>
+      ${reactionPickerIsOpen ? `<div class="reaction-picker" role="group" aria-label="Choose a reaction">${EMOJIS.map((emoji) => `<button data-reaction="${emoji}" data-post-id="${post.id}" aria-label="React ${emoji}">${emoji}</button>`).join("")}<button class="reaction-picker-close" data-close-reactions aria-label="Close reaction picker">×</button></div>` : ""}
     </article>`;
   }).join("");
 
   root.innerHTML = `<div class="feed-welcome"><span class="hash-orb">#</span><h2>Welcome to the league feed.</h2><p>This is the start of the Row Fast Season 10 conversation.</p></div>${messages || `<div class="feed-loading">No messages yet. Be the first to post.</div>`}`;
-  root.scrollTop = root.scrollHeight;
+  root.scrollTop = wasNearBottom ? root.scrollHeight : previousScrollTop;
 }
 
 async function createPost(event) {
@@ -628,9 +639,30 @@ async function createPost(event) {
 async function handleMessageClick(event) {
   const reply = event.target.closest("[data-reply]");
   if (reply) {
-    const form = $(`[data-reply-form="${reply.dataset.reply}"]`);
-    form.hidden = !form.hidden;
-    if (!form.hidden) $("input", form).focus();
+    const postId = Number(reply.dataset.reply);
+    state.activeReplyPostId = state.activeReplyPostId === postId ? null : postId;
+    state.activeReactionPostId = null;
+    renderFeed();
+    const form = $(`[data-reply-form="${postId}"]`);
+    if (form) $("input", form).focus();
+    return;
+  }
+  const addReaction = event.target.closest("[data-add-reaction]");
+  if (addReaction) {
+    const postId = Number(addReaction.dataset.addReaction);
+    state.activeReactionPostId = state.activeReactionPostId === postId ? null : postId;
+    state.activeReplyPostId = null;
+    renderFeed();
+    return;
+  }
+  if (event.target.closest("[data-cancel-reply]")) {
+    state.activeReplyPostId = null;
+    renderFeed();
+    return;
+  }
+  if (event.target.closest("[data-close-reactions]")) {
+    state.activeReactionPostId = null;
+    renderFeed();
     return;
   }
   const reaction = event.target.closest("[data-reaction]");
@@ -639,6 +671,7 @@ async function handleMessageClick(event) {
 }
 
 async function toggleReaction(postId, emoji) {
+  if (!state.user) return;
   const existing = state.reactions.find((reaction) => reaction.post_id === postId && reaction.user_id === state.user.id && reaction.emoji === emoji);
   try {
     if (existing) {
@@ -650,6 +683,7 @@ async function toggleReaction(postId, emoji) {
         body: JSON.stringify({ post_id: postId, user_id: state.user.id, emoji }),
       });
     }
+    state.activeReactionPostId = null;
     await loadFeed(true);
   } catch (error) { toast(readableError(error, "Could not save that reaction.")); }
 }
@@ -672,6 +706,7 @@ async function handleReplySubmit(event) {
         body,
       }),
     });
+    state.activeReplyPostId = null;
     await loadFeed(true);
   } catch (error) { toast(readableError(error, "Could not post that reply.")); }
 }

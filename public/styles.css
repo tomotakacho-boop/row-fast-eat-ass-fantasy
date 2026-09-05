@@ -185,16 +185,23 @@ td:nth-child(1), td:nth-child(2) { text-align: left; }
 .reaction { min-width: 39px; padding: 3px 7px; border: 1px solid transparent; border-radius: 7px; color: #d8dadd; background: #2b2d31; font-size: 13px; }
 .reaction:hover, .reaction.is-mine { border-color: #5865f2; background: #34364c; }
 .message-tools { position: absolute; top: -10px; right: 20px; display: none; overflow: hidden; border: 1px solid #202225; border-radius: 5px; background: #313338; box-shadow: 0 4px 10px rgba(0,0,0,.25); }
-.message:hover .message-tools { display: flex; }
-.message-tools button { height: 31px; padding: 0 9px; border: 0; color: #b5bac1; background: transparent; }
+.message:hover .message-tools, .message:focus-within .message-tools { display: flex; }
+.message-tools button { position: relative; min-width: 38px; height: 31px; padding: 0 9px; border: 0; color: #b5bac1; background: transparent; font-size: 17px; }
 .message-tools button:hover { color: white; background: #3e4046; }
+.tool-plus { position: absolute; top: 2px; right: 6px; font-size: 10px; font-weight: 800; }
+.reaction-picker { position: absolute; z-index: 6; top: 25px; right: 20px; display: flex; gap: 2px; padding: 5px; border: 1px solid #202225; border-radius: 7px; background: #2b2d31; box-shadow: 0 8px 18px rgba(0,0,0,.3); }
+.reaction-picker button { width: 34px; height: 34px; display: grid; place-items: center; border: 0; border-radius: 5px; color: #b5bac1; background: transparent; font-size: 18px; }
+.reaction-picker button:hover { color: white; background: #3e4046; transform: translateY(-1px); }
+.reaction-picker .reaction-picker-close { width: 27px; font-size: 19px; }
 .thread { margin: 10px 0 0 1px; padding-left: 13px; border-left: 2px solid #4b4e55; }
 .comment { padding: 6px 0; color: #c8cbd0; font-size: 13px; }
 .comment strong { margin-right: 5px; color: white; }
 .comment small { margin-left: 6px; color: #878d97; }
 .reply-form { display: flex; gap: 7px; margin-top: 8px; }
 .reply-form input { min-width: 0; flex: 1; height: 35px; padding: 0 10px; border: 0; border-radius: 4px; color: white; background: #202225; }
-.reply-form button { border: 0; border-radius: 4px; color: white; background: #5865f2; font-weight: 700; }
+.reply-form button { padding: 0 12px; border: 0; border-radius: 4px; color: white; background: #5865f2; font-weight: 700; }
+.reply-form .reply-cancel { color: #b5bac1; background: #3e4046; }
+.reply-form .reply-cancel:hover { color: white; background: #4a4d54; }
 .composer { margin: 0 20px; padding: 0 10px; display: flex; align-items: flex-end; gap: 8px; border-radius: 8px; background: #383a40; }
 .composer textarea { min-height: 46px; max-height: 150px; flex: 1; resize: none; padding: 13px 3px; border: 0; outline: 0; color: white; background: transparent; line-height: 1.45; }
 .composer textarea::placeholder { color: #949ba4; }
@@ -293,8 +300,16 @@ td:nth-child(1), td:nth-child(2) { text-align: left; }
   .message-column { min-height: calc(100vh - 198px); }
   .feed-heading span { display: none; }
   .message { padding-left: 12px; padding-right: 12px; }
+  .message-tools { right: 12px; }
+  .reaction-picker { right: 12px; max-width: calc(100vw - 24px); }
+  .reply-form { flex-wrap: wrap; }
+  .reply-form input { flex-basis: 100%; }
   .composer { margin-left: 10px; margin-right: 10px; }
   .composer-note { margin-left: 12px; }
+}
+
+@media (hover: none) {
+  .message-tools { display: flex; opacity: .82; }
 }
 
 @media (prefers-reduced-motion: reduce) {

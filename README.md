@@ -5,7 +5,7 @@ A private, mobile-friendly league website with:
 - live ESPN East/West standings with member pictures, matchup schedules, and the confirmed 2026 draft order;
 - the $2,100 prize-pool breakdown;
 - a Power Rankings “coming soon” workspace;
-- a Discord-style league feed with Google login, persistent profile pictures, posts, emoji reactions, and threaded replies.
+- a Discord-style league feed with Google login, persistent profile pictures, clean messages, hover-to-reply controls, on-demand emoji reactions, and threaded replies.
 
 The repository contains no ESPN cookies, Google secrets, or database secrets. Those values stay in Netlify and Supabase.
 
