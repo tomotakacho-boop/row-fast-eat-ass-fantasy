@@ -19,6 +19,8 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 
 1. Create a free Supabase project at `supabase.com`.
 2. Open **SQL Editor**, paste all of [`supabase/schema.sql`](supabase/schema.sql), and run it once. The script also creates the public `profile-images` Storage bucket and secure per-user upload policies. It is safe to rerun after an update.
+
+If profile uploads report **Bucket not found**, run only [`supabase/profile-images-setup.sql`](supabase/profile-images-setup.sql) in the same Supabase project's SQL Editor. The final query must return one public bucket named `profile-images`.
 3. Open **Authentication → Providers → Google** and enable Google. Supabase will show the callback URL to place in the Google Cloud OAuth client.
 4. In Google Cloud, create an OAuth 2.0 Web Client and add Supabase's callback URL as an authorized redirect URI. Paste the Google Client ID and Client Secret back into Supabase.
 5. In **Authentication → URL Configuration**, set the Site URL to the Netlify URL and add both the production URL and `http://localhost:8888` to Redirect URLs.

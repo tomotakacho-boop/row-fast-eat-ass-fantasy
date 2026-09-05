@@ -108,6 +108,13 @@ function bindInterface() {
   $("#profile-form").addEventListener("submit", saveProfile);
   $("#profile-avatar").addEventListener("change", previewProfileAvatar);
   $("#profile-cancel").addEventListener("click", closeProfileModal);
+  $("#profile-close").addEventListener("click", closeProfileModal);
+  $("#profile-modal").addEventListener("click", (event) => {
+    if (event.target === event.currentTarget) closeProfileModal();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !$("#profile-modal").hidden) closeProfileModal();
+  });
   $("#message-list").addEventListener("click", handleMessageClick);
   $("#message-list").addEventListener("submit", handleReplySubmit);
   $("#toggle-members").addEventListener("click", () => $("#member-rail").classList.add("is-open"));
@@ -298,13 +305,13 @@ function openProfileModal() {
   $("#profile-team").value = state.profile?.team_id ? String(state.profile.team_id) : "";
   $("#profile-avatar").value = "";
   renderProfileAvatarPreview(state.profile?.avatar_url || state.user.user_metadata?.avatar_url, $("#profile-name").value);
-  $("#profile-cancel").hidden = !state.profile?.team_id;
+  $("#profile-cancel").hidden = false;
   $("#profile-modal").hidden = false;
 }
 
 function closeProfileModal() {
-  if (!state.profile?.team_id) return;
   $("#profile-modal").hidden = true;
+  switchView("overview");
 }
 
 function previewProfileAvatar(event) {
@@ -377,6 +384,9 @@ async function uploadProfileAvatar(file) {
   if (!response.ok) {
     let message = `Profile image upload failed (${response.status}).`;
     try { message = (await response.json()).message || message; } catch {}
+    if (/bucket not found/i.test(message)) {
+      message = "Profile storage is not set up yet. Run supabase/profile-images-setup.sql once in the Supabase SQL Editor, then try again.";
+    }
     throw new Error(message);
   }
   return `${state.config.supabaseUrl}/storage/v1/object/public/profile-images/${path}?v=${Date.now()}`;
