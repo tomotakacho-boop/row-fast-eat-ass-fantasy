@@ -24,7 +24,7 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 5. In **Authentication → URL Configuration**, set the Site URL to the Netlify URL and add both the production URL and `http://localhost:8888` to Redirect URLs.
 6. In Netlify **Site configuration → Environment variables**, add:
 
-   - `SUPABASE_URL`
+   - `SUPABASE_URL` — use only the project origin, such as `https://xxxxx.supabase.co`; do not include `/rest/v1`
    - `SUPABASE_ANON_KEY` (Supabase's public publishable/anon key)
 
 7. Restrict sign-in with either or both of these Netlify variables:

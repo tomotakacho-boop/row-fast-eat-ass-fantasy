@@ -1,5 +1,5 @@
 export default async () => {
-  const supabaseUrl = process.env.SUPABASE_URL || "";
+  const supabaseUrl = normalizeSupabaseUrl(process.env.SUPABASE_URL || "");
   const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || "";
   return new Response(JSON.stringify({
     supabaseUrl,
@@ -14,3 +14,10 @@ export default async () => {
     },
   });
 };
+
+function normalizeSupabaseUrl(value) {
+  return String(value)
+    .trim()
+    .replace(/\/+$/, "")
+    .replace(/\/rest\/v1$/i, "");
+}
