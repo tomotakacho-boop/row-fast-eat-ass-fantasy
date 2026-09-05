@@ -137,6 +137,13 @@ function populateStaticTeams() {
 
   $("#profile-team").innerHTML = `<option value="">Select your team</option>${TEAMS.map((team) =>
     `<option value="${team.id}">${escapeHtml(team.name)} · ${escapeHtml(team.manager)}</option>`).join("")}`;
+
+  $("#draft-order-list").innerHTML = [...TEAMS]
+    .sort((a, b) => a.id - b.id)
+    .map((team) => `<div class="draft-order-entry${team.id === 5 ? " is-user-team" : ""}">
+      <span class="draft-slot">${team.id}</span>
+      <span><strong>${escapeHtml(team.name)}</strong><small>${escapeHtml(team.manager)}</small></span>
+    </div>`).join("");
 }
 
 function populateWeekSelect() {
@@ -481,15 +488,19 @@ function renderDivisionStandings(division, selector, teams) {
   const divisionTeams = teams
     .filter((team) => (team.divisionName || divisionFor(team.name)) === division)
     .sort(compareStandings);
-  $(selector).innerHTML = divisionTeams.map((team, index) => `
+  $(selector).innerHTML = divisionTeams.map((team, index) => {
+    const profile = profileForTeam(team);
+    const avatar = profile?.avatar_url;
+    return `
     <tr>
       <td class="rank-number">${index + 1}</td>
-      <td><div class="team-cell"><span class="team-seed">${initials(team.name)}</span><span><strong>${escapeHtml(team.name)}</strong><small>${escapeHtml(team.manager || managerFor(team.name))}</small></span></div></td>
+      <td><div class="team-cell">${avatar ? `<span class="team-seed team-photo"><img src="${escapeAttr(avatar)}" alt="${escapeAttr(team.name)} profile picture" /></span>` : `<span class="team-seed">${initials(team.name)}</span>`}<span><strong>${escapeHtml(team.name)}</strong><small>${escapeHtml(profile?.display_name || team.manager || managerFor(team.name))}</small></span></div></td>
       <td>${team.wins || 0}-${team.losses || 0}-${team.ties || 0}</td>
       <td>${formatNumber(team.pointsFor)}</td>
       <td>${formatNumber(team.pointsAgainst)}</td>
       <td>${escapeHtml(team.streak || "—")}</td>
-    </tr>`).join("");
+    </tr>`;
+  }).join("");
 }
 
 function compareStandings(a, b) {
@@ -532,6 +543,7 @@ async function loadFeed(silent = false) {
     state.reactions = reactions || [];
     state.profiles = profiles || [];
     renderMembers();
+    renderStandings();
     renderFeed();
   } catch (error) {
     if (!silent) renderFeedError(error);
@@ -677,6 +689,15 @@ function handleComposerKeydown(event) {
 
 function profileFor(userId) {
   return state.profiles.find((profile) => profile.id === userId) || null;
+}
+
+function profileForTeam(team) {
+  const localTeam = TEAMS.find((item) => normalize(item.name) === normalize(team?.name));
+  const localTeamId = localTeam?.id ?? Number(team?.id);
+  return state.profiles.find((profile) =>
+    Number(profile.team_id) === Number(localTeamId)
+    || normalize(profile.team_name) === normalize(team?.name)
+  ) || null;
 }
 
 function renderMembers() {
