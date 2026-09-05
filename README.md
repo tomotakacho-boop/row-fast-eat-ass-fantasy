@@ -36,6 +36,8 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 
 The **Log in** and **Sign up** buttons both use Google's secure OAuth screen. On a member's first visit, the site asks them to choose their Row Fast team.
 
+After Google redirects back, the header must show a green **Signed in** indicator with the member's Google name or email. If the header still shows Log in / Sign up, confirm that `SUPABASE_ANON_KEY` contains the public publishable/anon key (not a URL), then trigger a fresh Netlify deploy. The site surfaces incomplete OAuth callbacks instead of silently returning to Overview.
+
 ## Connect the private ESPN league
 
 Add these variables in Netlify:

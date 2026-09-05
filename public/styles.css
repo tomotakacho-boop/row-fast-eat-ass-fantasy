@@ -42,8 +42,13 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .button-gold:hover { background: #ffd270; }
 .button-full { width: 100%; margin-top: 4px; }
 .user-chip { display: flex; align-items: center; gap: 9px; padding: 5px 6px 5px 11px; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; background: rgba(255,255,255,.06); color: white; }
-.user-chip span { max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; font-weight: 700; }
+.user-presence { width: 8px; height: 8px; flex: 0 0 auto; border-radius: 50%; background: #53d59b; box-shadow: 0 0 0 3px rgba(83,213,155,.14); }
+.user-identity { min-width: 0; max-width: 165px; display: grid; gap: 1px; }
+.user-identity small { color: #82dcb8; font-size: 9px; font-weight: 800; letter-spacing: .08em; line-height: 1; text-transform: uppercase; }
+.user-identity strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; line-height: 1.2; }
+.auth-alert { color: #ffd5cf; font-size: 10px; font-weight: 700; }
 .avatar { width: 31px; height: 31px; object-fit: cover; border-radius: 50%; background: var(--gold); }
+.user-chip > .avatar-fallback { width: 31px; height: 31px; flex: 0 0 auto; font-size: 10px; }
 .logout-button { padding: 0 3px 0 6px; border: 0; color: #b5bdca; background: transparent; font-size: 12px; }
 
 .view { display: none; min-height: calc(100vh - 82px); }

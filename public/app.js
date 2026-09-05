@@ -28,6 +28,8 @@ const state = {
   comments: [],
   reactions: [],
   feedTimer: null,
+  authJustCompleted: false,
+  authError: "",
 };
 
 document.addEventListener("DOMContentLoaded", bootstrap);
@@ -51,6 +53,12 @@ async function bootstrap() {
   }
 
   routeFromHash();
+  if (state.authJustCompleted && state.user) {
+    const name = state.profile?.display_name || state.user.user_metadata?.full_name || state.user.email;
+    toast(`Signed in successfully as ${name}.`);
+  } else if (state.authError) {
+    toast(state.authError);
+  }
 }
 
 function bindNavigation() {
@@ -135,8 +143,16 @@ async function loadRuntimeConfig() {
 
 async function restoreSession() {
   const hash = new URLSearchParams(window.location.hash.slice(1));
+  const query = new URLSearchParams(window.location.search);
+  const oauthError = hash.get("error_description") || query.get("error_description") || hash.get("error") || query.get("error");
   const accessToken = hash.get("access_token");
   const refreshToken = hash.get("refresh_token");
+
+  if (oauthError) {
+    state.authError = `Google sign-in did not finish: ${oauthError}`;
+    clearOAuthCallback();
+    return;
+  }
 
   if (accessToken) {
     state.session = {
@@ -145,12 +161,23 @@ async function restoreSession() {
       expires_at: Math.floor(Date.now() / 1000) + Number(hash.get("expires_in") || 3600),
     };
     localStorage.setItem("rowfast_session", JSON.stringify(state.session));
-    history.replaceState(null, "", `${location.pathname}#overview`);
+    state.authJustCompleted = true;
+    clearOAuthCallback();
+  } else if (query.get("code")) {
+    state.authError = "Google approved the login, but the Supabase session could not be completed. Start sign-in again from this page.";
+    clearOAuthCallback();
+    return;
   } else {
     try { state.session = JSON.parse(localStorage.getItem("rowfast_session")); } catch { state.session = null; }
   }
 
-  if (!state.session || !state.config?.supabaseUrl) return;
+  if (!state.session) return;
+  if (!state.config?.configured) {
+    state.authError = "Google returned successfully, but SUPABASE_ANON_KEY is missing or unavailable in Netlify.";
+    localStorage.removeItem("rowfast_session");
+    state.session = null;
+    return;
+  }
   if (state.session.expires_at < Math.floor(Date.now() / 1000) + 90) await refreshSession();
   if (!state.session) return;
 
@@ -158,18 +185,32 @@ async function restoreSession() {
     const response = await fetch(`${state.config.supabaseUrl}/auth/v1/user`, {
       headers: authHeaders(),
     });
-    if (!response.ok) throw new Error("Session expired");
+    if (!response.ok) {
+      let detail = "Session validation failed.";
+      try {
+        const payload = await response.json();
+        detail = payload.msg || payload.message || payload.error_description || detail;
+      } catch {}
+      throw new Error(detail);
+    }
     state.user = await response.json();
     const domain = state.user.email?.split("@")[1]?.toLowerCase();
     if (state.config.allowedDomain && domain !== state.config.allowedDomain.toLowerCase()) {
       await signOut();
       toast(`Use your ${state.config.allowedDomain} Google account to enter this league.`);
     }
-  } catch {
+  } catch (error) {
     localStorage.removeItem("rowfast_session");
     state.session = null;
     state.user = null;
+    state.authError = /api key/i.test(error.message)
+      ? "Google approved the login, but Netlify is missing a valid SUPABASE_ANON_KEY. Add the public publishable/anon key and redeploy."
+      : `Google approved the login, but the session could not be verified: ${error.message}`;
   }
+}
+
+function clearOAuthCallback() {
+  history.replaceState(null, "", `${location.pathname}#overview`);
 }
 
 async function refreshSession() {
@@ -195,8 +236,8 @@ async function refreshSession() {
 }
 
 function beginGoogleAuth() {
-  if (!state.config?.supabaseUrl) {
-    toast("Google sign-in will activate after the Supabase settings are added in Netlify.");
+  if (!state.config?.configured) {
+    toast("Google sign-in needs both SUPABASE_URL and SUPABASE_ANON_KEY in Netlify, followed by a new deploy.");
     return;
   }
   const redirectTo = `${location.origin}${location.pathname}`;
@@ -210,6 +251,8 @@ async function signOut() {
   state.session = null;
   state.user = null;
   state.profile = null;
+  state.authJustCompleted = false;
+  state.authError = "";
   localStorage.removeItem("rowfast_session");
   renderAuth();
   renderFallbackOverview();
@@ -219,12 +262,12 @@ async function signOut() {
 function renderAuth() {
   const root = $("#auth-actions");
   if (!state.user) {
-    root.innerHTML = `<button class="button button-ghost" data-auth="login">Log in</button><button class="button button-gold" data-auth="signup">Sign up</button>`;
+    root.innerHTML = `<button class="button button-ghost" data-auth="login">Log in</button><button class="button button-gold" data-auth="signup">Sign up</button>${state.authError ? `<span class="auth-alert" title="${escapeAttr(state.authError)}">Sign-in incomplete</span>` : ""}`;
     return;
   }
   const name = state.profile?.display_name || state.user.user_metadata?.full_name || state.user.email;
   const avatar = state.user.user_metadata?.avatar_url;
-  root.innerHTML = `<div class="user-chip"><span>${escapeHtml(name)}</span>${avatar ? `<img class="avatar" src="${escapeAttr(avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(name)}</span>`}<button class="logout-button" data-auth="logout">Log out</button></div>`;
+  root.innerHTML = `<div class="user-chip" aria-label="Signed in as ${escapeAttr(name)}"><span class="user-presence" aria-hidden="true"></span><span class="user-identity"><small>Signed in</small><strong>${escapeHtml(name)}</strong></span>${avatar ? `<img class="avatar" src="${escapeAttr(avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(name)}</span>`}<button class="logout-button" data-auth="logout">Log out</button></div>`;
   const input = $("#post-input");
   input.disabled = false;
   input.placeholder = "Message #league-feed";

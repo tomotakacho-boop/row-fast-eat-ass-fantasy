@@ -51,7 +51,7 @@ export default async (request) => {
 };
 
 async function requireLeagueMember(request) {
-  const supabaseUrl = process.env.SUPABASE_URL;
+  const supabaseUrl = normalizeSupabaseUrl(process.env.SUPABASE_URL || "");
   const anonKey = process.env.SUPABASE_ANON_KEY;
   if (!supabaseUrl || !anonKey) {
     const error = new Error("Google member authentication is not configured yet.");
@@ -86,6 +86,13 @@ async function requireLeagueMember(request) {
     error.status = 403;
     throw error;
   }
+}
+
+function normalizeSupabaseUrl(value) {
+  return String(value)
+    .trim()
+    .replace(/\/+$/, "")
+    .replace(/\/rest\/v1$/i, "");
 }
 
 function normalizeLeague(raw, season) {
