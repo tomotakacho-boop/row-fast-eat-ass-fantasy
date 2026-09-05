@@ -40,7 +40,7 @@ The **Log in** and **Sign up** buttons both use Google's secure OAuth screen. On
 
 Add these variables in Netlify:
 
-- `ESPN_LEAGUE_ID` — the number after `leagueId=` in the ESPN league URL
+- `ESPN_LEAGUE_ID=416026` — the confirmed Row Fast league ID (also built in as the safe default)
 - `ESPN_SEASON=2026`
 - `ESPN_S2` — required when the ESPN league is private
 - `ESPN_SWID` — required when the ESPN league is private

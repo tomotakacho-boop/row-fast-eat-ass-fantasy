@@ -22,7 +22,7 @@ export default async (request) => {
     return json({ error: error.message }, error.status || 401);
   }
 
-  const leagueId = process.env.ESPN_LEAGUE_ID;
+  const leagueId = process.env.ESPN_LEAGUE_ID || "416026";
   const season = process.env.ESPN_SEASON || "2026";
   if (!leagueId) return json({ error: "Add ESPN_LEAGUE_ID in Netlify to activate the live league connection." }, 503);
 
