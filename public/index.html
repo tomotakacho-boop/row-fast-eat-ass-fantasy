@@ -55,50 +55,51 @@
             </div>
           </div>
 
-          <div class="hero-grid">
-            <article class="week-card panel">
-              <div class="week-card-top">
-                <div>
-                  <p class="eyebrow eyebrow-light">On deck</p>
-                  <h2 id="week-title">Week 1 matchups</h2>
-                </div>
-                <select id="week-select" aria-label="Choose NFL week"></select>
-              </div>
-              <div class="matchup-strip" id="featured-matchup">
-                <div class="empty-state compact">Sign in with Google to pull the live matchup slate from ESPN.</div>
-              </div>
-            </article>
-
-            <article class="prize-card panel">
-              <p class="eyebrow">Prize pool</p>
-              <div class="prize-total"><span>$</span>2,100</div>
-              <div class="prize-split">
-                <div><span>Champion</span><strong>$1,260</strong><small>60%</small></div>
-                <div><span>Runner-up</span><strong>$630</strong><small>30%</small></div>
-                <div><span>Third</span><strong>$210</strong><small>10%</small></div>
-              </div>
-            </article>
-          </div>
-
           <div class="overview-grid">
             <article class="panel standings-panel">
               <div class="panel-heading">
-                <div><p class="eyebrow">The table</p><h2>League standings</h2></div>
+                <div><p class="eyebrow">The table</p><h2>League standings by division</h2></div>
                 <span class="season-pill">Regular season</span>
               </div>
-              <div class="table-wrap">
-                <table class="standings-table">
-                  <thead><tr><th>RK</th><th>Team</th><th>W-L-T</th><th>PF</th><th>PA</th><th>Streak</th></tr></thead>
-                  <tbody id="standings-body"></tbody>
-                </table>
+              <div class="division-grid">
+                <section class="division-section">
+                  <div class="division-heading"><h3>East</h3><span>6 teams</span></div>
+                  <div class="table-wrap">
+                    <table class="standings-table">
+                      <thead><tr><th>RK</th><th>Team</th><th>W-L-T</th><th>PF</th><th>PA</th><th>Streak</th></tr></thead>
+                      <tbody id="standings-east-body"></tbody>
+                    </table>
+                  </div>
+                </section>
+                <section class="division-section">
+                  <div class="division-heading"><h3>West</h3><span>6 teams</span></div>
+                  <div class="table-wrap">
+                    <table class="standings-table">
+                      <thead><tr><th>RK</th><th>Team</th><th>W-L-T</th><th>PF</th><th>PA</th><th>Streak</th></tr></thead>
+                      <tbody id="standings-west-body"></tbody>
+                    </table>
+                  </div>
+                </section>
               </div>
             </article>
 
-            <aside class="panel schedule-panel">
-              <div class="panel-heading">
-                <div><p class="eyebrow">Head to head</p><h2 id="schedule-title">Week 1 slate</h2></div>
-              </div>
-              <div class="schedule-list" id="schedule-list"></div>
+            <aside class="overview-side">
+              <article class="prize-card panel">
+                <p class="eyebrow">Prize pool</p>
+                <div class="prize-total"><span>$</span>2,100</div>
+                <div class="prize-split">
+                  <div><span>Champion</span><strong>$1,260</strong><small>60%</small></div>
+                  <div><span>Runner-up</span><strong>$630</strong><small>30%</small></div>
+                  <div><span>Third</span><strong>$210</strong><small>10%</small></div>
+                </div>
+              </article>
+              <article class="panel schedule-panel">
+                <div class="panel-heading">
+                  <div><p class="eyebrow">Head to head</p><h2 id="schedule-title">Week 1 slate</h2></div>
+                  <select id="week-select" aria-label="Choose NFL week"></select>
+                </div>
+                <div class="schedule-list" id="schedule-list"></div>
+              </article>
             </aside>
           </div>
         </div>
@@ -170,13 +171,23 @@
 
     <div class="modal-backdrop" id="profile-modal" hidden>
       <section class="modal" role="dialog" aria-modal="true" aria-labelledby="profile-title">
-        <p class="eyebrow">One-time setup</p>
-        <h2 id="profile-title">Which team is yours?</h2>
-        <p>Choose your Row Fast team so your name and team appear together in the feed.</p>
+        <p class="eyebrow">League profile</p>
+        <h2 id="profile-title">Your feed identity</h2>
+        <p>Choose your Row Fast team and add an optional profile picture. You can reopen this from your signed-in badge.</p>
         <form id="profile-form">
           <label>Display name<input id="profile-name" maxlength="60" required /></label>
           <label>Team<select id="profile-team" required></select></label>
-          <button class="button button-gold button-full" type="submit">Enter the league</button>
+          <label>Profile picture
+            <span class="profile-avatar-picker">
+              <span class="profile-avatar-preview" id="profile-avatar-preview">RF</span>
+              <span><strong>Choose an image</strong><small>JPG, PNG, WebP, or GIF · maximum 4 MB</small></span>
+              <input id="profile-avatar" type="file" accept="image/jpeg,image/png,image/webp,image/gif" />
+            </span>
+          </label>
+          <div class="modal-actions">
+            <button class="button profile-cancel" id="profile-cancel" type="button">Cancel</button>
+            <button class="button button-gold" id="profile-save" type="submit">Save profile</button>
+          </div>
         </form>
       </section>
     </div>

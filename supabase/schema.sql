@@ -49,6 +49,19 @@ create table if not exists public.feed_reactions (
   unique (post_id, user_id, emoji)
 );
 
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values (
+  'profile-images',
+  'profile-images',
+  true,
+  4194304,
+  array['image/jpeg', 'image/png', 'image/webp', 'image/gif']
+)
+on conflict (id) do update set
+  public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;
+
 create index if not exists feed_posts_created_at_idx on public.feed_posts(created_at desc);
 create index if not exists feed_comments_post_id_idx on public.feed_comments(post_id, created_at);
 create index if not exists feed_reactions_post_id_idx on public.feed_reactions(post_id);
@@ -120,6 +133,32 @@ create policy "members create reactions" on public.feed_reactions for insert to 
 drop policy if exists "members remove reactions" on public.feed_reactions;
 create policy "members remove reactions" on public.feed_reactions for delete to authenticated
   using (auth.uid() = user_id and public.is_allowed_league_member());
+
+drop policy if exists "members upload own profile image" on storage.objects;
+create policy "members upload own profile image" on storage.objects for insert to authenticated
+  with check (
+    bucket_id = 'profile-images'
+    and (storage.foldername(name))[1] = auth.uid()::text
+    and public.is_allowed_league_member()
+  );
+drop policy if exists "members read own profile image" on storage.objects;
+create policy "members read own profile image" on storage.objects for select to authenticated
+  using (
+    bucket_id = 'profile-images'
+    and (storage.foldername(name))[1] = auth.uid()::text
+    and public.is_allowed_league_member()
+  );
+drop policy if exists "members update own profile image" on storage.objects;
+create policy "members update own profile image" on storage.objects for update to authenticated
+  using (bucket_id = 'profile-images' and (storage.foldername(name))[1] = auth.uid()::text)
+  with check (
+    bucket_id = 'profile-images'
+    and (storage.foldername(name))[1] = auth.uid()::text
+    and public.is_allowed_league_member()
+  );
+drop policy if exists "members delete own profile image" on storage.objects;
+create policy "members delete own profile image" on storage.objects for delete to authenticated
+  using (bucket_id = 'profile-images' and (storage.foldername(name))[1] = auth.uid()::text);
 
 create or replace function public.handle_new_user()
 returns trigger

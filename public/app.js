@@ -1,16 +1,16 @@
 const TEAMS = [
-  { id: 1, name: "Team Rex", manager: "Peter Rex" },
-  { id: 2, name: "Wet Willies", manager: "Will Cordonnier" },
-  { id: 3, name: "Juulio Jones", manager: "Seamus Mulcahy" },
-  { id: 4, name: "Shayshawn Broccoli", manager: "Ethan Ashley" },
-  { id: 5, name: "Meet The Robinson's", manager: "Tomotaka Cho" },
-  { id: 6, name: "Eat The Boutte Like Groceries", manager: "Tim Harris" },
-  { id: 7, name: "OnlyFannins", manager: "Jack Coffman" },
-  { id: 8, name: "Pukana Matatas", manager: "Jackson Herz" },
-  { id: 9, name: "Rex On Rex", manager: "Liam Rex" },
-  { id: 10, name: "Two-Point Conversion Therapy", manager: "Parker Sikora" },
-  { id: 11, name: "Goff Balls", manager: "Drew Eckler · Andrew Eckler" },
-  { id: 12, name: "Kittle League", manager: "John Olson" },
+  { id: 1, name: "Team Rex", manager: "Peter Rex", division: "West", divisionOrder: 2 },
+  { id: 2, name: "Wet Willies", manager: "Will Cordonnier", division: "East", divisionOrder: 6 },
+  { id: 3, name: "Juulio Jones", manager: "Seamus Mulcahy", division: "East", divisionOrder: 5 },
+  { id: 4, name: "Shayshawn Broccoli", manager: "Ethan Ashley", division: "West", divisionOrder: 6 },
+  { id: 5, name: "Meet The Robinson's", manager: "Tomotaka Cho", division: "East", divisionOrder: 1 },
+  { id: 6, name: "Eat The Boutte Like Groceries", manager: "Tim Harris", division: "West", divisionOrder: 1 },
+  { id: 7, name: "OnlyFannins", manager: "Jack Coffman", division: "East", divisionOrder: 3 },
+  { id: 8, name: "Pukana Matatas", manager: "Jackson Herz", division: "West", divisionOrder: 3 },
+  { id: 9, name: "Rex On Rex", manager: "Liam Rex", division: "East", divisionOrder: 4 },
+  { id: 10, name: "Two-Point Conversion Therapy", manager: "Parker Sikora", division: "West", divisionOrder: 5 },
+  { id: 11, name: "Goff Balls", manager: "Drew Eckler · Andrew Eckler", division: "East", divisionOrder: 2 },
+  { id: 12, name: "Kittle League", manager: "John Olson", division: "West", divisionOrder: 4 },
 ];
 
 const EMOJIS = ["👍", "❤️", "😂", "🔥", "🏈", "👀"];
@@ -27,6 +27,7 @@ const state = {
   posts: [],
   comments: [],
   reactions: [],
+  profiles: [],
   feedTimer: null,
   authJustCompleted: false,
   authError: "",
@@ -93,6 +94,7 @@ function bindInterface() {
     const action = event.target.closest("[data-auth]")?.dataset.auth;
     if (action === "login" || action === "signup") beginGoogleAuth();
     if (action === "logout") signOut();
+    if (action === "profile") openProfileModal();
   });
 
   $("#refresh-espn").addEventListener("click", () => loadLeagueData(true));
@@ -102,7 +104,10 @@ function bindInterface() {
   });
   $("#post-form").addEventListener("submit", createPost);
   $("#post-input").addEventListener("input", autoGrowComposer);
+  $("#post-input").addEventListener("keydown", handleComposerKeydown);
   $("#profile-form").addEventListener("submit", saveProfile);
+  $("#profile-avatar").addEventListener("change", previewProfileAvatar);
+  $("#profile-cancel").addEventListener("click", closeProfileModal);
   $("#message-list").addEventListener("click", handleMessageClick);
   $("#message-list").addEventListener("submit", handleReplySubmit);
   $("#toggle-members").addEventListener("click", () => $("#member-rail").classList.add("is-open"));
@@ -266,8 +271,8 @@ function renderAuth() {
     return;
   }
   const name = state.profile?.display_name || state.user.user_metadata?.full_name || state.user.email;
-  const avatar = state.user.user_metadata?.avatar_url;
-  root.innerHTML = `<div class="user-chip" aria-label="Signed in as ${escapeAttr(name)}"><span class="user-presence" aria-hidden="true"></span><span class="user-identity"><small>Signed in</small><strong>${escapeHtml(name)}</strong></span>${avatar ? `<img class="avatar" src="${escapeAttr(avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(name)}</span>`}<button class="logout-button" data-auth="logout">Log out</button></div>`;
+  const avatar = state.profile?.avatar_url || state.user.user_metadata?.avatar_url;
+  root.innerHTML = `<div class="user-chip" aria-label="Signed in as ${escapeAttr(name)}"><span class="user-presence" aria-hidden="true"></span><button class="user-profile-button" data-auth="profile" aria-label="Edit profile"><span class="user-identity"><small>Signed in · Edit profile</small><strong>${escapeHtml(name)}</strong></span>${avatar ? `<img class="avatar" src="${escapeAttr(avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(name)}</span>`}</button><button class="logout-button" data-auth="logout">Log out</button></div>`;
   const input = $("#post-input");
   input.disabled = false;
   input.placeholder = "Message #league-feed";
@@ -288,8 +293,35 @@ async function loadProfile() {
 }
 
 function openProfileModal() {
-  $("#profile-name").value = state.user?.user_metadata?.full_name || state.user?.email?.split("@")[0] || "";
+  if (!state.user) return;
+  $("#profile-name").value = state.profile?.display_name || state.user.user_metadata?.full_name || state.user.email?.split("@")[0] || "";
+  $("#profile-team").value = state.profile?.team_id ? String(state.profile.team_id) : "";
+  $("#profile-avatar").value = "";
+  renderProfileAvatarPreview(state.profile?.avatar_url || state.user.user_metadata?.avatar_url, $("#profile-name").value);
+  $("#profile-cancel").hidden = !state.profile?.team_id;
   $("#profile-modal").hidden = false;
+}
+
+function closeProfileModal() {
+  if (!state.profile?.team_id) return;
+  $("#profile-modal").hidden = true;
+}
+
+function previewProfileAvatar(event) {
+  const file = event.target.files?.[0];
+  if (!file) return renderProfileAvatarPreview(state.profile?.avatar_url, $("#profile-name").value);
+  if (!/^image\/(jpeg|png|webp|gif)$/.test(file.type) || file.size > 4 * 1024 * 1024) {
+    event.target.value = "";
+    toast("Choose a JPG, PNG, WebP, or GIF no larger than 4 MB.");
+    return;
+  }
+  renderProfileAvatarPreview(URL.createObjectURL(file), $("#profile-name").value);
+}
+
+function renderProfileAvatarPreview(url, name = "") {
+  $("#profile-avatar-preview").innerHTML = url
+    ? `<img src="${escapeAttr(url)}" alt="Profile preview" />`
+    : escapeHtml(initials(name));
 }
 
 async function saveProfile(event) {
@@ -297,9 +329,16 @@ async function saveProfile(event) {
   const teamId = Number($("#profile-team").value);
   const team = TEAMS.find((item) => item.id === teamId);
   const displayName = $("#profile-name").value.trim();
+  const avatarFile = $("#profile-avatar").files?.[0];
   if (!team || !displayName) return;
 
   try {
+    const saveButton = $("#profile-save");
+    saveButton.disabled = true;
+    saveButton.textContent = avatarFile ? "Uploading…" : "Saving…";
+    const avatarUrl = avatarFile
+      ? await uploadProfileAvatar(avatarFile)
+      : state.profile?.avatar_url || state.user.user_metadata?.avatar_url || null;
     const rows = await supabaseRequest("/rest/v1/profiles?on_conflict=id", {
       method: "POST",
       headers: { Prefer: "resolution=merge-duplicates,return=representation" },
@@ -307,7 +346,7 @@ async function saveProfile(event) {
         id: state.user.id,
         email: state.user.email,
         display_name: displayName,
-        avatar_url: state.user.user_metadata?.avatar_url || null,
+        avatar_url: avatarUrl,
         team_id: team.id,
         team_name: team.name,
       }),
@@ -315,10 +354,32 @@ async function saveProfile(event) {
     state.profile = rows?.[0];
     $("#profile-modal").hidden = true;
     renderAuth();
-    toast("You’re in. Welcome to the league feed.");
+    await loadFeed(true);
+    toast("Profile saved. Your picture now appears throughout the league feed.");
   } catch (error) {
     toast(readableError(error, "Could not save your team profile."));
+  } finally {
+    const saveButton = $("#profile-save");
+    saveButton.disabled = false;
+    saveButton.textContent = "Save profile";
   }
+}
+
+async function uploadProfileAvatar(file) {
+  const extension = ({ "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif" })[file.type];
+  if (!extension || file.size > 4 * 1024 * 1024) throw new Error("Choose a supported image no larger than 4 MB.");
+  const path = `${state.user.id}/avatar.${extension}`;
+  const response = await fetch(`${state.config.supabaseUrl}/storage/v1/object/profile-images/${path}`, {
+    method: "POST",
+    headers: { ...authHeaders(), "Content-Type": file.type, "x-upsert": "true" },
+    body: file,
+  });
+  if (!response.ok) {
+    let message = `Profile image upload failed (${response.status}).`;
+    try { message = (await response.json()).message || message; } catch {}
+    throw new Error(message);
+  }
+  return `${state.config.supabaseUrl}/storage/v1/object/public/profile-images/${path}?v=${Date.now()}`;
 }
 
 function authHeaders(extra = {}) {
@@ -380,7 +441,7 @@ async function loadLeagueData(force = false) {
 function renderFallbackOverview() {
   state.league = {
     currentWeek: 1,
-    teams: TEAMS.map((team, index) => ({ ...team, rank: index + 1, wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0, streak: "—" })),
+    teams: TEAMS.map((team, index) => ({ ...team, divisionName: team.division, rank: index + 1, wins: 0, losses: 0, ties: 0, pointsFor: 0, pointsAgainst: 0, streak: "—" })),
     matchups: Array.from({ length: 6 }, (_, index) => ({
       week: 1,
       home: TEAMS[index],
@@ -402,9 +463,17 @@ function renderLeagueOverview() {
 
 function renderStandings() {
   const teams = state.league?.teams || [];
-  $("#standings-body").innerHTML = teams.map((team, index) => `
-    <tr class="${index === 6 ? "playoff-cut" : ""}">
-      <td class="rank-number">${team.rank || index + 1}</td>
+  renderDivisionStandings("East", "#standings-east-body", teams);
+  renderDivisionStandings("West", "#standings-west-body", teams);
+}
+
+function renderDivisionStandings(division, selector, teams) {
+  const divisionTeams = teams
+    .filter((team) => (team.divisionName || divisionFor(team.name)) === division)
+    .sort(compareStandings);
+  $(selector).innerHTML = divisionTeams.map((team, index) => `
+    <tr>
+      <td class="rank-number">${index + 1}</td>
       <td><div class="team-cell"><span class="team-seed">${initials(team.name)}</span><span><strong>${escapeHtml(team.name)}</strong><small>${escapeHtml(team.manager || managerFor(team.name))}</small></span></div></td>
       <td>${team.wins || 0}-${team.losses || 0}-${team.ties || 0}</td>
       <td>${formatNumber(team.pointsFor)}</td>
@@ -413,19 +482,18 @@ function renderStandings() {
     </tr>`).join("");
 }
 
+function compareStandings(a, b) {
+  const gamesA = (a.wins || 0) + (a.losses || 0) + (a.ties || 0);
+  const gamesB = (b.wins || 0) + (b.losses || 0) + (b.ties || 0);
+  const percentageA = gamesA ? ((a.wins || 0) + (a.ties || 0) * .5) / gamesA : 0;
+  const percentageB = gamesB ? ((b.wins || 0) + (b.ties || 0) * .5) / gamesB : 0;
+  return percentageB - percentageA || (b.pointsFor || 0) - (a.pointsFor || 0) || divisionOrderFor(a.name) - divisionOrderFor(b.name);
+}
+
 function renderSchedule() {
   const week = state.selectedWeek || 1;
   const matchups = (state.league?.matchups || []).filter((matchup) => Number(matchup.week) === week);
-  $("#week-title").textContent = `Week ${week} matchups`;
   $("#schedule-title").textContent = `Week ${week} slate`;
-
-  const featured = matchups.find((matchup) => matchup.home?.id === 5 || matchup.away?.id === 5) || matchups[0];
-  $("#featured-matchup").innerHTML = featured ? `
-    <div class="featured-versus">
-      <div class="featured-team"><span>Home</span><strong>${escapeHtml(featured.home?.name || "TBD")}</strong><small>${escapeHtml(featured.home?.manager || managerFor(featured.home?.name))}</small></div>
-      <div class="featured-score"><strong>${scoreLabel(featured.homeScore, featured.awayScore)}</strong><span>${escapeHtml(featured.status || "Matchup")}</span></div>
-      <div class="featured-team"><span>Away</span><strong>${escapeHtml(featured.away?.name || "TBD")}</strong><small>${escapeHtml(featured.away?.manager || managerFor(featured.away?.name))}</small></div>
-    </div>` : `<div class="empty-state compact">ESPN has not published this week’s matchups yet.</div>`;
 
   $("#schedule-list").innerHTML = matchups.length ? matchups.map((matchup) => `
     <div class="schedule-item">
@@ -435,9 +503,6 @@ function renderSchedule() {
     </div>`).join("") : `<div class="empty-state">No schedule is available for Week ${week}.</div>`;
 }
 
-function scoreLabel(home, away) {
-  return home == null && away == null ? "VS" : `${Number(home || 0).toFixed(1)}–${Number(away || 0).toFixed(1)}`;
-}
 function scoreSingle(value) { return value == null ? "Scheduled" : `${Number(value).toFixed(1)} pts`; }
 
 async function loadFeed(silent = false) {
@@ -447,13 +512,16 @@ async function loadFeed(silent = false) {
     const posts = await supabaseRequest("/rest/v1/feed_posts?select=*&order=created_at.desc&limit=75");
     const ids = (posts || []).map((post) => post.id);
     const filter = ids.length ? `&post_id=in.(${ids.join(",")})` : "&post_id=eq.-1";
-    const [comments, reactions] = await Promise.all([
+    const [comments, reactions, profiles] = await Promise.all([
       supabaseRequest(`/rest/v1/feed_comments?select=*&order=created_at.asc${filter}`),
       supabaseRequest(`/rest/v1/feed_reactions?select=*${filter}`),
+      supabaseRequest("/rest/v1/profiles?select=id,display_name,avatar_url,team_id,team_name"),
     ]);
     state.posts = (posts || []).reverse();
     state.comments = comments || [];
     state.reactions = reactions || [];
+    state.profiles = profiles || [];
+    renderMembers();
     renderFeed();
   } catch (error) {
     if (!silent) renderFeedError(error);
@@ -479,6 +547,10 @@ function renderFeedError(error) {
 function renderFeed() {
   const root = $("#message-list");
   const messages = state.posts.map((post) => {
+    const postProfile = profileFor(post.user_id);
+    const postAuthor = postProfile?.display_name || post.author_name;
+    const postAvatar = postProfile?.avatar_url || post.author_avatar;
+    const postTeam = postProfile?.team_name || post.author_team_name;
     const comments = state.comments.filter((comment) => comment.post_id === post.id);
     const reactions = state.reactions.filter((reaction) => reaction.post_id === post.id);
     const reactionButtons = EMOJIS.map((emoji) => {
@@ -488,13 +560,13 @@ function renderFeed() {
     }).join("");
 
     return `<article class="message" data-post-id="${post.id}">
-      ${post.author_avatar ? `<img class="avatar" src="${escapeAttr(post.author_avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(post.author_name)}</span>`}
+      ${postAvatar ? `<img class="avatar" src="${escapeAttr(postAvatar)}" alt="" />` : `<span class="avatar-fallback">${initials(postAuthor)}</span>`}
       <div>
-        <div class="message-meta"><span class="message-author">${escapeHtml(post.author_name)}</span>${post.author_team_name ? `<span class="message-team">${escapeHtml(post.author_team_name)}</span>` : ""}<time class="message-time">${formatMessageTime(post.created_at)}</time></div>
+        <div class="message-meta"><span class="message-author">${escapeHtml(postAuthor)}</span>${postTeam ? `<span class="message-team">${escapeHtml(postTeam)}</span>` : ""}<time class="message-time">${formatMessageTime(post.created_at)}</time></div>
         <p class="message-body">${escapeHtml(post.body)}</p>
         <div class="reaction-row">${reactionButtons}</div>
-        ${comments.length ? `<div class="thread">${comments.map((comment) => `<div class="comment"><strong>${escapeHtml(comment.author_name)}</strong>${escapeHtml(comment.body)}<small>${formatMessageTime(comment.created_at)}</small></div>`).join("")}</div>` : ""}
-        <form class="reply-form" data-reply-form="${post.id}" hidden><input maxlength="500" placeholder="Reply to ${escapeAttr(post.author_name)}" required /><button type="submit">Reply</button></form>
+        ${comments.length ? `<div class="thread">${comments.map((comment) => { const commentProfile = profileFor(comment.user_id); return `<div class="comment"><strong>${escapeHtml(commentProfile?.display_name || comment.author_name)}</strong>${escapeHtml(comment.body)}<small>${formatMessageTime(comment.created_at)}</small></div>`; }).join("")}</div>` : ""}
+        <form class="reply-form" data-reply-form="${post.id}" hidden><input maxlength="500" placeholder="Reply to ${escapeAttr(postAuthor)}" required /><button type="submit">Reply</button></form>
       </div>
       <div class="message-tools"><button data-reply="${post.id}">↩ Reply</button></div>
     </article>`;
@@ -587,8 +659,37 @@ function autoGrowComposer(event) {
   event.target.style.height = `${Math.min(event.target.scrollHeight, 150)}px`;
 }
 
+function handleComposerKeydown(event) {
+  if (event.key !== "Enter" || event.shiftKey || event.isComposing) return;
+  event.preventDefault();
+  $("#post-form").requestSubmit();
+}
+
+function profileFor(userId) {
+  return state.profiles.find((profile) => profile.id === userId) || null;
+}
+
+function renderMembers() {
+  $("#member-list").innerHTML = TEAMS.map((team) => {
+    const profile = state.profiles.find((item) => Number(item.team_id) === team.id);
+    const name = profile?.display_name || team.manager;
+    return `<div class="member">
+      ${profile?.avatar_url ? `<span class="member-dot member-photo"><img src="${escapeAttr(profile.avatar_url)}" alt="" /></span>` : `<span class="member-dot">${initials(team.name)}</span>`}
+      <span><strong>${escapeHtml(team.name)}</strong><small>${escapeHtml(name)}</small></span>
+    </div>`;
+  }).join("");
+}
+
 function managerFor(teamName = "") {
   return TEAMS.find((team) => normalize(team.name) === normalize(teamName))?.manager || "";
+}
+
+function divisionFor(teamName = "") {
+  return TEAMS.find((team) => normalize(team.name) === normalize(teamName))?.division || "West";
+}
+
+function divisionOrderFor(teamName = "") {
+  return TEAMS.find((team) => normalize(team.name) === normalize(teamName))?.divisionOrder || 99;
 }
 
 function formatNumber(value) { return Number(value || 0).toFixed(1); }

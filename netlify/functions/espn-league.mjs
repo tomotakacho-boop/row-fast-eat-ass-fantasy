@@ -13,6 +13,21 @@ const TEAM_MANAGERS = new Map([
   ["kittleleague", "John Olson"],
 ]);
 
+const TEAM_DIVISIONS = new Map([
+  ["meettherobinsons", "East"],
+  ["goffballs", "East"],
+  ["onlyfannins", "East"],
+  ["rexonrex", "East"],
+  ["juuliojones", "East"],
+  ["wetwillies", "East"],
+  ["eatthebouttelikegroceries", "West"],
+  ["teamrex", "West"],
+  ["pukanamatatas", "West"],
+  ["kittleleague", "West"],
+  ["twopointconversiontherapy", "West"],
+  ["shayshawnbroccoli", "West"],
+]);
+
 export default async (request) => {
   if (request.method !== "GET") return json({ error: "Method not allowed." }, 405);
 
@@ -99,6 +114,7 @@ function normalizeLeague(raw, season) {
   const members = new Map((raw.members || []).map((member) => [member.id, member.displayName || [member.firstName, member.lastName].filter(Boolean).join(" ")]));
   const currentWeek = Number(raw.status?.currentMatchupPeriod || raw.scoringPeriodId || 1);
   const teamsById = new Map();
+  const divisionsById = new Map((raw.settings?.scheduleSettings?.divisions || []).map((division) => [Number(division.id), division.name]));
 
   const teams = (raw.teams || []).map((team) => {
     const name = team.name || [team.location, team.nickname].filter(Boolean).join(" ") || team.abbrev || `Team ${team.id}`;
@@ -109,6 +125,8 @@ function normalizeLeague(raw, season) {
       name,
       abbreviation: team.abbrev || "",
       manager,
+      divisionId: team.divisionId == null ? null : Number(team.divisionId),
+      divisionName: divisionsById.get(Number(team.divisionId)) || TEAM_DIVISIONS.get(normalize(name)) || "West",
       rank: team.playoffSeed || 0,
       wins: record.wins || 0,
       losses: record.losses || 0,

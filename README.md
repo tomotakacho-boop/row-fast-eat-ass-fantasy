@@ -2,10 +2,10 @@
 
 A private, mobile-friendly league website with:
 
-- live ESPN standings and matchup schedules;
+- live ESPN East/West standings and matchup schedules;
 - the $2,100 prize-pool breakdown;
 - a Power Rankings “coming soon” workspace;
-- a Discord-style league feed with Google login, posts, emoji reactions, and threaded replies.
+- a Discord-style league feed with Google login, persistent profile pictures, posts, emoji reactions, and threaded replies.
 
 The repository contains no ESPN cookies, Google secrets, or database secrets. Those values stay in Netlify and Supabase.
 
@@ -18,7 +18,7 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 ## Create the feed database and Google login
 
 1. Create a free Supabase project at `supabase.com`.
-2. Open **SQL Editor**, paste all of [`supabase/schema.sql`](supabase/schema.sql), and run it once.
+2. Open **SQL Editor**, paste all of [`supabase/schema.sql`](supabase/schema.sql), and run it once. The script also creates the public `profile-images` Storage bucket and secure per-user upload policies. It is safe to rerun after an update.
 3. Open **Authentication → Providers → Google** and enable Google. Supabase will show the callback URL to place in the Google Cloud OAuth client.
 4. In Google Cloud, create an OAuth 2.0 Web Client and add Supabase's callback URL as an authorized redirect URI. Paste the Google Client ID and Client Secret back into Supabase.
 5. In **Authentication → URL Configuration**, set the Site URL to the Netlify URL and add both the production URL and `http://localhost:8888` to Redirect URLs.
@@ -34,7 +34,7 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 
 8. In Supabase, replace the commented example at the bottom of `schema.sql` with the owners' Google emails and run only those `insert` lines. Once `allowed_members` has an active row, database access is restricted to listed accounts.
 
-The **Log in** and **Sign up** buttons both use Google's secure OAuth screen. On a member's first visit, the site asks them to choose their Row Fast team.
+The **Log in** and **Sign up** buttons both use Google's secure OAuth screen. On a member's first visit, the site asks them to choose their Row Fast team. After setup, clicking the signed-in badge opens the profile editor, where they can change their display name, team, or feed picture. Images are stored in Supabase and therefore follow the member across devices.
 
 After Google redirects back, the header must show a green **Signed in** indicator with the member's Google name or email. If the header still shows Log in / Sign up, confirm that `SUPABASE_ANON_KEY` contains the public publishable/anon key (not a URL), then trigger a fresh Netlify deploy. The site surfaces incomplete OAuth callbacks instead of silently returning to Overview.
 
