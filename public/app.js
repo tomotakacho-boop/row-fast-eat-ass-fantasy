@@ -294,6 +294,12 @@ const SAMPLE_POWER_ISSUES = {
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
+const CHANNELS = {
+  "league-feed": { title: "# league-feed", description: "Talk ball, post receipts, and react irresponsibly.", welcome: "Welcome to the league feed.", copy: "This is the start of the Row Fast Season 10 conversation." },
+  "trade-talk": { title: "# trade-talk", description: "Shop players, signal interest, and build a deal.", welcome: "Welcome to the trade room.", copy: "Post trade ideas below or use the live trade block to find a match." },
+  memes: { title: "# memes", description: "The league meme wall. Images only, dignity optional.", welcome: "Welcome to the meme wall.", copy: "Upload an image or use the built-in studio to make one. Text-only posts are disabled here." },
+};
+
 const state = {
   config: null,
   session: null,
@@ -316,6 +322,14 @@ const state = {
   feedTimer: null,
   authJustCompleted: false,
   authError: "",
+  activeChannel: "league-feed",
+  tradeItems: [],
+  tradeInterests: [],
+  composerFile: null,
+  composerMedia: null,
+  composerPreviewUrl: "",
+  memeBaseImage: null,
+  memeOverlayImage: null,
 };
 
 document.addEventListener("DOMContentLoaded", bootstrap);
@@ -399,6 +413,28 @@ function bindInterface() {
   $("#post-form").addEventListener("submit", createPost);
   $("#post-input").addEventListener("input", autoGrowComposer);
   $("#post-input").addEventListener("keydown", handleComposerKeydown);
+  $("#attachment-button").addEventListener("click", () => $("#attachment-input").click());
+  $("#attachment-input").addEventListener("change", handleComposerAttachment);
+  $("#gif-button").addEventListener("click", toggleGifPicker);
+  $("#gif-search-button").addEventListener("click", searchGifs);
+  $("#gif-search").addEventListener("keydown", (event) => { if (event.key === "Enter") { event.preventDefault(); searchGifs(); } });
+  $("#gif-close").addEventListener("click", closeGifPicker);
+  $("#gif-results").addEventListener("click", chooseGif);
+  $("#composer-preview").addEventListener("click", (event) => {
+    if (event.target.closest("[data-clear-media]")) clearComposerMedia();
+  });
+  $$("[data-channel]").forEach((button) => button.addEventListener("click", () => selectChannel(button.dataset.channel)));
+  $("#channel-plugin").addEventListener("click", handleChannelPluginClick);
+  $("#trade-form").addEventListener("submit", createTradeItem);
+  $("#meme-form").addEventListener("submit", createMemePost);
+  $("#meme-base").addEventListener("change", handleMemeBase);
+  $("#meme-overlay").addEventListener("change", handleMemeOverlay);
+  ["#meme-white-bar", "#meme-top-text", "#meme-bottom-text", "#meme-overlay-x", "#meme-overlay-size"].forEach((selector) => {
+    $(selector).addEventListener("input", drawMemePreview);
+    $(selector).addEventListener("change", drawMemePreview);
+  });
+  $$('[data-close-modal]').forEach((button) => button.addEventListener("click", () => closeModal(button.dataset.closeModal)));
+  ["#trade-modal", "#meme-modal"].forEach((selector) => $(selector).addEventListener("click", (event) => { if (event.target === event.currentTarget) closeModal(event.currentTarget.id); }));
   $("#profile-form").addEventListener("submit", saveProfile);
   $("#profile-avatar").addEventListener("change", previewProfileAvatar);
   $("#profile-cancel").addEventListener("click", closeProfileModal);
@@ -407,7 +443,11 @@ function bindInterface() {
     if (event.target === event.currentTarget) closeProfileModal();
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !$("#profile-modal").hidden) closeProfileModal();
+    if (event.key !== "Escape") return;
+    if (!$("#profile-modal").hidden) closeProfileModal();
+    if (!$("#trade-modal").hidden) closeModal("trade-modal");
+    if (!$("#meme-modal").hidden) closeModal("meme-modal");
+    closeGifPicker();
   });
   $("#message-list").addEventListener("click", handleMessageClick);
   $("#message-list").addEventListener("submit", handleReplySubmit);
@@ -447,7 +487,7 @@ async function loadRuntimeConfig() {
     if (!response.ok) throw new Error("Runtime configuration is unavailable.");
     return await response.json();
   } catch {
-    return { supabaseUrl: "", supabaseAnonKey: "", allowedDomain: "", configured: false };
+    return { supabaseUrl: "", supabaseAnonKey: "", allowedDomain: "", giphyApiKey: "", configured: false };
   }
 }
 
@@ -584,9 +624,12 @@ function renderAuth() {
   root.innerHTML = `<div class="user-chip" aria-label="Signed in as ${escapeAttr(name)}"><span class="user-presence" aria-hidden="true"></span><button class="user-profile-button" data-auth="profile" aria-label="Edit profile"><span class="user-identity"><small>Signed in · Edit profile</small><strong>${escapeHtml(name)}</strong></span>${avatar ? `<img class="avatar" src="${escapeAttr(avatar)}" alt="" />` : `<span class="avatar-fallback">${initials(name)}</span>`}</button><button class="logout-button" data-auth="logout">Log out</button></div>`;
   const input = $("#post-input");
   input.disabled = false;
-  input.placeholder = "Message #league-feed";
+  input.placeholder = `Message #${state.activeChannel}`;
   $(".send-button").disabled = false;
+  $("#attachment-button").disabled = false;
+  $("#gif-button").disabled = false;
   $("#composer-note").textContent = "Press Enter to post · Shift + Enter for a new line.";
+  renderChannelUI();
 }
 
 async function loadProfile() {
@@ -829,17 +872,22 @@ async function loadFeed(silent = false) {
     const posts = await supabaseRequest("/rest/v1/feed_posts?select=*&order=created_at.desc&limit=75");
     const ids = (posts || []).map((post) => post.id);
     const filter = ids.length ? `&post_id=in.(${ids.join(",")})` : "&post_id=eq.-1";
-    const [comments, reactions, profiles] = await Promise.all([
+    const [comments, reactions, profiles, tradeItems, tradeInterests] = await Promise.all([
       supabaseRequest(`/rest/v1/feed_comments?select=*&order=created_at.asc${filter}`),
       supabaseRequest(`/rest/v1/feed_reactions?select=*${filter}`),
       supabaseRequest("/rest/v1/profiles?select=id,display_name,avatar_url,team_id,team_name"),
+      safeSupabase("/rest/v1/trade_block_items?select=*&order=created_at.desc"),
+      safeSupabase("/rest/v1/trade_interests?select=*"),
     ]);
     state.posts = (posts || []).reverse();
     state.comments = comments || [];
     state.reactions = reactions || [];
     state.profiles = profiles || [];
+    state.tradeItems = tradeItems || [];
+    state.tradeInterests = tradeInterests || [];
     renderMembers();
     renderStandings();
+    renderChannelUI();
     renderFeed();
   } catch (error) {
     if (!silent) renderFeedError(error);
@@ -847,13 +895,17 @@ async function loadFeed(silent = false) {
 }
 
 function renderFeedSignedOut() {
+  const channel = CHANNELS[state.activeChannel];
   $("#message-list").innerHTML = `
-    <div class="feed-welcome"><span class="hash-orb">#</span><h2>Welcome to the league feed.</h2><p>This is the start of the Row Fast Season 10 conversation.</p></div>
+    <div class="feed-welcome"><span class="hash-orb">#</span><h2>${escapeHtml(channel.welcome)}</h2><p>${escapeHtml(channel.copy)}</p></div>
     <div class="feed-loading">Sign in with Google to read and join the conversation.</div>`;
   const input = $("#post-input");
   input.disabled = true;
-  input.placeholder = "Sign in to post in #league-feed";
+  input.placeholder = `Sign in to post in #${state.activeChannel}`;
   $(".send-button").disabled = true;
+  $("#attachment-button").disabled = true;
+  $("#gif-button").disabled = true;
+  renderChannelUI();
 }
 
 function renderFeedError(error) {
@@ -864,9 +916,11 @@ function renderFeedError(error) {
 
 function renderFeed() {
   const root = $("#message-list");
+  const channel = CHANNELS[state.activeChannel];
   const wasNearBottom = root.scrollHeight - root.scrollTop - root.clientHeight < 100;
   const previousScrollTop = root.scrollTop;
-  const messages = state.posts.map((post) => {
+  const channelPosts = state.posts.filter((post) => (post.channel || "league-feed") === state.activeChannel);
+  const messages = channelPosts.map((post) => {
     const postProfile = profileFor(post.user_id);
     const postAuthor = postProfile?.display_name || post.author_name;
     const postAvatar = postProfile?.avatar_url || post.author_avatar;
@@ -877,7 +931,8 @@ function renderFeed() {
       const matching = reactions.filter((reaction) => reaction.emoji === emoji);
       if (!matching.length) return "";
       const mine = matching.some((reaction) => reaction.user_id === state.user?.id);
-      return `<button class="reaction ${mine ? "is-mine" : ""}" data-reaction="${emoji}" data-post-id="${post.id}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction">${emoji} ${matching.length}</button>`;
+      const attribution = reactionAttribution(matching);
+      return `<button class="reaction ${mine ? "is-mine" : ""}" data-reaction="${emoji}" data-post-id="${post.id}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction" data-tooltip="${escapeAttr(attribution)}">${emoji} ${matching.length}</button>`;
     }).join("");
     const replyIsOpen = state.activeReplyPostId === post.id;
     const reactionPickerIsOpen = state.activeReactionPostId === post.id;
@@ -886,7 +941,8 @@ function renderFeed() {
       ${postAvatar ? `<img class="avatar" src="${escapeAttr(postAvatar)}" alt="" />` : `<span class="avatar-fallback">${initials(postAuthor)}</span>`}
       <div>
         <div class="message-meta"><span class="message-author">${escapeHtml(postAuthor)}</span>${postTeam ? `<span class="message-team">${escapeHtml(postTeam)}</span>` : ""}<time class="message-time">${formatMessageTime(post.created_at)}</time></div>
-        <p class="message-body">${escapeHtml(post.body)}</p>
+        ${post.body ? `<p class="message-body">${escapeHtml(post.body)}</p>` : ""}
+        ${post.media_url ? `<a class="message-media-link" href="${escapeAttr(post.media_url)}" target="_blank" rel="noreferrer"><img class="message-media" src="${escapeAttr(post.media_url)}" alt="${escapeAttr(post.media_alt || "Shared image")}" loading="lazy" /></a>` : ""}
         ${reactionButtons ? `<div class="reaction-row">${reactionButtons}</div>` : ""}
         ${comments.length ? `<div class="thread">${comments.map((comment) => { const commentProfile = profileFor(comment.user_id); return `<div class="comment"><strong>${escapeHtml(commentProfile?.display_name || comment.author_name)}</strong>${escapeHtml(comment.body)}<small>${formatMessageTime(comment.created_at)}</small></div>`; }).join("")}</div>` : ""}
         ${replyIsOpen ? `<form class="reply-form" data-reply-form="${post.id}"><input maxlength="500" placeholder="Reply to ${escapeAttr(postAuthor)}" aria-label="Reply to ${escapeAttr(postAuthor)}" required /><button type="submit">Reply</button><button class="reply-cancel" type="button" data-cancel-reply>Cancel</button></form>` : ""}
@@ -899,8 +955,54 @@ function renderFeed() {
     </article>`;
   }).join("");
 
-  root.innerHTML = `<div class="feed-welcome"><span class="hash-orb">#</span><h2>Welcome to the league feed.</h2><p>This is the start of the Row Fast Season 10 conversation.</p></div>${messages || `<div class="feed-loading">No messages yet. Be the first to post.</div>`}`;
+  root.classList.toggle("is-meme-grid", state.activeChannel === "memes");
+  root.innerHTML = `<div class="feed-welcome"><span class="hash-orb">#</span><h2>${escapeHtml(channel.welcome)}</h2><p>${escapeHtml(channel.copy)}</p></div>${messages || `<div class="feed-loading">No posts here yet. Be the first.</div>`}`;
   root.scrollTop = wasNearBottom ? root.scrollHeight : previousScrollTop;
+}
+
+async function safeSupabase(path) {
+  try { return await supabaseRequest(path); } catch { return []; }
+}
+
+function selectChannel(channelName) {
+  if (!CHANNELS[channelName]) return;
+  state.activeChannel = channelName;
+  state.activeReplyPostId = null;
+  state.activeReactionPostId = null;
+  clearComposerMedia();
+  closeGifPicker();
+  renderChannelUI();
+  if (state.session) renderFeed(); else renderFeedSignedOut();
+}
+
+function renderChannelUI() {
+  const channel = CHANNELS[state.activeChannel];
+  if (!channel) return;
+  $$("[data-channel]").forEach((button) => button.classList.toggle("is-active", button.dataset.channel === state.activeChannel));
+  $("#channel-title").textContent = channel.title;
+  $("#channel-description").textContent = channel.description;
+  const composer = $("#post-form");
+  const note = $("#composer-note");
+  const plugin = $("#channel-plugin");
+  const isMemes = state.activeChannel === "memes";
+  composer.hidden = isMemes;
+  $("#composer-preview").hidden = isMemes || (!state.composerFile && !state.composerMedia);
+  note.hidden = isMemes;
+  plugin.hidden = state.activeChannel === "league-feed";
+  if (state.activeChannel === "trade-talk") renderTradeBlock();
+  if (state.activeChannel === "memes") {
+    plugin.innerHTML = `<div class="meme-channel-toolbar"><div><strong>Meme studio</strong><span>Upload, caption, remix, and post directly to the channel.</span></div><button class="button button-gold" data-open-meme ${state.user ? "" : "disabled"}>Create a meme</button></div>`;
+  }
+  if (!isMemes) {
+    $("#post-input").placeholder = state.user ? `Message #${state.activeChannel}` : `Sign in to post in #${state.activeChannel}`;
+  }
+}
+
+function reactionAttribution(reactions) {
+  const names = [...new Set(reactions.map((reaction) => profileFor(reaction.user_id)?.display_name || "League member"))];
+  if (!names.length) return "No reactions yet";
+  if (names.length <= 3) return names.join(", ");
+  return `${names.slice(0, 2).join(", ")} + ${names.length - 2} others`;
 }
 
 function currentPowerIssue() {
@@ -936,7 +1038,6 @@ function renderPowerIssue() {
   $("#power-prev-week").disabled = state.selectedPowerWeek === 0;
   $("#power-next-week").disabled = state.selectedPowerWeek === 3;
   $("#power-rankings-title").textContent = issue.rankingTitle;
-  $("#power-model-strip").innerHTML = issue.inputs.map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
   $("#power-method-summary").innerHTML = `<strong>How this issue is scored</strong><p>${escapeHtml(issue.method)} The order and all football results shown here are fictional placeholders for this interface preview.</p>`;
   renderPowerRankings();
 }
@@ -988,7 +1089,8 @@ function renderPowerRankings() {
       const matching = reactions.filter((reaction) => reaction.emoji === emoji);
       if (!matching.length) return "";
       const mine = matching.some((reaction) => reaction.user_id === state.user?.id);
-      return `<button class="power-reaction ${mine ? "is-mine" : ""}" data-power-reaction="${emoji}" data-ranking-key="${key}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction">${emoji} ${matching.length}</button>`;
+      const attribution = reactionAttribution(matching);
+      return `<button class="power-reaction ${mine ? "is-mine" : ""}" data-power-reaction="${emoji}" data-ranking-key="${key}" data-tooltip="${escapeAttr(attribution)}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction. ${escapeAttr(attribution)}">${emoji} ${matching.length}</button>`;
     }).join("");
     const replyIsOpen = state.activePowerReplyKey === key;
     const pickerIsOpen = state.activePowerReactionKey === key;
@@ -1124,11 +1226,24 @@ async function createPost(event) {
   event.preventDefault();
   const input = $("#post-input");
   const body = input.value.trim();
-  if (!body || !state.profile) {
+  if (state.activeChannel === "memes") {
+    openModal("meme-modal");
+    return;
+  }
+  if ((!body && !state.composerFile && !state.composerMedia) || !state.profile) {
     if (!state.profile) openProfileModal();
     return;
   }
   try {
+    let media = state.composerMedia;
+    if (state.composerFile) {
+      const mediaUrl = await uploadChannelMedia(state.composerFile, state.activeChannel);
+      media = {
+        url: mediaUrl,
+        type: "image",
+        alt: state.composerFile.name || "Uploaded image",
+      };
+    }
     await supabaseRequest("/rest/v1/feed_posts", {
       method: "POST",
       headers: { Prefer: "return=minimal" },
@@ -1139,10 +1254,15 @@ async function createPost(event) {
         author_team_id: state.profile.team_id,
         author_team_name: state.profile.team_name,
         body,
+        channel: state.activeChannel,
+        media_url: media?.url || null,
+        media_type: media?.type || null,
+        media_alt: media?.alt || null,
       }),
     });
     input.value = "";
     input.style.height = "auto";
+    clearComposerMedia();
     await loadFeed(true);
   } catch (error) { toast(readableError(error, "Could not post that message.")); }
 }
@@ -1231,6 +1351,290 @@ function handleComposerKeydown(event) {
   if (event.key !== "Enter" || event.shiftKey || event.isComposing) return;
   event.preventDefault();
   $("#post-form").requestSubmit();
+}
+
+function openModal(id) {
+  const modal = $(`#${id}`);
+  if (!modal) return;
+  modal.hidden = false;
+  document.body.classList.add("modal-open");
+}
+
+function closeModal(id) {
+  const modal = $(`#${id}`);
+  if (!modal) return;
+  modal.hidden = true;
+  if (!$(".modal:not([hidden])")) document.body.classList.remove("modal-open");
+  if (id === "meme-modal") {
+    state.memeBaseImage = null;
+    state.memeOverlayImage = null;
+    $("#meme-form")?.reset();
+    drawMemePreview();
+  }
+}
+
+function handleComposerAttachment(event) {
+  const file = event.target.files?.[0];
+  event.target.value = "";
+  if (!file) return;
+  if (!file.type.startsWith("image/")) return toast("Please choose an image file.");
+  if (file.size > 8 * 1024 * 1024) return toast("Images must be 8 MB or smaller.");
+  clearComposerMedia();
+  state.composerFile = file;
+  state.composerPreviewUrl = URL.createObjectURL(file);
+  renderComposerPreview();
+}
+
+function clearComposerMedia() {
+  if (state.composerPreviewUrl) URL.revokeObjectURL(state.composerPreviewUrl);
+  state.composerFile = null;
+  state.composerMedia = null;
+  state.composerPreviewUrl = "";
+  renderComposerPreview();
+}
+
+function renderComposerPreview() {
+  const preview = $("#composer-preview");
+  if (!preview) return;
+  const url = state.composerPreviewUrl || state.composerMedia?.previewUrl || state.composerMedia?.url;
+  if (!url || state.activeChannel === "memes") {
+    preview.hidden = true;
+    preview.innerHTML = "";
+    return;
+  }
+  preview.hidden = false;
+  preview.innerHTML = `<div class="composer-media-chip"><img src="${escapeAttr(url)}" alt="Attachment preview"><span>${state.composerMedia?.type === "gif" ? "GIF ready" : "Image ready"}</span><button type="button" data-clear-media aria-label="Remove attachment">×</button></div>`;
+}
+
+async function uploadChannelMedia(file, prefix = "feed") {
+  if (!state.user) throw new Error("Sign in before uploading media.");
+  const safeName = (file.name || "image.png").replace(/[^a-zA-Z0-9._-]/g, "-");
+  const path = `${state.user.id}/${prefix}-${Date.now()}-${safeName}`;
+  const response = await fetch(`${state.config.supabaseUrl}/storage/v1/object/channel-media/${encodeURI(path)}`, {
+    method: "POST",
+    headers: authHeaders({ "Content-Type": file.type || "image/png", "x-upsert": "false" }),
+    body: file,
+  });
+  if (!response.ok) throw new Error(await response.text());
+  return `${state.config.supabaseUrl}/storage/v1/object/public/channel-media/${encodeURI(path)}`;
+}
+
+function toggleGifPicker() {
+  const picker = $("#gif-picker");
+  if (!picker) return;
+  picker.hidden = !picker.hidden;
+  if (!picker.hidden) $("#gif-search")?.focus();
+}
+
+function closeGifPicker() {
+  const picker = $("#gif-picker");
+  if (picker) picker.hidden = true;
+}
+
+async function searchGifs() {
+  const results = $("#gif-results");
+  const query = $("#gif-search")?.value.trim();
+  if (!results || !query) return;
+  if (!state.config.giphyApiKey) {
+    results.innerHTML = "<p class=\"empty-note\">Add GIPHY_API_KEY in Netlify to enable GIF search.</p>";
+    return;
+  }
+  results.innerHTML = "<p class=\"empty-note\">Searching…</p>";
+  try {
+    const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${encodeURIComponent(state.config.giphyApiKey)}&q=${encodeURIComponent(query)}&limit=18&rating=pg-13`);
+    if (!response.ok) throw new Error("GIF search failed.");
+    const payload = await response.json();
+    results.innerHTML = payload.data.map((gif) => {
+      const preview = gif.images.fixed_width_small?.url || gif.images.fixed_width?.url;
+      const url = gif.images.original?.url || preview;
+      return `<button type="button" class="gif-result" data-gif-url="${escapeAttr(url)}" data-gif-preview="${escapeAttr(preview)}" data-gif-title="${escapeAttr(gif.title || "GIPHY GIF")}"><img src="${escapeAttr(preview)}" alt="${escapeAttr(gif.title || "GIF")}" loading="lazy"></button>`;
+    }).join("") || "<p class=\"empty-note\">No GIFs found.</p>";
+  } catch (error) {
+    results.innerHTML = `<p class="empty-note">${escapeHtml(readableError(error, "Could not search GIFs."))}</p>`;
+  }
+}
+
+function chooseGif(event) {
+  const button = event.target.closest("[data-gif-url]");
+  if (!button) return;
+  clearComposerMedia();
+  state.composerMedia = {
+    url: button.dataset.gifUrl,
+    previewUrl: button.dataset.gifPreview,
+    type: "gif",
+    alt: button.dataset.gifTitle || "GIPHY GIF",
+  };
+  renderComposerPreview();
+  closeGifPicker();
+}
+
+function handleChannelPluginClick(event) {
+  const tradeButton = event.target.closest("[data-open-trade]");
+  if (tradeButton) return openModal("trade-modal");
+  const memeButton = event.target.closest("[data-open-meme]");
+  if (memeButton) return openModal("meme-modal");
+  const interestButton = event.target.closest("[data-trade-interest]");
+  if (interestButton) return toggleTradeInterest(interestButton.dataset.tradeInterest);
+  const closeButton = event.target.closest("[data-close-trade]");
+  if (closeButton) return closeTradeItem(closeButton.dataset.closeTrade);
+}
+
+function renderTradeBlock() {
+  const plugin = $("#channel-plugin");
+  if (!plugin || state.activeChannel !== "trade-talk") return;
+  const openItems = state.tradeItems.filter((item) => item.status !== "closed");
+  const cards = openItems.map((item) => {
+    const interests = state.tradeInterests.filter((interest) => String(interest.trade_item_id) === String(item.id));
+    const names = [...new Set(interests.map((interest) => profileFor(interest.user_id)?.display_name || "League member"))];
+    const mine = interests.some((interest) => interest.user_id === state.user?.id);
+    const owner = item.user_id === state.user?.id;
+    return `<article class="trade-card"><div><span class="trade-position">${escapeHtml(item.position || "PLAYER")}</span><strong>${escapeHtml(item.player_name)}</strong><small>${escapeHtml(item.nfl_team || "")} · offered by ${escapeHtml(item.author_name || "League member")}</small>${item.note ? `<p>${escapeHtml(item.note)}</p>` : ""}</div><div class="trade-actions"><button type="button" class="button button-small ${mine ? "is-active" : ""}" data-trade-interest="${escapeAttr(item.id)}">${mine ? "Interested ✓" : "Show interest"}</button>${names.length ? `<span data-tooltip="${escapeAttr(reactionAttribution(interests))}">${names.length} interested</span>` : ""}${owner ? `<button type="button" class="text-button" data-close-trade="${escapeAttr(item.id)}">Close</button>` : ""}</div></article>`;
+  }).join("");
+  plugin.innerHTML = `<div class="trade-toolbar"><div><strong>League trade block</strong><span>List an available player or signal interest without committing to a deal.</span></div><button type="button" class="button button-gold" data-open-trade ${state.user ? "" : "disabled"}>Add player</button></div><div class="trade-grid">${cards || '<p class="empty-note">No players are on the trade block yet.</p>'}</div>`;
+}
+
+async function createTradeItem(event) {
+  event.preventDefault();
+  if (!state.profile) return openProfileModal();
+  const playerName = $("#trade-player")?.value.trim();
+  if (!playerName) return;
+  try {
+    await supabaseRequest("/rest/v1/trade_block_items", {
+      method: "POST",
+      headers: { Prefer: "return=minimal" },
+      body: JSON.stringify({
+        user_id: state.user.id,
+        author_name: state.profile.display_name,
+        author_team_id: state.profile.team_id,
+        author_team_name: state.profile.team_name,
+        player_name: playerName,
+        position: $("#trade-position")?.value.trim() || null,
+        nfl_team: $("#trade-nfl-team")?.value.trim() || null,
+        note: $("#trade-note")?.value.trim() || null,
+      }),
+    });
+    closeModal("trade-modal");
+    $("#trade-form")?.reset();
+    await loadFeed(true);
+  } catch (error) { toast(readableError(error, "Could not add that player.")); }
+}
+
+async function toggleTradeInterest(itemId) {
+  if (!state.user) return signInWithGoogle();
+  const existing = state.tradeInterests.find((interest) => String(interest.trade_item_id) === String(itemId) && interest.user_id === state.user.id);
+  try {
+    if (existing) {
+      await supabaseRequest(`/rest/v1/trade_interests?trade_item_id=eq.${encodeURIComponent(itemId)}&user_id=eq.${encodeURIComponent(state.user.id)}`, { method: "DELETE", headers: { Prefer: "return=minimal" } });
+    } else {
+      await supabaseRequest("/rest/v1/trade_interests", { method: "POST", headers: { Prefer: "return=minimal" }, body: JSON.stringify({ trade_item_id: itemId, user_id: state.user.id }) });
+    }
+    await loadFeed(true);
+  } catch (error) { toast(readableError(error, "Could not update trade interest.")); }
+}
+
+async function closeTradeItem(itemId) {
+  try {
+    await supabaseRequest(`/rest/v1/trade_block_items?id=eq.${encodeURIComponent(itemId)}`, { method: "PATCH", headers: { Prefer: "return=minimal" }, body: JSON.stringify({ status: "closed" }) });
+    await loadFeed(true);
+  } catch (error) { toast(readableError(error, "Could not close that listing.")); }
+}
+
+async function imageFromFile(file) {
+  if (!file) return null;
+  if (!file.type.startsWith("image/")) throw new Error("Please choose an image file.");
+  if (file.size > 8 * 1024 * 1024) throw new Error("Images must be 8 MB or smaller.");
+  const url = URL.createObjectURL(file);
+  try {
+    const img = new Image();
+    await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; img.src = url; });
+    return img;
+  } finally { URL.revokeObjectURL(url); }
+}
+
+async function handleMemeBase(event) {
+  try { state.memeBaseImage = await imageFromFile(event.target.files?.[0]); drawMemePreview(); }
+  catch (error) { toast(readableError(error, "Could not load that image.")); }
+}
+
+async function handleMemeOverlay(event) {
+  try { state.memeOverlayImage = await imageFromFile(event.target.files?.[0]); drawMemePreview(); }
+  catch (error) { toast(readableError(error, "Could not load that overlay.")); }
+}
+
+function drawMemeText(ctx, text, x, y, maxWidth, fontSize, fromBottom = false) {
+  if (!text) return;
+  ctx.font = `900 ${fontSize}px Arial, sans-serif`;
+  ctx.textAlign = "center";
+  ctx.textBaseline = fromBottom ? "bottom" : "top";
+  ctx.lineJoin = "round";
+  ctx.strokeStyle = "#000";
+  ctx.lineWidth = Math.max(4, fontSize / 12);
+  ctx.fillStyle = "#fff";
+  const words = text.toUpperCase().split(/\s+/);
+  const lines = [];
+  let line = "";
+  words.forEach((word) => {
+    const test = line ? `${line} ${word}` : word;
+    if (ctx.measureText(test).width > maxWidth && line) { lines.push(line); line = word; } else line = test;
+  });
+  if (line) lines.push(line);
+  const lineHeight = fontSize * 1.05;
+  lines.forEach((value, index) => {
+    const lineY = fromBottom ? y - (lines.length - 1 - index) * lineHeight : y + index * lineHeight;
+    ctx.strokeText(value, x, lineY, maxWidth);
+    ctx.fillText(value, x, lineY, maxWidth);
+  });
+}
+
+function drawMemePreview() {
+  const canvas = $("#meme-canvas");
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+  const base = state.memeBaseImage;
+  const whiteBar = $("#meme-white-bar")?.checked;
+  const barHeight = whiteBar ? 150 : 0;
+  const width = 900;
+  const imageHeight = base ? Math.round(width * Math.min(1.15, base.naturalHeight / base.naturalWidth)) : 560;
+  canvas.width = width;
+  canvas.height = barHeight + imageHeight;
+  ctx.fillStyle = whiteBar ? "#fff" : "#222";
+  ctx.fillRect(0, 0, width, canvas.height);
+  if (base) ctx.drawImage(base, 0, barHeight, width, imageHeight);
+  else { ctx.fillStyle = "#333"; ctx.fillRect(0, barHeight, width, imageHeight); ctx.fillStyle = "#aaa"; ctx.font = "32px Arial"; ctx.textAlign = "center"; ctx.fillText("Choose a base image", width / 2, barHeight + imageHeight / 2); }
+  const topText = $("#meme-top-text")?.value || "";
+  const bottomText = $("#meme-bottom-text")?.value || "";
+  if (whiteBar) {
+    ctx.fillStyle = "#111"; ctx.strokeStyle = "transparent"; ctx.font = "700 46px Arial, sans-serif"; ctx.textBaseline = "middle"; ctx.textAlign = "center";
+    ctx.fillText(topText, width / 2, barHeight / 2, width - 60);
+  } else drawMemeText(ctx, topText, width / 2, barHeight + 24, width - 50, 54, false);
+  drawMemeText(ctx, bottomText, width / 2, canvas.height - 24, width - 50, 54, true);
+  if (state.memeOverlayImage) {
+    const scale = Number($("#meme-overlay-size")?.value || 30) / 100;
+    const overlayWidth = width * scale;
+    const overlayHeight = overlayWidth * state.memeOverlayImage.naturalHeight / state.memeOverlayImage.naturalWidth;
+    const x = (width - overlayWidth) * Number($("#meme-overlay-x")?.value || 50) / 100;
+    ctx.drawImage(state.memeOverlayImage, x, barHeight + 24, overlayWidth, overlayHeight);
+  }
+}
+
+async function createMemePost(event) {
+  event.preventDefault();
+  if (!state.profile) return openProfileModal();
+  if (!state.memeBaseImage) return toast("Choose a base image first.");
+  drawMemePreview();
+  try {
+    const canvas = $("#meme-canvas");
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png", 0.92));
+    const file = new File([blob], `meme-${Date.now()}.png`, { type: "image/png" });
+    const mediaUrl = await uploadChannelMedia(file, "memes");
+    await supabaseRequest("/rest/v1/feed_posts", {
+      method: "POST",
+      headers: { Prefer: "return=minimal" },
+      body: JSON.stringify({ user_id: state.user.id, author_name: state.profile.display_name, author_avatar: state.profile.avatar_url, author_team_id: state.profile.team_id, author_team_name: state.profile.team_name, body: "", channel: "memes", media_url: mediaUrl, media_type: "image", media_alt: "League meme" }),
+    });
+    closeModal("meme-modal");
+    await loadFeed(true);
+  } catch (error) { toast(readableError(error, "Could not publish that meme.")); }
 }
 
 function profileFor(userId) {
