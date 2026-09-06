@@ -124,6 +124,173 @@ const SAMPLE_POWER_RANKINGS = [
     moment: "Two early red-zone trips produced no touchdowns and set the tone."
   },
 ];
+
+const WEEK_ONE_METRICS = {
+  1: [90.8, 81.1], 2: [80.8, 67.5], 3: [75.1, 53.1], 4: [82.3, 90.0],
+  5: [86.4, 97.4], 6: [73.7, 76.0], 7: [68.5, 39.5], 8: [90.2, 97.5],
+  9: [65.3, 61.6], 10: [71.8, 72.1], 11: [87.5, 68.5], 12: [78.0, 82.3],
+};
+
+const SAMPLE_WEEK_METRICS = {
+  0: [
+    [1, 1, 91.5, null, "0–0", "Post-draft favorite"],
+    [2, 8, 89.8, null, "0–0", "Post-draft favorite"],
+    [3, 11, 87.2, null, "0–0", "Championship-caliber core"],
+    [4, 5, 84.9, null, "0–0", "High-ceiling contender"],
+    [5, 4, 82.6, null, "0–0", "Balanced playoff build"],
+    [6, 2, 80.8, null, "0–0", "Veteran floor with upside"],
+    [7, 12, 78.4, null, "0–0", "Stable weekly foundation"],
+    [8, 3, 75.9, null, "0–0", "Young roster with variance"],
+    [9, 6, 73.5, null, "0–0", "Receiver-led breakout bet"],
+    [10, 10, 70.7, null, "0–0", "Explosive but fragile"],
+    [11, 7, 67.8, null, "0–0", "Needs a depth hit"],
+    [12, 9, 63.9, null, "0–0", "Thin margin for error"],
+  ],
+  2: [
+    [1, 8, 90.6, 95.1, "2–0", "Won 136.2–121.7 vs Juulio Jones"],
+    [2, 1, 90.1, 91.1, "2–0", "Won 129.4–115.8 vs Rex On Rex"],
+    [3, 5, 86.9, 91.7, "2–0", "Won 141.0–128.6 vs Wet Willies"],
+    [4, 11, 87.4, 80.7, "1–1", "Won 134.8–117.1 vs OnlyFannins"],
+    [5, 4, 82.8, 82.8, "1–1", "Lost 120.7–124.1 vs Kittle League"],
+    [6, 12, 81.9, 80.9, "2–0", "Won 124.1–120.7 vs Shayshawn Broccoli"],
+    [7, 3, 77.4, 78.7, "1–1", "Lost 121.7–136.2 vs Pukana Matatas"],
+    [8, 2, 80.2, 66.7, "0–2", "Lost 128.6–141.0 vs Meet The Robinson's"],
+    [9, 6, 74.1, 71.9, "1–1", "Lost 112.9–118.4 vs Two-Point Conversion Therapy"],
+    [10, 10, 72.1, 68.1, "1–1", "Won 118.4–112.9 vs Eat The Boutte Like Groceries"],
+    [11, 9, 65.0, 69.5, "0–2", "Lost 115.8–129.4 vs Team Rex"],
+    [12, 7, 68.0, 51.0, "0–2", "Lost 117.1–134.8 vs Goff Balls"],
+  ],
+  3: [
+    [1, 1, 91.2, 97.4, "3–0", "Won 151.3–126.2 vs Wet Willies"],
+    [2, 8, 90.5, 94.0, "2–1", "Lost 132.5–137.1 vs Kittle League"],
+    [3, 5, 87.4, 93.0, "3–0", "Won 139.6–119.3 vs OnlyFannins"],
+    [4, 12, 81.9, 90.6, "3–0", "Won 137.1–132.5 vs Pukana Matatas"],
+    [5, 11, 87.0, 79.0, "2–1", "Won 127.8–118.0 vs Rex On Rex"],
+    [6, 4, 82.2, 80.9, "2–1", "Won 125.4–116.8 vs Two-Point Conversion Therapy"],
+    [7, 3, 77.4, 80.5, "2–1", "Won 130.9–114.7 vs Eat The Boutte Like Groceries"],
+    [8, 6, 74.1, 76.5, "1–2", "Lost 114.7–130.9 vs Juulio Jones"],
+    [9, 2, 80.2, 61.9, "0–3", "Lost 126.2–151.3 vs Team Rex"],
+    [10, 10, 72.1, 66.5, "1–2", "Lost 116.8–125.4 vs Shayshawn Broccoli"],
+    [11, 9, 65.0, 65.0, "0–3", "Lost 118.0–127.8 vs Goff Balls"],
+    [12, 7, 68.0, 47.8, "0–3", "Lost 119.3–139.6 vs Meet The Robinson's"],
+  ],
+};
+
+function stripSamplePoints(value) {
+  return value.replace(/ · \d+\.\d/g, "");
+}
+
+function shiftSamplePoints(value, week, teamId, down = false) {
+  const direction = down ? -1 : 1;
+  const offset = direction * ((((teamId * 3) + (week * 5)) % 7) - 3) * 0.7;
+  return value.replace(/(\d+\.\d)/g, (match) => Math.max(0, Number(match) + offset).toFixed(1));
+}
+
+function movementFrom(rank, previousRank) {
+  if (!previousRank) return { movement: "NEW", movementTone: "flat" };
+  const change = previousRank - rank;
+  if (change > 0) return { movement: `+${change}`, movementTone: "up" };
+  if (change < 0) return { movement: `−${Math.abs(change)}`, movementTone: "down" };
+  return { movement: "—", movementTone: "flat" };
+}
+
+function generatedPowerCopy(week, rank, team, strength, performance, record) {
+  const gap = performance == null ? 0 : performance - strength;
+  if (week === 0) {
+    const headline = rank <= 3
+      ? "The draft room produced an immediate contender."
+      : rank <= 8 ? "A credible build with a clear path upward." : "The upside is visible, but the roster needs its bets to hit.";
+    return {
+      headline,
+      blurb: `${team.name} opens at ${strength.toFixed(1)} in the roster-only baseline. The model likes the core while treating the preseason order as a forecast, not a result: depth, health, and waiver execution can change this picture quickly.`,
+      moment: `Team Strength starts at ${strength.toFixed(1)}; game performance begins affecting the board after Week 1.`,
+    };
+  }
+  const headline = gap >= 7
+    ? "The game results are forcing the model to buy in."
+    : gap <= -7 ? "The roster still looks stronger than the early résumé." : rank <= 4
+      ? "A complete profile keeps this team in the top tier." : "The model sees a team close to its true early-season level.";
+  const direction = gap > 1 ? "running ahead of" : gap < -1 ? "trailing" : "tracking closely with";
+  return {
+    headline,
+    blurb: `${team.name} leaves Week ${week} at ${record}. Its ${performance.toFixed(1)} Performance Index is ${direction} the ${strength.toFixed(1)} Team Strength baseline, so the current slot reflects both what happened and what the roster projects to do next.`,
+    moment: `The model’s loudest signal is a ${Math.abs(gap).toFixed(1)}-point gap between Performance Index and Team Strength.`,
+  };
+}
+
+function buildGeneratedWeek(week, rows, previousRankings = []) {
+  const previous = new Map(previousRankings.map((ranking) => [ranking.teamId, ranking.rank]));
+  const weights = week === 0 ? [1, 0] : week === 2 ? [.6, .4] : [.55, .45];
+  return rows.map(([rank, teamId, strength, performance, record, result]) => {
+    const team = TEAMS.find((item) => item.id === teamId);
+    const base = SAMPLE_POWER_RANKINGS.find((item) => item.teamId === teamId);
+    const copy = generatedPowerCopy(week, rank, team, strength, performance, record);
+    const score = performance == null ? strength : (strength * weights[0]) + (performance * weights[1]);
+    return {
+      ...base,
+      ...movementFrom(rank, previous.get(teamId)),
+      rank, teamId, strength, performance, record, result,
+      score: Number(score.toFixed(1)),
+      headline: copy.headline,
+      blurb: copy.blurb,
+      stars: week === 0 ? stripSamplePoints(base.stars) : shiftSamplePoints(base.stars, week, teamId),
+      shortfall: week === 0 ? stripSamplePoints(base.shortfall) : shiftSamplePoints(base.shortfall, week, teamId, true),
+      moment: copy.moment,
+    };
+  });
+}
+
+const WEEK_ZERO_POWER_RANKINGS = buildGeneratedWeek(0, SAMPLE_WEEK_METRICS[0]);
+const WEEK_ONE_POWER_RANKINGS = SAMPLE_POWER_RANKINGS.map((ranking) => ({
+  ...ranking,
+  strength: WEEK_ONE_METRICS[ranking.teamId][0],
+  performance: WEEK_ONE_METRICS[ranking.teamId][1],
+}));
+const WEEK_TWO_POWER_RANKINGS = buildGeneratedWeek(2, SAMPLE_WEEK_METRICS[2], WEEK_ONE_POWER_RANKINGS);
+const WEEK_THREE_POWER_RANKINGS = buildGeneratedWeek(3, SAMPLE_WEEK_METRICS[3], WEEK_TWO_POWER_RANKINGS);
+
+const SAMPLE_POWER_ISSUES = {
+  0: {
+    kicker: "Week 0 · Post-draft", title: "The draft room has spoken. Now we set the baseline.",
+    copy: "A roster-only opening edition built before anyone scores a real point. Every team starts 0–0, and all rankings, player references, and commentary are fictional sample content.",
+    issue: "Issue 00", version: "Model v0.0", calibration: "Roster-only baseline",
+    rankingTitle: "Week 0 post-draft power rankings", resultLabel: "Post-draft outlook · sample",
+    labels: ["Roster anchors", "Main concern", "Draft identity"],
+    inputs: [["Published blend", "100% Team Strength"], ["Lineup", "Starter production"], ["Value", "VOR by position"], ["Risk", "Floor + resilience"], ["Games", "Not used yet"]],
+    method: "Week 0 uses 100% Team Strength and 0% Performance Index because no games have been played. This is the post-draft baseline, not a permanent draft grade.",
+    rankings: WEEK_ZERO_POWER_RANKINGS,
+  },
+  1: {
+    kicker: "Week 1 issue", title: "One game creates movement, not certainty.",
+    copy: "The first results enter the model while the post-draft roster baseline still carries most of the weight. All records, scores, player performances, and commentary are fictional sample content.",
+    issue: "Issue 01", version: "Model v0.1", calibration: "One-game sample",
+    rankingTitle: "Week 1 power rankings", resultLabel: "Previous matchup · sample",
+    labels: ["Top performers", "Fell short", "Week-defining moment"],
+    inputs: [["Published blend", "70% Team Strength"], ["Earned share", "30% Performance"], ["Game signal", "All-play + projection"], ["Coaching", "Lineup efficiency"], ["Context", "Opponent-adjusted"]],
+    method: "Week 1 blends 70% Team Strength and 30% Performance Index. One result can move a team, but the model refuses to let a single spike or dud erase the roster forecast.",
+    rankings: WEEK_ONE_POWER_RANKINGS,
+  },
+  2: {
+    kicker: "Week 2 issue", title: "Repeat performances are becoming evidence.",
+    copy: "Two weeks of scoring, decisions, and opponent context now carry meaningful weight, but the model still protects against early-season noise. All content remains fictional sample data.",
+    issue: "Issue 02", version: "Model v0.2", calibration: "Early signal",
+    rankingTitle: "Week 2 power rankings", resultLabel: "Previous matchup · sample",
+    labels: ["Top performers", "Fell short", "Model signal"],
+    inputs: [["Published blend", "60% Team Strength"], ["Earned share", "40% Performance"], ["Game signal", "All-play + projection"], ["Coaching", "Lineup efficiency"], ["Context", "Opponent-adjusted"]],
+    method: "Week 2 blends 60% Team Strength and 40% Performance Index. Repeated success matters more, while roster quality still prevents a lucky 2–0 start from automatically taking the top spot.",
+    rankings: WEEK_TWO_POWER_RANKINGS,
+  },
+  3: {
+    kicker: "Week 3 issue", title: "Three weeks in, the résumés are taking shape.",
+    copy: "Results nearly share equal weight with forward-looking roster strength. Rankings now reward sustained scoring and sound lineup decisions without pretending three weeks tell the whole story. All content is fictional.",
+    issue: "Issue 03", version: "Model v0.3", calibration: "Early-season blend",
+    rankingTitle: "Week 3 power rankings", resultLabel: "Previous matchup · sample",
+    labels: ["Top performers", "Fell short", "Model signal"],
+    inputs: [["Published blend", "55% Team Strength"], ["Earned share", "45% Performance"], ["Game signal", "All-play + projection"], ["Coaching", "Lineup efficiency"], ["Context", "Opponent-adjusted"]],
+    method: "Week 3 blends 55% Team Strength and 45% Performance Index. The ranking is now close to an even split between who should be good and who has actually played well.",
+    rankings: WEEK_THREE_POWER_RANKINGS,
+  },
+};
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
@@ -134,6 +301,7 @@ const state = {
   profile: null,
   league: null,
   selectedWeek: 1,
+  selectedPowerWeek: 3,
   posts: [],
   comments: [],
   reactions: [],
@@ -169,7 +337,7 @@ async function bootstrap() {
     await loadPowerRankingActivity();
   } else {
     renderFeedSignedOut();
-    renderPowerRankings();
+    renderPowerIssue();
   }
 
   routeFromHash();
@@ -190,7 +358,7 @@ function bindNavigation() {
 
 function routeFromHash() {
   const route = window.location.hash.replace("#", "");
-  if (["overview", "power", "feed"].includes(route)) switchView(route, false);
+  if (["overview", "power", "methods", "feed"].includes(route)) switchView(route, false);
 }
 
 function switchView(view, updateHash = true) {
@@ -208,7 +376,7 @@ function switchView(view, updateHash = true) {
   }
   if (view === "power") {
     if (state.session) loadPowerRankingActivity(true);
-    else renderPowerRankings();
+    else renderPowerIssue();
   }
 }
 
@@ -225,6 +393,9 @@ function bindInterface() {
     state.selectedWeek = Number(event.target.value);
     renderSchedule();
   });
+  $("#power-week-select").addEventListener("change", (event) => selectPowerWeek(Number(event.target.value)));
+  $("#power-prev-week").addEventListener("click", () => selectPowerWeek(state.selectedPowerWeek - 1));
+  $("#power-next-week").addEventListener("click", () => selectPowerWeek(state.selectedPowerWeek + 1));
   $("#post-form").addEventListener("submit", createPost);
   $("#post-input").addEventListener("input", autoGrowComposer);
   $("#post-input").addEventListener("keydown", handleComposerKeydown);
@@ -247,7 +418,7 @@ function bindInterface() {
 }
 
 function populateStaticTeams() {
-  renderPowerRankings();
+  renderPowerIssue();
 
   $("#member-list").innerHTML = TEAMS.map((team) => `
     <div class="member">
@@ -732,8 +903,42 @@ function renderFeed() {
   root.scrollTop = wasNearBottom ? root.scrollHeight : previousScrollTop;
 }
 
-function powerRankingKey(teamId) {
-  return `sample-week-1-team-${teamId}`;
+function currentPowerIssue() {
+  return SAMPLE_POWER_ISSUES[state.selectedPowerWeek] || SAMPLE_POWER_ISSUES[3];
+}
+
+function powerRankingKey(teamId, week = state.selectedPowerWeek) {
+  return `sample-week-${week}-team-${teamId}`;
+}
+
+function selectPowerWeek(week) {
+  const nextWeek = Math.max(0, Math.min(3, Number(week)));
+  if (nextWeek === state.selectedPowerWeek) return;
+  state.selectedPowerWeek = nextWeek;
+  state.activePowerReplyKey = null;
+  state.activePowerReactionKey = null;
+  state.powerComments = [];
+  state.powerReactions = [];
+  renderPowerIssue();
+  if (state.session) loadPowerRankingActivity(true);
+}
+
+function renderPowerIssue() {
+  const issue = currentPowerIssue();
+  if (!issue) return;
+  $("#power-week-kicker").textContent = issue.kicker;
+  $("#power-week-title").textContent = issue.title;
+  $("#power-week-copy").textContent = issue.copy;
+  $("#power-issue-number").textContent = issue.issue;
+  $("#power-model-version").textContent = issue.version;
+  $("#power-calibration-label").textContent = issue.calibration;
+  $("#power-week-select").value = String(state.selectedPowerWeek);
+  $("#power-prev-week").disabled = state.selectedPowerWeek === 0;
+  $("#power-next-week").disabled = state.selectedPowerWeek === 3;
+  $("#power-rankings-title").textContent = issue.rankingTitle;
+  $("#power-model-strip").innerHTML = issue.inputs.map(([label, value]) => `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`).join("");
+  $("#power-method-summary").innerHTML = `<strong>How this issue is scored</strong><p>${escapeHtml(issue.method)} The order and all football results shown here are fictional placeholders for this interface preview.</p>`;
+  renderPowerRankings();
 }
 
 async function loadPowerRankingActivity(silent = false) {
@@ -742,7 +947,7 @@ async function loadPowerRankingActivity(silent = false) {
     state.powerReactions = [];
     return renderPowerRankings();
   }
-  const rankingKeys = new Set(SAMPLE_POWER_RANKINGS.map((ranking) => powerRankingKey(ranking.teamId)));
+  const rankingKeys = new Set(currentPowerIssue().rankings.map((ranking) => powerRankingKey(ranking.teamId)));
   try {
     const [comments, reactions] = await Promise.all([
       supabaseRequest("/rest/v1/power_ranking_comments?select=*&order=created_at.asc"),
@@ -764,6 +969,7 @@ async function loadPowerRankingActivity(silent = false) {
 function renderPowerRankings() {
   const root = $("#power-rankings-list");
   if (!root) return;
+  const issue = currentPowerIssue();
   const status = $("#power-social-status");
   if (status) {
     status.textContent = state.user
@@ -771,7 +977,7 @@ function renderPowerRankings() {
       : "Sign in to react and reply to each team’s write-up.";
   }
 
-  root.innerHTML = SAMPLE_POWER_RANKINGS.map((ranking) => {
+  root.innerHTML = issue.rankings.map((ranking) => {
     const team = TEAMS.find((item) => item.id === ranking.teamId);
     const profile = profileForTeam(team);
     const avatar = profile?.avatar_url;
@@ -787,7 +993,7 @@ function renderPowerRankings() {
     const replyIsOpen = state.activePowerReplyKey === key;
     const pickerIsOpen = state.activePowerReactionKey === key;
 
-    return `<article class="power-ranking-card" id="power-rank-${ranking.rank}" data-ranking-key="${key}">
+    return `<article class="power-ranking-card" id="power-week-${state.selectedPowerWeek}-rank-${ranking.rank}" data-ranking-key="${key}">
       <aside class="power-rank-rail">
         <span class="power-rank-label">Rank</span>
         <strong>${ranking.rank}</strong>
@@ -799,18 +1005,22 @@ function renderPowerRankings() {
             ${avatar ? `<span class="power-avatar"><img src="${escapeAttr(avatar)}" alt="${escapeAttr(team.name)} profile picture" /></span>` : `<span class="power-avatar">${initials(team.name)}</span>`}
             <span><small>${escapeHtml(team.division)} · ${escapeHtml(profile?.display_name || team.manager)}</small><h3>${escapeHtml(team.name)}</h3></span>
           </div>
-          <div class="power-score-block"><span>Model score</span><strong>${ranking.score.toFixed(1)}</strong><small>of 100 · sample</small></div>
+          <div class="power-score-cluster">
+            <div class="power-score-block"><span>Power score</span><strong>${ranking.score.toFixed(1)}</strong><small>of 100 · sample</small></div>
+            <div class="power-score-block is-secondary"><span>Team strength</span><strong>${ranking.strength.toFixed(1)}</strong><small>forward view</small></div>
+            <div class="power-score-block is-secondary"><span>Performance</span><strong>${ranking.performance == null ? "—" : ranking.performance.toFixed(1)}</strong><small>${ranking.performance == null ? "starts Week 1" : "earned"}</small></div>
+          </div>
         </header>
-        <div class="power-result-bar"><strong>${ranking.record}</strong><span>${escapeHtml(ranking.result)}</span><small>Previous matchup · sample</small></div>
+        <div class="power-result-bar"><strong>${ranking.record}</strong><span>${escapeHtml(ranking.result)}</span><small>${escapeHtml(issue.resultLabel)}</small></div>
         <section class="power-editorial">
           <p class="power-kicker">The read</p>
           <h4>${escapeHtml(ranking.headline)}</h4>
           <p>${escapeHtml(ranking.blurb)}</p>
         </section>
         <div class="power-insight-grid">
-          <div class="power-insight is-star"><span>Top performers</span><strong>${escapeHtml(ranking.stars)}</strong></div>
-          <div class="power-insight is-short"><span>Fell short</span><strong>${escapeHtml(ranking.shortfall)}</strong></div>
-          <div class="power-insight is-moment"><span>Week-defining moment</span><strong>${escapeHtml(ranking.moment)}</strong></div>
+          <div class="power-insight is-star"><span>${escapeHtml(issue.labels[0])}</span><strong>${escapeHtml(ranking.stars)}</strong></div>
+          <div class="power-insight is-short"><span>${escapeHtml(issue.labels[1])}</span><strong>${escapeHtml(ranking.shortfall)}</strong></div>
+          <div class="power-insight is-moment"><span>${escapeHtml(issue.labels[2])}</span><strong>${escapeHtml(ranking.moment)}</strong></div>
         </div>
         <div class="power-social">
           <div class="power-social-left">

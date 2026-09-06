@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css?v=10" />
+    <link rel="stylesheet" href="/styles.css?v=11" />
   </head>
   <body>
     <header class="site-header">
@@ -30,6 +30,7 @@
         <nav class="primary-nav" aria-label="Primary navigation">
           <button class="nav-link is-active" data-view="overview">Overview</button>
           <button class="nav-link" data-view="power">Power rankings</button>
+          <button class="nav-link" data-view="methods">Methodology</button>
           <button class="nav-link" data-view="feed">League feed</button>
         </nav>
         <div class="auth-actions" id="auth-actions">
@@ -118,32 +119,70 @@
           <div class="power-sample-hero">
             <div>
               <span class="sample-badge">Sample · Work in progress</span>
-              <p class="eyebrow eyebrow-light">Week 1 template</p>
-              <h1>The first read on the league.</h1>
-              <p class="power-hero-copy">A magazine-style weekly ranking built from the model, the scoreboard, and what actually happened. All records, scores, player performances, and commentary below are fictional sample content.</p>
+              <p class="eyebrow eyebrow-light" id="power-week-kicker">Week 3 issue</p>
+              <h1 id="power-week-title">Three weeks in, the résumés are taking shape.</h1>
+              <p class="power-hero-copy" id="power-week-copy">A magazine-style weekly ranking built from roster strength, results, lineup decisions, and what actually happened. All records, scores, player performances, and commentary below are fictional sample content.</p>
             </div>
-            <div class="sample-issue">
-              <span>Issue 00</span>
-              <strong>Model v0.1</strong>
-              <small>Calibration preview</small>
+            <div class="power-archive">
+              <div class="sample-issue">
+                <span id="power-issue-number">Issue 03</span>
+                <strong id="power-model-version">Model v0.3</strong>
+                <small id="power-calibration-label">Early-season blend</small>
+              </div>
+              <div class="power-week-controls" aria-label="Choose a Power Rankings week">
+                <button id="power-prev-week" type="button" aria-label="Previous Power Rankings week">←</button>
+                <label for="power-week-select"><span>Archive</span><select id="power-week-select"><option value="0">Week 0 · Post-draft</option><option value="1">Week 1</option><option value="2">Week 2</option><option value="3" selected>Week 3 · Latest</option></select></label>
+                <button id="power-next-week" type="button" aria-label="Next Power Rankings week">→</button>
+              </div>
             </div>
           </div>
-          <div class="power-model-strip">
-            <div><span>Current input</span><strong>Weekly result</strong></div>
-            <div><span>Current input</span><strong>Scoring strength</strong></div>
-            <div><span>Current input</span><strong>Roster outlook</strong></div>
-            <div><span>Current input</span><strong>Schedule context</strong></div>
-            <div><span>Coming next</span><strong>Calibration</strong></div>
-          </div>
+          <div class="power-model-strip" id="power-model-strip"></div>
           <div class="power-list-heading">
-            <div><p class="eyebrow">The sample twelve</p><h2>Week 1 power rankings</h2></div>
+            <div><p class="eyebrow">The sample twelve</p><h2 id="power-rankings-title">Week 3 power rankings</h2></div>
             <p id="power-social-status">Sign in to react and reply to each team’s write-up.</p>
           </div>
           <div class="power-rankings-list" id="power-rankings-list"></div>
-          <div class="power-method-note">
+          <div class="power-method-note" id="power-method-summary">
             <strong>Template note</strong>
-            <p>The order and 0–100 scores are placeholders. After Week 1, the model weights, team records, previous matchup, player notes, and editorial blurbs can be replaced without changing this layout or its conversation threads.</p>
+            <p>Week 3 blends Team Strength (55%) and Performance Index (45%). The order and all football results remain fictional placeholders for this interface preview.</p>
           </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-methods" data-view-panel="methods">
+        <div class="page-shell methods-shell">
+          <div class="methods-hero">
+            <div><p class="eyebrow eyebrow-light">Power Rankings model</p><h1>One forward-looking score. One earned score.</h1></div>
+            <p>Week 0 is a roster forecast. Once games begin, actual performance earns an increasing share of the published Power Score. This tab separates those ideas so draft reputation never masquerades as weekly production.</p>
+          </div>
+
+          <section class="methods-section">
+            <div class="methods-heading"><p class="eyebrow">The two inputs</p><h2>What every 0–100 rating means</h2></div>
+            <div class="methods-two-up">
+              <article class="method-card"><span class="method-number">01</span><h3>Team Strength</h3><p>The post-draft roster grade and forward-looking outlook. It estimates how strong a team should be from this point forward, independent of its record.</p><ul><li><strong>45%</strong> projected starting-lineup production</li><li><strong>20%</strong> value over replacement</li><li><strong>15%</strong> weekly floor</li><li><strong>10%</strong> ceiling and spike-week potential</li><li><strong>10%</strong> depth, positional coverage, and resilience</li></ul></article>
+              <article class="method-card"><span class="method-number">02</span><h3>Performance Index</h3><p>The backward-looking grade earned on the field. It rewards strong scoring and good decisions without giving a team full credit or blame for opponent luck.</p><ul><li><strong>40%</strong> all-play performance</li><li><strong>25%</strong> points scored versus projection</li><li><strong>20%</strong> lineup efficiency</li><li><strong>15%</strong> opponent-adjusted result</li></ul></article>
+            </div>
+          </section>
+
+          <section class="methods-section">
+            <div class="methods-heading"><p class="eyebrow">The handoff</p><h2>How the blend changes by week</h2></div>
+            <div class="blend-table" role="table" aria-label="Power Rankings weekly weights">
+              <div class="blend-row blend-head" role="row"><span>Issue</span><span>Team Strength</span><span>Performance Index</span><span>Why</span></div>
+              <div class="blend-row" role="row"><strong>Week 0</strong><span><b>100%</b><i style="--share:100%"></i></span><span><b>0%</b><i style="--share:0%"></i></span><p>There are no games yet, so the Power Score equals Team Strength.</p></div>
+              <div class="blend-row" role="row"><strong>Week 1</strong><span><b>70%</b><i style="--share:70%"></i></span><span><b>30%</b><i style="--share:30%"></i></span><p>One result matters, but it is still a tiny sample.</p></div>
+              <div class="blend-row" role="row"><strong>Week 2</strong><span><b>60%</b><i style="--share:60%"></i></span><span><b>40%</b><i style="--share:40%"></i></span><p>Repeat performance starts moving teams more decisively.</p></div>
+              <div class="blend-row is-current" role="row"><strong>Weeks 3–4</strong><span><b>55%</b><i style="--share:55%"></i></span><span><b>45%</b><i style="--share:45%"></i></span><p>Results are nearly equal to the forward-looking roster view.</p></div>
+              <div class="blend-row" role="row"><strong>Week 5+</strong><span><b>50%</b><i style="--share:50%"></i></span><span><b>50%</b><i style="--share:50%"></i></span><p>The model balances current strength and the season résumé.</p></div>
+            </div>
+          </section>
+
+          <section class="methods-section methods-compact-grid">
+            <article><p class="eyebrow">Published score</p><h3>League-relative normalization</h3><code>75 + (10 × league z-score)</code><p>Each underlying composite is standardized against the twelve teams, then bounded from 40 to 99. A 75 is league-average context—not a school grade.</p></article>
+            <article><p class="eyebrow">Editorial layer</p><h3>The model ranks; people explain</h3><p>Records, player highlights, shortfalls, matchup context, and weekly blurbs explain the numerical result. Commentary does not secretly change the score.</p></article>
+            <article><p class="eyebrow">Guardrails</p><h3>Small samples stay small</h3><p>Opponent difficulty is adjusted, bench points are not treated as starter output, inactive players are excluded, and no single game can erase the roster baseline overnight.</p></article>
+          </section>
+
+          <div class="methods-disclaimer"><strong>Sample status</strong><p>The Week 0–3 archive is an interface and calibration mockup. Its records, scores, player performances, and blurbs are illustrative—not live ESPN results. The same layout can accept real weekly inputs after games are played.</p></div>
         </div>
       </section>
 
@@ -214,6 +253,6 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="/app.js?v=10"></script>
+    <script type="module" src="/app.js?v=11"></script>
   </body>
 </html>

@@ -4,7 +4,8 @@ A private, mobile-friendly league website with:
 
 - live ESPN East/West standings with member pictures, matchup schedules, and the confirmed 2026 draft order;
 - the $2,100 prize-pool breakdown;
-- a clearly labeled sample Power Rankings issue with model scores, records, previous results, editorial blurbs, player callouts, reactions, and replies;
+- a clearly labeled Week 0–3 sample Power Rankings archive with model scores, records, previous results, editorial blurbs, player callouts, reactions, and replies;
+- a compact Methodology tab explaining Team Strength, Performance Index, weekly weighting, normalization, and sample-size guardrails;
 - a Discord-style league feed with Google login, persistent profile pictures, clean messages, hover-to-reply controls, on-demand emoji reactions, and threaded replies.
 
 The repository contains no ESPN cookies, Google secrets, or database secrets. Those values stay in Netlify and Supabase.
@@ -69,11 +70,13 @@ Then open the exact local URL shown by Netlify. A plain file preview will displa
 
 The confirmed twelve teams and managers are defined once at the top of `public/app.js`. ESPN supplies the live records and schedule; this local list supplies the preseason fallback and member directory.
 
-## Publishing a real Power Rankings issue
+## Publishing real Power Rankings issues
 
-The current page is intentionally labeled **Sample · Work in progress**. Its twelve sample entries live in `SAMPLE_POWER_RANKINGS` near the top of `public/app.js`. Replace each entry's rank, score, record, prior result, headline, blurb, top performers, shortfall, and defining moment when the first real issue is ready.
+The current Week 0–3 archive is intentionally labeled **Sample · Work in progress**. Issue metadata lives in `SAMPLE_POWER_ISSUES` in `public/app.js`; each issue points to twelve team entries containing rank, Power Score, Team Strength, Performance Index, record, previous result, editorial blurb, and player callouts.
 
-The function `powerRankingKey()` assigns the conversation thread for an issue. Change `sample-week-1` to a new unique issue key (for example, `2026-week-2`) when publishing a new week so its reactions and replies begin cleanly instead of carrying over from the sample.
+Each week automatically receives a separate conversation key through `powerRankingKey()`, so reactions and replies do not carry between issues. When real results are ready, replace the sample issue data while preserving a unique season/week key for every published edition.
+
+The Methodology tab documents the current calibration model: Week 0 is 100% Team Strength; Weeks 1, 2, and 3 blend Team Strength and Performance Index at 70/30, 60/40, and 55/45. Week 5 onward settles at 50/50 unless the model is recalibrated.
 
 ## Security notes
 
