@@ -68,3 +68,9 @@ drop trigger if exists stamp_power_ranking_comment_author on public.power_rankin
 create trigger stamp_power_ranking_comment_author
   before insert on public.power_ranking_comments
   for each row execute procedure public.stamp_comment_author();
+
+-- Make the newly-created tables available to Supabase's REST API immediately.
+grant select, insert, delete on public.power_ranking_comments to authenticated;
+grant select, insert, delete on public.power_ranking_reactions to authenticated;
+grant usage, select on all sequences in schema public to authenticated;
+notify pgrst, 'reload schema';

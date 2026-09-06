@@ -274,6 +274,13 @@ create trigger stamp_power_ranking_comment_author
   before insert on public.power_ranking_comments
   for each row execute procedure public.stamp_comment_author();
 
+-- Ensure the Power Rankings conversation tables are visible to authenticated
+-- members through Supabase's REST API after a fresh or repeated setup run.
+grant select, insert, delete on public.power_ranking_comments to authenticated;
+grant select, insert, delete on public.power_ranking_reactions to authenticated;
+grant usage, select on all sequences in schema public to authenticated;
+notify pgrst, 'reload schema';
+
 -- Before launch, insert the owners' Google account emails. Once this table has
 -- at least one active row, all other Google accounts are denied by row security.
 -- insert into public.allowed_members (email) values
