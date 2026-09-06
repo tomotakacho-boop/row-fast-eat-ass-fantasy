@@ -14,6 +14,116 @@ const TEAMS = [
 ];
 
 const EMOJIS = ["👍", "❤️", "😂", "🔥", "🏈", "👀"];
+const SAMPLE_POWER_RANKINGS = [
+  {
+    rank: 1, teamId: 8, score: 92.4, record: "1–0", movement: "NEW", movementTone: "up",
+    result: "Won 143.8–118.6 vs Wet Willies",
+    headline: "A first-week statement with very few soft spots.",
+    blurb: "Pukana Matatas set the pace with an explosive ceiling and the kind of balanced scoring profile that travels. The model loves both the result and the lack of obvious lineup weakness, making this the sample standard everyone else is chasing.",
+    stars: "Bijan Robinson · 27.4; Puka Nacua · 22.1",
+    shortfall: "Caleb Williams · 12.8",
+    moment: "Bijan’s late touchdown turned a competitive matchup into the week’s biggest margin."
+  },
+  {
+    rank: 2, teamId: 5, score: 89.7, record: "1–0", movement: "+2", movementTone: "up",
+    result: "Won 137.1–124.5 vs Goff Balls",
+    headline: "The stars delivered, and the supporting cast held the line.",
+    blurb: "Meet The Robinson’s got premium output at the top of the lineup and survived one quiet veteran performance. The roster already looks difficult to outscore when its centerpiece players hit together, though the depth will face a tougher test in a closer week.",
+    stars: "Ja’Marr Chase · 29.6; Jonathan Taylor · 20.4",
+    shortfall: "Mike Evans · 7.8",
+    moment: "A fourth-quarter scoring burst created the separation in an otherwise tight matchup."
+  },
+  {
+    rank: 3, teamId: 1, score: 87.9, record: "1–0", movement: "+3", movementTone: "up",
+    result: "Won 132.6–117.4 vs OnlyFannins",
+    headline: "Elite backfield speed gives Team Rex a real weekly hammer.",
+    blurb: "Team Rex paired a strong quarterback result with efficient running-back production and never gave the opponent a clean opening. The ceiling is clear; the next checkpoint is whether the pass catchers can make this lineup less dependent on two superstars.",
+    stars: "Jahmyr Gibbs · 24.8; Josh Allen · 25.2",
+    shortfall: "Dalton Kincaid · 5.1",
+    moment: "The Allen–Gibbs combination erased an early deficit before the late window."
+  },
+  {
+    rank: 4, teamId: 4, score: 84.6, record: "1–0", movement: "+1", movementTone: "up",
+    result: "Won 129.9–126.8 vs Juulio Jones",
+    headline: "A narrow escape still revealed a lineup with real teeth.",
+    blurb: "Shayshawn Broccoli won the week’s closest sample matchup behind a dominant WR1 and a timely flex contribution. The model is impressed by the usable depth but keeps this team outside the top three because the victory required nearly every late break.",
+    stars: "CeeDee Lamb · 25.7; Bucky Irving · 18.3",
+    shortfall: "Jordan Addison · 6.2",
+    moment: "A final-drive reception flipped the projected winner with minutes left."
+  },
+  {
+    rank: 5, teamId: 11, score: 81.8, record: "0–1", movement: "−2", movementTone: "down",
+    result: "Lost 124.5–137.1 vs Meet The Robinson’s",
+    headline: "The record says loss; the underlying score says contender.",
+    blurb: "Goff Balls drew one of the week’s strongest opponents and still posted a score that would have beaten much of the league. There is no panic here: the model rewards the performance while flagging a thin margin for error at tight end.",
+    stars: "Amon-Ra St. Brown · 23.9; Lamar Jackson · 24.6",
+    shortfall: "Travis Kelce · 7.0",
+    moment: "A strong Sunday night rally made the final score far more respectable."
+  },
+  {
+    rank: 6, teamId: 12, score: 79.3, record: "1–0", movement: "+4", movementTone: "up",
+    result: "Won 121.7–116.3 vs Two-Point Conversion Therapy",
+    headline: "Good structure, timely scoring, and just enough star power.",
+    blurb: "Kittle League did not post a fireworks show, but it built points steadily across the lineup and avoided a fatal zero. That sturdy floor earns a meaningful rise; unlocking another explosive option would push the model score into the next tier.",
+    stars: "Saquon Barkley · 21.8; Nico Collins · 17.6",
+    shortfall: "Deebo Samuel · 8.1",
+    moment: "The defense sealed the matchup with a late turnover."
+  },
+  {
+    rank: 7, teamId: 2, score: 76.8, record: "0–1", movement: "−6", movementTone: "down",
+    result: "Lost 118.6–143.8 vs Pukana Matatas",
+    headline: "A brutal opponent obscures an otherwise playable opening week.",
+    blurb: "Wet Willies ran into the highest-scoring team in the sample, so the fall is more about the rest of the league moving up than a total collapse. The core held up, but the flex production has to improve before this roster can win shootouts.",
+    stars: "Justin Jefferson · 20.9; Derrick Henry · 17.2",
+    shortfall: "David Montgomery · 6.4",
+    moment: "A promising comeback ended when the opponent answered with consecutive touchdowns."
+  },
+  {
+    rank: 8, teamId: 6, score: 74.4, record: "1–0", movement: "+1", movementTone: "up",
+    result: "Won 119.4–114.2 vs Rex On Rex",
+    headline: "The win counts, but the model wants a little more proof.",
+    blurb: "Eat The Boutte Like Groceries found just enough production from its young core to bank the result. There are exciting ingredients here, especially at receiver, but one inefficient backfield performance kept the projected rest-of-season strength in the middle tier.",
+    stars: "Jaxon Smith-Njigba · 19.8; Drake Maye · 23.1",
+    shortfall: "James Cook · 8.0",
+    moment: "A bold fourth-down conversion protected the lead late."
+  },
+  {
+    rank: 9, teamId: 10, score: 71.9, record: "0–1", movement: "−2", movementTone: "down",
+    result: "Lost 116.3–121.7 vs Kittle League",
+    headline: "Close enough to compete, not clean enough to finish.",
+    blurb: "Two-Point Conversion Therapy stayed within striking distance but could not overcome a quiet receiving slot. The roster still carries speed and weekly upside, so this ranking could reverse quickly if its secondary options earn more volume.",
+    stars: "Malik Nabers · 18.7; De’Von Achane · 16.8",
+    shortfall: "Jaylen Waddle · 7.3",
+    moment: "A missed Monday-night opportunity left the comeback one score short."
+  },
+  {
+    rank: 10, teamId: 3, score: 68.5, record: "0–1", movement: "−2", movementTone: "down",
+    result: "Lost 126.8–129.9 vs Shayshawn Broccoli",
+    headline: "The process looked better than the result.",
+    blurb: "Juulio Jones lost by a field goal despite producing one of the stronger losing scores. The model sees a competitive roster with immediate rebound potential, but a low tight-end output and a late lineup decision proved costly in a matchup decided at the margins.",
+    stars: "Ashton Jeanty · 17.9; Tee Higgins · 15.2",
+    shortfall: "George Kittle · 6.5",
+    moment: "One bench decision represented more points than the final margin."
+  },
+  {
+    rank: 11, teamId: 9, score: 64.2, record: "0–1", movement: "—", movementTone: "flat",
+    result: "Lost 114.2–119.4 vs Eat The Boutte Like Groceries",
+    headline: "There is enough talent here, but the lineup needs another gear.",
+    blurb: "Rex On Rex remained competitive without receiving a true week-winning performance. A steady floor keeps the team out of last, while the model waits for its running backs to create more explosive plays and improve the weekly ceiling.",
+    stars: "Brock Bowers · 16.4; Garrett Wilson · 15.9",
+    shortfall: "RJ Harvey · 5.0",
+    moment: "A late red-zone target narrowly missed what could have been the winning score."
+  },
+  {
+    rank: 12, teamId: 7, score: 59.8, record: "0–1", movement: "−2", movementTone: "down",
+    result: "Lost 117.4–132.6 vs Team Rex",
+    headline: "One week is not a verdict, but the warning lights are on.",
+    blurb: "OnlyFannins produced respectable top-line numbers, yet too many lineup spots failed to beat replacement level. The roster needs either a volume shift or a waiver-wire hit before the model will buy a quick climb out of the basement.",
+    stars: "Josh Jacobs · 15.4; Terry McLaurin · 14.2",
+    shortfall: "Rashee Rice · 4.8",
+    moment: "Two early red-zone trips produced no touchdowns and set the tone."
+  },
+];
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
@@ -28,6 +138,11 @@ const state = {
   comments: [],
   reactions: [],
   profiles: [],
+  powerComments: [],
+  powerReactions: [],
+  activePowerReplyKey: null,
+  activePowerReactionKey: null,
+  powerLoaded: false,
   activeReplyPostId: null,
   activeReactionPostId: null,
   feedTimer: null,
@@ -51,8 +166,10 @@ async function bootstrap() {
   if (state.session) {
     await Promise.all([loadProfile(), loadLeagueData()]);
     await loadFeed();
+    await loadPowerRankingActivity();
   } else {
     renderFeedSignedOut();
+    renderPowerRankings();
   }
 
   routeFromHash();
@@ -89,6 +206,10 @@ function switchView(view, updateHash = true) {
   } else {
     clearInterval(state.feedTimer);
   }
+  if (view === "power") {
+    if (state.session) loadPowerRankingActivity(true);
+    else renderPowerRankings();
+  }
 }
 
 function bindInterface() {
@@ -119,17 +240,14 @@ function bindInterface() {
   });
   $("#message-list").addEventListener("click", handleMessageClick);
   $("#message-list").addEventListener("submit", handleReplySubmit);
+  $("#power-rankings-list").addEventListener("click", handlePowerRankingClick);
+  $("#power-rankings-list").addEventListener("submit", handlePowerReplySubmit);
   $("#toggle-members").addEventListener("click", () => $("#member-rail").classList.add("is-open"));
   $("#close-members").addEventListener("click", () => $("#member-rail").classList.remove("is-open"));
 }
 
 function populateStaticTeams() {
-  $("#power-team-grid").innerHTML = TEAMS.map((team, index) => `
-    <article class="team-preview">
-      <span>PRESEASON · ${String(index + 1).padStart(2, "0")}</span>
-      <strong>${escapeHtml(team.name)}</strong>
-      <small>${escapeHtml(team.manager)} · ranking pending</small>
-    </article>`).join("");
+  renderPowerRankings();
 
   $("#member-list").innerHTML = TEAMS.map((team) => `
     <div class="member">
@@ -278,6 +396,10 @@ async function signOut() {
   renderAuth();
   renderFallbackOverview();
   renderFeedSignedOut();
+  state.powerComments = [];
+  state.powerReactions = [];
+  state.powerLoaded = false;
+  renderPowerRankings();
 }
 
 function renderAuth() {
@@ -371,6 +493,7 @@ async function saveProfile(event) {
     $("#profile-modal").hidden = true;
     renderAuth();
     await loadFeed(true);
+    renderPowerRankings();
     toast("Profile saved. Your picture now appears throughout the league feed.");
   } catch (error) {
     toast(readableError(error, "Could not save your team profile."));
@@ -607,6 +730,184 @@ function renderFeed() {
 
   root.innerHTML = `<div class="feed-welcome"><span class="hash-orb">#</span><h2>Welcome to the league feed.</h2><p>This is the start of the Row Fast Season 10 conversation.</p></div>${messages || `<div class="feed-loading">No messages yet. Be the first to post.</div>`}`;
   root.scrollTop = wasNearBottom ? root.scrollHeight : previousScrollTop;
+}
+
+function powerRankingKey(teamId) {
+  return `sample-week-1-team-${teamId}`;
+}
+
+async function loadPowerRankingActivity(silent = false) {
+  if (!state.session) {
+    state.powerComments = [];
+    state.powerReactions = [];
+    return renderPowerRankings();
+  }
+  const rankingKeys = new Set(SAMPLE_POWER_RANKINGS.map((ranking) => powerRankingKey(ranking.teamId)));
+  try {
+    const [comments, reactions] = await Promise.all([
+      supabaseRequest("/rest/v1/power_ranking_comments?select=*&order=created_at.asc"),
+      supabaseRequest("/rest/v1/power_ranking_reactions?select=*"),
+    ]);
+    state.powerComments = (comments || []).filter((comment) => rankingKeys.has(comment.ranking_key));
+    state.powerReactions = (reactions || []).filter((reaction) => rankingKeys.has(reaction.ranking_key));
+    state.powerLoaded = true;
+    renderPowerRankings();
+  } catch (error) {
+    state.powerLoaded = false;
+    renderPowerRankings();
+    const status = $("#power-social-status");
+    if (status) status.textContent = "Sample rankings are ready. Run the included Power Rankings SQL once to enable reactions and replies.";
+    if (!silent) toast(readableError(error, "Power Ranking conversations need their database setup."));
+  }
+}
+
+function renderPowerRankings() {
+  const root = $("#power-rankings-list");
+  if (!root) return;
+  const status = $("#power-social-status");
+  if (status) {
+    status.textContent = state.user
+      ? "React or reply to any ranking. Conversation follows your league profile."
+      : "Sign in to react and reply to each team’s write-up.";
+  }
+
+  root.innerHTML = SAMPLE_POWER_RANKINGS.map((ranking) => {
+    const team = TEAMS.find((item) => item.id === ranking.teamId);
+    const profile = profileForTeam(team);
+    const avatar = profile?.avatar_url;
+    const key = powerRankingKey(ranking.teamId);
+    const comments = state.powerComments.filter((comment) => comment.ranking_key === key);
+    const reactions = state.powerReactions.filter((reaction) => reaction.ranking_key === key);
+    const reactionButtons = EMOJIS.map((emoji) => {
+      const matching = reactions.filter((reaction) => reaction.emoji === emoji);
+      if (!matching.length) return "";
+      const mine = matching.some((reaction) => reaction.user_id === state.user?.id);
+      return `<button class="power-reaction ${mine ? "is-mine" : ""}" data-power-reaction="${emoji}" data-ranking-key="${key}" aria-label="${mine ? "Remove" : "Add"} ${emoji} reaction">${emoji} ${matching.length}</button>`;
+    }).join("");
+    const replyIsOpen = state.activePowerReplyKey === key;
+    const pickerIsOpen = state.activePowerReactionKey === key;
+
+    return `<article class="power-ranking-card" id="power-rank-${ranking.rank}" data-ranking-key="${key}">
+      <aside class="power-rank-rail">
+        <span class="power-rank-label">Rank</span>
+        <strong>${ranking.rank}</strong>
+        <span class="power-movement is-${ranking.movementTone}">${escapeHtml(ranking.movement)}</span>
+      </aside>
+      <div class="power-card-body">
+        <header class="power-card-header">
+          <div class="power-team-identity">
+            ${avatar ? `<span class="power-avatar"><img src="${escapeAttr(avatar)}" alt="${escapeAttr(team.name)} profile picture" /></span>` : `<span class="power-avatar">${initials(team.name)}</span>`}
+            <span><small>${escapeHtml(team.division)} · ${escapeHtml(profile?.display_name || team.manager)}</small><h3>${escapeHtml(team.name)}</h3></span>
+          </div>
+          <div class="power-score-block"><span>Model score</span><strong>${ranking.score.toFixed(1)}</strong><small>of 100 · sample</small></div>
+        </header>
+        <div class="power-result-bar"><strong>${ranking.record}</strong><span>${escapeHtml(ranking.result)}</span><small>Previous matchup · sample</small></div>
+        <section class="power-editorial">
+          <p class="power-kicker">The read</p>
+          <h4>${escapeHtml(ranking.headline)}</h4>
+          <p>${escapeHtml(ranking.blurb)}</p>
+        </section>
+        <div class="power-insight-grid">
+          <div class="power-insight is-star"><span>Top performers</span><strong>${escapeHtml(ranking.stars)}</strong></div>
+          <div class="power-insight is-short"><span>Fell short</span><strong>${escapeHtml(ranking.shortfall)}</strong></div>
+          <div class="power-insight is-moment"><span>Week-defining moment</span><strong>${escapeHtml(ranking.moment)}</strong></div>
+        </div>
+        <div class="power-social">
+          <div class="power-social-left">
+            ${reactionButtons ? `<div class="power-reaction-row">${reactionButtons}</div>` : `<span class="power-no-reactions">No reactions yet</span>`}
+            <button class="power-action" data-power-add-reaction="${key}" type="button"><span>☺+</span> Add reaction</button>
+            <button class="power-action" data-power-reply="${key}" type="button"><span>↩</span> Reply${comments.length ? ` (${comments.length})` : ""}</button>
+          </div>
+          ${pickerIsOpen ? `<div class="power-reaction-picker" role="group" aria-label="Choose a reaction">${EMOJIS.map((emoji) => `<button data-power-reaction="${emoji}" data-ranking-key="${key}" aria-label="React ${emoji}">${emoji}</button>`).join("")}<button data-power-close-reactions aria-label="Close reaction picker">×</button></div>` : ""}
+        </div>
+        ${comments.length ? `<div class="power-thread">${comments.map((comment) => { const author = profileFor(comment.user_id); const authorName = author?.display_name || comment.author_name; const authorAvatar = author?.avatar_url || comment.author_avatar; return `<div class="power-comment">${authorAvatar ? `<img src="${escapeAttr(authorAvatar)}" alt="" />` : `<span>${initials(authorName)}</span>`}<div><strong>${escapeHtml(authorName)}</strong><p>${escapeHtml(comment.body)}</p><small>${formatMessageTime(comment.created_at)}</small></div></div>`; }).join("")}</div>` : ""}
+        ${replyIsOpen ? `<form class="power-reply-form" data-power-reply-form="${key}"><input maxlength="500" placeholder="Reply to this ranking" aria-label="Reply to ${escapeAttr(team.name)} ranking" required /><button type="submit">Reply</button><button type="button" data-power-cancel-reply>Cancel</button></form>` : ""}
+      </div>
+    </article>`;
+  }).join("");
+}
+
+async function handlePowerRankingClick(event) {
+  const reply = event.target.closest("[data-power-reply]");
+  const addReaction = event.target.closest("[data-power-add-reaction]");
+  const reaction = event.target.closest("[data-power-reaction]");
+  const cancelReply = event.target.closest("[data-power-cancel-reply]");
+  const closeReactions = event.target.closest("[data-power-close-reactions]");
+  if (!reply && !addReaction && !reaction && !cancelReply && !closeReactions) return;
+  if (!state.user) {
+    toast("Sign in with Google to react or reply to Power Rankings.");
+    return;
+  }
+  if (!state.profile?.team_id) {
+    openProfileModal();
+    return;
+  }
+  if (reply) {
+    const key = reply.dataset.powerReply;
+    state.activePowerReplyKey = state.activePowerReplyKey === key ? null : key;
+    state.activePowerReactionKey = null;
+    renderPowerRankings();
+    $(`[data-power-reply-form="${key}"] input`)?.focus();
+    return;
+  }
+  if (addReaction) {
+    const key = addReaction.dataset.powerAddReaction;
+    state.activePowerReactionKey = state.activePowerReactionKey === key ? null : key;
+    state.activePowerReplyKey = null;
+    renderPowerRankings();
+    return;
+  }
+  if (cancelReply) {
+    state.activePowerReplyKey = null;
+    renderPowerRankings();
+    return;
+  }
+  if (closeReactions) {
+    state.activePowerReactionKey = null;
+    renderPowerRankings();
+    return;
+  }
+  await togglePowerReaction(reaction.dataset.rankingKey, reaction.dataset.powerReaction);
+}
+
+async function togglePowerReaction(rankingKey, emoji) {
+  const existing = state.powerReactions.find((reaction) => reaction.ranking_key === rankingKey && reaction.user_id === state.user.id && reaction.emoji === emoji);
+  try {
+    if (existing) {
+      await supabaseRequest(`/rest/v1/power_ranking_reactions?id=eq.${existing.id}`, { method: "DELETE" });
+    } else {
+      await supabaseRequest("/rest/v1/power_ranking_reactions", {
+        method: "POST",
+        headers: { Prefer: "return=minimal" },
+        body: JSON.stringify({ ranking_key: rankingKey, user_id: state.user.id, emoji }),
+      });
+    }
+    state.activePowerReactionKey = null;
+    await loadPowerRankingActivity(true);
+  } catch (error) { toast(readableError(error, "Could not save that Power Ranking reaction.")); }
+}
+
+async function handlePowerReplySubmit(event) {
+  const form = event.target.closest("[data-power-reply-form]");
+  if (!form) return;
+  event.preventDefault();
+  const body = $("input", form).value.trim();
+  if (!body || !state.user || !state.profile) return;
+  try {
+    await supabaseRequest("/rest/v1/power_ranking_comments", {
+      method: "POST",
+      headers: { Prefer: "return=minimal" },
+      body: JSON.stringify({
+        ranking_key: form.dataset.powerReplyForm,
+        user_id: state.user.id,
+        author_name: state.profile.display_name,
+        author_avatar: state.profile.avatar_url,
+        body,
+      }),
+    });
+    state.activePowerReplyKey = null;
+    await loadPowerRankingActivity(true);
+  } catch (error) { toast(readableError(error, "Could not post that Power Ranking reply.")); }
 }
 
 async function createPost(event) {

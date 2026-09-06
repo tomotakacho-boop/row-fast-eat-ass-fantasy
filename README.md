@@ -4,7 +4,7 @@ A private, mobile-friendly league website with:
 
 - live ESPN East/West standings with member pictures, matchup schedules, and the confirmed 2026 draft order;
 - the $2,100 prize-pool breakdown;
-- a Power Rankings “coming soon” workspace;
+- a clearly labeled sample Power Rankings issue with model scores, records, previous results, editorial blurbs, player callouts, reactions, and replies;
 - a Discord-style league feed with Google login, persistent profile pictures, clean messages, hover-to-reply controls, on-demand emoji reactions, and threaded replies.
 
 The repository contains no ESPN cookies, Google secrets, or database secrets. Those values stay in Netlify and Supabase.
@@ -21,6 +21,8 @@ The repository contains no ESPN cookies, Google secrets, or database secrets. Th
 2. Open **SQL Editor**, paste all of [`supabase/schema.sql`](supabase/schema.sql), and run it once. The script also creates the public `profile-images` Storage bucket and secure per-user upload policies. It is safe to rerun after an update.
 
 If profile uploads report **Bucket not found**, run only [`supabase/profile-images-setup.sql`](supabase/profile-images-setup.sql) in the same Supabase project's SQL Editor. The final query must return one public bucket named `profile-images`.
+
+If this project was already deployed before Power Rankings conversations were added, also run [`supabase/power-rankings-setup.sql`](supabase/power-rankings-setup.sql) once. This creates the two small tables and security policies used by ranking reactions and replies.
 3. Open **Authentication → Providers → Google** and enable Google. Supabase will show the callback URL to place in the Google Cloud OAuth client.
 4. In Google Cloud, create an OAuth 2.0 Web Client and add Supabase's callback URL as an authorized redirect URI. Paste the Google Client ID and Client Secret back into Supabase.
 5. In **Authentication → URL Configuration**, set the Site URL to the Netlify URL and add both the production URL and `http://localhost:8888` to Redirect URLs.
@@ -67,9 +69,15 @@ Then open the exact local URL shown by Netlify. A plain file preview will displa
 
 The confirmed twelve teams and managers are defined once at the top of `public/app.js`. ESPN supplies the live records and schedule; this local list supplies the preseason fallback and member directory.
 
+## Publishing a real Power Rankings issue
+
+The current page is intentionally labeled **Sample · Work in progress**. Its twelve sample entries live in `SAMPLE_POWER_RANKINGS` near the top of `public/app.js`. Replace each entry's rank, score, record, prior result, headline, blurb, top performers, shortfall, and defining moment when the first real issue is ready.
+
+The function `powerRankingKey()` assigns the conversation thread for an issue. Change `sample-week-1` to a new unique issue key (for example, `2026-week-2`) when publishing a new week so its reactions and replies begin cleanly instead of carrying over from the sample.
+
 ## Security notes
 
-- Feed tables use Supabase Row Level Security. Only authenticated, allowed members can read or write feed content.
+- Feed and Power Rankings conversation tables use Supabase Row Level Security. Only authenticated, allowed members can read or write conversation content.
 - Post and reply author information is stamped from the signed-in member's profile by database triggers.
 - The ESPN function validates the Supabase login before returning private league data.
 - `SUPABASE_ANON_KEY` is designed to be public and is safe in browser configuration when Row Level Security remains enabled. Never use a Supabase service-role key in this site.

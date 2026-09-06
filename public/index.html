@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css?v=9" />
+    <link rel="stylesheet" href="/styles.css?v=10" />
   </head>
   <body>
     <header class="site-header">
@@ -115,23 +115,35 @@
 
       <section class="view" id="view-power" data-view-panel="power">
         <div class="page-shell power-shell">
-          <div class="coming-soon-hero">
-            <div class="coming-icon">↗</div>
-            <p class="eyebrow eyebrow-light">In the lab</p>
-            <h1>Power rankings are coming soon.</h1>
-            <p>We’ll combine results, roster strength, expected points, luck, and strength of schedule—then layer in the league’s own weekly blurbs.</p>
-          </div>
-          <div class="model-preview">
-            <div class="panel-heading"><div><p class="eyebrow">Planned model</p><h2>The weekly signal stack</h2></div><span class="season-pill">Version 0.1</span></div>
-            <div class="signal-grid">
-              <article><span>01</span><h3>Results</h3><p>Record, scoring margin, and recent form.</p></article>
-              <article><span>02</span><h3>Roster strength</h3><p>Starter quality, depth, and rest-of-season outlook.</p></article>
-              <article><span>03</span><h3>Expected wins</h3><p>How often each weekly score would beat the league.</p></article>
-              <article><span>04</span><h3>Schedule context</h3><p>Opponent difficulty and points-against luck.</p></article>
-              <article><span>05</span><h3>League voice</h3><p>Manager-written blurbs, takes, and receipts.</p></article>
+          <div class="power-sample-hero">
+            <div>
+              <span class="sample-badge">Sample · Work in progress</span>
+              <p class="eyebrow eyebrow-light">Week 1 template</p>
+              <h1>The first read on the league.</h1>
+              <p class="power-hero-copy">A magazine-style weekly ranking built from the model, the scoreboard, and what actually happened. All records, scores, player performances, and commentary below are fictional sample content.</p>
+            </div>
+            <div class="sample-issue">
+              <span>Issue 00</span>
+              <strong>Model v0.1</strong>
+              <small>Calibration preview</small>
             </div>
           </div>
-          <div class="team-preview-grid" id="power-team-grid"></div>
+          <div class="power-model-strip">
+            <div><span>Current input</span><strong>Weekly result</strong></div>
+            <div><span>Current input</span><strong>Scoring strength</strong></div>
+            <div><span>Current input</span><strong>Roster outlook</strong></div>
+            <div><span>Current input</span><strong>Schedule context</strong></div>
+            <div><span>Coming next</span><strong>Calibration</strong></div>
+          </div>
+          <div class="power-list-heading">
+            <div><p class="eyebrow">The sample twelve</p><h2>Week 1 power rankings</h2></div>
+            <p id="power-social-status">Sign in to react and reply to each team’s write-up.</p>
+          </div>
+          <div class="power-rankings-list" id="power-rankings-list"></div>
+          <div class="power-method-note">
+            <strong>Template note</strong>
+            <p>The order and 0–100 scores are placeholders. After Week 1, the model weights, team records, previous matchup, player notes, and editorial blurbs can be replaced without changing this layout or its conversation threads.</p>
+          </div>
         </div>
       </section>
 
@@ -202,6 +214,6 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="/app.js?v=9"></script>
+    <script type="module" src="/app.js?v=10"></script>
   </body>
 </html>
