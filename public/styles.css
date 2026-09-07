@@ -471,11 +471,16 @@ td:nth-child(1), td:nth-child(2) { text-align: left; }
 .composer-media-chip button { position: absolute; top: 4px; right: 5px; border: 0; background: transparent; color: #fff; font-size: 21px; cursor: pointer; }
 
 .gif-picker { position: absolute; right: 18px; bottom: 72px; z-index: 65; width: min(520px, calc(100vw - 40px)); padding: 12px; border: 1px solid #444852; border-radius: 10px; background: #202225; box-shadow: 0 16px 45px rgba(0,0,0,.42); }
-.gif-picker-head { display: flex; gap: 8px; }
-.gif-picker-head input { flex: 1; min-width: 0; }
+.gif-search { display: flex; gap: 8px; }
+.gif-search input { flex: 1; min-width: 0; }
 .gif-results { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; max-height: 360px; margin-top: 10px; overflow-y: auto; }
 .gif-result { padding: 0; border: 0; border-radius: 5px; overflow: hidden; background: #111; cursor: pointer; }
 .gif-result img { display: block; width: 100%; height: 100px; object-fit: cover; }
+.gif-link-fallback { display: grid; gap: 7px; margin-top: 10px; padding-top: 10px; border-top: 1px solid #444852; color: #b9bec9; font-size: 12px; }
+.gif-link-fallback div { display: flex; gap: 7px; }
+.gif-link-fallback input { flex: 1; min-width: 0; }
+.gif-link-fallback a { width: fit-content; color: #8ea7ff; }
+.gif-config-note { grid-column: 1 / -1; padding: 12px; border-radius: 7px; background: #292c33; color: #d3d7df; line-height: 1.45; }
 
 .trade-toolbar, .meme-channel-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 16px 20px; border-bottom: 1px solid rgba(255,255,255,.08); background: #26282e; color: #fff; }
 .trade-toolbar div, .meme-channel-toolbar div { display: grid; gap: 3px; }
@@ -492,6 +497,15 @@ td:nth-child(1), td:nth-child(2) { text-align: left; }
 
 .modal-compact { width: min(560px, calc(100vw - 32px)); }
 .form-two-up { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.player-combobox { position: relative; }
+.player-options { position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; right: 0; max-height: 280px; overflow-y: auto; border: 1px solid var(--line); border-radius: 7px; background: #fffdf8; box-shadow: 0 14px 35px rgba(12, 25, 45, .18); }
+.player-option { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; width: 100%; padding: 10px 12px; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: var(--ink); text-align: left; cursor: pointer; }
+.player-option:last-child { border-bottom: 0; }
+.player-option:hover, .player-option.is-active { background: #f3ead4; }
+.player-option strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.player-option span { color: var(--muted); font-size: 11px; font-weight: 800; }
+.player-options-loading { padding: 12px; color: var(--muted); font-size: 12px; }
+#trade-position[readonly], #trade-nfl-team[readonly] { background: #f3f1eb; color: var(--muted); }
 .meme-editor-grid { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(340px, 1.2fr); gap: 18px; align-items: start; }
 .meme-controls { display: grid; gap: 12px; }
 .meme-controls label { display: grid; gap: 5px; }

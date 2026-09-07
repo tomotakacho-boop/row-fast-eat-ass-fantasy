@@ -222,7 +222,13 @@
             <div class="composer-preview" id="composer-preview" hidden></div>
             <div class="gif-picker" id="gif-picker" hidden>
               <div class="gif-search"><input id="gif-search" maxlength="80" placeholder="Search GIPHY" /><button id="gif-search-button" type="button">Search</button><button id="gif-close" type="button" aria-label="Close GIF picker">×</button></div>
-              <div class="gif-results" id="gif-results"></div><small>Powered by GIPHY</small>
+              <div class="gif-results" id="gif-results"></div>
+              <div class="gif-link-fallback">
+                <span>Or paste a direct GIF link</span>
+                <div><input id="gif-url" type="url" inputmode="url" placeholder="https://media.giphy.com/…/giphy.gif" /><button id="gif-use-url" type="button">Use GIF</button></div>
+                <a id="gif-browse-link" href="https://giphy.com/" target="_blank" rel="noopener noreferrer">Browse GIPHY in a new tab</a>
+              </div>
+              <small>Powered by GIPHY</small>
             </div>
             <p class="composer-note" id="composer-note">Only signed-in league members can post, react, or reply.</p>
           </section>
@@ -264,8 +270,11 @@
         <button class="modal-close" data-close-modal="trade-modal" type="button" aria-label="Close trade block form">×</button>
         <p class="eyebrow">Trade block</p><h2 id="trade-title">Put a player on the block</h2>
         <form id="trade-form">
-          <label>Player name<input id="trade-player" maxlength="80" required /></label>
-          <div class="form-two-up"><label>Position<input id="trade-position" maxlength="10" placeholder="RB" /></label><label>NFL team<input id="trade-nfl-team" maxlength="10" placeholder="DET" /></label></div>
+          <label class="player-combobox">Player name
+            <input id="trade-player" maxlength="80" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="trade-player-options" aria-expanded="false" placeholder="Start typing a player name…" required />
+            <div class="player-options" id="trade-player-options" role="listbox" hidden></div>
+          </label>
+          <div class="form-two-up"><label>Position<input id="trade-position" maxlength="10" placeholder="—" readonly /></label><label>NFL team<input id="trade-nfl-team" maxlength="10" placeholder="—" readonly /></label></div>
           <label>What are you looking for?<textarea id="trade-note" maxlength="300" rows="3" placeholder="Open to offers…"></textarea></label>
           <div class="modal-actions"><button class="button" data-close-modal="trade-modal" type="button">Cancel</button><button class="button button-gold" type="submit">Add player</button></div>
         </form>

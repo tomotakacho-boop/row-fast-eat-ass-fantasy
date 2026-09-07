@@ -31,7 +31,7 @@ If this project was already deployed before Power Rankings conversations were ad
 
    - `SUPABASE_URL` — use only the project origin, such as `https://xxxxx.supabase.co`; do not include `/rest/v1`
    - `SUPABASE_ANON_KEY` (Supabase's public publishable/anon key)
-   - `GIPHY_API_KEY` (optional, enables GIF search in the league feed and trade talk)
+   - `GIPHY_API_KEY` (optional, enables private server-side GIF search in the league feed and trade talk; direct GIF links work without it)
 
 7. Restrict sign-in with either or both of these Netlify variables:
 
@@ -44,7 +44,7 @@ The **Log in** and **Sign up** buttons both use Google's secure OAuth screen. On
 
 After Google redirects back, the header must show a green **Signed in** indicator with the member's Google name or email. If the header still shows Log in / Sign up, confirm that `SUPABASE_ANON_KEY` contains the public publishable/anon key (not a URL), then trigger a fresh Netlify deploy. The site surfaces incomplete OAuth callbacks instead of silently returning to Overview.
 
-For the active `#trade-talk`, image/GIF messages, and meme studio, run `supabase/channels-media-trades-setup.sql` once in the Supabase SQL Editor. It adds the channel columns, trade tables, row-level policies, and the `channel-media` Storage bucket. Add an optional GIPHY developer API key as `GIPHY_API_KEY` in Netlify, then redeploy, to enable in-app GIF search.
+For the active `#trade-talk`, image/GIF messages, and meme studio, run `supabase/channels-media-trades-setup.sql` once in the Supabase SQL Editor. It adds the channel columns, trade tables, row-level policies, and the `channel-media` Storage bucket. Trade-player autocomplete is backed by the included 402-player full-PPR data file. Add an optional GIPHY developer API key as `GIPHY_API_KEY` in Netlify, then redeploy, to enable in-app GIF search. The key stays in the Netlify function and is no longer sent to browsers; without it, members can browse GIPHY and paste a direct GIF link.
 
 ## Connect the private ESPN league
 

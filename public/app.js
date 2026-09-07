@@ -325,6 +325,11 @@ const state = {
   activeChannel: "league-feed",
   tradeItems: [],
   tradeInterests: [],
+  players: [],
+  playerLoadPromise: null,
+  tradeMatches: [],
+  tradeSuggestionIndex: -1,
+  selectedTradePlayer: null,
   composerFile: null,
   composerMedia: null,
   composerPreviewUrl: "",
@@ -420,12 +425,18 @@ function bindInterface() {
   $("#gif-search").addEventListener("keydown", (event) => { if (event.key === "Enter") { event.preventDefault(); searchGifs(); } });
   $("#gif-close").addEventListener("click", closeGifPicker);
   $("#gif-results").addEventListener("click", chooseGif);
+  $("#gif-use-url").addEventListener("click", useGifUrl);
+  $("#gif-url").addEventListener("keydown", (event) => { if (event.key === "Enter") { event.preventDefault(); useGifUrl(); } });
   $("#composer-preview").addEventListener("click", (event) => {
     if (event.target.closest("[data-clear-media]")) clearComposerMedia();
   });
   $$("[data-channel]").forEach((button) => button.addEventListener("click", () => selectChannel(button.dataset.channel)));
   $("#channel-plugin").addEventListener("click", handleChannelPluginClick);
   $("#trade-form").addEventListener("submit", createTradeItem);
+  $("#trade-player").addEventListener("input", handleTradePlayerInput);
+  $("#trade-player").addEventListener("focus", handleTradePlayerInput);
+  $("#trade-player").addEventListener("keydown", handleTradePlayerKeydown);
+  $("#trade-player-options").addEventListener("mousedown", chooseTradePlayer);
   $("#meme-form").addEventListener("submit", createMemePost);
   $("#meme-base").addEventListener("change", handleMemeBase);
   $("#meme-overlay").addEventListener("change", handleMemeOverlay);
@@ -448,6 +459,9 @@ function bindInterface() {
     if (!$("#trade-modal").hidden) closeModal("trade-modal");
     if (!$("#meme-modal").hidden) closeModal("meme-modal");
     closeGifPicker();
+  });
+  document.addEventListener("mousedown", (event) => {
+    if (!event.target.closest(".player-combobox")) hideTradePlayerOptions();
   });
   $("#message-list").addEventListener("click", handleMessageClick);
   $("#message-list").addEventListener("submit", handleReplySubmit);
@@ -487,7 +501,7 @@ async function loadRuntimeConfig() {
     if (!response.ok) throw new Error("Runtime configuration is unavailable.");
     return await response.json();
   } catch {
-    return { supabaseUrl: "", supabaseAnonKey: "", allowedDomain: "", giphyApiKey: "", configured: false };
+    return { supabaseUrl: "", supabaseAnonKey: "", allowedDomain: "", giphyConfigured: false, configured: false };
   }
 }
 
@@ -1423,7 +1437,10 @@ function toggleGifPicker() {
   const picker = $("#gif-picker");
   if (!picker) return;
   picker.hidden = !picker.hidden;
-  if (!picker.hidden) $("#gif-search")?.focus();
+  if (!picker.hidden) {
+    if (!state.config?.giphyConfigured && !$("#gif-results").children.length) renderGifSetupNote();
+    $("#gif-search")?.focus();
+  }
 }
 
 function closeGifPicker() {
@@ -1435,23 +1452,53 @@ async function searchGifs() {
   const results = $("#gif-results");
   const query = $("#gif-search")?.value.trim();
   if (!results || !query) return;
-  if (!state.config.giphyApiKey) {
-    results.innerHTML = "<p class=\"empty-note\">Add GIPHY_API_KEY in Netlify to enable GIF search.</p>";
+  updateGifBrowseLink(query);
+  if (!state.config?.giphyConfigured) {
+    renderGifSetupNote(query);
     return;
   }
   results.innerHTML = "<p class=\"empty-note\">Searching…</p>";
   try {
-    const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${encodeURIComponent(state.config.giphyApiKey)}&q=${encodeURIComponent(query)}&limit=18&rating=pg-13`);
-    if (!response.ok) throw new Error("GIF search failed.");
+    const response = await fetch(`/.netlify/functions/giphy-search?q=${encodeURIComponent(query)}`, { headers: { Authorization: `Bearer ${state.session.access_token}` } });
     const payload = await response.json();
+    if (!response.ok) throw new Error(payload.error || "GIF search failed.");
     results.innerHTML = payload.data.map((gif) => {
-      const preview = gif.images.fixed_width_small?.url || gif.images.fixed_width?.url;
-      const url = gif.images.original?.url || preview;
+      const preview = gif.preview;
+      const url = gif.url || preview;
       return `<button type="button" class="gif-result" data-gif-url="${escapeAttr(url)}" data-gif-preview="${escapeAttr(preview)}" data-gif-title="${escapeAttr(gif.title || "GIPHY GIF")}"><img src="${escapeAttr(preview)}" alt="${escapeAttr(gif.title || "GIF")}" loading="lazy"></button>`;
     }).join("") || "<p class=\"empty-note\">No GIFs found.</p>";
   } catch (error) {
     results.innerHTML = `<p class="empty-note">${escapeHtml(readableError(error, "Could not search GIFs."))}</p>`;
   }
+}
+
+function renderGifSetupNote(query = "") {
+  updateGifBrowseLink(query);
+  $("#gif-results").innerHTML = `<div class="gif-config-note"><strong>In-app search needs a one-time GIPHY key.</strong><br>You can still browse GIPHY and paste a direct GIF link below.</div>`;
+}
+
+function updateGifBrowseLink(query = "") {
+  const link = $("#gif-browse-link");
+  if (link) link.href = query ? `https://giphy.com/search/${encodeURIComponent(query)}` : "https://giphy.com/";
+}
+
+function useGifUrl() {
+  const input = $("#gif-url");
+  const rawUrl = input?.value.trim();
+  if (!rawUrl) return;
+  let url;
+  try { url = new URL(rawUrl); } catch { return toast("Paste a valid direct GIF link."); }
+  const path = url.pathname.toLowerCase();
+  const isDirectImage = /\.(gif|webp)$/.test(path);
+  const isGiphyMedia = /(^|\.)giphy\.com$/.test(url.hostname.toLowerCase()) && path.includes("/media/");
+  if (url.protocol !== "https:" || (!isDirectImage && !isGiphyMedia)) {
+    return toast("Use a direct HTTPS GIF link, such as a media.giphy.com link ending in .gif.");
+  }
+  clearComposerMedia();
+  state.composerMedia = { url: url.href, previewUrl: url.href, type: "gif", alt: "Shared GIF" };
+  input.value = "";
+  renderComposerPreview();
+  closeGifPicker();
 }
 
 function chooseGif(event) {
@@ -1470,13 +1517,136 @@ function chooseGif(event) {
 
 function handleChannelPluginClick(event) {
   const tradeButton = event.target.closest("[data-open-trade]");
-  if (tradeButton) return openModal("trade-modal");
+  if (tradeButton) return openTradeModal();
   const memeButton = event.target.closest("[data-open-meme]");
   if (memeButton) return openModal("meme-modal");
   const interestButton = event.target.closest("[data-trade-interest]");
   if (interestButton) return toggleTradeInterest(interestButton.dataset.tradeInterest);
   const closeButton = event.target.closest("[data-close-trade]");
   if (closeButton) return closeTradeItem(closeButton.dataset.closeTrade);
+}
+
+async function openTradeModal() {
+  state.selectedTradePlayer = null;
+  state.tradeMatches = [];
+  state.tradeSuggestionIndex = -1;
+  $("#trade-form")?.reset();
+  openModal("trade-modal");
+  $("#trade-player-options").innerHTML = '<div class="player-options-loading">Loading the 402-player database…</div>';
+  $("#trade-player-options").hidden = false;
+  $("#trade-player").setAttribute("aria-expanded", "true");
+  $("#trade-player")?.focus();
+  try {
+    await loadPlayerDatabase();
+    renderTradePlayerOptions($("#trade-player")?.value || "");
+  } catch {
+    $("#trade-player-options").innerHTML = '<div class="player-options-loading">Player data could not be loaded. Refresh and try again.</div>';
+  }
+}
+
+async function loadPlayerDatabase() {
+  if (state.players.length) return state.players;
+  if (!state.playerLoadPromise) {
+    state.playerLoadPromise = fetch("/data/players-full-ppr.json", { cache: "force-cache" })
+      .then((response) => {
+        if (!response.ok) throw new Error("Player data unavailable.");
+        return response.json();
+      })
+      .then((payload) => {
+        state.players = (payload.players || [])
+          .filter((player) => player?.name && player?.pos && player?.team)
+          .sort((a, b) => (Number(a.rank) || 9999) - (Number(b.rank) || 9999));
+        return state.players;
+      })
+      .catch((error) => {
+        state.playerLoadPromise = null;
+        throw error;
+      });
+  }
+  return state.playerLoadPromise;
+}
+
+async function handleTradePlayerInput() {
+  const input = $("#trade-player");
+  const query = input?.value || "";
+  if (state.selectedTradePlayer && query !== state.selectedTradePlayer.name) {
+    state.selectedTradePlayer = null;
+    $("#trade-position").value = "";
+    $("#trade-nfl-team").value = "";
+  }
+  try {
+    await loadPlayerDatabase();
+    if (input.value !== query) return;
+    renderTradePlayerOptions(query);
+  } catch {
+    hideTradePlayerOptions();
+  }
+}
+
+function renderTradePlayerOptions(query) {
+  const root = $("#trade-player-options");
+  const input = $("#trade-player");
+  if (!root || !input) return;
+  const needle = normalizePlayerSearch(query);
+  const candidates = state.players
+    .map((player) => ({ player, name: normalizePlayerSearch(player.name) }))
+    .filter(({ name }) => !needle || name.includes(needle))
+    .sort((a, b) => {
+      const aStarts = needle && a.name.startsWith(needle) ? 0 : 1;
+      const bStarts = needle && b.name.startsWith(needle) ? 0 : 1;
+      return aStarts - bStarts || (Number(a.player.rank) || 9999) - (Number(b.player.rank) || 9999);
+    })
+    .slice(0, 8)
+    .map(({ player }) => player);
+  state.tradeMatches = candidates;
+  state.tradeSuggestionIndex = candidates.length ? 0 : -1;
+  root.innerHTML = candidates.map((player, index) => `<button type="button" class="player-option ${index === 0 ? "is-active" : ""}" role="option" aria-selected="${index === 0}" data-player-index="${index}"><strong>${escapeHtml(player.name)}</strong><span>${escapeHtml(player.pos)} · ${escapeHtml(player.team)}</span></button>`).join("") || '<div class="player-options-loading">No matching players found.</div>';
+  root.hidden = false;
+  input.setAttribute("aria-expanded", "true");
+}
+
+function handleTradePlayerKeydown(event) {
+  const root = $("#trade-player-options");
+  if (event.key === "Escape") return hideTradePlayerOptions();
+  if (root.hidden || !state.tradeMatches.length) return;
+  if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    event.preventDefault();
+    const direction = event.key === "ArrowDown" ? 1 : -1;
+    state.tradeSuggestionIndex = (state.tradeSuggestionIndex + direction + state.tradeMatches.length) % state.tradeMatches.length;
+    $$(".player-option", root).forEach((option, index) => {
+      option.classList.toggle("is-active", index === state.tradeSuggestionIndex);
+      option.setAttribute("aria-selected", String(index === state.tradeSuggestionIndex));
+    });
+  } else if (event.key === "Enter") {
+    event.preventDefault();
+    selectTradePlayer(state.tradeMatches[Math.max(0, state.tradeSuggestionIndex)]);
+  }
+}
+
+function chooseTradePlayer(event) {
+  const option = event.target.closest("[data-player-index]");
+  if (!option) return;
+  event.preventDefault();
+  selectTradePlayer(state.tradeMatches[Number(option.dataset.playerIndex)]);
+}
+
+function selectTradePlayer(player) {
+  if (!player) return;
+  state.selectedTradePlayer = player;
+  $("#trade-player").value = player.name;
+  $("#trade-position").value = player.pos;
+  $("#trade-nfl-team").value = player.team;
+  hideTradePlayerOptions();
+}
+
+function hideTradePlayerOptions() {
+  const root = $("#trade-player-options");
+  if (root) root.hidden = true;
+  $("#trade-player")?.setAttribute("aria-expanded", "false");
+}
+
+function normalizePlayerSearch(value) {
+  return String(value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
 }
 
 function renderTradeBlock() {
@@ -1496,8 +1666,15 @@ function renderTradeBlock() {
 async function createTradeItem(event) {
   event.preventDefault();
   if (!state.profile) return openProfileModal();
-  const playerName = $("#trade-player")?.value.trim();
-  if (!playerName) return;
+  const typedName = $("#trade-player")?.value.trim();
+  if (!typedName) return;
+  if (!state.selectedTradePlayer || state.selectedTradePlayer.name !== typedName) {
+    await loadPlayerDatabase();
+    state.selectedTradePlayer = state.players.find((player) => normalizePlayerSearch(player.name) === normalizePlayerSearch(typedName)) || null;
+  }
+  if (!state.selectedTradePlayer) return toast("Choose a player from the 402-player list before adding them.");
+  const player = state.selectedTradePlayer;
+  const note = $("#trade-note")?.value.trim() || null;
   try {
     await supabaseRequest("/rest/v1/trade_block_items", {
       method: "POST",
@@ -1507,15 +1684,39 @@ async function createTradeItem(event) {
         author_name: state.profile.display_name,
         author_team_id: state.profile.team_id,
         author_team_name: state.profile.team_name,
-        player_name: playerName,
-        position: $("#trade-position")?.value.trim() || null,
-        nfl_team: $("#trade-nfl-team")?.value.trim() || null,
-        note: $("#trade-note")?.value.trim() || null,
+        player_name: player.name,
+        position: player.pos,
+        nfl_team: player.team,
+        note,
       }),
     });
+    let announcementSaved = true;
+    try {
+      await supabaseRequest("/rest/v1/feed_posts", {
+        method: "POST",
+        headers: { Prefer: "return=minimal" },
+        body: JSON.stringify({
+          user_id: state.user.id,
+          author_name: state.profile.display_name,
+          author_avatar: state.profile.avatar_url,
+          author_team_id: state.profile.team_id,
+          author_team_name: state.profile.team_name,
+          body: `Put ${player.name} (${player.pos} · ${player.team}) on the trade block.${note ? ` Looking for: ${note}` : ""}`,
+          channel: "trade-talk",
+          media_url: null,
+          media_type: null,
+          media_alt: null,
+        }),
+      });
+    } catch {
+      announcementSaved = false;
+    }
     closeModal("trade-modal");
     $("#trade-form")?.reset();
+    state.selectedTradePlayer = null;
+    hideTradePlayerOptions();
     await loadFeed(true);
+    toast(announcementSaved ? `${player.name} is now on the trade block.` : `${player.name} was added, but the channel announcement could not be posted.`);
   } catch (error) { toast(readableError(error, "Could not add that player.")); }
 }
 

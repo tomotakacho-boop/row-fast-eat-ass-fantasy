@@ -1,11 +1,10 @@
 export default async () => {
   const supabaseUrl = normalizeSupabaseUrl(process.env.SUPABASE_URL || "");
   const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || "";
-  const giphyApiKey = process.env.GIPHY_API_KEY || "";
   return new Response(JSON.stringify({
     supabaseUrl,
     supabaseAnonKey,
-    giphyApiKey,
+    giphyConfigured: Boolean(process.env.GIPHY_API_KEY),
     allowedDomain: process.env.ALLOWED_GOOGLE_DOMAIN || "",
     configured: Boolean(supabaseUrl && supabaseAnonKey),
   }), {
