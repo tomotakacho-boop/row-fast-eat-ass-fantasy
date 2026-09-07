@@ -506,14 +506,24 @@ td:nth-child(1), td:nth-child(2) { text-align: left; }
 .player-option span { color: var(--muted); font-size: 11px; font-weight: 800; }
 .player-options-loading { padding: 12px; color: var(--muted); font-size: 12px; }
 #trade-position[readonly], #trade-nfl-team[readonly] { background: #f3f1eb; color: var(--muted); }
-.meme-editor-grid { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(340px, 1.2fr); gap: 18px; align-items: start; }
-.meme-controls { display: grid; gap: 12px; }
-.meme-controls label { display: grid; gap: 5px; }
+.meme-modal { width: min(1040px, calc(100vw - 40px)); overflow-x: hidden; }
+.meme-editor-grid { display: grid; grid-template-columns: minmax(270px, 340px) minmax(0, 1fr); gap: 24px; align-items: start; margin-top: 20px; }
+.meme-controls { min-width: 0; display: grid; gap: 12px; }
+.meme-controls label { display: grid; gap: 5px; margin: 0; }
 .meme-controls input[type="text"], .meme-controls input[type="file"], .meme-controls select { width: 100%; }
-#meme-canvas { display: block; width: 100%; max-height: 570px; border: 1px solid var(--line); background: #252525; object-fit: contain; }
+.modal label.check-label { display: flex; align-items: center; gap: 9px; margin: 2px 0; }
+.modal .check-label input[type="checkbox"] { width: 18px; min-width: 18px; height: 18px; padding: 0; margin: 0; accent-color: var(--gold); }
+.meme-preview-panel { min-width: 0; overflow: hidden; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: #f4f1e9; }
+.meme-preview-label { display: block; margin-bottom: 9px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+#meme-canvas { display: block; width: 100%; min-width: 0; max-width: 100%; height: auto; border: 1px solid #c9c3b7; background: #252525; }
+
+@media (max-width: 880px) {
+  .meme-modal { width: min(680px, calc(100vw - 24px)); padding: 24px; }
+  .meme-editor-grid { grid-template-columns: 1fr; }
+}
 
 @media (max-width: 760px) {
-  .meme-editor-grid, .form-two-up { grid-template-columns: 1fr; }
+  .form-two-up { grid-template-columns: 1fr; }
   .trade-card { flex-direction: column; }
   .trade-actions { grid-auto-flow: column; justify-content: start; justify-items: start; }
   .gif-results { grid-template-columns: repeat(2, 1fr); }
