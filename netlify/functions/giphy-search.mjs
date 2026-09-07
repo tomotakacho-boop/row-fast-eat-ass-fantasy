@@ -4,12 +4,6 @@ export default async (request) => {
   const apiKey = process.env.GIPHY_API_KEY || "";
   if (!apiKey) return json({ error: "In-app GIF search is not configured yet. Use the GIF-link option for now." }, 503);
 
-  try {
-    await requireLeagueMember(request);
-  } catch (error) {
-    return json({ error: error.message }, error.status || 401);
-  }
-
   const query = new URL(request.url).searchParams.get("q")?.trim().slice(0, 80);
   if (!query) return json({ error: "Enter a GIF search term." }, 400);
 
@@ -28,7 +22,7 @@ export default async (request) => {
       preview: gif.images?.fixed_width_small?.url || gif.images?.fixed_width?.url || gif.images?.original?.url || "",
       url: gif.images?.original?.url || gif.images?.fixed_width?.url || "",
     })).filter((gif) => gif.preview && gif.url);
-    return json({ data }, 200);
+    return json({ data, results: data }, 200);
   } catch {
     return json({ error: "GIPHY search is temporarily unavailable." }, 502);
   }

@@ -2,13 +2,27 @@
   publish = "public"
   functions = "netlify/functions"
 
+[[redirects]]
+  from = "/api/league"
+  to = "/.netlify/functions/espn-league"
+  status = 200
+
+[[redirects]]
+  from = "/api/config"
+  to = "/.netlify/functions/public-config"
+  status = 200
+
+[[redirects]]
+  from = "/api/giphy-search"
+  to = "/.netlify/functions/giphy-search"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
 [[headers]]
   for = "/styles.css"

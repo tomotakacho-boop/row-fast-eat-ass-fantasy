@@ -3,307 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Row Fast Eat Ass Season 10 league hub." />
     <meta name="theme-color" content="#101c32" />
-    <meta
-      name="description"
-      content="The private league hub for Row Fast Eat Ass Season 10."
-    />
     <title>Row Fast Eat Ass · League Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles.css?v=14" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css?v=15" />
   </head>
   <body>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#overview" aria-label="Row Fast league overview">
+        <a class="brand" href="#overview" aria-label="Row Fast Eat Ass home">
           <span class="brand-mark">R</span>
-          <span>
-            <span class="brand-kicker">Season 10 · 2026</span>
-            <strong>Row Fast Eat Ass</strong>
-          </span>
+          <span><small>SEASON 10 · 2026</small><strong>Row Fast Eat Ass</strong></span>
         </a>
-        <nav class="primary-nav" aria-label="Primary navigation">
+        <nav class="primary-nav" aria-label="League navigation">
           <button class="nav-link is-active" data-view="overview">Overview</button>
           <button class="nav-link" data-view="power">Power rankings</button>
           <button class="nav-link" data-view="methods">Methodology</button>
           <button class="nav-link" data-view="feed">League feed</button>
         </nav>
-        <div class="auth-actions" id="auth-actions">
-          <button class="button button-ghost" data-auth="login">Log in</button>
-          <button class="button button-gold" data-auth="signup">Sign up</button>
-        </div>
+        <button class="access-placeholder" id="auth-button" type="button"><span></span><div><small id="auth-kicker">MEMBER ACCESS</small><strong id="auth-label">Sign in with Google</strong></div></button>
       </div>
     </header>
 
     <main>
-      <section class="view is-active" id="view-overview" data-view-panel="overview">
+      <section class="view is-active" data-view-panel="overview">
         <div class="page-shell">
           <div class="page-heading">
-            <div>
-              <p class="eyebrow">League command center</p>
-              <h1>Everything that matters this week.</h1>
-              <p class="lede">Live standings, the current slate, and the chase for $2,100.</p>
-            </div>
-            <div class="sync-block">
-              <span class="status-dot" aria-hidden="true"></span>
-              <span><strong id="sync-label">ESPN connection ready</strong><small id="sync-time">Sign in to load the league</small></span>
-              <button class="icon-button" id="refresh-espn" aria-label="Refresh ESPN league data">↻</button>
-            </div>
+            <div><h1 class="compact-title">Overview</h1><p class="lede">Standings, matchups, and league activity.</p></div>
+            <div class="sync-block"><span class="status-dot is-offline" id="espn-status-dot"></span><span><strong id="espn-status">Connecting to ESPN</strong><small id="espn-updated">Loading league data</small></span></div>
           </div>
 
           <div class="overview-grid">
             <article class="panel standings-panel">
-              <div class="panel-heading">
-                <div><p class="eyebrow">The table</p><h2>League standings by division</h2></div>
-                <span class="season-pill">Regular season</span>
-              </div>
+              <div class="panel-heading"><div><h2>League standings</h2></div><span class="quiet-chip">12 teams · two divisions</span></div>
               <div class="division-grid">
-                <section class="division-section">
-                  <div class="division-heading"><h3>East</h3><span>6 teams</span></div>
-                  <div class="table-wrap">
-                    <table class="standings-table">
-                      <thead><tr><th>RK</th><th>Team</th><th>W-L-T</th><th>PF</th><th>PA</th><th>Streak</th></tr></thead>
-                      <tbody id="standings-east-body"></tbody>
-                    </table>
-                  </div>
-                </section>
-                <section class="division-section">
-                  <div class="division-heading"><h3>West</h3><span>6 teams</span></div>
-                  <div class="table-wrap">
-                    <table class="standings-table">
-                      <thead><tr><th>RK</th><th>Team</th><th>W-L-T</th><th>PF</th><th>PA</th><th>Streak</th></tr></thead>
-                      <tbody id="standings-west-body"></tbody>
-                    </table>
-                  </div>
-                </section>
+                <section class="division"><h3>East</h3><div class="standings-head"><span>RK</span><span>TEAM</span><span>W–L–T</span><span>PF</span></div><div id="standings-east"></div></section>
+                <section class="division"><h3>West</h3><div class="standings-head"><span>RK</span><span>TEAM</span><span>W–L–T</span><span>PF</span></div><div id="standings-west"></div></section>
               </div>
             </article>
 
             <aside class="overview-side">
-              <article class="prize-card panel">
-                <p class="eyebrow">Prize pool</p>
-                <div class="prize-total"><span>$</span>2,100</div>
-                <div class="prize-split">
-                  <div><span>Champion</span><strong>$1,260</strong><small>60%</small></div>
-                  <div><span>Runner-up</span><strong>$630</strong><small>30%</small></div>
-                  <div><span>Third</span><strong>$210</strong><small>10%</small></div>
-                </div>
-              </article>
-              <article class="panel schedule-panel">
-                <div class="panel-heading">
-                  <div><p class="eyebrow">Head to head</p><h2 id="schedule-title">Week 1 slate</h2></div>
-                  <select id="week-select" aria-label="Choose NFL week"></select>
-                </div>
-                <div class="schedule-list" id="schedule-list"></div>
-              </article>
+              <article class="panel prize-card"><p class="eyebrow">Prize pool</p><div class="prize-total">$2,100</div><div class="prize-line"><span>Champion · 60%</span><strong>$1,260</strong></div><div class="prize-line"><span>Runner-up · 30%</span><strong>$630</strong></div><div class="prize-line"><span>Third · 10%</span><strong>$210</strong></div></article>
+              <article class="panel slate-card"><div class="panel-heading compact"><div><h2>Week 1 matchups</h2></div><span class="quiet-chip">ESPN</span></div><div id="matchup-list"></div></article>
             </aside>
           </div>
 
-          <article class="panel draft-order-panel">
-            <div class="panel-heading">
-              <div><p class="eyebrow">Draft recap</p><h2>2026 draft order</h2></div>
-              <span class="season-pill">12-team snake</span>
-            </div>
-            <div class="draft-order-grid" id="draft-order-list"></div>
-          </article>
+          <section class="dashboard-strip" aria-label="League format">
+            <article><span>12</span><div><strong>Teams</strong><small>East and West · head-to-head points</small></div></article>
+            <article><span>1.0</span><div><strong>Points per reception</strong><small>Full-PPR scoring</small></div></article>
+            <article><span>9</span><div><strong>Starting lineup spots</strong><small>QB, 2 RB, 2 WR, TE, FLEX, D/ST, K</small></div></article>
+          </section>
         </div>
       </section>
 
-      <section class="view" id="view-power" data-view-panel="power">
+      <section class="view" data-view-panel="power">
         <div class="page-shell power-shell">
-          <div class="power-sample-hero">
-            <div>
-              <span class="sample-badge">Sample · Work in progress</span>
-              <p class="eyebrow eyebrow-light" id="power-week-kicker">Week 3 issue</p>
-              <h1 id="power-week-title">Three weeks in, the résumés are taking shape.</h1>
-              <p class="power-hero-copy" id="power-week-copy">A magazine-style weekly ranking built from roster strength, results, lineup decisions, and what actually happened. All records, scores, player performances, and commentary below are fictional sample content.</p>
-            </div>
-            <div class="power-archive">
-              <div class="sample-issue">
-                <span id="power-issue-number">Issue 03</span>
-                <strong id="power-model-version">Model v0.3</strong>
-                <small id="power-calibration-label">Early-season blend</small>
-              </div>
-              <div class="power-week-controls" aria-label="Choose a Power Rankings week">
-                <button id="power-prev-week" type="button" aria-label="Previous Power Rankings week">←</button>
-                <label for="power-week-select"><span>Archive</span><select id="power-week-select"><option value="0">Week 0 · Post-draft</option><option value="1">Week 1</option><option value="2">Week 2</option><option value="3" selected>Week 3 · Latest</option></select></label>
-                <button id="power-next-week" type="button" aria-label="Next Power Rankings week">→</button>
-              </div>
-            </div>
-          </div>
-          <div class="power-list-heading">
-            <div><p class="eyebrow">The sample twelve</p><h2 id="power-rankings-title">Week 3 power rankings</h2></div>
-            <p id="power-social-status">Sign in to react and reply to each team’s write-up.</p>
-          </div>
-          <div class="power-rankings-list" id="power-rankings-list"></div>
-          <div class="power-method-note" id="power-method-summary">
-            <strong>Template note</strong>
-            <p>Week 3 blends Team Strength (55%) and Performance Index (45%). The order and all football results remain fictional placeholders for this interface preview.</p>
-          </div>
+          <header class="power-hero"><span class="sample-label">WEEK 0 · PRESEASON</span><h1>Power rankings</h1><p>Rankings use ESPN’s projected score for each team’s best legal lineup. The ± figure shows expected week-to-week volatility.</p><div class="issue-stamp"><small>LEAGUE AVG</small><strong id="projected-league-average">—</strong><span>PROJECTED POINTS</span></div></header>
+          <div class="section-heading"><div><h2>Week 0 rankings</h2></div><span>Scores update when ESPN projections change.</span></div>
+          <div class="ranking-list" id="ranking-list"></div>
         </div>
       </section>
 
-      <section class="view" id="view-methods" data-view-panel="methods">
+      <section class="view" data-view-panel="methods">
         <div class="page-shell methods-shell">
-          <div class="methods-hero">
-            <div><p class="eyebrow eyebrow-light">Power Rankings model</p><h1>One forward-looking score. One earned score.</h1></div>
-            <p>Week 0 is a roster forecast. Once games begin, actual performance earns an increasing share of the published Power Score. This tab separates those ideas so draft reputation never masquerades as weekly production.</p>
+          <div class="page-heading"><div><h1>Methodology</h1><p class="lede">Week 0 uses projected roster strength. Weekly performance is added after games are played.</p></div></div>
+          <div class="method-grid">
+            <article class="panel method-card"><span>01</span><h2>55% · Starting lineup</h2><p>The highest projected legal Week 1 lineup: QB, two RB, two WR, TE, FLEX, D/ST, and kicker. This is the forecast’s primary input.</p></article>
+            <article class="panel method-card"><span>02</span><h2>25% · Star power</h2><p>The top three projected RB, WR, and TE players raise a team’s ceiling and receive more influence than interchangeable bench depth.</p></article>
+            <article class="panel method-card"><span>03</span><h2>5% · Skill depth</h2><p>The best remaining RB, WR, and TE options provide a small durability adjustment without overstating bench value.</p></article>
+            <article class="panel method-card"><span>04</span><h2>5% · Injury risk</h2><p>Questionable, doubtful, out, and injured-reserve designations reduce the projection according to the affected player’s expected role.</p></article>
+            <article class="panel method-card"><span>05</span><h2>10% · Wild card</h2><p>Low-owned players with meaningful projections, injury-created opportunity, and high-upside stashes create a controlled upside adjustment.</p></article>
+            <article class="panel method-card"><span>06</span><h2>Projected points ± volatility</h2><p>The raw optimized-lineup projection is the baseline. The other four factors make limited point adjustments around it—there is no preset league average or artificial score curve.</p></article>
           </div>
-
-          <section class="methods-section">
-            <div class="methods-heading"><p class="eyebrow">The two inputs</p><h2>What every 0–100 rating means</h2></div>
-            <div class="methods-two-up">
-              <article class="method-card"><span class="method-number">01</span><h3>Team Strength</h3><p>The post-draft roster grade and forward-looking outlook. It estimates how strong a team should be from this point forward, independent of its record.</p><ul><li><strong>45%</strong> projected starting-lineup production</li><li><strong>20%</strong> value over replacement</li><li><strong>15%</strong> weekly floor</li><li><strong>10%</strong> ceiling and spike-week potential</li><li><strong>10%</strong> depth, positional coverage, and resilience</li></ul></article>
-              <article class="method-card"><span class="method-number">02</span><h3>Performance Index</h3><p>The backward-looking grade earned on the field. It rewards strong scoring and good decisions without giving a team full credit or blame for opponent luck.</p><ul><li><strong>40%</strong> all-play performance</li><li><strong>25%</strong> points scored versus projection</li><li><strong>20%</strong> lineup efficiency</li><li><strong>15%</strong> opponent-adjusted result</li></ul></article>
-            </div>
-          </section>
-
-          <section class="methods-section">
-            <div class="methods-heading"><p class="eyebrow">The handoff</p><h2>How the blend changes by week</h2></div>
-            <div class="blend-table" role="table" aria-label="Power Rankings weekly weights">
-              <div class="blend-row blend-head" role="row"><span>Issue</span><span>Team Strength</span><span>Performance Index</span><span>Why</span></div>
-              <div class="blend-row" role="row"><strong>Week 0</strong><span><b>100%</b><i style="--share:100%"></i></span><span><b>0%</b><i style="--share:0%"></i></span><p>There are no games yet, so the Power Score equals Team Strength.</p></div>
-              <div class="blend-row" role="row"><strong>Week 1</strong><span><b>70%</b><i style="--share:70%"></i></span><span><b>30%</b><i style="--share:30%"></i></span><p>One result matters, but it is still a tiny sample.</p></div>
-              <div class="blend-row" role="row"><strong>Week 2</strong><span><b>60%</b><i style="--share:60%"></i></span><span><b>40%</b><i style="--share:40%"></i></span><p>Repeat performance starts moving teams more decisively.</p></div>
-              <div class="blend-row is-current" role="row"><strong>Weeks 3–4</strong><span><b>55%</b><i style="--share:55%"></i></span><span><b>45%</b><i style="--share:45%"></i></span><p>Results are nearly equal to the forward-looking roster view.</p></div>
-              <div class="blend-row" role="row"><strong>Week 5+</strong><span><b>50%</b><i style="--share:50%"></i></span><span><b>50%</b><i style="--share:50%"></i></span><p>The model balances current strength and the season résumé.</p></div>
-            </div>
-          </section>
-
-          <section class="methods-section methods-compact-grid">
-            <article><p class="eyebrow">Published score</p><h3>League-relative normalization</h3><code>75 + (10 × league z-score)</code><p>Each underlying composite is standardized against the twelve teams, then bounded from 40 to 99. A 75 is league-average context—not a school grade.</p></article>
-            <article><p class="eyebrow">Editorial layer</p><h3>The model ranks; people explain</h3><p>Records, player highlights, shortfalls, matchup context, and weekly blurbs explain the numerical result. Commentary does not secretly change the score.</p></article>
-            <article><p class="eyebrow">Guardrails</p><h3>Small samples stay small</h3><p>Opponent difficulty is adjusted, bench points are not treated as starter output, inactive players are excluded, and no single game can erase the roster baseline overnight.</p></article>
-          </section>
-
-          <div class="methods-disclaimer"><strong>Sample status</strong><p>The Week 0–3 archive is an interface and calibration mockup. Its records, scores, player performances, and blurbs are illustrative—not live ESPN results. The same layout can accept real weekly inputs after games are played.</p></div>
+          <p class="template-note">After every week, projected points will be compared with actual points. That forecast error will be used to recalibrate the model without changing the meaning of the published score.</p>
         </div>
       </section>
 
-      <section class="view feed-view" id="view-feed" data-view-panel="feed">
-        <div class="feed-shell">
-          <aside class="channel-rail">
-            <div class="server-badge">RF</div>
-            <div class="channel-section">
-              <p>Season 10</p>
-              <button class="channel is-active" data-channel="league-feed"><span>#</span> league-feed</button>
-              <button class="channel" data-channel="trade-talk"><span>#</span> trade-talk</button>
-              <button class="channel" data-channel="memes"><span>#</span> memes</button>
-            </div>
-            <div class="league-rules-mini">
-              <span>12 teams</span><span>Full PPR</span><span>$100 FAAB</span>
-            </div>
-          </aside>
-
-          <section class="message-column">
-            <div class="feed-heading">
-              <div><strong id="channel-title"># league-feed</strong><span id="channel-description">Talk ball, post receipts, and react irresponsibly.</span></div>
-              <button class="icon-button mobile-members" id="toggle-members" aria-label="Show league members">♙</button>
-            </div>
-            <div class="message-list" id="message-list">
-              <div class="feed-welcome">
-                <span class="hash-orb">#</span><h2>Welcome to the league feed.</h2>
-                <p>This is the start of the Row Fast Season 10 conversation.</p>
-              </div>
-            </div>
-            <div class="channel-plugin" id="channel-plugin" hidden></div>
-            <form class="composer" id="post-form">
-              <button type="button" class="composer-plus" id="attachment-button" aria-label="Add image" disabled>＋</button>
-              <input id="attachment-input" type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden />
-              <textarea id="post-input" rows="1" maxlength="1500" placeholder="Sign in to post in #league-feed" disabled></textarea>
-              <button type="button" class="composer-gif" id="gif-button" disabled>GIF</button>
-              <button class="send-button" type="submit" disabled aria-label="Send message">Send</button>
-            </form>
-            <div class="composer-preview" id="composer-preview" hidden></div>
-            <div class="gif-picker" id="gif-picker" hidden>
-              <div class="gif-search"><input id="gif-search" maxlength="80" placeholder="Search GIPHY" /><button id="gif-search-button" type="button">Search</button><button id="gif-close" type="button" aria-label="Close GIF picker">×</button></div>
-              <div class="gif-results" id="gif-results"></div>
-              <div class="gif-link-fallback">
-                <span>Or paste a direct GIF link</span>
-                <div><input id="gif-url" type="url" inputmode="url" placeholder="https://media.giphy.com/…/giphy.gif" /><button id="gif-use-url" type="button">Use GIF</button></div>
-                <a id="gif-browse-link" href="https://giphy.com/" target="_blank" rel="noopener noreferrer">Browse GIPHY in a new tab</a>
-              </div>
-              <small>Powered by GIPHY</small>
-            </div>
-            <p class="composer-note" id="composer-note">Only signed-in league members can post, react, or reply.</p>
-          </section>
-
-          <aside class="member-rail" id="member-rail">
-            <div class="member-heading"><span>League members</span><button id="close-members" aria-label="Close members">×</button></div>
-            <div id="member-list"></div>
-          </aside>
+      <section class="view feed-view" data-view-panel="feed">
+        <div class="feed-layout">
+          <aside class="channel-rail"><div class="server-mark">RF</div><p>ROW FAST · S10</p><button class="channel is-active" data-channel="league-feed"># league-feed</button><button class="channel" data-channel="trade-talk"># trade-talk</button><button class="channel" data-channel="memes"># memes</button><div class="league-pills"><span>12 teams</span><span>Full PPR</span><span>$100 FAAB</span></div></aside>
+          <section class="feed-main"><header class="channel-header"><strong id="channel-name"># league-feed</strong><span id="channel-description">League conversation, matchup talk, and announcements.</span><div class="feed-profile-actions"><button type="button" id="change-display-name" disabled>Change display name</button><button type="button" id="change-profile-picture" disabled>Change profile picture</button><input id="profile-picture-input" type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden></div></header><div class="message-area" id="message-area"><div class="feed-welcome"><span>#</span><h1>#league-feed</h1><p>Sign in with Google to post, react, reply, and share images.</p></div></div><form class="composer" id="message-form" aria-label="Message composer"><button type="button" id="upload-button" aria-label="Add image">＋</button><input id="message-input" autocomplete="off" placeholder="Sign in to send a message" disabled /><input id="media-input" type="file" accept="image/*" hidden /><button type="button" id="gif-button" aria-label="Add GIF">GIF</button><button type="submit" id="send-button" disabled>Send</button></form><div class="reply-banner" id="reply-banner" hidden></div></section>
+          <aside class="member-rail"><p>LEAGUE MEMBERS</p><div id="member-list"></div></aside>
         </div>
       </section>
     </main>
 
-    <div class="modal-backdrop" id="profile-modal" hidden>
-      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="profile-title">
-        <button class="modal-close" id="profile-close" type="button" aria-label="Close profile editor">×</button>
-        <p class="eyebrow">League profile</p>
-        <h2 id="profile-title">Your feed identity</h2>
-        <p>Choose your Row Fast team and add an optional profile picture. You can reopen this from your signed-in badge.</p>
-        <form id="profile-form">
-          <label>Display name<input id="profile-name" maxlength="60" required /></label>
-          <label>Team<select id="profile-team" required></select></label>
-          <label>Profile picture
-            <span class="profile-avatar-picker">
-              <span class="profile-avatar-preview" id="profile-avatar-preview">RF</span>
-              <span><strong>Choose an image</strong><small>JPG, PNG, WebP, or GIF · maximum 4 MB</small></span>
-              <input id="profile-avatar" type="file" accept="image/jpeg,image/png,image/webp,image/gif" />
-            </span>
-          </label>
-          <div class="modal-actions">
-            <button class="button profile-cancel" id="profile-cancel" type="button">Cancel</button>
-            <button class="button button-gold" id="profile-save" type="submit">Save profile</button>
-          </div>
-        </form>
-      </section>
-    </div>
-
-    <div class="modal-backdrop" id="trade-modal" hidden>
-      <section class="modal modal-compact" role="dialog" aria-modal="true" aria-labelledby="trade-title">
-        <button class="modal-close" data-close-modal="trade-modal" type="button" aria-label="Close trade block form">×</button>
-        <p class="eyebrow">Trade block</p><h2 id="trade-title">Put a player on the block</h2>
-        <form id="trade-form">
-          <label class="player-combobox">Player name
-            <input id="trade-player" maxlength="80" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="trade-player-options" aria-expanded="false" placeholder="Start typing a player name…" required />
-            <div class="player-options" id="trade-player-options" role="listbox" hidden></div>
-          </label>
-          <div class="form-two-up"><label>Position<input id="trade-position" maxlength="10" placeholder="—" readonly /></label><label>NFL team<input id="trade-nfl-team" maxlength="10" placeholder="—" readonly /></label></div>
-          <label>What are you looking for?<textarea id="trade-note" maxlength="300" rows="3" placeholder="Open to offers…"></textarea></label>
-          <div class="modal-actions"><button class="button" data-close-modal="trade-modal" type="button">Cancel</button><button class="button button-gold" type="submit">Add player</button></div>
-        </form>
-      </section>
-    </div>
-
-    <div class="modal-backdrop" id="meme-modal" hidden>
-      <section class="modal meme-modal" role="dialog" aria-modal="true" aria-labelledby="meme-title">
-        <button class="modal-close" data-close-modal="meme-modal" type="button" aria-label="Close meme studio">×</button>
-        <p class="eyebrow">Meme studio</p><h2 id="meme-title">Build a meme for the channel</h2>
-        <div class="meme-editor-grid">
-          <form class="meme-controls" id="meme-form">
-            <label>Base image<input id="meme-base" type="file" accept="image/jpeg,image/png,image/webp,image/gif" required /></label>
-            <label class="check-label"><input id="meme-white-bar" type="checkbox" /> Add classic white caption bar</label>
-            <label>Top / white-bar text<input id="meme-top-text" maxlength="120" /></label>
-            <label>Bottom text<input id="meme-bottom-text" maxlength="120" /></label>
-            <label>Optional photo overlay<input id="meme-overlay" type="file" accept="image/jpeg,image/png,image/webp" /></label>
-            <div class="form-two-up"><label>Overlay X<input id="meme-overlay-x" type="range" min="0" max="100" value="70" /></label><label>Overlay size<input id="meme-overlay-size" type="range" min="10" max="80" value="30" /></label></div>
-            <div class="modal-actions"><button class="button" data-close-modal="meme-modal" type="button">Cancel</button><button class="button button-gold" type="submit">Post meme</button></div>
-          </form>
-          <div class="meme-preview-panel">
-            <span class="meme-preview-label">Live preview</span>
-            <canvas id="meme-canvas" width="900" height="700" aria-label="Meme preview"></canvas>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script type="module" src="/app.js?v=14"></script>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <div class="modal-backdrop" id="tool-modal" hidden><div class="tool-modal"><button class="modal-close" id="modal-close" type="button">×</button><p class="eyebrow" id="modal-kicker">TRADE BLOCK</p><h2 id="modal-title">Put a player on the block</h2><div id="modal-content"></div></div></div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/app.js?v=15"></script>
+    <script src="/rankings-v2.js?v=15"></script>
+    <script src="/tools.js?v=15"></script>
+    <script src="/social.js?v=15"></script>
   </body>
 </html>

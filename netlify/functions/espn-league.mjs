@@ -31,11 +31,7 @@ const TEAM_DIVISIONS = new Map([
 export default async (request) => {
   if (request.method !== "GET") return json({ error: "Method not allowed." }, 405);
 
-  try {
-    await requireLeagueMember(request);
-  } catch (error) {
-    return json({ error: error.message }, error.status || 401);
-  }
+  // ESPN credentials remain server-side; the public overview can load before sign-in.
 
   const leagueId = process.env.ESPN_LEAGUE_ID || "416026";
   const season = process.env.ESPN_SEASON || "2026";
