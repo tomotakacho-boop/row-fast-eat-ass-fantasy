@@ -1,3 +1,5 @@
+const POSITION = { 1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST" };
+
 const TEAM_MANAGERS = new Map([
   ["teamrex", "Peter Rex"],
   ["wetwillies", "Will Cordonnier"],
@@ -163,7 +165,59 @@ function normalizeLeague(raw, season) {
     updatedAt: new Date().toISOString(),
     teams,
     matchups,
+    powerRankings: buildPowerRankings(raw.teams || [], season, currentWeek),
   };
+}
+
+function buildPowerRankings(teams, season, currentWeek) {
+  const projected = (player) => projectedTotal(player, season, currentWeek) || projectedTotal(player, season, 0) / 17;
+  const injuryWeight = (status) => ({ ACTIVE: 0, QUESTIONABLE: .25, DOUBTFUL: .7, OUT: 1, INJURY_RESERVE: 1, IR: 1, SUSPENSION: 1 }[status] ?? .1);
+  const cv = (position) => ({ QB: .2, RB: .34, WR: .39, TE: .36, "D/ST": .42, K: .32 }[position] || .35);
+  const rows = teams.map((team) => {
+    const pool = (team.roster?.entries || []).map((entry) => {
+      const player = entry.playerPoolEntry?.player || {};
+      return { id: player.id, name: player.fullName || player.name || "Unknown player", position: POSITION[player.defaultPositionId] || "OTHER", projection: projected(player), owned: Number(player.ownership?.percentOwned || 0), injuryStatus: player.injuryStatus || "ACTIVE" };
+    }).sort((a, b) => b.projection - a.projection);
+    const used = new Set();
+    const grab = (position, count) => pool.filter((player) => player.position === position && !used.has(player.id)).slice(0, count).map((player) => (used.add(player.id), player));
+    const starters = [...grab("QB", 1), ...grab("RB", 2), ...grab("WR", 2), ...grab("TE", 1), ...grab("D/ST", 1), ...grab("K", 1)];
+    const flex = pool.filter((player) => ["RB", "WR", "TE"].includes(player.position) && !used.has(player.id)).slice(0, 1);
+    flex.forEach((player) => used.add(player.id));
+    starters.push(...flex);
+    const skill = pool.filter((player) => ["RB", "WR", "TE"].includes(player.position));
+    const bench = skill.filter((player) => !used.has(player.id)).slice(0, 3);
+    const stars = skill.slice(0, 3);
+    const wildcard = pool.filter((player) => !used.has(player.id) && ["RB", "WR", "TE"].includes(player.position)).sort((a, b) => wildcardScore(b) - wildcardScore(a))[0];
+    const lineup = starters.reduce((sum, player) => sum + player.projection, 0);
+    const starPower = stars.reduce((sum, player) => sum + player.projection, 0);
+    const depth = bench.reduce((sum, player) => sum + player.projection, 0);
+    const injuryRisk = starters.reduce((sum, player) => sum + player.projection * injuryWeight(player.injuryStatus), 0);
+    const wildcardValue = wildcard ? wildcardScore(wildcard) : 0;
+    const rawSd = Math.sqrt(starters.reduce((sum, player) => sum + Math.pow(player.projection * cv(player.position), 2), 0));
+    return { teamId: team.id, lineup, starPower, depth, injuryRisk, wildcardValue, rawSd, leaders: stars.map((player) => player.name), wildcard: wildcard?.name || null };
+  });
+  const average = (values) => values.reduce((sum, value) => sum + value, 0) / Math.max(values.length, 1);
+  const leagueStarPower = average(rows.map((row) => row.starPower));
+  const leagueDepth = average(rows.map((row) => row.depth));
+  rows.forEach((row) => {
+    const starScenario = row.lineup + .35 * (row.starPower - leagueStarPower);
+    const depthScenario = row.lineup + .15 * (row.depth - leagueDepth);
+    const injuryScenario = row.lineup - row.injuryRisk;
+    const wildcardScenario = row.lineup + .5 * row.wildcardValue;
+    row.projected = Math.max(0, .55 * row.lineup + .25 * starScenario + .05 * depthScenario + .05 * injuryScenario + .10 * wildcardScenario);
+    row.stdDev = Math.max(6, Math.min(22, row.rawSd * (row.projected / Math.max(row.lineup, 1)) + row.injuryRisk * .2));
+    delete row.rawSd;
+  });
+  return rows.sort((a, b) => b.projected - a.projected).map((row, index) => ({ ...row, rank: index + 1 }));
+}
+
+function wildcardScore(player) {
+  return player.projection * (1 - Math.min(player.owned, 100) / 125);
+}
+
+function projectedTotal(player, season, scoringPeriodId) {
+  const stat = (player.stats || []).find((item) => Number(item.seasonId) === Number(season) && Number(item.statSourceId) === 1 && Number(item.statSplitTypeId) === 0 && Number(item.scoringPeriodId || 0) === Number(scoringPeriodId || 0));
+  return Number(stat?.appliedTotal || 0);
 }
 
 function normalize(value = "") { return String(value).toLowerCase().replace(/[^a-z0-9]/g, ""); }

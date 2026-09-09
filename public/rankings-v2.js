@@ -23,6 +23,11 @@
     return { team, starters, stars, bench, wildcard, lineup, starPower, depth, injuryRisk, health: Math.max(1, lineup - injuryRisk), wildcardValue, rawSd };
   };
   rankings = teams => {
+    const snapshot = window.weekZeroPowerRankings || [];
+    if (snapshot.length) {
+      const teamsById = new Map(teams.map(team => [Number(team.id), team]));
+      return snapshot.map(row => ({ ...row, team: teamsById.get(Number(row.teamId)) })).filter(row => row.team);
+    }
     const rows = teams.map(optimize), leagueStarPower = average(rows.map(x => x.starPower)), leagueDepth = average(rows.map(x => x.depth));
     rows.forEach(x => {
       const starScenario = x.lineup + .35 * (x.starPower - leagueStarPower);
@@ -39,11 +44,12 @@
     const ordered = rankings(teams), leagueAverage = average(ordered.map(x => x.projected)), averageEl = document.querySelector("#projected-league-average");
     if (averageEl) averageEl.textContent = leagueAverage.toFixed(1);
     document.querySelector("#ranking-list").innerHTML = ordered.map((x, i) => {
-      const leaders = x.stars.map(p => p.fullName).join(", ") || "Projection data pending";
+      const leaders = (x.leaders || x.stars?.map(p => p.fullName) || []).join(", ") || "Projection data pending";
       const injury = x.injuryRisk > 1 ? ` Injury uncertainty removes about ${x.injuryRisk.toFixed(1)} raw lineup points.` : " The current starting group carries limited injury drag.";
-      const wild = x.wildcard ? `${x.wildcard.fullName} is the model’s wildcard.` : "The wildcard slot is still open.";
+      const wildcardName = typeof x.wildcard === "string" ? x.wildcard : x.wildcard?.fullName;
+      const wild = wildcardName ? `${wildcardName} is the model’s wildcard.` : "The wildcard slot is still open.";
       const tags = [`Lineup ${x.lineup.toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`].map(v => `<span>${esc(v)}</span>`).join("");
-      return `<article class="ranking-card"><div class="rank-number">${i + 1}</div><div class="rank-copy"><small>0–0 · ${esc(x.team.owner)}</small><h3>${esc(x.team.name)}</h3><p><strong>${esc(leaders)}</strong> anchor a ${x.projected.toFixed(1)}-point Week 1 forecast.${esc(injury)} ${esc(wild)}</p><div class="player-tags factor-tags">${tags}</div></div><div class="rank-score"><strong>${x.projected.toFixed(1)}</strong><small>PROJECTED POINTS</small><em>± ${x.stdDev.toFixed(1)}</em><small>STD DEV</small></div></article>`;
+      return `<article class="ranking-card"><div class="rank-number">${i + 1}</div><div class="rank-copy"><small>0–0 · ${esc(x.team.owner || x.team.manager || "League member")}</small><h3>${esc(x.team.name)}</h3><p><strong>${esc(leaders)}</strong> anchor a ${x.projected.toFixed(1)}-point Week 1 forecast.${esc(injury)} ${esc(wild)}</p><div class="player-tags factor-tags">${tags}</div></div><div class="rank-score"><strong>${x.projected.toFixed(1)}</strong><small>PROJECTED POINTS</small><em>± ${x.stdDev.toFixed(1)}</em><small>STD DEV</small></div></article>`;
     }).join("");
   };
 })();
