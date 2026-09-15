@@ -73,13 +73,11 @@ Then open the exact local URL shown by Netlify. A plain file preview will displa
 
 The confirmed twelve teams and managers are defined once at the top of `public/app.js`. ESPN supplies the live records and schedule; this local list supplies the preseason fallback and member directory.
 
-## Publishing real Power Rankings issues
+## Power Rankings issues and Week 1 results
 
-The current Week 0–3 archive is intentionally labeled **Sample · Work in progress**. Issue metadata lives in `SAMPLE_POWER_ISSUES` in `public/app.js`; each issue points to twelve team entries containing rank, Power Score, Team Strength, Performance Index, record, previous result, editorial blurb, and player callouts.
+The Netlify ESPN function calculates Week 0 projected Team Strength without sending full rosters to the browser. After the six Week 1 scores are final, it publishes Week 1 Power Score as 70% projected Team Strength and 30% actual points. The Week 1 scorecard supplied by the commissioner on September 15, 2026 is kept in the server function as a verified fallback because ESPN's general league view returned zero totals. A complete ESPN boxscore response takes priority if stat corrections change the finals.
 
-Each week automatically receives a separate conversation key through `powerRankingKey()`, so reactions and replies do not carry between issues. When real results are ready, replace the sample issue data while preserving a unique season/week key for every published edition.
-
-The Methodology tab documents the current calibration model: Week 0 is 100% Team Strength; Weeks 1, 2, and 3 blend Team Strength and Performance Index at 70/30, 60/40, and 55/45. Week 5 onward settles at 50/50 unless the model is recalibrated.
+Standings, Week 1 results, ranking records, and issue labels update together. Week 0 and Week 1 reactions and replies use separate `week-0-team-*` and `week-1-team-*` conversation keys. The browser receives only team scores and ranking summaries, never raw ESPN rosters.
 
 ## Security notes
 

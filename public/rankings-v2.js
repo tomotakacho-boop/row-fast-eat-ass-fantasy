@@ -41,15 +41,31 @@
     return rows.sort((a, b) => b.projected - a.projected);
   };
   renderRankings = teams => {
-    const ordered = rankings(teams), leagueAverage = average(ordered.map(x => x.projected)), averageEl = document.querySelector("#projected-league-average");
+    const issueWeek = Number(league?.powerIssueWeek || 0);
+    const ordered = rankings(teams), leagueAverage = average(ordered.map(x => issueWeek ? x.powerScore : x.projected)), averageEl = document.querySelector("#projected-league-average");
     if (averageEl) averageEl.textContent = leagueAverage.toFixed(1);
+    document.querySelector("#power-issue-label").textContent = issueWeek ? "WEEK 1 · FINAL RESULTS" : "WEEK 0 · PRESEASON";
+    document.querySelector("#power-issue-heading").textContent = `Week ${issueWeek} rankings`;
+    document.querySelector("#power-average-label").textContent = issueWeek ? "POWER SCORE" : "PROJECTED POINTS";
+    document.querySelector("#power-issue-description").textContent = issueWeek
+      ? "Week 1 Power Score blends 70% projected roster strength with 30% final Week 1 points. The ± figure describes projected week-to-week lineup volatility."
+      : "Rankings use ESPN’s projected score for each team’s best legal lineup. The ± figure shows expected week-to-week volatility.";
+    document.querySelector("#power-issue-note").textContent = issueWeek ? "Results and projections refresh from ESPN." : "Scores update when ESPN projections change.";
     document.querySelector("#ranking-list").innerHTML = ordered.map((x, i) => {
       const leaders = (x.leaders || x.stars?.map(p => p.fullName) || []).join(", ") || "Projection data pending";
       const injury = x.injuryRisk > 1 ? ` Injury uncertainty removes about ${x.injuryRisk.toFixed(1)} raw lineup points.` : " The current starting group carries limited injury drag.";
       const wildcardName = typeof x.wildcard === "string" ? x.wildcard : x.wildcard?.fullName;
       const wild = wildcardName ? `${wildcardName} is the model’s wildcard.` : "The wildcard slot is still open.";
-      const tags = [`Lineup ${x.lineup.toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`].map(v => `<span>${esc(v)}</span>`).join("");
-      return `<article class="ranking-card"><div class="rank-number">${i + 1}</div><div class="rank-copy"><small>0–0 · ${esc(x.team.owner || x.team.manager || "League member")}</small><h3>${esc(x.team.name)}</h3><p><strong>${esc(leaders)}</strong> anchor a ${x.projected.toFixed(1)}-point Week 1 forecast.${esc(injury)} ${esc(wild)}</p><div class="player-tags factor-tags">${tags}</div></div><div class="rank-score"><strong>${x.projected.toFixed(1)}</strong><small>PROJECTED POINTS</small><em>± ${x.stdDev.toFixed(1)}</em><small>STD DEV</small></div></article>`;
+      const record = teamRecord(x.team), movement = issueWeek && x.previousRank ? x.previousRank - (i + 1) : 0;
+      const trend = issueWeek && x.previousRank ? ` · ${movement > 0 ? `↑ ${movement}` : movement < 0 ? `↓ ${Math.abs(movement)}` : "—"} from Week 0` : "";
+      const tags = (issueWeek
+        ? [`Team Strength ${x.teamStrength.toFixed(1)}`, `Week 1 points ${x.performanceIndex.toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`]
+        : [`Lineup ${x.lineup.toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`]).map(v => `<span>${esc(v)}</span>`).join("");
+      const description = issueWeek
+        ? `<strong>${esc(x.weekOneHighlight?.player || leaders)}</strong>${x.weekOneHighlight ? ` scored ${Number(x.weekOneHighlight.points).toFixed(1)} in Week 1 and` : ""} leads a ${x.teamStrength.toFixed(1)}-point roster forecast. Week 1’s final ${x.performanceIndex.toFixed(1)} points contribute 30% of this Power Score.${esc(injury)} ${esc(wild)}`
+        : `<strong>${esc(leaders)}</strong> anchor a ${x.projected.toFixed(1)}-point Week 1 forecast.${esc(injury)} ${esc(wild)}`;
+      const score = issueWeek ? x.powerScore : x.projected;
+      return `<article class="ranking-card"><div class="rank-number">${i + 1}</div><div class="rank-copy"><small>${record.wins}–${record.losses}–${record.ties} · ${esc(x.team.owner || x.team.manager || "League member")}${trend}</small><h3>${esc(x.team.name)}</h3><p>${description}</p><div class="player-tags factor-tags">${tags}</div></div><div class="rank-score"><strong>${score.toFixed(1)}</strong><small>${issueWeek ? "POWER SCORE" : "PROJECTED POINTS"}</small><em>± ${x.stdDev.toFixed(1)}</em><small>FORECAST SD</small></div></article>`;
     }).join("");
   };
 })();

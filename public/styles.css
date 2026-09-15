@@ -66,6 +66,7 @@ h2 { margin-bottom:0; font:650 27px/1.12 var(--serif); letter-spacing:-.02em; }
 .matchup span:nth-child(2) { color:#a0a6b1; font-size:10px; }
 .matchup span:last-child { text-align:right; }
 .matchup small { display:block; margin-top:3px; color:#8e96a5; font-weight:500; }
+.slate-subheading { margin:0; padding:18px 20px 8px; border-top:1px solid var(--line); color:#536078; font-size:13px; font-weight:800; }
 .dashboard-strip { margin-top:20px; display:grid; grid-template-columns:repeat(3,1fr); border:1px solid var(--line); background:var(--card); }
 .dashboard-strip article { display:flex; align-items:center; gap:13px; padding:19px 22px; border-right:1px solid var(--line); }
 .dashboard-strip article:last-child { border-right:0; }

@@ -137,6 +137,7 @@
   });
 
   const baseRenderRankings = renderRankings;
+  const powerRankingKey = teamId => `week-${Number(league?.powerIssueWeek || 0)}-team-${teamId}`;
   renderRankings = teams => {
     rankingTeams = teams;
     baseRenderRankings(teams);
@@ -144,7 +145,7 @@
     document.querySelectorAll(".ranking-card").forEach((card, index) => {
       const row = ordered[index];
       if (!row) return;
-      const key = `week-0-team-${row.team.id}`;
+      const key = powerRankingKey(row.team.id);
       card.dataset.rankingKey = key;
       const comments = powerComments.filter(comment => comment.ranking_key === key);
       const reactions = powerReactions.filter(reaction => reaction.ranking_key === key);
@@ -162,7 +163,7 @@
 
   async function loadPowerActivity(silent = false) {
     if (!db || !user || !rankingTeams.length) { powerComments = []; powerReactions = []; if (rankingTeams.length) renderRankings(rankingTeams); return; }
-    const keys = rankings(rankingTeams).map(row => `week-0-team-${row.team.id}`);
+    const keys = rankings(rankingTeams).map(row => powerRankingKey(row.team.id));
     const [commentsResult, reactionsResult] = await Promise.all([
       db.from("power_ranking_comments").select("*").in("ranking_key", keys).order("created_at", {ascending:true}),
       db.from("power_ranking_reactions").select("*").in("ranking_key", keys)
