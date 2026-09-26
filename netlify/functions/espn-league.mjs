@@ -1,5 +1,6 @@
 const POSITION = { 1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST" };
 const WEEK_ZERO_RANKS = new Map([[3, 1], [4, 2], [8, 3], [7, 4], [1, 5], [12, 6], [11, 7], [6, 8], [2, 9], [9, 10], [10, 11], [5, 12]]);
+const WEEK_ONE_RANKS = new Map([[3, 1], [12, 2], [4, 3], [5, 4], [8, 5], [1, 6], [10, 7], [11, 8], [7, 9], [9, 10], [6, 11], [2, 12]]);
 // Final ESPN scoreboard supplied by the commissioner on September 15, 2026.
 // The live ESPN boxscore view supersedes this snapshot if all six games have totals.
 const WEEK_ONE_POINTS = new Map([[1, 104.74], [2, 72.62], [3, 179.76], [4, 124.86], [5, 140.56], [6, 102.88], [7, 100.46], [8, 137.46], [9, 107.12], [10, 108.60], [11, 112.10], [12, 173.16]]);
@@ -126,7 +127,10 @@ function normalizeLeague(raw, season, scoringRaw = null) {
   const weekOneGames = Number(season) === 2026 ? finalizedWeekOneGames(raw.schedule || [], scoringRaw?.schedule || []) : [];
   const weekOneFinal = weekOneGames.length === 6 && weekOneGames.every((game) => game.final);
   const weekOneScoreSource = weekOneFinal ? weekOneGames[0].source : null;
-  const computedRecords = weekOneFinal ? recordsFromGames(weekOneGames) : new Map();
+  const finalizedGames = completedGames(raw.schedule || [], currentWeek, weekOneFinal ? weekOneGames : []);
+  const completedWeeks = [...new Set(finalizedGames.map((game) => game.week))].sort((a, b) => a - b);
+  const powerIssueWeek = completedWeeks.at(-1) || 0;
+  const computedRecords = finalizedGames.length ? recordsFromGames(finalizedGames) : new Map();
 
   const teams = (raw.teams || []).map((team) => {
     const name = String(team.name || [team.location, team.nickname].filter(Boolean).join(" ") || team.abbrev || `Team ${team.id}`).trim();
@@ -146,7 +150,7 @@ function normalizeLeague(raw, season, scoringRaw = null) {
       ties: computed?.ties ?? record.ties ?? 0,
       pointsFor: round(computed?.pointsFor ?? record.pointsFor ?? 0),
       pointsAgainst: round(computed?.pointsAgainst ?? record.pointsAgainst ?? 0),
-      streak: computed ? formatStreak(1, computed.wins ? "WIN" : computed.losses ? "LOSS" : "TIE") : formatStreak(record.streakLength, record.streakType),
+      streak: computed ? streakFromGames(Number(team.id), finalizedGames) : formatStreak(record.streakLength, record.streakType),
     };
     teamsById.set(team.id, normalized);
     return normalized;
@@ -158,12 +162,12 @@ function normalizeLeague(raw, season, scoringRaw = null) {
     return percentageB - percentageA || b.pointsFor - a.pointsFor;
   }).map((team, index) => ({ ...team, rank: index + 1 }));
 
-  const weekOneById = new Map(weekOneGames.map((game) => [Number(game.id), game]));
+  const finalizedById = new Map(finalizedGames.map((game) => [Number(game.id), game]));
   const matchups = (raw.schedule || []).filter((matchup) => matchup.home?.teamId && matchup.away?.teamId).map((matchup) => {
     const week = Number(matchup.matchupPeriodId || 0);
     const isFuture = week > currentWeek;
     const isPast = week < currentWeek;
-    const finalGame = week === 1 && weekOneFinal ? weekOneById.get(Number(matchup.id)) : null;
+    const finalGame = finalizedById.get(Number(matchup.id));
     return {
       id: matchup.id,
       week,
@@ -175,18 +179,23 @@ function normalizeLeague(raw, season, scoringRaw = null) {
     };
   });
 
-  const projectionWeek = weekOneFinal ? Math.max(2, currentWeek) : currentWeek;
+  const projectionWeek = powerIssueWeek ? Math.max(powerIssueWeek + 1, currentWeek) : currentWeek;
   const powerRankings = buildPowerRankings(raw.teams || [], season, projectionWeek);
-  if (weekOneFinal) {
-    const actualByTeam = new Map(weekOneGames.flatMap((game) => [[game.homeId, game.homeScore], [game.awayId, game.awayScore]]));
+  if (powerIssueWeek) {
+    const actualByTeam = performanceFromGames(finalizedGames);
+    const weights = powerWeights(powerIssueWeek);
+    const previousRanks = powerIssueWeek === 1 ? WEEK_ZERO_RANKS : powerIssueWeek === 2 ? WEEK_ONE_RANKS : new Map();
     powerRankings.forEach((row) => {
       row.teamStrength = row.projected;
       row.performanceIndex = actualByTeam.get(Number(row.teamId));
-      row.powerScore = .70 * row.teamStrength + .30 * row.performanceIndex;
-      row.weekOnePoints = row.performanceIndex;
-      row.previousRank = WEEK_ZERO_RANKS.get(Number(row.teamId)) || null;
-      const highlight = WEEK_ONE_HIGHLIGHTS.get(Number(row.teamId));
-      row.weekOneHighlight = highlight ? { player: highlight[0], points: highlight[1] } : null;
+      row.powerScore = weights.strength * row.teamStrength + weights.performance * row.performanceIndex;
+      row.latestWeekPoints = teamPointsForWeek(Number(row.teamId), finalizedGames, powerIssueWeek);
+      row.previousRank = previousRanks.get(Number(row.teamId)) || null;
+      if (powerIssueWeek === 1) {
+        row.weekOnePoints = row.performanceIndex;
+        const highlight = WEEK_ONE_HIGHLIGHTS.get(Number(row.teamId));
+        row.weekOneHighlight = highlight ? { player: highlight[0], points: highlight[1] } : null;
+      }
     });
     powerRankings.sort((a, b) => b.powerScore - a.powerScore).forEach((row, index) => { row.rank = index + 1; });
   }
@@ -195,14 +204,69 @@ function normalizeLeague(raw, season, scoringRaw = null) {
     season,
     currentWeek,
     updatedAt: new Date().toISOString(),
-    powerIssueWeek: weekOneFinal ? 1 : 0,
+    powerIssueWeek,
     projectionWeek,
+    latestFinalWeek: powerIssueWeek,
+    latestScoreSource: powerIssueWeek === 1 ? weekOneScoreSource : powerIssueWeek ? "ESPN scoreboard" : null,
+    powerWeights: powerWeights(powerIssueWeek),
     weekOneFinal,
     weekOneScoreSource,
     teams,
     matchups,
     powerRankings,
   };
+}
+
+function completedGames(schedule, currentWeek, weekOneGames) {
+  const weekOneById = new Map(weekOneGames.map((game) => [Number(game.id), { ...game, week: 1 }]));
+  const games = [];
+  for (let week = 1; week < currentWeek; week++) {
+    const weekGames = schedule.filter((game) => Number(game.matchupPeriodId) === week && game.home?.teamId && game.away?.teamId).map((game) => {
+      if (week === 1 && weekOneById.has(Number(game.id))) return weekOneById.get(Number(game.id));
+      const homeScore = Number(game.home.totalPoints), awayScore = Number(game.away.totalPoints);
+      return { id: game.id, week, homeId: Number(game.home.teamId), awayId: Number(game.away.teamId), homeScore, awayScore, final: Number.isFinite(homeScore) && Number.isFinite(awayScore) && homeScore > 0 && awayScore > 0, source: "ESPN scoreboard" };
+    });
+    if (weekGames.length === 6 && weekGames.every((game) => game.final)) games.push(...weekGames);
+  }
+  if (currentWeek === 1 && weekOneGames.length === 6 && weekOneGames.every((game) => game.final)) {
+    games.push(...weekOneGames.map((game) => ({ ...game, week: 1 })));
+  }
+  return games;
+}
+
+function performanceFromGames(games) {
+  const totals = new Map();
+  games.forEach((game) => [[game.homeId, game.homeScore], [game.awayId, game.awayScore]].forEach(([id, points]) => {
+    const row = totals.get(id) || { points: 0, games: 0 };
+    row.points += points; row.games += 1; totals.set(id, row);
+  }));
+  return new Map([...totals].map(([id, row]) => [id, row.points / row.games]));
+}
+
+function teamPointsForWeek(teamId, games, week) {
+  const game = games.find((item) => item.week === week && (item.homeId === teamId || item.awayId === teamId));
+  return game ? (game.homeId === teamId ? game.homeScore : game.awayScore) : null;
+}
+
+function powerWeights(issueWeek) {
+  if (issueWeek <= 0) return { strength: 1, performance: 0 };
+  if (issueWeek === 1) return { strength: .70, performance: .30 };
+  if (issueWeek === 2) return { strength: .60, performance: .40 };
+  if (issueWeek === 3) return { strength: .55, performance: .45 };
+  return { strength: .50, performance: .50 };
+}
+
+function streakFromGames(teamId, games) {
+  const results = games.filter((game) => game.homeId === teamId || game.awayId === teamId).sort((a, b) => a.week - b.week).map((game) => {
+    const scored = game.homeId === teamId ? game.homeScore : game.awayScore;
+    const allowed = game.homeId === teamId ? game.awayScore : game.homeScore;
+    return scored > allowed ? "W" : scored < allowed ? "L" : "T";
+  });
+  if (!results.length) return "—";
+  const latest = results.at(-1);
+  let length = 0;
+  for (let i = results.length - 1; i >= 0 && results[i] === latest; i--) length++;
+  return `${latest}${length}`;
 }
 
 function finalizedWeekOneGames(schedule, scoreSchedule) {

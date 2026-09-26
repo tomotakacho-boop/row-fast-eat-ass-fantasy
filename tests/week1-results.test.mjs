@@ -17,9 +17,9 @@ const raw = {
   schedule,
 };
 
-async function requestLeague(boxscoreSchedule = []) {
+async function requestLeague(boxscoreSchedule = [], leagueRaw = raw) {
   const originalFetch = globalThis.fetch;
-  globalThis.fetch = async (url) => new Response(JSON.stringify(String(url).includes("mBoxscore") ? { schedule: boxscoreSchedule } : raw), { status: 200, headers: { "Content-Type": "application/json" } });
+  globalThis.fetch = async (url) => new Response(JSON.stringify(String(url).includes("mBoxscore") ? { schedule: boxscoreSchedule } : leagueRaw), { status: 200, headers: { "Content-Type": "application/json" } });
   try {
     const response = await handler(new Request("https://example.test/api/league"));
     assert.equal(response.status, 200);
@@ -54,4 +54,31 @@ test("complete ESPN boxscores supersede the verified screenshot after a correcti
   const league = await requestLeague(corrected);
   assert.equal(league.weekOneScoreSource, "ESPN boxscore");
   assert.equal(league.teams.find((team) => team.id === 3).pointsFor, 180.76);
+});
+
+test("Week 2 finals produce cumulative standings and a 60/40 post-Week-2 issue", async () => {
+  const weekTwoPairs = [[5, 8], [2, 12], [3, 6], [11, 1], [9, 10], [4, 7]];
+  const weekTwoPoints = new Map([[1, 115.18], [2, 146.32], [3, 134.82], [4, 148.30], [5, 66.52], [6, 105.90], [7, 119.48], [8, 119.64], [9, 104.06], [10, 115.46], [11, 87.30], [12, 90.38]]);
+  const weekTwoSchedule = weekTwoPairs.map(([homeId, awayId], index) => ({
+    id: index + 7,
+    matchupPeriodId: 2,
+    home: { teamId: homeId, totalPoints: weekTwoPoints.get(homeId) },
+    away: { teamId: awayId, totalPoints: weekTwoPoints.get(awayId) },
+  }));
+  const leagueRaw = { ...raw, status: { currentMatchupPeriod: 3 }, schedule: [...schedule, ...weekTwoSchedule] };
+  const league = await requestLeague([], leagueRaw);
+  assert.equal(league.powerIssueWeek, 2);
+  assert.equal(league.latestFinalWeek, 2);
+  assert.deepEqual(league.powerWeights, { strength: .6, performance: .4 });
+  const gibbs = league.teams.find((team) => team.id === 3);
+  assert.equal(gibbs.wins, 2);
+  assert.equal(gibbs.pointsFor, 314.58);
+  assert.equal(gibbs.streak, "W2");
+  const peloton = league.teams.find((team) => team.id === 2);
+  assert.equal(peloton.wins, 1);
+  assert.equal(peloton.losses, 1);
+  const gibbsRanking = league.powerRankings.find((row) => row.teamId === 3);
+  assert.equal(gibbsRanking.performanceIndex, 157.29);
+  assert.equal(gibbsRanking.latestWeekPoints, 134.82);
+  assert.equal(gibbsRanking.previousRank, 1);
 });

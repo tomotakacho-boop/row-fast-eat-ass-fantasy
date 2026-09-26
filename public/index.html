@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=17" />
+    <link rel="stylesheet" href="/styles.css?v=18" />
   </head>
   <body>
     <header class="site-header">
@@ -47,7 +47,7 @@
 
             <aside class="overview-side">
               <article class="panel prize-card"><p class="eyebrow">Prize pool</p><div class="prize-total">$2,100</div><div class="prize-line"><span>Champion · 60%</span><strong>$1,260</strong></div><div class="prize-line"><span>Runner-up · 30%</span><strong>$630</strong></div><div class="prize-line"><span>Third · 10%</span><strong>$210</strong></div></article>
-              <article class="panel slate-card"><div class="panel-heading compact"><div><h2>Week 1 matchups</h2></div><span class="quiet-chip">ESPN</span></div><div id="matchup-list"></div></article>
+              <article class="panel slate-card"><div class="panel-heading compact"><div><h2>Latest matchups</h2></div><span class="quiet-chip">ESPN</span></div><div id="matchup-list"></div></article>
             </aside>
           </div>
 
@@ -69,7 +69,7 @@
 
       <section class="view" data-view-panel="methods">
         <div class="page-shell methods-shell">
-          <div class="page-heading"><div><h1>Methodology</h1><p class="lede">Week 0 uses projected roster strength. After final games, Week 1 blends that strength with actual scoring.</p></div></div>
+          <div class="page-heading"><div><h1>Methodology</h1><p class="lede">Week 0 uses projected roster strength. Each postgame issue progressively blends that forecast with average actual scoring.</p></div></div>
           <div class="method-grid">
             <article class="panel method-card"><span>01</span><h2>55% · Starting lineup</h2><p>The highest projected legal Week 1 lineup: QB, two RB, two WR, TE, FLEX, D/ST, and kicker. This is the forecast’s primary input.</p></article>
             <article class="panel method-card"><span>02</span><h2>25% · Star power</h2><p>The top three projected RB, WR, and TE players raise a team’s ceiling and receive more influence than interchangeable bench depth.</p></article>
@@ -78,7 +78,7 @@
             <article class="panel method-card"><span>05</span><h2>10% · Wild card</h2><p>Low-owned players with meaningful projections, injury-created opportunity, and high-upside stashes create a controlled upside adjustment.</p></article>
             <article class="panel method-card"><span>06</span><h2>Projected points ± volatility</h2><p>The raw optimized-lineup projection is the baseline. The other four factors make limited point adjustments around it—there is no preset league average or artificial score curve.</p></article>
           </div>
-          <p class="template-note">Week 1 Power Score is 70% projected Team Strength and 30% actual Week 1 points. This keeps one game from overwhelming the roster forecast. The ± figure remains the projected lineup’s week-to-week volatility, not the Power Score’s uncertainty.</p>
+          <p class="template-note">Week 1 uses a 70/30 forecast-to-performance blend; Week 2 uses 60/40; Week 3 uses 55/45; Week 4 onward settles at 50/50. Performance Index is average points scored across completed weeks, limiting the effect of a single spike or dud. The ± figure remains the projected lineup’s week-to-week volatility, not the Power Score’s uncertainty.</p>
         </div>
       </section>
 
@@ -94,9 +94,9 @@
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
     <div class="modal-backdrop" id="tool-modal" hidden><div class="tool-modal"><button class="modal-close" id="modal-close" type="button">×</button><p class="eyebrow" id="modal-kicker">TRADE BLOCK</p><h2 id="modal-title">Put a player on the block</h2><div id="modal-content"></div></div></div>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="/app.js?v=17"></script>
-    <script src="/rankings-v2.js?v=17"></script>
-    <script src="/tools.js?v=17"></script>
-    <script src="/social.js?v=17"></script>
+    <script src="/app.js?v=18"></script>
+    <script src="/rankings-v2.js?v=18"></script>
+    <script src="/tools.js?v=18"></script>
+    <script src="/social.js?v=18"></script>
   </body>
 </html>
