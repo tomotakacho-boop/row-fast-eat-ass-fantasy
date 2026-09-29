@@ -75,7 +75,7 @@ The confirmed twelve teams and managers are defined once at the top of `public/a
 
 ## Power Rankings issues and completed results
 
-The Netlify ESPN function calculates Week 0 projected Team Strength without sending full rosters to the browser. After results become final, it combines the next week's roster forecast with average points scored: 70/30 after Week 1, 60/40 after Week 2, 55/45 after Week 3, then 50/50 from Week 4 onward. The Week 1 scorecard supplied by the commissioner on September 15, 2026 remains a verified fallback because ESPN's general league view initially returned zero totals. Complete ESPN data takes priority if stat corrections change the finals.
+The Netlify ESPN function calculates Week 0 projected Team Strength without sending full rosters to the browser. After results become final, it combines the next week's roster forecast with Points For per game: 70/30 after Week 1, 60/40 after Week 2, 55/45 after Week 3, then 50/50 from Week 4 onward. Every ranking analysis also shows cumulative PF, league PF rank, PF per game, and distance from the league scoring average. The Week 1 scorecard supplied by the commissioner on September 15, 2026 remains a verified fallback because ESPN's general league view initially returned zero totals. Complete ESPN data takes priority if stat corrections change the finals.
 
 Standings, the latest final results, the next matchup slate, ranking records, and issue labels update together. Each issue's reactions and replies use separate `week-{number}-team-*` conversation keys. The browser receives only team scores and ranking summaries, never raw ESPN rosters.
 

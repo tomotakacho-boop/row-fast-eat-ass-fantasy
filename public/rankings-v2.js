@@ -1,6 +1,7 @@
 (() => {
   const weekly = p => Number(p.weeklyProjection || 0) || Number(p.seasonProjection || 0) / 17;
   const average = values => values.reduce((a, b) => a + b, 0) / Math.max(values.length, 1);
+  const ordinal = value => { const n = Number(value), mod100 = n % 100; return `${n}${mod100 >= 11 && mod100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th")}`; };
   const injuryWeight = status => ({ ACTIVE: 0, QUESTIONABLE: .25, DOUBTFUL: .7, OUT: 1, INJURY_RESERVE: 1, IR: 1, SUSPENSION: 1 }[status] ?? .1);
   const cv = position => ({ QB: .2, RB: .34, WR: .39, TE: .36, "D/ST": .42, K: .32 }[position] || .35);
   const optimize = team => {
@@ -50,9 +51,9 @@
     document.querySelector("#power-issue-heading").textContent = `Week ${issueWeek} rankings`;
     document.querySelector("#power-average-label").textContent = issueWeek ? "POWER SCORE" : "PROJECTED POINTS";
     document.querySelector("#power-issue-description").textContent = issueWeek
-      ? `Week ${issueWeek} Power Score blends ${strengthPercent}% projected Week ${league?.projectionWeek || issueWeek + 1} roster strength with ${performancePercent}% average scoring through Week ${issueWeek}. The ± figure describes projected week-to-week lineup volatility.`
+      ? `Week ${issueWeek} Power Score blends ${strengthPercent}% projected Week ${league?.projectionWeek || issueWeek + 1} roster strength with ${performancePercent}% Points For per game through Week ${issueWeek}. The ± figure describes projected week-to-week lineup volatility.`
       : "Rankings use ESPN’s projected score for each team’s best legal lineup. The ± figure shows expected week-to-week volatility.";
-    document.querySelector("#power-issue-note").textContent = issueWeek ? "Results and projections refresh from ESPN." : "Scores update when ESPN projections change.";
+    document.querySelector("#power-issue-note").textContent = issueWeek ? "PF includes every finalized scoring week." : "Scores update when ESPN projections change.";
     document.querySelector("#ranking-list").innerHTML = ordered.map((x, i) => {
       const leaders = (x.leaders || x.stars?.map(p => p.fullName) || []).join(", ") || "Projection data pending";
       const injury = x.injuryRisk > 1 ? ` Injury uncertainty removes about ${x.injuryRisk.toFixed(1)} raw lineup points.` : " The current starting group carries limited injury drag.";
@@ -60,11 +61,14 @@
       const wild = wildcardName ? `${wildcardName} is the model’s wildcard.` : "The wildcard slot is still open.";
       const record = teamRecord(x.team), movement = issueWeek && x.previousRank ? x.previousRank - (i + 1) : 0;
       const trend = issueWeek && x.previousRank ? ` · ${movement > 0 ? `↑ ${movement}` : movement < 0 ? `↓ ${Math.abs(movement)}` : "—"} from Week ${issueWeek - 1}` : "";
+      const cumulativePointsFor = Number(x.cumulativePointsFor ?? record.pointsFor ?? 0), pointsPerGame = Number(x.pointsPerGame ?? x.performanceIndex ?? 0);
+      const pointsForRank = Number(x.pointsForRank || 0), vsLeague = Number(x.pointsPerGameVsLeague ?? (pointsPerGame - Number(league?.leagueScoringAverage || 0)));
+      const scoringContext = `${cumulativePointsFor.toFixed(1)} total PF${pointsForRank ? ` (${ordinal(pointsForRank)} in the league)` : ""}, ${pointsPerGame.toFixed(1)} per game and ${Math.abs(vsLeague).toFixed(1)} ${vsLeague >= 0 ? "above" : "below"} league average.`;
       const tags = (issueWeek
-        ? [`Team Strength ${x.teamStrength.toFixed(1)}`, `${issueWeek}-week avg ${x.performanceIndex.toFixed(1)}`, `Week ${issueWeek} points ${Number(x.latestWeekPoints ?? x.performanceIndex).toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`]
+        ? [`Team Strength ${x.teamStrength.toFixed(1)}`, `Points For ${cumulativePointsFor.toFixed(1)}`, `PF rank ${pointsForRank ? ordinal(pointsForRank) : "—"}`, `PF/game ${pointsPerGame.toFixed(1)}`, `Week ${issueWeek} ${Number(x.latestWeekPoints ?? x.performanceIndex).toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`]
         : [`Lineup ${x.lineup.toFixed(1)}`, `Stars ${x.starPower.toFixed(1)}`, `Depth ${x.depth.toFixed(1)}`, `Injury risk −${x.injuryRisk.toFixed(1)}`, `Wildcard ${x.wildcardValue.toFixed(1)}`]).map(v => `<span>${esc(v)}</span>`).join("");
       const description = issueWeek
-        ? `<strong>${esc(x.weekOneHighlight?.player || leaders)}</strong>${x.weekOneHighlight ? ` scored ${Number(x.weekOneHighlight.points).toFixed(1)} in Week 1 and` : ""} leads a ${x.teamStrength.toFixed(1)}-point Week ${league?.projectionWeek || issueWeek + 1} roster forecast. The team’s ${x.performanceIndex.toFixed(1)}-point average through Week ${issueWeek} contributes ${performancePercent}% of this Power Score.${esc(injury)} ${esc(wild)}`
+        ? `<strong>${esc(scoringContext)}</strong> ${esc(x.weekOneHighlight?.player || leaders)}${x.weekOneHighlight ? ` scored ${Number(x.weekOneHighlight.points).toFixed(1)} in Week 1 and` : ""} leads a ${x.teamStrength.toFixed(1)}-point Week ${league?.projectionWeek || issueWeek + 1} roster forecast. PF per game contributes ${performancePercent}% of this Power Score.${esc(injury)} ${esc(wild)}`
         : `<strong>${esc(leaders)}</strong> anchor a ${x.projected.toFixed(1)}-point Week 1 forecast.${esc(injury)} ${esc(wild)}`;
       const score = issueWeek ? x.powerScore : x.projected;
       return `<article class="ranking-card"><div class="rank-number">${i + 1}</div><div class="rank-copy"><small>${record.wins}–${record.losses}–${record.ties} · ${esc(x.team.owner || x.team.manager || "League member")}${trend}</small><h3>${esc(x.team.name)}</h3><p>${description}</p><div class="player-tags factor-tags">${tags}</div></div><div class="rank-score"><strong>${score.toFixed(1)}</strong><small>${issueWeek ? "POWER SCORE" : "PROJECTED POINTS"}</small><em>± ${x.stdDev.toFixed(1)}</em><small>FORECAST SD</small></div></article>`;

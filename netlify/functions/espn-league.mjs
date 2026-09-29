@@ -1,6 +1,7 @@
 const POSITION = { 1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST" };
 const WEEK_ZERO_RANKS = new Map([[3, 1], [4, 2], [8, 3], [7, 4], [1, 5], [12, 6], [11, 7], [6, 8], [2, 9], [9, 10], [10, 11], [5, 12]]);
 const WEEK_ONE_RANKS = new Map([[3, 1], [12, 2], [4, 3], [5, 4], [8, 5], [1, 6], [10, 7], [11, 8], [7, 9], [9, 10], [6, 11], [2, 12]]);
+const WEEK_TWO_RANKS = new Map([[3, 1], [4, 2], [12, 3], [8, 4], [1, 5], [10, 6], [7, 7], [2, 8], [5, 9], [6, 10], [9, 11], [11, 12]]);
 // Final ESPN scoreboard supplied by the commissioner on September 15, 2026.
 // The live ESPN boxscore view supersedes this snapshot if all six games have totals.
 const WEEK_ONE_POINTS = new Map([[1, 104.74], [2, 72.62], [3, 179.76], [4, 124.86], [5, 140.56], [6, 102.88], [7, 100.46], [8, 137.46], [9, 107.12], [10, 108.60], [11, 112.10], [12, 173.16]]);
@@ -181,15 +182,23 @@ function normalizeLeague(raw, season, scoringRaw = null) {
 
   const projectionWeek = powerIssueWeek ? Math.max(powerIssueWeek + 1, currentWeek) : currentWeek;
   const powerRankings = buildPowerRankings(raw.teams || [], season, projectionWeek);
+  let leagueScoringAverage = null;
   if (powerIssueWeek) {
     const actualByTeam = performanceFromGames(finalizedGames);
     const weights = powerWeights(powerIssueWeek);
-    const previousRanks = powerIssueWeek === 1 ? WEEK_ZERO_RANKS : powerIssueWeek === 2 ? WEEK_ONE_RANKS : new Map();
+    const previousRanks = previousRankSnapshot(powerIssueWeek);
+    leagueScoringAverage = average([...actualByTeam.values()]);
+    const pointsForRanks = new Map([...teams].sort((a, b) => b.pointsFor - a.pointsFor).map((team, index) => [Number(team.id), index + 1]));
     powerRankings.forEach((row) => {
+      const team = teamsById.get(Number(row.teamId));
       row.teamStrength = row.projected;
       row.performanceIndex = actualByTeam.get(Number(row.teamId));
       row.powerScore = weights.strength * row.teamStrength + weights.performance * row.performanceIndex;
       row.latestWeekPoints = teamPointsForWeek(Number(row.teamId), finalizedGames, powerIssueWeek);
+      row.cumulativePointsFor = team?.pointsFor ?? null;
+      row.pointsForRank = pointsForRanks.get(Number(row.teamId)) || null;
+      row.pointsPerGame = row.performanceIndex;
+      row.pointsPerGameVsLeague = row.performanceIndex - leagueScoringAverage;
       row.previousRank = previousRanks.get(Number(row.teamId)) || null;
       if (powerIssueWeek === 1) {
         row.weekOnePoints = row.performanceIndex;
@@ -209,12 +218,20 @@ function normalizeLeague(raw, season, scoringRaw = null) {
     latestFinalWeek: powerIssueWeek,
     latestScoreSource: powerIssueWeek === 1 ? weekOneScoreSource : powerIssueWeek ? "ESPN scoreboard" : null,
     powerWeights: powerWeights(powerIssueWeek),
+    leagueScoringAverage: leagueScoringAverage == null ? null : round(leagueScoringAverage),
     weekOneFinal,
     weekOneScoreSource,
     teams,
     matchups,
     powerRankings,
   };
+}
+
+function previousRankSnapshot(issueWeek) {
+  if (issueWeek === 1) return WEEK_ZERO_RANKS;
+  if (issueWeek === 2) return WEEK_ONE_RANKS;
+  if (issueWeek === 3) return WEEK_TWO_RANKS;
+  return new Map();
 }
 
 function completedGames(schedule, currentWeek, weekOneGames) {
@@ -241,6 +258,10 @@ function performanceFromGames(games) {
     row.points += points; row.games += 1; totals.set(id, row);
   }));
   return new Map([...totals].map(([id, row]) => [id, row.points / row.games]));
+}
+
+function average(values) {
+  return values.reduce((sum, value) => sum + value, 0) / Math.max(values.length, 1);
 }
 
 function teamPointsForWeek(teamId, games, week) {

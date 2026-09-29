@@ -82,3 +82,29 @@ test("Week 2 finals produce cumulative standings and a 60/40 post-Week-2 issue",
   assert.equal(gibbsRanking.latestWeekPoints, 134.82);
   assert.equal(gibbsRanking.previousRank, 1);
 });
+
+test("Week 3 issue exposes cumulative Points For context and Week 2 movement", async () => {
+  const makeWeek = (week, startId, pairs, scores) => pairs.map(([homeId, awayId], index) => ({
+    id: startId + index,
+    matchupPeriodId: week,
+    home: { teamId: homeId, totalPoints: scores.get(homeId) },
+    away: { teamId: awayId, totalPoints: scores.get(awayId) },
+  }));
+  const weekTwoPoints = new Map([[1, 115.18], [2, 146.32], [3, 134.82], [4, 148.30], [5, 66.52], [6, 105.90], [7, 119.48], [8, 119.64], [9, 104.06], [10, 115.46], [11, 87.30], [12, 90.38]]);
+  const weekThreePoints = new Map([[1, 116.86], [2, 103.66], [3, 140.26], [4, 136.90], [5, 79.52], [6, 113.68], [7, 91.58], [8, 148.96], [9, 80.22], [10, 124.54], [11, 95.78], [12, 131.54]]);
+  const weekTwo = makeWeek(2, 7, [[5, 8], [2, 12], [3, 6], [11, 1], [9, 10], [4, 7]], weekTwoPoints);
+  const weekThree = makeWeek(3, 13, [[2, 5], [8, 3], [12, 6], [9, 11], [1, 4], [10, 7]], weekThreePoints);
+  const leagueRaw = { ...raw, status: { currentMatchupPeriod: 4 }, schedule: [...schedule, ...weekTwo, ...weekThree] };
+  const league = await requestLeague([], leagueRaw);
+  assert.equal(league.powerIssueWeek, 3);
+  assert.deepEqual(league.powerWeights, { strength: .55, performance: .45 });
+  assert.equal(league.leagueScoringAverage, 116.14);
+  const gibbsRanking = league.powerRankings.find((row) => row.teamId === 3);
+  assert.equal(gibbsRanking.cumulativePointsFor, 454.84);
+  assert.equal(gibbsRanking.pointsForRank, 1);
+  assert.equal(gibbsRanking.pointsPerGame, 454.84 / 3);
+  assert.ok(gibbsRanking.pointsPerGameVsLeague > 35);
+  assert.equal(gibbsRanking.previousRank, 1);
+  const jacksRanking = league.powerRankings.find((row) => row.teamId === 4);
+  assert.equal(jacksRanking.previousRank, 2);
+});
