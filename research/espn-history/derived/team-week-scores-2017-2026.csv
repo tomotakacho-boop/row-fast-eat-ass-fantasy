@@ -1,0 +1,1831 @@
+season,period,period_label,game_index,team_id,team_name,score,result,record_display,opponent_id,opponent_name,opponent_score
+2017,1,NFL Week 1,1,1,Tom's Deflated Balls,82.44,L,"8-6-0, 3rd in East Division",3,KAREEM THE DREAM,163.54
+2017,1,NFL Week 1,1,3,KAREEM THE DREAM,163.54,W,"10-4-0, 1st in East Division",1,Tom's Deflated Balls,82.44
+2017,1,NFL Week 1,2,7,The Juice Is Loose,83.1,W,"9-5-0, 2nd in East Division",9,Team Seattle,78.12
+2017,1,NFL Week 1,2,9,Team Seattle,78.12,L,"3-11-0, 4th in East Division",7,The Juice Is Loose,83.1
+2017,1,NFL Week 1,3,8,Rex On Rex,81.54,L,"8-6-0, 1st in West Division",4,Acute Gronkitis,95.12
+2017,1,NFL Week 1,3,4,Acute Gronkitis,95.12,W,"5-9-0, 4th in West Division",8,Rex On Rex,81.54
+2017,1,NFL Week 1,4,10,Team Subbukumar,99.74,W,"5-9-0, 3rd in West Division",12,Team Ryan,98.48
+2017,1,NFL Week 1,4,12,Team Ryan,98.48,L,"7-7-0, 2nd in West Division",10,Team Subbukumar,99.74
+2017,1,NFL Week 1,5,2,The Ballad of Younghoe Koo,126.5,L,"11-3-0, 1st in Central Division",5,Team Eckler,152.92
+2017,1,NFL Week 1,5,5,Team Eckler,152.92,W,"2-12-0, 4th in Central Division",2,The Ballad of Younghoe Koo,126.5
+2017,1,NFL Week 1,6,6,Rigga Please,157.24,W,"9-5-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,95.28
+2017,1,NFL Week 1,6,11,THE EMPIRE DID NOTHING WRONG!1,95.28,L,"7-7-0, 3rd in Central Division",6,Rigga Please,157.24
+2017,2,NFL Week 2,1,7,The Juice Is Loose,104.16,W,"9-5-0, 2nd in East Division",1,Tom's Deflated Balls,96.04
+2017,2,NFL Week 2,1,1,Tom's Deflated Balls,96.04,L,"8-6-0, 3rd in East Division",7,The Juice Is Loose,104.16
+2017,2,NFL Week 2,2,3,KAREEM THE DREAM,133.82,W,"10-4-0, 1st in East Division",9,Team Seattle,95.32
+2017,2,NFL Week 2,2,9,Team Seattle,95.32,L,"3-11-0, 4th in East Division",3,KAREEM THE DREAM,133.82
+2017,2,NFL Week 2,3,10,Team Subbukumar,97.82,L,"5-9-0, 3rd in West Division",8,Rex On Rex,122.4
+2017,2,NFL Week 2,3,8,Rex On Rex,122.4,W,"8-6-0, 1st in West Division",10,Team Subbukumar,97.82
+2017,2,NFL Week 2,4,4,Acute Gronkitis,131.84,W,"5-9-0, 4th in West Division",12,Team Ryan,129.9
+2017,2,NFL Week 2,4,12,Team Ryan,129.9,L,"7-7-0, 2nd in West Division",4,Acute Gronkitis,131.84
+2017,2,NFL Week 2,5,6,Rigga Please,143.18,W,"9-5-0, 2nd in Central Division",2,The Ballad of Younghoe Koo,106.04
+2017,2,NFL Week 2,5,2,The Ballad of Younghoe Koo,106.04,L,"11-3-0, 1st in Central Division",6,Rigga Please,143.18
+2017,2,NFL Week 2,6,5,Team Eckler,79.46,L,"2-12-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,165.08
+2017,2,NFL Week 2,6,11,THE EMPIRE DID NOTHING WRONG!1,165.08,W,"7-7-0, 3rd in Central Division",5,Team Eckler,79.46
+2017,3,NFL Week 3,1,1,Tom's Deflated Balls,168,W,"8-6-0, 3rd in East Division",9,Team Seattle,116.52
+2017,3,NFL Week 3,1,9,Team Seattle,116.52,L,"3-11-0, 4th in East Division",1,Tom's Deflated Balls,168
+2017,3,NFL Week 3,2,3,KAREEM THE DREAM,145.58,L,"10-4-0, 1st in East Division",7,The Juice Is Loose,147.5
+2017,3,NFL Week 3,2,7,The Juice Is Loose,147.5,W,"9-5-0, 2nd in East Division",3,KAREEM THE DREAM,145.58
+2017,3,NFL Week 3,3,8,Rex On Rex,104.4,L,"8-6-0, 1st in West Division",12,Team Ryan,106.42
+2017,3,NFL Week 3,3,12,Team Ryan,106.42,W,"7-7-0, 2nd in West Division",8,Rex On Rex,104.4
+2017,3,NFL Week 3,4,4,Acute Gronkitis,92.48,L,"5-9-0, 4th in West Division",10,Team Subbukumar,100.32
+2017,3,NFL Week 3,4,10,Team Subbukumar,100.32,W,"5-9-0, 3rd in West Division",4,Acute Gronkitis,92.48
+2017,3,NFL Week 3,5,2,The Ballad of Younghoe Koo,147.7,W,"11-3-0, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,135.12
+2017,3,NFL Week 3,5,11,THE EMPIRE DID NOTHING WRONG!1,135.12,L,"7-7-0, 3rd in Central Division",2,The Ballad of Younghoe Koo,147.7
+2017,3,NFL Week 3,6,5,Team Eckler,126.42,L,"2-12-0, 4th in Central Division",6,Rigga Please,157.46
+2017,3,NFL Week 3,6,6,Rigga Please,157.46,W,"9-5-0, 2nd in Central Division",5,Team Eckler,126.42
+2017,4,NFL Week 4,1,3,KAREEM THE DREAM,122.28,L,"10-4-0, 1st in East Division",1,Tom's Deflated Balls,133.72
+2017,4,NFL Week 4,1,1,Tom's Deflated Balls,133.72,W,"8-6-0, 3rd in East Division",3,KAREEM THE DREAM,122.28
+2017,4,NFL Week 4,2,9,Team Seattle,102.7,L,"3-11-0, 4th in East Division",7,The Juice Is Loose,108.6
+2017,4,NFL Week 4,2,7,The Juice Is Loose,108.6,W,"9-5-0, 2nd in East Division",9,Team Seattle,102.7
+2017,4,NFL Week 4,3,8,Rex On Rex,91.94,L,"8-6-0, 1st in West Division",2,The Ballad of Younghoe Koo,140.42
+2017,4,NFL Week 4,3,2,The Ballad of Younghoe Koo,140.42,W,"11-3-0, 1st in Central Division",8,Rex On Rex,91.94
+2017,4,NFL Week 4,4,4,Acute Gronkitis,106.98,W,"5-9-0, 4th in West Division",5,Team Eckler,106.08
+2017,4,NFL Week 4,4,5,Team Eckler,106.08,L,"2-12-0, 4th in Central Division",4,Acute Gronkitis,106.98
+2017,4,NFL Week 4,5,10,Team Subbukumar,110.06,W,"5-9-0, 3rd in West Division",6,Rigga Please,108.68
+2017,4,NFL Week 4,5,6,Rigga Please,108.68,L,"9-5-0, 2nd in Central Division",10,Team Subbukumar,110.06
+2017,4,NFL Week 4,6,12,Team Ryan,102.82,L,"7-7-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,126.78
+2017,4,NFL Week 4,6,11,THE EMPIRE DID NOTHING WRONG!1,126.78,W,"7-7-0, 3rd in Central Division",12,Team Ryan,102.82
+2017,5,NFL Week 5,1,1,Tom's Deflated Balls,112.6,L,"8-6-0, 3rd in East Division",7,The Juice Is Loose,146.08
+2017,5,NFL Week 5,1,7,The Juice Is Loose,146.08,W,"9-5-0, 2nd in East Division",1,Tom's Deflated Balls,112.6
+2017,5,NFL Week 5,2,9,Team Seattle,97.12,L,"3-11-0, 4th in East Division",3,KAREEM THE DREAM,125.14
+2017,5,NFL Week 5,2,3,KAREEM THE DREAM,125.14,W,"10-4-0, 1st in East Division",9,Team Seattle,97.12
+2017,5,NFL Week 5,3,2,The Ballad of Younghoe Koo,140.96,W,"11-3-0, 1st in Central Division",4,Acute Gronkitis,94.52
+2017,5,NFL Week 5,3,4,Acute Gronkitis,94.52,L,"5-9-0, 4th in West Division",2,The Ballad of Younghoe Koo,140.96
+2017,5,NFL Week 5,4,5,Team Eckler,102.56,L,"2-12-0, 4th in Central Division",10,Team Subbukumar,106.24
+2017,5,NFL Week 5,4,10,Team Subbukumar,106.24,W,"5-9-0, 3rd in West Division",5,Team Eckler,102.56
+2017,5,NFL Week 5,5,6,Rigga Please,124.66,W,"9-5-0, 2nd in Central Division",12,Team Ryan,77.78
+2017,5,NFL Week 5,5,12,Team Ryan,77.78,L,"7-7-0, 2nd in West Division",6,Rigga Please,124.66
+2017,5,NFL Week 5,6,11,THE EMPIRE DID NOTHING WRONG!1,117.52,W,"7-7-0, 3rd in Central Division",8,Rex On Rex,103.02
+2017,5,NFL Week 5,6,8,Rex On Rex,103.02,L,"8-6-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,117.52
+2017,6,NFL Week 6,1,9,Team Seattle,96.12,L,"3-11-0, 4th in East Division",1,Tom's Deflated Balls,100.04
+2017,6,NFL Week 6,1,1,Tom's Deflated Balls,100.04,W,"8-6-0, 3rd in East Division",9,Team Seattle,96.12
+2017,6,NFL Week 6,2,7,The Juice Is Loose,146.6,L,"9-5-0, 2nd in East Division",3,KAREEM THE DREAM,166.76
+2017,6,NFL Week 6,2,3,KAREEM THE DREAM,166.76,W,"10-4-0, 1st in East Division",7,The Juice Is Loose,146.6
+2017,6,NFL Week 6,3,10,Team Subbukumar,54.72,L,"5-9-0, 3rd in West Division",2,The Ballad of Younghoe Koo,151.58
+2017,6,NFL Week 6,3,2,The Ballad of Younghoe Koo,151.58,W,"11-3-0, 1st in Central Division",10,Team Subbukumar,54.72
+2017,6,NFL Week 6,4,12,Team Ryan,119.54,W,"7-7-0, 2nd in West Division",5,Team Eckler,61.44
+2017,6,NFL Week 6,4,5,Team Eckler,61.44,L,"2-12-0, 4th in Central Division",12,Team Ryan,119.54
+2017,6,NFL Week 6,5,8,Rex On Rex,133.9,W,"8-6-0, 1st in West Division",6,Rigga Please,99.82
+2017,6,NFL Week 6,5,6,Rigga Please,99.82,L,"9-5-0, 2nd in Central Division",8,Rex On Rex,133.9
+2017,6,NFL Week 6,6,4,Acute Gronkitis,131.22,W,"5-9-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,103.08
+2017,6,NFL Week 6,6,11,THE EMPIRE DID NOTHING WRONG!1,103.08,L,"7-7-0, 3rd in Central Division",4,Acute Gronkitis,131.22
+2017,7,NFL Week 7,1,1,Tom's Deflated Balls,100.84,L,"8-6-0, 3rd in East Division",3,KAREEM THE DREAM,123.36
+2017,7,NFL Week 7,1,3,KAREEM THE DREAM,123.36,W,"10-4-0, 1st in East Division",1,Tom's Deflated Balls,100.84
+2017,7,NFL Week 7,2,7,The Juice Is Loose,89.22,W,"9-5-0, 2nd in East Division",9,Team Seattle,24.18
+2017,7,NFL Week 7,2,9,Team Seattle,24.18,L,"3-11-0, 4th in East Division",7,The Juice Is Loose,89.22
+2017,7,NFL Week 7,3,2,The Ballad of Younghoe Koo,178.08,W,"11-3-0, 1st in Central Division",12,Team Ryan,141.58
+2017,7,NFL Week 7,3,12,Team Ryan,141.58,L,"7-7-0, 2nd in West Division",2,The Ballad of Younghoe Koo,178.08
+2017,7,NFL Week 7,4,5,Team Eckler,90.96,L,"2-12-0, 4th in Central Division",8,Rex On Rex,98.52
+2017,7,NFL Week 7,4,8,Rex On Rex,98.52,W,"8-6-0, 1st in West Division",5,Team Eckler,90.96
+2017,7,NFL Week 7,5,6,Rigga Please,141.62,W,"9-5-0, 2nd in Central Division",4,Acute Gronkitis,102
+2017,7,NFL Week 7,5,4,Acute Gronkitis,102,L,"5-9-0, 4th in West Division",6,Rigga Please,141.62
+2017,7,NFL Week 7,6,11,THE EMPIRE DID NOTHING WRONG!1,150.96,W,"7-7-0, 3rd in Central Division",10,Team Subbukumar,56.5
+2017,7,NFL Week 7,6,10,Team Subbukumar,56.5,L,"5-9-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,150.96
+2017,8,NFL Week 8,1,1,Tom's Deflated Balls,113.26,L,"8-6-0, 3rd in East Division",2,The Ballad of Younghoe Koo,155.98
+2017,8,NFL Week 8,1,2,The Ballad of Younghoe Koo,155.98,W,"11-3-0, 1st in Central Division",1,Tom's Deflated Balls,113.26
+2017,8,NFL Week 8,2,4,Acute Gronkitis,93.78,L,"5-9-0, 4th in West Division",8,Rex On Rex,127.38
+2017,8,NFL Week 8,2,8,Rex On Rex,127.38,W,"8-6-0, 1st in West Division",4,Acute Gronkitis,93.78
+2017,8,NFL Week 8,3,12,Team Ryan,102.92,W,"7-7-0, 2nd in West Division",10,Team Subbukumar,89.22
+2017,8,NFL Week 8,3,10,Team Subbukumar,89.22,L,"5-9-0, 3rd in West Division",12,Team Ryan,102.92
+2017,8,NFL Week 8,4,3,KAREEM THE DREAM,118.72,W,"10-4-0, 1st in East Division",5,Team Eckler,25.9
+2017,8,NFL Week 8,4,5,Team Eckler,25.9,L,"2-12-0, 4th in Central Division",3,KAREEM THE DREAM,118.72
+2017,8,NFL Week 8,5,7,The Juice Is Loose,133.62,L,"9-5-0, 2nd in East Division",6,Rigga Please,139.44
+2017,8,NFL Week 8,5,6,Rigga Please,139.44,W,"9-5-0, 2nd in Central Division",7,The Juice Is Loose,133.62
+2017,8,NFL Week 8,6,9,Team Seattle,142.98,W,"3-11-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,136.32
+2017,8,NFL Week 8,6,11,THE EMPIRE DID NOTHING WRONG!1,136.32,L,"7-7-0, 3rd in Central Division",9,Team Seattle,142.98
+2017,9,NFL Week 9,1,11,THE EMPIRE DID NOTHING WRONG!1,110.96,L,"7-7-0, 3rd in Central Division",1,Tom's Deflated Balls,141.62
+2017,9,NFL Week 9,1,1,Tom's Deflated Balls,141.62,W,"8-6-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,110.96
+2017,9,NFL Week 9,2,8,Rex On Rex,111.3,W,"8-6-0, 1st in West Division",10,Team Subbukumar,72.24
+2017,9,NFL Week 9,2,10,Team Subbukumar,72.24,L,"5-9-0, 3rd in West Division",8,Rex On Rex,111.3
+2017,9,NFL Week 9,3,12,Team Ryan,154.8,W,"7-7-0, 2nd in West Division",4,Acute Gronkitis,124.54
+2017,9,NFL Week 9,3,4,Acute Gronkitis,124.54,L,"5-9-0, 4th in West Division",12,Team Ryan,154.8
+2017,9,NFL Week 9,4,2,The Ballad of Younghoe Koo,129.02,W,"11-3-0, 1st in Central Division",3,KAREEM THE DREAM,94.96
+2017,9,NFL Week 9,4,3,KAREEM THE DREAM,94.96,L,"10-4-0, 1st in East Division",2,The Ballad of Younghoe Koo,129.02
+2017,9,NFL Week 9,5,5,Team Eckler,62.38,L,"2-12-0, 4th in Central Division",7,The Juice Is Loose,120.78
+2017,9,NFL Week 9,5,7,The Juice Is Loose,120.78,W,"9-5-0, 2nd in East Division",5,Team Eckler,62.38
+2017,9,NFL Week 9,6,6,Rigga Please,99.66,W,"9-5-0, 2nd in Central Division",9,Team Seattle,81.88
+2017,9,NFL Week 9,6,9,Team Seattle,81.88,L,"3-11-0, 4th in East Division",6,Rigga Please,99.66
+2017,10,NFL Week 10,1,1,Tom's Deflated Balls,126.56,W,"8-6-0, 3rd in East Division",6,Rigga Please,105.4
+2017,10,NFL Week 10,1,6,Rigga Please,105.4,L,"9-5-0, 2nd in Central Division",1,Tom's Deflated Balls,126.56
+2017,10,NFL Week 10,2,12,Team Ryan,148.54,W,"7-7-0, 2nd in West Division",8,Rex On Rex,131.38
+2017,10,NFL Week 10,2,8,Rex On Rex,131.38,L,"8-6-0, 1st in West Division",12,Team Ryan,148.54
+2017,10,NFL Week 10,3,10,Team Subbukumar,110.26,W,"5-9-0, 3rd in West Division",4,Acute Gronkitis,98.5
+2017,10,NFL Week 10,3,4,Acute Gronkitis,98.5,L,"5-9-0, 4th in West Division",10,Team Subbukumar,110.26
+2017,10,NFL Week 10,4,7,The Juice Is Loose,110.58,W,"9-5-0, 2nd in East Division",2,The Ballad of Younghoe Koo,75.04
+2017,10,NFL Week 10,4,2,The Ballad of Younghoe Koo,75.04,L,"11-3-0, 1st in Central Division",7,The Juice Is Loose,110.58
+2017,10,NFL Week 10,5,9,Team Seattle,67.12,L,"3-11-0, 4th in East Division",5,Team Eckler,111.8
+2017,10,NFL Week 10,5,5,Team Eckler,111.8,W,"2-12-0, 4th in Central Division",9,Team Seattle,67.12
+2017,10,NFL Week 10,6,3,KAREEM THE DREAM,139.04,W,"10-4-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,75.04
+2017,10,NFL Week 10,6,11,THE EMPIRE DID NOTHING WRONG!1,75.04,L,"7-7-0, 3rd in Central Division",3,KAREEM THE DREAM,139.04
+2017,11,NFL Week 11,1,5,Team Eckler,114.46,L,"2-12-0, 4th in Central Division",1,Tom's Deflated Balls,116.9
+2017,11,NFL Week 11,1,1,Tom's Deflated Balls,116.9,W,"8-6-0, 3rd in East Division",5,Team Eckler,114.46
+2017,11,NFL Week 11,2,8,Rex On Rex,116.54,W,"8-6-0, 1st in West Division",4,Acute Gronkitis,75.6
+2017,11,NFL Week 11,2,4,Acute Gronkitis,75.6,L,"5-9-0, 4th in West Division",8,Rex On Rex,116.54
+2017,11,NFL Week 11,3,10,Team Subbukumar,67.96,L,"5-9-0, 3rd in West Division",12,Team Ryan,141.96
+2017,11,NFL Week 11,3,12,Team Ryan,141.96,W,"7-7-0, 2nd in West Division",10,Team Subbukumar,67.96
+2017,11,NFL Week 11,4,2,The Ballad of Younghoe Koo,140.9,W,"11-3-0, 1st in Central Division",9,Team Seattle,89.72
+2017,11,NFL Week 11,4,9,Team Seattle,89.72,L,"3-11-0, 4th in East Division",2,The Ballad of Younghoe Koo,140.9
+2017,11,NFL Week 11,5,6,Rigga Please,130.92,W,"9-5-0, 2nd in Central Division",3,KAREEM THE DREAM,129.4
+2017,11,NFL Week 11,5,3,KAREEM THE DREAM,129.4,L,"10-4-0, 1st in East Division",6,Rigga Please,130.92
+2017,11,NFL Week 11,6,11,THE EMPIRE DID NOTHING WRONG!1,141,W,"7-7-0, 3rd in Central Division",7,The Juice Is Loose,125.98
+2017,11,NFL Week 11,6,7,The Juice Is Loose,125.98,L,"9-5-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,141
+2017,12,NFL Week 12,1,1,Tom's Deflated Balls,139.04,L,"8-6-0, 3rd in East Division",8,Rex On Rex,142.4
+2017,12,NFL Week 12,1,8,Rex On Rex,142.4,W,"8-6-0, 1st in West Division",1,Tom's Deflated Balls,139.04
+2017,12,NFL Week 12,2,5,Team Eckler,87.66,L,"2-12-0, 4th in Central Division",2,The Ballad of Younghoe Koo,124.66
+2017,12,NFL Week 12,2,2,The Ballad of Younghoe Koo,124.66,W,"11-3-0, 1st in Central Division",5,Team Eckler,87.66
+2017,12,NFL Week 12,3,11,THE EMPIRE DID NOTHING WRONG!1,175.28,W,"7-7-0, 3rd in Central Division",6,Rigga Please,132.38
+2017,12,NFL Week 12,3,6,Rigga Please,132.38,L,"9-5-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,175.28
+2017,12,NFL Week 12,4,3,KAREEM THE DREAM,99.02,W,"10-4-0, 1st in East Division",4,Acute Gronkitis,65.76
+2017,12,NFL Week 12,4,4,Acute Gronkitis,65.76,L,"5-9-0, 4th in West Division",3,KAREEM THE DREAM,99.02
+2017,12,NFL Week 12,5,7,The Juice Is Loose,133.38,W,"9-5-0, 2nd in East Division",10,Team Subbukumar,81.5
+2017,12,NFL Week 12,5,10,Team Subbukumar,81.5,L,"5-9-0, 3rd in West Division",7,The Juice Is Loose,133.38
+2017,12,NFL Week 12,6,9,Team Seattle,108.72,L,"3-11-0, 4th in East Division",12,Team Ryan,150.74
+2017,12,NFL Week 12,6,12,Team Ryan,150.74,W,"7-7-0, 2nd in West Division",9,Team Seattle,108.72
+2017,13,NFL Week 13,1,12,Team Ryan,113.8,L,"7-7-0, 2nd in West Division",1,Tom's Deflated Balls,143.26
+2017,13,NFL Week 13,1,1,Tom's Deflated Balls,143.26,W,"8-6-0, 3rd in East Division",12,Team Ryan,113.8
+2017,13,NFL Week 13,2,2,The Ballad of Younghoe Koo,215.74,W,"11-3-0, 1st in Central Division",6,Rigga Please,98.32
+2017,13,NFL Week 13,2,6,Rigga Please,98.32,L,"9-5-0, 2nd in Central Division",2,The Ballad of Younghoe Koo,215.74
+2017,13,NFL Week 13,3,11,THE EMPIRE DID NOTHING WRONG!1,92.82,W,"7-7-0, 3rd in Central Division",5,Team Eckler,86.96
+2017,13,NFL Week 13,3,5,Team Eckler,86.96,L,"2-12-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,92.82
+2017,13,NFL Week 13,4,8,Rex On Rex,111.38,L,"8-6-0, 1st in West Division",3,KAREEM THE DREAM,148.92
+2017,13,NFL Week 13,4,3,KAREEM THE DREAM,148.92,W,"10-4-0, 1st in East Division",8,Rex On Rex,111.38
+2017,13,NFL Week 13,5,4,Acute Gronkitis,123.86,W,"5-9-0, 4th in West Division",7,The Juice Is Loose,110.14
+2017,13,NFL Week 13,5,7,The Juice Is Loose,110.14,L,"9-5-0, 2nd in East Division",4,Acute Gronkitis,123.86
+2017,13,NFL Week 13,6,10,Team Subbukumar,102.48,L,"5-9-0, 3rd in West Division",9,Team Seattle,111.88
+2017,13,NFL Week 13,6,9,Team Seattle,111.88,W,"3-11-0, 4th in East Division",10,Team Subbukumar,102.48
+2017,14,NFL Week 14,1,1,Tom's Deflated Balls,134.64,W,"8-6-0, 3rd in East Division",10,Team Subbukumar,97.44
+2017,14,NFL Week 14,1,10,Team Subbukumar,97.44,L,"5-9-0, 3rd in West Division",1,Tom's Deflated Balls,134.64
+2017,14,NFL Week 14,2,2,The Ballad of Younghoe Koo,112.52,W,"11-3-0, 1st in Central Division",5,Team Eckler,68.24
+2017,14,NFL Week 14,2,5,Team Eckler,68.24,L,"2-12-0, 4th in Central Division",2,The Ballad of Younghoe Koo,112.52
+2017,14,NFL Week 14,3,6,Rigga Please,140.84,W,"9-5-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,126.12
+2017,14,NFL Week 14,3,11,THE EMPIRE DID NOTHING WRONG!1,126.12,L,"7-7-0, 3rd in Central Division",6,Rigga Please,140.84
+2017,14,NFL Week 14,4,7,The Juice Is Loose,110.84,L,"9-5-0, 2nd in East Division",8,Rex On Rex,135.4
+2017,14,NFL Week 14,4,8,Rex On Rex,135.4,W,"8-6-0, 1st in West Division",7,The Juice Is Loose,110.84
+2017,14,NFL Week 14,5,9,Team Seattle,115.74,W,"3-11-0, 4th in East Division",4,Acute Gronkitis,111.26
+2017,14,NFL Week 14,5,4,Acute Gronkitis,111.26,L,"5-9-0, 4th in West Division",9,Team Seattle,115.74
+2017,14,NFL Week 14,6,3,KAREEM THE DREAM,137.7,W,"10-4-0, 1st in East Division",12,Team Ryan,120.64
+2017,14,NFL Week 14,6,12,Team Ryan,120.64,L,"7-7-0, 2nd in West Division",3,KAREEM THE DREAM,137.7
+2017,15,Playoff Round 1 (NFL Week 15),1,1,Tom's Deflated Balls,154.24,W,"8-6-0, 3rd in East Division",8,Rex On Rex,141.96
+2017,15,Playoff Round 1 (NFL Week 15),1,8,Rex On Rex,141.96,L,"8-6-0, 1st in West Division",1,Tom's Deflated Balls,154.24
+2017,15,Playoff Round 1 (NFL Week 15),2,7,The Juice Is Loose,119.14,L,"9-5-0, 2nd in East Division",6,Rigga Please,179.48
+2017,15,Playoff Round 1 (NFL Week 15),2,6,Rigga Please,179.48,W,"9-5-0, 2nd in Central Division",7,The Juice Is Loose,119.14
+2017,15,Playoff Round 1 (NFL Week 15),3,12,Team Ryan,91.04,W,"7-7-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,80.62
+2017,15,Playoff Round 1 (NFL Week 15),3,11,THE EMPIRE DID NOTHING WRONG!1,80.62,L,"7-7-0, 3rd in Central Division",12,Team Ryan,91.04
+2017,15,Playoff Round 1 (NFL Week 15),4,4,Acute Gronkitis,114.38,W,"5-9-0, 4th in West Division",10,Team Subbukumar,55.78
+2017,15,Playoff Round 1 (NFL Week 15),4,10,Team Subbukumar,55.78,L,"5-9-0, 3rd in West Division",4,Acute Gronkitis,114.38
+2017,15,Playoff Round 1 (NFL Week 15),5,5,Team Eckler,67.32,L,"2-12-0, 4th in Central Division",9,Team Seattle,98.48
+2017,15,Playoff Round 1 (NFL Week 15),5,9,Team Seattle,98.48,W,"3-11-0, 4th in East Division",5,Team Eckler,67.32
+2017,16,Playoff Round 2 (NFL Week 16),1,1,Tom's Deflated Balls,126.56,W,"8-6-0, 3rd in East Division",3,KAREEM THE DREAM,113.8
+2017,16,Playoff Round 2 (NFL Week 16),1,3,KAREEM THE DREAM,113.8,L,"10-4-0, 1st in East Division",1,Tom's Deflated Balls,126.56
+2017,16,Playoff Round 2 (NFL Week 16),2,6,Rigga Please,127.12,L,"9-5-0, 2nd in Central Division",2,The Ballad of Younghoe Koo,144.6
+2017,16,Playoff Round 2 (NFL Week 16),2,2,The Ballad of Younghoe Koo,144.6,W,"11-3-0, 1st in Central Division",6,Rigga Please,127.12
+2017,16,Playoff Round 2 (NFL Week 16),3,7,The Juice Is Loose,108.66,W,"9-5-0, 2nd in East Division",8,Rex On Rex,97.68
+2017,16,Playoff Round 2 (NFL Week 16),3,8,Rex On Rex,97.68,L,"8-6-0, 1st in West Division",7,The Juice Is Loose,108.66
+2017,16,Playoff Round 2 (NFL Week 16),4,4,Acute Gronkitis,114.64,W,"5-9-0, 4th in West Division",12,Team Ryan,85.1
+2017,16,Playoff Round 2 (NFL Week 16),4,12,Team Ryan,85.1,L,"7-7-0, 2nd in West Division",4,Acute Gronkitis,114.64
+2017,16,Playoff Round 2 (NFL Week 16),5,9,Team Seattle,109.42,W,"3-11-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,87.86
+2017,16,Playoff Round 2 (NFL Week 16),5,11,THE EMPIRE DID NOTHING WRONG!1,87.86,L,"7-7-0, 3rd in Central Division",9,Team Seattle,109.42
+2017,16,Playoff Round 2 (NFL Week 16),6,5,Team Eckler,81.42,W,"2-12-0, 4th in Central Division",10,Team Subbukumar,39.02
+2017,16,Playoff Round 2 (NFL Week 16),6,10,Team Subbukumar,39.02,L,"5-9-0, 3rd in West Division",5,Team Eckler,81.42
+2017,17,Playoff Round 3 (NFL Week 17),1,1,Tom's Deflated Balls,101.5,L,"8-6-0, 3rd in East Division",2,The Ballad of Younghoe Koo,133.06
+2017,17,Playoff Round 3 (NFL Week 17),1,2,The Ballad of Younghoe Koo,133.06,W,"11-3-0, 1st in Central Division",1,Tom's Deflated Balls,101.5
+2017,17,Playoff Round 3 (NFL Week 17),2,6,Rigga Please,112.18,W,"9-5-0, 2nd in Central Division",3,KAREEM THE DREAM,94.9
+2017,17,Playoff Round 3 (NFL Week 17),2,3,KAREEM THE DREAM,94.9,L,"10-4-0, 1st in East Division",6,Rigga Please,112.18
+2017,17,Playoff Round 3 (NFL Week 17),3,7,The Juice Is Loose,95.52,L,"9-5-0, 2nd in East Division",8,Rex On Rex,112.22
+2017,17,Playoff Round 3 (NFL Week 17),3,8,Rex On Rex,112.22,W,"8-6-0, 1st in West Division",7,The Juice Is Loose,95.52
+2017,17,Playoff Round 3 (NFL Week 17),4,9,Team Seattle,117.94,W,"3-11-0, 4th in East Division",4,Acute Gronkitis,117.28
+2017,17,Playoff Round 3 (NFL Week 17),4,4,Acute Gronkitis,117.28,L,"5-9-0, 4th in West Division",9,Team Seattle,117.94
+2017,17,Playoff Round 3 (NFL Week 17),5,5,Team Eckler,114.38,L,"2-12-0, 4th in Central Division",12,Team Ryan,137.92
+2017,17,Playoff Round 3 (NFL Week 17),5,12,Team Ryan,137.92,W,"7-7-0, 2nd in West Division",5,Team Eckler,114.38
+2017,17,Playoff Round 3 (NFL Week 17),6,10,Team Subbukumar,76.02,L,"5-9-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,102.5
+2017,17,Playoff Round 3 (NFL Week 17),6,11,THE EMPIRE DID NOTHING WRONG!1,102.5,W,"7-7-0, 3rd in Central Division",10,Team Subbukumar,76.02
+2018,1,NFL Week 1,1,8,Rex On Rex,142,L,"9-4-0, 1st in West Division",1,Tom's Deflated Balls,159
+2018,1,NFL Week 1,1,1,Tom's Deflated Balls,159,W,"9-4-0, 3rd in West Division",8,Rex On Rex,142
+2018,1,NFL Week 1,2,2,The Ballad of Younghoe Koo,82,L,"6-7-0, 3rd in East Division",7,The Juice Is Loose,130
+2018,1,NFL Week 1,2,7,The Juice Is Loose,130,W,"8-5-0, 1st in East Division",2,The Ballad of Younghoe Koo,82
+2018,1,NFL Week 1,3,12,Team Ryan,113,L,"3-10-0, 4th in East Division",5,Team Goff Balls,132
+2018,1,NFL Week 1,3,5,Team Goff Balls,132,W,"8-5-0, 2nd in East Division",12,Team Ryan,113
+2018,1,NFL Week 1,4,9,Team Seattle,71,L,"0-13-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,143
+2018,1,NFL Week 1,4,11,THE EMPIRE DID NOTHING WRONG!1,143,W,"9-4-0, 2nd in West Division",9,Team Seattle,71
+2018,1,NFL Week 1,5,4,Newtonâs Law of Winning,121,L,"7-5-1, 2nd in Central Division",3,The Bake Show,122
+2018,1,NFL Week 1,5,3,The Bake Show,122,W,"10-2-1, 1st in Central Division",4,Newtonâs Law of Winning,121
+2018,1,NFL Week 1,6,6,Rigga Please,112,W,"7-6-0, 3rd in Central Division",10,Juulio Jones,82
+2018,1,NFL Week 1,6,10,Juulio Jones,82,L,"1-12-0, 4th in Central Division",6,Rigga Please,112
+2018,2,NFL Week 2,1,1,Tom's Deflated Balls,124,L,"9-4-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,138
+2018,2,NFL Week 2,1,11,THE EMPIRE DID NOTHING WRONG!1,138,W,"9-4-0, 2nd in West Division",1,Tom's Deflated Balls,124
+2018,2,NFL Week 2,2,12,Team Ryan,99,W,"3-10-0, 4th in East Division",2,The Ballad of Younghoe Koo,79
+2018,2,NFL Week 2,2,2,The Ballad of Younghoe Koo,79,L,"6-7-0, 3rd in East Division",12,Team Ryan,99
+2018,2,NFL Week 2,3,7,The Juice Is Loose,149,W,"8-5-0, 1st in East Division",5,Team Goff Balls,98
+2018,2,NFL Week 2,3,5,Team Goff Balls,98,L,"8-5-0, 2nd in East Division",7,The Juice Is Loose,149
+2018,2,NFL Week 2,4,9,Team Seattle,96,L,"0-13-0, 4th in West Division",8,Rex On Rex,153
+2018,2,NFL Week 2,4,8,Rex On Rex,153,W,"9-4-0, 1st in West Division",9,Team Seattle,96
+2018,2,NFL Week 2,5,6,Rigga Please,117,W,"7-6-0, 3rd in Central Division",4,Newtonâs Law of Winning,111
+2018,2,NFL Week 2,5,4,Newtonâs Law of Winning,111,L,"7-5-1, 2nd in Central Division",6,Rigga Please,117
+2018,2,NFL Week 2,6,3,The Bake Show,112,W,"10-2-1, 1st in Central Division",10,Juulio Jones,75
+2018,2,NFL Week 2,6,10,Juulio Jones,75,L,"1-12-0, 4th in Central Division",3,The Bake Show,112
+2018,3,NFL Week 3,1,1,Tom's Deflated Balls,118,W,"9-4-0, 3rd in West Division",9,Team Seattle,68
+2018,3,NFL Week 3,1,9,Team Seattle,68,L,"0-13-0, 4th in West Division",1,Tom's Deflated Balls,118
+2018,3,NFL Week 3,2,2,The Ballad of Younghoe Koo,101,W,"6-7-0, 3rd in East Division",5,Team Goff Balls,88
+2018,3,NFL Week 3,2,5,Team Goff Balls,88,L,"8-5-0, 2nd in East Division",2,The Ballad of Younghoe Koo,101
+2018,3,NFL Week 3,3,7,The Juice Is Loose,114,W,"8-5-0, 1st in East Division",12,Team Ryan,113
+2018,3,NFL Week 3,3,12,Team Ryan,113,L,"3-10-0, 4th in East Division",7,The Juice Is Loose,114
+2018,3,NFL Week 3,4,8,Rex On Rex,157,W,"9-4-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,114
+2018,3,NFL Week 3,4,11,THE EMPIRE DID NOTHING WRONG!1,114,L,"9-4-0, 2nd in West Division",8,Rex On Rex,157
+2018,3,NFL Week 3,5,4,Newtonâs Law of Winning,138,W,"7-5-1, 2nd in Central Division",10,Juulio Jones,83
+2018,3,NFL Week 3,5,10,Juulio Jones,83,L,"1-12-0, 4th in Central Division",4,Newtonâs Law of Winning,138
+2018,3,NFL Week 3,6,3,The Bake Show,154,W,"10-2-1, 1st in Central Division",6,Rigga Please,82
+2018,3,NFL Week 3,6,6,Rigga Please,82,L,"7-6-0, 3rd in Central Division",3,The Bake Show,154
+2018,4,NFL Week 4,1,1,Tom's Deflated Balls,141,W,"9-4-0, 3rd in West Division",3,The Bake Show,96
+2018,4,NFL Week 4,1,3,The Bake Show,96,L,"10-2-1, 1st in Central Division",1,Tom's Deflated Balls,141
+2018,4,NFL Week 4,2,7,The Juice Is Loose,122,W,"8-5-0, 1st in East Division",2,The Ballad of Younghoe Koo,110
+2018,4,NFL Week 4,2,2,The Ballad of Younghoe Koo,110,L,"6-7-0, 3rd in East Division",7,The Juice Is Loose,122
+2018,4,NFL Week 4,3,5,Team Goff Balls,128,W,"8-5-0, 2nd in East Division",12,Team Ryan,111
+2018,4,NFL Week 4,3,12,Team Ryan,111,L,"3-10-0, 4th in East Division",5,Team Goff Balls,128
+2018,4,NFL Week 4,4,8,Rex On Rex,127,L,"9-4-0, 1st in West Division",4,Newtonâs Law of Winning,156
+2018,4,NFL Week 4,4,4,Newtonâs Law of Winning,156,W,"7-5-1, 2nd in Central Division",8,Rex On Rex,127
+2018,4,NFL Week 4,5,9,Team Seattle,88,L,"0-13-0, 4th in West Division",6,Rigga Please,114
+2018,4,NFL Week 4,5,6,Rigga Please,114,W,"7-6-0, 3rd in Central Division",9,Team Seattle,88
+2018,4,NFL Week 4,6,11,THE EMPIRE DID NOTHING WRONG!1,130,W,"9-4-0, 2nd in West Division",10,Juulio Jones,120
+2018,4,NFL Week 4,6,10,Juulio Jones,120,L,"1-12-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,130
+2018,5,NFL Week 5,1,4,Newtonâs Law of Winning,100,L,"7-5-1, 2nd in Central Division",1,Tom's Deflated Balls,138
+2018,5,NFL Week 5,1,1,Tom's Deflated Balls,138,W,"9-4-0, 3rd in West Division",4,Newtonâs Law of Winning,100
+2018,5,NFL Week 5,2,2,The Ballad of Younghoe Koo,102,W,"6-7-0, 3rd in East Division",12,Team Ryan,48
+2018,5,NFL Week 5,2,12,Team Ryan,48,L,"3-10-0, 4th in East Division",2,The Ballad of Younghoe Koo,102
+2018,5,NFL Week 5,3,5,Team Goff Balls,119,W,"8-5-0, 2nd in East Division",7,The Juice Is Loose,113
+2018,5,NFL Week 5,3,7,The Juice Is Loose,113,L,"8-5-0, 1st in East Division",5,Team Goff Balls,119
+2018,5,NFL Week 5,4,3,The Bake Show,151,W,"10-2-1, 1st in Central Division",9,Team Seattle,60
+2018,5,NFL Week 5,4,9,Team Seattle,60,L,"0-13-0, 4th in West Division",3,The Bake Show,151
+2018,5,NFL Week 5,5,6,Rigga Please,83,L,"7-6-0, 3rd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,157
+2018,5,NFL Week 5,5,11,THE EMPIRE DID NOTHING WRONG!1,157,W,"9-4-0, 2nd in West Division",6,Rigga Please,83
+2018,5,NFL Week 5,6,10,Juulio Jones,96,L,"1-12-0, 4th in Central Division",8,Rex On Rex,131
+2018,5,NFL Week 5,6,8,Rex On Rex,131,W,"9-4-0, 1st in West Division",10,Juulio Jones,96
+2018,6,NFL Week 6,1,1,Tom's Deflated Balls,124,W,"9-4-0, 3rd in West Division",10,Juulio Jones,123
+2018,6,NFL Week 6,1,10,Juulio Jones,123,L,"1-12-0, 4th in Central Division",1,Tom's Deflated Balls,124
+2018,6,NFL Week 6,2,5,Team Goff Balls,96,L,"8-5-0, 2nd in East Division",2,The Ballad of Younghoe Koo,100
+2018,6,NFL Week 6,2,2,The Ballad of Younghoe Koo,100,W,"6-7-0, 3rd in East Division",5,Team Goff Balls,96
+2018,6,NFL Week 6,3,12,Team Ryan,87,L,"3-10-0, 4th in East Division",7,The Juice Is Loose,132
+2018,6,NFL Week 6,3,7,The Juice Is Loose,132,W,"8-5-0, 1st in East Division",12,Team Ryan,87
+2018,6,NFL Week 6,4,9,Team Seattle,101,L,"0-13-0, 4th in West Division",4,Newtonâs Law of Winning,134
+2018,6,NFL Week 6,4,4,Newtonâs Law of Winning,134,W,"7-5-1, 2nd in Central Division",9,Team Seattle,101
+2018,6,NFL Week 6,5,11,THE EMPIRE DID NOTHING WRONG!1,118,L,"9-4-0, 2nd in West Division",3,The Bake Show,125
+2018,6,NFL Week 6,5,3,The Bake Show,125,W,"10-2-1, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,118
+2018,6,NFL Week 6,6,8,Rex On Rex,115,W,"9-4-0, 1st in West Division",6,Rigga Please,112
+2018,6,NFL Week 6,6,6,Rigga Please,112,L,"7-6-0, 3rd in Central Division",8,Rex On Rex,115
+2018,7,NFL Week 7,1,6,Rigga Please,97,L,"7-6-0, 3rd in Central Division",1,Tom's Deflated Balls,100
+2018,7,NFL Week 7,1,1,Tom's Deflated Balls,100,W,"9-4-0, 3rd in West Division",6,Rigga Please,97
+2018,7,NFL Week 7,2,2,The Ballad of Younghoe Koo,109,L,"6-7-0, 3rd in East Division",7,The Juice Is Loose,142
+2018,7,NFL Week 7,2,7,The Juice Is Loose,142,W,"8-5-0, 1st in East Division",2,The Ballad of Younghoe Koo,109
+2018,7,NFL Week 7,3,12,Team Ryan,88,L,"3-10-0, 4th in East Division",5,Team Goff Balls,101
+2018,7,NFL Week 7,3,5,Team Goff Balls,101,W,"8-5-0, 2nd in East Division",12,Team Ryan,88
+2018,7,NFL Week 7,4,4,Newtonâs Law of Winning,73,L,"7-5-1, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,101
+2018,7,NFL Week 7,4,11,THE EMPIRE DID NOTHING WRONG!1,101,W,"9-4-0, 2nd in West Division",4,Newtonâs Law of Winning,73
+2018,7,NFL Week 7,5,3,The Bake Show,145,W,"10-2-1, 1st in Central Division",8,Rex On Rex,91
+2018,7,NFL Week 7,5,8,Rex On Rex,91,L,"9-4-0, 1st in West Division",3,The Bake Show,145
+2018,7,NFL Week 7,6,10,Juulio Jones,62,W,"1-12-0, 4th in Central Division",9,Team Seattle,50
+2018,7,NFL Week 7,6,9,Team Seattle,50,L,"0-13-0, 4th in West Division",10,Juulio Jones,62
+2018,8,NFL Week 8,1,1,Tom's Deflated Balls,141,W,"9-4-0, 3rd in West Division",8,Rex On Rex,116
+2018,8,NFL Week 8,1,8,Rex On Rex,116,L,"9-4-0, 1st in West Division",1,Tom's Deflated Balls,141
+2018,8,NFL Week 8,2,11,THE EMPIRE DID NOTHING WRONG!1,167,W,"9-4-0, 2nd in West Division",9,Team Seattle,64
+2018,8,NFL Week 8,2,9,Team Seattle,64,L,"0-13-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,167
+2018,8,NFL Week 8,3,2,The Ballad of Younghoe Koo,110,L,"6-7-0, 3rd in East Division",4,Newtonâs Law of Winning,134
+2018,8,NFL Week 8,3,4,Newtonâs Law of Winning,134,W,"7-5-1, 2nd in Central Division",2,The Ballad of Younghoe Koo,110
+2018,8,NFL Week 8,4,7,The Juice Is Loose,101,L,"8-5-0, 1st in East Division",3,The Bake Show,129
+2018,8,NFL Week 8,4,3,The Bake Show,129,W,"10-2-1, 1st in Central Division",7,The Juice Is Loose,101
+2018,8,NFL Week 8,5,12,Team Ryan,62,L,"3-10-0, 4th in East Division",6,Rigga Please,102
+2018,8,NFL Week 8,5,6,Rigga Please,102,W,"7-6-0, 3rd in Central Division",12,Team Ryan,62
+2018,8,NFL Week 8,6,5,Team Goff Balls,111,W,"8-5-0, 2nd in East Division",10,Juulio Jones,58
+2018,8,NFL Week 8,6,10,Juulio Jones,58,L,"1-12-0, 4th in Central Division",5,Team Goff Balls,111
+2018,9,NFL Week 9,1,11,THE EMPIRE DID NOTHING WRONG!1,110,W,"9-4-0, 2nd in West Division",1,Tom's Deflated Balls,107
+2018,9,NFL Week 9,1,1,Tom's Deflated Balls,107,L,"9-4-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,110
+2018,9,NFL Week 9,2,8,Rex On Rex,135,W,"9-4-0, 1st in West Division",9,Team Seattle,91
+2018,9,NFL Week 9,2,9,Team Seattle,91,L,"0-13-0, 4th in West Division",8,Rex On Rex,135
+2018,9,NFL Week 9,3,4,Newtonâs Law of Winning,118,W,"7-5-1, 2nd in Central Division",7,The Juice Is Loose,110
+2018,9,NFL Week 9,3,7,The Juice Is Loose,110,L,"8-5-0, 1st in East Division",4,Newtonâs Law of Winning,118
+2018,9,NFL Week 9,4,3,The Bake Show,129,W,"10-2-1, 1st in Central Division",12,Team Ryan,118
+2018,9,NFL Week 9,4,12,Team Ryan,118,L,"3-10-0, 4th in East Division",3,The Bake Show,129
+2018,9,NFL Week 9,5,6,Rigga Please,99,L,"7-6-0, 3rd in Central Division",5,Team Goff Balls,132
+2018,9,NFL Week 9,5,5,Team Goff Balls,132,W,"8-5-0, 2nd in East Division",6,Rigga Please,99
+2018,9,NFL Week 9,6,10,Juulio Jones,22,L,"1-12-0, 4th in Central Division",2,The Ballad of Younghoe Koo,133
+2018,9,NFL Week 9,6,2,The Ballad of Younghoe Koo,133,W,"6-7-0, 3rd in East Division",10,Juulio Jones,22
+2018,10,NFL Week 10,1,9,Team Seattle,49,L,"0-13-0, 4th in West Division",1,Tom's Deflated Balls,142
+2018,10,NFL Week 10,1,1,Tom's Deflated Balls,142,W,"9-4-0, 3rd in West Division",9,Team Seattle,49
+2018,10,NFL Week 10,2,11,THE EMPIRE DID NOTHING WRONG!1,134,L,"9-4-0, 2nd in West Division",8,Rex On Rex,147
+2018,10,NFL Week 10,2,8,Rex On Rex,147,W,"9-4-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,134
+2018,10,NFL Week 10,3,12,Team Ryan,96,L,"3-10-0, 4th in East Division",4,Newtonâs Law of Winning,131
+2018,10,NFL Week 10,3,4,Newtonâs Law of Winning,131,W,"7-5-1, 2nd in Central Division",12,Team Ryan,96
+2018,10,NFL Week 10,4,5,Team Goff Balls,91,L,"8-5-0, 2nd in East Division",3,The Bake Show,206
+2018,10,NFL Week 10,4,3,The Bake Show,206,W,"10-2-1, 1st in Central Division",5,Team Goff Balls,91
+2018,10,NFL Week 10,5,2,The Ballad of Younghoe Koo,115,W,"6-7-0, 3rd in East Division",6,Rigga Please,69
+2018,10,NFL Week 10,5,6,Rigga Please,69,L,"7-6-0, 3rd in Central Division",2,The Ballad of Younghoe Koo,115
+2018,10,NFL Week 10,6,7,The Juice Is Loose,106,W,"8-5-0, 1st in East Division",10,Juulio Jones,74
+2018,10,NFL Week 10,6,10,Juulio Jones,74,L,"1-12-0, 4th in Central Division",7,The Juice Is Loose,106
+2018,11,NFL Week 11,1,8,Rex On Rex,151,W,"9-4-0, 1st in West Division",1,Tom's Deflated Balls,111
+2018,11,NFL Week 11,1,1,Tom's Deflated Balls,111,L,"9-4-0, 3rd in West Division",8,Rex On Rex,151
+2018,11,NFL Week 11,2,9,Team Seattle,62,L,"0-13-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,142
+2018,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,142,W,"9-4-0, 2nd in West Division",9,Team Seattle,62
+2018,11,NFL Week 11,3,4,Newtonâs Law of Winning,116,W,"7-5-1, 2nd in Central Division",5,Team Goff Balls,83
+2018,11,NFL Week 11,3,5,Team Goff Balls,83,L,"8-5-0, 2nd in East Division",4,Newtonâs Law of Winning,116
+2018,11,NFL Week 11,4,3,The Bake Show,117,L,"10-2-1, 1st in Central Division",2,The Ballad of Younghoe Koo,127
+2018,11,NFL Week 11,4,2,The Ballad of Younghoe Koo,127,W,"6-7-0, 3rd in East Division",3,The Bake Show,117
+2018,11,NFL Week 11,5,6,Rigga Please,131,W,"7-6-0, 3rd in Central Division",7,The Juice Is Loose,100
+2018,11,NFL Week 11,5,7,The Juice Is Loose,100,L,"8-5-0, 1st in East Division",6,Rigga Please,131
+2018,11,NFL Week 11,6,10,Juulio Jones,32,L,"1-12-0, 4th in Central Division",12,Team Ryan,124
+2018,11,NFL Week 11,6,12,Team Ryan,124,W,"3-10-0, 4th in East Division",10,Juulio Jones,32
+2018,12,NFL Week 12,1,7,The Juice Is Loose,106,W,"8-5-0, 1st in East Division",1,Tom's Deflated Balls,83
+2018,12,NFL Week 12,1,1,Tom's Deflated Balls,83,L,"9-4-0, 3rd in West Division",7,The Juice Is Loose,106
+2018,12,NFL Week 12,2,3,The Bake Show,160,W,"10-2-1, 1st in Central Division",4,Newtonâs Law of Winning,126
+2018,12,NFL Week 12,2,4,Newtonâs Law of Winning,126,L,"7-5-1, 2nd in Central Division",3,The Bake Show,160
+2018,12,NFL Week 12,3,10,Juulio Jones,25,L,"1-12-0, 4th in Central Division",6,Rigga Please,151
+2018,12,NFL Week 12,3,6,Rigga Please,151,W,"7-6-0, 3rd in Central Division",10,Juulio Jones,25
+2018,12,NFL Week 12,4,2,The Ballad of Younghoe Koo,119,L,"6-7-0, 3rd in East Division",8,Rex On Rex,137
+2018,12,NFL Week 12,4,8,Rex On Rex,137,W,"9-4-0, 1st in West Division",2,The Ballad of Younghoe Koo,119
+2018,12,NFL Week 12,5,12,Team Ryan,144,W,"3-10-0, 4th in East Division",9,Team Seattle,48
+2018,12,NFL Week 12,5,9,Team Seattle,48,L,"0-13-0, 4th in West Division",12,Team Ryan,144
+2018,12,NFL Week 12,6,5,Team Goff Balls,119,W,"8-5-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,118
+2018,12,NFL Week 12,6,11,THE EMPIRE DID NOTHING WRONG!1,118,L,"9-4-0, 2nd in West Division",5,Team Goff Balls,119
+2018,13,NFL Week 13,1,1,Tom's Deflated Balls,136,W,"9-4-0, 3rd in West Division",12,Team Ryan,87
+2018,13,NFL Week 13,1,12,Team Ryan,87,L,"3-10-0, 4th in East Division",1,Tom's Deflated Balls,136
+2018,13,NFL Week 13,2,4,Newtonâs Law of Winning,136,L,"7-5-1, 2nd in Central Division",3,The Bake Show,136
+2018,13,NFL Week 13,2,3,The Bake Show,136,L,"10-2-1, 1st in Central Division",4,Newtonâs Law of Winning,136
+2018,13,NFL Week 13,3,6,Rigga Please,139,W,"7-6-0, 3rd in Central Division",10,Juulio Jones,73
+2018,13,NFL Week 13,3,10,Juulio Jones,73,L,"1-12-0, 4th in Central Division",6,Rigga Please,139
+2018,13,NFL Week 13,4,8,Rex On Rex,98,W,"9-4-0, 1st in West Division",7,The Juice Is Loose,73
+2018,13,NFL Week 13,4,7,The Juice Is Loose,73,L,"8-5-0, 1st in East Division",8,Rex On Rex,98
+2018,13,NFL Week 13,5,9,Team Seattle,107,L,"0-13-0, 4th in West Division",5,Team Goff Balls,123
+2018,13,NFL Week 13,5,5,Team Goff Balls,123,W,"8-5-0, 2nd in East Division",9,Team Seattle,107
+2018,13,NFL Week 13,6,11,THE EMPIRE DID NOTHING WRONG!1,99,W,"9-4-0, 2nd in West Division",2,The Ballad of Younghoe Koo,58
+2018,13,NFL Week 13,6,2,The Ballad of Younghoe Koo,58,L,"6-7-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,99
+2018,14,Playoff Round 1 (NFL Week 14),1,1,Tom's Deflated Balls,104,L,"9-4-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,112
+2018,14,Playoff Round 1 (NFL Week 14),1,11,THE EMPIRE DID NOTHING WRONG!1,112,W,"9-4-0, 2nd in West Division",1,Tom's Deflated Balls,104
+2018,14,Playoff Round 1 (NFL Week 14),2,5,Team Goff Balls,107,W,"8-5-0, 2nd in East Division",7,The Juice Is Loose,101
+2018,14,Playoff Round 1 (NFL Week 14),2,7,The Juice Is Loose,101,L,"8-5-0, 1st in East Division",5,Team Goff Balls,107
+2018,14,Playoff Round 1 (NFL Week 14),3,6,Rigga Please,115,W,"7-6-0, 3rd in Central Division",4,Newtonâs Law of Winning,73
+2018,14,Playoff Round 1 (NFL Week 14),3,4,Newtonâs Law of Winning,73,L,"7-5-1, 2nd in Central Division",6,Rigga Please,115
+2018,14,Playoff Round 1 (NFL Week 14),4,12,Team Ryan,151,W,"3-10-0, 4th in East Division",2,The Ballad of Younghoe Koo,121
+2018,14,Playoff Round 1 (NFL Week 14),4,2,The Ballad of Younghoe Koo,121,L,"6-7-0, 3rd in East Division",12,Team Ryan,151
+2018,14,Playoff Round 1 (NFL Week 14),5,9,Team Seattle,138,W,"0-13-0, 4th in West Division",10,Juulio Jones,51
+2018,14,Playoff Round 1 (NFL Week 14),5,10,Juulio Jones,51,L,"1-12-0, 4th in Central Division",9,Team Seattle,138
+2018,15,Playoff Round 2 (NFL Week 15),1,11,THE EMPIRE DID NOTHING WRONG!1,112,W,"9-4-0, 2nd in West Division",3,The Bake Show,101
+2018,15,Playoff Round 2 (NFL Week 15),1,3,The Bake Show,101,L,"10-2-1, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,112
+2018,15,Playoff Round 2 (NFL Week 15),2,5,Team Goff Balls,106,W,"8-5-0, 2nd in East Division",8,Rex On Rex,105
+2018,15,Playoff Round 2 (NFL Week 15),2,8,Rex On Rex,105,L,"9-4-0, 1st in West Division",5,Team Goff Balls,106
+2018,15,Playoff Round 2 (NFL Week 15),3,1,Tom's Deflated Balls,121,W,"9-4-0, 3rd in West Division",7,The Juice Is Loose,63
+2018,15,Playoff Round 2 (NFL Week 15),3,7,The Juice Is Loose,63,L,"8-5-0, 1st in East Division",1,Tom's Deflated Balls,121
+2018,15,Playoff Round 2 (NFL Week 15),4,12,Team Ryan,91,L,"3-10-0, 4th in East Division",6,Rigga Please,109
+2018,15,Playoff Round 2 (NFL Week 15),4,6,Rigga Please,109,W,"7-6-0, 3rd in Central Division",12,Team Ryan,91
+2018,15,Playoff Round 2 (NFL Week 15),5,9,Team Seattle,103,W,"0-13-0, 4th in West Division",4,Newtonâs Law of Winning,100
+2018,15,Playoff Round 2 (NFL Week 15),5,4,Newtonâs Law of Winning,100,L,"7-5-1, 2nd in Central Division",9,Team Seattle,103
+2018,15,Playoff Round 2 (NFL Week 15),6,10,Juulio Jones,34,L,"1-12-0, 4th in Central Division",2,The Ballad of Younghoe Koo,87
+2018,15,Playoff Round 2 (NFL Week 15),6,2,The Ballad of Younghoe Koo,87,W,"6-7-0, 3rd in East Division",10,Juulio Jones,34
+2018,16,Playoff Round 3 (NFL Week 16),1,5,Team Goff Balls,103,L,"8-5-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,177
+2018,16,Playoff Round 3 (NFL Week 16),1,11,THE EMPIRE DID NOTHING WRONG!1,177,W,"9-4-0, 2nd in West Division",5,Team Goff Balls,103
+2018,16,Playoff Round 3 (NFL Week 16),2,1,Tom's Deflated Balls,91,L,"9-4-0, 3rd in West Division",7,The Juice Is Loose,141
+2018,16,Playoff Round 3 (NFL Week 16),2,7,The Juice Is Loose,141,W,"8-5-0, 1st in East Division",1,Tom's Deflated Balls,91
+2018,16,Playoff Round 3 (NFL Week 16),3,8,Rex On Rex,131,L,"9-4-0, 1st in West Division",3,The Bake Show,153
+2018,16,Playoff Round 3 (NFL Week 16),3,3,The Bake Show,153,W,"10-2-1, 1st in Central Division",8,Rex On Rex,131
+2018,16,Playoff Round 3 (NFL Week 16),4,9,Team Seattle,69,L,"0-13-0, 4th in West Division",6,Rigga Please,118
+2018,16,Playoff Round 3 (NFL Week 16),4,6,Rigga Please,118,W,"7-6-0, 3rd in Central Division",9,Team Seattle,69
+2018,16,Playoff Round 3 (NFL Week 16),5,12,Team Ryan,111,L,"3-10-0, 4th in East Division",2,The Ballad of Younghoe Koo,112
+2018,16,Playoff Round 3 (NFL Week 16),5,2,The Ballad of Younghoe Koo,112,W,"6-7-0, 3rd in East Division",12,Team Ryan,111
+2018,16,Playoff Round 3 (NFL Week 16),6,10,Juulio Jones,63,L,"1-12-0, 4th in Central Division",4,Newtonâs Law of Winning,97
+2018,16,Playoff Round 3 (NFL Week 16),6,4,Newtonâs Law of Winning,97,W,"7-5-1, 2nd in Central Division",10,Juulio Jones,63
+2019,1,NFL Week 1,1,4,David Ants In My Eyes Johnson,154,W,"5-8-0, 2nd in West Division",1,Danny Dimes,97
+2019,1,NFL Week 1,1,1,Danny Dimes,97,L,"5-8-0, 3rd in West Division",4,David Ants In My Eyes Johnson,154
+2019,1,NFL Week 1,2,3,The Bake Show,120,W,"8-5-0, 3rd in East Division",8,Rex On Rex,76
+2019,1,NFL Week 1,2,8,Rex On Rex,76,L,"6-7-0, 4th in East Division",3,The Bake Show,120
+2019,1,NFL Week 1,3,11,THE EMPIRE DID NOTHING WRONG!1,135,W,"11-2-0, 1st in West Division",9,Team Seattle,104
+2019,1,NFL Week 1,3,9,Team Seattle,104,L,"4-9-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,135
+2019,1,NFL Week 1,4,2,The Guice Is Loose,118,L,"8-5-0, 2nd in East Division",12,Team Ryan,149
+2019,1,NFL Week 1,4,12,Team Ryan,149,W,"8-5-0, 1st in East Division",2,The Guice Is Loose,118
+2019,1,NFL Week 1,5,6,Rigga Please,117,W,"4-9-0, 3rd in Central Division",7,The Juice Is Loose,108
+2019,1,NFL Week 1,5,7,The Juice Is Loose,108,L,"7-5-1, 2nd in Central Division",6,Rigga Please,117
+2019,1,NFL Week 1,6,10,Juulio Jones,101,W,"3-10-0, 4th in Central Division",5,Team Goff Balls,86
+2019,1,NFL Week 1,6,5,Team Goff Balls,86,L,"8-4-1, 1st in Central Division",10,Juulio Jones,101
+2019,2,NFL Week 2,1,9,Team Seattle,108,W,"4-9-0, 4th in West Division",1,Danny Dimes,78
+2019,2,NFL Week 2,1,1,Danny Dimes,78,L,"5-8-0, 3rd in West Division",9,Team Seattle,108
+2019,2,NFL Week 2,2,3,The Bake Show,88,L,"8-5-0, 3rd in East Division",2,The Guice Is Loose,123
+2019,2,NFL Week 2,2,2,The Guice Is Loose,123,W,"8-5-0, 2nd in East Division",3,The Bake Show,88
+2019,2,NFL Week 2,3,8,Rex On Rex,123,L,"6-7-0, 4th in East Division",12,Team Ryan,129
+2019,2,NFL Week 2,3,12,Team Ryan,129,W,"8-5-0, 1st in East Division",8,Rex On Rex,123
+2019,2,NFL Week 2,4,11,THE EMPIRE DID NOTHING WRONG!1,118,W,"11-2-0, 1st in West Division",4,David Ants In My Eyes Johnson,116
+2019,2,NFL Week 2,4,4,David Ants In My Eyes Johnson,116,L,"5-8-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,118
+2019,2,NFL Week 2,5,5,Team Goff Balls,111,W,"8-4-1, 1st in Central Division",7,The Juice Is Loose,86
+2019,2,NFL Week 2,5,7,The Juice Is Loose,86,L,"7-5-1, 2nd in Central Division",5,Team Goff Balls,111
+2019,2,NFL Week 2,6,10,Juulio Jones,119,W,"3-10-0, 4th in Central Division",6,Rigga Please,65
+2019,2,NFL Week 2,6,6,Rigga Please,65,L,"4-9-0, 3rd in Central Division",10,Juulio Jones,119
+2019,3,NFL Week 3,1,1,Danny Dimes,89,L,"5-8-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,144
+2019,3,NFL Week 3,1,11,THE EMPIRE DID NOTHING WRONG!1,144,W,"11-2-0, 1st in West Division",1,Danny Dimes,89
+2019,3,NFL Week 3,2,2,The Guice Is Loose,123,L,"8-5-0, 2nd in East Division",8,Rex On Rex,191
+2019,3,NFL Week 3,2,8,Rex On Rex,191,W,"6-7-0, 4th in East Division",2,The Guice Is Loose,123
+2019,3,NFL Week 3,3,12,Team Ryan,111,L,"8-5-0, 1st in East Division",3,The Bake Show,137
+2019,3,NFL Week 3,3,3,The Bake Show,137,W,"8-5-0, 3rd in East Division",12,Team Ryan,111
+2019,3,NFL Week 3,4,6,Rigga Please,102,L,"4-9-0, 3rd in Central Division",5,Team Goff Balls,116
+2019,3,NFL Week 3,4,5,Team Goff Balls,116,W,"8-4-1, 1st in Central Division",6,Rigga Please,102
+2019,3,NFL Week 3,5,7,The Juice Is Loose,111,W,"7-5-1, 2nd in Central Division",10,Juulio Jones,65
+2019,3,NFL Week 3,5,10,Juulio Jones,65,L,"3-10-0, 4th in Central Division",7,The Juice Is Loose,111
+2019,3,NFL Week 3,6,4,David Ants In My Eyes Johnson,145,W,"5-8-0, 2nd in West Division",9,Team Seattle,91
+2019,3,NFL Week 3,6,9,Team Seattle,91,L,"4-9-0, 4th in West Division",4,David Ants In My Eyes Johnson,145
+2019,4,NFL Week 4,1,1,Danny Dimes,120,W,"5-8-0, 3rd in West Division",2,The Guice Is Loose,87
+2019,4,NFL Week 4,1,2,The Guice Is Loose,87,L,"8-5-0, 2nd in East Division",1,Danny Dimes,120
+2019,4,NFL Week 4,2,12,Team Ryan,103,W,"8-5-0, 1st in East Division",4,David Ants In My Eyes Johnson,78
+2019,4,NFL Week 4,2,4,David Ants In My Eyes Johnson,78,L,"5-8-0, 2nd in West Division",12,Team Ryan,103
+2019,4,NFL Week 4,3,8,Rex On Rex,92,L,"6-7-0, 4th in East Division",7,The Juice Is Loose,154
+2019,4,NFL Week 4,3,7,The Juice Is Loose,154,W,"7-5-1, 2nd in Central Division",8,Rex On Rex,92
+2019,4,NFL Week 4,4,6,Rigga Please,96,W,"4-9-0, 3rd in Central Division",3,The Bake Show,68
+2019,4,NFL Week 4,4,3,The Bake Show,68,L,"8-5-0, 3rd in East Division",6,Rigga Please,96
+2019,4,NFL Week 4,5,5,Team Goff Balls,113,W,"8-4-1, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,78
+2019,4,NFL Week 4,5,11,THE EMPIRE DID NOTHING WRONG!1,78,L,"11-2-0, 1st in West Division",5,Team Goff Balls,113
+2019,4,NFL Week 4,6,9,Team Seattle,109,W,"4-9-0, 4th in West Division",10,Juulio Jones,85
+2019,4,NFL Week 4,6,10,Juulio Jones,85,L,"3-10-0, 4th in Central Division",9,Team Seattle,109
+2019,5,NFL Week 5,1,1,Danny Dimes,140,L,"5-8-0, 3rd in West Division",12,Team Ryan,159
+2019,5,NFL Week 5,1,12,Team Ryan,159,W,"8-5-0, 1st in East Division",1,Danny Dimes,140
+2019,5,NFL Week 5,2,5,Team Goff Balls,122,L,"8-4-1, 1st in Central Division",8,Rex On Rex,124
+2019,5,NFL Week 5,2,8,Rex On Rex,124,W,"6-7-0, 4th in East Division",5,Team Goff Balls,122
+2019,5,NFL Week 5,3,9,Team Seattle,121,W,"4-9-0, 4th in West Division",6,Rigga Please,54
+2019,5,NFL Week 5,3,6,Rigga Please,54,L,"4-9-0, 3rd in Central Division",9,Team Seattle,121
+2019,5,NFL Week 5,4,7,The Juice Is Loose,82,L,"7-5-1, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,159
+2019,5,NFL Week 5,4,11,THE EMPIRE DID NOTHING WRONG!1,159,W,"11-2-0, 1st in West Division",7,The Juice Is Loose,82
+2019,5,NFL Week 5,5,3,The Bake Show,139,W,"8-5-0, 3rd in East Division",4,David Ants In My Eyes Johnson,107
+2019,5,NFL Week 5,5,4,David Ants In My Eyes Johnson,107,L,"5-8-0, 2nd in West Division",3,The Bake Show,139
+2019,5,NFL Week 5,6,10,Juulio Jones,111,L,"3-10-0, 4th in Central Division",2,The Guice Is Loose,119
+2019,5,NFL Week 5,6,2,The Guice Is Loose,119,W,"8-5-0, 2nd in East Division",10,Juulio Jones,111
+2019,6,NFL Week 6,1,5,Team Goff Balls,97,L,"8-4-1, 1st in Central Division",1,Danny Dimes,100
+2019,6,NFL Week 6,1,1,Danny Dimes,100,W,"5-8-0, 3rd in West Division",5,Team Goff Balls,97
+2019,6,NFL Week 6,2,7,The Juice Is Loose,181,W,"7-5-1, 2nd in Central Division",3,The Bake Show,91
+2019,6,NFL Week 6,2,3,The Bake Show,91,L,"8-5-0, 3rd in East Division",7,The Juice Is Loose,181
+2019,6,NFL Week 6,3,8,Rex On Rex,130,W,"6-7-0, 4th in East Division",9,Team Seattle,102
+2019,6,NFL Week 6,3,9,Team Seattle,102,L,"4-9-0, 4th in West Division",8,Rex On Rex,130
+2019,6,NFL Week 6,4,11,THE EMPIRE DID NOTHING WRONG!1,121,W,"11-2-0, 1st in West Division",12,Team Ryan,84
+2019,6,NFL Week 6,4,12,Team Ryan,84,L,"8-5-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,121
+2019,6,NFL Week 6,5,2,The Guice Is Loose,100,W,"8-5-0, 2nd in East Division",6,Rigga Please,84
+2019,6,NFL Week 6,5,6,Rigga Please,84,L,"4-9-0, 3rd in Central Division",2,The Guice Is Loose,100
+2019,6,NFL Week 6,6,4,David Ants In My Eyes Johnson,100,L,"5-8-0, 2nd in West Division",10,Juulio Jones,123
+2019,6,NFL Week 6,6,10,Juulio Jones,123,W,"3-10-0, 4th in Central Division",4,David Ants In My Eyes Johnson,100
+2019,7,NFL Week 7,1,1,Danny Dimes,88,L,"5-8-0, 3rd in West Division",3,The Bake Show,98
+2019,7,NFL Week 7,1,3,The Bake Show,98,W,"8-5-0, 3rd in East Division",1,Danny Dimes,88
+2019,7,NFL Week 7,2,2,The Guice Is Loose,100,W,"8-5-0, 2nd in East Division",7,The Juice Is Loose,67
+2019,7,NFL Week 7,2,7,The Juice Is Loose,67,L,"7-5-1, 2nd in Central Division",2,The Guice Is Loose,100
+2019,7,NFL Week 7,3,12,Team Ryan,109,W,"8-5-0, 1st in East Division",10,Juulio Jones,104
+2019,7,NFL Week 7,3,10,Juulio Jones,104,L,"3-10-0, 4th in Central Division",12,Team Ryan,109
+2019,7,NFL Week 7,4,8,Rex On Rex,75,L,"6-7-0, 4th in East Division",4,David Ants In My Eyes Johnson,80
+2019,7,NFL Week 7,4,4,David Ants In My Eyes Johnson,80,W,"5-8-0, 2nd in West Division",8,Rex On Rex,75
+2019,7,NFL Week 7,5,9,Team Seattle,80,L,"4-9-0, 4th in West Division",5,Team Goff Balls,88
+2019,7,NFL Week 7,5,5,Team Goff Balls,88,W,"8-4-1, 1st in Central Division",9,Team Seattle,80
+2019,7,NFL Week 7,6,6,Rigga Please,94,L,"4-9-0, 3rd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,136
+2019,7,NFL Week 7,6,11,THE EMPIRE DID NOTHING WRONG!1,136,W,"11-2-0, 1st in West Division",6,Rigga Please,94
+2019,8,NFL Week 8,1,8,Rex On Rex,182,W,"6-7-0, 4th in East Division",1,Danny Dimes,127
+2019,8,NFL Week 8,1,1,Danny Dimes,127,L,"5-8-0, 3rd in West Division",8,Rex On Rex,182
+2019,8,NFL Week 8,2,3,The Bake Show,111,W,"8-5-0, 3rd in East Division",9,Team Seattle,69
+2019,8,NFL Week 8,2,9,Team Seattle,69,L,"4-9-0, 4th in West Division",3,The Bake Show,111
+2019,8,NFL Week 8,3,7,The Juice Is Loose,119,W,"7-5-1, 2nd in Central Division",12,Team Ryan,114
+2019,8,NFL Week 8,3,12,Team Ryan,114,L,"8-5-0, 1st in East Division",7,The Juice Is Loose,119
+2019,8,NFL Week 8,4,4,David Ants In My Eyes Johnson,117,W,"5-8-0, 2nd in West Division",6,Rigga Please,116
+2019,8,NFL Week 8,4,6,Rigga Please,116,L,"4-9-0, 3rd in Central Division",4,David Ants In My Eyes Johnson,117
+2019,8,NFL Week 8,5,5,Team Goff Balls,98,W,"8-4-1, 1st in Central Division",2,The Guice Is Loose,79
+2019,8,NFL Week 8,5,2,The Guice Is Loose,79,L,"8-5-0, 2nd in East Division",5,Team Goff Balls,98
+2019,8,NFL Week 8,6,10,Juulio Jones,114,L,"3-10-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,126
+2019,8,NFL Week 8,6,11,THE EMPIRE DID NOTHING WRONG!1,126,W,"11-2-0, 1st in West Division",10,Juulio Jones,114
+2019,9,NFL Week 9,1,7,The Juice Is Loose,128,W,"7-5-1, 2nd in Central Division",1,Danny Dimes,94
+2019,9,NFL Week 9,1,1,Danny Dimes,94,L,"5-8-0, 3rd in West Division",7,The Juice Is Loose,128
+2019,9,NFL Week 9,2,4,David Ants In My Eyes Johnson,109,L,"5-8-0, 2nd in West Division",5,Team Goff Balls,122
+2019,9,NFL Week 9,2,5,Team Goff Balls,122,W,"8-4-1, 1st in Central Division",4,David Ants In My Eyes Johnson,109
+2019,9,NFL Week 9,3,2,The Guice Is Loose,104,W,"8-5-0, 2nd in East Division",9,Team Seattle,81
+2019,9,NFL Week 9,3,9,Team Seattle,81,L,"4-9-0, 4th in West Division",2,The Guice Is Loose,104
+2019,9,NFL Week 9,4,11,THE EMPIRE DID NOTHING WRONG!1,123,W,"11-2-0, 1st in West Division",3,The Bake Show,118
+2019,9,NFL Week 9,4,3,The Bake Show,118,L,"8-5-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,123
+2019,9,NFL Week 9,5,6,Rigga Please,75,L,"4-9-0, 3rd in Central Division",12,Team Ryan,88
+2019,9,NFL Week 9,5,12,Team Ryan,88,W,"8-5-0, 1st in East Division",6,Rigga Please,75
+2019,9,NFL Week 9,6,10,Juulio Jones,94,L,"3-10-0, 4th in Central Division",8,Rex On Rex,182
+2019,9,NFL Week 9,6,8,Rex On Rex,182,W,"6-7-0, 4th in East Division",10,Juulio Jones,94
+2019,10,NFL Week 10,1,1,Danny Dimes,118,W,"5-8-0, 3rd in West Division",6,Rigga Please,89
+2019,10,NFL Week 10,1,6,Rigga Please,89,L,"4-9-0, 3rd in Central Division",1,Danny Dimes,118
+2019,10,NFL Week 10,2,12,Team Ryan,144,W,"8-5-0, 1st in East Division",5,Team Goff Balls,86
+2019,10,NFL Week 10,2,5,Team Goff Balls,86,L,"8-4-1, 1st in Central Division",12,Team Ryan,144
+2019,10,NFL Week 10,3,11,THE EMPIRE DID NOTHING WRONG!1,111,W,"11-2-0, 1st in West Division",8,Rex On Rex,103
+2019,10,NFL Week 10,3,8,Rex On Rex,103,L,"6-7-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,111
+2019,10,NFL Week 10,4,9,Team Seattle,73,L,"4-9-0, 4th in West Division",7,The Juice Is Loose,136
+2019,10,NFL Week 10,4,7,The Juice Is Loose,136,W,"7-5-1, 2nd in Central Division",9,Team Seattle,73
+2019,10,NFL Week 10,5,2,The Guice Is Loose,130,W,"8-5-0, 2nd in East Division",4,David Ants In My Eyes Johnson,126
+2019,10,NFL Week 10,5,4,David Ants In My Eyes Johnson,126,L,"5-8-0, 2nd in West Division",2,The Guice Is Loose,130
+2019,10,NFL Week 10,6,3,The Bake Show,93,W,"8-5-0, 3rd in East Division",10,Juulio Jones,71
+2019,10,NFL Week 10,6,10,Juulio Jones,71,L,"3-10-0, 4th in Central Division",3,The Bake Show,93
+2019,11,NFL Week 11,1,1,Danny Dimes,89,L,"5-8-0, 3rd in West Division",4,David Ants In My Eyes Johnson,160
+2019,11,NFL Week 11,1,4,David Ants In My Eyes Johnson,160,W,"5-8-0, 2nd in West Division",1,Danny Dimes,89
+2019,11,NFL Week 11,2,9,Team Seattle,81,L,"4-9-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,86
+2019,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,86,W,"11-2-0, 1st in West Division",9,Team Seattle,81
+2019,11,NFL Week 11,3,12,Team Ryan,99,L,"8-5-0, 1st in East Division",2,The Guice Is Loose,103
+2019,11,NFL Week 11,3,2,The Guice Is Loose,103,W,"8-5-0, 2nd in East Division",12,Team Ryan,99
+2019,11,NFL Week 11,4,7,The Juice Is Loose,50,L,"7-5-1, 2nd in Central Division",6,Rigga Please,137
+2019,11,NFL Week 11,4,6,Rigga Please,137,W,"4-9-0, 3rd in Central Division",7,The Juice Is Loose,50
+2019,11,NFL Week 11,5,8,Rex On Rex,86,L,"6-7-0, 4th in East Division",3,The Bake Show,117
+2019,11,NFL Week 11,5,3,The Bake Show,117,W,"8-5-0, 3rd in East Division",8,Rex On Rex,86
+2019,11,NFL Week 11,6,5,Team Goff Balls,109,W,"8-4-1, 1st in Central Division",10,Juulio Jones,104
+2019,11,NFL Week 11,6,10,Juulio Jones,104,L,"3-10-0, 4th in Central Division",5,Team Goff Balls,109
+2019,12,NFL Week 12,1,1,Danny Dimes,88,W,"5-8-0, 3rd in West Division",9,Team Seattle,30
+2019,12,NFL Week 12,1,9,Team Seattle,30,L,"4-9-0, 4th in West Division",1,Danny Dimes,88
+2019,12,NFL Week 12,2,6,Rigga Please,121,W,"4-9-0, 3rd in Central Division",10,Juulio Jones,70
+2019,12,NFL Week 12,2,10,Juulio Jones,70,L,"3-10-0, 4th in Central Division",6,Rigga Please,121
+2019,12,NFL Week 12,3,7,The Juice Is Loose,95,L,"7-5-1, 2nd in Central Division",5,Team Goff Balls,95
+2019,12,NFL Week 12,3,5,Team Goff Balls,95,L,"8-4-1, 1st in Central Division",7,The Juice Is Loose,95
+2019,12,NFL Week 12,4,12,Team Ryan,116,L,"8-5-0, 1st in East Division",8,Rex On Rex,127
+2019,12,NFL Week 12,4,8,Rex On Rex,127,W,"6-7-0, 4th in East Division",12,Team Ryan,116
+2019,12,NFL Week 12,5,4,David Ants In My Eyes Johnson,122,L,"5-8-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,124
+2019,12,NFL Week 12,5,11,THE EMPIRE DID NOTHING WRONG!1,124,W,"11-2-0, 1st in West Division",4,David Ants In My Eyes Johnson,122
+2019,12,NFL Week 12,6,2,The Guice Is Loose,111,L,"8-5-0, 2nd in East Division",3,The Bake Show,121
+2019,12,NFL Week 12,6,3,The Bake Show,121,W,"8-5-0, 3rd in East Division",2,The Guice Is Loose,111
+2019,13,NFL Week 13,1,11,THE EMPIRE DID NOTHING WRONG!1,107,L,"11-2-0, 1st in West Division",1,Danny Dimes,119
+2019,13,NFL Week 13,1,1,Danny Dimes,119,W,"5-8-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,107
+2019,13,NFL Week 13,2,5,Team Goff Balls,140,W,"8-4-1, 1st in Central Division",6,Rigga Please,88
+2019,13,NFL Week 13,2,6,Rigga Please,88,L,"4-9-0, 3rd in Central Division",5,Team Goff Balls,140
+2019,13,NFL Week 13,3,10,Juulio Jones,88,L,"3-10-0, 4th in Central Division",7,The Juice Is Loose,118
+2019,13,NFL Week 13,3,7,The Juice Is Loose,118,W,"7-5-1, 2nd in Central Division",10,Juulio Jones,88
+2019,13,NFL Week 13,4,3,The Bake Show,66,L,"8-5-0, 3rd in East Division",12,Team Ryan,116
+2019,13,NFL Week 13,4,12,Team Ryan,116,W,"8-5-0, 1st in East Division",3,The Bake Show,66
+2019,13,NFL Week 13,5,9,Team Seattle,147,W,"4-9-0, 4th in West Division",4,David Ants In My Eyes Johnson,102
+2019,13,NFL Week 13,5,4,David Ants In My Eyes Johnson,102,L,"5-8-0, 2nd in West Division",9,Team Seattle,147
+2019,13,NFL Week 13,6,8,Rex On Rex,74,L,"6-7-0, 4th in East Division",2,The Guice Is Loose,83
+2019,13,NFL Week 13,6,2,The Guice Is Loose,83,W,"8-5-0, 2nd in East Division",8,Rex On Rex,74
+2019,14,Playoff Round 1 (NFL Week 14),1,3,The Bake Show,135,W,"8-5-0, 3rd in East Division",2,The Guice Is Loose,98
+2019,14,Playoff Round 1 (NFL Week 14),1,2,The Guice Is Loose,98,L,"8-5-0, 2nd in East Division",3,The Bake Show,135
+2019,14,Playoff Round 1 (NFL Week 14),2,7,The Juice Is Loose,76,L,"7-5-1, 2nd in Central Division",12,Team Ryan,181
+2019,14,Playoff Round 1 (NFL Week 14),2,12,Team Ryan,181,W,"8-5-0, 1st in East Division",7,The Juice Is Loose,76
+2019,14,Playoff Round 1 (NFL Week 14),3,9,Team Seattle,89,L,"4-9-0, 4th in West Division",1,Danny Dimes,91
+2019,14,Playoff Round 1 (NFL Week 14),3,1,Danny Dimes,91,W,"5-8-0, 3rd in West Division",9,Team Seattle,89
+2019,14,Playoff Round 1 (NFL Week 14),4,4,David Ants In My Eyes Johnson,129,W,"5-8-0, 2nd in West Division",8,Rex On Rex,71
+2019,14,Playoff Round 1 (NFL Week 14),4,8,Rex On Rex,71,L,"6-7-0, 4th in East Division",4,David Ants In My Eyes Johnson,129
+2019,14,Playoff Round 1 (NFL Week 14),5,10,Juulio Jones,66,L,"3-10-0, 4th in Central Division",6,Rigga Please,136
+2019,14,Playoff Round 1 (NFL Week 14),5,6,Rigga Please,136,W,"4-9-0, 3rd in Central Division",10,Juulio Jones,66
+2019,15,Playoff Round 2 (NFL Week 15),1,3,The Bake Show,128,W,"8-5-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,73
+2019,15,Playoff Round 2 (NFL Week 15),1,11,THE EMPIRE DID NOTHING WRONG!1,73,L,"11-2-0, 1st in West Division",3,The Bake Show,128
+2019,15,Playoff Round 2 (NFL Week 15),2,12,Team Ryan,135,L,"8-5-0, 1st in East Division",5,Team Goff Balls,135
+2019,15,Playoff Round 2 (NFL Week 15),2,5,Team Goff Balls,135,W,"8-4-1, 1st in Central Division",12,Team Ryan,135
+2019,15,Playoff Round 2 (NFL Week 15),3,7,The Juice Is Loose,111,L,"7-5-1, 2nd in Central Division",2,The Guice Is Loose,137
+2019,15,Playoff Round 2 (NFL Week 15),3,2,The Guice Is Loose,137,W,"8-5-0, 2nd in East Division",7,The Juice Is Loose,111
+2019,15,Playoff Round 2 (NFL Week 15),4,1,Danny Dimes,61,L,"5-8-0, 3rd in West Division",4,David Ants In My Eyes Johnson,99
+2019,15,Playoff Round 2 (NFL Week 15),4,4,David Ants In My Eyes Johnson,99,W,"5-8-0, 2nd in West Division",1,Danny Dimes,61
+2019,15,Playoff Round 2 (NFL Week 15),5,6,Rigga Please,126,L,"4-9-0, 3rd in Central Division",8,Rex On Rex,129
+2019,15,Playoff Round 2 (NFL Week 15),5,8,Rex On Rex,129,W,"6-7-0, 4th in East Division",6,Rigga Please,126
+2019,15,Playoff Round 2 (NFL Week 15),6,10,Juulio Jones,69,L,"3-10-0, 4th in Central Division",9,Team Seattle,131
+2019,15,Playoff Round 2 (NFL Week 15),6,9,Team Seattle,131,W,"4-9-0, 4th in West Division",10,Juulio Jones,69
+2019,16,Playoff Round 3 (NFL Week 16),1,3,The Bake Show,114,W,"8-5-0, 3rd in East Division",5,Team Goff Balls,98
+2019,16,Playoff Round 3 (NFL Week 16),1,5,Team Goff Balls,98,L,"8-4-1, 1st in Central Division",3,The Bake Show,114
+2019,16,Playoff Round 3 (NFL Week 16),2,12,Team Ryan,136,W,"8-5-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,97
+2019,16,Playoff Round 3 (NFL Week 16),2,11,THE EMPIRE DID NOTHING WRONG!1,97,L,"11-2-0, 1st in West Division",12,Team Ryan,136
+2019,16,Playoff Round 3 (NFL Week 16),3,7,The Juice Is Loose,91,L,"7-5-1, 2nd in Central Division",2,The Guice Is Loose,96
+2019,16,Playoff Round 3 (NFL Week 16),3,2,The Guice Is Loose,96,W,"8-5-0, 2nd in East Division",7,The Juice Is Loose,91
+2019,16,Playoff Round 3 (NFL Week 16),4,9,Team Seattle,106,L,"4-9-0, 4th in West Division",1,Danny Dimes,129
+2019,16,Playoff Round 3 (NFL Week 16),4,1,Danny Dimes,129,W,"5-8-0, 3rd in West Division",9,Team Seattle,106
+2019,16,Playoff Round 3 (NFL Week 16),5,4,David Ants In My Eyes Johnson,100,W,"5-8-0, 2nd in West Division",8,Rex On Rex,77
+2019,16,Playoff Round 3 (NFL Week 16),5,8,Rex On Rex,77,L,"6-7-0, 4th in East Division",4,David Ants In My Eyes Johnson,100
+2019,16,Playoff Round 3 (NFL Week 16),6,10,Juulio Jones,79,L,"3-10-0, 4th in Central Division",6,Rigga Please,109
+2019,16,Playoff Round 3 (NFL Week 16),6,6,Rigga Please,109,W,"4-9-0, 3rd in Central Division",10,Juulio Jones,79
+2020,1,NFL Week 1,1,4,Davante's Inferno,128.34,W,"6-7-0, 3rd in West Division",1,Whats up Mahomie,120.34
+2020,1,NFL Week 1,1,1,Whats up Mahomie,120.34,L,"7-6-0, 2nd in West Division",4,Davante's Inferno,128.34
+2020,1,NFL Week 1,2,3,THE 🅱️AKE SHOW,120.6,L,"9-4-0, 2nd in East Division",8,Rex On Rex,139.56
+2020,1,NFL Week 1,2,8,Rex On Rex,139.56,W,"9-4-0, 1st in East Division",3,THE 🅱️AKE SHOW,120.6
+2020,1,NFL Week 1,3,11,THE EMPIRE DID NOTHING WRONG!1,115.28,W,"9-4-0, 1st in West Division",9,Team Seattle,113.6
+2020,1,NFL Week 1,3,9,Team Seattle,113.6,L,"3-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,115.28
+2020,1,NFL Week 1,4,2,Ninth Circle of Helaire,141.02,W,"4-9-0, 3rd in East Division",12,Team Ryan,116.4
+2020,1,NFL Week 1,4,12,Team Ryan,116.4,L,"2-11-0, 4th in East Division",2,Ninth Circle of Helaire,141.02
+2020,1,NFL Week 1,5,6,Rigga Please,125.58,L,"5-8-0, 4th in Central Division",7,The Juice Is Loose,155.2
+2020,1,NFL Week 1,5,7,The Juice Is Loose,155.2,W,"9-4-0, 1st in Central Division",6,Rigga Please,125.58
+2020,1,NFL Week 1,6,10,Juulio Jones,119.3,W,"9-4-0, 2nd in Central Division",5,Team Goff Balls,113.96
+2020,1,NFL Week 1,6,5,Team Goff Balls,113.96,L,"6-7-0, 3rd in Central Division",10,Juulio Jones,119.3
+2020,2,NFL Week 2,1,9,Team Seattle,152.38,W,"3-10-0, 4th in West Division",1,Whats up Mahomie,133.48
+2020,2,NFL Week 2,1,1,Whats up Mahomie,133.48,L,"7-6-0, 2nd in West Division",9,Team Seattle,152.38
+2020,2,NFL Week 2,2,3,THE 🅱️AKE SHOW,142.42,W,"9-4-0, 2nd in East Division",2,Ninth Circle of Helaire,98.2
+2020,2,NFL Week 2,2,2,Ninth Circle of Helaire,98.2,L,"4-9-0, 3rd in East Division",3,THE 🅱️AKE SHOW,142.42
+2020,2,NFL Week 2,3,8,Rex On Rex,173.2,W,"9-4-0, 1st in East Division",12,Team Ryan,122.58
+2020,2,NFL Week 2,3,12,Team Ryan,122.58,L,"2-11-0, 4th in East Division",8,Rex On Rex,173.2
+2020,2,NFL Week 2,4,11,THE EMPIRE DID NOTHING WRONG!1,171.2,W,"9-4-0, 1st in West Division",4,Davante's Inferno,114.3
+2020,2,NFL Week 2,4,4,Davante's Inferno,114.3,L,"6-7-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,171.2
+2020,2,NFL Week 2,5,5,Team Goff Balls,82.58,L,"6-7-0, 3rd in Central Division",7,The Juice Is Loose,129.74
+2020,2,NFL Week 2,5,7,The Juice Is Loose,129.74,W,"9-4-0, 1st in Central Division",5,Team Goff Balls,82.58
+2020,2,NFL Week 2,6,10,Juulio Jones,151.06,W,"9-4-0, 2nd in Central Division",6,Rigga Please,110.92
+2020,2,NFL Week 2,6,6,Rigga Please,110.92,L,"5-8-0, 4th in Central Division",10,Juulio Jones,151.06
+2020,3,NFL Week 3,1,1,Whats up Mahomie,137,L,"7-6-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,169.24
+2020,3,NFL Week 3,1,11,THE EMPIRE DID NOTHING WRONG!1,169.24,W,"9-4-0, 1st in West Division",1,Whats up Mahomie,137
+2020,3,NFL Week 3,2,2,Ninth Circle of Helaire,99.26,L,"4-9-0, 3rd in East Division",8,Rex On Rex,150.5
+2020,3,NFL Week 3,2,8,Rex On Rex,150.5,W,"9-4-0, 1st in East Division",2,Ninth Circle of Helaire,99.26
+2020,3,NFL Week 3,3,12,Team Ryan,84.8,L,"2-11-0, 4th in East Division",3,THE 🅱️AKE SHOW,109.02
+2020,3,NFL Week 3,3,3,THE 🅱️AKE SHOW,109.02,W,"9-4-0, 2nd in East Division",12,Team Ryan,84.8
+2020,3,NFL Week 3,4,6,Rigga Please,152.8,W,"5-8-0, 4th in Central Division",5,Team Goff Balls,123.08
+2020,3,NFL Week 3,4,5,Team Goff Balls,123.08,L,"6-7-0, 3rd in Central Division",6,Rigga Please,152.8
+2020,3,NFL Week 3,5,7,The Juice Is Loose,145.6,W,"9-4-0, 1st in Central Division",10,Juulio Jones,132.38
+2020,3,NFL Week 3,5,10,Juulio Jones,132.38,L,"9-4-0, 2nd in Central Division",7,The Juice Is Loose,145.6
+2020,3,NFL Week 3,6,4,Davante's Inferno,93.68,L,"6-7-0, 3rd in West Division",9,Team Seattle,98.18
+2020,3,NFL Week 3,6,9,Team Seattle,98.18,W,"3-10-0, 4th in West Division",4,Davante's Inferno,93.68
+2020,4,NFL Week 4,1,1,Whats up Mahomie,155.34,W,"7-6-0, 2nd in West Division",2,Ninth Circle of Helaire,109.2
+2020,4,NFL Week 4,1,2,Ninth Circle of Helaire,109.2,L,"4-9-0, 3rd in East Division",1,Whats up Mahomie,155.34
+2020,4,NFL Week 4,2,12,Team Ryan,86.92,L,"2-11-0, 4th in East Division",4,Davante's Inferno,111.68
+2020,4,NFL Week 4,2,4,Davante's Inferno,111.68,W,"6-7-0, 3rd in West Division",12,Team Ryan,86.92
+2020,4,NFL Week 4,3,8,Rex On Rex,141.18,W,"9-4-0, 1st in East Division",7,The Juice Is Loose,135.32
+2020,4,NFL Week 4,3,7,The Juice Is Loose,135.32,L,"9-4-0, 1st in Central Division",8,Rex On Rex,141.18
+2020,4,NFL Week 4,4,6,Rigga Please,132,W,"5-8-0, 4th in Central Division",3,THE 🅱️AKE SHOW,110
+2020,4,NFL Week 4,4,3,THE 🅱️AKE SHOW,110,L,"9-4-0, 2nd in East Division",6,Rigga Please,132
+2020,4,NFL Week 4,5,5,Team Goff Balls,170.16,W,"6-7-0, 3rd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,107.02
+2020,4,NFL Week 4,5,11,THE EMPIRE DID NOTHING WRONG!1,107.02,L,"9-4-0, 1st in West Division",5,Team Goff Balls,170.16
+2020,4,NFL Week 4,6,9,Team Seattle,119.34,L,"3-10-0, 4th in West Division",10,Juulio Jones,121.52
+2020,4,NFL Week 4,6,10,Juulio Jones,121.52,W,"9-4-0, 2nd in Central Division",9,Team Seattle,119.34
+2020,5,NFL Week 5,1,1,Whats up Mahomie,144.12,W,"7-6-0, 2nd in West Division",12,Team Ryan,137.22
+2020,5,NFL Week 5,1,12,Team Ryan,137.22,L,"2-11-0, 4th in East Division",1,Whats up Mahomie,144.12
+2020,5,NFL Week 5,2,5,Team Goff Balls,93.32,L,"6-7-0, 3rd in Central Division",8,Rex On Rex,124.74
+2020,5,NFL Week 5,2,8,Rex On Rex,124.74,W,"9-4-0, 1st in East Division",5,Team Goff Balls,93.32
+2020,5,NFL Week 5,3,9,Team Seattle,124.68,L,"3-10-0, 4th in West Division",6,Rigga Please,134.08
+2020,5,NFL Week 5,3,6,Rigga Please,134.08,W,"5-8-0, 4th in Central Division",9,Team Seattle,124.68
+2020,5,NFL Week 5,4,7,The Juice Is Loose,131.9,W,"9-4-0, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,89.52
+2020,5,NFL Week 5,4,11,THE EMPIRE DID NOTHING WRONG!1,89.52,L,"9-4-0, 1st in West Division",7,The Juice Is Loose,131.9
+2020,5,NFL Week 5,5,3,THE 🅱️AKE SHOW,116.34,L,"9-4-0, 2nd in East Division",4,Davante's Inferno,125.74
+2020,5,NFL Week 5,5,4,Davante's Inferno,125.74,W,"6-7-0, 3rd in West Division",3,THE 🅱️AKE SHOW,116.34
+2020,5,NFL Week 5,6,10,Juulio Jones,101.4,W,"9-4-0, 2nd in Central Division",2,Ninth Circle of Helaire,89.46
+2020,5,NFL Week 5,6,2,Ninth Circle of Helaire,89.46,L,"4-9-0, 3rd in East Division",10,Juulio Jones,101.4
+2020,6,NFL Week 6,1,5,Team Goff Balls,139.74,W,"6-7-0, 3rd in Central Division",1,Whats up Mahomie,74.92
+2020,6,NFL Week 6,1,1,Whats up Mahomie,74.92,L,"7-6-0, 2nd in West Division",5,Team Goff Balls,139.74
+2020,6,NFL Week 6,2,7,The Juice Is Loose,121.22,L,"9-4-0, 1st in Central Division",3,THE 🅱️AKE SHOW,154.14
+2020,6,NFL Week 6,2,3,THE 🅱️AKE SHOW,154.14,W,"9-4-0, 2nd in East Division",7,The Juice Is Loose,121.22
+2020,6,NFL Week 6,3,8,Rex On Rex,79.6,W,"9-4-0, 1st in East Division",9,Team Seattle,74.48
+2020,6,NFL Week 6,3,9,Team Seattle,74.48,L,"3-10-0, 4th in West Division",8,Rex On Rex,79.6
+2020,6,NFL Week 6,4,11,THE EMPIRE DID NOTHING WRONG!1,90.88,L,"9-4-0, 1st in West Division",12,Team Ryan,130.62
+2020,6,NFL Week 6,4,12,Team Ryan,130.62,W,"2-11-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,90.88
+2020,6,NFL Week 6,5,2,Ninth Circle of Helaire,126.2,W,"4-9-0, 3rd in East Division",6,Rigga Please,107.38
+2020,6,NFL Week 6,5,6,Rigga Please,107.38,L,"5-8-0, 4th in Central Division",2,Ninth Circle of Helaire,126.2
+2020,6,NFL Week 6,6,4,Davante's Inferno,102.64,L,"6-7-0, 3rd in West Division",10,Juulio Jones,124.24
+2020,6,NFL Week 6,6,10,Juulio Jones,124.24,W,"9-4-0, 2nd in Central Division",4,Davante's Inferno,102.64
+2020,7,NFL Week 7,1,1,Whats up Mahomie,62.4,L,"7-6-0, 2nd in West Division",3,THE 🅱️AKE SHOW,128.16
+2020,7,NFL Week 7,1,3,THE 🅱️AKE SHOW,128.16,W,"9-4-0, 2nd in East Division",1,Whats up Mahomie,62.4
+2020,7,NFL Week 7,2,2,Ninth Circle of Helaire,98.86,L,"4-9-0, 3rd in East Division",7,The Juice Is Loose,133.1
+2020,7,NFL Week 7,2,7,The Juice Is Loose,133.1,W,"9-4-0, 1st in Central Division",2,Ninth Circle of Helaire,98.86
+2020,7,NFL Week 7,3,12,Team Ryan,111.26,W,"2-11-0, 4th in East Division",10,Juulio Jones,104.3
+2020,7,NFL Week 7,3,10,Juulio Jones,104.3,L,"9-4-0, 2nd in Central Division",12,Team Ryan,111.26
+2020,7,NFL Week 7,4,8,Rex On Rex,122.32,L,"9-4-0, 1st in East Division",4,Davante's Inferno,148.82
+2020,7,NFL Week 7,4,4,Davante's Inferno,148.82,W,"6-7-0, 3rd in West Division",8,Rex On Rex,122.32
+2020,7,NFL Week 7,5,9,Team Seattle,165.02,W,"3-10-0, 4th in West Division",5,Team Goff Balls,133.56
+2020,7,NFL Week 7,5,5,Team Goff Balls,133.56,L,"6-7-0, 3rd in Central Division",9,Team Seattle,165.02
+2020,7,NFL Week 7,6,6,Rigga Please,129.88,L,"5-8-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,156.98
+2020,7,NFL Week 7,6,11,THE EMPIRE DID NOTHING WRONG!1,156.98,W,"9-4-0, 1st in West Division",6,Rigga Please,129.88
+2020,8,NFL Week 8,1,8,Rex On Rex,115.94,L,"9-4-0, 1st in East Division",1,Whats up Mahomie,160.14
+2020,8,NFL Week 8,1,1,Whats up Mahomie,160.14,W,"7-6-0, 2nd in West Division",8,Rex On Rex,115.94
+2020,8,NFL Week 8,2,3,THE 🅱️AKE SHOW,122.64,W,"9-4-0, 2nd in East Division",9,Team Seattle,78.64
+2020,8,NFL Week 8,2,9,Team Seattle,78.64,L,"3-10-0, 4th in West Division",3,THE 🅱️AKE SHOW,122.64
+2020,8,NFL Week 8,3,7,The Juice Is Loose,132.46,W,"9-4-0, 1st in Central Division",12,Team Ryan,75.52
+2020,8,NFL Week 8,3,12,Team Ryan,75.52,L,"2-11-0, 4th in East Division",7,The Juice Is Loose,132.46
+2020,8,NFL Week 8,4,4,Davante's Inferno,95.04,L,"6-7-0, 3rd in West Division",6,Rigga Please,101.12
+2020,8,NFL Week 8,4,6,Rigga Please,101.12,W,"5-8-0, 4th in Central Division",4,Davante's Inferno,95.04
+2020,8,NFL Week 8,5,5,Team Goff Balls,115.16,W,"6-7-0, 3rd in Central Division",2,Ninth Circle of Helaire,103.74
+2020,8,NFL Week 8,5,2,Ninth Circle of Helaire,103.74,L,"4-9-0, 3rd in East Division",5,Team Goff Balls,115.16
+2020,8,NFL Week 8,6,10,Juulio Jones,85.82,L,"9-4-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,112.86
+2020,8,NFL Week 8,6,11,THE EMPIRE DID NOTHING WRONG!1,112.86,W,"9-4-0, 1st in West Division",10,Juulio Jones,85.82
+2020,9,NFL Week 9,1,7,The Juice Is Loose,117.32,L,"9-4-0, 1st in Central Division",1,Whats up Mahomie,136.18
+2020,9,NFL Week 9,1,1,Whats up Mahomie,136.18,W,"7-6-0, 2nd in West Division",7,The Juice Is Loose,117.32
+2020,9,NFL Week 9,2,4,Davante's Inferno,88.5,L,"6-7-0, 3rd in West Division",5,Team Goff Balls,93.06
+2020,9,NFL Week 9,2,5,Team Goff Balls,93.06,W,"6-7-0, 3rd in Central Division",4,Davante's Inferno,88.5
+2020,9,NFL Week 9,3,2,Ninth Circle of Helaire,91.24,W,"4-9-0, 3rd in East Division",9,Team Seattle,82
+2020,9,NFL Week 9,3,9,Team Seattle,82,L,"3-10-0, 4th in West Division",2,Ninth Circle of Helaire,91.24
+2020,9,NFL Week 9,4,11,THE EMPIRE DID NOTHING WRONG!1,122,W,"9-4-0, 1st in West Division",3,THE 🅱️AKE SHOW,118.46
+2020,9,NFL Week 9,4,3,THE 🅱️AKE SHOW,118.46,L,"9-4-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,122
+2020,9,NFL Week 9,5,6,Rigga Please,106.24,W,"5-8-0, 4th in Central Division",12,Team Ryan,101.48
+2020,9,NFL Week 9,5,12,Team Ryan,101.48,L,"2-11-0, 4th in East Division",6,Rigga Please,106.24
+2020,9,NFL Week 9,6,10,Juulio Jones,155.7,W,"9-4-0, 2nd in Central Division",8,Rex On Rex,114.2
+2020,9,NFL Week 9,6,8,Rex On Rex,114.2,L,"9-4-0, 1st in East Division",10,Juulio Jones,155.7
+2020,10,NFL Week 10,1,1,Whats up Mahomie,122.88,W,"7-6-0, 2nd in West Division",6,Rigga Please,92.18
+2020,10,NFL Week 10,1,6,Rigga Please,92.18,L,"5-8-0, 4th in Central Division",1,Whats up Mahomie,122.88
+2020,10,NFL Week 10,2,12,Team Ryan,83.94,L,"2-11-0, 4th in East Division",5,Team Goff Balls,99.54
+2020,10,NFL Week 10,2,5,Team Goff Balls,99.54,W,"6-7-0, 3rd in Central Division",12,Team Ryan,83.94
+2020,10,NFL Week 10,3,11,THE EMPIRE DID NOTHING WRONG!1,140.76,L,"9-4-0, 1st in West Division",8,Rex On Rex,157
+2020,10,NFL Week 10,3,8,Rex On Rex,157,W,"9-4-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,140.76
+2020,10,NFL Week 10,4,9,Team Seattle,51.12,L,"3-10-0, 4th in West Division",7,The Juice Is Loose,114.4
+2020,10,NFL Week 10,4,7,The Juice Is Loose,114.4,W,"9-4-0, 1st in Central Division",9,Team Seattle,51.12
+2020,10,NFL Week 10,5,2,Ninth Circle of Helaire,100.32,L,"4-9-0, 3rd in East Division",4,Davante's Inferno,126.72
+2020,10,NFL Week 10,5,4,Davante's Inferno,126.72,W,"6-7-0, 3rd in West Division",2,Ninth Circle of Helaire,100.32
+2020,10,NFL Week 10,6,3,THE 🅱️AKE SHOW,99.58,W,"9-4-0, 2nd in East Division",10,Juulio Jones,99.36
+2020,10,NFL Week 10,6,10,Juulio Jones,99.36,L,"9-4-0, 2nd in Central Division",3,THE 🅱️AKE SHOW,99.58
+2020,11,NFL Week 11,1,1,Whats up Mahomie,128.52,W,"7-6-0, 2nd in West Division",4,Davante's Inferno,103.28
+2020,11,NFL Week 11,1,4,Davante's Inferno,103.28,L,"6-7-0, 3rd in West Division",1,Whats up Mahomie,128.52
+2020,11,NFL Week 11,2,9,Team Seattle,80.08,L,"3-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,105.94
+2020,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,105.94,W,"9-4-0, 1st in West Division",9,Team Seattle,80.08
+2020,11,NFL Week 11,3,12,Team Ryan,92.4,L,"2-11-0, 4th in East Division",2,Ninth Circle of Helaire,140.06
+2020,11,NFL Week 11,3,2,Ninth Circle of Helaire,140.06,W,"4-9-0, 3rd in East Division",12,Team Ryan,92.4
+2020,11,NFL Week 11,4,7,The Juice Is Loose,134.26,W,"9-4-0, 1st in Central Division",6,Rigga Please,99.24
+2020,11,NFL Week 11,4,6,Rigga Please,99.24,L,"5-8-0, 4th in Central Division",7,The Juice Is Loose,134.26
+2020,11,NFL Week 11,5,8,Rex On Rex,109.04,L,"9-4-0, 1st in East Division",3,THE 🅱️AKE SHOW,140.44
+2020,11,NFL Week 11,5,3,THE 🅱️AKE SHOW,140.44,W,"9-4-0, 2nd in East Division",8,Rex On Rex,109.04
+2020,11,NFL Week 11,6,5,Team Goff Balls,94.44,L,"6-7-0, 3rd in Central Division",10,Juulio Jones,129.94
+2020,11,NFL Week 11,6,10,Juulio Jones,129.94,W,"9-4-0, 2nd in Central Division",5,Team Goff Balls,94.44
+2020,12,NFL Week 12,1,1,Whats up Mahomie,114.98,W,"7-6-0, 2nd in West Division",9,Team Seattle,77.8
+2020,12,NFL Week 12,1,9,Team Seattle,77.8,L,"3-10-0, 4th in West Division",1,Whats up Mahomie,114.98
+2020,12,NFL Week 12,2,6,Rigga Please,76.64,L,"5-8-0, 4th in Central Division",10,Juulio Jones,95.5
+2020,12,NFL Week 12,2,10,Juulio Jones,95.5,W,"9-4-0, 2nd in Central Division",6,Rigga Please,76.64
+2020,12,NFL Week 12,3,7,The Juice Is Loose,182.4,W,"9-4-0, 1st in Central Division",5,Team Goff Balls,129.1
+2020,12,NFL Week 12,3,5,Team Goff Balls,129.1,L,"6-7-0, 3rd in Central Division",7,The Juice Is Loose,182.4
+2020,12,NFL Week 12,4,12,Team Ryan,132.9,L,"2-11-0, 4th in East Division",8,Rex On Rex,151.54
+2020,12,NFL Week 12,4,8,Rex On Rex,151.54,W,"9-4-0, 1st in East Division",12,Team Ryan,132.9
+2020,12,NFL Week 12,5,4,Davante's Inferno,109.78,L,"6-7-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,163
+2020,12,NFL Week 12,5,11,THE EMPIRE DID NOTHING WRONG!1,163,W,"9-4-0, 1st in West Division",4,Davante's Inferno,109.78
+2020,12,NFL Week 12,6,2,Ninth Circle of Helaire,126.32,L,"4-9-0, 3rd in East Division",3,THE 🅱️AKE SHOW,142.6
+2020,12,NFL Week 12,6,3,THE 🅱️AKE SHOW,142.6,W,"9-4-0, 2nd in East Division",2,Ninth Circle of Helaire,126.32
+2020,13,NFL Week 13,1,11,THE EMPIRE DID NOTHING WRONG!1,119.2,W,"9-4-0, 1st in West Division",1,Whats up Mahomie,98.82
+2020,13,NFL Week 13,1,1,Whats up Mahomie,98.82,L,"7-6-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,119.2
+2020,13,NFL Week 13,2,5,Team Goff Balls,117,W,"6-7-0, 3rd in Central Division",6,Rigga Please,77.16
+2020,13,NFL Week 13,2,6,Rigga Please,77.16,L,"5-8-0, 4th in Central Division",5,Team Goff Balls,117
+2020,13,NFL Week 13,3,10,Juulio Jones,119.74,W,"9-4-0, 2nd in Central Division",7,The Juice Is Loose,89.02
+2020,13,NFL Week 13,3,7,The Juice Is Loose,89.02,L,"9-4-0, 1st in Central Division",10,Juulio Jones,119.74
+2020,13,NFL Week 13,4,3,THE 🅱️AKE SHOW,123.72,W,"9-4-0, 2nd in East Division",12,Team Ryan,105.7
+2020,13,NFL Week 13,4,12,Team Ryan,105.7,L,"2-11-0, 4th in East Division",3,THE 🅱️AKE SHOW,123.72
+2020,13,NFL Week 13,5,9,Team Seattle,76.82,L,"3-10-0, 4th in West Division",4,Davante's Inferno,120.28
+2020,13,NFL Week 13,5,4,Davante's Inferno,120.28,W,"6-7-0, 3rd in West Division",9,Team Seattle,76.82
+2020,13,NFL Week 13,6,8,Rex On Rex,133.5,W,"9-4-0, 1st in East Division",2,Ninth Circle of Helaire,107.14
+2020,13,NFL Week 13,6,2,Ninth Circle of Helaire,107.14,L,"4-9-0, 3rd in East Division",8,Rex On Rex,133.5
+2020,14,Playoff Round 1 (NFL Week 14),1,1,Whats up Mahomie,119.22,L,"7-6-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,120.52
+2020,14,Playoff Round 1 (NFL Week 14),1,11,THE EMPIRE DID NOTHING WRONG!1,120.52,W,"9-4-0, 1st in West Division",1,Whats up Mahomie,119.22
+2020,14,Playoff Round 1 (NFL Week 14),2,10,Juulio Jones,147.82,W,"9-4-0, 2nd in Central Division",3,THE 🅱️AKE SHOW,125.96
+2020,14,Playoff Round 1 (NFL Week 14),2,3,THE 🅱️AKE SHOW,125.96,L,"9-4-0, 2nd in East Division",10,Juulio Jones,147.82
+2020,14,Playoff Round 1 (NFL Week 14),3,4,Davante's Inferno,94.98,W,"6-7-0, 3rd in West Division",5,Team Goff Balls,62.2
+2020,14,Playoff Round 1 (NFL Week 14),3,5,Team Goff Balls,62.2,L,"6-7-0, 3rd in Central Division",4,Davante's Inferno,94.98
+2020,14,Playoff Round 1 (NFL Week 14),4,2,Ninth Circle of Helaire,78.56,L,"4-9-0, 3rd in East Division",6,Rigga Please,132.32
+2020,14,Playoff Round 1 (NFL Week 14),4,6,Rigga Please,132.32,W,"5-8-0, 4th in Central Division",2,Ninth Circle of Helaire,78.56
+2020,14,Playoff Round 1 (NFL Week 14),5,12,Team Ryan,112.38,L,"2-11-0, 4th in East Division",9,Team Seattle,119.54
+2020,14,Playoff Round 1 (NFL Week 14),5,9,Team Seattle,119.54,W,"3-10-0, 4th in West Division",12,Team Ryan,112.38
+2020,15,Playoff Round 2 (NFL Week 15),1,10,Juulio Jones,100.22,L,"9-4-0, 2nd in Central Division",8,Rex On Rex,135.82
+2020,15,Playoff Round 2 (NFL Week 15),1,8,Rex On Rex,135.82,W,"9-4-0, 1st in East Division",10,Juulio Jones,100.22
+2020,15,Playoff Round 2 (NFL Week 15),2,11,THE EMPIRE DID NOTHING WRONG!1,146.56,L,"9-4-0, 1st in West Division",7,The Juice Is Loose,147.04
+2020,15,Playoff Round 2 (NFL Week 15),2,7,The Juice Is Loose,147.04,W,"9-4-0, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,146.56
+2020,15,Playoff Round 2 (NFL Week 15),3,1,Whats up Mahomie,144.66,W,"7-6-0, 2nd in West Division",3,THE 🅱️AKE SHOW,127.14
+2020,15,Playoff Round 2 (NFL Week 15),3,3,THE 🅱️AKE SHOW,127.14,L,"9-4-0, 2nd in East Division",1,Whats up Mahomie,144.66
+2020,15,Playoff Round 2 (NFL Week 15),4,6,Rigga Please,114.26,L,"5-8-0, 4th in Central Division",4,Davante's Inferno,153.92
+2020,15,Playoff Round 2 (NFL Week 15),4,4,Davante's Inferno,153.92,W,"6-7-0, 3rd in West Division",6,Rigga Please,114.26
+2020,15,Playoff Round 2 (NFL Week 15),5,9,Team Seattle,86.84,W,"3-10-0, 4th in West Division",5,Team Goff Balls,65.84
+2020,15,Playoff Round 2 (NFL Week 15),5,5,Team Goff Balls,65.84,L,"6-7-0, 3rd in Central Division",9,Team Seattle,86.84
+2020,15,Playoff Round 2 (NFL Week 15),6,12,Team Ryan,105.7,W,"2-11-0, 4th in East Division",2,Ninth Circle of Helaire,105.42
+2020,15,Playoff Round 2 (NFL Week 15),6,2,Ninth Circle of Helaire,105.42,L,"4-9-0, 3rd in East Division",12,Team Ryan,105.7
+2020,16,Playoff Round 3 (NFL Week 16),1,7,The Juice Is Loose,83.68,L,"9-4-0, 1st in Central Division",8,Rex On Rex,190.74
+2020,16,Playoff Round 3 (NFL Week 16),1,8,Rex On Rex,190.74,W,"9-4-0, 1st in East Division",7,The Juice Is Loose,83.68
+2020,16,Playoff Round 3 (NFL Week 16),2,1,Whats up Mahomie,125.92,W,"7-6-0, 2nd in West Division",3,THE 🅱️AKE SHOW,113.8
+2020,16,Playoff Round 3 (NFL Week 16),2,3,THE 🅱️AKE SHOW,113.8,L,"9-4-0, 2nd in East Division",1,Whats up Mahomie,125.92
+2020,16,Playoff Round 3 (NFL Week 16),3,10,Juulio Jones,109.32,L,"9-4-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,135.5
+2020,16,Playoff Round 3 (NFL Week 16),3,11,THE EMPIRE DID NOTHING WRONG!1,135.5,W,"9-4-0, 1st in West Division",10,Juulio Jones,109.32
+2020,16,Playoff Round 3 (NFL Week 16),4,9,Team Seattle,121.2,L,"3-10-0, 4th in West Division",4,Davante's Inferno,154.98
+2020,16,Playoff Round 3 (NFL Week 16),4,4,Davante's Inferno,154.98,W,"6-7-0, 3rd in West Division",9,Team Seattle,121.2
+2020,16,Playoff Round 3 (NFL Week 16),5,12,Team Ryan,81,L,"2-11-0, 4th in East Division",6,Rigga Please,121.24
+2020,16,Playoff Round 3 (NFL Week 16),5,6,Rigga Please,121.24,W,"5-8-0, 4th in Central Division",12,Team Ryan,81
+2020,16,Playoff Round 3 (NFL Week 16),6,2,Ninth Circle of Helaire,73.56,L,"4-9-0, 3rd in East Division",5,Team Goff Balls,111.24
+2020,16,Playoff Round 3 (NFL Week 16),6,5,Team Goff Balls,111.24,W,"6-7-0, 3rd in Central Division",2,Ninth Circle of Helaire,73.56
+2021,1,NFL Week 1,1,11,THE EMPIRE DID NOTHING WRONG!1,161.26,W,"6-8-0, 2nd in West Division",1,Justin Herbert,96.78
+2021,1,NFL Week 1,1,1,Justin Herbert,96.78,L,"4-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,161.26
+2021,1,NFL Week 1,2,8,Rex On Rex,118.96,W,"8-6-0, 1st in East Division",2,Electric Bass,106.16
+2021,1,NFL Week 1,2,2,Electric Bass,106.16,L,"5-9-0, 3rd in East Division",8,Rex On Rex,118.96
+2021,1,NFL Week 1,3,12,Team Ryan,118.68,L,"6-8-0, 2nd in East Division",3,THE 🅱️AKE SHOW,121.64
+2021,1,NFL Week 1,3,3,THE 🅱️AKE SHOW,121.64,W,"5-9-0, 4th in East Division",12,Team Ryan,118.68
+2021,1,NFL Week 1,4,4,Storm Coopers,161.86,W,"13-1-0, 1st in West Division",9,Team Seattle,117.14
+2021,1,NFL Week 1,4,9,Team Seattle,117.14,L,"5-9-0, 3rd in West Division",4,Storm Coopers,161.86
+2021,1,NFL Week 1,5,5,Team Goff Balls,130,W,"7-7-0, 4th in Central Division",7,The Juice Is Loose,117.68
+2021,1,NFL Week 1,5,7,The Juice Is Loose,117.68,L,"8-6-0, 2nd in Central Division",5,Team Goff Balls,130
+2021,1,NFL Week 1,6,6,cancelled -,83.02,L,"7-7-0, 3rd in Central Division",10,Juulio Jones,130.12
+2021,1,NFL Week 1,6,10,Juulio Jones,130.12,W,"10-4-0, 1st in Central Division",6,cancelled -,83.02
+2021,2,NFL Week 2,1,1,Justin Herbert,100.92,L,"4-10-0, 4th in West Division",9,Team Seattle,113.86
+2021,2,NFL Week 2,1,9,Team Seattle,113.86,W,"5-9-0, 3rd in West Division",1,Justin Herbert,100.92
+2021,2,NFL Week 2,2,12,Team Ryan,90.88,L,"6-8-0, 2nd in East Division",8,Rex On Rex,114.6
+2021,2,NFL Week 2,2,8,Rex On Rex,114.6,W,"8-6-0, 1st in East Division",12,Team Ryan,90.88
+2021,2,NFL Week 2,3,2,Electric Bass,120.34,L,"5-9-0, 3rd in East Division",3,THE 🅱️AKE SHOW,123.32
+2021,2,NFL Week 2,3,3,THE 🅱️AKE SHOW,123.32,W,"5-9-0, 4th in East Division",2,Electric Bass,120.34
+2021,2,NFL Week 2,4,4,Storm Coopers,123.6,L,"13-1-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,142.02
+2021,2,NFL Week 2,4,11,THE EMPIRE DID NOTHING WRONG!1,142.02,W,"6-8-0, 2nd in West Division",4,Storm Coopers,123.6
+2021,2,NFL Week 2,5,6,cancelled -,105.4,L,"7-7-0, 3rd in Central Division",5,Team Goff Balls,130.36
+2021,2,NFL Week 2,5,5,Team Goff Balls,130.36,W,"7-7-0, 4th in Central Division",6,cancelled -,105.4
+2021,2,NFL Week 2,6,7,The Juice Is Loose,177.62,W,"8-6-0, 2nd in Central Division",10,Juulio Jones,117.08
+2021,2,NFL Week 2,6,10,Juulio Jones,117.08,L,"10-4-0, 1st in Central Division",7,The Juice Is Loose,177.62
+2021,3,NFL Week 3,1,1,Justin Herbert,124.24,L,"4-10-0, 4th in West Division",4,Storm Coopers,128.44
+2021,3,NFL Week 3,1,4,Storm Coopers,128.44,W,"13-1-0, 1st in West Division",1,Justin Herbert,124.24
+2021,3,NFL Week 3,2,8,Rex On Rex,136.94,W,"8-6-0, 1st in East Division",3,THE 🅱️AKE SHOW,92.24
+2021,3,NFL Week 3,2,3,THE 🅱️AKE SHOW,92.24,L,"5-9-0, 4th in East Division",8,Rex On Rex,136.94
+2021,3,NFL Week 3,3,2,Electric Bass,113.48,L,"5-9-0, 3rd in East Division",12,Team Ryan,148.08
+2021,3,NFL Week 3,3,12,Team Ryan,148.08,W,"6-8-0, 2nd in East Division",2,Electric Bass,113.48
+2021,3,NFL Week 3,4,11,THE EMPIRE DID NOTHING WRONG!1,121.32,L,"6-8-0, 2nd in West Division",9,Team Seattle,126.42
+2021,3,NFL Week 3,4,9,Team Seattle,126.42,W,"5-9-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,121.32
+2021,3,NFL Week 3,5,5,Team Goff Balls,85.68,L,"7-7-0, 4th in Central Division",10,Juulio Jones,146.12
+2021,3,NFL Week 3,5,10,Juulio Jones,146.12,W,"10-4-0, 1st in Central Division",5,Team Goff Balls,85.68
+2021,3,NFL Week 3,6,7,The Juice Is Loose,119.9,W,"8-6-0, 2nd in Central Division",6,cancelled -,92.34
+2021,3,NFL Week 3,6,6,cancelled -,92.34,L,"7-7-0, 3rd in Central Division",7,The Juice Is Loose,119.9
+2021,4,NFL Week 4,1,1,Justin Herbert,95.08,L,"4-10-0, 4th in West Division",7,The Juice Is Loose,112.02
+2021,4,NFL Week 4,1,7,The Juice Is Loose,112.02,W,"8-6-0, 2nd in Central Division",1,Justin Herbert,95.08
+2021,4,NFL Week 4,2,2,Electric Bass,114.06,L,"5-9-0, 3rd in East Division",8,Rex On Rex,121.22
+2021,4,NFL Week 4,2,8,Rex On Rex,121.22,W,"8-6-0, 1st in East Division",2,Electric Bass,114.06
+2021,4,NFL Week 4,3,3,THE 🅱️AKE SHOW,118.9,W,"5-9-0, 4th in East Division",12,Team Ryan,107.32
+2021,4,NFL Week 4,3,12,Team Ryan,107.32,L,"6-8-0, 2nd in East Division",3,THE 🅱️AKE SHOW,118.9
+2021,4,NFL Week 4,4,11,THE EMPIRE DID NOTHING WRONG!1,85.36,L,"6-8-0, 2nd in West Division",5,Team Goff Balls,120.34
+2021,4,NFL Week 4,4,5,Team Goff Balls,120.34,W,"7-7-0, 4th in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,85.36
+2021,4,NFL Week 4,5,4,Storm Coopers,134.28,W,"13-1-0, 1st in West Division",6,cancelled -,131.52
+2021,4,NFL Week 4,5,6,cancelled -,131.52,L,"7-7-0, 3rd in Central Division",4,Storm Coopers,134.28
+2021,4,NFL Week 4,6,9,Team Seattle,85.82,L,"5-9-0, 3rd in West Division",10,Juulio Jones,143.84
+2021,4,NFL Week 4,6,10,Juulio Jones,143.84,W,"10-4-0, 1st in Central Division",9,Team Seattle,85.82
+2021,5,NFL Week 5,1,5,Team Goff Balls,153.28,W,"7-7-0, 4th in Central Division",1,Justin Herbert,150.22
+2021,5,NFL Week 5,1,1,Justin Herbert,150.22,L,"4-10-0, 4th in West Division",5,Team Goff Balls,153.28
+2021,5,NFL Week 5,2,8,Rex On Rex,138.56,W,"8-6-0, 1st in East Division",12,Team Ryan,137.58
+2021,5,NFL Week 5,2,12,Team Ryan,137.58,L,"6-8-0, 2nd in East Division",8,Rex On Rex,138.56
+2021,5,NFL Week 5,3,3,THE 🅱️AKE SHOW,90.32,L,"5-9-0, 4th in East Division",2,Electric Bass,137.94
+2021,5,NFL Week 5,3,2,Electric Bass,137.94,W,"5-9-0, 3rd in East Division",3,THE 🅱️AKE SHOW,90.32
+2021,5,NFL Week 5,4,7,The Juice Is Loose,147.58,L,"8-6-0, 2nd in Central Division",4,Storm Coopers,158.4
+2021,5,NFL Week 5,4,4,Storm Coopers,158.4,W,"13-1-0, 1st in West Division",7,The Juice Is Loose,147.58
+2021,5,NFL Week 5,5,6,cancelled -,74.26,L,"7-7-0, 3rd in Central Division",9,Team Seattle,143.5
+2021,5,NFL Week 5,5,9,Team Seattle,143.5,W,"5-9-0, 3rd in West Division",6,cancelled -,74.26
+2021,5,NFL Week 5,6,10,Juulio Jones,157.28,W,"10-4-0, 1st in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,130.18
+2021,5,NFL Week 5,6,11,THE EMPIRE DID NOTHING WRONG!1,130.18,L,"6-8-0, 2nd in West Division",10,Juulio Jones,157.28
+2021,6,NFL Week 6,1,1,Justin Herbert,84.3,L,"4-10-0, 4th in West Division",10,Juulio Jones,137.3
+2021,6,NFL Week 6,1,10,Juulio Jones,137.3,W,"10-4-0, 1st in Central Division",1,Justin Herbert,84.3
+2021,6,NFL Week 6,2,3,THE 🅱️AKE SHOW,93.18,L,"5-9-0, 4th in East Division",8,Rex On Rex,127.56
+2021,6,NFL Week 6,2,8,Rex On Rex,127.56,W,"8-6-0, 1st in East Division",3,THE 🅱️AKE SHOW,93.18
+2021,6,NFL Week 6,3,12,Team Ryan,133.44,W,"6-8-0, 2nd in East Division",2,Electric Bass,108.38
+2021,6,NFL Week 6,3,2,Electric Bass,108.38,L,"5-9-0, 3rd in East Division",12,Team Ryan,133.44
+2021,6,NFL Week 6,4,4,Storm Coopers,157.9,W,"13-1-0, 1st in West Division",5,Team Goff Balls,119.18
+2021,6,NFL Week 6,4,5,Team Goff Balls,119.18,L,"7-7-0, 4th in Central Division",4,Storm Coopers,157.9
+2021,6,NFL Week 6,5,9,Team Seattle,132.32,L,"5-9-0, 3rd in West Division",7,The Juice Is Loose,141.48
+2021,6,NFL Week 6,5,7,The Juice Is Loose,141.48,W,"8-6-0, 2nd in Central Division",9,Team Seattle,132.32
+2021,6,NFL Week 6,6,11,THE EMPIRE DID NOTHING WRONG!1,89.48,L,"6-8-0, 2nd in West Division",6,cancelled -,103.2
+2021,6,NFL Week 6,6,6,cancelled -,103.2,W,"7-7-0, 3rd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,89.48
+2021,7,NFL Week 7,1,6,cancelled -,104.76,W,"7-7-0, 3rd in Central Division",1,Justin Herbert,70.18
+2021,7,NFL Week 7,1,1,Justin Herbert,70.18,L,"4-10-0, 4th in West Division",6,cancelled -,104.76
+2021,7,NFL Week 7,2,8,Rex On Rex,129.64,L,"8-6-0, 1st in East Division",2,Electric Bass,132.86
+2021,7,NFL Week 7,2,2,Electric Bass,132.86,W,"5-9-0, 3rd in East Division",8,Rex On Rex,129.64
+2021,7,NFL Week 7,3,12,Team Ryan,90.7,L,"6-8-0, 2nd in East Division",3,THE 🅱️AKE SHOW,93.82
+2021,7,NFL Week 7,3,3,THE 🅱️AKE SHOW,93.82,W,"5-9-0, 4th in East Division",12,Team Ryan,90.7
+2021,7,NFL Week 7,4,5,Team Goff Balls,127.88,W,"7-7-0, 4th in Central Division",9,Team Seattle,74.58
+2021,7,NFL Week 7,4,9,Team Seattle,74.58,L,"5-9-0, 3rd in West Division",5,Team Goff Balls,127.88
+2021,7,NFL Week 7,5,7,The Juice Is Loose,155.94,W,"8-6-0, 2nd in Central Division",11,THE EMPIRE DID NOTHING WRONG!1,133.64
+2021,7,NFL Week 7,5,11,THE EMPIRE DID NOTHING WRONG!1,133.64,L,"6-8-0, 2nd in West Division",7,The Juice Is Loose,155.94
+2021,7,NFL Week 7,6,10,Juulio Jones,86.02,L,"10-4-0, 1st in Central Division",4,Storm Coopers,161.04
+2021,7,NFL Week 7,6,4,Storm Coopers,161.04,W,"13-1-0, 1st in West Division",10,Juulio Jones,86.02
+2021,8,NFL Week 8,1,1,Justin Herbert,90.62,L,"4-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,112.26
+2021,8,NFL Week 8,1,11,THE EMPIRE DID NOTHING WRONG!1,112.26,W,"6-8-0, 2nd in West Division",1,Justin Herbert,90.62
+2021,8,NFL Week 8,2,9,Team Seattle,101.76,L,"5-9-0, 3rd in West Division",4,Storm Coopers,147.32
+2021,8,NFL Week 8,2,4,Storm Coopers,147.32,W,"13-1-0, 1st in West Division",9,Team Seattle,101.76
+2021,8,NFL Week 8,3,8,Rex On Rex,106.46,L,"8-6-0, 1st in East Division",5,Team Goff Balls,166.64
+2021,8,NFL Week 8,3,5,Team Goff Balls,166.64,W,"7-7-0, 4th in Central Division",8,Rex On Rex,106.46
+2021,8,NFL Week 8,4,2,Electric Bass,109.8,W,"5-9-0, 3rd in East Division",7,The Juice Is Loose,85.9
+2021,8,NFL Week 8,4,7,The Juice Is Loose,85.9,L,"8-6-0, 2nd in Central Division",2,Electric Bass,109.8
+2021,8,NFL Week 8,5,12,Team Ryan,82.2,W,"6-8-0, 2nd in East Division",6,cancelled -,78.66
+2021,8,NFL Week 8,5,6,cancelled -,78.66,L,"7-7-0, 3rd in Central Division",12,Team Ryan,82.2
+2021,8,NFL Week 8,6,3,THE 🅱️AKE SHOW,76.58,L,"5-9-0, 4th in East Division",10,Juulio Jones,117.9
+2021,8,NFL Week 8,6,10,Juulio Jones,117.9,W,"10-4-0, 1st in Central Division",3,THE 🅱️AKE SHOW,76.58
+2021,9,NFL Week 9,1,9,Team Seattle,80.16,L,"5-9-0, 3rd in West Division",1,Justin Herbert,103.14
+2021,9,NFL Week 9,1,1,Justin Herbert,103.14,W,"4-10-0, 4th in West Division",9,Team Seattle,80.16
+2021,9,NFL Week 9,2,11,THE EMPIRE DID NOTHING WRONG!1,110.58,L,"6-8-0, 2nd in West Division",4,Storm Coopers,132.68
+2021,9,NFL Week 9,2,4,Storm Coopers,132.68,W,"13-1-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,110.58
+2021,9,NFL Week 9,3,5,Team Goff Balls,100.14,L,"7-7-0, 4th in Central Division",2,Electric Bass,105.58
+2021,9,NFL Week 9,3,2,Electric Bass,105.58,W,"5-9-0, 3rd in East Division",5,Team Goff Balls,100.14
+2021,9,NFL Week 9,4,7,The Juice Is Loose,81.94,L,"8-6-0, 2nd in Central Division",12,Team Ryan,84.62
+2021,9,NFL Week 9,4,12,Team Ryan,84.62,W,"6-8-0, 2nd in East Division",7,The Juice Is Loose,81.94
+2021,9,NFL Week 9,5,6,cancelled -,137,W,"7-7-0, 3rd in Central Division",3,THE 🅱️AKE SHOW,84.2
+2021,9,NFL Week 9,5,3,THE 🅱️AKE SHOW,84.2,L,"5-9-0, 4th in East Division",6,cancelled -,137
+2021,9,NFL Week 9,6,10,Juulio Jones,109.88,W,"10-4-0, 1st in Central Division",8,Rex On Rex,74.4
+2021,9,NFL Week 9,6,8,Rex On Rex,74.4,L,"8-6-0, 1st in East Division",10,Juulio Jones,109.88
+2021,10,NFL Week 10,1,4,Storm Coopers,118.62,W,"13-1-0, 1st in West Division",1,Justin Herbert,66.1
+2021,10,NFL Week 10,1,1,Justin Herbert,66.1,L,"4-10-0, 4th in West Division",4,Storm Coopers,118.62
+2021,10,NFL Week 10,2,9,Team Seattle,114.74,L,"5-9-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,114.94
+2021,10,NFL Week 10,2,11,THE EMPIRE DID NOTHING WRONG!1,114.94,W,"6-8-0, 2nd in West Division",9,Team Seattle,114.74
+2021,10,NFL Week 10,3,12,Team Ryan,111.72,W,"6-8-0, 2nd in East Division",5,Team Goff Balls,91.82
+2021,10,NFL Week 10,3,5,Team Goff Balls,91.82,L,"7-7-0, 4th in Central Division",12,Team Ryan,111.72
+2021,10,NFL Week 10,4,3,THE 🅱️AKE SHOW,72.96,L,"5-9-0, 4th in East Division",7,The Juice Is Loose,116.44
+2021,10,NFL Week 10,4,7,The Juice Is Loose,116.44,W,"8-6-0, 2nd in Central Division",3,THE 🅱️AKE SHOW,72.96
+2021,10,NFL Week 10,5,8,Rex On Rex,80.3,L,"8-6-0, 1st in East Division",6,cancelled -,119.58
+2021,10,NFL Week 10,5,6,cancelled -,119.58,W,"7-7-0, 3rd in Central Division",8,Rex On Rex,80.3
+2021,10,NFL Week 10,6,2,Electric Bass,121.4,L,"5-9-0, 3rd in East Division",10,Juulio Jones,171.14
+2021,10,NFL Week 10,6,10,Juulio Jones,171.14,W,"10-4-0, 1st in Central Division",2,Electric Bass,121.4
+2021,11,NFL Week 11,1,11,THE EMPIRE DID NOTHING WRONG!1,148.58,W,"6-8-0, 2nd in West Division",1,Justin Herbert,118.68
+2021,11,NFL Week 11,1,1,Justin Herbert,118.68,L,"4-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,148.58
+2021,11,NFL Week 11,2,4,Storm Coopers,165.08,W,"13-1-0, 1st in West Division",9,Team Seattle,124.56
+2021,11,NFL Week 11,2,9,Team Seattle,124.56,L,"5-9-0, 3rd in West Division",4,Storm Coopers,165.08
+2021,11,NFL Week 11,3,5,Team Goff Balls,65.26,L,"7-7-0, 4th in Central Division",3,THE 🅱️AKE SHOW,86.32
+2021,11,NFL Week 11,3,3,THE 🅱️AKE SHOW,86.32,W,"5-9-0, 4th in East Division",5,Team Goff Balls,65.26
+2021,11,NFL Week 11,4,7,The Juice Is Loose,86,L,"8-6-0, 2nd in Central Division",8,Rex On Rex,131.06
+2021,11,NFL Week 11,4,8,Rex On Rex,131.06,W,"8-6-0, 1st in East Division",7,The Juice Is Loose,86
+2021,11,NFL Week 11,5,6,cancelled -,141.6,W,"7-7-0, 3rd in Central Division",2,Electric Bass,67.58
+2021,11,NFL Week 11,5,2,Electric Bass,67.58,L,"5-9-0, 3rd in East Division",6,cancelled -,141.6
+2021,11,NFL Week 11,6,10,Juulio Jones,129.14,W,"10-4-0, 1st in Central Division",12,Team Ryan,124.12
+2021,11,NFL Week 11,6,12,Team Ryan,124.12,L,"6-8-0, 2nd in East Division",10,Juulio Jones,129.14
+2021,12,NFL Week 12,1,2,Electric Bass,96.64,L,"5-9-0, 3rd in East Division",1,Justin Herbert,97.82
+2021,12,NFL Week 12,1,1,Justin Herbert,97.82,W,"4-10-0, 4th in West Division",2,Electric Bass,96.64
+2021,12,NFL Week 12,2,7,The Juice Is Loose,94.7,W,"8-6-0, 2nd in Central Division",5,Team Goff Balls,57.9
+2021,12,NFL Week 12,2,5,Team Goff Balls,57.9,L,"7-7-0, 4th in Central Division",7,The Juice Is Loose,94.7
+2021,12,NFL Week 12,3,10,Juulio Jones,129.1,W,"10-4-0, 1st in Central Division",6,cancelled -,79.88
+2021,12,NFL Week 12,3,6,cancelled -,79.88,L,"7-7-0, 3rd in Central Division",10,Juulio Jones,129.1
+2021,12,NFL Week 12,4,8,Rex On Rex,111.98,L,"8-6-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,120.18
+2021,12,NFL Week 12,4,11,THE EMPIRE DID NOTHING WRONG!1,120.18,W,"6-8-0, 2nd in West Division",8,Rex On Rex,111.98
+2021,12,NFL Week 12,5,12,Team Ryan,96.42,L,"6-8-0, 2nd in East Division",4,Storm Coopers,150.66
+2021,12,NFL Week 12,5,4,Storm Coopers,150.66,W,"13-1-0, 1st in West Division",12,Team Ryan,96.42
+2021,12,NFL Week 12,6,3,THE 🅱️AKE SHOW,81.7,L,"5-9-0, 4th in East Division",9,Team Seattle,112.66
+2021,12,NFL Week 12,6,9,Team Seattle,112.66,W,"5-9-0, 3rd in West Division",3,THE 🅱️AKE SHOW,81.7
+2021,13,NFL Week 13,1,1,Justin Herbert,115.78,W,"4-10-0, 4th in West Division",12,Team Ryan,91.3
+2021,13,NFL Week 13,1,12,Team Ryan,91.3,L,"6-8-0, 2nd in East Division",1,Justin Herbert,115.78
+2021,13,NFL Week 13,2,5,Team Goff Balls,97.62,L,"7-7-0, 4th in Central Division",6,cancelled -,155.42
+2021,13,NFL Week 13,2,6,cancelled -,155.42,W,"7-7-0, 3rd in Central Division",5,Team Goff Balls,97.62
+2021,13,NFL Week 13,3,10,Juulio Jones,96.82,L,"10-4-0, 1st in Central Division",7,The Juice Is Loose,104.26
+2021,13,NFL Week 13,3,7,The Juice Is Loose,104.26,W,"8-6-0, 2nd in Central Division",10,Juulio Jones,96.82
+2021,13,NFL Week 13,4,11,THE EMPIRE DID NOTHING WRONG!1,90.14,L,"6-8-0, 2nd in West Division",2,Electric Bass,130.62
+2021,13,NFL Week 13,4,2,Electric Bass,130.62,W,"5-9-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,90.14
+2021,13,NFL Week 13,5,4,Storm Coopers,147.7,W,"13-1-0, 1st in West Division",3,THE 🅱️AKE SHOW,84.9
+2021,13,NFL Week 13,5,3,THE 🅱️AKE SHOW,84.9,L,"5-9-0, 4th in East Division",4,Storm Coopers,147.7
+2021,13,NFL Week 13,6,9,Team Seattle,111.1,L,"5-9-0, 3rd in West Division",8,Rex On Rex,140.62
+2021,13,NFL Week 13,6,8,Rex On Rex,140.62,W,"8-6-0, 1st in East Division",9,Team Seattle,111.1
+2021,14,NFL Week 14,1,3,THE 🅱️AKE SHOW,75.22,L,"5-9-0, 4th in East Division",1,Justin Herbert,79.5
+2021,14,NFL Week 14,1,1,Justin Herbert,79.5,W,"4-10-0, 4th in West Division",3,THE 🅱️AKE SHOW,75.22
+2021,14,NFL Week 14,2,5,Team Goff Balls,127.78,W,"7-7-0, 4th in Central Division",7,The Juice Is Loose,109.82
+2021,14,NFL Week 14,2,7,The Juice Is Loose,109.82,L,"8-6-0, 2nd in Central Division",5,Team Goff Balls,127.78
+2021,14,NFL Week 14,3,6,cancelled -,177.24,W,"7-7-0, 3rd in Central Division",10,Juulio Jones,118.04
+2021,14,NFL Week 14,3,10,Juulio Jones,118.04,L,"10-4-0, 1st in Central Division",6,cancelled -,177.24
+2021,14,NFL Week 14,4,12,Team Ryan,133.14,W,"6-8-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,91.5
+2021,14,NFL Week 14,4,11,THE EMPIRE DID NOTHING WRONG!1,91.5,L,"6-8-0, 2nd in West Division",12,Team Ryan,133.14
+2021,14,NFL Week 14,5,8,Rex On Rex,118.02,L,"8-6-0, 1st in East Division",4,Storm Coopers,149.8
+2021,14,NFL Week 14,5,4,Storm Coopers,149.8,W,"13-1-0, 1st in West Division",8,Rex On Rex,118.02
+2021,14,NFL Week 14,6,2,Electric Bass,125.12,L,"5-9-0, 3rd in East Division",9,Team Seattle,134.92
+2021,14,NFL Week 14,6,9,Team Seattle,134.92,W,"5-9-0, 3rd in West Division",2,Electric Bass,125.12
+2021,15,Playoff Round 1 (NFL Week 15),1,6,cancelled -,78.72,L,"7-7-0, 3rd in Central Division",7,The Juice Is Loose,92.9
+2021,15,Playoff Round 1 (NFL Week 15),1,7,The Juice Is Loose,92.9,W,"8-6-0, 2nd in Central Division",6,cancelled -,78.72
+2021,15,Playoff Round 1 (NFL Week 15),2,5,Team Goff Balls,111.38,W,"7-7-0, 4th in Central Division",8,Rex On Rex,103.28
+2021,15,Playoff Round 1 (NFL Week 15),2,8,Rex On Rex,103.28,L,"8-6-0, 1st in East Division",5,Team Goff Balls,111.38
+2021,15,Playoff Round 1 (NFL Week 15),3,1,Justin Herbert,62.54,W,"4-10-0, 4th in West Division",3,THE 🅱️AKE SHOW,52.98
+2021,15,Playoff Round 1 (NFL Week 15),3,3,THE 🅱️AKE SHOW,52.98,L,"5-9-0, 4th in East Division",1,Justin Herbert,62.54
+2021,15,Playoff Round 1 (NFL Week 15),4,11,THE EMPIRE DID NOTHING WRONG!1,36.44,L,"6-8-0, 2nd in West Division",12,Team Ryan,92.92
+2021,15,Playoff Round 1 (NFL Week 15),4,12,Team Ryan,92.92,W,"6-8-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,36.44
+2021,15,Playoff Round 1 (NFL Week 15),5,9,Team Seattle,92.4,L,"5-9-0, 3rd in West Division",2,Electric Bass,92.56
+2021,15,Playoff Round 1 (NFL Week 15),5,2,Electric Bass,92.56,W,"5-9-0, 3rd in East Division",9,Team Seattle,92.4
+2021,16,Playoff Round 2 (NFL Week 16),1,7,The Juice Is Loose,98.92,L,"8-6-0, 2nd in Central Division",4,Storm Coopers,140.46
+2021,16,Playoff Round 2 (NFL Week 16),1,4,Storm Coopers,140.46,W,"13-1-0, 1st in West Division",7,The Juice Is Loose,98.92
+2021,16,Playoff Round 2 (NFL Week 16),2,5,Team Goff Balls,89.1,L,"7-7-0, 4th in Central Division",10,Juulio Jones,121.4
+2021,16,Playoff Round 2 (NFL Week 16),2,10,Juulio Jones,121.4,W,"10-4-0, 1st in Central Division",5,Team Goff Balls,89.1
+2021,16,Playoff Round 2 (NFL Week 16),3,6,cancelled -,147.98,W,"7-7-0, 3rd in Central Division",8,Rex On Rex,111.2
+2021,16,Playoff Round 2 (NFL Week 16),3,8,Rex On Rex,111.2,L,"8-6-0, 1st in East Division",6,cancelled -,147.98
+2021,16,Playoff Round 2 (NFL Week 16),4,1,Justin Herbert,48.64,L,"4-10-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,79.94
+2021,16,Playoff Round 2 (NFL Week 16),4,11,THE EMPIRE DID NOTHING WRONG!1,79.94,W,"6-8-0, 2nd in West Division",1,Justin Herbert,48.64
+2021,16,Playoff Round 2 (NFL Week 16),5,2,Electric Bass,70.78,L,"5-9-0, 3rd in East Division",12,Team Ryan,104.46
+2021,16,Playoff Round 2 (NFL Week 16),5,12,Team Ryan,104.46,W,"6-8-0, 2nd in East Division",2,Electric Bass,70.78
+2021,16,Playoff Round 2 (NFL Week 16),6,3,THE 🅱️AKE SHOW,90.8,L,"5-9-0, 4th in East Division",9,Team Seattle,100.06
+2021,16,Playoff Round 2 (NFL Week 16),6,9,Team Seattle,100.06,W,"5-9-0, 3rd in West Division",3,THE 🅱️AKE SHOW,90.8
+2021,17,Playoff Round 3 (NFL Week 17),1,10,Juulio Jones,140.44,W,"10-4-0, 1st in Central Division",4,Storm Coopers,134.36
+2021,17,Playoff Round 3 (NFL Week 17),1,4,Storm Coopers,134.36,L,"13-1-0, 1st in West Division",10,Juulio Jones,140.44
+2021,17,Playoff Round 3 (NFL Week 17),2,5,Team Goff Balls,84.08,L,"7-7-0, 4th in Central Division",7,The Juice Is Loose,160.46
+2021,17,Playoff Round 3 (NFL Week 17),2,7,The Juice Is Loose,160.46,W,"8-6-0, 2nd in Central Division",5,Team Goff Balls,84.08
+2021,17,Playoff Round 3 (NFL Week 17),3,6,cancelled -,102.32,L,"7-7-0, 3rd in Central Division",8,Rex On Rex,136.02
+2021,17,Playoff Round 3 (NFL Week 17),3,8,Rex On Rex,136.02,W,"8-6-0, 1st in East Division",6,cancelled -,102.32
+2021,17,Playoff Round 3 (NFL Week 17),4,1,Justin Herbert,99.78,W,"4-10-0, 4th in West Division",3,THE 🅱️AKE SHOW,82.24
+2021,17,Playoff Round 3 (NFL Week 17),4,3,THE 🅱️AKE SHOW,82.24,L,"5-9-0, 4th in East Division",1,Justin Herbert,99.78
+2021,17,Playoff Round 3 (NFL Week 17),5,11,THE EMPIRE DID NOTHING WRONG!1,96.34,L,"6-8-0, 2nd in West Division",12,Team Ryan,106.5
+2021,17,Playoff Round 3 (NFL Week 17),5,12,Team Ryan,106.5,W,"6-8-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,96.34
+2021,17,Playoff Round 3 (NFL Week 17),6,9,Team Seattle,88.5,L,"5-9-0, 3rd in West Division",2,Electric Bass,130.2
+2021,17,Playoff Round 3 (NFL Week 17),6,2,Electric Bass,130.2,W,"5-9-0, 3rd in East Division",9,Team Seattle,88.5
+2022,1,NFL Week 1,1,1,Drake @ London O2,143.4,W,"7-7-0, 4th in West Division",7,Hunter Gatherer,124.66
+2022,1,NFL Week 1,1,7,Hunter Gatherer,124.66,L,"5-9-0, 6th in West Division",1,Drake @ London O2,143.4
+2022,1,NFL Week 1,2,5,Team Goff Balls,120.36,W,"7-7-0, 2nd in East Division",12,Team Ryan,93.3
+2022,1,NFL Week 1,2,12,Team Ryan,93.3,L,"7-7-0, 4th in East Division",5,Team Goff Balls,120.36
+2022,1,NFL Week 1,3,8,Rex On Rex,104.52,L,"7-7-0, 3rd in East Division",6,Diggs In a Blanket,113.82
+2022,1,NFL Week 1,3,6,Diggs In a Blanket,113.82,W,"5-9-0, 6th in East Division",8,Rex On Rex,104.52
+2022,1,NFL Week 1,4,2,Allen Wrenches,132.88,W,"9-5-0, 1st in East Division",3,THE 🅱️AKE SHOW,91
+2022,1,NFL Week 1,4,3,THE 🅱️AKE SHOW,91,L,"6-8-0, 5th in East Division",2,Allen Wrenches,132.88
+2022,1,NFL Week 1,5,11,THE EMPIRE DID NOTHING WRONG!1,112.38,L,"9-5-0, 1st in West Division",10,Juulio Jones,121.22
+2022,1,NFL Week 1,5,10,Juulio Jones,121.22,W,"6-8-0, 5th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,112.38
+2022,1,NFL Week 1,6,9,Team Seattle,92.9,L,"7-7-0, 3rd in West Division",4,Violence Of The Lambs,100.42
+2022,1,NFL Week 1,6,4,Violence Of The Lambs,100.42,W,"9-5-0, 2nd in West Division",9,Team Seattle,92.9
+2022,2,NFL Week 2,1,1,Drake @ London O2,71.46,L,"7-7-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,103.3
+2022,2,NFL Week 2,1,11,THE EMPIRE DID NOTHING WRONG!1,103.3,W,"9-5-0, 1st in West Division",1,Drake @ London O2,71.46
+2022,2,NFL Week 2,2,8,Rex On Rex,135.42,W,"7-7-0, 3rd in East Division",5,Team Goff Balls,72.3
+2022,2,NFL Week 2,2,5,Team Goff Balls,72.3,L,"7-7-0, 2nd in East Division",8,Rex On Rex,135.42
+2022,2,NFL Week 2,3,12,Team Ryan,135.08,L,"7-7-0, 4th in East Division",2,Allen Wrenches,156.08
+2022,2,NFL Week 2,3,2,Allen Wrenches,156.08,W,"9-5-0, 1st in East Division",12,Team Ryan,135.08
+2022,2,NFL Week 2,4,6,Diggs In a Blanket,133.78,L,"5-9-0, 6th in East Division",3,THE 🅱️AKE SHOW,155.6
+2022,2,NFL Week 2,4,3,THE 🅱️AKE SHOW,155.6,W,"6-8-0, 5th in East Division",6,Diggs In a Blanket,133.78
+2022,2,NFL Week 2,5,10,Juulio Jones,102.92,W,"6-8-0, 5th in West Division",9,Team Seattle,69.5
+2022,2,NFL Week 2,5,9,Team Seattle,69.5,L,"7-7-0, 3rd in West Division",10,Juulio Jones,102.92
+2022,2,NFL Week 2,6,7,Hunter Gatherer,106.56,L,"5-9-0, 6th in West Division",4,Violence Of The Lambs,175.98
+2022,2,NFL Week 2,6,4,Violence Of The Lambs,175.98,W,"9-5-0, 2nd in West Division",7,Hunter Gatherer,106.56
+2022,3,NFL Week 3,1,4,Violence Of The Lambs,116.8,W,"9-5-0, 2nd in West Division",1,Drake @ London O2,114.96
+2022,3,NFL Week 3,1,1,Drake @ London O2,114.96,L,"7-7-0, 4th in West Division",4,Violence Of The Lambs,116.8
+2022,3,NFL Week 3,2,5,Team Goff Balls,78.84,L,"7-7-0, 2nd in East Division",2,Allen Wrenches,120.8
+2022,3,NFL Week 3,2,2,Allen Wrenches,120.8,W,"9-5-0, 1st in East Division",5,Team Goff Balls,78.84
+2022,3,NFL Week 3,3,3,THE 🅱️AKE SHOW,116.48,L,"6-8-0, 5th in East Division",8,Rex On Rex,123.32
+2022,3,NFL Week 3,3,8,Rex On Rex,123.32,W,"7-7-0, 3rd in East Division",3,THE 🅱️AKE SHOW,116.48
+2022,3,NFL Week 3,4,6,Diggs In a Blanket,107.36,W,"5-9-0, 6th in East Division",12,Team Ryan,99.76
+2022,3,NFL Week 3,4,12,Team Ryan,99.76,L,"7-7-0, 4th in East Division",6,Diggs In a Blanket,107.36
+2022,3,NFL Week 3,5,11,THE EMPIRE DID NOTHING WRONG!1,110.14,W,"9-5-0, 1st in West Division",9,Team Seattle,91.78
+2022,3,NFL Week 3,5,9,Team Seattle,91.78,L,"7-7-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,110.14
+2022,3,NFL Week 3,6,7,Hunter Gatherer,114.58,W,"5-9-0, 6th in West Division",10,Juulio Jones,94.2
+2022,3,NFL Week 3,6,10,Juulio Jones,94.2,L,"6-8-0, 5th in West Division",7,Hunter Gatherer,114.58
+2022,4,NFL Week 4,1,1,Drake @ London O2,132.08,W,"7-7-0, 4th in West Division",10,Juulio Jones,86.56
+2022,4,NFL Week 4,1,10,Juulio Jones,86.56,L,"6-8-0, 5th in West Division",1,Drake @ London O2,132.08
+2022,4,NFL Week 4,2,3,THE 🅱️AKE SHOW,129.06,W,"6-8-0, 5th in East Division",5,Team Goff Balls,118.7
+2022,4,NFL Week 4,2,5,Team Goff Balls,118.7,L,"7-7-0, 2nd in East Division",3,THE 🅱️AKE SHOW,129.06
+2022,4,NFL Week 4,3,2,Allen Wrenches,141.42,W,"9-5-0, 1st in East Division",6,Diggs In a Blanket,100.98
+2022,4,NFL Week 4,3,6,Diggs In a Blanket,100.98,L,"5-9-0, 6th in East Division",2,Allen Wrenches,141.42
+2022,4,NFL Week 4,4,8,Rex On Rex,116.76,L,"7-7-0, 3rd in East Division",12,Team Ryan,123.14
+2022,4,NFL Week 4,4,12,Team Ryan,123.14,W,"7-7-0, 4th in East Division",8,Rex On Rex,116.76
+2022,4,NFL Week 4,5,4,Violence Of The Lambs,132.98,L,"9-5-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,138.9
+2022,4,NFL Week 4,5,11,THE EMPIRE DID NOTHING WRONG!1,138.9,W,"9-5-0, 1st in West Division",4,Violence Of The Lambs,132.98
+2022,4,NFL Week 4,6,9,Team Seattle,164.16,W,"7-7-0, 3rd in West Division",7,Hunter Gatherer,121.7
+2022,4,NFL Week 4,6,7,Hunter Gatherer,121.7,L,"5-9-0, 6th in West Division",9,Team Seattle,164.16
+2022,5,NFL Week 5,1,1,Drake @ London O2,89.56,L,"7-7-0, 4th in West Division",9,Team Seattle,120.98
+2022,5,NFL Week 5,1,9,Team Seattle,120.98,W,"7-7-0, 3rd in West Division",1,Drake @ London O2,89.56
+2022,5,NFL Week 5,2,5,Team Goff Balls,141.36,W,"7-7-0, 2nd in East Division",6,Diggs In a Blanket,138.2
+2022,5,NFL Week 5,2,6,Diggs In a Blanket,138.2,L,"5-9-0, 6th in East Division",5,Team Goff Balls,141.36
+2022,5,NFL Week 5,3,12,Team Ryan,153.88,W,"7-7-0, 4th in East Division",3,THE 🅱️AKE SHOW,93.34
+2022,5,NFL Week 5,3,3,THE 🅱️AKE SHOW,93.34,L,"6-8-0, 5th in East Division",12,Team Ryan,153.88
+2022,5,NFL Week 5,4,8,Rex On Rex,134.46,W,"7-7-0, 3rd in East Division",2,Allen Wrenches,102.16
+2022,5,NFL Week 5,4,2,Allen Wrenches,102.16,L,"9-5-0, 1st in East Division",8,Rex On Rex,134.46
+2022,5,NFL Week 5,5,11,THE EMPIRE DID NOTHING WRONG!1,132.14,W,"9-5-0, 1st in West Division",7,Hunter Gatherer,104.52
+2022,5,NFL Week 5,5,7,Hunter Gatherer,104.52,L,"5-9-0, 6th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,132.14
+2022,5,NFL Week 5,6,10,Juulio Jones,97.76,L,"6-8-0, 5th in West Division",4,Violence Of The Lambs,118.88
+2022,5,NFL Week 5,6,4,Violence Of The Lambs,118.88,W,"9-5-0, 2nd in West Division",10,Juulio Jones,97.76
+2022,6,NFL Week 6,1,1,Drake @ London O2,138.32,W,"7-7-0, 4th in West Division",8,Rex On Rex,122.9
+2022,6,NFL Week 6,1,8,Rex On Rex,122.9,L,"7-7-0, 3rd in East Division",1,Drake @ London O2,138.32
+2022,6,NFL Week 6,2,11,THE EMPIRE DID NOTHING WRONG!1,109.32,W,"9-5-0, 1st in West Division",5,Team Goff Balls,95.48
+2022,6,NFL Week 6,2,5,Team Goff Balls,95.48,L,"7-7-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,109.32
+2022,6,NFL Week 6,3,10,Juulio Jones,74.3,L,"6-8-0, 5th in West Division",12,Team Ryan,97.62
+2022,6,NFL Week 6,3,12,Team Ryan,97.62,W,"7-7-0, 4th in East Division",10,Juulio Jones,74.3
+2022,6,NFL Week 6,4,9,Team Seattle,80.12,L,"7-7-0, 3rd in West Division",2,Allen Wrenches,93.86
+2022,6,NFL Week 6,4,2,Allen Wrenches,93.86,W,"9-5-0, 1st in East Division",9,Team Seattle,80.12
+2022,6,NFL Week 6,5,4,Violence Of The Lambs,101.84,L,"9-5-0, 2nd in West Division",3,THE 🅱️AKE SHOW,116.5
+2022,6,NFL Week 6,5,3,THE 🅱️AKE SHOW,116.5,W,"6-8-0, 5th in East Division",4,Violence Of The Lambs,101.84
+2022,6,NFL Week 6,6,7,Hunter Gatherer,117.12,W,"5-9-0, 6th in West Division",6,Diggs In a Blanket,113.98
+2022,6,NFL Week 6,6,6,Diggs In a Blanket,113.98,L,"5-9-0, 6th in East Division",7,Hunter Gatherer,117.12
+2022,7,NFL Week 7,1,2,Allen Wrenches,106.52,L,"9-5-0, 1st in East Division",1,Drake @ London O2,125.86
+2022,7,NFL Week 7,1,1,Drake @ London O2,125.86,W,"7-7-0, 4th in West Division",2,Allen Wrenches,106.52
+2022,7,NFL Week 7,2,12,Team Ryan,92.76,L,"7-7-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,117.2
+2022,7,NFL Week 7,2,11,THE EMPIRE DID NOTHING WRONG!1,117.2,W,"9-5-0, 1st in West Division",12,Team Ryan,92.76
+2022,7,NFL Week 7,3,8,Rex On Rex,110,L,"7-7-0, 3rd in East Division",10,Juulio Jones,111.44
+2022,7,NFL Week 7,3,10,Juulio Jones,111.44,W,"6-8-0, 5th in West Division",8,Rex On Rex,110
+2022,7,NFL Week 7,4,3,THE 🅱️AKE SHOW,110.2,W,"6-8-0, 5th in East Division",9,Team Seattle,83.72
+2022,7,NFL Week 7,4,9,Team Seattle,83.72,L,"7-7-0, 3rd in West Division",3,THE 🅱️AKE SHOW,110.2
+2022,7,NFL Week 7,5,6,Diggs In a Blanket,113.16,L,"5-9-0, 6th in East Division",4,Violence Of The Lambs,153.64
+2022,7,NFL Week 7,5,4,Violence Of The Lambs,153.64,W,"9-5-0, 2nd in West Division",6,Diggs In a Blanket,113.16
+2022,7,NFL Week 7,6,5,Team Goff Balls,111.6,W,"7-7-0, 2nd in East Division",7,Hunter Gatherer,101.12
+2022,7,NFL Week 7,6,7,Hunter Gatherer,101.12,L,"5-9-0, 6th in West Division",5,Team Goff Balls,111.6
+2022,8,NFL Week 8,1,1,Drake @ London O2,153.22,W,"7-7-0, 4th in West Division",3,THE 🅱️AKE SHOW,138.48
+2022,8,NFL Week 8,1,3,THE 🅱️AKE SHOW,138.48,L,"6-8-0, 5th in East Division",1,Drake @ London O2,153.22
+2022,8,NFL Week 8,2,11,THE EMPIRE DID NOTHING WRONG!1,101.16,L,"9-5-0, 1st in West Division",8,Rex On Rex,136.02
+2022,8,NFL Week 8,2,8,Rex On Rex,136.02,W,"7-7-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,101.16
+2022,8,NFL Week 8,3,10,Juulio Jones,124.1,L,"6-8-0, 5th in West Division",2,Allen Wrenches,134.82
+2022,8,NFL Week 8,3,2,Allen Wrenches,134.82,W,"9-5-0, 1st in East Division",10,Juulio Jones,124.1
+2022,8,NFL Week 8,4,9,Team Seattle,134.06,L,"7-7-0, 3rd in West Division",6,Diggs In a Blanket,164.74
+2022,8,NFL Week 8,4,6,Diggs In a Blanket,164.74,W,"5-9-0, 6th in East Division",9,Team Seattle,134.06
+2022,8,NFL Week 8,5,4,Violence Of The Lambs,106.38,L,"9-5-0, 2nd in West Division",5,Team Goff Balls,155.66
+2022,8,NFL Week 8,5,5,Team Goff Balls,155.66,W,"7-7-0, 2nd in East Division",4,Violence Of The Lambs,106.38
+2022,8,NFL Week 8,6,7,Hunter Gatherer,72.34,L,"5-9-0, 6th in West Division",12,Team Ryan,97.88
+2022,8,NFL Week 8,6,12,Team Ryan,97.88,W,"7-7-0, 4th in East Division",7,Hunter Gatherer,72.34
+2022,9,NFL Week 9,1,6,Diggs In a Blanket,125.2,W,"5-9-0, 6th in East Division",1,Drake @ London O2,87.06
+2022,9,NFL Week 9,1,1,Drake @ London O2,87.06,L,"7-7-0, 4th in West Division",6,Diggs In a Blanket,125.2
+2022,9,NFL Week 9,2,2,Allen Wrenches,126.7,W,"9-5-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,97.6
+2022,9,NFL Week 9,2,11,THE EMPIRE DID NOTHING WRONG!1,97.6,L,"9-5-0, 1st in West Division",2,Allen Wrenches,126.7
+2022,9,NFL Week 9,3,3,THE 🅱️AKE SHOW,70.5,L,"6-8-0, 5th in East Division",10,Juulio Jones,130.42
+2022,9,NFL Week 9,3,10,Juulio Jones,130.42,W,"6-8-0, 5th in West Division",3,THE 🅱️AKE SHOW,70.5
+2022,9,NFL Week 9,4,5,Team Goff Balls,105.5,L,"7-7-0, 2nd in East Division",9,Team Seattle,114.84
+2022,9,NFL Week 9,4,9,Team Seattle,114.84,W,"7-7-0, 3rd in West Division",5,Team Goff Balls,105.5
+2022,9,NFL Week 9,5,12,Team Ryan,137.44,W,"7-7-0, 4th in East Division",4,Violence Of The Lambs,105.64
+2022,9,NFL Week 9,5,4,Violence Of The Lambs,105.64,L,"9-5-0, 2nd in West Division",12,Team Ryan,137.44
+2022,9,NFL Week 9,6,8,Rex On Rex,106.12,W,"7-7-0, 3rd in East Division",7,Hunter Gatherer,93.4
+2022,9,NFL Week 9,6,7,Hunter Gatherer,93.4,L,"5-9-0, 6th in West Division",8,Rex On Rex,106.12
+2022,10,NFL Week 10,1,1,Drake @ London O2,75.04,L,"7-7-0, 4th in West Division",5,Team Goff Balls,151.98
+2022,10,NFL Week 10,1,5,Team Goff Balls,151.98,W,"7-7-0, 2nd in East Division",1,Drake @ London O2,75.04
+2022,10,NFL Week 10,2,11,THE EMPIRE DID NOTHING WRONG!1,112.92,W,"9-5-0, 1st in West Division",3,THE 🅱️AKE SHOW,79.86
+2022,10,NFL Week 10,2,3,THE 🅱️AKE SHOW,79.86,L,"6-8-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,112.92
+2022,10,NFL Week 10,3,10,Juulio Jones,93,L,"6-8-0, 5th in West Division",6,Diggs In a Blanket,104.58
+2022,10,NFL Week 10,3,6,Diggs In a Blanket,104.58,W,"5-9-0, 6th in East Division",10,Juulio Jones,93
+2022,10,NFL Week 10,4,9,Team Seattle,126.64,L,"7-7-0, 3rd in West Division",12,Team Ryan,135.06
+2022,10,NFL Week 10,4,12,Team Ryan,135.06,W,"7-7-0, 4th in East Division",9,Team Seattle,126.64
+2022,10,NFL Week 10,5,4,Violence Of The Lambs,151.88,W,"9-5-0, 2nd in West Division",8,Rex On Rex,105.5
+2022,10,NFL Week 10,5,8,Rex On Rex,105.5,L,"7-7-0, 3rd in East Division",4,Violence Of The Lambs,151.88
+2022,10,NFL Week 10,6,7,Hunter Gatherer,76.84,L,"5-9-0, 6th in West Division",2,Allen Wrenches,85.4
+2022,10,NFL Week 10,6,2,Allen Wrenches,85.4,W,"9-5-0, 1st in East Division",7,Hunter Gatherer,76.84
+2022,11,NFL Week 11,1,12,Team Ryan,89.98,L,"7-7-0, 4th in East Division",1,Drake @ London O2,120.94
+2022,11,NFL Week 11,1,1,Drake @ London O2,120.94,W,"7-7-0, 4th in West Division",12,Team Ryan,89.98
+2022,11,NFL Week 11,2,6,Diggs In a Blanket,109.9,L,"5-9-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,147.82
+2022,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,147.82,W,"9-5-0, 1st in West Division",6,Diggs In a Blanket,109.9
+2022,11,NFL Week 11,3,5,Team Goff Balls,117.42,W,"7-7-0, 2nd in East Division",10,Juulio Jones,53
+2022,11,NFL Week 11,3,10,Juulio Jones,53,L,"6-8-0, 5th in West Division",5,Team Goff Balls,117.42
+2022,11,NFL Week 11,4,8,Rex On Rex,109.16,L,"7-7-0, 3rd in East Division",9,Team Seattle,142.52
+2022,11,NFL Week 11,4,9,Team Seattle,142.52,W,"7-7-0, 3rd in West Division",8,Rex On Rex,109.16
+2022,11,NFL Week 11,5,2,Allen Wrenches,75.58,L,"9-5-0, 1st in East Division",4,Violence Of The Lambs,120.5
+2022,11,NFL Week 11,5,4,Violence Of The Lambs,120.5,W,"9-5-0, 2nd in West Division",2,Allen Wrenches,75.58
+2022,11,NFL Week 11,6,3,THE 🅱️AKE SHOW,104.6,W,"6-8-0, 5th in East Division",7,Hunter Gatherer,82.9
+2022,11,NFL Week 11,6,7,Hunter Gatherer,82.9,L,"5-9-0, 6th in West Division",3,THE 🅱️AKE SHOW,104.6
+2022,12,NFL Week 12,1,8,Rex On Rex,119.96,W,"7-7-0, 3rd in East Division",1,Drake @ London O2,93.46
+2022,12,NFL Week 12,1,1,Drake @ London O2,93.46,L,"7-7-0, 4th in West Division",8,Rex On Rex,119.96
+2022,12,NFL Week 12,2,5,Team Goff Balls,121.86,L,"7-7-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,153.44
+2022,12,NFL Week 12,2,11,THE EMPIRE DID NOTHING WRONG!1,153.44,W,"9-5-0, 1st in West Division",5,Team Goff Balls,121.86
+2022,12,NFL Week 12,3,12,Team Ryan,103.1,L,"7-7-0, 4th in East Division",10,Juulio Jones,124.22
+2022,12,NFL Week 12,3,10,Juulio Jones,124.22,W,"6-8-0, 5th in West Division",12,Team Ryan,103.1
+2022,12,NFL Week 12,4,2,Allen Wrenches,97.22,L,"9-5-0, 1st in East Division",9,Team Seattle,113
+2022,12,NFL Week 12,4,9,Team Seattle,113,W,"7-7-0, 3rd in West Division",2,Allen Wrenches,97.22
+2022,12,NFL Week 12,5,3,THE 🅱️AKE SHOW,114.04,L,"6-8-0, 5th in East Division",4,Violence Of The Lambs,128.2
+2022,12,NFL Week 12,5,4,Violence Of The Lambs,128.2,W,"9-5-0, 2nd in West Division",3,THE 🅱️AKE SHOW,114.04
+2022,12,NFL Week 12,6,6,Diggs In a Blanket,100.74,L,"5-9-0, 6th in East Division",7,Hunter Gatherer,134.46
+2022,12,NFL Week 12,6,7,Hunter Gatherer,134.46,W,"5-9-0, 6th in West Division",6,Diggs In a Blanket,100.74
+2022,13,NFL Week 13,1,1,Drake @ London O2,123.28,W,"7-7-0, 4th in West Division",2,Allen Wrenches,76.72
+2022,13,NFL Week 13,1,2,Allen Wrenches,76.72,L,"9-5-0, 1st in East Division",1,Drake @ London O2,123.28
+2022,13,NFL Week 13,2,11,THE EMPIRE DID NOTHING WRONG!1,76.34,L,"9-5-0, 1st in West Division",12,Team Ryan,138.98
+2022,13,NFL Week 13,2,12,Team Ryan,138.98,W,"7-7-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,76.34
+2022,13,NFL Week 13,3,10,Juulio Jones,119.5,W,"6-8-0, 5th in West Division",8,Rex On Rex,96.74
+2022,13,NFL Week 13,3,8,Rex On Rex,96.74,L,"7-7-0, 3rd in East Division",10,Juulio Jones,119.5
+2022,13,NFL Week 13,4,9,Team Seattle,126.02,W,"7-7-0, 3rd in West Division",3,THE 🅱️AKE SHOW,120.66
+2022,13,NFL Week 13,4,3,THE 🅱️AKE SHOW,120.66,L,"6-8-0, 5th in East Division",9,Team Seattle,126.02
+2022,13,NFL Week 13,5,4,Violence Of The Lambs,126.94,W,"9-5-0, 2nd in West Division",6,Diggs In a Blanket,113.02
+2022,13,NFL Week 13,5,6,Diggs In a Blanket,113.02,L,"5-9-0, 6th in East Division",4,Violence Of The Lambs,126.94
+2022,13,NFL Week 13,6,7,Hunter Gatherer,107,W,"5-9-0, 6th in West Division",5,Team Goff Balls,102.36
+2022,13,NFL Week 13,6,5,Team Goff Balls,102.36,L,"7-7-0, 2nd in East Division",7,Hunter Gatherer,107
+2022,14,NFL Week 14,1,3,THE 🅱️AKE SHOW,119.52,W,"6-8-0, 5th in East Division",1,Drake @ London O2,113.86
+2022,14,NFL Week 14,1,1,Drake @ London O2,113.86,L,"7-7-0, 4th in West Division",3,THE 🅱️AKE SHOW,119.52
+2022,14,NFL Week 14,2,8,Rex On Rex,84.12,W,"7-7-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,81.12
+2022,14,NFL Week 14,2,11,THE EMPIRE DID NOTHING WRONG!1,81.12,L,"9-5-0, 1st in West Division",8,Rex On Rex,84.12
+2022,14,NFL Week 14,3,2,Allen Wrenches,146.48,W,"9-5-0, 1st in East Division",10,Juulio Jones,89.38
+2022,14,NFL Week 14,3,10,Juulio Jones,89.38,L,"6-8-0, 5th in West Division",2,Allen Wrenches,146.48
+2022,14,NFL Week 14,4,6,Diggs In a Blanket,100.6,L,"5-9-0, 6th in East Division",9,Team Seattle,131.48
+2022,14,NFL Week 14,4,9,Team Seattle,131.48,W,"7-7-0, 3rd in West Division",6,Diggs In a Blanket,100.6
+2022,14,NFL Week 14,5,5,Team Goff Balls,136.66,W,"7-7-0, 2nd in East Division",4,Violence Of The Lambs,93.96
+2022,14,NFL Week 14,5,4,Violence Of The Lambs,93.96,L,"9-5-0, 2nd in West Division",5,Team Goff Balls,136.66
+2022,14,NFL Week 14,6,12,Team Ryan,99.2,L,"7-7-0, 4th in East Division",7,Hunter Gatherer,122.48
+2022,14,NFL Week 14,6,7,Hunter Gatherer,122.48,W,"5-9-0, 6th in West Division",12,Team Ryan,99.2
+2022,15,Playoff Round 1 (NFL Week 15),1,8,Rex On Rex,150.12,W,"7-7-0, 3rd in East Division",5,Team Goff Balls,124.18
+2022,15,Playoff Round 1 (NFL Week 15),1,5,Team Goff Balls,124.18,L,"7-7-0, 2nd in East Division",8,Rex On Rex,150.12
+2022,15,Playoff Round 1 (NFL Week 15),2,12,Team Ryan,95.06,L,"7-7-0, 4th in East Division",4,Violence Of The Lambs,115.9
+2022,15,Playoff Round 1 (NFL Week 15),2,4,Violence Of The Lambs,115.9,W,"9-5-0, 2nd in West Division",12,Team Ryan,95.06
+2022,15,Playoff Round 1 (NFL Week 15),3,1,Drake @ London O2,132.3,W,"7-7-0, 4th in West Division",9,Team Seattle,128.44
+2022,15,Playoff Round 1 (NFL Week 15),3,9,Team Seattle,128.44,L,"7-7-0, 3rd in West Division",1,Drake @ London O2,132.3
+2022,15,Playoff Round 1 (NFL Week 15),4,3,THE 🅱️AKE SHOW,124.32,W,"6-8-0, 5th in East Division",10,Juulio Jones,107.1
+2022,15,Playoff Round 1 (NFL Week 15),4,10,Juulio Jones,107.1,L,"6-8-0, 5th in West Division",3,THE 🅱️AKE SHOW,124.32
+2022,15,Playoff Round 1 (NFL Week 15),5,6,Diggs In a Blanket,131.2,W,"5-9-0, 6th in East Division",7,Hunter Gatherer,47.82
+2022,15,Playoff Round 1 (NFL Week 15),5,7,Hunter Gatherer,47.82,L,"5-9-0, 6th in West Division",6,Diggs In a Blanket,131.2
+2022,16,Playoff Round 2 (NFL Week 16),1,8,Rex On Rex,93.1,W,"7-7-0, 3rd in East Division",2,Allen Wrenches,71.28
+2022,16,Playoff Round 2 (NFL Week 16),1,2,Allen Wrenches,71.28,L,"9-5-0, 1st in East Division",8,Rex On Rex,93.1
+2022,16,Playoff Round 2 (NFL Week 16),2,4,Violence Of The Lambs,127.8,W,"9-5-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,100.14
+2022,16,Playoff Round 2 (NFL Week 16),2,11,THE EMPIRE DID NOTHING WRONG!1,100.14,L,"9-5-0, 1st in West Division",4,Violence Of The Lambs,127.8
+2022,16,Playoff Round 2 (NFL Week 16),3,12,Team Ryan,95.42,W,"7-7-0, 4th in East Division",5,Team Goff Balls,86.46
+2022,16,Playoff Round 2 (NFL Week 16),3,5,Team Goff Balls,86.46,L,"7-7-0, 2nd in East Division",12,Team Ryan,95.42
+2022,16,Playoff Round 2 (NFL Week 16),4,3,THE 🅱️AKE SHOW,129.66,L,"6-8-0, 5th in East Division",1,Drake @ London O2,148.36
+2022,16,Playoff Round 2 (NFL Week 16),4,1,Drake @ London O2,148.36,W,"7-7-0, 4th in West Division",3,THE 🅱️AKE SHOW,129.66
+2022,16,Playoff Round 2 (NFL Week 16),5,6,Diggs In a Blanket,93.96,L,"5-9-0, 6th in East Division",9,Team Seattle,163.36
+2022,16,Playoff Round 2 (NFL Week 16),5,9,Team Seattle,163.36,W,"7-7-0, 3rd in West Division",6,Diggs In a Blanket,93.96
+2022,16,Playoff Round 2 (NFL Week 16),6,7,Hunter Gatherer,81,W,"5-9-0, 6th in West Division",10,Juulio Jones,68.2
+2022,16,Playoff Round 2 (NFL Week 16),6,10,Juulio Jones,68.2,L,"6-8-0, 5th in West Division",7,Hunter Gatherer,81
+2022,17,Playoff Round 3 (NFL Week 17),1,8,Rex On Rex,75.36,L,"7-7-0, 3rd in East Division",4,Violence Of The Lambs,117.9
+2022,17,Playoff Round 3 (NFL Week 17),1,4,Violence Of The Lambs,117.9,W,"9-5-0, 2nd in West Division",8,Rex On Rex,75.36
+2022,17,Playoff Round 3 (NFL Week 17),2,11,THE EMPIRE DID NOTHING WRONG!1,137.18,W,"9-5-0, 1st in West Division",2,Allen Wrenches,57.5
+2022,17,Playoff Round 3 (NFL Week 17),2,2,Allen Wrenches,57.5,L,"9-5-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,137.18
+2022,17,Playoff Round 3 (NFL Week 17),3,12,Team Ryan,135.76,W,"7-7-0, 4th in East Division",5,Team Goff Balls,109.8
+2022,17,Playoff Round 3 (NFL Week 17),3,5,Team Goff Balls,109.8,L,"7-7-0, 2nd in East Division",12,Team Ryan,135.76
+2022,17,Playoff Round 3 (NFL Week 17),4,1,Drake @ London O2,109.88,W,"7-7-0, 4th in West Division",9,Team Seattle,97.42
+2022,17,Playoff Round 3 (NFL Week 17),4,9,Team Seattle,97.42,L,"7-7-0, 3rd in West Division",1,Drake @ London O2,109.88
+2022,17,Playoff Round 3 (NFL Week 17),5,7,Hunter Gatherer,68.78,L,"5-9-0, 6th in West Division",3,THE 🅱️AKE SHOW,97.58
+2022,17,Playoff Round 3 (NFL Week 17),5,3,THE 🅱️AKE SHOW,97.58,W,"6-8-0, 5th in East Division",7,Hunter Gatherer,68.78
+2022,17,Playoff Round 3 (NFL Week 17),6,6,Diggs In a Blanket,64.9,L,"5-9-0, 6th in East Division",10,Juulio Jones,101.2
+2022,17,Playoff Round 3 (NFL Week 17),6,10,Juulio Jones,101.2,W,"6-8-0, 5th in West Division",6,Diggs In a Blanket,64.9
+2023,1,NFL Week 1,1,1,Your Wildest Fantasy (Football),158.54,W,"9-5-0, 1st in West Division",7,Judge Jeudy,50.18
+2023,1,NFL Week 1,1,7,Judge Jeudy,50.18,L,"5-9-0, 4th in West Division",1,Your Wildest Fantasy (Football),158.54
+2023,1,NFL Week 1,2,5,Team Goff Balls,143.86,W,"7-7-0, 5th in East Division",12,Team Ryan,130.54
+2023,1,NFL Week 1,2,12,Team Ryan,130.54,L,"5-9-0, 6th in East Division",5,Team Goff Balls,143.86
+2023,1,NFL Week 1,3,8,Rex On Rex,91.84,L,"7-7-0, 4th in East Division",6,Bed Bath and Bijan,101.06
+2023,1,NFL Week 1,3,6,Bed Bath and Bijan,101.06,W,"10-4-0, 2nd in East Division",8,Rex On Rex,91.84
+2023,1,NFL Week 1,4,2,Hurts Rent a Carr,92.2,L,"8-6-0, 3rd in East Division",3,Team Rex,105.76
+2023,1,NFL Week 1,4,3,Team Rex,105.76,W,"10-4-0, 1st in East Division",2,Hurts Rent a Carr,92.2
+2023,1,NFL Week 1,5,11,THE EMPIRE DID NOTHING WRONG!1,104.84,L,"7-7-0, 3rd in West Division",10,Juulio Jones,117.48
+2023,1,NFL Week 1,5,10,Juulio Jones,117.48,W,"5-9-0, 5th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,104.84
+2023,1,NFL Week 1,6,9,The Adams Family,85.44,L,"4-10-0, 6th in West Division",4,The Ascension To Evan(s),88.32
+2023,1,NFL Week 1,6,4,The Ascension To Evan(s),88.32,W,"7-7-0, 2nd in West Division",9,The Adams Family,85.44
+2023,2,NFL Week 2,1,1,Your Wildest Fantasy (Football),95.44,L,"9-5-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,116.6
+2023,2,NFL Week 2,1,11,THE EMPIRE DID NOTHING WRONG!1,116.6,W,"7-7-0, 3rd in West Division",1,Your Wildest Fantasy (Football),95.44
+2023,2,NFL Week 2,2,8,Rex On Rex,104.14,L,"7-7-0, 4th in East Division",5,Team Goff Balls,112.4
+2023,2,NFL Week 2,2,5,Team Goff Balls,112.4,W,"7-7-0, 5th in East Division",8,Rex On Rex,104.14
+2023,2,NFL Week 2,3,12,Team Ryan,101.36,L,"5-9-0, 6th in East Division",2,Hurts Rent a Carr,149.32
+2023,2,NFL Week 2,3,2,Hurts Rent a Carr,149.32,W,"8-6-0, 3rd in East Division",12,Team Ryan,101.36
+2023,2,NFL Week 2,4,6,Bed Bath and Bijan,121.78,L,"10-4-0, 2nd in East Division",3,Team Rex,133.06
+2023,2,NFL Week 2,4,3,Team Rex,133.06,W,"10-4-0, 1st in East Division",6,Bed Bath and Bijan,121.78
+2023,2,NFL Week 2,5,10,Juulio Jones,92.2,L,"5-9-0, 5th in West Division",9,The Adams Family,121.66
+2023,2,NFL Week 2,5,9,The Adams Family,121.66,W,"4-10-0, 6th in West Division",10,Juulio Jones,92.2
+2023,2,NFL Week 2,6,7,Judge Jeudy,140.38,W,"5-9-0, 4th in West Division",4,The Ascension To Evan(s),130.84
+2023,2,NFL Week 2,6,4,The Ascension To Evan(s),130.84,L,"7-7-0, 2nd in West Division",7,Judge Jeudy,140.38
+2023,3,NFL Week 3,1,4,The Ascension To Evan(s),118.76,L,"7-7-0, 2nd in West Division",1,Your Wildest Fantasy (Football),127.86
+2023,3,NFL Week 3,1,1,Your Wildest Fantasy (Football),127.86,W,"9-5-0, 1st in West Division",4,The Ascension To Evan(s),118.76
+2023,3,NFL Week 3,2,5,Team Goff Balls,88.4,L,"7-7-0, 5th in East Division",2,Hurts Rent a Carr,131.88
+2023,3,NFL Week 3,2,2,Hurts Rent a Carr,131.88,W,"8-6-0, 3rd in East Division",5,Team Goff Balls,88.4
+2023,3,NFL Week 3,3,3,Team Rex,133.78,W,"10-4-0, 1st in East Division",8,Rex On Rex,109.36
+2023,3,NFL Week 3,3,8,Rex On Rex,109.36,L,"7-7-0, 4th in East Division",3,Team Rex,133.78
+2023,3,NFL Week 3,4,6,Bed Bath and Bijan,96.88,L,"10-4-0, 2nd in East Division",12,Team Ryan,154.22
+2023,3,NFL Week 3,4,12,Team Ryan,154.22,W,"5-9-0, 6th in East Division",6,Bed Bath and Bijan,96.88
+2023,3,NFL Week 3,5,11,THE EMPIRE DID NOTHING WRONG!1,110.68,L,"7-7-0, 3rd in West Division",9,The Adams Family,150.52
+2023,3,NFL Week 3,5,9,The Adams Family,150.52,W,"4-10-0, 6th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,110.68
+2023,3,NFL Week 3,6,7,Judge Jeudy,127.36,W,"5-9-0, 4th in West Division",10,Juulio Jones,80.76
+2023,3,NFL Week 3,6,10,Juulio Jones,80.76,L,"5-9-0, 5th in West Division",7,Judge Jeudy,127.36
+2023,4,NFL Week 4,1,1,Your Wildest Fantasy (Football),120.84,L,"9-5-0, 1st in West Division",10,Juulio Jones,125.48
+2023,4,NFL Week 4,1,10,Juulio Jones,125.48,W,"5-9-0, 5th in West Division",1,Your Wildest Fantasy (Football),120.84
+2023,4,NFL Week 4,2,3,Team Rex,127.96,L,"10-4-0, 1st in East Division",5,Team Goff Balls,135.28
+2023,4,NFL Week 4,2,5,Team Goff Balls,135.28,W,"7-7-0, 5th in East Division",3,Team Rex,127.96
+2023,4,NFL Week 4,3,2,Hurts Rent a Carr,115.16,L,"8-6-0, 3rd in East Division",6,Bed Bath and Bijan,143.94
+2023,4,NFL Week 4,3,6,Bed Bath and Bijan,143.94,W,"10-4-0, 2nd in East Division",2,Hurts Rent a Carr,115.16
+2023,4,NFL Week 4,4,8,Rex On Rex,130.72,W,"7-7-0, 4th in East Division",12,Team Ryan,90.18
+2023,4,NFL Week 4,4,12,Team Ryan,90.18,L,"5-9-0, 6th in East Division",8,Rex On Rex,130.72
+2023,4,NFL Week 4,5,4,The Ascension To Evan(s),100.82,L,"7-7-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,138.22
+2023,4,NFL Week 4,5,11,THE EMPIRE DID NOTHING WRONG!1,138.22,W,"7-7-0, 3rd in West Division",4,The Ascension To Evan(s),100.82
+2023,4,NFL Week 4,6,9,The Adams Family,108.3,L,"4-10-0, 6th in West Division",7,Judge Jeudy,111.4
+2023,4,NFL Week 4,6,7,Judge Jeudy,111.4,W,"5-9-0, 4th in West Division",9,The Adams Family,108.3
+2023,5,NFL Week 5,1,1,Your Wildest Fantasy (Football),138.36,W,"9-5-0, 1st in West Division",9,The Adams Family,136.76
+2023,5,NFL Week 5,1,9,The Adams Family,136.76,L,"4-10-0, 6th in West Division",1,Your Wildest Fantasy (Football),138.36
+2023,5,NFL Week 5,2,5,Team Goff Balls,107.02,L,"7-7-0, 5th in East Division",6,Bed Bath and Bijan,121.64
+2023,5,NFL Week 5,2,6,Bed Bath and Bijan,121.64,W,"10-4-0, 2nd in East Division",5,Team Goff Balls,107.02
+2023,5,NFL Week 5,3,12,Team Ryan,135.82,W,"5-9-0, 6th in East Division",3,Team Rex,98.76
+2023,5,NFL Week 5,3,3,Team Rex,98.76,L,"10-4-0, 1st in East Division",12,Team Ryan,135.82
+2023,5,NFL Week 5,4,8,Rex On Rex,162.58,W,"7-7-0, 4th in East Division",2,Hurts Rent a Carr,104.02
+2023,5,NFL Week 5,4,2,Hurts Rent a Carr,104.02,L,"8-6-0, 3rd in East Division",8,Rex On Rex,162.58
+2023,5,NFL Week 5,5,11,THE EMPIRE DID NOTHING WRONG!1,128.24,L,"7-7-0, 3rd in West Division",7,Judge Jeudy,152.18
+2023,5,NFL Week 5,5,7,Judge Jeudy,152.18,W,"5-9-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,128.24
+2023,5,NFL Week 5,6,10,Juulio Jones,74.64,W,"5-9-0, 5th in West Division",4,The Ascension To Evan(s),52.08
+2023,5,NFL Week 5,6,4,The Ascension To Evan(s),52.08,L,"7-7-0, 2nd in West Division",10,Juulio Jones,74.64
+2023,6,NFL Week 6,1,1,Your Wildest Fantasy (Football),135.76,W,"9-5-0, 1st in West Division",8,Rex On Rex,103.82
+2023,6,NFL Week 6,1,8,Rex On Rex,103.82,L,"7-7-0, 4th in East Division",1,Your Wildest Fantasy (Football),135.76
+2023,6,NFL Week 6,2,11,THE EMPIRE DID NOTHING WRONG!1,103.54,L,"7-7-0, 3rd in West Division",5,Team Goff Balls,125.78
+2023,6,NFL Week 6,2,5,Team Goff Balls,125.78,W,"7-7-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,103.54
+2023,6,NFL Week 6,3,10,Juulio Jones,98.4,W,"5-9-0, 5th in West Division",12,Team Ryan,96.68
+2023,6,NFL Week 6,3,12,Team Ryan,96.68,L,"5-9-0, 6th in East Division",10,Juulio Jones,98.4
+2023,6,NFL Week 6,4,9,The Adams Family,77.66,L,"4-10-0, 6th in West Division",2,Hurts Rent a Carr,112.5
+2023,6,NFL Week 6,4,2,Hurts Rent a Carr,112.5,W,"8-6-0, 3rd in East Division",9,The Adams Family,77.66
+2023,6,NFL Week 6,5,4,The Ascension To Evan(s),125.68,W,"7-7-0, 2nd in West Division",3,Team Rex,110.44
+2023,6,NFL Week 6,5,3,Team Rex,110.44,L,"10-4-0, 1st in East Division",4,The Ascension To Evan(s),125.68
+2023,6,NFL Week 6,6,7,Judge Jeudy,100.1,L,"5-9-0, 4th in West Division",6,Bed Bath and Bijan,121.02
+2023,6,NFL Week 6,6,6,Bed Bath and Bijan,121.02,W,"10-4-0, 2nd in East Division",7,Judge Jeudy,100.1
+2023,7,NFL Week 7,1,2,Hurts Rent a Carr,97.66,L,"8-6-0, 3rd in East Division",1,Your Wildest Fantasy (Football),125.26
+2023,7,NFL Week 7,1,1,Your Wildest Fantasy (Football),125.26,W,"9-5-0, 1st in West Division",2,Hurts Rent a Carr,97.66
+2023,7,NFL Week 7,2,12,Team Ryan,109.64,L,"5-9-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,117.86
+2023,7,NFL Week 7,2,11,THE EMPIRE DID NOTHING WRONG!1,117.86,W,"7-7-0, 3rd in West Division",12,Team Ryan,109.64
+2023,7,NFL Week 7,3,8,Rex On Rex,91.38,W,"7-7-0, 4th in East Division",10,Juulio Jones,70.1
+2023,7,NFL Week 7,3,10,Juulio Jones,70.1,L,"5-9-0, 5th in West Division",8,Rex On Rex,91.38
+2023,7,NFL Week 7,4,3,Team Rex,130.6,W,"10-4-0, 1st in East Division",9,The Adams Family,78.3
+2023,7,NFL Week 7,4,9,The Adams Family,78.3,L,"4-10-0, 6th in West Division",3,Team Rex,130.6
+2023,7,NFL Week 7,5,6,Bed Bath and Bijan,137.38,W,"10-4-0, 2nd in East Division",4,The Ascension To Evan(s),135.96
+2023,7,NFL Week 7,5,4,The Ascension To Evan(s),135.96,L,"7-7-0, 2nd in West Division",6,Bed Bath and Bijan,137.38
+2023,7,NFL Week 7,6,5,Team Goff Balls,99.56,L,"7-7-0, 5th in East Division",7,Judge Jeudy,101.56
+2023,7,NFL Week 7,6,7,Judge Jeudy,101.56,W,"5-9-0, 4th in West Division",5,Team Goff Balls,99.56
+2023,8,NFL Week 8,1,1,Your Wildest Fantasy (Football),137,L,"9-5-0, 1st in West Division",3,Team Rex,172.06
+2023,8,NFL Week 8,1,3,Team Rex,172.06,W,"10-4-0, 1st in East Division",1,Your Wildest Fantasy (Football),137
+2023,8,NFL Week 8,2,11,THE EMPIRE DID NOTHING WRONG!1,69.3,L,"7-7-0, 3rd in West Division",8,Rex On Rex,143.3
+2023,8,NFL Week 8,2,8,Rex On Rex,143.3,W,"7-7-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,69.3
+2023,8,NFL Week 8,3,10,Juulio Jones,108.3,L,"5-9-0, 5th in West Division",2,Hurts Rent a Carr,130.56
+2023,8,NFL Week 8,3,2,Hurts Rent a Carr,130.56,W,"8-6-0, 3rd in East Division",10,Juulio Jones,108.3
+2023,8,NFL Week 8,4,9,The Adams Family,101.86,L,"4-10-0, 6th in West Division",6,Bed Bath and Bijan,119.78
+2023,8,NFL Week 8,4,6,Bed Bath and Bijan,119.78,W,"10-4-0, 2nd in East Division",9,The Adams Family,101.86
+2023,8,NFL Week 8,5,4,The Ascension To Evan(s),107.46,L,"7-7-0, 2nd in West Division",5,Team Goff Balls,120.62
+2023,8,NFL Week 8,5,5,Team Goff Balls,120.62,W,"7-7-0, 5th in East Division",4,The Ascension To Evan(s),107.46
+2023,8,NFL Week 8,6,7,Judge Jeudy,103.22,L,"5-9-0, 4th in West Division",12,Team Ryan,133.46
+2023,8,NFL Week 8,6,12,Team Ryan,133.46,W,"5-9-0, 6th in East Division",7,Judge Jeudy,103.22
+2023,9,NFL Week 9,1,6,Bed Bath and Bijan,114.88,L,"10-4-0, 2nd in East Division",1,Your Wildest Fantasy (Football),135.62
+2023,9,NFL Week 9,1,1,Your Wildest Fantasy (Football),135.62,W,"9-5-0, 1st in West Division",6,Bed Bath and Bijan,114.88
+2023,9,NFL Week 9,2,2,Hurts Rent a Carr,104.78,W,"8-6-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,71.5
+2023,9,NFL Week 9,2,11,THE EMPIRE DID NOTHING WRONG!1,71.5,L,"7-7-0, 3rd in West Division",2,Hurts Rent a Carr,104.78
+2023,9,NFL Week 9,3,3,Team Rex,141.4,W,"10-4-0, 1st in East Division",10,Juulio Jones,91.66
+2023,9,NFL Week 9,3,10,Juulio Jones,91.66,L,"5-9-0, 5th in West Division",3,Team Rex,141.4
+2023,9,NFL Week 9,4,5,Team Goff Balls,103.94,L,"7-7-0, 5th in East Division",9,The Adams Family,107.82
+2023,9,NFL Week 9,4,9,The Adams Family,107.82,W,"4-10-0, 6th in West Division",5,Team Goff Balls,103.94
+2023,9,NFL Week 9,5,12,Team Ryan,80.82,L,"5-9-0, 6th in East Division",4,The Ascension To Evan(s),147.16
+2023,9,NFL Week 9,5,4,The Ascension To Evan(s),147.16,W,"7-7-0, 2nd in West Division",12,Team Ryan,80.82
+2023,9,NFL Week 9,6,8,Rex On Rex,103.2,W,"7-7-0, 4th in East Division",7,Judge Jeudy,71.42
+2023,9,NFL Week 9,6,7,Judge Jeudy,71.42,L,"5-9-0, 4th in West Division",8,Rex On Rex,103.2
+2023,10,NFL Week 10,1,1,Your Wildest Fantasy (Football),91.74,W,"9-5-0, 1st in West Division",5,Team Goff Balls,90.32
+2023,10,NFL Week 10,1,5,Team Goff Balls,90.32,L,"7-7-0, 5th in East Division",1,Your Wildest Fantasy (Football),91.74
+2023,10,NFL Week 10,2,11,THE EMPIRE DID NOTHING WRONG!1,108.02,L,"7-7-0, 3rd in West Division",3,Team Rex,146.98
+2023,10,NFL Week 10,2,3,Team Rex,146.98,W,"10-4-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,108.02
+2023,10,NFL Week 10,3,10,Juulio Jones,85.9,L,"5-9-0, 5th in West Division",6,Bed Bath and Bijan,115.92
+2023,10,NFL Week 10,3,6,Bed Bath and Bijan,115.92,W,"10-4-0, 2nd in East Division",10,Juulio Jones,85.9
+2023,10,NFL Week 10,4,9,The Adams Family,104.28,L,"4-10-0, 6th in West Division",12,Team Ryan,108.24
+2023,10,NFL Week 10,4,12,Team Ryan,108.24,W,"5-9-0, 6th in East Division",9,The Adams Family,104.28
+2023,10,NFL Week 10,5,4,The Ascension To Evan(s),149.16,W,"7-7-0, 2nd in West Division",8,Rex On Rex,137.42
+2023,10,NFL Week 10,5,8,Rex On Rex,137.42,L,"7-7-0, 4th in East Division",4,The Ascension To Evan(s),149.16
+2023,10,NFL Week 10,6,7,Judge Jeudy,94.98,L,"5-9-0, 4th in West Division",2,Hurts Rent a Carr,134.46
+2023,10,NFL Week 10,6,2,Hurts Rent a Carr,134.46,W,"8-6-0, 3rd in East Division",7,Judge Jeudy,94.98
+2023,11,NFL Week 11,1,12,Team Ryan,112,L,"5-9-0, 6th in East Division",1,Your Wildest Fantasy (Football),119.14
+2023,11,NFL Week 11,1,1,Your Wildest Fantasy (Football),119.14,W,"9-5-0, 1st in West Division",12,Team Ryan,112
+2023,11,NFL Week 11,2,6,Bed Bath and Bijan,115.56,L,"10-4-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,125.48
+2023,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,125.48,W,"7-7-0, 3rd in West Division",6,Bed Bath and Bijan,115.56
+2023,11,NFL Week 11,3,5,Team Goff Balls,117.9,W,"7-7-0, 5th in East Division",10,Juulio Jones,110.88
+2023,11,NFL Week 11,3,10,Juulio Jones,110.88,L,"5-9-0, 5th in West Division",5,Team Goff Balls,117.9
+2023,11,NFL Week 11,4,8,Rex On Rex,92.92,L,"7-7-0, 4th in East Division",9,The Adams Family,129.6
+2023,11,NFL Week 11,4,9,The Adams Family,129.6,W,"4-10-0, 6th in West Division",8,Rex On Rex,92.92
+2023,11,NFL Week 11,5,2,Hurts Rent a Carr,81.4,L,"8-6-0, 3rd in East Division",4,The Ascension To Evan(s),86.36
+2023,11,NFL Week 11,5,4,The Ascension To Evan(s),86.36,W,"7-7-0, 2nd in West Division",2,Hurts Rent a Carr,81.4
+2023,11,NFL Week 11,6,3,Team Rex,125.54,W,"10-4-0, 1st in East Division",7,Judge Jeudy,105.94
+2023,11,NFL Week 11,6,7,Judge Jeudy,105.94,L,"5-9-0, 4th in West Division",3,Team Rex,125.54
+2023,12,NFL Week 12,1,8,Rex On Rex,153.16,W,"7-7-0, 4th in East Division",1,Your Wildest Fantasy (Football),136.26
+2023,12,NFL Week 12,1,1,Your Wildest Fantasy (Football),136.26,L,"9-5-0, 1st in West Division",8,Rex On Rex,153.16
+2023,12,NFL Week 12,2,5,Team Goff Balls,104.28,L,"7-7-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,131.92
+2023,12,NFL Week 12,2,11,THE EMPIRE DID NOTHING WRONG!1,131.92,W,"7-7-0, 3rd in West Division",5,Team Goff Balls,104.28
+2023,12,NFL Week 12,3,12,Team Ryan,112.42,L,"5-9-0, 6th in East Division",10,Juulio Jones,113.76
+2023,12,NFL Week 12,3,10,Juulio Jones,113.76,W,"5-9-0, 5th in West Division",12,Team Ryan,112.42
+2023,12,NFL Week 12,4,2,Hurts Rent a Carr,119.2,W,"8-6-0, 3rd in East Division",9,The Adams Family,102.06
+2023,12,NFL Week 12,4,9,The Adams Family,102.06,L,"4-10-0, 6th in West Division",2,Hurts Rent a Carr,119.2
+2023,12,NFL Week 12,5,3,Team Rex,140.3,L,"10-4-0, 1st in East Division",4,The Ascension To Evan(s),161.14
+2023,12,NFL Week 12,5,4,The Ascension To Evan(s),161.14,W,"7-7-0, 2nd in West Division",3,Team Rex,140.3
+2023,12,NFL Week 12,6,6,Bed Bath and Bijan,148.78,W,"10-4-0, 2nd in East Division",7,Judge Jeudy,96.36
+2023,12,NFL Week 12,6,7,Judge Jeudy,96.36,L,"5-9-0, 4th in West Division",6,Bed Bath and Bijan,148.78
+2023,13,NFL Week 13,1,1,Your Wildest Fantasy (Football),109.06,W,"9-5-0, 1st in West Division",2,Hurts Rent a Carr,107.42
+2023,13,NFL Week 13,1,2,Hurts Rent a Carr,107.42,L,"8-6-0, 3rd in East Division",1,Your Wildest Fantasy (Football),109.06
+2023,13,NFL Week 13,2,11,THE EMPIRE DID NOTHING WRONG!1,170.2,W,"7-7-0, 3rd in West Division",12,Team Ryan,135.1
+2023,13,NFL Week 13,2,12,Team Ryan,135.1,L,"5-9-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,170.2
+2023,13,NFL Week 13,3,10,Juulio Jones,91.32,L,"5-9-0, 5th in West Division",8,Rex On Rex,128.88
+2023,13,NFL Week 13,3,8,Rex On Rex,128.88,W,"7-7-0, 4th in East Division",10,Juulio Jones,91.32
+2023,13,NFL Week 13,4,9,The Adams Family,66.8,L,"4-10-0, 6th in West Division",3,Team Rex,126.18
+2023,13,NFL Week 13,4,3,Team Rex,126.18,W,"10-4-0, 1st in East Division",9,The Adams Family,66.8
+2023,13,NFL Week 13,5,4,The Ascension To Evan(s),127.46,L,"7-7-0, 2nd in West Division",6,Bed Bath and Bijan,130.7
+2023,13,NFL Week 13,5,6,Bed Bath and Bijan,130.7,W,"10-4-0, 2nd in East Division",4,The Ascension To Evan(s),127.46
+2023,13,NFL Week 13,6,7,Judge Jeudy,94.14,L,"5-9-0, 4th in West Division",5,Team Goff Balls,117.78
+2023,13,NFL Week 13,6,5,Team Goff Balls,117.78,W,"7-7-0, 5th in East Division",7,Judge Jeudy,94.14
+2023,14,NFL Week 14,1,3,Team Rex,141,W,"10-4-0, 1st in East Division",1,Your Wildest Fantasy (Football),96.14
+2023,14,NFL Week 14,1,1,Your Wildest Fantasy (Football),96.14,L,"9-5-0, 1st in West Division",3,Team Rex,141
+2023,14,NFL Week 14,2,8,Rex On Rex,100.22,L,"7-7-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,134.54
+2023,14,NFL Week 14,2,11,THE EMPIRE DID NOTHING WRONG!1,134.54,W,"7-7-0, 3rd in West Division",8,Rex On Rex,100.22
+2023,14,NFL Week 14,3,2,Hurts Rent a Carr,112.48,W,"8-6-0, 3rd in East Division",10,Juulio Jones,104.4
+2023,14,NFL Week 14,3,10,Juulio Jones,104.4,L,"5-9-0, 5th in West Division",2,Hurts Rent a Carr,112.48
+2023,14,NFL Week 14,4,6,Bed Bath and Bijan,148.04,W,"10-4-0, 2nd in East Division",9,The Adams Family,88.62
+2023,14,NFL Week 14,4,9,The Adams Family,88.62,L,"4-10-0, 6th in West Division",6,Bed Bath and Bijan,148.04
+2023,14,NFL Week 14,5,5,Team Goff Balls,85.54,L,"7-7-0, 5th in East Division",4,The Ascension To Evan(s),130.74
+2023,14,NFL Week 14,5,4,The Ascension To Evan(s),130.74,W,"7-7-0, 2nd in West Division",5,Team Goff Balls,85.54
+2023,14,NFL Week 14,6,12,Team Ryan,127.1,W,"5-9-0, 6th in East Division",7,Judge Jeudy,126.36
+2023,14,NFL Week 14,6,7,Judge Jeudy,126.36,L,"5-9-0, 4th in West Division",12,Team Ryan,127.1
+2023,15,Playoff Round 1 (NFL Week 15),1,4,The Ascension To Evan(s),97.76,L,"7-7-0, 2nd in West Division",2,Hurts Rent a Carr,133.42
+2023,15,Playoff Round 1 (NFL Week 15),1,2,Hurts Rent a Carr,133.42,W,"8-6-0, 3rd in East Division",4,The Ascension To Evan(s),97.76
+2023,15,Playoff Round 1 (NFL Week 15),2,8,Rex On Rex,106.58,L,"7-7-0, 4th in East Division",6,Bed Bath and Bijan,106.64
+2023,15,Playoff Round 1 (NFL Week 15),2,6,Bed Bath and Bijan,106.64,W,"10-4-0, 2nd in East Division",8,Rex On Rex,106.58
+2023,15,Playoff Round 1 (NFL Week 15),3,5,Team Goff Balls,115.36,W,"7-7-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,81.7
+2023,15,Playoff Round 1 (NFL Week 15),3,11,THE EMPIRE DID NOTHING WRONG!1,81.7,L,"7-7-0, 3rd in West Division",5,Team Goff Balls,115.36
+2023,15,Playoff Round 1 (NFL Week 15),4,7,Judge Jeudy,96.92,W,"5-9-0, 4th in West Division",12,Team Ryan,85.26
+2023,15,Playoff Round 1 (NFL Week 15),4,12,Team Ryan,85.26,L,"5-9-0, 6th in East Division",7,Judge Jeudy,96.92
+2023,15,Playoff Round 1 (NFL Week 15),5,9,The Adams Family,89.16,L,"4-10-0, 6th in West Division",10,Juulio Jones,130.26
+2023,15,Playoff Round 1 (NFL Week 15),5,10,Juulio Jones,130.26,W,"5-9-0, 5th in West Division",9,The Adams Family,89.16
+2023,16,Playoff Round 2 (NFL Week 16),1,6,Bed Bath and Bijan,109.98,W,"10-4-0, 2nd in East Division",1,Your Wildest Fantasy (Football),76.52
+2023,16,Playoff Round 2 (NFL Week 16),1,1,Your Wildest Fantasy (Football),76.52,L,"9-5-0, 1st in West Division",6,Bed Bath and Bijan,109.98
+2023,16,Playoff Round 2 (NFL Week 16),2,2,Hurts Rent a Carr,141.24,W,"8-6-0, 3rd in East Division",3,Team Rex,101.9
+2023,16,Playoff Round 2 (NFL Week 16),2,3,Team Rex,101.9,L,"10-4-0, 1st in East Division",2,Hurts Rent a Carr,141.24
+2023,16,Playoff Round 2 (NFL Week 16),3,8,Rex On Rex,103.9,L,"7-7-0, 4th in East Division",4,The Ascension To Evan(s),122.52
+2023,16,Playoff Round 2 (NFL Week 16),3,4,The Ascension To Evan(s),122.52,W,"7-7-0, 2nd in West Division",8,Rex On Rex,103.9
+2023,16,Playoff Round 2 (NFL Week 16),4,7,Judge Jeudy,142.12,W,"5-9-0, 4th in West Division",5,Team Goff Balls,61.06
+2023,16,Playoff Round 2 (NFL Week 16),4,5,Team Goff Balls,61.06,L,"7-7-0, 5th in East Division",7,Judge Jeudy,142.12
+2023,16,Playoff Round 2 (NFL Week 16),5,10,Juulio Jones,144.52,L,"5-9-0, 5th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,156.8
+2023,16,Playoff Round 2 (NFL Week 16),5,11,THE EMPIRE DID NOTHING WRONG!1,156.8,W,"7-7-0, 3rd in West Division",10,Juulio Jones,144.52
+2023,16,Playoff Round 2 (NFL Week 16),6,9,The Adams Family,93.68,L,"4-10-0, 6th in West Division",12,Team Ryan,149.12
+2023,16,Playoff Round 2 (NFL Week 16),6,12,Team Ryan,149.12,W,"5-9-0, 6th in East Division",9,The Adams Family,93.68
+2023,17,Playoff Round 3 (NFL Week 17),1,2,Hurts Rent a Carr,99.48,L,"8-6-0, 3rd in East Division",6,Bed Bath and Bijan,179.04
+2023,17,Playoff Round 3 (NFL Week 17),1,6,Bed Bath and Bijan,179.04,W,"10-4-0, 2nd in East Division",2,Hurts Rent a Carr,99.48
+2023,17,Playoff Round 3 (NFL Week 17),2,1,Your Wildest Fantasy (Football),112.28,W,"9-5-0, 1st in West Division",3,Team Rex,88.28
+2023,17,Playoff Round 3 (NFL Week 17),2,3,Team Rex,88.28,L,"10-4-0, 1st in East Division",1,Your Wildest Fantasy (Football),112.28
+2023,17,Playoff Round 3 (NFL Week 17),3,8,Rex On Rex,119.7,W,"7-7-0, 4th in East Division",4,The Ascension To Evan(s),105.9
+2023,17,Playoff Round 3 (NFL Week 17),3,4,The Ascension To Evan(s),105.9,L,"7-7-0, 2nd in West Division",8,Rex On Rex,119.7
+2023,17,Playoff Round 3 (NFL Week 17),4,7,Judge Jeudy,96.1,L,"5-9-0, 4th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,111.5
+2023,17,Playoff Round 3 (NFL Week 17),4,11,THE EMPIRE DID NOTHING WRONG!1,111.5,W,"7-7-0, 3rd in West Division",7,Judge Jeudy,96.1
+2023,17,Playoff Round 3 (NFL Week 17),5,12,Team Ryan,99.56,L,"5-9-0, 6th in East Division",5,Team Goff Balls,147.14
+2023,17,Playoff Round 3 (NFL Week 17),5,5,Team Goff Balls,147.14,W,"7-7-0, 5th in East Division",12,Team Ryan,99.56
+2023,17,Playoff Round 3 (NFL Week 17),6,9,The Adams Family,110.76,L,"4-10-0, 6th in West Division",10,Juulio Jones,117.78
+2023,17,Playoff Round 3 (NFL Week 17),6,10,Juulio Jones,117.78,W,"5-9-0, 5th in West Division",9,The Adams Family,110.76
+2024,1,NFL Week 1,1,1,DK's Adventures,130.32,W,"7-7-0, 2nd in West Division",7,LaPorta John,110.56
+2024,1,NFL Week 1,1,7,LaPorta John,110.56,L,"6-8-0, 3rd in West Division",1,DK's Adventures,130.32
+2024,1,NFL Week 1,2,5,Goff Balls,103.22,L,"9-5-0, 2nd in East Division",12,Wet Willies,105.9
+2024,1,NFL Week 1,2,12,Wet Willies,105.9,W,"7-7-0, 5th in East Division",5,Goff Balls,103.22
+2024,1,NFL Week 1,3,8,Rex On Rex,134.06,W,"8-6-0, 3rd in East Division",6,Pulled McCaff,108.14
+2024,1,NFL Week 1,3,6,Pulled McCaff,108.14,L,"10-4-0, 1st in East Division",8,Rex On Rex,134.06
+2024,1,NFL Week 1,4,2,Moore Than A. Thielen,137.38,W,"6-8-0, 6th in East Division",3,Team Rex,79.46
+2024,1,NFL Week 1,4,3,Team Rex,79.46,L,"8-6-0, 4th in East Division",2,Moore Than A. Thielen,137.38
+2024,1,NFL Week 1,5,11,THE EMPIRE DID NOTHING WRONG!1,112.54,L,"5-9-0, 4th in West Division",10,Juulio Jones,140.48
+2024,1,NFL Week 1,5,10,Juulio Jones,140.48,W,"8-6-0, 1st in West Division",11,THE EMPIRE DID NOTHING WRONG!1,112.54
+2024,1,NFL Week 1,6,9,Phresh Meat,84.66,L,"5-9-0, 5th in West Division",4,Hall of Heroes,122.88
+2024,1,NFL Week 1,6,4,Hall of Heroes,122.88,W,"5-9-0, 6th in West Division",9,Phresh Meat,84.66
+2024,2,NFL Week 2,1,1,DK's Adventures,113.38,L,"7-7-0, 2nd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,130.34
+2024,2,NFL Week 2,1,11,THE EMPIRE DID NOTHING WRONG!1,130.34,W,"5-9-0, 4th in West Division",1,DK's Adventures,113.38
+2024,2,NFL Week 2,2,8,Rex On Rex,164.5,W,"8-6-0, 3rd in East Division",5,Goff Balls,112.92
+2024,2,NFL Week 2,2,5,Goff Balls,112.92,L,"9-5-0, 2nd in East Division",8,Rex On Rex,164.5
+2024,2,NFL Week 2,3,12,Wet Willies,119.88,W,"7-7-0, 5th in East Division",2,Moore Than A. Thielen,105.46
+2024,2,NFL Week 2,3,2,Moore Than A. Thielen,105.46,L,"6-8-0, 6th in East Division",12,Wet Willies,119.88
+2024,2,NFL Week 2,4,6,Pulled McCaff,121.26,L,"10-4-0, 1st in East Division",3,Team Rex,124.24
+2024,2,NFL Week 2,4,3,Team Rex,124.24,W,"8-6-0, 4th in East Division",6,Pulled McCaff,121.26
+2024,2,NFL Week 2,5,10,Juulio Jones,115.76,W,"8-6-0, 1st in West Division",9,Phresh Meat,88.34
+2024,2,NFL Week 2,5,9,Phresh Meat,88.34,L,"5-9-0, 5th in West Division",10,Juulio Jones,115.76
+2024,2,NFL Week 2,6,7,LaPorta John,88.82,L,"6-8-0, 3rd in West Division",4,Hall of Heroes,154.44
+2024,2,NFL Week 2,6,4,Hall of Heroes,154.44,W,"5-9-0, 6th in West Division",7,LaPorta John,88.82
+2024,3,NFL Week 3,1,4,Hall of Heroes,89.28,L,"5-9-0, 6th in West Division",1,DK's Adventures,124.58
+2024,3,NFL Week 3,1,1,DK's Adventures,124.58,W,"7-7-0, 2nd in West Division",4,Hall of Heroes,89.28
+2024,3,NFL Week 3,2,5,Goff Balls,133.24,W,"9-5-0, 2nd in East Division",2,Moore Than A. Thielen,109.32
+2024,3,NFL Week 3,2,2,Moore Than A. Thielen,109.32,L,"6-8-0, 6th in East Division",5,Goff Balls,133.24
+2024,3,NFL Week 3,3,3,Team Rex,90.96,W,"8-6-0, 4th in East Division",8,Rex On Rex,76.4
+2024,3,NFL Week 3,3,8,Rex On Rex,76.4,L,"8-6-0, 3rd in East Division",3,Team Rex,90.96
+2024,3,NFL Week 3,4,6,Pulled McCaff,132.28,W,"10-4-0, 1st in East Division",12,Wet Willies,56.16
+2024,3,NFL Week 3,4,12,Wet Willies,56.16,L,"7-7-0, 5th in East Division",6,Pulled McCaff,132.28
+2024,3,NFL Week 3,5,11,THE EMPIRE DID NOTHING WRONG!1,141.18,L,"5-9-0, 4th in West Division",9,Phresh Meat,153.16
+2024,3,NFL Week 3,5,9,Phresh Meat,153.16,W,"5-9-0, 5th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,141.18
+2024,3,NFL Week 3,6,7,LaPorta John,83.56,L,"6-8-0, 3rd in West Division",10,Juulio Jones,140.68
+2024,3,NFL Week 3,6,10,Juulio Jones,140.68,W,"8-6-0, 1st in West Division",7,LaPorta John,83.56
+2024,4,NFL Week 4,1,1,DK's Adventures,127.04,W,"7-7-0, 2nd in West Division",10,Juulio Jones,101.7
+2024,4,NFL Week 4,1,10,Juulio Jones,101.7,L,"8-6-0, 1st in West Division",1,DK's Adventures,127.04
+2024,4,NFL Week 4,2,3,Team Rex,94.12,L,"8-6-0, 4th in East Division",5,Goff Balls,118.52
+2024,4,NFL Week 4,2,5,Goff Balls,118.52,W,"9-5-0, 2nd in East Division",3,Team Rex,94.12
+2024,4,NFL Week 4,3,2,Moore Than A. Thielen,86.3,L,"6-8-0, 6th in East Division",6,Pulled McCaff,132.82
+2024,4,NFL Week 4,3,6,Pulled McCaff,132.82,W,"10-4-0, 1st in East Division",2,Moore Than A. Thielen,86.3
+2024,4,NFL Week 4,4,8,Rex On Rex,142,W,"8-6-0, 3rd in East Division",12,Wet Willies,115.78
+2024,4,NFL Week 4,4,12,Wet Willies,115.78,L,"7-7-0, 5th in East Division",8,Rex On Rex,142
+2024,4,NFL Week 4,5,4,Hall of Heroes,94.18,L,"5-9-0, 6th in West Division",11,THE EMPIRE DID NOTHING WRONG!1,140.18
+2024,4,NFL Week 4,5,11,THE EMPIRE DID NOTHING WRONG!1,140.18,W,"5-9-0, 4th in West Division",4,Hall of Heroes,94.18
+2024,4,NFL Week 4,6,9,Phresh Meat,130.04,W,"5-9-0, 5th in West Division",7,LaPorta John,125.38
+2024,4,NFL Week 4,6,7,LaPorta John,125.38,L,"6-8-0, 3rd in West Division",9,Phresh Meat,130.04
+2024,5,NFL Week 5,1,1,DK's Adventures,114.62,L,"7-7-0, 2nd in West Division",9,Phresh Meat,120.78
+2024,5,NFL Week 5,1,9,Phresh Meat,120.78,W,"5-9-0, 5th in West Division",1,DK's Adventures,114.62
+2024,5,NFL Week 5,2,5,Goff Balls,100.54,L,"9-5-0, 2nd in East Division",6,Pulled McCaff,115.46
+2024,5,NFL Week 5,2,6,Pulled McCaff,115.46,W,"10-4-0, 1st in East Division",5,Goff Balls,100.54
+2024,5,NFL Week 5,3,12,Wet Willies,101.84,L,"7-7-0, 5th in East Division",3,Team Rex,154.42
+2024,5,NFL Week 5,3,3,Team Rex,154.42,W,"8-6-0, 4th in East Division",12,Wet Willies,101.84
+2024,5,NFL Week 5,4,8,Rex On Rex,134.74,L,"8-6-0, 3rd in East Division",2,Moore Than A. Thielen,140.04
+2024,5,NFL Week 5,4,2,Moore Than A. Thielen,140.04,W,"6-8-0, 6th in East Division",8,Rex On Rex,134.74
+2024,5,NFL Week 5,5,11,THE EMPIRE DID NOTHING WRONG!1,129.34,L,"5-9-0, 4th in West Division",7,LaPorta John,131.48
+2024,5,NFL Week 5,5,7,LaPorta John,131.48,W,"6-8-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,129.34
+2024,5,NFL Week 5,6,10,Juulio Jones,100.76,L,"8-6-0, 1st in West Division",4,Hall of Heroes,118.1
+2024,5,NFL Week 5,6,4,Hall of Heroes,118.1,W,"5-9-0, 6th in West Division",10,Juulio Jones,100.76
+2024,6,NFL Week 6,1,1,DK's Adventures,88.72,L,"7-7-0, 2nd in West Division",8,Rex On Rex,106.98
+2024,6,NFL Week 6,1,8,Rex On Rex,106.98,W,"8-6-0, 3rd in East Division",1,DK's Adventures,88.72
+2024,6,NFL Week 6,2,11,THE EMPIRE DID NOTHING WRONG!1,156.7,W,"5-9-0, 4th in West Division",5,Goff Balls,117.86
+2024,6,NFL Week 6,2,5,Goff Balls,117.86,L,"9-5-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,156.7
+2024,6,NFL Week 6,3,10,Juulio Jones,71.7,L,"8-6-0, 1st in West Division",12,Wet Willies,117.6
+2024,6,NFL Week 6,3,12,Wet Willies,117.6,W,"7-7-0, 5th in East Division",10,Juulio Jones,71.7
+2024,6,NFL Week 6,4,9,Phresh Meat,87.02,L,"5-9-0, 5th in West Division",2,Moore Than A. Thielen,129.1
+2024,6,NFL Week 6,4,2,Moore Than A. Thielen,129.1,W,"6-8-0, 6th in East Division",9,Phresh Meat,87.02
+2024,6,NFL Week 6,5,4,Hall of Heroes,141.66,W,"5-9-0, 6th in West Division",3,Team Rex,115.36
+2024,6,NFL Week 6,5,3,Team Rex,115.36,L,"8-6-0, 4th in East Division",4,Hall of Heroes,141.66
+2024,6,NFL Week 6,6,7,LaPorta John,145.02,W,"6-8-0, 3rd in West Division",6,Pulled McCaff,117.9
+2024,6,NFL Week 6,6,6,Pulled McCaff,117.9,L,"10-4-0, 1st in East Division",7,LaPorta John,145.02
+2024,7,NFL Week 7,1,2,Moore Than A. Thielen,93.72,L,"6-8-0, 6th in East Division",1,DK's Adventures,136.84
+2024,7,NFL Week 7,1,1,DK's Adventures,136.84,W,"7-7-0, 2nd in West Division",2,Moore Than A. Thielen,93.72
+2024,7,NFL Week 7,2,12,Wet Willies,128,W,"7-7-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,106.46
+2024,7,NFL Week 7,2,11,THE EMPIRE DID NOTHING WRONG!1,106.46,L,"5-9-0, 4th in West Division",12,Wet Willies,128
+2024,7,NFL Week 7,3,8,Rex On Rex,91.54,L,"8-6-0, 3rd in East Division",10,Juulio Jones,103.36
+2024,7,NFL Week 7,3,10,Juulio Jones,103.36,W,"8-6-0, 1st in West Division",8,Rex On Rex,91.54
+2024,7,NFL Week 7,4,3,Team Rex,120.24,W,"8-6-0, 4th in East Division",9,Phresh Meat,95.88
+2024,7,NFL Week 7,4,9,Phresh Meat,95.88,L,"5-9-0, 5th in West Division",3,Team Rex,120.24
+2024,7,NFL Week 7,5,6,Pulled McCaff,96.98,W,"10-4-0, 1st in East Division",4,Hall of Heroes,85.2
+2024,7,NFL Week 7,5,4,Hall of Heroes,85.2,L,"5-9-0, 6th in West Division",6,Pulled McCaff,96.98
+2024,7,NFL Week 7,6,5,Goff Balls,123.46,W,"9-5-0, 2nd in East Division",7,LaPorta John,110.44
+2024,7,NFL Week 7,6,7,LaPorta John,110.44,L,"6-8-0, 3rd in West Division",5,Goff Balls,123.46
+2024,8,NFL Week 8,1,1,DK's Adventures,106.46,L,"7-7-0, 2nd in West Division",3,Team Rex,131.04
+2024,8,NFL Week 8,1,3,Team Rex,131.04,W,"8-6-0, 4th in East Division",1,DK's Adventures,106.46
+2024,8,NFL Week 8,2,11,THE EMPIRE DID NOTHING WRONG!1,137.86,W,"5-9-0, 4th in West Division",8,Rex On Rex,116.3
+2024,8,NFL Week 8,2,8,Rex On Rex,116.3,L,"8-6-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,137.86
+2024,8,NFL Week 8,3,10,Juulio Jones,128.66,W,"8-6-0, 1st in West Division",2,Moore Than A. Thielen,125.22
+2024,8,NFL Week 8,3,2,Moore Than A. Thielen,125.22,L,"6-8-0, 6th in East Division",10,Juulio Jones,128.66
+2024,8,NFL Week 8,4,9,Phresh Meat,103.72,L,"5-9-0, 5th in West Division",6,Pulled McCaff,128.22
+2024,8,NFL Week 8,4,6,Pulled McCaff,128.22,W,"10-4-0, 1st in East Division",9,Phresh Meat,103.72
+2024,8,NFL Week 8,5,4,Hall of Heroes,118.24,L,"5-9-0, 6th in West Division",5,Goff Balls,130.04
+2024,8,NFL Week 8,5,5,Goff Balls,130.04,W,"9-5-0, 2nd in East Division",4,Hall of Heroes,118.24
+2024,8,NFL Week 8,6,7,LaPorta John,133.06,W,"6-8-0, 3rd in West Division",12,Wet Willies,129.44
+2024,8,NFL Week 8,6,12,Wet Willies,129.44,L,"7-7-0, 5th in East Division",7,LaPorta John,133.06
+2024,9,NFL Week 9,1,6,Pulled McCaff,111.62,L,"10-4-0, 1st in East Division",1,DK's Adventures,114.9
+2024,9,NFL Week 9,1,1,DK's Adventures,114.9,W,"7-7-0, 2nd in West Division",6,Pulled McCaff,111.62
+2024,9,NFL Week 9,2,2,Moore Than A. Thielen,98.1,L,"6-8-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,139.84
+2024,9,NFL Week 9,2,11,THE EMPIRE DID NOTHING WRONG!1,139.84,W,"5-9-0, 4th in West Division",2,Moore Than A. Thielen,98.1
+2024,9,NFL Week 9,3,3,Team Rex,108.66,L,"8-6-0, 4th in East Division",10,Juulio Jones,126.82
+2024,9,NFL Week 9,3,10,Juulio Jones,126.82,W,"8-6-0, 1st in West Division",3,Team Rex,108.66
+2024,9,NFL Week 9,4,5,Goff Balls,120.7,W,"9-5-0, 2nd in East Division",9,Phresh Meat,83.72
+2024,9,NFL Week 9,4,9,Phresh Meat,83.72,L,"5-9-0, 5th in West Division",5,Goff Balls,120.7
+2024,9,NFL Week 9,5,12,Wet Willies,95.52,L,"7-7-0, 5th in East Division",4,Hall of Heroes,128.56
+2024,9,NFL Week 9,5,4,Hall of Heroes,128.56,W,"5-9-0, 6th in West Division",12,Wet Willies,95.52
+2024,9,NFL Week 9,6,8,Rex On Rex,107.22,L,"8-6-0, 3rd in East Division",7,LaPorta John,144.94
+2024,9,NFL Week 9,6,7,LaPorta John,144.94,W,"6-8-0, 3rd in West Division",8,Rex On Rex,107.22
+2024,10,NFL Week 10,1,1,DK's Adventures,105.5,L,"7-7-0, 2nd in West Division",5,Goff Balls,109.78
+2024,10,NFL Week 10,1,5,Goff Balls,109.78,W,"9-5-0, 2nd in East Division",1,DK's Adventures,105.5
+2024,10,NFL Week 10,2,11,THE EMPIRE DID NOTHING WRONG!1,107.64,L,"5-9-0, 4th in West Division",3,Team Rex,116.38
+2024,10,NFL Week 10,2,3,Team Rex,116.38,W,"8-6-0, 4th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,107.64
+2024,10,NFL Week 10,3,10,Juulio Jones,80.34,L,"8-6-0, 1st in West Division",6,Pulled McCaff,117.52
+2024,10,NFL Week 10,3,6,Pulled McCaff,117.52,W,"10-4-0, 1st in East Division",10,Juulio Jones,80.34
+2024,10,NFL Week 10,4,9,Phresh Meat,150.8,W,"5-9-0, 5th in West Division",12,Wet Willies,111.46
+2024,10,NFL Week 10,4,12,Wet Willies,111.46,L,"7-7-0, 5th in East Division",9,Phresh Meat,150.8
+2024,10,NFL Week 10,5,4,Hall of Heroes,93.34,L,"5-9-0, 6th in West Division",8,Rex On Rex,100.98
+2024,10,NFL Week 10,5,8,Rex On Rex,100.98,W,"8-6-0, 3rd in East Division",4,Hall of Heroes,93.34
+2024,10,NFL Week 10,6,7,LaPorta John,134.42,W,"6-8-0, 3rd in West Division",2,Moore Than A. Thielen,112.4
+2024,10,NFL Week 10,6,2,Moore Than A. Thielen,112.4,L,"6-8-0, 6th in East Division",7,LaPorta John,134.42
+2024,11,NFL Week 11,1,12,Wet Willies,129.24,W,"7-7-0, 5th in East Division",1,DK's Adventures,125.48
+2024,11,NFL Week 11,1,1,DK's Adventures,125.48,L,"7-7-0, 2nd in West Division",12,Wet Willies,129.24
+2024,11,NFL Week 11,2,6,Pulled McCaff,153.58,W,"10-4-0, 1st in East Division",11,THE EMPIRE DID NOTHING WRONG!1,92.64
+2024,11,NFL Week 11,2,11,THE EMPIRE DID NOTHING WRONG!1,92.64,L,"5-9-0, 4th in West Division",6,Pulled McCaff,153.58
+2024,11,NFL Week 11,3,5,Goff Balls,114.74,L,"9-5-0, 2nd in East Division",10,Juulio Jones,142.28
+2024,11,NFL Week 11,3,10,Juulio Jones,142.28,W,"8-6-0, 1st in West Division",5,Goff Balls,114.74
+2024,11,NFL Week 11,4,8,Rex On Rex,104.08,L,"8-6-0, 3rd in East Division",9,Phresh Meat,110.02
+2024,11,NFL Week 11,4,9,Phresh Meat,110.02,W,"5-9-0, 5th in West Division",8,Rex On Rex,104.08
+2024,11,NFL Week 11,5,2,Moore Than A. Thielen,147.88,W,"6-8-0, 6th in East Division",4,Hall of Heroes,119.08
+2024,11,NFL Week 11,5,4,Hall of Heroes,119.08,L,"5-9-0, 6th in West Division",2,Moore Than A. Thielen,147.88
+2024,11,NFL Week 11,6,3,Team Rex,113.54,L,"8-6-0, 4th in East Division",7,LaPorta John,132.34
+2024,11,NFL Week 11,6,7,LaPorta John,132.34,W,"6-8-0, 3rd in West Division",3,Team Rex,113.54
+2024,12,NFL Week 12,1,8,Rex On Rex,97.58,W,"8-6-0, 3rd in East Division",1,DK's Adventures,87.88
+2024,12,NFL Week 12,1,1,DK's Adventures,87.88,L,"7-7-0, 2nd in West Division",8,Rex On Rex,97.58
+2024,12,NFL Week 12,2,5,Goff Balls,154.16,W,"9-5-0, 2nd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,129.56
+2024,12,NFL Week 12,2,11,THE EMPIRE DID NOTHING WRONG!1,129.56,L,"5-9-0, 4th in West Division",5,Goff Balls,154.16
+2024,12,NFL Week 12,3,12,Wet Willies,117.82,L,"7-7-0, 5th in East Division",10,Juulio Jones,121.02
+2024,12,NFL Week 12,3,10,Juulio Jones,121.02,W,"8-6-0, 1st in West Division",12,Wet Willies,117.82
+2024,12,NFL Week 12,4,2,Moore Than A. Thielen,111.58,W,"6-8-0, 6th in East Division",9,Phresh Meat,95.26
+2024,12,NFL Week 12,4,9,Phresh Meat,95.26,L,"5-9-0, 5th in West Division",2,Moore Than A. Thielen,111.58
+2024,12,NFL Week 12,5,3,Team Rex,103.7,W,"8-6-0, 4th in East Division",4,Hall of Heroes,91.6
+2024,12,NFL Week 12,5,4,Hall of Heroes,91.6,L,"5-9-0, 6th in West Division",3,Team Rex,103.7
+2024,12,NFL Week 12,6,6,Pulled McCaff,136.52,W,"10-4-0, 1st in East Division",7,LaPorta John,120.86
+2024,12,NFL Week 12,6,7,LaPorta John,120.86,L,"6-8-0, 3rd in West Division",6,Pulled McCaff,136.52
+2024,13,NFL Week 13,1,1,DK's Adventures,117.38,W,"7-7-0, 2nd in West Division",2,Moore Than A. Thielen,114.92
+2024,13,NFL Week 13,1,2,Moore Than A. Thielen,114.92,L,"6-8-0, 6th in East Division",1,DK's Adventures,117.38
+2024,13,NFL Week 13,2,11,THE EMPIRE DID NOTHING WRONG!1,107.14,L,"5-9-0, 4th in West Division",12,Wet Willies,154.86
+2024,13,NFL Week 13,2,12,Wet Willies,154.86,W,"7-7-0, 5th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,107.14
+2024,13,NFL Week 13,3,10,Juulio Jones,110.36,L,"8-6-0, 1st in West Division",8,Rex On Rex,114.58
+2024,13,NFL Week 13,3,8,Rex On Rex,114.58,W,"8-6-0, 3rd in East Division",10,Juulio Jones,110.36
+2024,13,NFL Week 13,4,9,Phresh Meat,126.04,L,"5-9-0, 5th in West Division",3,Team Rex,129.44
+2024,13,NFL Week 13,4,3,Team Rex,129.44,W,"8-6-0, 4th in East Division",9,Phresh Meat,126.04
+2024,13,NFL Week 13,5,4,Hall of Heroes,105.66,L,"5-9-0, 6th in West Division",6,Pulled McCaff,121.66
+2024,13,NFL Week 13,5,6,Pulled McCaff,121.66,W,"10-4-0, 1st in East Division",4,Hall of Heroes,105.66
+2024,13,NFL Week 13,6,7,LaPorta John,96.46,L,"6-8-0, 3rd in West Division",5,Goff Balls,143.92
+2024,13,NFL Week 13,6,5,Goff Balls,143.92,W,"9-5-0, 2nd in East Division",7,LaPorta John,96.46
+2024,14,NFL Week 14,1,3,Team Rex,123.82,L,"8-6-0, 4th in East Division",1,DK's Adventures,148.28
+2024,14,NFL Week 14,1,1,DK's Adventures,148.28,W,"7-7-0, 2nd in West Division",3,Team Rex,123.82
+2024,14,NFL Week 14,2,8,Rex On Rex,120.82,W,"8-6-0, 3rd in East Division",11,THE EMPIRE DID NOTHING WRONG!1,110.7
+2024,14,NFL Week 14,2,11,THE EMPIRE DID NOTHING WRONG!1,110.7,L,"5-9-0, 4th in West Division",8,Rex On Rex,120.82
+2024,14,NFL Week 14,3,2,Moore Than A. Thielen,173.38,W,"6-8-0, 6th in East Division",10,Juulio Jones,96.58
+2024,14,NFL Week 14,3,10,Juulio Jones,96.58,L,"8-6-0, 1st in West Division",2,Moore Than A. Thielen,173.38
+2024,14,NFL Week 14,4,6,Pulled McCaff,128.6,W,"10-4-0, 1st in East Division",9,Phresh Meat,101.36
+2024,14,NFL Week 14,4,9,Phresh Meat,101.36,L,"5-9-0, 5th in West Division",6,Pulled McCaff,128.6
+2024,14,NFL Week 14,5,5,Goff Balls,120.32,W,"9-5-0, 2nd in East Division",4,Hall of Heroes,67.36
+2024,14,NFL Week 14,5,4,Hall of Heroes,67.36,L,"5-9-0, 6th in West Division",5,Goff Balls,120.32
+2024,14,NFL Week 14,6,12,Wet Willies,144.94,W,"7-7-0, 5th in East Division",7,LaPorta John,136.36
+2024,14,NFL Week 14,6,7,LaPorta John,136.36,L,"6-8-0, 3rd in West Division",12,Wet Willies,144.94
+2024,15,Playoff Round 1 (NFL Week 15),1,1,DK's Adventures,112.4,L,"7-7-0, 2nd in West Division",5,Goff Balls,129.1
+2024,15,Playoff Round 1 (NFL Week 15),1,5,Goff Balls,129.1,W,"9-5-0, 2nd in East Division",1,DK's Adventures,112.4
+2024,15,Playoff Round 1 (NFL Week 15),2,3,Team Rex,162.54,W,"8-6-0, 4th in East Division",8,Rex On Rex,113.76
+2024,15,Playoff Round 1 (NFL Week 15),2,8,Rex On Rex,113.76,L,"8-6-0, 3rd in East Division",3,Team Rex,162.54
+2024,15,Playoff Round 1 (NFL Week 15),3,7,LaPorta John,124.74,W,"6-8-0, 3rd in West Division",12,Wet Willies,116.86
+2024,15,Playoff Round 1 (NFL Week 15),3,12,Wet Willies,116.86,L,"7-7-0, 5th in East Division",7,LaPorta John,124.74
+2024,15,Playoff Round 1 (NFL Week 15),4,11,THE EMPIRE DID NOTHING WRONG!1,140.26,W,"5-9-0, 4th in West Division",2,Moore Than A. Thielen,122.48
+2024,15,Playoff Round 1 (NFL Week 15),4,2,Moore Than A. Thielen,122.48,L,"6-8-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,140.26
+2024,15,Playoff Round 1 (NFL Week 15),5,4,Hall of Heroes,130.06,W,"5-9-0, 6th in West Division",9,Phresh Meat,78.3
+2024,15,Playoff Round 1 (NFL Week 15),5,9,Phresh Meat,78.3,L,"5-9-0, 5th in West Division",4,Hall of Heroes,130.06
+2024,16,Playoff Round 2 (NFL Week 16),1,3,Team Rex,152.22,W,"8-6-0, 4th in East Division",6,Pulled McCaff,102.62
+2024,16,Playoff Round 2 (NFL Week 16),1,6,Pulled McCaff,102.62,L,"10-4-0, 1st in East Division",3,Team Rex,152.22
+2024,16,Playoff Round 2 (NFL Week 16),2,5,Goff Balls,136.74,L,"9-5-0, 2nd in East Division",10,Juulio Jones,183.24
+2024,16,Playoff Round 2 (NFL Week 16),2,10,Juulio Jones,183.24,W,"8-6-0, 1st in West Division",5,Goff Balls,136.74
+2024,16,Playoff Round 2 (NFL Week 16),3,1,DK's Adventures,95.38,L,"7-7-0, 2nd in West Division",8,Rex On Rex,161.64
+2024,16,Playoff Round 2 (NFL Week 16),3,8,Rex On Rex,161.64,W,"8-6-0, 3rd in East Division",1,DK's Adventures,95.38
+2024,16,Playoff Round 2 (NFL Week 16),4,11,THE EMPIRE DID NOTHING WRONG!1,110.3,L,"5-9-0, 4th in West Division",7,LaPorta John,161.68
+2024,16,Playoff Round 2 (NFL Week 16),4,7,LaPorta John,161.68,W,"6-8-0, 3rd in West Division",11,THE EMPIRE DID NOTHING WRONG!1,110.3
+2024,16,Playoff Round 2 (NFL Week 16),5,4,Hall of Heroes,88.48,L,"5-9-0, 6th in West Division",12,Wet Willies,110.98
+2024,16,Playoff Round 2 (NFL Week 16),5,12,Wet Willies,110.98,W,"7-7-0, 5th in East Division",4,Hall of Heroes,88.48
+2024,16,Playoff Round 2 (NFL Week 16),6,9,Phresh Meat,92,L,"5-9-0, 5th in West Division",2,Moore Than A. Thielen,94.16
+2024,16,Playoff Round 2 (NFL Week 16),6,2,Moore Than A. Thielen,94.16,W,"6-8-0, 6th in East Division",9,Phresh Meat,92
+2024,17,Playoff Round 3 (NFL Week 17),1,3,Team Rex,132.98,L,"8-6-0, 4th in East Division",10,Juulio Jones,162.16
+2024,17,Playoff Round 3 (NFL Week 17),1,10,Juulio Jones,162.16,W,"8-6-0, 1st in West Division",3,Team Rex,132.98
+2024,17,Playoff Round 3 (NFL Week 17),2,1,DK's Adventures,107.42,L,"7-7-0, 2nd in West Division",8,Rex On Rex,121.38
+2024,17,Playoff Round 3 (NFL Week 17),2,8,Rex On Rex,121.38,W,"8-6-0, 3rd in East Division",1,DK's Adventures,107.42
+2024,17,Playoff Round 3 (NFL Week 17),3,5,Goff Balls,106.5,W,"9-5-0, 2nd in East Division",6,Pulled McCaff,105.68
+2024,17,Playoff Round 3 (NFL Week 17),3,6,Pulled McCaff,105.68,L,"10-4-0, 1st in East Division",5,Goff Balls,106.5
+2024,17,Playoff Round 3 (NFL Week 17),4,7,LaPorta John,128.38,W,"6-8-0, 3rd in West Division",12,Wet Willies,107.3
+2024,17,Playoff Round 3 (NFL Week 17),4,12,Wet Willies,107.3,L,"7-7-0, 5th in East Division",7,LaPorta John,128.38
+2024,17,Playoff Round 3 (NFL Week 17),5,11,THE EMPIRE DID NOTHING WRONG!1,129.1,W,"5-9-0, 4th in West Division",2,Moore Than A. Thielen,110.18
+2024,17,Playoff Round 3 (NFL Week 17),5,2,Moore Than A. Thielen,110.18,L,"6-8-0, 6th in East Division",11,THE EMPIRE DID NOTHING WRONG!1,129.1
+2024,17,Playoff Round 3 (NFL Week 17),6,4,Hall of Heroes,92.14,L,"5-9-0, 6th in West Division",9,Phresh Meat,146.5
+2024,17,Playoff Round 3 (NFL Week 17),6,9,Phresh Meat,146.5,W,"5-9-0, 5th in West Division",4,Hall of Heroes,92.14
+2025,1,NFL Week 1,1,1,Meet The Robinson's,83.88,L,"6-8-0, 4th in West Division",7,Kittle League,94.42
+2025,1,NFL Week 1,1,7,Kittle League,94.42,W,"6-8-0, 5th in West Division",1,Meet The Robinson's,83.88
+2025,1,NFL Week 1,2,5,Goff Balls,94.08,L,"6-8-0, 6th in East Division",12,Wet Willies,121.18
+2025,1,NFL Week 1,2,12,Wet Willies,121.18,W,"7-7-0, 4th in East Division",5,Goff Balls,94.08
+2025,1,NFL Week 1,3,8,Rex On Rex,139.86,W,"8-6-0, 2nd in East Division",6,OnlyFannins,103.26
+2025,1,NFL Week 1,3,6,OnlyFannins,103.26,L,"9-5-0, 1st in East Division",8,Rex On Rex,139.86
+2025,1,NFL Week 1,4,2,Eat The Boutte Like Groceries,115.72,W,"7-7-0, 3rd in East Division",3,Team Rex,100.12
+2025,1,NFL Week 1,4,3,Team Rex,100.12,L,"6-8-0, 5th in East Division",2,Eat The Boutte Like Groceries,115.72
+2025,1,NFL Week 1,5,11,Shayshawn Broccoli,93.08,W,"7-7-0, 3rd in West Division",10,Juulio Jones,84.14
+2025,1,NFL Week 1,5,10,Juulio Jones,84.14,L,"7-7-0, 2nd in West Division",11,Shayshawn Broccoli,93.08
+2025,1,NFL Week 1,6,9,Two-Point Conversion Therapy,119.62,L,"5-9-0, 6th in West Division",4,Pukana Matatas,135.02
+2025,1,NFL Week 1,6,4,Pukana Matatas,135.02,W,"10-4-0, 1st in West Division",9,Two-Point Conversion Therapy,119.62
+2025,2,NFL Week 2,1,1,Meet The Robinson's,104.06,L,"6-8-0, 4th in West Division",11,Shayshawn Broccoli,109.5
+2025,2,NFL Week 2,1,11,Shayshawn Broccoli,109.5,W,"7-7-0, 3rd in West Division",1,Meet The Robinson's,104.06
+2025,2,NFL Week 2,2,8,Rex On Rex,110.92,W,"8-6-0, 2nd in East Division",5,Goff Balls,94.14
+2025,2,NFL Week 2,2,5,Goff Balls,94.14,L,"6-8-0, 6th in East Division",8,Rex On Rex,110.92
+2025,2,NFL Week 2,3,12,Wet Willies,152,W,"7-7-0, 4th in East Division",2,Eat The Boutte Like Groceries,99.1
+2025,2,NFL Week 2,3,2,Eat The Boutte Like Groceries,99.1,L,"7-7-0, 3rd in East Division",12,Wet Willies,152
+2025,2,NFL Week 2,4,6,OnlyFannins,163.4,W,"9-5-0, 1st in East Division",3,Team Rex,128.68
+2025,2,NFL Week 2,4,3,Team Rex,128.68,L,"6-8-0, 5th in East Division",6,OnlyFannins,163.4
+2025,2,NFL Week 2,5,10,Juulio Jones,114.64,W,"7-7-0, 2nd in West Division",9,Two-Point Conversion Therapy,86.64
+2025,2,NFL Week 2,5,9,Two-Point Conversion Therapy,86.64,L,"5-9-0, 6th in West Division",10,Juulio Jones,114.64
+2025,2,NFL Week 2,6,7,Kittle League,137.2,W,"6-8-0, 5th in West Division",4,Pukana Matatas,133.08
+2025,2,NFL Week 2,6,4,Pukana Matatas,133.08,L,"10-4-0, 1st in West Division",7,Kittle League,137.2
+2025,3,NFL Week 3,1,4,Pukana Matatas,138.36,W,"10-4-0, 1st in West Division",1,Meet The Robinson's,101.78
+2025,3,NFL Week 3,1,1,Meet The Robinson's,101.78,L,"6-8-0, 4th in West Division",4,Pukana Matatas,138.36
+2025,3,NFL Week 3,2,5,Goff Balls,126.74,L,"6-8-0, 6th in East Division",2,Eat The Boutte Like Groceries,154.56
+2025,3,NFL Week 3,2,2,Eat The Boutte Like Groceries,154.56,W,"7-7-0, 3rd in East Division",5,Goff Balls,126.74
+2025,3,NFL Week 3,3,3,Team Rex,104.42,L,"6-8-0, 5th in East Division",8,Rex On Rex,109.02
+2025,3,NFL Week 3,3,8,Rex On Rex,109.02,W,"8-6-0, 2nd in East Division",3,Team Rex,104.42
+2025,3,NFL Week 3,4,6,OnlyFannins,124.72,L,"9-5-0, 1st in East Division",12,Wet Willies,134.62
+2025,3,NFL Week 3,4,12,Wet Willies,134.62,W,"7-7-0, 4th in East Division",6,OnlyFannins,124.72
+2025,3,NFL Week 3,5,11,Shayshawn Broccoli,143.62,W,"7-7-0, 3rd in West Division",9,Two-Point Conversion Therapy,102.12
+2025,3,NFL Week 3,5,9,Two-Point Conversion Therapy,102.12,L,"5-9-0, 6th in West Division",11,Shayshawn Broccoli,143.62
+2025,3,NFL Week 3,6,7,Kittle League,100.26,L,"6-8-0, 5th in West Division",10,Juulio Jones,125.22
+2025,3,NFL Week 3,6,10,Juulio Jones,125.22,W,"7-7-0, 2nd in West Division",7,Kittle League,100.26
+2025,4,NFL Week 4,1,1,Meet The Robinson's,121.12,W,"6-8-0, 4th in West Division",10,Juulio Jones,100.74
+2025,4,NFL Week 4,1,10,Juulio Jones,100.74,L,"7-7-0, 2nd in West Division",1,Meet The Robinson's,121.12
+2025,4,NFL Week 4,2,3,Team Rex,109.88,L,"6-8-0, 5th in East Division",5,Goff Balls,114.9
+2025,4,NFL Week 4,2,5,Goff Balls,114.9,W,"6-8-0, 6th in East Division",3,Team Rex,109.88
+2025,4,NFL Week 4,3,2,Eat The Boutte Like Groceries,113.68,L,"7-7-0, 3rd in East Division",6,OnlyFannins,124.98
+2025,4,NFL Week 4,3,6,OnlyFannins,124.98,W,"9-5-0, 1st in East Division",2,Eat The Boutte Like Groceries,113.68
+2025,4,NFL Week 4,4,8,Rex On Rex,130.16,L,"8-6-0, 2nd in East Division",12,Wet Willies,141.86
+2025,4,NFL Week 4,4,12,Wet Willies,141.86,W,"7-7-0, 4th in East Division",8,Rex On Rex,130.16
+2025,4,NFL Week 4,5,4,Pukana Matatas,161.4,W,"10-4-0, 1st in West Division",11,Shayshawn Broccoli,115.48
+2025,4,NFL Week 4,5,11,Shayshawn Broccoli,115.48,L,"7-7-0, 3rd in West Division",4,Pukana Matatas,161.4
+2025,4,NFL Week 4,6,9,Two-Point Conversion Therapy,119.28,W,"5-9-0, 6th in West Division",7,Kittle League,116.1
+2025,4,NFL Week 4,6,7,Kittle League,116.1,L,"6-8-0, 5th in West Division",9,Two-Point Conversion Therapy,119.28
+2025,5,NFL Week 5,1,1,Meet The Robinson's,113.82,L,"6-8-0, 4th in West Division",9,Two-Point Conversion Therapy,127.58
+2025,5,NFL Week 5,1,9,Two-Point Conversion Therapy,127.58,W,"5-9-0, 6th in West Division",1,Meet The Robinson's,113.82
+2025,5,NFL Week 5,2,5,Goff Balls,94.4,L,"6-8-0, 6th in East Division",6,OnlyFannins,104.18
+2025,5,NFL Week 5,2,6,OnlyFannins,104.18,W,"9-5-0, 1st in East Division",5,Goff Balls,94.4
+2025,5,NFL Week 5,3,12,Wet Willies,101.66,L,"7-7-0, 4th in East Division",3,Team Rex,112.82
+2025,5,NFL Week 5,3,3,Team Rex,112.82,W,"6-8-0, 5th in East Division",12,Wet Willies,101.66
+2025,5,NFL Week 5,4,8,Rex On Rex,97.22,L,"8-6-0, 2nd in East Division",2,Eat The Boutte Like Groceries,111.54
+2025,5,NFL Week 5,4,2,Eat The Boutte Like Groceries,111.54,W,"7-7-0, 3rd in East Division",8,Rex On Rex,97.22
+2025,5,NFL Week 5,5,11,Shayshawn Broccoli,109.34,L,"7-7-0, 3rd in West Division",7,Kittle League,138.3
+2025,5,NFL Week 5,5,7,Kittle League,138.3,W,"6-8-0, 5th in West Division",11,Shayshawn Broccoli,109.34
+2025,5,NFL Week 5,6,10,Juulio Jones,123.48,L,"7-7-0, 2nd in West Division",4,Pukana Matatas,170.52
+2025,5,NFL Week 5,6,4,Pukana Matatas,170.52,W,"10-4-0, 1st in West Division",10,Juulio Jones,123.48
+2025,6,NFL Week 6,1,1,Meet The Robinson's,144.52,W,"6-8-0, 4th in West Division",8,Rex On Rex,93.7
+2025,6,NFL Week 6,1,8,Rex On Rex,93.7,L,"8-6-0, 2nd in East Division",1,Meet The Robinson's,144.52
+2025,6,NFL Week 6,2,11,Shayshawn Broccoli,78.84,L,"7-7-0, 3rd in West Division",5,Goff Balls,103.42
+2025,6,NFL Week 6,2,5,Goff Balls,103.42,W,"6-8-0, 6th in East Division",11,Shayshawn Broccoli,78.84
+2025,6,NFL Week 6,3,10,Juulio Jones,105.46,W,"7-7-0, 2nd in West Division",12,Wet Willies,102.14
+2025,6,NFL Week 6,3,12,Wet Willies,102.14,L,"7-7-0, 4th in East Division",10,Juulio Jones,105.46
+2025,6,NFL Week 6,4,9,Two-Point Conversion Therapy,123.48,W,"5-9-0, 6th in West Division",2,Eat The Boutte Like Groceries,109.14
+2025,6,NFL Week 6,4,2,Eat The Boutte Like Groceries,109.14,L,"7-7-0, 3rd in East Division",9,Two-Point Conversion Therapy,123.48
+2025,6,NFL Week 6,5,4,Pukana Matatas,174.08,W,"10-4-0, 1st in West Division",3,Team Rex,120.66
+2025,6,NFL Week 6,5,3,Team Rex,120.66,L,"6-8-0, 5th in East Division",4,Pukana Matatas,174.08
+2025,6,NFL Week 6,6,7,Kittle League,90.16,L,"6-8-0, 5th in West Division",6,OnlyFannins,92.74
+2025,6,NFL Week 6,6,6,OnlyFannins,92.74,W,"9-5-0, 1st in East Division",7,Kittle League,90.16
+2025,7,NFL Week 7,1,2,Eat The Boutte Like Groceries,123.44,W,"7-7-0, 3rd in East Division",1,Meet The Robinson's,87.44
+2025,7,NFL Week 7,1,1,Meet The Robinson's,87.44,L,"6-8-0, 4th in West Division",2,Eat The Boutte Like Groceries,123.44
+2025,7,NFL Week 7,2,12,Wet Willies,85.72,L,"7-7-0, 4th in East Division",11,Shayshawn Broccoli,141.78
+2025,7,NFL Week 7,2,11,Shayshawn Broccoli,141.78,W,"7-7-0, 3rd in West Division",12,Wet Willies,85.72
+2025,7,NFL Week 7,3,8,Rex On Rex,100.52,L,"8-6-0, 2nd in East Division",10,Juulio Jones,115.86
+2025,7,NFL Week 7,3,10,Juulio Jones,115.86,W,"7-7-0, 2nd in West Division",8,Rex On Rex,100.52
+2025,7,NFL Week 7,4,3,Team Rex,139.06,W,"6-8-0, 5th in East Division",9,Two-Point Conversion Therapy,98.92
+2025,7,NFL Week 7,4,9,Two-Point Conversion Therapy,98.92,L,"5-9-0, 6th in West Division",3,Team Rex,139.06
+2025,7,NFL Week 7,5,6,OnlyFannins,159.38,L,"9-5-0, 1st in East Division",4,Pukana Matatas,160.64
+2025,7,NFL Week 7,5,4,Pukana Matatas,160.64,W,"10-4-0, 1st in West Division",6,OnlyFannins,159.38
+2025,7,NFL Week 7,6,5,Goff Balls,106.94,W,"6-8-0, 6th in East Division",7,Kittle League,67.1
+2025,7,NFL Week 7,6,7,Kittle League,67.1,L,"6-8-0, 5th in West Division",5,Goff Balls,106.94
+2025,8,NFL Week 8,1,1,Meet The Robinson's,121.88,L,"6-8-0, 4th in West Division",3,Team Rex,140.9
+2025,8,NFL Week 8,1,3,Team Rex,140.9,W,"6-8-0, 5th in East Division",1,Meet The Robinson's,121.88
+2025,8,NFL Week 8,2,11,Shayshawn Broccoli,85.78,L,"7-7-0, 3rd in West Division",8,Rex On Rex,117.02
+2025,8,NFL Week 8,2,8,Rex On Rex,117.02,W,"8-6-0, 2nd in East Division",11,Shayshawn Broccoli,85.78
+2025,8,NFL Week 8,3,10,Juulio Jones,137.58,W,"7-7-0, 2nd in West Division",2,Eat The Boutte Like Groceries,103.66
+2025,8,NFL Week 8,3,2,Eat The Boutte Like Groceries,103.66,L,"7-7-0, 3rd in East Division",10,Juulio Jones,137.58
+2025,8,NFL Week 8,4,9,Two-Point Conversion Therapy,81.48,L,"5-9-0, 6th in West Division",6,OnlyFannins,102.72
+2025,8,NFL Week 8,4,6,OnlyFannins,102.72,W,"9-5-0, 1st in East Division",9,Two-Point Conversion Therapy,81.48
+2025,8,NFL Week 8,5,4,Pukana Matatas,118.56,W,"10-4-0, 1st in West Division",5,Goff Balls,114.96
+2025,8,NFL Week 8,5,5,Goff Balls,114.96,L,"6-8-0, 6th in East Division",4,Pukana Matatas,118.56
+2025,8,NFL Week 8,6,7,Kittle League,73.02,L,"6-8-0, 5th in West Division",12,Wet Willies,145.38
+2025,8,NFL Week 8,6,12,Wet Willies,145.38,W,"7-7-0, 4th in East Division",7,Kittle League,73.02
+2025,9,NFL Week 9,1,6,OnlyFannins,105.46,L,"9-5-0, 1st in East Division",1,Meet The Robinson's,121.74
+2025,9,NFL Week 9,1,1,Meet The Robinson's,121.74,W,"6-8-0, 4th in West Division",6,OnlyFannins,105.46
+2025,9,NFL Week 9,2,2,Eat The Boutte Like Groceries,94.52,L,"7-7-0, 3rd in East Division",11,Shayshawn Broccoli,132.26
+2025,9,NFL Week 9,2,11,Shayshawn Broccoli,132.26,W,"7-7-0, 3rd in West Division",2,Eat The Boutte Like Groceries,94.52
+2025,9,NFL Week 9,3,3,Team Rex,130.1,W,"6-8-0, 5th in East Division",10,Juulio Jones,100.86
+2025,9,NFL Week 9,3,10,Juulio Jones,100.86,L,"7-7-0, 2nd in West Division",3,Team Rex,130.1
+2025,9,NFL Week 9,4,5,Goff Balls,108.8,W,"6-8-0, 6th in East Division",9,Two-Point Conversion Therapy,56.48
+2025,9,NFL Week 9,4,9,Two-Point Conversion Therapy,56.48,L,"5-9-0, 6th in West Division",5,Goff Balls,108.8
+2025,9,NFL Week 9,5,12,Wet Willies,137.34,W,"7-7-0, 4th in East Division",4,Pukana Matatas,125.1
+2025,9,NFL Week 9,5,4,Pukana Matatas,125.1,L,"10-4-0, 1st in West Division",12,Wet Willies,137.34
+2025,9,NFL Week 9,6,8,Rex On Rex,125.72,W,"8-6-0, 2nd in East Division",7,Kittle League,92.1
+2025,9,NFL Week 9,6,7,Kittle League,92.1,L,"6-8-0, 5th in West Division",8,Rex On Rex,125.72
+2025,10,NFL Week 10,1,1,Meet The Robinson's,112.7,W,"6-8-0, 4th in West Division",5,Goff Balls,96.22
+2025,10,NFL Week 10,1,5,Goff Balls,96.22,L,"6-8-0, 6th in East Division",1,Meet The Robinson's,112.7
+2025,10,NFL Week 10,2,11,Shayshawn Broccoli,120.4,W,"7-7-0, 3rd in West Division",3,Team Rex,92.02
+2025,10,NFL Week 10,2,3,Team Rex,92.02,L,"6-8-0, 5th in East Division",11,Shayshawn Broccoli,120.4
+2025,10,NFL Week 10,3,10,Juulio Jones,137,W,"7-7-0, 2nd in West Division",6,OnlyFannins,86.24
+2025,10,NFL Week 10,3,6,OnlyFannins,86.24,L,"9-5-0, 1st in East Division",10,Juulio Jones,137
+2025,10,NFL Week 10,4,9,Two-Point Conversion Therapy,150.1,W,"5-9-0, 6th in West Division",12,Wet Willies,108.68
+2025,10,NFL Week 10,4,12,Wet Willies,108.68,L,"7-7-0, 4th in East Division",9,Two-Point Conversion Therapy,150.1
+2025,10,NFL Week 10,5,4,Pukana Matatas,167.3,W,"10-4-0, 1st in West Division",8,Rex On Rex,133.24
+2025,10,NFL Week 10,5,8,Rex On Rex,133.24,L,"8-6-0, 2nd in East Division",4,Pukana Matatas,167.3
+2025,10,NFL Week 10,6,7,Kittle League,119.42,W,"6-8-0, 5th in West Division",2,Eat The Boutte Like Groceries,102
+2025,10,NFL Week 10,6,2,Eat The Boutte Like Groceries,102,L,"7-7-0, 3rd in East Division",7,Kittle League,119.42
+2025,11,NFL Week 11,1,12,Wet Willies,106.62,L,"7-7-0, 4th in East Division",1,Meet The Robinson's,139.72
+2025,11,NFL Week 11,1,1,Meet The Robinson's,139.72,W,"6-8-0, 4th in West Division",12,Wet Willies,106.62
+2025,11,NFL Week 11,2,6,OnlyFannins,81.72,W,"9-5-0, 1st in East Division",11,Shayshawn Broccoli,55.84
+2025,11,NFL Week 11,2,11,Shayshawn Broccoli,55.84,L,"7-7-0, 3rd in West Division",6,OnlyFannins,81.72
+2025,11,NFL Week 11,3,5,Goff Balls,103.8,L,"6-8-0, 6th in East Division",10,Juulio Jones,146
+2025,11,NFL Week 11,3,10,Juulio Jones,146,W,"7-7-0, 2nd in West Division",5,Goff Balls,103.8
+2025,11,NFL Week 11,4,8,Rex On Rex,115.18,W,"8-6-0, 2nd in East Division",9,Two-Point Conversion Therapy,97.3
+2025,11,NFL Week 11,4,9,Two-Point Conversion Therapy,97.3,L,"5-9-0, 6th in West Division",8,Rex On Rex,115.18
+2025,11,NFL Week 11,5,2,Eat The Boutte Like Groceries,111.6,W,"7-7-0, 3rd in East Division",4,Pukana Matatas,111.54
+2025,11,NFL Week 11,5,4,Pukana Matatas,111.54,L,"10-4-0, 1st in West Division",2,Eat The Boutte Like Groceries,111.6
+2025,11,NFL Week 11,6,3,Team Rex,103.34,L,"6-8-0, 5th in East Division",7,Kittle League,133.4
+2025,11,NFL Week 11,6,7,Kittle League,133.4,W,"6-8-0, 5th in West Division",3,Team Rex,103.34
+2025,12,NFL Week 12,1,8,Rex On Rex,110.92,L,"8-6-0, 2nd in East Division",1,Meet The Robinson's,153.86
+2025,12,NFL Week 12,1,1,Meet The Robinson's,153.86,W,"6-8-0, 4th in West Division",8,Rex On Rex,110.92
+2025,12,NFL Week 12,2,5,Goff Balls,130.76,W,"6-8-0, 6th in East Division",11,Shayshawn Broccoli,102.16
+2025,12,NFL Week 12,2,11,Shayshawn Broccoli,102.16,L,"7-7-0, 3rd in West Division",5,Goff Balls,130.76
+2025,12,NFL Week 12,3,12,Wet Willies,122.44,W,"7-7-0, 4th in East Division",10,Juulio Jones,104.96
+2025,12,NFL Week 12,3,10,Juulio Jones,104.96,L,"7-7-0, 2nd in West Division",12,Wet Willies,122.44
+2025,12,NFL Week 12,4,2,Eat The Boutte Like Groceries,117.72,L,"7-7-0, 3rd in East Division",9,Two-Point Conversion Therapy,126.64
+2025,12,NFL Week 12,4,9,Two-Point Conversion Therapy,126.64,W,"5-9-0, 6th in West Division",2,Eat The Boutte Like Groceries,117.72
+2025,12,NFL Week 12,5,3,Team Rex,133.08,L,"6-8-0, 5th in East Division",4,Pukana Matatas,134.88
+2025,12,NFL Week 12,5,4,Pukana Matatas,134.88,W,"10-4-0, 1st in West Division",3,Team Rex,133.08
+2025,12,NFL Week 12,6,6,OnlyFannins,82.72,W,"9-5-0, 1st in East Division",7,Kittle League,64.68
+2025,12,NFL Week 12,6,7,Kittle League,64.68,L,"6-8-0, 5th in West Division",6,OnlyFannins,82.72
+2025,13,NFL Week 13,1,1,Meet The Robinson's,119.7,L,"6-8-0, 4th in West Division",2,Eat The Boutte Like Groceries,128.92
+2025,13,NFL Week 13,1,2,Eat The Boutte Like Groceries,128.92,W,"7-7-0, 3rd in East Division",1,Meet The Robinson's,119.7
+2025,13,NFL Week 13,2,11,Shayshawn Broccoli,62.88,W,"7-7-0, 3rd in West Division",12,Wet Willies,55.46
+2025,13,NFL Week 13,2,12,Wet Willies,55.46,L,"7-7-0, 4th in East Division",11,Shayshawn Broccoli,62.88
+2025,13,NFL Week 13,3,10,Juulio Jones,87.44,L,"7-7-0, 2nd in West Division",8,Rex On Rex,118.42
+2025,13,NFL Week 13,3,8,Rex On Rex,118.42,W,"8-6-0, 2nd in East Division",10,Juulio Jones,87.44
+2025,13,NFL Week 13,4,9,Two-Point Conversion Therapy,118.14,L,"5-9-0, 6th in West Division",3,Team Rex,127.84
+2025,13,NFL Week 13,4,3,Team Rex,127.84,W,"6-8-0, 5th in East Division",9,Two-Point Conversion Therapy,118.14
+2025,13,NFL Week 13,5,4,Pukana Matatas,115.44,L,"10-4-0, 1st in West Division",6,OnlyFannins,124.74
+2025,13,NFL Week 13,5,6,OnlyFannins,124.74,W,"9-5-0, 1st in East Division",4,Pukana Matatas,115.44
+2025,13,NFL Week 13,6,7,Kittle League,107.06,L,"6-8-0, 5th in West Division",5,Goff Balls,119.5
+2025,13,NFL Week 13,6,5,Goff Balls,119.5,W,"6-8-0, 6th in East Division",7,Kittle League,107.06
+2025,14,NFL Week 14,1,3,Team Rex,101.66,W,"6-8-0, 5th in East Division",1,Meet The Robinson's,87.94
+2025,14,NFL Week 14,1,1,Meet The Robinson's,87.94,L,"6-8-0, 4th in West Division",3,Team Rex,101.66
+2025,14,NFL Week 14,2,8,Rex On Rex,132.04,W,"8-6-0, 2nd in East Division",11,Shayshawn Broccoli,122.94
+2025,14,NFL Week 14,2,11,Shayshawn Broccoli,122.94,L,"7-7-0, 3rd in West Division",8,Rex On Rex,132.04
+2025,14,NFL Week 14,3,2,Eat The Boutte Like Groceries,118.54,W,"7-7-0, 3rd in East Division",10,Juulio Jones,110.16
+2025,14,NFL Week 14,3,10,Juulio Jones,110.16,L,"7-7-0, 2nd in West Division",2,Eat The Boutte Like Groceries,118.54
+2025,14,NFL Week 14,4,6,OnlyFannins,126.66,W,"9-5-0, 1st in East Division",9,Two-Point Conversion Therapy,103.06
+2025,14,NFL Week 14,4,9,Two-Point Conversion Therapy,103.06,L,"5-9-0, 6th in West Division",6,OnlyFannins,126.66
+2025,14,NFL Week 14,5,5,Goff Balls,60.9,L,"6-8-0, 6th in East Division",4,Pukana Matatas,132.6
+2025,14,NFL Week 14,5,4,Pukana Matatas,132.6,W,"10-4-0, 1st in West Division",5,Goff Balls,60.9
+2025,14,NFL Week 14,6,12,Wet Willies,86.88,L,"7-7-0, 4th in East Division",7,Kittle League,105.56
+2025,14,NFL Week 14,6,7,Kittle League,105.56,W,"6-8-0, 5th in West Division",12,Wet Willies,86.88
+2025,15,Playoff Round 1 (NFL Week 15),1,12,Wet Willies,150.04,W,"7-7-0, 4th in East Division",2,Eat The Boutte Like Groceries,128.72
+2025,15,Playoff Round 1 (NFL Week 15),1,2,Eat The Boutte Like Groceries,128.72,L,"7-7-0, 3rd in East Division",12,Wet Willies,150.04
+2025,15,Playoff Round 1 (NFL Week 15),2,10,Juulio Jones,108.48,L,"7-7-0, 2nd in West Division",8,Rex On Rex,115.42
+2025,15,Playoff Round 1 (NFL Week 15),2,8,Rex On Rex,115.42,W,"8-6-0, 2nd in East Division",10,Juulio Jones,108.48
+2025,15,Playoff Round 1 (NFL Week 15),3,5,Goff Balls,79.3,L,"6-8-0, 6th in East Division",1,Meet The Robinson's,116.86
+2025,15,Playoff Round 1 (NFL Week 15),3,1,Meet The Robinson's,116.86,W,"6-8-0, 4th in West Division",5,Goff Balls,79.3
+2025,15,Playoff Round 1 (NFL Week 15),4,3,Team Rex,143.64,W,"6-8-0, 5th in East Division",11,Shayshawn Broccoli,72.9
+2025,15,Playoff Round 1 (NFL Week 15),4,11,Shayshawn Broccoli,72.9,L,"7-7-0, 3rd in West Division",3,Team Rex,143.64
+2025,15,Playoff Round 1 (NFL Week 15),5,9,Two-Point Conversion Therapy,127.7,W,"5-9-0, 6th in West Division",7,Kittle League,115.1
+2025,15,Playoff Round 1 (NFL Week 15),5,7,Kittle League,115.1,L,"6-8-0, 5th in West Division",9,Two-Point Conversion Therapy,127.7
+2025,16,Playoff Round 2 (NFL Week 16),1,12,Wet Willies,105.12,L,"7-7-0, 4th in East Division",4,Pukana Matatas,191
+2025,16,Playoff Round 2 (NFL Week 16),1,4,Pukana Matatas,191,W,"10-4-0, 1st in West Division",12,Wet Willies,105.12
+2025,16,Playoff Round 2 (NFL Week 16),2,8,Rex On Rex,111.9,W,"8-6-0, 2nd in East Division",6,OnlyFannins,85.22
+2025,16,Playoff Round 2 (NFL Week 16),2,6,OnlyFannins,85.22,L,"9-5-0, 1st in East Division",8,Rex On Rex,111.9
+2025,16,Playoff Round 2 (NFL Week 16),3,10,Juulio Jones,127.66,L,"7-7-0, 2nd in West Division",2,Eat The Boutte Like Groceries,138.88
+2025,16,Playoff Round 2 (NFL Week 16),3,2,Eat The Boutte Like Groceries,138.88,W,"7-7-0, 3rd in East Division",10,Juulio Jones,127.66
+2025,16,Playoff Round 2 (NFL Week 16),4,1,Meet The Robinson's,108.46,L,"6-8-0, 4th in West Division",3,Team Rex,134.68
+2025,16,Playoff Round 2 (NFL Week 16),4,3,Team Rex,134.68,W,"6-8-0, 5th in East Division",1,Meet The Robinson's,108.46
+2025,16,Playoff Round 2 (NFL Week 16),5,9,Two-Point Conversion Therapy,114.36,W,"5-9-0, 6th in West Division",11,Shayshawn Broccoli,94.6
+2025,16,Playoff Round 2 (NFL Week 16),5,11,Shayshawn Broccoli,94.6,L,"7-7-0, 3rd in West Division",9,Two-Point Conversion Therapy,114.36
+2025,16,Playoff Round 2 (NFL Week 16),6,7,Kittle League,94.96,W,"6-8-0, 5th in West Division",5,Goff Balls,80.1
+2025,16,Playoff Round 2 (NFL Week 16),6,5,Goff Balls,80.1,L,"6-8-0, 6th in East Division",7,Kittle League,94.96
+2025,17,Playoff Round 3 (NFL Week 17),1,8,Rex On Rex,118.68,L,"8-6-0, 2nd in East Division",4,Pukana Matatas,146.02
+2025,17,Playoff Round 3 (NFL Week 17),1,4,Pukana Matatas,146.02,W,"10-4-0, 1st in West Division",8,Rex On Rex,118.68
+2025,17,Playoff Round 3 (NFL Week 17),2,12,Wet Willies,105.58,W,"7-7-0, 4th in East Division",6,OnlyFannins,84.58
+2025,17,Playoff Round 3 (NFL Week 17),2,6,OnlyFannins,84.58,L,"9-5-0, 1st in East Division",12,Wet Willies,105.58
+2025,17,Playoff Round 3 (NFL Week 17),3,10,Juulio Jones,100.78,L,"7-7-0, 2nd in West Division",2,Eat The Boutte Like Groceries,121.36
+2025,17,Playoff Round 3 (NFL Week 17),3,2,Eat The Boutte Like Groceries,121.36,W,"7-7-0, 3rd in East Division",10,Juulio Jones,100.78
+2025,17,Playoff Round 3 (NFL Week 17),4,7,Kittle League,82.42,L,"6-8-0, 5th in West Division",1,Meet The Robinson's,150.48
+2025,17,Playoff Round 3 (NFL Week 17),4,1,Meet The Robinson's,150.48,W,"6-8-0, 4th in West Division",7,Kittle League,82.42
+2025,17,Playoff Round 3 (NFL Week 17),5,9,Two-Point Conversion Therapy,125.6,L,"5-9-0, 6th in West Division",3,Team Rex,134.52
+2025,17,Playoff Round 3 (NFL Week 17),5,3,Team Rex,134.52,W,"6-8-0, 5th in East Division",9,Two-Point Conversion Therapy,125.6
+2025,17,Playoff Round 3 (NFL Week 17),6,5,Goff Balls,50.7,L,"6-8-0, 6th in East Division",11,Shayshawn Broccoli,75.74
+2025,17,Playoff Round 3 (NFL Week 17),6,11,Shayshawn Broccoli,75.74,W,"7-7-0, 3rd in West Division",5,Goff Balls,50.7
+2026,1,NFL Week 1,1,1,You May Kiss McBride,15.6,,"2-1-0, 4th in East Division",10,Juulio Jones,8
+2026,1,NFL Week 1,1,10,Juulio Jones,8,,"2-1-0, 3rd in East Division",1,You May Kiss McBride,15.6
+2026,1,NFL Week 1,2,3,Gibbs Me Moore,0,,"2-1-0, 2nd in West Division",5,McConkey Kong,0
+2026,1,NFL Week 1,2,5,McConkey Kong,0,,"0-3-0, 6th in East Division",3,Gibbs Me Moore,0
+2026,1,NFL Week 1,3,2,Peloton Pickens,0,,"2-1-0, 3rd in West Division",6,The Price is Wrong,0
+2026,1,NFL Week 1,3,6,The Price is Wrong,0,,"0-3-0, 5th in East Division",2,Peloton Pickens,0
+2026,1,NFL Week 1,4,8,Rex On Rex,5,,"3-0-0, 1st in East Division",12,Wet Willies,0
+2026,1,NFL Week 1,4,12,Wet Willies,0,,"2-1-0, 2nd in East Division",8,Rex On Rex,5
+2026,1,NFL Week 1,5,4,Jacks On - Jax Off,0,,"3-0-0, 1st in West Division",11,Shayshawn Broccoli,21.6
+2026,1,NFL Week 1,5,11,Shayshawn Broccoli,21.6,,"2-1-0, 4th in West Division",4,Jacks On - Jax Off,0
+2026,1,NFL Week 1,6,9,Love Hurts,0,,"0-3-0, 6th in West Division",7,Kittle League,0
+2026,1,NFL Week 1,6,7,Kittle League,0,,"0-3-0, 5th in West Division",9,Love Hurts,0
+2026,2,NFL Week 2,1,1,You May Kiss McBride,15.6,,"2-1-0, 4th in East Division",10,Juulio Jones,8
+2026,2,NFL Week 2,1,10,Juulio Jones,8,,"2-1-0, 3rd in East Division",1,You May Kiss McBride,15.6
+2026,2,NFL Week 2,2,3,Gibbs Me Moore,0,,"2-1-0, 2nd in West Division",5,McConkey Kong,0
+2026,2,NFL Week 2,2,5,McConkey Kong,0,,"0-3-0, 6th in East Division",3,Gibbs Me Moore,0
+2026,2,NFL Week 2,3,2,Peloton Pickens,0,,"2-1-0, 3rd in West Division",6,The Price is Wrong,0
+2026,2,NFL Week 2,3,6,The Price is Wrong,0,,"0-3-0, 5th in East Division",2,Peloton Pickens,0
+2026,2,NFL Week 2,4,8,Rex On Rex,5,,"3-0-0, 1st in East Division",12,Wet Willies,0
+2026,2,NFL Week 2,4,12,Wet Willies,0,,"2-1-0, 2nd in East Division",8,Rex On Rex,5
+2026,2,NFL Week 2,5,4,Jacks On - Jax Off,0,,"3-0-0, 1st in West Division",11,Shayshawn Broccoli,21.6
+2026,2,NFL Week 2,5,11,Shayshawn Broccoli,21.6,,"2-1-0, 4th in West Division",4,Jacks On - Jax Off,0
+2026,2,NFL Week 2,6,9,Love Hurts,0,,"0-3-0, 6th in West Division",7,Kittle League,0
+2026,2,NFL Week 2,6,7,Kittle League,0,,"0-3-0, 5th in West Division",9,Love Hurts,0
+2026,3,NFL Week 3,1,1,You May Kiss McBride,104.74,W,"2-1-0, 4th in East Division",7,Kittle League,100.46
+2026,3,NFL Week 3,1,7,Kittle League,100.46,L,"0-3-0, 5th in West Division",1,You May Kiss McBride,104.74
+2026,3,NFL Week 3,2,5,McConkey Kong,140.56,L,"0-3-0, 6th in East Division",12,Wet Willies,173.16
+2026,3,NFL Week 3,2,12,Wet Willies,173.16,W,"2-1-0, 2nd in East Division",5,McConkey Kong,140.56
+2026,3,NFL Week 3,3,8,Rex On Rex,137.46,W,"3-0-0, 1st in East Division",6,The Price is Wrong,102.88
+2026,3,NFL Week 3,3,6,The Price is Wrong,102.88,L,"0-3-0, 5th in East Division",8,Rex On Rex,137.46
+2026,3,NFL Week 3,4,2,Peloton Pickens,72.62,L,"2-1-0, 3rd in West Division",3,Gibbs Me Moore,179.76
+2026,3,NFL Week 3,4,3,Gibbs Me Moore,179.76,W,"2-1-0, 2nd in West Division",2,Peloton Pickens,72.62
+2026,3,NFL Week 3,5,11,Shayshawn Broccoli,112.1,W,"2-1-0, 4th in West Division",10,Juulio Jones,108.6
+2026,3,NFL Week 3,5,10,Juulio Jones,108.6,L,"2-1-0, 3rd in East Division",11,Shayshawn Broccoli,112.1
+2026,3,NFL Week 3,6,9,Love Hurts,107.12,L,"0-3-0, 6th in West Division",4,Jacks On - Jax Off,124.86
+2026,3,NFL Week 3,6,4,Jacks On - Jax Off,124.86,W,"3-0-0, 1st in West Division",9,Love Hurts,107.12
+2026,4,NFL Week 4,1,1,You May Kiss McBride,104.74,W,"2-1-0, 4th in East Division",7,Kittle League,100.46
+2026,4,NFL Week 4,1,7,Kittle League,100.46,L,"0-3-0, 5th in West Division",1,You May Kiss McBride,104.74
+2026,4,NFL Week 4,2,5,McConkey Kong,140.56,L,"0-3-0, 6th in East Division",12,Wet Willies,173.16
+2026,4,NFL Week 4,2,12,Wet Willies,173.16,W,"2-1-0, 2nd in East Division",5,McConkey Kong,140.56
+2026,4,NFL Week 4,3,8,Rex On Rex,137.46,W,"3-0-0, 1st in East Division",6,The Price is Wrong,102.88
+2026,4,NFL Week 4,3,6,The Price is Wrong,102.88,L,"0-3-0, 5th in East Division",8,Rex On Rex,137.46
+2026,4,NFL Week 4,4,2,Peloton Pickens,72.62,L,"2-1-0, 3rd in West Division",3,Gibbs Me Moore,179.76
+2026,4,NFL Week 4,4,3,Gibbs Me Moore,179.76,W,"2-1-0, 2nd in West Division",2,Peloton Pickens,72.62
+2026,4,NFL Week 4,5,11,Shayshawn Broccoli,112.1,W,"2-1-0, 4th in West Division",10,Juulio Jones,108.6
+2026,4,NFL Week 4,5,10,Juulio Jones,108.6,L,"2-1-0, 3rd in East Division",11,Shayshawn Broccoli,112.1
+2026,4,NFL Week 4,6,9,Love Hurts,107.12,L,"0-3-0, 6th in West Division",4,Jacks On - Jax Off,124.86
+2026,4,NFL Week 4,6,4,Jacks On - Jax Off,124.86,W,"3-0-0, 1st in West Division",9,Love Hurts,107.12

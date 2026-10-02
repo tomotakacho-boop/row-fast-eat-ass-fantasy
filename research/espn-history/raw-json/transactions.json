@@ -1,0 +1,1137 @@
+{
+  "leagueId": 416026,
+  "exportedAt": "2026-10-02",
+  "source": "Authenticated ESPN Fantasy web UI",
+  "data": {
+    "2017": {
+      "season": 2017,
+      "rows": [
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 1,
+          "team": "1\n\t\nPukana Matatas\n\t10-4-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 2,
+          "team": "2\n\t\nRex On Rex\n\t8-6-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 3,
+          "team": "3\n\t\nWet Willies\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 4,
+          "team": "4\n\t\nOnlyFannins\n\t9-5-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 5,
+          "team": "5\n\t\nEat The Boutte Like Groceries\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 6,
+          "team": "6\n\t\nJuulio Jones\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 7,
+          "team": "7\n\t\nTeam Rex\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 8,
+          "team": "8\n\t\nTwo-Point Conversion Therapy\n\t5-9-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 9,
+          "team": "9\n\t\nMeet The Robinson's\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 10,
+          "team": "10\n\t\nKittle League\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 11,
+          "team": "11\n\t\nShayshawn Broccoli\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 12,
+          "team": "12\n\t\nGoff Balls\n\t6-8-0",
+          "trades": null
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "rows": [
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 1,
+          "team": "1\n\t\nPukana Matatas\n\t10-4-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 2,
+          "team": "2\n\t\nRex On Rex\n\t8-6-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 3,
+          "team": "3\n\t\nWet Willies\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 4,
+          "team": "4\n\t\nOnlyFannins\n\t9-5-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 5,
+          "team": "5\n\t\nEat The Boutte Like Groceries\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 6,
+          "team": "6\n\t\nJuulio Jones\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 7,
+          "team": "7\n\t\nTeam Rex\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 8,
+          "team": "8\n\t\nTwo-Point Conversion Therapy\n\t5-9-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 9,
+          "team": "9\n\t\nMeet The Robinson's\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 10,
+          "team": "10\n\t\nKittle League\n\t6-8-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 11,
+          "team": "11\n\t\nShayshawn Broccoli\n\t7-7-0",
+          "trades": null
+        },
+        {
+          "acquisitions": null,
+          "activations": null,
+          "drops": null,
+          "irMoves": null,
+          "losses": 12,
+          "team": "12\n\t\nGoff Balls\n\t6-8-0",
+          "trades": null
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "rows": [
+        {
+          "acquisitions": 35,
+          "activations": 55,
+          "drops": 33,
+          "irMoves": 7,
+          "losses": 8,
+          "team": "Danny Dimes",
+          "trades": 3
+        },
+        {
+          "acquisitions": 23,
+          "activations": 57,
+          "drops": 23,
+          "irMoves": 1,
+          "losses": 5,
+          "team": "The Guice Is Loose",
+          "trades": 1
+        },
+        {
+          "acquisitions": 31,
+          "activations": 41,
+          "drops": 30,
+          "irMoves": 2,
+          "losses": 5,
+          "team": "The Bake Show",
+          "trades": 0
+        },
+        {
+          "acquisitions": 22,
+          "activations": 59,
+          "drops": 22,
+          "irMoves": 0,
+          "losses": 8,
+          "team": "David Ants In My Eyes Johnson",
+          "trades": 0
+        },
+        {
+          "acquisitions": 29,
+          "activations": 56,
+          "drops": 29,
+          "irMoves": 1,
+          "losses": 4,
+          "team": "Team Goff Balls",
+          "trades": 1
+        },
+        {
+          "acquisitions": 20,
+          "activations": 42,
+          "drops": 20,
+          "irMoves": 2,
+          "losses": 9,
+          "team": "Rigga Please",
+          "trades": 0
+        },
+        {
+          "acquisitions": 9,
+          "activations": 31,
+          "drops": 10,
+          "irMoves": 3,
+          "losses": 5,
+          "team": "The Juice Is Loose",
+          "trades": 0
+        },
+        {
+          "acquisitions": 15,
+          "activations": 44,
+          "drops": 15,
+          "irMoves": 0,
+          "losses": 7,
+          "team": "Rex On Rex",
+          "trades": 1
+        },
+        {
+          "acquisitions": 0,
+          "activations": 10,
+          "drops": 0,
+          "irMoves": 0,
+          "losses": 9,
+          "team": "Team Seattle",
+          "trades": 1
+        },
+        {
+          "acquisitions": 0,
+          "activations": 0,
+          "drops": 0,
+          "irMoves": 0,
+          "losses": 10,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 33,
+          "activations": 50,
+          "drops": 33,
+          "irMoves": 1,
+          "losses": 2,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 1
+        },
+        {
+          "acquisitions": 7,
+          "activations": 24,
+          "drops": 7,
+          "irMoves": 0,
+          "losses": 5,
+          "team": "Team Ryan",
+          "trades": 0
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "rows": [
+        {
+          "acquisitions": 17,
+          "activations": 35,
+          "drops": 16,
+          "irMoves": 3,
+          "losses": 6,
+          "team": "Whats up Mahomie",
+          "trades": 1
+        },
+        {
+          "acquisitions": 27,
+          "activations": 44,
+          "drops": 27,
+          "irMoves": 3,
+          "losses": 9,
+          "team": "Ninth Circle of Helaire",
+          "trades": 0
+        },
+        {
+          "acquisitions": 23,
+          "activations": 39,
+          "drops": 23,
+          "irMoves": 1,
+          "losses": 4,
+          "team": "THE 🅱️AKE SHOW",
+          "trades": 0
+        },
+        {
+          "acquisitions": 51,
+          "activations": 96,
+          "drops": 51,
+          "irMoves": 5,
+          "losses": 7,
+          "team": "Davante's Inferno",
+          "trades": 0
+        },
+        {
+          "acquisitions": 26,
+          "activations": 47,
+          "drops": 25,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "Team Goff Balls",
+          "trades": 0
+        },
+        {
+          "acquisitions": 23,
+          "activations": 45,
+          "drops": 22,
+          "irMoves": 3,
+          "losses": 8,
+          "team": "Rigga Please",
+          "trades": 1
+        },
+        {
+          "acquisitions": 3,
+          "activations": 24,
+          "drops": 2,
+          "irMoves": 3,
+          "losses": 4,
+          "team": "The Juice Is Loose",
+          "trades": 0
+        },
+        {
+          "acquisitions": 24,
+          "activations": 62,
+          "drops": 24,
+          "irMoves": 1,
+          "losses": 4,
+          "team": "Rex On Rex",
+          "trades": 1
+        },
+        {
+          "acquisitions": 12,
+          "activations": 40,
+          "drops": 11,
+          "irMoves": 3,
+          "losses": 10,
+          "team": "Team Seattle",
+          "trades": 1
+        },
+        {
+          "acquisitions": 25,
+          "activations": 64,
+          "drops": 24,
+          "irMoves": 3,
+          "losses": 4,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 29,
+          "activations": 59,
+          "drops": 29,
+          "irMoves": 1,
+          "losses": 4,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 0
+        },
+        {
+          "acquisitions": 7,
+          "activations": 28,
+          "drops": 6,
+          "irMoves": 3,
+          "losses": 11,
+          "team": "Team Ryan",
+          "trades": 0
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "rows": [
+        {
+          "acquisitions": 13,
+          "activations": 41,
+          "drops": 13,
+          "irMoves": 2,
+          "losses": 10,
+          "team": "Justin Herbert",
+          "trades": 2
+        },
+        {
+          "acquisitions": 21,
+          "activations": 56,
+          "drops": 20,
+          "irMoves": 9,
+          "losses": 9,
+          "team": "Electric Bass",
+          "trades": 0
+        },
+        {
+          "acquisitions": 16,
+          "activations": 37,
+          "drops": 15,
+          "irMoves": 1,
+          "losses": 9,
+          "team": "THE 🅱️AKE SHOW",
+          "trades": 0
+        },
+        {
+          "acquisitions": 31,
+          "activations": 57,
+          "drops": 31,
+          "irMoves": 2,
+          "losses": 1,
+          "team": "Storm Coopers",
+          "trades": 0
+        },
+        {
+          "acquisitions": 33,
+          "activations": 54,
+          "drops": 31,
+          "irMoves": 5,
+          "losses": 7,
+          "team": "Team Goff Balls",
+          "trades": 3
+        },
+        {
+          "acquisitions": 31,
+          "activations": 60,
+          "drops": 30,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "cancelled -",
+          "trades": 0
+        },
+        {
+          "acquisitions": 6,
+          "activations": 27,
+          "drops": 5,
+          "irMoves": 1,
+          "losses": 6,
+          "team": "The Juice Is Loose",
+          "trades": 0
+        },
+        {
+          "acquisitions": 27,
+          "activations": 65,
+          "drops": 27,
+          "irMoves": 2,
+          "losses": 6,
+          "team": "Rex On Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 13,
+          "activations": 49,
+          "drops": 13,
+          "irMoves": 3,
+          "losses": 9,
+          "team": "Team Seattle",
+          "trades": 1
+        },
+        {
+          "acquisitions": 6,
+          "activations": 31,
+          "drops": 6,
+          "irMoves": 1,
+          "losses": 4,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 14,
+          "activations": 25,
+          "drops": 13,
+          "irMoves": 1,
+          "losses": 8,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 0
+        },
+        {
+          "acquisitions": 10,
+          "activations": 28,
+          "drops": 9,
+          "irMoves": 3,
+          "losses": 8,
+          "team": "Team Ryan",
+          "trades": 0
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "rows": [
+        {
+          "acquisitions": 29,
+          "activations": 43,
+          "drops": 28,
+          "irMoves": 5,
+          "losses": 7,
+          "team": "Drake @ London O2",
+          "trades": 0
+        },
+        {
+          "acquisitions": 13,
+          "activations": 43,
+          "drops": 12,
+          "irMoves": 6,
+          "losses": 5,
+          "team": "Allen Wrenches",
+          "trades": 0
+        },
+        {
+          "acquisitions": 1,
+          "activations": 3,
+          "drops": 1,
+          "irMoves": 0,
+          "losses": 8,
+          "team": "THE 🅱️AKE SHOW",
+          "trades": 1
+        },
+        {
+          "acquisitions": 46,
+          "activations": 81,
+          "drops": 47,
+          "irMoves": 6,
+          "losses": 5,
+          "team": "Violence Of The Lambs",
+          "trades": 1
+        },
+        {
+          "acquisitions": 28,
+          "activations": 59,
+          "drops": 30,
+          "irMoves": 1,
+          "losses": 7,
+          "team": "Team Goff Balls",
+          "trades": 2
+        },
+        {
+          "acquisitions": 19,
+          "activations": 37,
+          "drops": 18,
+          "irMoves": 4,
+          "losses": 9,
+          "team": "Diggs In a Blanket",
+          "trades": 0
+        },
+        {
+          "acquisitions": 9,
+          "activations": 43,
+          "drops": 9,
+          "irMoves": 2,
+          "losses": 9,
+          "team": "Hunter Gatherer",
+          "trades": 1
+        },
+        {
+          "acquisitions": 24,
+          "activations": 55,
+          "drops": 23,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "Rex On Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 6,
+          "activations": 36,
+          "drops": 5,
+          "irMoves": 2,
+          "losses": 7,
+          "team": "Team Seattle",
+          "trades": 1
+        },
+        {
+          "acquisitions": 7,
+          "activations": 29,
+          "drops": 6,
+          "irMoves": 1,
+          "losses": 8,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 10,
+          "activations": 35,
+          "drops": 11,
+          "irMoves": 0,
+          "losses": 5,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 0
+        },
+        {
+          "acquisitions": 8,
+          "activations": 47,
+          "drops": 7,
+          "irMoves": 1,
+          "losses": 7,
+          "team": "Team Ryan",
+          "trades": 0
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "rows": [
+        {
+          "acquisitions": 16,
+          "activations": 34,
+          "drops": 17,
+          "irMoves": 0,
+          "losses": 5,
+          "team": "Your Wildest Fantasy (Football)",
+          "trades": 0
+        },
+        {
+          "acquisitions": 31,
+          "activations": 47,
+          "drops": 29,
+          "irMoves": 4,
+          "losses": 6,
+          "team": "Hurts Rent a Carr",
+          "trades": 1
+        },
+        {
+          "acquisitions": 30,
+          "activations": 62,
+          "drops": 30,
+          "irMoves": 2,
+          "losses": 4,
+          "team": "Team Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 38,
+          "activations": 74,
+          "drops": 37,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "The Ascension To Evan(s)",
+          "trades": 2
+        },
+        {
+          "acquisitions": 31,
+          "activations": 44,
+          "drops": 31,
+          "irMoves": 2,
+          "losses": 7,
+          "team": "Team Goff Balls",
+          "trades": 3
+        },
+        {
+          "acquisitions": 25,
+          "activations": 45,
+          "drops": 24,
+          "irMoves": 5,
+          "losses": 4,
+          "team": "Bed Bath and Bijan",
+          "trades": 0
+        },
+        {
+          "acquisitions": 7,
+          "activations": 27,
+          "drops": 6,
+          "irMoves": 2,
+          "losses": 9,
+          "team": "Judge Jeudy",
+          "trades": 1
+        },
+        {
+          "acquisitions": 22,
+          "activations": 69,
+          "drops": 22,
+          "irMoves": 2,
+          "losses": 7,
+          "team": "Rex On Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 2,
+          "activations": 12,
+          "drops": 3,
+          "irMoves": 1,
+          "losses": 10,
+          "team": "The Adams Family",
+          "trades": 1
+        },
+        {
+          "acquisitions": 22,
+          "activations": 71,
+          "drops": 22,
+          "irMoves": 1,
+          "losses": 9,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 11,
+          "activations": 42,
+          "drops": 11,
+          "irMoves": 0,
+          "losses": 7,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 0
+        },
+        {
+          "acquisitions": 4,
+          "activations": 30,
+          "drops": 3,
+          "irMoves": 1,
+          "losses": 9,
+          "team": "Team Ryan",
+          "trades": 0
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "rows": [
+        {
+          "acquisitions": 29,
+          "activations": 53,
+          "drops": 28,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "DK's Adventures",
+          "trades": 1
+        },
+        {
+          "acquisitions": 19,
+          "activations": 46,
+          "drops": 18,
+          "irMoves": 6,
+          "losses": 8,
+          "team": "Moore Than A. Thielen",
+          "trades": 1
+        },
+        {
+          "acquisitions": 44,
+          "activations": 66,
+          "drops": 43,
+          "irMoves": 5,
+          "losses": 6,
+          "team": "Team Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 27,
+          "activations": 52,
+          "drops": 26,
+          "irMoves": 5,
+          "losses": 9,
+          "team": "Hall of Heroes",
+          "trades": 0
+        },
+        {
+          "acquisitions": 22,
+          "activations": 44,
+          "drops": 22,
+          "irMoves": 3,
+          "losses": 5,
+          "team": "Goff Balls",
+          "trades": 0
+        },
+        {
+          "acquisitions": 21,
+          "activations": 33,
+          "drops": 20,
+          "irMoves": 5,
+          "losses": 4,
+          "team": "Pulled McCaff",
+          "trades": 0
+        },
+        {
+          "acquisitions": 4,
+          "activations": 32,
+          "drops": 4,
+          "irMoves": 1,
+          "losses": 8,
+          "team": "LaPorta John",
+          "trades": 0
+        },
+        {
+          "acquisitions": 29,
+          "activations": 53,
+          "drops": 29,
+          "irMoves": 2,
+          "losses": 6,
+          "team": "Rex On Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 21,
+          "activations": 74,
+          "drops": 20,
+          "irMoves": 7,
+          "losses": 9,
+          "team": "Phresh Meat",
+          "trades": 0
+        },
+        {
+          "acquisitions": 26,
+          "activations": 65,
+          "drops": 25,
+          "irMoves": 2,
+          "losses": 6,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 12,
+          "activations": 33,
+          "drops": 11,
+          "irMoves": 1,
+          "losses": 9,
+          "team": "THE EMPIRE DID NOTHING WRONG!1",
+          "trades": 0
+        },
+        {
+          "acquisitions": 9,
+          "activations": 39,
+          "drops": 9,
+          "irMoves": 0,
+          "losses": 7,
+          "team": "Wet Willies",
+          "trades": 0
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "rows": [
+        {
+          "acquisitions": 48,
+          "activations": 72,
+          "drops": 49,
+          "irMoves": 6,
+          "losses": 8,
+          "team": "Meet The Robinson's",
+          "trades": 4
+        },
+        {
+          "acquisitions": 22,
+          "activations": 35,
+          "drops": 21,
+          "irMoves": 3,
+          "losses": 7,
+          "team": "Eat The Boutte Like Groceries",
+          "trades": 0
+        },
+        {
+          "acquisitions": 39,
+          "activations": 83,
+          "drops": 39,
+          "irMoves": 4,
+          "losses": 8,
+          "team": "Team Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 17,
+          "activations": 42,
+          "drops": 19,
+          "irMoves": 6,
+          "losses": 4,
+          "team": "Pukana Matatas",
+          "trades": 0
+        },
+        {
+          "acquisitions": 24,
+          "activations": 46,
+          "drops": 25,
+          "irMoves": 4,
+          "losses": 8,
+          "team": "Goff Balls",
+          "trades": 2
+        },
+        {
+          "acquisitions": 28,
+          "activations": 48,
+          "drops": 28,
+          "irMoves": 8,
+          "losses": 5,
+          "team": "OnlyFannins",
+          "trades": 1
+        },
+        {
+          "acquisitions": 7,
+          "activations": 29,
+          "drops": 6,
+          "irMoves": 3,
+          "losses": 8,
+          "team": "Kittle League",
+          "trades": 0
+        },
+        {
+          "acquisitions": 23,
+          "activations": 76,
+          "drops": 24,
+          "irMoves": 5,
+          "losses": 6,
+          "team": "Rex On Rex",
+          "trades": 0
+        },
+        {
+          "acquisitions": 23,
+          "activations": 53,
+          "drops": 22,
+          "irMoves": 4,
+          "losses": 9,
+          "team": "Two-Point Conversion Therapy",
+          "trades": 1
+        },
+        {
+          "acquisitions": 23,
+          "activations": 55,
+          "drops": 23,
+          "irMoves": 2,
+          "losses": 7,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 7,
+          "activations": 33,
+          "drops": 7,
+          "irMoves": 1,
+          "losses": 7,
+          "team": "Shayshawn Broccoli",
+          "trades": 0
+        },
+        {
+          "acquisitions": 13,
+          "activations": 38,
+          "drops": 13,
+          "irMoves": 4,
+          "losses": 7,
+          "team": "Wet Willies",
+          "trades": 0
+        }
+      ]
+    },
+    "2026": {
+      "season": 2026,
+      "rows": [
+        {
+          "acquisitions": 14,
+          "activations": 12,
+          "drops": 14,
+          "irMoves": 2,
+          "losses": 1,
+          "team": "You May Kiss McBride",
+          "trades": 0
+        },
+        {
+          "acquisitions": 9,
+          "activations": 9,
+          "drops": 8,
+          "irMoves": 1,
+          "losses": 1,
+          "team": "Peloton Pickens",
+          "trades": 1
+        },
+        {
+          "acquisitions": 9,
+          "activations": 8,
+          "drops": 8,
+          "irMoves": 2,
+          "losses": 1,
+          "team": "Gibbs Me Moore",
+          "trades": 0
+        },
+        {
+          "acquisitions": 1,
+          "activations": 5,
+          "drops": 1,
+          "irMoves": 0,
+          "losses": 0,
+          "team": "Jacks On - Jax Off",
+          "trades": 0
+        },
+        {
+          "acquisitions": 7,
+          "activations": 5,
+          "drops": 6,
+          "irMoves": 1,
+          "losses": 3,
+          "team": "McConkey Kong",
+          "trades": 0
+        },
+        {
+          "acquisitions": 8,
+          "activations": 10,
+          "drops": 7,
+          "irMoves": 2,
+          "losses": 3,
+          "team": "The Price is Wrong",
+          "trades": 1
+        },
+        {
+          "acquisitions": 1,
+          "activations": 5,
+          "drops": 1,
+          "irMoves": 0,
+          "losses": 3,
+          "team": "Kittle League",
+          "trades": 1
+        },
+        {
+          "acquisitions": 4,
+          "activations": 10,
+          "drops": 3,
+          "irMoves": 1,
+          "losses": 0,
+          "team": "Rex On Rex",
+          "trades": 1
+        },
+        {
+          "acquisitions": 5,
+          "activations": 7,
+          "drops": 4,
+          "irMoves": 2,
+          "losses": 3,
+          "team": "Love Hurts",
+          "trades": 0
+        },
+        {
+          "acquisitions": 2,
+          "activations": 7,
+          "drops": 1,
+          "irMoves": 1,
+          "losses": 1,
+          "team": "Juulio Jones",
+          "trades": 0
+        },
+        {
+          "acquisitions": 2,
+          "activations": 9,
+          "drops": 3,
+          "irMoves": 0,
+          "losses": 1,
+          "team": "Shayshawn Broccoli",
+          "trades": 0
+        },
+        {
+          "acquisitions": 3,
+          "activations": 4,
+          "drops": 3,
+          "irMoves": 0,
+          "losses": 1,
+          "team": "Wet Willies",
+          "trades": 0
+        }
+      ]
+    }
+  }
+}

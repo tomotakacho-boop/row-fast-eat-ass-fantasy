@@ -1,0 +1,4606 @@
+{
+  "leagueId": 416026,
+  "exportedAt": "2026-10-02",
+  "source": "Authenticated ESPN Fantasy web UI",
+  "data": {
+    "2017": {
+      "season": 2017,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "11-3-0, 1st in Central Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 119.14,
+                      "seed": 5,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "9-5-0, 2nd in Central Division",
+                      "result": "W",
+                      "score": 179.48,
+                      "seed": 4,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 154.24,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "L",
+                      "score": 141.96,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "KAREEM THE DREAM",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Rigga Please",
+                      "record": "9-5-0, 2nd in Central Division",
+                      "result": "L",
+                      "score": 127.12,
+                      "seed": 4,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "11-3-0, 1st in Central Division",
+                      "result": "W",
+                      "score": 144.6,
+                      "seed": 1,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 126.56,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "KAREEM THE DREAM",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 113.8,
+                      "seed": 2,
+                      "teamId": 3
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 101.5,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "11-3-0, 1st in Central Division",
+                      "result": "W",
+                      "score": 133.06,
+                      "seed": 1,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 108.66,
+                      "seed": 5,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "L",
+                      "score": 97.68,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Rigga Please",
+                      "record": "9-5-0, 2nd in Central Division",
+                      "result": "W",
+                      "score": 112.18,
+                      "seed": 4,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "KAREEM THE DREAM",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 94.9,
+                      "seed": 2,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 95.52,
+                      "seed": 5,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "W",
+                      "score": 112.22,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 91.04,
+                      "seed": 8,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 80.62,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Acute Gronkitis",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 114.38,
+                      "seed": 10,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Team Subbukumar",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 55.78,
+                      "seed": 9,
+                      "teamId": 10
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Eckler",
+                      "record": "2-12-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 67.32,
+                      "seed": 12,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-11-0, 4th in East Division",
+                      "result": "W",
+                      "score": 98.48,
+                      "seed": 11,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Acute Gronkitis",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 114.64,
+                      "seed": 10,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 85.1,
+                      "seed": 8,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-11-0, 4th in East Division",
+                      "result": "W",
+                      "score": 109.42,
+                      "seed": 11,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 87.86,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Eckler",
+                      "record": "2-12-0, 4th in Central Division",
+                      "result": "W",
+                      "score": 81.42,
+                      "seed": 12,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Team Subbukumar",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 39.02,
+                      "seed": 9,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-11-0, 4th in East Division",
+                      "result": "W",
+                      "score": 117.94,
+                      "seed": 11,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Acute Gronkitis",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "L",
+                      "score": 117.28,
+                      "seed": 10,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Eckler",
+                      "record": "2-12-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 114.38,
+                      "seed": 12,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 137.92,
+                      "seed": 8,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Subbukumar",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 76.02,
+                      "seed": 9,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 102.5,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "The Bake Show",
+                      "record": "10-2-1, 1st in Central Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "9-4-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 104,
+                      "seed": 5,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 112,
+                      "seed": 4,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 107,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 101,
+                      "seed": 3,
+                      "teamId": 7
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 112,
+                      "seed": 4,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "The Bake Show",
+                      "record": "10-2-1, 1st in Central Division",
+                      "result": "L",
+                      "score": 101,
+                      "seed": 1,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 106,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "L",
+                      "score": 105,
+                      "seed": 2,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 103,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 177,
+                      "seed": 4,
+                      "teamId": 11
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 16"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "9-4-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 121,
+                      "seed": 5,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 63,
+                      "seed": 3,
+                      "teamId": 7
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "L",
+                      "score": 131,
+                      "seed": 2,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "The Bake Show",
+                      "record": "10-2-1, 1st in Central Division",
+                      "result": "W",
+                      "score": 153,
+                      "seed": 1,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Tom's Deflated Balls",
+                      "record": "9-4-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 91,
+                      "seed": 5,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "W",
+                      "score": 141,
+                      "seed": 3,
+                      "teamId": 7
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Rigga Please",
+                      "record": "7-6-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 115,
+                      "seed": 8,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Newtonâs Law of Winning",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "L",
+                      "score": 73,
+                      "seed": 7,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "3-10-0, 4th in East Division",
+                      "result": "W",
+                      "score": 151,
+                      "seed": 10,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "6-7-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 121,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "0-13-0, 4th in West Division",
+                      "result": "W",
+                      "score": 138,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "1-12-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 51,
+                      "seed": 11,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "3-10-0, 4th in East Division",
+                      "result": "L",
+                      "score": 91,
+                      "seed": 10,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "7-6-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 109,
+                      "seed": 8,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "0-13-0, 4th in West Division",
+                      "result": "W",
+                      "score": 103,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Newtonâs Law of Winning",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "L",
+                      "score": 100,
+                      "seed": 7,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "1-12-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 34,
+                      "seed": 11,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "6-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 87,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "0-13-0, 4th in West Division",
+                      "result": "L",
+                      "score": 69,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "7-6-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 118,
+                      "seed": 8,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "3-10-0, 4th in East Division",
+                      "result": "L",
+                      "score": 111,
+                      "seed": 10,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "The Ballad of Younghoe Koo",
+                      "record": "6-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 112,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": null,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "1-12-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 63,
+                      "seed": 11,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Newtonâs Law of Winning",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "W",
+                      "score": 97,
+                      "seed": 7,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            }
+          ]
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "11-2-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "The Bake Show",
+                      "record": "8-5-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 135,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "The Guice Is Loose",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 98,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "L",
+                      "score": 76,
+                      "seed": 6,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "W",
+                      "score": 181,
+                      "seed": 3,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-4-1, 1st in Central Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "The Bake Show",
+                      "record": "8-5-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 128,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "11-2-0, 1st in West Division",
+                      "result": "L",
+                      "score": 73,
+                      "seed": 1,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 135,
+                      "seed": 3,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-4-1, 1st in Central Division",
+                      "result": "W",
+                      "score": 135,
+                      "seed": 2,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "The Bake Show",
+                      "record": "8-5-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 114,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "8-4-1, 1st in Central Division",
+                      "result": "L",
+                      "score": 98,
+                      "seed": 2,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 16"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "L",
+                      "score": 111,
+                      "seed": 6,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "The Guice Is Loose",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 137,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "8-5-0, 1st in East Division",
+                      "result": "W",
+                      "score": 136,
+                      "seed": 3,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "11-2-0, 1st in West Division",
+                      "result": "L",
+                      "score": 97,
+                      "seed": 1,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "7-5-1, 2nd in Central Division",
+                      "result": "L",
+                      "score": 91,
+                      "seed": 6,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "The Guice Is Loose",
+                      "record": "8-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 96,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "David Ants In My Eyes Johnson",
+                      "record": "5-8-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 129,
+                      "seed": 8,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "6-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 71,
+                      "seed": 7,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "4-9-0, 4th in West Division",
+                      "result": "L",
+                      "score": 89,
+                      "seed": 10,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Danny Dimes",
+                      "record": "5-8-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 91,
+                      "seed": 9,
+                      "teamId": 1
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "3-10-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 66,
+                      "seed": 12,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "4-9-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 136,
+                      "seed": 11,
+                      "teamId": 6
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Danny Dimes",
+                      "record": "5-8-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 61,
+                      "seed": 9,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "David Ants In My Eyes Johnson",
+                      "record": "5-8-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 99,
+                      "seed": 8,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Rigga Please",
+                      "record": "4-9-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 126,
+                      "seed": 11,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "6-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 129,
+                      "seed": 7,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "3-10-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 69,
+                      "seed": 12,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "4-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 131,
+                      "seed": 10,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "David Ants In My Eyes Johnson",
+                      "record": "5-8-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 100,
+                      "seed": 8,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "6-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 77,
+                      "seed": 7,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "4-9-0, 4th in West Division",
+                      "result": "L",
+                      "score": 106,
+                      "seed": 10,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Danny Dimes",
+                      "record": "5-8-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 129,
+                      "seed": 9,
+                      "teamId": 1
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "3-10-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 79,
+                      "seed": 12,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "4-9-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 109,
+                      "seed": 11,
+                      "teamId": 6
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            }
+          ]
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "9-4-0, 2nd in Central Division",
+                      "result": "W",
+                      "score": 147.82,
+                      "seed": 5,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "9-4-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 125.96,
+                      "seed": 4,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Whats up Mahomie",
+                      "record": "7-6-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 119.22,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "W",
+                      "score": 120.52,
+                      "seed": 3,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-4-0, 1st in Central Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "9-4-0, 2nd in Central Division",
+                      "result": "L",
+                      "score": 100.22,
+                      "seed": 5,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in East Division",
+                      "result": "W",
+                      "score": 135.82,
+                      "seed": 1,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "L",
+                      "score": 146.56,
+                      "seed": 3,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-4-0, 1st in Central Division",
+                      "result": "W",
+                      "score": 147.04,
+                      "seed": 2,
+                      "teamId": 7
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "9-4-0, 1st in Central Division",
+                      "result": "L",
+                      "score": 83.68,
+                      "seed": 2,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "9-4-0, 1st in East Division",
+                      "result": "W",
+                      "score": 190.74,
+                      "seed": 1,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 16"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Whats up Mahomie",
+                      "record": "7-6-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 144.66,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "9-4-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 127.14,
+                      "seed": 4,
+                      "teamId": 3
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "9-4-0, 2nd in Central Division",
+                      "result": "L",
+                      "score": 109.32,
+                      "seed": 5,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-4-0, 1st in West Division",
+                      "result": "W",
+                      "score": 135.5,
+                      "seed": 3,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Whats up Mahomie",
+                      "record": "7-6-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 125.92,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "9-4-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 113.8,
+                      "seed": 4,
+                      "teamId": 3
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Davante's Inferno",
+                      "record": "6-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 94.98,
+                      "seed": 8,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "6-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 62.2,
+                      "seed": 7,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Ninth Circle of Helaire",
+                      "record": "4-9-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 78.56,
+                      "seed": 10,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "5-8-0, 4th in Central Division",
+                      "result": "W",
+                      "score": 132.32,
+                      "seed": 9,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 14,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "2-11-0, 4th in East Division",
+                      "result": "L",
+                      "score": 112.38,
+                      "seed": 12,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-10-0, 4th in West Division",
+                      "result": "W",
+                      "score": 119.54,
+                      "seed": 11,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 14"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Rigga Please",
+                      "record": "5-8-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 114.26,
+                      "seed": 9,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Davante's Inferno",
+                      "record": "6-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 153.92,
+                      "seed": 8,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-10-0, 4th in West Division",
+                      "result": "W",
+                      "score": 86.84,
+                      "seed": 11,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "6-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 65.84,
+                      "seed": 7,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "2-11-0, 4th in East Division",
+                      "result": "W",
+                      "score": 105.7,
+                      "seed": 12,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Ninth Circle of Helaire",
+                      "record": "4-9-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 105.42,
+                      "seed": 10,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "3-10-0, 4th in West Division",
+                      "result": "L",
+                      "score": 121.2,
+                      "seed": 11,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Davante's Inferno",
+                      "record": "6-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 154.98,
+                      "seed": 8,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "2-11-0, 4th in East Division",
+                      "result": "L",
+                      "score": 81,
+                      "seed": 12,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Rigga Please",
+                      "record": "5-8-0, 4th in Central Division",
+                      "result": "W",
+                      "score": 121.24,
+                      "seed": 9,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Ninth Circle of Helaire",
+                      "record": "4-9-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 73.56,
+                      "seed": 10,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "6-7-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 111.24,
+                      "seed": 7,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 16"
+            }
+          ]
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Storm Coopers",
+                      "record": "13-1-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "cancelled -",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 78.72,
+                      "seed": 5,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-6-0, 2nd in Central Division",
+                      "result": "W",
+                      "score": 92.9,
+                      "seed": 4,
+                      "teamId": 7
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 4th in Central Division",
+                      "result": "W",
+                      "score": 111.38,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in East Division",
+                      "result": "L",
+                      "score": 103.28,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "10-4-0, 1st in Central Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-6-0, 2nd in Central Division",
+                      "result": "L",
+                      "score": 98.92,
+                      "seed": 4,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Storm Coopers",
+                      "record": "13-1-0, 1st in West Division",
+                      "result": "W",
+                      "score": 140.46,
+                      "seed": 1,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 89.1,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "10-4-0, 1st in Central Division",
+                      "result": "W",
+                      "score": 121.4,
+                      "seed": 2,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "10-4-0, 1st in Central Division",
+                      "result": "W",
+                      "score": 140.44,
+                      "seed": 2,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Storm Coopers",
+                      "record": "13-1-0, 1st in West Division",
+                      "result": "L",
+                      "score": 134.36,
+                      "seed": 1,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "cancelled -",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "W",
+                      "score": 147.98,
+                      "seed": 5,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in East Division",
+                      "result": "L",
+                      "score": 111.2,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 4th in Central Division",
+                      "result": "L",
+                      "score": 84.08,
+                      "seed": 6,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "The Juice Is Loose",
+                      "record": "8-6-0, 2nd in Central Division",
+                      "result": "W",
+                      "score": 160.46,
+                      "seed": 4,
+                      "teamId": 7
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "cancelled -",
+                      "record": "7-7-0, 3rd in Central Division",
+                      "result": "L",
+                      "score": 102.32,
+                      "seed": 5,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 1st in East Division",
+                      "result": "W",
+                      "score": 136.02,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "6-8-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 36.44,
+                      "seed": 8,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "6-8-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 92.92,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 92.4,
+                      "seed": 10,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Electric Bass",
+                      "record": "5-9-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 92.56,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Justin Herbert",
+                      "record": "4-10-0, 4th in West Division",
+                      "result": "W",
+                      "score": 62.54,
+                      "seed": 12,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "5-9-0, 4th in East Division",
+                      "result": "L",
+                      "score": 52.98,
+                      "seed": 11,
+                      "teamId": 3
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Electric Bass",
+                      "record": "5-9-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 70.78,
+                      "seed": 9,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "6-8-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 104.46,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Justin Herbert",
+                      "record": "4-10-0, 4th in West Division",
+                      "result": "L",
+                      "score": 48.64,
+                      "seed": 12,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "6-8-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 79.94,
+                      "seed": 8,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "5-9-0, 4th in East Division",
+                      "result": "L",
+                      "score": 90.8,
+                      "seed": 11,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 100.06,
+                      "seed": 10,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "6-8-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 96.34,
+                      "seed": 8,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "6-8-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 106.5,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Team Seattle",
+                      "record": "5-9-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 88.5,
+                      "seed": 10,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Electric Bass",
+                      "record": "5-9-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 130.2,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Justin Herbert",
+                      "record": "4-10-0, 4th in West Division",
+                      "result": "W",
+                      "score": 99.78,
+                      "seed": 12,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "5-9-0, 4th in East Division",
+                      "result": "L",
+                      "score": 82.24,
+                      "seed": 11,
+                      "teamId": 3
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Allen Wrenches",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 150.12,
+                      "seed": 5,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 124.18,
+                      "seed": 4,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 95.06,
+                      "seed": 6,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Violence Of The Lambs",
+                      "record": "9-5-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 115.9,
+                      "seed": 3,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 93.1,
+                      "seed": 5,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "Allen Wrenches",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 71.28,
+                      "seed": 1,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Violence Of The Lambs",
+                      "record": "9-5-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 127.8,
+                      "seed": 3,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "L",
+                      "score": 100.14,
+                      "seed": 2,
+                      "teamId": 11
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 75.36,
+                      "seed": 5,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "Violence Of The Lambs",
+                      "record": "9-5-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 117.9,
+                      "seed": 3,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 95.42,
+                      "seed": 6,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 86.46,
+                      "seed": 4,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "W",
+                      "score": 137.18,
+                      "seed": 2,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "Allen Wrenches",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 57.5,
+                      "seed": 1,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 135.76,
+                      "seed": 6,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 109.8,
+                      "seed": 4,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Drake @ London O2",
+                      "record": "7-7-0, 4th in West Division",
+                      "result": "W",
+                      "score": 132.3,
+                      "seed": 8,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 128.44,
+                      "seed": 7,
+                      "teamId": 9
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "W",
+                      "score": 124.32,
+                      "seed": 10,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "L",
+                      "score": 107.1,
+                      "seed": 9,
+                      "teamId": 10
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Diggs In a Blanket",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "W",
+                      "score": 131.2,
+                      "seed": 12,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Hunter Gatherer",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "L",
+                      "score": 47.82,
+                      "seed": 11,
+                      "teamId": 7
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "L",
+                      "score": 129.66,
+                      "seed": 10,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Drake @ London O2",
+                      "record": "7-7-0, 4th in West Division",
+                      "result": "W",
+                      "score": 148.36,
+                      "seed": 8,
+                      "teamId": 1
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Diggs In a Blanket",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "L",
+                      "score": 93.96,
+                      "seed": 12,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 163.36,
+                      "seed": 7,
+                      "teamId": 9
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Hunter Gatherer",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "W",
+                      "score": 81,
+                      "seed": 11,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "L",
+                      "score": 68.2,
+                      "seed": 9,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Drake @ London O2",
+                      "record": "7-7-0, 4th in West Division",
+                      "result": "W",
+                      "score": 109.88,
+                      "seed": 8,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Team Seattle",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 97.42,
+                      "seed": 7,
+                      "teamId": 9
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Hunter Gatherer",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "L",
+                      "score": 68.78,
+                      "seed": 11,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "THE 🅱️AKE SHOW",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "W",
+                      "score": 97.58,
+                      "seed": 10,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Diggs In a Blanket",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "L",
+                      "score": 64.9,
+                      "seed": 12,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "W",
+                      "score": 101.2,
+                      "seed": 9,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Rex",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "The Ascension To Evan(s)",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 97.76,
+                      "seed": 5,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Hurts Rent a Carr",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 133.42,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 106.58,
+                      "seed": 6,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "Bed Bath and Bijan",
+                      "record": "10-4-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 106.64,
+                      "seed": 3,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Your Wildest Fantasy (Football)",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Hurts Rent a Carr",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 141.24,
+                      "seed": 4,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "Team Rex",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 101.9,
+                      "seed": 1,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Bed Bath and Bijan",
+                      "record": "10-4-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 109.98,
+                      "seed": 3,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "Your Wildest Fantasy (Football)",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "L",
+                      "score": 76.52,
+                      "seed": 2,
+                      "teamId": 1
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Hurts Rent a Carr",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 99.48,
+                      "seed": 4,
+                      "teamId": 2
+                    },
+                    {
+                      "name": "Bed Bath and Bijan",
+                      "record": "10-4-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 179.04,
+                      "seed": 3,
+                      "teamId": 6
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 103.9,
+                      "seed": 6,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "The Ascension To Evan(s)",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "W",
+                      "score": 122.52,
+                      "seed": 5,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Your Wildest Fantasy (Football)",
+                      "record": "9-5-0, 1st in West Division",
+                      "result": "W",
+                      "score": 112.28,
+                      "seed": 2,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Team Rex",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 88.28,
+                      "seed": 1,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 119.7,
+                      "seed": 6,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "The Ascension To Evan(s)",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 105.9,
+                      "seed": 5,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "W",
+                      "score": 115.36,
+                      "seed": 8,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 81.7,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Judge Jeudy",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 96.92,
+                      "seed": 10,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "L",
+                      "score": 85.26,
+                      "seed": 9,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "The Adams Family",
+                      "record": "4-10-0, 6th in West Division",
+                      "result": "L",
+                      "score": 89.16,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "W",
+                      "score": 130.26,
+                      "seed": 11,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Judge Jeudy",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 142.12,
+                      "seed": 10,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "L",
+                      "score": 61.06,
+                      "seed": 8,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "L",
+                      "score": 144.52,
+                      "seed": 11,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 156.8,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "The Adams Family",
+                      "record": "4-10-0, 6th in West Division",
+                      "result": "L",
+                      "score": 93.68,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Team Ryan",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "W",
+                      "score": 149.12,
+                      "seed": 9,
+                      "teamId": 12
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Judge Jeudy",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "L",
+                      "score": 96.1,
+                      "seed": 10,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 111.5,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Team Ryan",
+                      "record": "5-9-0, 6th in East Division",
+                      "result": "L",
+                      "score": 99.56,
+                      "seed": 9,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Team Goff Balls",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "W",
+                      "score": 147.14,
+                      "seed": 8,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "The Adams Family",
+                      "record": "4-10-0, 6th in West Division",
+                      "result": "L",
+                      "score": 110.76,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "W",
+                      "score": 117.78,
+                      "seed": 11,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Pulled McCaff",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Rex",
+                      "record": "8-6-0, 4th in East Division",
+                      "result": "W",
+                      "score": 162.54,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 113.76,
+                      "seed": 4,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "DK's Adventures",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 112.4,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Goff Balls",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 129.1,
+                      "seed": 3,
+                      "teamId": 5
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Team Rex",
+                      "record": "8-6-0, 4th in East Division",
+                      "result": "W",
+                      "score": 152.22,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Pulled McCaff",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 102.62,
+                      "seed": 1,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Goff Balls",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 136.74,
+                      "seed": 3,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "W",
+                      "score": 183.24,
+                      "seed": 2,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Team Rex",
+                      "record": "8-6-0, 4th in East Division",
+                      "result": "L",
+                      "score": 132.98,
+                      "seed": 5,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Juulio Jones",
+                      "record": "8-6-0, 1st in West Division",
+                      "result": "W",
+                      "score": 162.16,
+                      "seed": 2,
+                      "teamId": 10
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "DK's Adventures",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 95.38,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 161.64,
+                      "seed": 4,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Goff Balls",
+                      "record": "9-5-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 106.5,
+                      "seed": 3,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Pulled McCaff",
+                      "record": "10-4-0, 1st in East Division",
+                      "result": "L",
+                      "score": 105.68,
+                      "seed": 1,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "DK's Adventures",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 107.42,
+                      "seed": 6,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 121.38,
+                      "seed": 4,
+                      "teamId": 8
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "LaPorta John",
+                      "record": "6-8-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 124.74,
+                      "seed": 8,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "L",
+                      "score": 116.86,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 140.26,
+                      "seed": 10,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "Moore Than A. Thielen",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "L",
+                      "score": 122.48,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Hall of Heroes",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "W",
+                      "score": 130.06,
+                      "seed": 12,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Phresh Meat",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "L",
+                      "score": 78.3,
+                      "seed": 11,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "L",
+                      "score": 110.3,
+                      "seed": 10,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "LaPorta John",
+                      "record": "6-8-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 161.68,
+                      "seed": 8,
+                      "teamId": 7
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Hall of Heroes",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "L",
+                      "score": 88.48,
+                      "seed": 12,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "W",
+                      "score": 110.98,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Phresh Meat",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "L",
+                      "score": 92,
+                      "seed": 11,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Moore Than A. Thielen",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "W",
+                      "score": 94.16,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "LaPorta John",
+                      "record": "6-8-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 128.38,
+                      "seed": 8,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 5th in East Division",
+                      "result": "L",
+                      "score": 107.3,
+                      "seed": 7,
+                      "teamId": 12
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "THE EMPIRE DID NOTHING WRONG!1",
+                      "record": "5-9-0, 4th in West Division",
+                      "result": "W",
+                      "score": 129.1,
+                      "seed": 10,
+                      "teamId": 11
+                    },
+                    {
+                      "name": "Moore Than A. Thielen",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "L",
+                      "score": 110.18,
+                      "seed": 9,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Hall of Heroes",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "L",
+                      "score": 92.14,
+                      "seed": 12,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "Phresh Meat",
+                      "record": "5-9-0, 5th in West Division",
+                      "result": "W",
+                      "score": 146.5,
+                      "seed": 11,
+                      "teamId": 9
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "podium": [],
+      "tiers": [
+        {
+          "name": "WINNER'S BRACKET",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Pukana Matatas",
+                      "record": "10-4-0, 1st in West Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 1,
+                      "teamId": 4
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 150.04,
+                      "seed": 5,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Eat The Boutte Like Groceries",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "L",
+                      "score": 128.72,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 108.48,
+                      "seed": 6,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 115.42,
+                      "seed": 3,
+                      "teamId": 8
+                    }
+                  ]
+                },
+                {
+                  "bye": true,
+                  "gameInfo": null,
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "OnlyFannins",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": null,
+                      "seed": 2,
+                      "teamId": 6
+                    },
+                    {
+                      "name": "BYE",
+                      "record": null,
+                      "result": "L",
+                      "score": null,
+                      "seed": null,
+                      "teamId": null
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "L",
+                      "score": 105.12,
+                      "seed": 5,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "Pukana Matatas",
+                      "record": "10-4-0, 1st in West Division",
+                      "result": "W",
+                      "score": 191,
+                      "seed": 1,
+                      "teamId": 4
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 2nd in East Division",
+                      "result": "W",
+                      "score": 111.9,
+                      "seed": 3,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "OnlyFannins",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 85.22,
+                      "seed": 2,
+                      "teamId": 6
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Rex On Rex",
+                      "record": "8-6-0, 2nd in East Division",
+                      "result": "L",
+                      "score": 118.68,
+                      "seed": 3,
+                      "teamId": 8
+                    },
+                    {
+                      "name": "Pukana Matatas",
+                      "record": "10-4-0, 1st in West Division",
+                      "result": "W",
+                      "score": 146.02,
+                      "seed": 1,
+                      "teamId": 4
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "CHAMPIONSHIP | NFL WEEK 17"
+            }
+          ]
+        },
+        {
+          "name": "WINNER'S CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 127.66,
+                      "seed": 6,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Eat The Boutte Like Groceries",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 138.88,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Wet Willies",
+                      "record": "7-7-0, 4th in East Division",
+                      "result": "W",
+                      "score": 105.58,
+                      "seed": 5,
+                      "teamId": 12
+                    },
+                    {
+                      "name": "OnlyFannins",
+                      "record": "9-5-0, 1st in East Division",
+                      "result": "L",
+                      "score": 84.58,
+                      "seed": 2,
+                      "teamId": 6
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": null,
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Juulio Jones",
+                      "record": "7-7-0, 2nd in West Division",
+                      "result": "L",
+                      "score": 100.78,
+                      "seed": 6,
+                      "teamId": 10
+                    },
+                    {
+                      "name": "Eat The Boutte Like Groceries",
+                      "record": "7-7-0, 3rd in East Division",
+                      "result": "W",
+                      "score": 121.36,
+                      "seed": 4,
+                      "teamId": 2
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": null
+            }
+          ]
+        },
+        {
+          "name": "CONSOLATION LADDER",
+          "rounds": [
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC1 - W to GmC4, L to GmC5",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Team Rex",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "W",
+                      "score": 143.64,
+                      "seed": 8,
+                      "teamId": 3
+                    },
+                    {
+                      "name": "Shayshawn Broccoli",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 72.9,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC2 - W to GmC4, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Goff Balls",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "L",
+                      "score": 79.3,
+                      "seed": 10,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Meet The Robinson's",
+                      "record": "6-8-0, 4th in West Division",
+                      "result": "W",
+                      "score": 116.86,
+                      "seed": 9,
+                      "teamId": 1
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC3 - W to GmC5, L to GmC6",
+                  "period": 15,
+                  "teams": [
+                    {
+                      "name": "Two-Point Conversion Therapy",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "W",
+                      "score": 127.7,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Kittle League",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "L",
+                      "score": 115.1,
+                      "seed": 11,
+                      "teamId": 7
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 1,
+              "roundLabel": "ROUND 1 | NFL WEEK 15"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC4 - W to GmC7, L to GmC8",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Meet The Robinson's",
+                      "record": "6-8-0, 4th in West Division",
+                      "result": "L",
+                      "score": 108.46,
+                      "seed": 9,
+                      "teamId": 1
+                    },
+                    {
+                      "name": "Team Rex",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "W",
+                      "score": 134.68,
+                      "seed": 8,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC5 - W to GmC7, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Two-Point Conversion Therapy",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "W",
+                      "score": 114.36,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Shayshawn Broccoli",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "L",
+                      "score": 94.6,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC6 - W to GmC8, L to GmC9",
+                  "period": 16,
+                  "teams": [
+                    {
+                      "name": "Kittle League",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "W",
+                      "score": 94.96,
+                      "seed": 11,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Goff Balls",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "L",
+                      "score": 80.1,
+                      "seed": 10,
+                      "teamId": 5
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 2,
+              "roundLabel": "ROUND 2 | NFL WEEK 16"
+            },
+            {
+              "games": [
+                {
+                  "bye": false,
+                  "gameInfo": "GmC7",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Two-Point Conversion Therapy",
+                      "record": "5-9-0, 6th in West Division",
+                      "result": "L",
+                      "score": 125.6,
+                      "seed": 12,
+                      "teamId": 9
+                    },
+                    {
+                      "name": "Team Rex",
+                      "record": "6-8-0, 5th in East Division",
+                      "result": "W",
+                      "score": 134.52,
+                      "seed": 8,
+                      "teamId": 3
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC8",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Kittle League",
+                      "record": "6-8-0, 5th in West Division",
+                      "result": "L",
+                      "score": 82.42,
+                      "seed": 11,
+                      "teamId": 7
+                    },
+                    {
+                      "name": "Meet The Robinson's",
+                      "record": "6-8-0, 4th in West Division",
+                      "result": "W",
+                      "score": 150.48,
+                      "seed": 9,
+                      "teamId": 1
+                    }
+                  ]
+                },
+                {
+                  "bye": false,
+                  "gameInfo": "GmC9",
+                  "period": 17,
+                  "teams": [
+                    {
+                      "name": "Goff Balls",
+                      "record": "6-8-0, 6th in East Division",
+                      "result": "L",
+                      "score": 50.7,
+                      "seed": 10,
+                      "teamId": 5
+                    },
+                    {
+                      "name": "Shayshawn Broccoli",
+                      "record": "7-7-0, 3rd in West Division",
+                      "result": "W",
+                      "score": 75.74,
+                      "seed": 7,
+                      "teamId": 11
+                    }
+                  ]
+                }
+              ],
+              "roundIndex": 3,
+              "roundLabel": "ROUND 3 | NFL WEEK 17"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

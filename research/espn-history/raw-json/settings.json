@@ -1,0 +1,7509 @@
+{
+  "leagueId": 416026,
+  "exportedAt": "2026-10-02",
+  "source": "Authenticated ESPN Fantasy web UI",
+  "data": {
+    "2017": {
+      "season": 2017,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 6, 2017 @ 1:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "17"
+            ],
+            [
+              "Total Starters",
+              "10"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "3",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST",
+            "CENTRAL"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Tom's Deflated Balls\nKAREEM THE DREAM\nThe Juice Is Loose\nTeam Seattle",
+              "Tom's Deflated Balls",
+              "KAREEM THE DREAM",
+              "The Juice Is Loose",
+              "Team Seattle",
+              "Acute Gronkitis\nRex On Rex\nTeam Subbukumar\nTeam Ryan",
+              "Acute Gronkitis",
+              "Rex On Rex",
+              "Team Subbukumar",
+              "Team Ryan",
+              "The Ballad of Younghoe Koo\nTeam Eckler\nRigga Please\nTHE EMPIRE DID NOTHING WRONG!1",
+              "The Ballad of Younghoe Koo",
+              "Team Eckler",
+              "Rigga Please",
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Tom's Deflated Balls"
+            ],
+            [
+              "KAREEM THE DREAM"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "Acute Gronkitis"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Subbukumar"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "The Ballad of Younghoe Koo"
+            ],
+            [
+              "Team Eckler"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Tom's Deflated Balls"
+            ],
+            [
+              "KAREEM THE DREAM"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Team Seattle"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Acute Gronkitis"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Subbukumar"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "The Ballad of Younghoe Koo"
+            ],
+            [
+              "Team Eckler"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Reset Each Week to Inverse Order of Standings"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 22, 2017 @ 5:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Use Keepers for 2017 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2018 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 19,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Head to Head Record"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s2"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Aug 28, 2018 @ 2:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Every 25 passing yards (PY25)\n1"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Every 10 rushing yards (RY10)\n1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Every 10 receiving yards (REY10)\n1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST",
+            "CENTRAL"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "The Ballad of Younghoe Koo\nTeam Goff Balls\nThe Juice Is Loose\nTeam Ryan",
+              "The Ballad of Younghoe Koo",
+              "Team Goff Balls",
+              "The Juice Is Loose",
+              "Team Ryan",
+              "Tom's Deflated Balls\nRex On Rex\nTeam Seattle\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Tom's Deflated Balls",
+              "Rex On Rex",
+              "Team Seattle",
+              "THE EMPIRE DID NOTHING WRONG!1",
+              "The Bake Show\nNewtonâs Law of Winning\nRigga Please\nJuulio Jones",
+              "The Bake Show",
+              "Newtonâs Law of Winning",
+              "Rigga Please",
+              "Juulio Jones"
+            ],
+            [
+              "The Ballad of Younghoe Koo"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Tom's Deflated Balls"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "The Bake Show"
+            ],
+            [
+              "Newtonâs Law of Winning"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "The Ballad of Younghoe Koo"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Tom's Deflated Balls"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "The Bake Show"
+            ],
+            [
+              "Newtonâs Law of Winning"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Reset Each Week to Inverse Order of Standings"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 21, 2018 @ 5:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "3 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Use Keepers for 2018 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2019 Season",
+              "Yes"
+            ],
+            [
+              "2019 Keepers Per Team",
+              "1"
+            ],
+            [
+              "2019 Keeper Lock Date",
+              "Aug 19, 2019 @ 5:00 AM GMT+8"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "13"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 19,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Total Points For"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s2"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Aug 26, 2019 @ 8:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Every 25 passing yards (PY25)\n1"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Every 10 rushing yards (RY10)\n1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Every 10 receiving yards (REY10)\n1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST",
+            "CENTRAL"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "The Guice Is Loose\nThe Bake Show\nRex On Rex\nTeam Ryan",
+              "The Guice Is Loose",
+              "The Bake Show",
+              "Rex On Rex",
+              "Team Ryan",
+              "Danny Dimes\nDavid Ants In My Eyes Johnson\nTeam Seattle\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Danny Dimes",
+              "David Ants In My Eyes Johnson",
+              "Team Seattle",
+              "THE EMPIRE DID NOTHING WRONG!1",
+              "Team Goff Balls\nRigga Please\nThe Juice Is Loose\nJuulio Jones",
+              "Team Goff Balls",
+              "Rigga Please",
+              "The Juice Is Loose",
+              "Juulio Jones"
+            ],
+            [
+              "The Guice Is Loose"
+            ],
+            [
+              "The Bake Show"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Danny Dimes"
+            ],
+            [
+              "David Ants In My Eyes Johnson"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "The Guice Is Loose"
+            ],
+            [
+              "The Bake Show"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Danny Dimes"
+            ],
+            [
+              "David Ants In My Eyes Johnson"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Reset Each Week to Inverse Order of Standings"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 22, 2019 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "3 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Use Keepers for 2019 Season",
+              "Yes"
+            ],
+            [
+              "2019 Keepers Per Team",
+              "1"
+            ],
+            [
+              "2019 Keeper Lock Date",
+              "Aug 26, 2019 @ 7:00 AM GMT+8"
+            ],
+            [
+              "2019 Keeper Designated Round",
+              "Beginning of Draft (Default)"
+            ],
+            [
+              "Use Keepers for 2020 Season",
+              "Yes"
+            ],
+            [
+              "2020 Keepers Per Team",
+              "1"
+            ],
+            [
+              "2020 Keeper Lock Date",
+              "Aug 19, 2020 @ 5:00 AM GMT+8"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "13"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 19,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Head to Head Record"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s2"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 7, 2020 @ 7:45 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST",
+            "CENTRAL"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Ninth Circle of Helaire\nTHE 🅱️AKE SHOW\nRex On Rex\nTeam Ryan",
+              "Ninth Circle of Helaire",
+              "THE 🅱️AKE SHOW",
+              "Rex On Rex",
+              "Team Ryan",
+              "Whats up Mahomie\nDavante's Inferno\nTeam Seattle\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Whats up Mahomie",
+              "Davante's Inferno",
+              "Team Seattle",
+              "THE EMPIRE DID NOTHING WRONG!1",
+              "Team Goff Balls\nRigga Please\nThe Juice Is Loose\nJuulio Jones",
+              "Team Goff Balls",
+              "Rigga Please",
+              "The Juice Is Loose",
+              "Juulio Jones"
+            ],
+            [
+              "Ninth Circle of Helaire"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Whats up Mahomie"
+            ],
+            [
+              "Davante's Inferno"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Ninth Circle of Helaire"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Whats up Mahomie"
+            ],
+            [
+              "Davante's Inferno"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Rigga Please"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Reset Each Week to Inverse Order of Standings"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 27, 2020 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "3 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "4"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Use Keepers for 2020 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2021 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "13"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 19,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Head to Head Record"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s5"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 7, 2021 @ 7:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Randomized One Hour Prior to Draft Time"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST",
+            "CENTRAL"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Electric Bass\nTHE 🅱️AKE SHOW\nRex On Rex\nTeam Ryan",
+              "Electric Bass",
+              "THE 🅱️AKE SHOW",
+              "Rex On Rex",
+              "Team Ryan",
+              "Justin Herbert\nStorm Coopers\nTeam Seattle\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Justin Herbert",
+              "Storm Coopers",
+              "Team Seattle",
+              "THE EMPIRE DID NOTHING WRONG!1",
+              "Team Goff Balls\ncancelled -\nThe Juice Is Loose\nJuulio Jones",
+              "Team Goff Balls",
+              "cancelled -",
+              "The Juice Is Loose",
+              "Juulio Jones"
+            ],
+            [
+              "Electric Bass"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Justin Herbert"
+            ],
+            [
+              "Storm Coopers"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "cancelled -"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Electric Bass"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Justin Herbert"
+            ],
+            [
+              "Storm Coopers"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "cancelled -"
+            ],
+            [
+              "The Juice Is Loose"
+            ],
+            [
+              "Juulio Jones"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Dec 3, 2021 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Use Keepers for 2021 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2022 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 19,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Head to Head Record"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s5"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Aug 31, 2022 @ 8:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "0"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Allen Wrenches\nTHE 🅱️AKE SHOW\nTeam Goff Balls\nDiggs In a Blanket\nRex On Rex\nTeam Ryan",
+              "Allen Wrenches",
+              "THE 🅱️AKE SHOW",
+              "Team Goff Balls",
+              "Diggs In a Blanket",
+              "Rex On Rex",
+              "Team Ryan",
+              "Drake @ London O2\nViolence Of The Lambs\nHunter Gatherer\nTeam Seattle\nJuulio Jones\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Drake @ London O2",
+              "Violence Of The Lambs",
+              "Hunter Gatherer",
+              "Team Seattle",
+              "Juulio Jones",
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Allen Wrenches"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Diggs In a Blanket"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Drake @ London O2"
+            ],
+            [
+              "Violence Of The Lambs"
+            ],
+            [
+              "Hunter Gatherer"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Allen Wrenches"
+            ],
+            [
+              "THE 🅱️AKE SHOW"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Diggs In a Blanket"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Drake @ London O2"
+            ],
+            [
+              "Violence Of The Lambs"
+            ],
+            [
+              "Hunter Gatherer"
+            ],
+            [
+              "Team Seattle"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Dec 2, 2022 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Use Keepers for 2022 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2023 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Head to Head Record"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s7"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 6, 2023 @ 8:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "No Limit"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Hurts Rent a Carr\nTeam Rex\nTeam Goff Balls\nBed Bath and Bijan\nRex On Rex\nTeam Ryan",
+              "Hurts Rent a Carr",
+              "Team Rex",
+              "Team Goff Balls",
+              "Bed Bath and Bijan",
+              "Rex On Rex",
+              "Team Ryan",
+              "Your Wildest Fantasy (Football)\nThe Ascension To Evan(s)\nJudge Jeudy\nThe Adams Family\nJuulio Jones\nTHE EMPIRE DID NOTHING WRONG!1",
+              "Your Wildest Fantasy (Football)",
+              "The Ascension To Evan(s)",
+              "Judge Jeudy",
+              "The Adams Family",
+              "Juulio Jones",
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Hurts Rent a Carr"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Bed Bath and Bijan"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ],
+            [
+              "Your Wildest Fantasy (Football)"
+            ],
+            [
+              "The Ascension To Evan(s)"
+            ],
+            [
+              "Judge Jeudy"
+            ],
+            [
+              "The Adams Family"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Hurts Rent a Carr"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Team Goff Balls"
+            ],
+            [
+              "Bed Bath and Bijan"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Team Ryan"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Your Wildest Fantasy (Football)"
+            ],
+            [
+              "The Ascension To Evan(s)"
+            ],
+            [
+              "Judge Jeudy"
+            ],
+            [
+              "The Adams Family"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Waivers"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Waiver Order",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Dec 1, 2023 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Use Keepers for 2023 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2024 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Total Points For"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s8"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 5, 2024 @ 8:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "No Limit"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Moore Than A. Thielen\nTeam Rex\nGoff Balls\nPulled McCaff\nRex On Rex\nWet Willies",
+              "Moore Than A. Thielen",
+              "Team Rex",
+              "Goff Balls",
+              "Pulled McCaff",
+              "Rex On Rex",
+              "Wet Willies",
+              "DK's Adventures\nHall of Heroes\nLaPorta John\nPhresh Meat\nJuulio Jones\nTHE EMPIRE DID NOTHING WRONG!1",
+              "DK's Adventures",
+              "Hall of Heroes",
+              "LaPorta John",
+              "Phresh Meat",
+              "Juulio Jones",
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ],
+            [
+              "Moore Than A. Thielen"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Goff Balls"
+            ],
+            [
+              "Pulled McCaff"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Wet Willies"
+            ],
+            [
+              "DK's Adventures"
+            ],
+            [
+              "Hall of Heroes"
+            ],
+            [
+              "LaPorta John"
+            ],
+            [
+              "Phresh Meat"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Moore Than A. Thielen"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Goff Balls"
+            ],
+            [
+              "Pulled McCaff"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Wet Willies"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "DK's Adventures"
+            ],
+            [
+              "Hall of Heroes"
+            ],
+            [
+              "LaPorta John"
+            ],
+            [
+              "Phresh Meat"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "THE EMPIRE DID NOTHING WRONG!1"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Free Agent Budget"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Player Acquisition Budget",
+              "100"
+            ],
+            [
+              "Minimum Offer",
+              "0"
+            ],
+            [
+              "Free Agent Budget Tiebreaker",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 29, 2024 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Use Keepers for 2024 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2025 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Total Points For"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s9"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Aug 29, 2025 @ 8:00 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "Yes"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "No Limit"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "Eat The Boutte Like Groceries\nTeam Rex\nGoff Balls\nOnlyFannins\nRex On Rex\nWet Willies",
+              "Eat The Boutte Like Groceries",
+              "Team Rex",
+              "Goff Balls",
+              "OnlyFannins",
+              "Rex On Rex",
+              "Wet Willies",
+              "Meet The Robinson's\nPukana Matatas\nKittle League\nTwo-Point Conversion Therapy\nJuulio Jones\nShayshawn Broccoli",
+              "Meet The Robinson's",
+              "Pukana Matatas",
+              "Kittle League",
+              "Two-Point Conversion Therapy",
+              "Juulio Jones",
+              "Shayshawn Broccoli"
+            ],
+            [
+              "Eat The Boutte Like Groceries"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Goff Balls"
+            ],
+            [
+              "OnlyFannins"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Wet Willies"
+            ],
+            [
+              "Meet The Robinson's"
+            ],
+            [
+              "Pukana Matatas"
+            ],
+            [
+              "Kittle League"
+            ],
+            [
+              "Two-Point Conversion Therapy"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "Shayshawn Broccoli"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "Eat The Boutte Like Groceries"
+            ],
+            [
+              "Team Rex"
+            ],
+            [
+              "Goff Balls"
+            ],
+            [
+              "OnlyFannins"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Wet Willies"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Meet The Robinson's"
+            ],
+            [
+              "Pukana Matatas"
+            ],
+            [
+              "Kittle League"
+            ],
+            [
+              "Two-Point Conversion Therapy"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "Shayshawn Broccoli"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Free Agent Budget"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Player Acquisition Budget",
+              "100"
+            ],
+            [
+              "Minimum Offer",
+              "0"
+            ],
+            [
+              "Free Agent Budget Tiebreaker",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Nov 28, 2025 @ 4:00 PM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Use Keepers for 2025 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2026 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Total Points For"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    },
+    "2026": {
+      "season": 2026,
+      "tables": [
+        {
+          "headers": [],
+          "index": 0,
+          "rows": [
+            [
+              "League Name",
+              "row fast eat ass s10"
+            ],
+            [
+              "Number of Teams",
+              "12"
+            ],
+            [
+              "Scoring Type",
+              "Head to Head Points, Point Per Reception"
+            ],
+            [
+              "Format",
+              "League Manager"
+            ],
+            [
+              "Make League Viewable to Public",
+              "No"
+            ],
+            [
+              "Auto Reactivate",
+              "No"
+            ],
+            [
+              "Lineup Protection",
+              "Off\nLineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 1,
+          "rows": [
+            [
+              "Draft Type",
+              "Snake"
+            ],
+            [
+              "Draft Date",
+              "Sep 9, 2026 @ 7:30 AM GMT+8"
+            ],
+            [
+              "Time Per Pick",
+              "90 seconds"
+            ],
+            [
+              "Draft Order",
+              "Manually Set by League Manager"
+            ],
+            [
+              "Allow Draft Pick Trading",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 2,
+          "rows": [
+            [
+              "Roster Size",
+              "16"
+            ],
+            [
+              "Total Starters",
+              "9"
+            ],
+            [
+              "Total on Bench",
+              "7 (1 IR)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "POSITION",
+            "STARTERS",
+            "MAXIMUMS"
+          ],
+          "index": 3,
+          "rows": [
+            [
+              "Quarterback (QB)",
+              "1",
+              "4"
+            ],
+            [
+              "Team Quarterback (TQB)",
+              "0",
+              "No Limit"
+            ],
+            [
+              "Running Back (RB)",
+              "2",
+              "8"
+            ],
+            [
+              "Running Back/Wide Receiver (RB/WR)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Wide Receiver (WR)",
+              "2",
+              "8"
+            ],
+            [
+              "Wide Receiver/Tight End (WR/TE)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Tight End (TE)",
+              "1",
+              "3"
+            ],
+            [
+              "Flex (FLEX)",
+              "1",
+              "N/A"
+            ],
+            [
+              "Superflex (SFLEX)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Tackle (DT)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive End (DE)",
+              "0",
+              "0"
+            ],
+            [
+              "Linebacker (LB)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Line (DL)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Cornerback (CB)",
+              "0",
+              "0"
+            ],
+            [
+              "Safety (S)",
+              "0",
+              "0"
+            ],
+            [
+              "Defensive Back (DB)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Defensive Player Utility (DP)",
+              "0",
+              "N/A"
+            ],
+            [
+              "Team Defense/Special Teams (D/ST)",
+              "1",
+              "3"
+            ],
+            [
+              "Place Kicker (K)",
+              "1",
+              "3"
+            ],
+            [
+              "Punter (P)",
+              "0",
+              "0"
+            ],
+            [
+              "Head Coach (HC)",
+              "0",
+              "0"
+            ],
+            [
+              "Bench (BE)",
+              "7",
+              "N/A"
+            ],
+            [
+              "Injured Reserve (IR)",
+              "1",
+              "N/A"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 4,
+          "rows": [
+            [
+              "Passing"
+            ],
+            [
+              "Passing Yards (PY)\n0.04"
+            ],
+            [
+              "TD Pass (PTD)\n4"
+            ],
+            [
+              "Interceptions Thrown (INT)\n-2"
+            ],
+            [
+              "2pt Passing Conversion (2PC)\n2"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 5,
+          "rows": [
+            [
+              "Rushing"
+            ],
+            [
+              "Rushing Yards (RY)\n0.1"
+            ],
+            [
+              "TD Rush (RTD)\n6"
+            ],
+            [
+              "2pt Rushing Conversion (2PR)\n2"
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 6,
+          "rows": [
+            [
+              "Receiving"
+            ],
+            [
+              "Receiving Yards (REY)\n0.1"
+            ],
+            [
+              "Each reception (REC)\n1"
+            ],
+            [
+              "TD Reception (RETD)\n6"
+            ],
+            [
+              "2pt Receiving Conversion (2PRE)\n2"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 7,
+          "rows": [
+            [
+              "Kicking"
+            ],
+            [
+              "Each PAT Made (PAT)\n1"
+            ],
+            [
+              "Total FG Missed (FGM)\n-1"
+            ],
+            [
+              "FG Made (0-39 yards) (FG0)\n3"
+            ],
+            [
+              "FG Made (40-49 yards) (FG40)\n4"
+            ],
+            [
+              "FG Made (50-59 yards) (FG50)\n5"
+            ],
+            [
+              "FG Made (60+ yards) (FG60)\n5"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 8,
+          "rows": [
+            [
+              "Team Defense / Special Teams"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              "Each Sack (SK)\n1"
+            ],
+            [
+              "Blocked Punt, PAT or FG (BLKK)\n2"
+            ],
+            [
+              "Each Interception (INT)\n2"
+            ],
+            [
+              "Each Fumble Recovered (FR)\n2"
+            ],
+            [
+              "Each Safety (SF)\n2"
+            ],
+            [
+              "0 points allowed (PA0)\n5"
+            ],
+            [
+              "1-6 points allowed (PA1)\n4"
+            ],
+            [
+              "7-13 points allowed (PA7)\n3"
+            ],
+            [
+              "14-17 points allowed (PA14)\n1"
+            ],
+            [
+              "28-34 points allowed (PA28)\n-1"
+            ],
+            [
+              "35-45 points allowed (PA35)\n-3"
+            ],
+            [
+              "46+ points allowed (PA46)\n-5"
+            ],
+            [
+              "Less than 100 total yards allowed (YA100)\n5"
+            ],
+            [
+              "100-199 total yards allowed (YA199)\n3"
+            ],
+            [
+              "200-299 total yards allowed (YA299)\n2"
+            ],
+            [
+              "350-399 total yards allowed (YA399)\n-1"
+            ],
+            [
+              "400-449 total yards allowed (YA449)\n-3"
+            ],
+            [
+              "450-499 total yards allowed (YA499)\n-5"
+            ],
+            [
+              "500-549 total yards allowed (YA549)\n-6"
+            ],
+            [
+              "550+ total yards allowed (YA550)\n-7"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 9,
+          "rows": [
+            [
+              "Miscellaneous"
+            ],
+            [
+              "Kickoff Return TD (KRTD)\n6"
+            ],
+            [
+              "Punt Return TD (PRTD)\n6"
+            ],
+            [
+              "Fumble Recovered for TD (FTD)\n6"
+            ],
+            [
+              "Total Fumbles Lost (FUML)\n-2"
+            ],
+            [
+              "Interception Return TD (INTTD)\n6"
+            ],
+            [
+              "Fumble Return TD (FRTD)\n6"
+            ],
+            [
+              "Blocked Punt or FG return for TD (BLKKRTD)\n6"
+            ],
+            [
+              "2pt Return (2PTRET)\n2"
+            ],
+            [
+              "1pt Safety (1PSF)\n1"
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "EAST",
+            "WEST"
+          ],
+          "index": 10,
+          "rows": [
+            [
+              "You May Kiss McBride\nMcConkey Kong\nThe Price is Wrong\nRex On Rex\nJuulio Jones\nWet Willies",
+              "You May Kiss McBride",
+              "McConkey Kong",
+              "The Price is Wrong",
+              "Rex On Rex",
+              "Juulio Jones",
+              "Wet Willies",
+              "Peloton Pickens\nGibbs Me Moore\nJacks On - Jax Off\nKittle League\nLove Hurts\nShayshawn Broccoli",
+              "Peloton Pickens",
+              "Gibbs Me Moore",
+              "Jacks On - Jax Off",
+              "Kittle League",
+              "Love Hurts",
+              "Shayshawn Broccoli"
+            ],
+            [
+              "You May Kiss McBride"
+            ],
+            [
+              "McConkey Kong"
+            ],
+            [
+              "The Price is Wrong"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "Wet Willies"
+            ],
+            [
+              "Peloton Pickens"
+            ],
+            [
+              "Gibbs Me Moore"
+            ],
+            [
+              "Jacks On - Jax Off"
+            ],
+            [
+              "Kittle League"
+            ],
+            [
+              "Love Hurts"
+            ],
+            [
+              "Shayshawn Broccoli"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 11,
+          "rows": [
+            [
+              "You May Kiss McBride"
+            ],
+            [
+              "McConkey Kong"
+            ],
+            [
+              "The Price is Wrong"
+            ],
+            [
+              "Rex On Rex"
+            ],
+            [
+              "Juulio Jones"
+            ],
+            [
+              "Wet Willies"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 12,
+          "rows": [
+            [
+              "Peloton Pickens"
+            ],
+            [
+              "Gibbs Me Moore"
+            ],
+            [
+              "Jacks On - Jax Off"
+            ],
+            [
+              "Kittle League"
+            ],
+            [
+              "Love Hurts"
+            ],
+            [
+              "Shayshawn Broccoli"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 13,
+          "rows": [
+            [
+              "Observe ESPN's Undroppable Players List",
+              "Yes"
+            ],
+            [
+              "Player Universe",
+              "NFL"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 14,
+          "rows": [
+            [
+              "Lineup Changes",
+              "Lock individually at Scheduled Gametime"
+            ],
+            [
+              "Player Acquisition System",
+              "Free Agent Budget"
+            ],
+            [
+              "Season Acquisition Limit",
+              "No Limit"
+            ],
+            [
+              "Waiver Period",
+              "1 Day"
+            ],
+            [
+              "Player Acquisition Budget",
+              "100"
+            ],
+            [
+              "Minimum Offer",
+              "0"
+            ],
+            [
+              "Free Agent Budget Tiebreaker",
+              "Move to Last After Claim, Never Reset Order"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 15,
+          "rows": [
+            [
+              "Trade Limit",
+              "No Limit"
+            ],
+            [
+              "Trade Deadline",
+              "Oct 29, 2026 @ 1:00 AM GMT+8"
+            ],
+            [
+              "Trade Review Period",
+              "2 Days"
+            ],
+            [
+              "Votes Required to Veto Trade",
+              "6"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 16,
+          "rows": [
+            [
+              "Use Keepers for 2026 Season",
+              "No"
+            ],
+            [
+              "Use Keepers for 2027 Season",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 17,
+          "rows": [
+            [
+              "Start of Regular Season",
+              "NFL Week 1 (Start of Season)"
+            ],
+            [
+              "Weeks Per Matchup",
+              "1"
+            ],
+            [
+              "Regular Season Matchups",
+              "14"
+            ],
+            [
+              "Matchup Tie Breaker",
+              "No tie breakers"
+            ],
+            [
+              "Home Field Advantage",
+              "None"
+            ],
+            [
+              "Bonus Wins and Losses",
+              "No"
+            ]
+          ]
+        },
+        {
+          "headers": [],
+          "index": 18,
+          "rows": [
+            [
+              "Playoff Teams",
+              "6"
+            ],
+            [
+              "Weeks In Round 1 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Round 2 Playoff Matchup",
+              "1"
+            ],
+            [
+              "Weeks In Championship Round",
+              "1"
+            ],
+            [
+              "Playoff Seeding Tie Breaker",
+              "Total Points For"
+            ],
+            [
+              "Playoff Home Field Advantage",
+              "None"
+            ],
+            [
+              "Allow for Playoff Bracket Reseeding",
+              "Off"
+            ],
+            [
+              "Lock Transactions for Eliminated Teams During Playoffs",
+              "No\nTo edit, go to Settings > Transactions and Keepers"
+            ],
+            [
+              "Consolation Ladder",
+              "Yes"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

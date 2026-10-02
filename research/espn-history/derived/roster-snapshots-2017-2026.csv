@@ -1,0 +1,2393 @@
+season,fantasy_team,record,acquisition,name,position,proTeam,slot,status
+2017,The Ballad Of Younghoe Koo,11-3-0,,Jacoby Brissett,QB,Ind,QB,
+2017,The Ballad Of Younghoe Koo,11-3-0,,"LeSean McCoy
+Q",RB,Buf,RB,Q
+2017,The Ballad Of Younghoe Koo,11-3-0,,"Ezekiel Elliott
+Q",RB,Dal,RB,Q
+2017,The Ballad Of Younghoe Koo,11-3-0,,Keenan Allen,WR,LAC,WR,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Larry Fitzgerald,WR,Ari,WR,
+2017,The Ballad Of Younghoe Koo,11-3-0,,"Ted Ginn Jr.
+IR",WR,NO,WR,IR
+2017,The Ballad Of Younghoe Koo,11-3-0,,Benjamin Watson,TE,NO,TE,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Kenyan Drake,RB,Mia,FLEX,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Patriots D/ST,D/ST,NE,D/ST,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Ryan Succop,K,Ten,K,
+2017,The Ballad Of Younghoe Koo,11-3-0,,"Tyreek Hill
+Q",WR,KC,Bench,Q
+2017,The Ballad Of Younghoe Koo,11-3-0,,Theo Riddick,RB,Det,Bench,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Zach Ertz,TE,Phi,Bench,
+2017,The Ballad Of Younghoe Koo,11-3-0,,"Marqise Lee
+IR",WR,Jax,Bench,IR
+2017,The Ballad Of Younghoe Koo,11-3-0,,Kenny Stills,WR,Mia,Bench,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Rams D/ST,D/ST,LAR,Bench,
+2017,The Ballad Of Younghoe Koo,11-3-0,,Trey Burton,TE,Chi,Bench,
+2017,The Ballad Of Younghoe Koo,11-3-0,,,,,IR,
+2017,Tom's Deflated Balls,8-6-0,,Drew Brees,QB,NO,QB,
+2017,Tom's Deflated Balls,8-6-0,,Lamar Miller,RB,Hou,RB,
+2017,Tom's Deflated Balls,8-6-0,,Dion Lewis,RB,Ten,RB,
+2017,Tom's Deflated Balls,8-6-0,,T.Y. Hilton,WR,Ind,WR,
+2017,Tom's Deflated Balls,8-6-0,,Michael Thomas,WR,NO,WR,
+2017,Tom's Deflated Balls,8-6-0,,"Josh Doctson
+Q",WR,Wsh,WR,Q
+2017,Tom's Deflated Balls,8-6-0,,"Greg Olsen
+IR",TE,Car,TE,IR
+2017,Tom's Deflated Balls,8-6-0,,Giovani Bernard,RB,Cin,FLEX,
+2017,Tom's Deflated Balls,8-6-0,,Redskins D/ST,D/ST,Wsh,D/ST,
+2017,Tom's Deflated Balls,8-6-0,,Josh Lambo,K,Jax,K,
+2017,Tom's Deflated Balls,8-6-0,,"Le'Veon Bell
+Q",RB,Pit,Bench,Q
+2017,Tom's Deflated Balls,8-6-0,,Sterling Shepard,WR,NYG,Bench,
+2017,Tom's Deflated Balls,8-6-0,,Robby Anderson,WR,NYJ,Bench,
+2017,Tom's Deflated Balls,8-6-0,,Charles Clay,TE,Buf,Bench,
+2017,Tom's Deflated Balls,8-6-0,,"Joe Flacco
+Q",QB,Bal,Bench,Q
+2017,Tom's Deflated Balls,8-6-0,,Tyrod Taylor,QB,Cle,Bench,
+2017,Tom's Deflated Balls,8-6-0,,"Stephen Hauschka
+Q",K,Buf,Bench,Q
+2017,Tom's Deflated Balls,8-6-0,,,,,IR,
+2017,Rigga Please,9-5-0,,Matt Ryan,QB,Atl,QB,
+2017,Rigga Please,9-5-0,,"Jerick McKinnon
+IR",RB,SF,RB,IR
+2017,Rigga Please,9-5-0,,Wayne Gallman,RB,NYG,RB,
+2017,Rigga Please,9-5-0,,Amari Cooper,WR,Oak,WR,
+2017,Rigga Please,9-5-0,,"Will Fuller V
+IR",WR,Hou,WR,IR
+2017,Rigga Please,9-5-0,,"Martavis Bryant
+IR",WR,Pit,WR,IR
+2017,Rigga Please,9-5-0,,Jason Witten,TE,Dal,TE,
+2017,Rigga Please,9-5-0,,DeVante Parker,WR,Mia,FLEX,
+2017,Rigga Please,9-5-0,,Lions D/ST,D/ST,Det,D/ST,
+2017,Rigga Please,9-5-0,,Robbie Gould,K,SF,K,
+2017,Rigga Please,9-5-0,,Todd Gurley II,RB,LAR,Bench,
+2017,Rigga Please,9-5-0,,"Emmanuel Sanders
+IR",WR,Den,Bench,IR
+2017,Rigga Please,9-5-0,,"DeSean Jackson
+Q",WR,TB,Bench,Q
+2017,Rigga Please,9-5-0,,Randall Cobb,WR,GB,Bench,
+2017,Rigga Please,9-5-0,,Nick Foles,QB,Phi,Bench,
+2017,Rigga Please,9-5-0,,Corey Coleman,WR,Cle,Bench,
+2017,Rigga Please,9-5-0,,Jesse James,TE,Pit,Bench,
+2017,Rigga Please,9-5-0,,Antonio Brown,WR,Pit,IR,
+2017,KAREEM THE DREAM,10-4-0,,Cam Newton,QB,Car,QB,
+2017,KAREEM THE DREAM,10-4-0,,Mark Ingram,RB,NO,RB,
+2017,KAREEM THE DREAM,10-4-0,,"Alex Collins
+IR",RB,Bal,RB,IR
+2017,KAREEM THE DREAM,10-4-0,,"A.J. Green
+IR",WR,Cin,WR,IR
+2017,KAREEM THE DREAM,10-4-0,,Michael Crabtree,WR,Bal,WR,
+2017,KAREEM THE DREAM,10-4-0,,"Marvin Jones Jr.
+IR",WR,Det,WR,IR
+2017,KAREEM THE DREAM,10-4-0,,"Delanie Walker
+IR",TE,Ten,TE,IR
+2017,KAREEM THE DREAM,10-4-0,,Jordan Howard,RB,Chi,FLEX,
+2017,KAREEM THE DREAM,10-4-0,,Steelers D/ST,D/ST,Pit,D/ST,
+2017,KAREEM THE DREAM,10-4-0,,Harrison Butker,K,KC,K,
+2017,KAREEM THE DREAM,10-4-0,,Kareem Hunt,RB,KC,Bench,
+2017,KAREEM THE DREAM,10-4-0,,"Sammy Watkins
+Q",WR,KC,Bench,Q
+2017,KAREEM THE DREAM,10-4-0,,Dak Prescott,QB,Dal,Bench,
+2017,KAREEM THE DREAM,10-4-0,,Ravens D/ST,D/ST,Bal,Bench,
+2017,KAREEM THE DREAM,10-4-0,,Case Keenum,QB,Den,Bench,
+2017,KAREEM THE DREAM,10-4-0,,Dede Westbrook,WR,Jax,Bench,
+2017,KAREEM THE DREAM,10-4-0,,Keelan Cole,WR,Jax,Bench,
+2017,KAREEM THE DREAM,10-4-0,,,,,IR,
+2017,Rex On Rex,8-6-0,,Jameis Winston,QB,TB,QB,
+2017,Rex On Rex,8-6-0,,Christian McCaffrey,RB,Car,RB,
+2017,Rex On Rex,8-6-0,,Samaje Perine,RB,Wsh,RB,
+2017,Rex On Rex,8-6-0,,Mike Evans,WR,TB,WR,
+2017,Rex On Rex,8-6-0,,Mohamed Sanu,WR,Atl,WR,
+2017,Rex On Rex,8-6-0,,Josh Gordon,WR,Cle,WR,
+2017,Rex On Rex,8-6-0,,Evan Engram,TE,NYG,TE,
+2017,Rex On Rex,8-6-0,,Tevin Coleman,RB,Atl,FLEX,
+2017,Rex On Rex,8-6-0,,Broncos D/ST,D/ST,Den,D/ST,
+2017,Rex On Rex,8-6-0,,Matt Bryant,K,Atl,K,
+2017,Rex On Rex,8-6-0,,"Jay Ajayi
+IR",RB,Phi,Bench,IR
+2017,Rex On Rex,8-6-0,,Davante Adams,WR,GB,Bench,
+2017,Rex On Rex,8-6-0,,Kyle Rudolph,TE,Min,Bench,
+2017,Rex On Rex,8-6-0,,Ameer Abdullah,RB,Det,Bench,
+2017,Rex On Rex,8-6-0,,Danny Amendola,WR,Mia,Bench,
+2017,Rex On Rex,8-6-0,,Titans D/ST,D/ST,Ten,Bench,
+2017,Rex On Rex,8-6-0,,Blake Bortles,QB,Jax,Bench,
+2017,Rex On Rex,8-6-0,,,,,IR,
+2017,The Juice Is Loose,9-5-0,,Kirk Cousins,QB,Min,QB,
+2017,The Juice Is Loose,9-5-0,,Leonard Fournette,RB,Jax,RB,
+2017,The Juice Is Loose,9-5-0,,"Marshawn Lynch
+IR",RB,Oak,RB,IR
+2017,The Juice Is Loose,9-5-0,,Brandin Cooks,WR,LAR,WR,
+2017,The Juice Is Loose,9-5-0,,"DeAndre Hopkins
+Q",WR,Hou,WR,Q
+2017,The Juice Is Loose,9-5-0,,"Mike Wallace
+IR",WR,Phi,WR,IR
+2017,The Juice Is Loose,9-5-0,,"Jack Doyle
+IR",TE,Ind,TE,IR
+2017,The Juice Is Loose,9-5-0,,Matt Forte,RB,NYJ,FLEX,
+2017,The Juice Is Loose,9-5-0,,Vikings D/ST,D/ST,Min,D/ST,
+2017,The Juice Is Loose,9-5-0,,Jake Elliott,K,Phi,K,
+2017,The Juice Is Loose,9-5-0,,Adam Vinatieri,K,Ind,Bench,
+2017,The Juice Is Loose,9-5-0,,Jamaal Charles,RB,Den,Bench,
+2017,The Juice Is Loose,9-5-0,,Julius Thomas,TE,Mia,Bench,
+2017,The Juice Is Loose,9-5-0,,Demarcus Robinson,WR,KC,Bench,
+2017,The Juice Is Loose,9-5-0,,"Jimmy Garoppolo
+IR",QB,SF,Bench,IR
+2017,The Juice Is Loose,9-5-0,,"Brandon LaFell
+IR",WR,Cin,Bench,IR
+2017,The Juice Is Loose,9-5-0,,,,,Bench,
+2017,The Juice Is Loose,9-5-0,,"Tyler Eifert
+IR",TE,Cin,IR,IR
+2017,Team Seattle,3-11-0,,Russell Wilson,QB,Sea,QB,
+2017,Team Seattle,3-11-0,,"Melvin Gordon
+Q",RB,LAC,RB,Q
+2017,Team Seattle,3-11-0,,Duke Johnson Jr.,RB,Cle,RB,
+2017,Team Seattle,3-11-0,,Tyler Lockett,WR,Sea,WR,
+2017,Team Seattle,3-11-0,,Cole Beasley,WR,Dal,WR,
+2017,Team Seattle,3-11-0,,Nelson Agholor,WR,Phi,WR,
+2017,Team Seattle,3-11-0,,Jimmy Graham,TE,GB,TE,
+2017,Team Seattle,3-11-0,,Orleans Darkwa,RB,NYG,FLEX,
+2017,Team Seattle,3-11-0,,Eagles D/ST,D/ST,Phi,D/ST,
+2017,Team Seattle,3-11-0,,Wil Lutz,K,NO,K,
+2017,Team Seattle,3-11-0,,Mike Gillislee,RB,NE,Bench,
+2017,Team Seattle,3-11-0,,Eric Decker,WR,Ten,Bench,
+2017,Team Seattle,3-11-0,,"Shane Vereen
+Q",RB,NYG,Bench,Q
+2017,Team Seattle,3-11-0,,Ed Dickson,TE,Sea,Bench,
+2017,Team Seattle,3-11-0,,Cardinals D/ST,D/ST,Ari,Bench,
+2017,Team Seattle,3-11-0,,Robert Woods,WR,LAR,Bench,
+2017,Team Seattle,3-11-0,,Tarik Cohen,RB,Chi,Bench,
+2017,Team Seattle,3-11-0,,,,,IR,
+2017,Acute Gronkitis,5-9-0,,Philip Rivers,QB,LAC,QB,
+2017,Acute Gronkitis,5-9-0,,"Devonta Freeman
+IR",RB,Atl,RB,IR
+2017,Acute Gronkitis,5-9-0,,C.J. Anderson,RB,Den,RB,
+2017,Acute Gronkitis,5-9-0,,Kelvin Benjamin,WR,Buf,WR,
+2017,Acute Gronkitis,5-9-0,,Golden Tate,WR,Det,WR,
+2017,Acute Gronkitis,5-9-0,,Rishard Matthews,WR,Ten,WR,
+2017,Acute Gronkitis,5-9-0,,Rob Gronkowski,TE,NE,TE,
+2017,Acute Gronkitis,5-9-0,,"Bilal Powell
+IR",RB,NYJ,FLEX,IR
+2017,Acute Gronkitis,5-9-0,,Chargers D/ST,D/ST,LAC,D/ST,
+2017,Acute Gronkitis,5-9-0,,Justin Tucker,K,Bal,K,
+2017,Acute Gronkitis,5-9-0,,James White,RB,NE,Bench,
+2017,Acute Gronkitis,5-9-0,,Jared Cook,TE,Oak,Bench,
+2017,Acute Gronkitis,5-9-0,,Javorius Allen,RB,Bal,Bench,
+2017,Acute Gronkitis,5-9-0,,Jared Goff,QB,LAR,Bench,
+2017,Acute Gronkitis,5-9-0,,Chris Boswell,K,Pit,Bench,
+2017,Acute Gronkitis,5-9-0,,Jermaine Kearse,WR,NYJ,Bench,
+2017,Acute Gronkitis,5-9-0,,Ryan Grant,WR,Ind,Bench,
+2017,Acute Gronkitis,5-9-0,,,,,IR,
+2017,Team Ryan,7-7-0,,Derek Carr,QB,Oak,QB,
+2017,Team Ryan,7-7-0,,Carlos Hyde,RB,Cle,RB,
+2017,Team Ryan,7-7-0,,Alvin Kamara,RB,NO,RB,
+2017,Team Ryan,7-7-0,,"Doug Baldwin
+Q",WR,Sea,WR,Q
+2017,Team Ryan,7-7-0,,Jarvis Landry,WR,Cle,WR,
+2017,Team Ryan,7-7-0,,"Cooper Kupp
+IR",WR,LAR,WR,IR
+2017,Team Ryan,7-7-0,,"Austin Hooper
+Q",TE,Atl,TE,Q
+2017,Team Ryan,7-7-0,,Alshon Jeffery,WR,Phi,FLEX,
+2017,Team Ryan,7-7-0,,Falcons D/ST,D/ST,Atl,D/ST,
+2017,Team Ryan,7-7-0,,Nick Rose,K,LAC,K,
+2017,Team Ryan,7-7-0,,Danny Woodhead,RB,Bal,Bench,
+2017,Team Ryan,7-7-0,,Frank Gore,RB,Mia,Bench,
+2017,Team Ryan,7-7-0,,"Hunter Henry
+O",TE,LAC,Bench,O
+2017,Team Ryan,7-7-0,,"Ben Roethlisberger
+Q",QB,Pit,Bench,Q
+2017,Team Ryan,7-7-0,,DeAndre Washington,RB,Oak,Bench,
+2017,Team Ryan,7-7-0,,Chris Johnson,RB,Ari,Bench,
+2017,Team Ryan,7-7-0,,Kerwynn Williams,RB,Ari,Bench,
+2017,Team Ryan,7-7-0,,David Johnson,RB,Ari,IR,
+2017,Team Eckler,2-12-0,,"Andy Dalton
+IR",QB,Cin,QB,IR
+2017,Team Eckler,2-12-0,,DeMarco Murray,RB,Ten,RB,
+2017,Team Eckler,2-12-0,,Derrick Henry,RB,Ten,RB,
+2017,Team Eckler,2-12-0,,Jordy Nelson,WR,Oak,WR,
+2017,Team Eckler,2-12-0,,Stefon Diggs,WR,Min,WR,
+2017,Team Eckler,2-12-0,,"Paul Richardson
+IR",WR,Wsh,WR,IR
+2017,Team Eckler,2-12-0,,Coby Fleener,TE,NO,TE,
+2017,Team Eckler,2-12-0,,JuJu Smith-Schuster,WR,Pit,FLEX,
+2017,Team Eckler,2-12-0,,Jaguars D/ST,D/ST,Jax,D/ST,
+2017,Team Eckler,2-12-0,,Blair Walsh,K,Sea,K,
+2017,Team Eckler,2-12-0,,"Isaiah Crowell
+Q",RB,NYJ,Bench,Q
+2017,Team Eckler,2-12-0,,Ty Montgomery,RB,GB,Bench,
+2017,Team Eckler,2-12-0,,Allen Hurns,WR,Dal,Bench,
+2017,Team Eckler,2-12-0,,Damien Williams,RB,KC,Bench,
+2017,Team Eckler,2-12-0,,Marquise Goodwin,WR,SF,Bench,
+2017,Team Eckler,2-12-0,,Travis Benjamin,WR,LAC,Bench,
+2017,Team Eckler,2-12-0,,"Matt Breida
+Q",RB,SF,Bench,Q
+2017,Team Eckler,2-12-0,,,,,IR,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Tom Brady,QB,NE,QB,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Doug Martin,RB,Oak,RB,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Jamaal Williams,RB,GB,RB,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Julio Jones,WR,Atl,WR,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,"Dez Bryant
+IR",WR,Dal,WR,IR
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Adam Thielen,WR,Min,WR,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Travis Kelce,TE,KC,TE,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Latavius Murray,RB,Min,FLEX,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Bengals D/ST,D/ST,Cin,D/ST,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Matt Prater,K,Det,K,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Joe Mixon,RB,Cin,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Chris Hogan,WR,NE,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,John Brown,WR,Bal,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Zay Jones,WR,Buf,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Jacquizz Rodgers,RB,TB,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,"Jeremy Hill
+IR",RB,NE,Bench,IR
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,Trent Taylor,WR,SF,Bench,
+2017,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,,,,IR,
+2017,Team Subbukumar,5-9-0,,Matthew Stafford,QB,Det,QB,
+2017,Team Subbukumar,5-9-0,,"Jonathan Stewart
+IR",RB,NYG,RB,IR
+2017,Team Subbukumar,5-9-0,,Rex Burkhead,RB,NE,RB,
+2017,Team Subbukumar,5-9-0,,Devin Funchess,WR,Car,WR,
+2017,Team Subbukumar,5-9-0,,J.J. Nelson,WR,Ari,WR,
+2017,Team Subbukumar,5-9-0,,Bennie Fowler III,WR,Den,WR,
+2017,Team Subbukumar,5-9-0,,"Jordan Reed
+D",TE,Wsh,TE,D
+2017,Team Subbukumar,5-9-0,,Cameron Brate,TE,TB,FLEX,
+2017,Team Subbukumar,5-9-0,,Colts D/ST,D/ST,Ind,D/ST,
+2017,Team Subbukumar,5-9-0,,Stephen Gostkowski,K,NE,K,
+2017,Team Subbukumar,5-9-0,,Demaryius Thomas,WR,Den,Bench,
+2017,Team Subbukumar,5-9-0,,Jamison Crowder,WR,Wsh,Bench,
+2017,Team Subbukumar,5-9-0,,Jeremy Maclin,WR,Bal,Bench,
+2017,Team Subbukumar,5-9-0,,Seahawks D/ST,D/ST,Sea,Bench,
+2017,Team Subbukumar,5-9-0,,LeGarrette Blount,RB,Det,Bench,
+2017,Team Subbukumar,5-9-0,,Kendall Wright,WR,Min,Bench,
+2017,Team Subbukumar,5-9-0,,Greg Zuerlein,K,LAR,Bench,
+2017,Team Subbukumar,5-9-0,,Aaron Rodgers,QB,GB,IR,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Deshaun Watson,QB,Hou,QB,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Melvin Gordon,RB,LAC,RB,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Chris Carson,RB,Sea,RB,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Antonio Brown,WR,Pit,WR,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,JuJu Smith-Schuster,WR,Pit,WR,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Jared Cook,TE,Oak,TE,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Jamaal Williams,RB,GB,FLEX,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Broncos D/ST,D/ST,Den,D/ST,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Wil Lutz,K,NO,K,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Larry Fitzgerald,WR,Ari,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,James White,RB,NE,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,"Philip Rivers
+Q",QB,LAC,Bench,Q
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Vikings D/ST,D/ST,Min,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Spencer Ware,RB,KC,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Justin Jackson,RB,LAC,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,Elijah McGuire,RB,NYJ,Bench,
+2018,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,,,,IR,
+2018,Team Goff Balls,8-5-0,,Baker Mayfield,QB,Cle,QB,
+2018,Team Goff Balls,8-5-0,,Nick Chubb,RB,Cle,RB,
+2018,Team Goff Balls,8-5-0,,Ezekiel Elliott,RB,Dal,RB,
+2018,Team Goff Balls,8-5-0,,"Dante Pettis
+IR",WR,SF,WR,IR
+2018,Team Goff Balls,8-5-0,,DaeSean Hamilton,WR,Den,WR,
+2018,Team Goff Balls,8-5-0,,Evan Engram,TE,NYG,TE,
+2018,Team Goff Balls,8-5-0,,Joe Mixon,RB,Cin,FLEX,
+2018,Team Goff Balls,8-5-0,,Colts D/ST,D/ST,Ind,D/ST,
+2018,Team Goff Balls,8-5-0,,Mike Badgley,K,LAC,K,
+2018,Team Goff Balls,8-5-0,,David Njoku,TE,Cle,Bench,
+2018,Team Goff Balls,8-5-0,,Lamar Jackson,QB,Bal,Bench,
+2018,Team Goff Balls,8-5-0,,Adam Humphries,WR,TB,Bench,
+2018,Team Goff Balls,8-5-0,,Curtis Samuel,WR,Car,Bench,
+2018,Team Goff Balls,8-5-0,,Josh Allen,QB,Buf,Bench,
+2018,Team Goff Balls,8-5-0,,Tim Patrick,WR,Den,Bench,
+2018,Team Goff Balls,8-5-0,,Damien Williams,RB,KC,Bench,
+2018,Team Goff Balls,8-5-0,,James Conner,RB,Pit,IR,
+2018,The Bake Show,10-2-1,,Patrick Mahomes,QB,KC,QB,
+2018,The Bake Show,10-2-1,,Christian McCaffrey,RB,Car,RB,
+2018,The Bake Show,10-2-1,,Jaylen Samuels,RB,Pit,RB,
+2018,The Bake Show,10-2-1,,John Ross,WR,Cin,WR,
+2018,The Bake Show,10-2-1,,Mohamed Sanu,WR,Atl,WR,
+2018,The Bake Show,10-2-1,,Zach Ertz,TE,Phi,TE,
+2018,The Bake Show,10-2-1,,"Matt Breida
+IR",RB,SF,FLEX,IR
+2018,The Bake Show,10-2-1,,Falcons D/ST,D/ST,Atl,D/ST,
+2018,The Bake Show,10-2-1,,Stephen Gostkowski,K,NE,K,
+2018,The Bake Show,10-2-1,,"Odell Beckham Jr.
+Q",WR,NYG,Bench,Q
+2018,The Bake Show,10-2-1,,"Josh Gordon
+O",WR,NE,Bench,O
+2018,The Bake Show,10-2-1,,Ben Roethlisberger,QB,Pit,Bench,
+2018,The Bake Show,10-2-1,,"Aaron Jones
+IR",RB,GB,Bench,IR
+2018,The Bake Show,10-2-1,,Chiefs D/ST,D/ST,KC,Bench,
+2018,The Bake Show,10-2-1,,Ryan Succop,K,Ten,Bench,
+2018,The Bake Show,10-2-1,,Nyheim Hines,RB,Ind,Bench,
+2018,The Bake Show,10-2-1,,,,,IR,
+2018,Rex On Rex,9-4-0,,Drew Brees,QB,NO,QB,
+2018,Rex On Rex,9-4-0,,Alvin Kamara,RB,NO,RB,
+2018,Rex On Rex,9-4-0,,Sony Michel,RB,NE,RB,
+2018,Rex On Rex,9-4-0,,Michael Thomas,WR,NO,WR,
+2018,Rex On Rex,9-4-0,,Stefon Diggs,WR,Min,WR,
+2018,Rex On Rex,9-4-0,,Eric Ebron,TE,Ind,TE,
+2018,Rex On Rex,9-4-0,,"Kenny Golladay
+Q",WR,Det,FLEX,Q
+2018,Rex On Rex,9-4-0,,Dolphins D/ST,D/ST,Mia,D/ST,
+2018,Rex On Rex,9-4-0,,Ka'imi Fairbairn,K,Hou,K,
+2018,Rex On Rex,9-4-0,,"Kerryon Johnson
+IR",RB,Det,Bench,IR
+2018,Rex On Rex,9-4-0,,Mitchell Trubisky,QB,Chi,Bench,
+2018,Rex On Rex,9-4-0,,Courtland Sutton,WR,Den,Bench,
+2018,Rex On Rex,9-4-0,,Bills D/ST,D/ST,Buf,Bench,
+2018,Rex On Rex,9-4-0,,Chargers D/ST,D/ST,LAC,Bench,
+2018,Rex On Rex,9-4-0,,Carlos Hyde,RB,Jax,Bench,
+2018,Rex On Rex,9-4-0,,Jordy Nelson,WR,Oak,Bench,
+2018,Rex On Rex,9-4-0,,,,,IR,
+2018,The Juice Is Loose,8-5-0,,"Aaron Rodgers
+Q",QB,GB,QB,Q
+2018,The Juice Is Loose,8-5-0,,Lamar Miller,RB,Hou,RB,
+2018,The Juice Is Loose,8-5-0,,Chris Thompson,RB,Wsh,RB,
+2018,The Juice Is Loose,8-5-0,,Julio Jones,WR,Atl,WR,
+2018,The Juice Is Loose,8-5-0,,Adam Thielen,WR,Min,WR,
+2018,The Juice Is Loose,8-5-0,,Kyle Rudolph,TE,Min,TE,
+2018,The Juice Is Loose,8-5-0,,Duke Johnson Jr.,RB,Cle,FLEX,
+2018,The Juice Is Loose,8-5-0,,Titans D/ST,D/ST,Ten,D/ST,
+2018,The Juice Is Loose,8-5-0,,Matt Prater,K,Det,K,
+2018,The Juice Is Loose,8-5-0,,Peyton Barber,RB,TB,Bench,
+2018,The Juice Is Loose,8-5-0,,Calvin Ridley,WR,Atl,Bench,
+2018,The Juice Is Loose,8-5-0,,Jameis Winston,QB,TB,Bench,
+2018,The Juice Is Loose,8-5-0,,Rams D/ST,D/ST,LAR,Bench,
+2018,The Juice Is Loose,8-5-0,,Donte Moncrief,WR,Jax,Bench,
+2018,The Juice Is Loose,8-5-0,,Devontae Booker,RB,Den,Bench,
+2018,The Juice Is Loose,8-5-0,,Nick Vannett,TE,Sea,Bench,
+2018,The Juice Is Loose,8-5-0,,"A.J. Green
+IR",WR,Cin,IR,IR
+2018,Tom's Deflated Balls,9-4-0,,Russell Wilson,QB,Sea,QB,
+2018,Tom's Deflated Balls,9-4-0,,Dalvin Cook,RB,Min,RB,
+2018,Tom's Deflated Balls,9-4-0,,Todd Gurley II,RB,LAR,RB,
+2018,Tom's Deflated Balls,9-4-0,,Golden Tate,WR,Phi,WR,
+2018,Tom's Deflated Balls,9-4-0,,Tyreek Hill,WR,KC,WR,
+2018,Tom's Deflated Balls,9-4-0,,George Kittle,TE,SF,TE,
+2018,Tom's Deflated Balls,9-4-0,,Doug Martin,RB,Oak,FLEX,
+2018,Tom's Deflated Balls,9-4-0,,Giants D/ST,D/ST,NYG,D/ST,
+2018,Tom's Deflated Balls,9-4-0,,Greg Zuerlein,K,LAR,K,
+2018,Tom's Deflated Balls,9-4-0,,"DeSean Jackson
+Q",WR,TB,Bench,Q
+2018,Tom's Deflated Balls,9-4-0,,Josh Adams,RB,Phi,Bench,
+2018,Tom's Deflated Balls,9-4-0,,DJ Moore,WR,Car,Bench,
+2018,Tom's Deflated Balls,9-4-0,,Tre'Quan Smith,WR,NO,Bench,
+2018,Tom's Deflated Balls,9-4-0,,Josh Doctson,WR,Wsh,Bench,
+2018,Tom's Deflated Balls,9-4-0,,Matt LaCosse,TE,Den,Bench,
+2018,Tom's Deflated Balls,9-4-0,,"Marcus Mariota
+Q",QB,Ten,Bench,Q
+2018,Tom's Deflated Balls,9-4-0,,Sammy Watkins,WR,KC,IR,
+2018,Rigga Please,7-6-0,,Kirk Cousins,QB,Min,QB,
+2018,Rigga Please,7-6-0,,Kenyan Drake,RB,Mia,RB,
+2018,Rigga Please,7-6-0,,"Phillip Lindsay
+IR",RB,Den,RB,IR
+2018,Rigga Please,7-6-0,,"DeAndre Hopkins
+Q",WR,Hou,WR,Q
+2018,Rigga Please,7-6-0,,Keenan Allen,WR,LAC,WR,
+2018,Rigga Please,7-6-0,,Vance McDonald,TE,Pit,TE,
+2018,Rigga Please,7-6-0,,"T.Y. Hilton
+Q",WR,Ind,FLEX,Q
+2018,Rigga Please,7-6-0,,Ravens D/ST,D/ST,Bal,D/ST,
+2018,Rigga Please,7-6-0,,Adam Vinatieri,K,Ind,K,
+2018,Rigga Please,7-6-0,,"Greg Olsen
+IR",TE,Car,Bench,IR
+2018,Rigga Please,7-6-0,,"Isaiah Crowell
+IR",RB,NYJ,Bench,IR
+2018,Rigga Please,7-6-0,,Devin Funchess,WR,Car,Bench,
+2018,Rigga Please,7-6-0,,Tyler Lockett,WR,Sea,Bench,
+2018,Rigga Please,7-6-0,,John Brown,WR,Bal,Bench,
+2018,Rigga Please,7-6-0,,Mike Davis,RB,Sea,Bench,
+2018,Rigga Please,7-6-0,,LeGarrette Blount,RB,Det,Bench,
+2018,Rigga Please,7-6-0,,"Marshawn Lynch
+IR",RB,Oak,IR,IR
+2018,Team Seattle,0-13-0,,Tom Brady,QB,NE,QB,
+2018,Team Seattle,0-13-0,,Derrick Henry,RB,Ten,RB,
+2018,Team Seattle,0-13-0,,"Corey Clement
+IR",RB,Phi,RB,IR
+2018,Team Seattle,0-13-0,,Kelvin Benjamin,WR,KC,WR,
+2018,Team Seattle,0-13-0,,Randall Cobb,WR,GB,WR,
+2018,Team Seattle,0-13-0,,Travis Kelce,TE,KC,TE,
+2018,Team Seattle,0-13-0,,Doug Baldwin,WR,Sea,FLEX,
+2018,Team Seattle,0-13-0,,Seahawks D/ST,D/ST,Sea,D/ST,
+2018,Team Seattle,0-13-0,,Mason Crosby,K,GB,K,
+2018,Team Seattle,0-13-0,,Ty Montgomery,RB,Bal,Bench,
+2018,Team Seattle,0-13-0,,"Pierre Garcon
+IR",WR,SF,Bench,IR
+2018,Team Seattle,0-13-0,,Nelson Agholor,WR,Phi,Bench,
+2018,Team Seattle,0-13-0,,Jordan Wilkins,RB,Ind,Bench,
+2018,Team Seattle,0-13-0,,Keelan Cole,WR,Jax,Bench,
+2018,Team Seattle,0-13-0,,Javorius Allen,RB,Bal,Bench,
+2018,Team Seattle,0-13-0,,Blake Bortles,QB,Jax,Bench,
+2018,Team Seattle,0-13-0,,,,,IR,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Dak Prescott,QB,Dal,QB,
+2018,The Ballad Of Younghoe Koo,6-7-0,,"Leonard Fournette
+Q",RB,Jax,RB,Q
+2018,The Ballad Of Younghoe Koo,6-7-0,,Mark Ingram II,RB,NO,RB,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Jarvis Landry,WR,Cle,WR,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Julian Edelman,WR,NE,WR,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Ian Thomas,TE,Car,TE,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Gus Edwards,RB,Bal,FLEX,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Bears D/ST,D/ST,Chi,D/ST,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Robbie Gould,K,SF,K,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Kareem Hunt,RB,FA,Bench,
+2018,The Ballad Of Younghoe Koo,6-7-0,,"Demaryius Thomas
+IR",WR,Hou,Bench,IR
+2018,The Ballad Of Younghoe Koo,6-7-0,,"Jordan Reed
+IR",TE,Wsh,Bench,IR
+2018,The Ballad Of Younghoe Koo,6-7-0,,Willie Snead IV,WR,Bal,Bench,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Tyrell Williams,WR,LAC,Bench,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Dede Westbrook,WR,Jax,Bench,
+2018,The Ballad Of Younghoe Koo,6-7-0,,Josh Reynolds,WR,LAR,Bench,
+2018,The Ballad Of Younghoe Koo,6-7-0,,"Geronimo Allison
+IR",WR,GB,IR,IR
+2018,Team Ryan,3-10-0,,Matt Ryan,QB,Atl,QB,
+2018,Team Ryan,3-10-0,,Saquon Barkley,RB,NYG,RB,
+2018,Team Ryan,3-10-0,,Jordan Howard,RB,Chi,RB,
+2018,Team Ryan,3-10-0,,Mike Evans,WR,TB,WR,
+2018,Team Ryan,3-10-0,,Amari Cooper,WR,Dal,WR,
+2018,Team Ryan,3-10-0,,Austin Hooper,TE,Atl,TE,
+2018,Team Ryan,3-10-0,,Tevin Coleman,RB,Atl,FLEX,
+2018,Team Ryan,3-10-0,,Cowboys D/ST,D/ST,Dal,D/ST,
+2018,Team Ryan,3-10-0,,Brett Maher,K,Dal,K,
+2018,Team Ryan,3-10-0,,Michael Crabtree,WR,Bal,Bench,
+2018,Team Ryan,3-10-0,,Robby Anderson,WR,NYJ,Bench,
+2018,Team Ryan,3-10-0,,Andrew Luck,QB,Ind,Bench,
+2018,Team Ryan,3-10-0,,"Tyler Eifert
+IR",TE,Cin,Bench,IR
+2018,Team Ryan,3-10-0,,James Starks,RB,GB,Bench,
+2018,Team Ryan,3-10-0,,Sam Darnold,QB,NYJ,Bench,
+2018,Team Ryan,3-10-0,,"Theo Riddick
+Q",RB,Det,Bench,Q
+2018,Team Ryan,3-10-0,,,,,IR,
+2018,NewtonâS Law Of Winning,7-5-1,,Jared Goff,QB,LAR,QB,
+2018,NewtonâS Law Of Winning,7-5-1,,David Johnson,RB,Ari,RB,
+2018,NewtonâS Law Of Winning,7-5-1,,Tarik Cohen,RB,Chi,RB,
+2018,NewtonâS Law Of Winning,7-5-1,,"Davante Adams
+Q",WR,GB,WR,Q
+2018,NewtonâS Law Of Winning,7-5-1,,Brandin Cooks,WR,LAR,WR,
+2018,NewtonâS Law Of Winning,7-5-1,,C.J. Uzomah,TE,Cin,TE,
+2018,NewtonâS Law Of Winning,7-5-1,,"Marlon Mack
+Q",RB,Ind,FLEX,Q
+2018,NewtonâS Law Of Winning,7-5-1,,Texans D/ST,D/ST,Hou,D/ST,
+2018,NewtonâS Law Of Winning,7-5-1,,Justin Tucker,K,Bal,K,
+2018,NewtonâS Law Of Winning,7-5-1,,LeSean McCoy,RB,Buf,Bench,
+2018,NewtonâS Law Of Winning,7-5-1,,Dion Lewis,RB,Ten,Bench,
+2018,NewtonâS Law Of Winning,7-5-1,,"Cam Newton
+Q",QB,Car,Bench,Q
+2018,NewtonâS Law Of Winning,7-5-1,,Jimmy Graham,TE,GB,Bench,
+2018,NewtonâS Law Of Winning,7-5-1,,Sterling Shepard,WR,NYG,Bench,
+2018,NewtonâS Law Of Winning,7-5-1,,Adrian Peterson,RB,Wsh,Bench,
+2018,NewtonâS Law Of Winning,7-5-1,,"Tyler Boyd
+IR",WR,Cin,Bench,IR
+2018,NewtonâS Law Of Winning,7-5-1,,,,,IR,
+2018,Juulio Jones,1-12-0,,"Carson Wentz
+Q",QB,Phi,QB,Q
+2018,Juulio Jones,1-12-0,,Ronald Jones,RB,TB,RB,
+2018,Juulio Jones,1-12-0,,,,,RB,
+2018,Juulio Jones,1-12-0,,Allen Robinson,WR,Chi,WR,
+2018,Juulio Jones,1-12-0,,Robert Woods,WR,LAR,WR,
+2018,Juulio Jones,1-12-0,,,,,TE,
+2018,Juulio Jones,1-12-0,,,,,FLEX,
+2018,Juulio Jones,1-12-0,,Patriots D/ST,D/ST,NE,D/ST,
+2018,Juulio Jones,1-12-0,,Harrison Butker,K,KC,K,
+2018,Juulio Jones,1-12-0,,"Devonta Freeman
+IR",RB,Atl,Bench,IR
+2018,Juulio Jones,1-12-0,,"Alshon Jeffery
+Q",WR,Phi,Bench,Q
+2018,Juulio Jones,1-12-0,,Jamison Crowder,WR,Wsh,Bench,
+2018,Juulio Jones,1-12-0,,"Paul Richardson
+IR",WR,Wsh,Bench,IR
+2018,Juulio Jones,1-12-0,,"Rishard Matthews
+IR",WR,NYJ,Bench,IR
+2018,Juulio Jones,1-12-0,,Mike Williams,WR,LAC,Bench,
+2018,Juulio Jones,1-12-0,,Austin Ekeler,RB,LAC,Bench,
+2018,Juulio Jones,1-12-0,,Corey Davis,WR,Ten,Bench,
+2018,Juulio Jones,1-12-0,,Rob Gronkowski,TE,NE,Bench,
+2018,Juulio Jones,1-12-0,,Wendell Smallwood,RB,Phi,Bench,
+2018,Juulio Jones,1-12-0,,,,,IR,
+2019,The Bake Show,8-5-0,Free Agency,Jimmy Garoppolo,QB,SF,QB,
+2019,The Bake Show,8-5-0,Draft,"Leonard Fournette
+Q",RB,Jax,RB,Q
+2019,The Bake Show,8-5-0,Draft,Mark Ingram II,RB,Bal,RB,
+2019,The Bake Show,8-5-0,Draft,Julio Jones,WR,Atl,WR,
+2019,The Bake Show,8-5-0,Draft,Amari Cooper,WR,Dal,WR,
+2019,The Bake Show,8-5-0,Free Agency,Tyler Higbee,TE,LAR,TE,
+2019,The Bake Show,8-5-0,Draft,Emmanuel Sanders,WR,SF,FLEX,
+2019,The Bake Show,8-5-0,Free Agency,Broncos D/ST,D/ST,Den,D/ST,
+2019,The Bake Show,8-5-0,Free Agency,Joey Slye,K,Car,K,
+2019,The Bake Show,8-5-0,Draft,"Josh Gordon
+O",WR,Sea,Bench,O
+2019,The Bake Show,8-5-0,Draft,"Will Fuller V
+Q",WR,Hou,Bench,Q
+2019,The Bake Show,8-5-0,Free Agency,Jimmy Graham,TE,GB,Bench,
+2019,The Bake Show,8-5-0,Free Agency,Cole Beasley,WR,Buf,Bench,
+2019,The Bake Show,8-5-0,Free Agency,Mike Gesicki,TE,Mia,Bench,
+2019,The Bake Show,8-5-0,Free Agency,Patrick Laird,RB,Mia,Bench,
+2019,The Bake Show,8-5-0,Free Agency,DeAndre Washington,RB,Oak,Bench,
+2019,The Bake Show,8-5-0,Draft,"Cam Newton
+Q",QB,Car,IR,Q
+2019,Team Goff Balls,8-4-1,Free Agency,Ryan Fitzpatrick,QB,Mia,QB,
+2019,Team Goff Balls,8-4-1,Draft,Ezekiel Elliott,RB,Dal,RB,
+2019,Team Goff Balls,8-4-1,Draft,Joe Mixon,RB,Cin,RB,
+2019,Team Goff Balls,8-4-1,Draft,Cooper Kupp,WR,LAR,WR,
+2019,Team Goff Balls,8-4-1,Draft,"DJ Moore
+Q",WR,Car,WR,Q
+2019,Team Goff Balls,8-4-1,Free Agency,Jason Witten,TE,Dal,TE,
+2019,Team Goff Balls,8-4-1,Free Agency,Courtland Sutton,WR,Den,FLEX,
+2019,Team Goff Balls,8-4-1,Free Agency,Chiefs D/ST,D/ST,KC,D/ST,
+2019,Team Goff Balls,8-4-1,Free Agency,Matt Gay,K,TB,K,
+2019,Team Goff Balls,8-4-1,Draft,Devonta Freeman,RB,Atl,Bench,
+2019,Team Goff Balls,8-4-1,Trade,"Marquise Brown
+Q",WR,Bal,Bench,Q
+2019,Team Goff Balls,8-4-1,Free Agency,Baker Mayfield,QB,Cle,Bench,
+2019,Team Goff Balls,8-4-1,Free Agency,Robby Anderson,WR,NYJ,Bench,
+2019,Team Goff Balls,8-4-1,Free Agency,Deebo Samuel,WR,SF,Bench,
+2019,Team Goff Balls,8-4-1,Free Agency,Kyle Rudolph,TE,Min,Bench,
+2019,Team Goff Balls,8-4-1,Free Agency,Breshad Perriman,WR,TB,Bench,
+2019,Team Goff Balls,8-4-1,,,,,IR,
+2019,Team Ryan,8-5-0,Draft,"Carson Wentz
+Q",QB,Phi,QB,Q
+2019,Team Ryan,8-5-0,Draft,Saquon Barkley,RB,NYG,RB,
+2019,Team Ryan,8-5-0,Draft,Derrick Henry,RB,Ten,RB,
+2019,Team Ryan,8-5-0,Draft,Michael Thomas,WR,NO,WR,
+2019,Team Ryan,8-5-0,Draft,Allen Robinson II,WR,Chi,WR,
+2019,Team Ryan,8-5-0,Free Agency,Noah Fant,TE,Den,TE,
+2019,Team Ryan,8-5-0,Draft,Aaron Jones,RB,GB,FLEX,
+2019,Team Ryan,8-5-0,Free Agency,Browns D/ST,D/ST,Cle,D/ST,
+2019,Team Ryan,8-5-0,Free Agency,Jason Sanders,K,Mia,K,
+2019,Team Ryan,8-5-0,Draft,"Evan Engram
+Q",TE,NYG,Bench,Q
+2019,Team Ryan,8-5-0,Draft,Kenyan Drake,RB,Ari,Bench,
+2019,Team Ryan,8-5-0,Draft,Royce Freeman,RB,Den,Bench,
+2019,Team Ryan,8-5-0,Draft,Ronald Jones II,RB,TB,Bench,
+2019,Team Ryan,8-5-0,Draft,"Tyrell Williams
+Q",WR,Oak,Bench,Q
+2019,Team Ryan,8-5-0,Draft,Adam Humphries,WR,Ten,Bench,
+2019,Team Ryan,8-5-0,Free Agency,Derek Carr,QB,Oak,Bench,
+2019,Team Ryan,8-5-0,,,,,IR,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Deshaun Watson,QB,Hou,QB,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Le'Veon Bell,RB,NYJ,RB,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,Raheem Mostert,RB,SF,RB,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,"Jarvis Landry
+Q",WR,Cle,WR,Q
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Trade,"Julian Edelman
+Q",WR,NE,WR,Q
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,"Darren Waller
+Q",TE,Oak,TE,Q
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,"Terry McLaurin
+Q",WR,Wsh,FLEX,Q
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,Steelers D/ST,D/ST,Pit,D/ST,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Greg Zuerlein,K,LAR,K,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Dalvin Cook,RB,Min,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,"Phillip Lindsay
+Q",RB,Den,Bench,Q
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Jaylen Samuels,RB,Pit,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Draft,Rams D/ST,D/ST,LAR,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,Alexander Mattison,RB,Min,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,Kirk Cousins,QB,Min,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,Free Agency,Darius Slayton,WR,NYG,Bench,
+2019,THE EMPIRE DID NOTHING WRONG!1,11-2-0,,,,,IR,
+2019,The Guice Is Loose,8-5-0,Free Agency,Ryan Tannehill,QB,Ten,QB,
+2019,The Guice Is Loose,8-5-0,Draft,"Josh Jacobs
+Q",RB,Oak,RB,Q
+2019,The Guice Is Loose,8-5-0,Draft,Austin Ekeler,RB,LAC,RB,
+2019,The Guice Is Loose,8-5-0,Draft,Davante Adams,WR,GB,WR,
+2019,The Guice Is Loose,8-5-0,Draft,"Odell Beckham Jr.
+Q",WR,Cle,WR,Q
+2019,The Guice Is Loose,8-5-0,Draft,Greg Olsen,TE,Sea,TE,
+2019,The Guice Is Loose,8-5-0,Free Agency,A.J. Brown,WR,Ten,FLEX,
+2019,The Guice Is Loose,8-5-0,Free Agency,Bills D/ST,D/ST,Buf,D/ST,
+2019,The Guice Is Loose,8-5-0,Free Agency,Zane Gonzalez,K,Ari,K,
+2019,The Guice Is Loose,8-5-0,Draft,"Miles Sanders
+Q",RB,Phi,Bench,Q
+2019,The Guice Is Loose,8-5-0,Draft,Larry Fitzgerald,WR,Ari,Bench,
+2019,The Guice Is Loose,8-5-0,Draft,Tom Brady,QB,NE,Bench,
+2019,The Guice Is Loose,8-5-0,Draft,"Jameis Winston
+Q",QB,TB,Bench,Q
+2019,The Guice Is Loose,8-5-0,Free Agency,Golden Tate,WR,NYG,Bench,
+2019,The Guice Is Loose,8-5-0,Free Agency,Carlos Hyde,RB,Hou,Bench,
+2019,The Guice Is Loose,8-5-0,Free Agency,Jacob Hollister,TE,Sea,Bench,
+2019,The Guice Is Loose,8-5-0,,,,,IR,
+2019,The Juice Is Loose,7-5-1,Draft,Kyler Murray,QB,Ari,QB,
+2019,The Juice Is Loose,7-5-1,Draft,Nick Chubb,RB,Cle,RB,
+2019,The Juice Is Loose,7-5-1,Draft,"Chris Carson
+Q",RB,Sea,RB,Q
+2019,The Juice Is Loose,7-5-1,Draft,Tyreek Hill,WR,KC,WR,
+2019,The Juice Is Loose,7-5-1,Draft,Kenny Golladay,WR,Det,WR,
+2019,The Juice Is Loose,7-5-1,Draft,Austin Hooper,TE,Atl,TE,
+2019,The Juice Is Loose,7-5-1,Free Agency,Adrian Peterson,RB,Wsh,FLEX,
+2019,The Juice Is Loose,7-5-1,Free Agency,Ravens D/ST,D/ST,Bal,D/ST,
+2019,The Juice Is Loose,7-5-1,Free Agency,Chris Boswell,K,Pit,K,
+2019,The Juice Is Loose,7-5-1,Draft,Sammy Watkins,WR,KC,Bench,
+2019,The Juice Is Loose,7-5-1,Draft,LeSean McCoy,RB,KC,Bench,
+2019,The Juice Is Loose,7-5-1,Draft,Matt Prater,K,Det,Bench,
+2019,The Juice Is Loose,7-5-1,Free Agency,Jack Doyle,TE,Ind,Bench,
+2019,The Juice Is Loose,7-5-1,Free Agency,Chris Conley,WR,Jax,Bench,
+2019,The Juice Is Loose,7-5-1,,,,,Bench,
+2019,The Juice Is Loose,7-5-1,,,,,Bench,
+2019,The Juice Is Loose,7-5-1,Draft,"Alshon Jeffery
+Q",WR,Phi,IR,Q
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Lamar Jackson,QB,Bal,QB,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Marlon Mack,RB,Ind,RB,
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,Nyheim Hines,RB,Ind,RB,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Keenan Allen,WR,LAC,WR,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Curtis Samuel,WR,Car,WR,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,"Zach Ertz
+Q",TE,Phi,TE,Q
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Michael Gallup,WR,Dal,FLEX,
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,Seahawks D/ST,D/ST,Sea,D/ST,
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,Younghoe Koo,K,Atl,K,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,David Johnson,RB,Ari,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,T.Y. Hilton,WR,Ind,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,Matt Ryan,QB,Atl,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,Draft,"Jordan Howard
+Q",RB,Phi,Bench,Q
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,DJ Chark Jr.,WR,Jax,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,Gerald Everett,TE,LAR,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,Free Agency,Benny Snell Jr.,RB,Pit,Bench,
+2019,David Ants In My Eyes Johnson,5-8-0,,,,,IR,
+2019,Rex On Rex,6-7-0,Draft,Russell Wilson,QB,Sea,QB,
+2019,Rex On Rex,6-7-0,Draft,Alvin Kamara,RB,NO,RB,
+2019,Rex On Rex,6-7-0,Free Agency,Mike Boone,RB,Min,RB,
+2019,Rex On Rex,6-7-0,Draft,Tyler Lockett,WR,Sea,WR,
+2019,Rex On Rex,6-7-0,Draft,Dede Westbrook,WR,Jax,WR,
+2019,Rex On Rex,6-7-0,Trade,George Kittle,TE,SF,TE,
+2019,Rex On Rex,6-7-0,Draft,Christian Kirk,WR,Ari,FLEX,
+2019,Rex On Rex,6-7-0,Free Agency,49ers D/ST,D/ST,SF,D/ST,
+2019,Rex On Rex,6-7-0,Free Agency,Josh Lambo,K,Jax,K,
+2019,Rex On Rex,6-7-0,Draft,"Mike Evans
+Q",WR,TB,Bench,Q
+2019,Rex On Rex,6-7-0,Draft,"Chris Godwin
+Q",WR,TB,Bench,Q
+2019,Rex On Rex,6-7-0,Draft,David Montgomery,RB,Chi,Bench,
+2019,Rex On Rex,6-7-0,Free Agency,Latavius Murray,RB,NO,Bench,
+2019,Rex On Rex,6-7-0,Free Agency,Kyle Allen,QB,Car,Bench,
+2019,Rex On Rex,6-7-0,Free Agency,Dallas Goedert,TE,Phi,Bench,
+2019,Rex On Rex,6-7-0,Free Agency,Chargers D/ST,D/ST,LAC,Bench,
+2019,Rex On Rex,6-7-0,,,,,IR,
+2019,Danny Dimes,5-8-0,Free Agency,Jacoby Brissett,QB,Ind,QB,
+2019,Danny Dimes,5-8-0,Draft,Tevin Coleman,RB,SF,RB,
+2019,Danny Dimes,5-8-0,Free Agency,Jamaal Williams,RB,GB,RB,
+2019,Danny Dimes,5-8-0,Draft,Robert Woods,WR,LAR,WR,
+2019,Danny Dimes,5-8-0,Free Agency,DeVante Parker,WR,Mia,WR,
+2019,Danny Dimes,5-8-0,Free Agency,Hunter Henry,TE,LAC,TE,
+2019,Danny Dimes,5-8-0,Draft,Tyler Boyd,WR,Cin,FLEX,
+2019,Danny Dimes,5-8-0,Free Agency,Jets D/ST,D/ST,NYJ,D/ST,
+2019,Danny Dimes,5-8-0,Draft,Harrison Butker,K,KC,K,
+2019,Danny Dimes,5-8-0,Draft,"James Conner
+Q",RB,Pit,Bench,Q
+2019,Danny Dimes,5-8-0,Trade,Adam Thielen,WR,Min,Bench,
+2019,Danny Dimes,5-8-0,Free Agency,Duke Johnson,RB,Hou,Bench,
+2019,Danny Dimes,5-8-0,Free Agency,Randall Cobb,WR,Dal,Bench,
+2019,Danny Dimes,5-8-0,Free Agency,"Ryan Griffin
+Q",TE,NYJ,Bench,Q
+2019,Danny Dimes,5-8-0,Free Agency,Austin Seibert,K,Cle,Bench,
+2019,Danny Dimes,5-8-0,Free Agency,"Rashaad Penny
+Q",RB,Sea,Bench,Q
+2019,Danny Dimes,5-8-0,Trade,Kerryon Johnson,RB,Det,IR,
+2019,Team Seattle,4-9-0,Draft,Patrick Mahomes,QB,KC,QB,
+2019,Team Seattle,4-9-0,Draft,James White,RB,NE,RB,
+2019,Team Seattle,4-9-0,Trade,Todd Gurley II,RB,LAR,RB,
+2019,Team Seattle,4-9-0,Draft,Sterling Shepard,WR,NYG,WR,
+2019,Team Seattle,4-9-0,Draft,"Mohamed Sanu Sr.
+Q",WR,NE,WR,Q
+2019,Team Seattle,4-9-0,Draft,Travis Kelce,TE,KC,TE,
+2019,Team Seattle,4-9-0,Draft,DK Metcalf,WR,Sea,FLEX,
+2019,Team Seattle,4-9-0,Draft,Saints D/ST,D/ST,NO,D/ST,
+2019,Team Seattle,4-9-0,Draft,Wil Lutz,K,NO,K,
+2019,Team Seattle,4-9-0,Draft,Sony Michel,RB,NE,Bench,
+2019,Team Seattle,4-9-0,Draft,Tarik Cohen,RB,Chi,Bench,
+2019,Team Seattle,4-9-0,Draft,Kenny Stills,WR,Hou,Bench,
+2019,Team Seattle,4-9-0,Draft,"Jalen Richard
+Q",RB,Oak,Bench,Q
+2019,Team Seattle,4-9-0,Draft,Dion Lewis,RB,Ten,Bench,
+2019,Team Seattle,4-9-0,Draft,Ted Ginn Jr.,WR,NO,Bench,
+2019,Team Seattle,4-9-0,Draft,C.J. Anderson,RB,Det,Bench,
+2019,Team Seattle,4-9-0,,,,,IR,
+2019,Rigga Please,4-9-0,Draft,Drew Brees,QB,NO,QB,
+2019,Rigga Please,4-9-0,Draft,Melvin Gordon,RB,LAC,RB,
+2019,Rigga Please,4-9-0,Draft,Kareem Hunt,RB,Cle,RB,
+2019,Rigga Please,4-9-0,Draft,Jamison Crowder,WR,NYJ,WR,
+2019,Rigga Please,4-9-0,Free Agency,John Brown,WR,Buf,WR,
+2019,Rigga Please,4-9-0,Free Agency,Jared Cook,TE,NO,TE,
+2019,Rigga Please,4-9-0,Draft,"DeAndre Hopkins
+Q",WR,Hou,FLEX,Q
+2019,Rigga Please,4-9-0,Draft,Bears D/ST,D/ST,Chi,D/ST,
+2019,Rigga Please,4-9-0,Free Agency,Michael Badgley,K,LAC,K,
+2019,Rigga Please,4-9-0,Draft,JuJu Smith-Schuster,WR,Pit,Bench,
+2019,Rigga Please,4-9-0,Draft,Mike Williams,WR,LAC,Bench,
+2019,Rigga Please,4-9-0,Draft,"Delanie Walker
+Q",TE,Ten,Bench,Q
+2019,Rigga Please,4-9-0,Free Agency,"Auden Tate
+Q",WR,Cin,Bench,Q
+2019,Rigga Please,4-9-0,Free Agency,Phillip Dorsett II,WR,NE,Bench,
+2019,Rigga Please,4-9-0,Free Agency,"Kalen Ballage
+Q",RB,Mia,Bench,Q
+2019,Rigga Please,4-9-0,Free Agency,Jonathan Williams,RB,Ind,Bench,
+2019,Rigga Please,4-9-0,,,,,IR,
+2019,Juulio Jones,3-10-0,Draft,Aaron Rodgers,QB,GB,QB,
+2019,Juulio Jones,3-10-0,Draft,Christian McCaffrey,RB,Car,RB,
+2019,Juulio Jones,3-10-0,Draft,Damien Williams,RB,KC,RB,
+2019,Juulio Jones,3-10-0,Draft,Antonio Brown,WR,FA,WR,
+2019,Juulio Jones,3-10-0,Draft,Stefon Diggs,WR,Min,WR,
+2019,Juulio Jones,3-10-0,Draft,Vance McDonald,TE,Pit,TE,
+2019,Juulio Jones,3-10-0,Draft,"Calvin Ridley
+Q",WR,Atl,FLEX,Q
+2019,Juulio Jones,3-10-0,Draft,Jaguars D/ST,D/ST,Jax,D/ST,
+2019,Juulio Jones,3-10-0,Draft,Justin Tucker,K,Bal,K,
+2019,Juulio Jones,3-10-0,Draft,Dak Prescott,QB,Dal,Bench,
+2019,Juulio Jones,3-10-0,Draft,DeSean Jackson,WR,Phi,Bench,
+2019,Juulio Jones,3-10-0,Draft,Devin Singletary,RB,Buf,Bench,
+2019,Juulio Jones,3-10-0,Draft,Mark Andrews,TE,Bal,Bench,
+2019,Juulio Jones,3-10-0,Draft,Patriots D/ST,D/ST,NE,Bench,
+2019,Juulio Jones,3-10-0,Draft,DaeSean Hamilton,WR,Den,Bench,
+2019,Juulio Jones,3-10-0,Draft,Titans D/ST,D/ST,Ten,Bench,
+2019,Juulio Jones,3-10-0,,,,,IR,
+2020,Rex On Rex,9-4-0,Draft,Aaron Rodgers,QB,GB,QB,
+2020,Rex On Rex,9-4-0,Draft,Alvin Kamara,RB,NO,RB,
+2020,Rex On Rex,9-4-0,Draft,David Montgomery,RB,Chi,RB,
+2020,Rex On Rex,9-4-0,Draft,DeAndre Hopkins,WR,Ari,WR,
+2020,Rex On Rex,9-4-0,Draft,Mike Evans,WR,TB,WR,
+2020,Rex On Rex,9-4-0,Free Agency,"Eric Ebron
+Q",TE,Pit,TE,Q
+2020,Rex On Rex,9-4-0,Free Agency,J.K. Dobbins,RB,Bal,FLEX,
+2020,Rex On Rex,9-4-0,Free Agency,Browns D/ST,D/ST,Cle,D/ST,
+2020,Rex On Rex,9-4-0,Free Agency,Younghoe Koo,K,Atl,K,
+2020,Rex On Rex,9-4-0,Draft,Terry McLaurin,WR,Wsh,Bench,
+2020,Rex On Rex,9-4-0,Draft,Devin Singletary,RB,Buf,Bench,
+2020,Rex On Rex,9-4-0,Draft,Hunter Henry,TE,LAC,Bench,
+2020,Rex On Rex,9-4-0,Trade,Darius Slayton,WR,NYG,Bench,
+2020,Rex On Rex,9-4-0,Free Agency,"Damien Harris
+Q",RB,NE,Bench,Q
+2020,Rex On Rex,9-4-0,Free Agency,Washington D/ST,D/ST,Wsh,Bench,
+2020,Rex On Rex,9-4-0,Free Agency,Cam Akers,RB,LAR,Bench,
+2020,Rex On Rex,9-4-0,,,,,IR,
+2020,The Juice Is Loose,9-4-0,Draft,"Kyler Murray
+Q",QB,Ari,QB,Q
+2020,The Juice Is Loose,9-4-0,Draft,Derrick Henry,RB,Ten,RB,
+2020,The Juice Is Loose,9-4-0,Draft,Melvin Gordon III,RB,Den,RB,
+2020,The Juice Is Loose,9-4-0,Draft,Tyreek Hill,WR,KC,WR,
+2020,The Juice Is Loose,9-4-0,Draft,DK Metcalf,WR,Sea,WR,
+2020,The Juice Is Loose,9-4-0,Draft,Noah Fant,TE,Den,TE,
+2020,The Juice Is Loose,9-4-0,Draft,Adam Thielen,WR,Min,FLEX,
+2020,The Juice Is Loose,9-4-0,Free Agency,Texans D/ST,D/ST,Hou,D/ST,
+2020,The Juice Is Loose,9-4-0,Draft,Matt Prater,K,Det,K,
+2020,The Juice Is Loose,9-4-0,Draft,Mark Ingram II,RB,FA,Bench,
+2020,The Juice Is Loose,9-4-0,Draft,49ers D/ST,D/ST,SF,Bench,
+2020,The Juice Is Loose,9-4-0,Draft,Rob Gronkowski,TE,TB,Bench,
+2020,The Juice Is Loose,9-4-0,Draft,Alshon Jeffery,WR,Phi,Bench,
+2020,The Juice Is Loose,9-4-0,Draft,"Denzel Mims
+Q",WR,NYJ,Bench,Q
+2020,The Juice Is Loose,9-4-0,Free Agency,"Joe Burrow
+Q",QB,Cin,Bench,Q
+2020,The Juice Is Loose,9-4-0,Free Agency,Stephen Gostkowski,K,Ten,Bench,
+2020,The Juice Is Loose,9-4-0,Draft,"Chris Thompson
+Q",RB,Jax,IR,Q
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,Josh Allen,QB,Buf,QB,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,"Austin Ekeler
+Q",RB,LAC,RB,Q
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,Aaron Jones,RB,GB,RB,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,"Tee Higgins
+Q",WR,Cin,WR,Q
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Antonio Brown,WR,TB,WR,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Logan Thomas,TE,Wsh,TE,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,Antonio Gibson,RB,Wsh,FLEX,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Rams D/ST,D/ST,LAR,D/ST,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,Justin Tucker,K,Bal,K,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,JuJu Smith-Schuster,WR,Pit,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Draft,DeVante Parker,WR,Mia,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,"James Robinson
+Q",RB,Jax,Bench,Q
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Giovani Bernard,RB,Cin,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Austin Hooper,TE,Cle,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Bills D/ST,D/ST,Buf,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,Free Agency,Allen Lazard,WR,GB,Bench,
+2020,THE EMPIRE DID NOTHING WRONG!1,9-4-0,,,,,IR,
+2020,Juulio Jones,9-4-0,Draft,"Lamar Jackson
+Q",QB,Bal,QB,Q
+2020,Juulio Jones,9-4-0,Draft,Jonathan Taylor,RB,Ind,RB,
+2020,Juulio Jones,9-4-0,Free Agency,Leonard Fournette,RB,TB,RB,
+2020,Juulio Jones,9-4-0,Draft,Allen Robinson II,WR,Chi,WR,
+2020,Juulio Jones,9-4-0,Free Agency,"Cole Beasley
+Q",WR,Buf,WR,Q
+2020,Juulio Jones,9-4-0,Free Agency,Donald Parham Jr.,TE,LAC,TE,
+2020,Juulio Jones,9-4-0,Free Agency,Russell Gage,WR,Atl,FLEX,
+2020,Juulio Jones,9-4-0,Free Agency,Bears D/ST,D/ST,Chi,D/ST,
+2020,Juulio Jones,9-4-0,Draft,Harrison Butker,K,KC,K,
+2020,Juulio Jones,9-4-0,Draft,"Christian McCaffrey
+Q",RB,Car,Bench,Q
+2020,Juulio Jones,9-4-0,Draft,Keenan Allen,WR,LAC,Bench,
+2020,Juulio Jones,9-4-0,Draft,Tyler Higbee,TE,LAR,Bench,
+2020,Juulio Jones,9-4-0,Draft,Steelers D/ST,D/ST,Pit,Bench,
+2020,Juulio Jones,9-4-0,Draft,Chase Edmonds,RB,Ari,Bench,
+2020,Juulio Jones,9-4-0,Draft,Chase Claypool,WR,Pit,Bench,
+2020,Juulio Jones,9-4-0,Free Agency,Jordan Akins,TE,Hou,Bench,
+2020,Juulio Jones,9-4-0,Free Agency,John Brown,WR,Buf,IR,
+2020,Whats Up Mahomie,7-6-0,Draft,"Patrick Mahomes
+Q",QB,KC,QB,Q
+2020,Whats Up Mahomie,7-6-0,Draft,Dalvin Cook,RB,Min,RB,
+2020,Whats Up Mahomie,7-6-0,Trade,J.D. McKissic,RB,Wsh,RB,
+2020,Whats Up Mahomie,7-6-0,Draft,"Cooper Kupp
+Q",WR,LAR,WR,Q
+2020,Whats Up Mahomie,7-6-0,Free Agency,Keke Coutee,WR,Hou,WR,
+2020,Whats Up Mahomie,7-6-0,Draft,Mark Andrews,TE,Bal,TE,
+2020,Whats Up Mahomie,7-6-0,Draft,Nyheim Hines,RB,Ind,FLEX,
+2020,Whats Up Mahomie,7-6-0,Free Agency,Seahawks D/ST,D/ST,Sea,D/ST,
+2020,Whats Up Mahomie,7-6-0,Free Agency,Jason Myers,K,Sea,K,
+2020,Whats Up Mahomie,7-6-0,Draft,"Raheem Mostert
+Q",RB,SF,Bench,Q
+2020,Whats Up Mahomie,7-6-0,Draft,"Julian Edelman
+Q",WR,NE,Bench,Q
+2020,Whats Up Mahomie,7-6-0,Draft,Jerry Jeudy,WR,Den,Bench,
+2020,Whats Up Mahomie,7-6-0,Free Agency,Jamaal Williams,RB,GB,Bench,
+2020,Whats Up Mahomie,7-6-0,Free Agency,Baker Mayfield,QB,Cle,Bench,
+2020,Whats Up Mahomie,7-6-0,Free Agency,Nelson Agholor,WR,LV,Bench,
+2020,Whats Up Mahomie,7-6-0,Free Agency,"Kyle Rudolph
+Q",TE,FA,Bench,Q
+2020,Whats Up Mahomie,7-6-0,Draft,"Preston Williams
+Q",WR,Mia,IR,Q
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Matt Ryan,QB,Atl,QB,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Nick Chubb,RB,Cle,RB,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Todd Gurley II,RB,Atl,RB,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Robert Woods,WR,LAR,WR,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Diontae Johnson,WR,Pit,WR,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Travis Kelce,TE,KC,TE,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Tyler Boyd,WR,Cin,FLEX,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Dolphins D/ST,D/ST,Mia,D/ST,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Daniel Carlson,K,LV,K,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,"Ronald Jones II
+Q",RB,TB,Bench,Q
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Emmanuel Sanders,WR,NO,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,Draft,Curtis Samuel,WR,Car,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Dalton Schultz,TE,Dal,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Benny Snell Jr.,RB,Pit,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Packers D/ST,D/ST,GB,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,Free Agency,Mike Williams,WR,LAC,Bench,
+2020,THE 🅱️AKE SHOW,9-4-0,,,,,IR,
+2020,Davante's Inferno,6-7-0,Free Agency,Jalen Hurts,QB,Phi,QB,
+2020,Davante's Inferno,6-7-0,Draft,David Johnson,RB,Hou,RB,
+2020,Davante's Inferno,6-7-0,Draft,D'Andre Swift,RB,Det,RB,
+2020,Davante's Inferno,6-7-0,Draft,Davante Adams,WR,GB,WR,
+2020,Davante's Inferno,6-7-0,Free Agency,Marvin Jones Jr.,WR,Det,WR,
+2020,Davante's Inferno,6-7-0,Draft,Hayden Hurst,TE,Atl,TE,
+2020,Davante's Inferno,6-7-0,Draft,DJ Moore,WR,Car,FLEX,
+2020,Davante's Inferno,6-7-0,Free Agency,Ravens D/ST,D/ST,Bal,D/ST,
+2020,Davante's Inferno,6-7-0,Free Agency,Jason Sanders,K,Mia,K,
+2020,Davante's Inferno,6-7-0,Free Agency,Jonnu Smith,TE,Ten,Bench,
+2020,Davante's Inferno,6-7-0,Free Agency,Ben Roethlisberger,QB,Pit,Bench,
+2020,Davante's Inferno,6-7-0,Free Agency,"Frank Gore
+Q",RB,NYJ,Bench,Q
+2020,Davante's Inferno,6-7-0,Free Agency,Ryan Tannehill,QB,Ten,Bench,
+2020,Davante's Inferno,6-7-0,Free Agency,Jeff Wilson Jr.,RB,SF,Bench,
+2020,Davante's Inferno,6-7-0,Free Agency,Lynn Bowden Jr.,"RB, WR",Mia,Bench,
+2020,Davante's Inferno,6-7-0,Free Agency,"Tim Patrick
+Q",WR,Den,Bench,Q
+2020,Davante's Inferno,6-7-0,,,,,IR,
+2020,Team Seattle,3-10-0,Trade,Russell Wilson,QB,Sea,QB,
+2020,Team Seattle,3-10-0,Draft,Chris Carson,RB,Sea,RB,
+2020,Team Seattle,3-10-0,Draft,Kareem Hunt,RB,Cle,RB,
+2020,Team Seattle,3-10-0,Draft,Chris Godwin,WR,TB,WR,
+2020,Team Seattle,3-10-0,Trade,Tyler Lockett,WR,Sea,WR,
+2020,Team Seattle,3-10-0,Draft,Evan Engram,TE,NYG,TE,
+2020,Team Seattle,3-10-0,Draft,CeeDee Lamb,WR,Dal,FLEX,
+2020,Team Seattle,3-10-0,Free Agency,Chargers D/ST,D/ST,LAC,D/ST,
+2020,Team Seattle,3-10-0,Free Agency,Rodrigo Blankenship,K,Ind,K,
+2020,Team Seattle,3-10-0,Draft,Michael Gallup,WR,Dal,Bench,
+2020,Team Seattle,3-10-0,Draft,Cam Newton,QB,NE,Bench,
+2020,Team Seattle,3-10-0,Free Agency,Laviska Shenault Jr.,WR,Jax,Bench,
+2020,Team Seattle,3-10-0,Free Agency,"Adam Humphries
+Q",WR,FA,Bench,Q
+2020,Team Seattle,3-10-0,Free Agency,"Zane Gonzalez
+Q",K,FA,Bench,Q
+2020,Team Seattle,3-10-0,Free Agency,Malcolm Brown,RB,LAR,Bench,
+2020,Team Seattle,3-10-0,Free Agency,Jordan Howard,RB,Phi,Bench,
+2020,Team Seattle,3-10-0,Draft,"Randall Cobb
+Q",WR,Hou,IR,Q
+2020,Rigga Please,5-8-0,Free Agency,Justin Herbert,QB,LAC,QB,
+2020,Rigga Please,5-8-0,Draft,Le'Veon Bell,RB,KC,RB,
+2020,Rigga Please,5-8-0,Free Agency,"Mike Davis
+Q",RB,Car,RB,Q
+2020,Rigga Please,5-8-0,Draft,Stefon Diggs,WR,Buf,WR,
+2020,Rigga Please,5-8-0,Draft,Jamison Crowder,WR,NYJ,WR,
+2020,Rigga Please,5-8-0,Free Agency,Jordan Reed,TE,SF,TE,
+2020,Rigga Please,5-8-0,Free Agency,"Phillip Lindsay
+Q",RB,Den,FLEX,Q
+2020,Rigga Please,5-8-0,Free Agency,Chiefs D/ST,D/ST,KC,D/ST,
+2020,Rigga Please,5-8-0,Free Agency,Michael Badgley,K,LAC,K,
+2020,Rigga Please,5-8-0,Draft,Kenny Golladay,WR,Det,Bench,
+2020,Rigga Please,5-8-0,Free Agency,Joshua Kelley,RB,LAC,Bench,
+2020,Rigga Please,5-8-0,Free Agency,Brandin Cooks,WR,Hou,Bench,
+2020,Rigga Please,5-8-0,Free Agency,Travis Fulgham,WR,Phi,Bench,
+2020,Rigga Please,5-8-0,Trade,Ezekiel Elliott,RB,Dal,Bench,
+2020,Rigga Please,5-8-0,Free Agency,Mike Gesicki,TE,Mia,Bench,
+2020,Rigga Please,5-8-0,Free Agency,Brian Hill,RB,Atl,Bench,
+2020,Rigga Please,5-8-0,Draft,George Kittle,TE,SF,IR,
+2020,Team Ryan,2-11-0,Draft,Carson Wentz,QB,Ind,QB,
+2020,Team Ryan,2-11-0,Draft,"Miles Sanders
+Q",RB,Phi,RB,Q
+2020,Team Ryan,2-11-0,Draft,"Darrell Henderson Jr.
+Q",RB,LAR,RB,Q
+2020,Team Ryan,2-11-0,Draft,Jarvis Landry,WR,Cle,WR,
+2020,Team Ryan,2-11-0,Draft,Robby Anderson,WR,Car,WR,
+2020,Team Ryan,2-11-0,Draft,Darren Waller,TE,LV,TE,
+2020,Team Ryan,2-11-0,Draft,Calvin Ridley,WR,Atl,FLEX,
+2020,Team Ryan,2-11-0,Free Agency,Falcons D/ST,D/ST,Atl,D/ST,
+2020,Team Ryan,2-11-0,Free Agency,Joey Slye,K,Car,K,
+2020,Team Ryan,2-11-0,Draft,Kenyan Drake,RB,Ari,Bench,
+2020,Team Ryan,2-11-0,Draft,Sterling Shepard,WR,NYG,Bench,
+2020,Team Ryan,2-11-0,Draft,Anthony Miller,WR,Chi,Bench,
+2020,Team Ryan,2-11-0,Draft,Justin Jackson,RB,LAC,Bench,
+2020,Team Ryan,2-11-0,Draft,"Brandon Aiyuk
+Q",WR,SF,Bench,Q
+2020,Team Ryan,2-11-0,Free Agency,Tyler Eifert,TE,Jax,Bench,
+2020,Team Ryan,2-11-0,Free Agency,Wayne Gallman,RB,NYG,Bench,
+2020,Team Ryan,2-11-0,Free Agency,Drew Brees,QB,NO,IR,
+2020,Team Goff Balls,6-7-0,Free Agency,Kirk Cousins,QB,Min,QB,
+2020,Team Goff Balls,6-7-0,Free Agency,Myles Gaskin,RB,Mia,RB,
+2020,Team Goff Balls,6-7-0,Free Agency,"Latavius Murray
+Q",RB,NO,RB,Q
+2020,Team Goff Balls,6-7-0,Draft,"Julio Jones
+Q",WR,Atl,WR,Q
+2020,Team Goff Balls,6-7-0,Free Agency,Justin Jefferson,WR,Min,WR,
+2020,Team Goff Balls,6-7-0,Draft,T.J. Hockenson,TE,Det,TE,
+2020,Team Goff Balls,6-7-0,Draft,"A.J. Brown
+Q",WR,Ten,FLEX,Q
+2020,Team Goff Balls,6-7-0,Free Agency,Raiders D/ST,D/ST,LV,D/ST,
+2020,Team Goff Balls,6-7-0,Draft,Wil Lutz,K,NO,K,
+2020,Team Goff Balls,6-7-0,Draft,James Conner,RB,Pit,Bench,
+2020,Team Goff Balls,6-7-0,Draft,"DJ Chark Jr.
+Q",WR,Jax,Bench,Q
+2020,Team Goff Balls,6-7-0,Draft,Marquise Brown,WR,Bal,Bench,
+2020,Team Goff Balls,6-7-0,Draft,"Tom Brady
+Q",QB,TB,Bench,Q
+2020,Team Goff Balls,6-7-0,Free Agency,Buccaneers D/ST,D/ST,TB,Bench,
+2020,Team Goff Balls,6-7-0,Free Agency,"Duke Johnson
+Q",RB,FA,Bench,Q
+2020,Team Goff Balls,6-7-0,Free Agency,Michael Pittman Jr.,WR,Ind,Bench,
+2020,Team Goff Balls,6-7-0,Draft,"Joe Mixon
+Q",RB,Cin,IR,Q
+2020,Ninth Circle Of Helaire,4-9-0,Draft,Deshaun Watson,QB,Hou,QB,
+2020,Ninth Circle Of Helaire,4-9-0,Draft,Clyde Edwards-Helaire,RB,KC,RB,
+2020,Ninth Circle Of Helaire,4-9-0,Draft,Josh Jacobs,RB,LV,RB,
+2020,Ninth Circle Of Helaire,4-9-0,Draft,"Amari Cooper
+Q",WR,Dal,WR,Q
+2020,Ninth Circle Of Helaire,4-9-0,Draft,T.Y. Hilton,WR,Ind,WR,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,"Dallas Goedert
+Q",TE,Phi,TE,Q
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Corey Davis,WR,Ten,FLEX,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Saints D/ST,D/ST,NO,D/ST,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Graham Gano,K,NYG,K,
+2020,Ninth Circle Of Helaire,4-9-0,Draft,James White,RB,NE,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Draft,Sammy Watkins,WR,KC,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Colts D/ST,D/ST,Ind,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Robert Tonyan,TE,GB,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Christian Kirk,WR,Ari,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Jakobi Meyers,WR,NE,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,Free Agency,Devontae Booker,RB,LV,Bench,
+2020,Ninth Circle Of Helaire,4-9-0,,,,,IR,
+2021,Juulio Jones,10-4-0,Draft,Dak Prescott,QB,Dal,QB,
+2021,Juulio Jones,10-4-0,Draft,Austin Ekeler,RB,LAC,RB,
+2021,Juulio Jones,10-4-0,Draft,"AJ Dillon
+Q",RB,GB,RB,Q
+2021,Juulio Jones,10-4-0,Draft,Stefon Diggs,WR,Buf,WR,
+2021,Juulio Jones,10-4-0,Draft,"Brandin Cooks
+Q",WR,Hou,WR,Q
+2021,Juulio Jones,10-4-0,Draft,Mark Andrews,TE,Bal,TE,
+2021,Juulio Jones,10-4-0,Draft,Deebo Samuel,WR,SF,FLEX,
+2021,Juulio Jones,10-4-0,Free Agency,Panthers D/ST,D/ST,Car,D/ST,
+2021,Juulio Jones,10-4-0,Draft,Brandon McManus,K,Den,K,
+2021,Juulio Jones,10-4-0,Draft,"James Robinson
+Q",RB,Jax,Bench,Q
+2021,Juulio Jones,10-4-0,Draft,"Chris Godwin
+Q",WR,TB,Bench,Q
+2021,Juulio Jones,10-4-0,Draft,"Tyler Higbee
+Q",TE,LAR,Bench,Q
+2021,Juulio Jones,10-4-0,Draft,Tua Tagovailoa,QB,Mia,Bench,
+2021,Juulio Jones,10-4-0,Free Agency,Derek Carr,QB,LV,Bench,
+2021,Juulio Jones,10-4-0,Free Agency,Nyheim Hines,RB,Ind,Bench,
+2021,Juulio Jones,10-4-0,Free Agency,Vikings D/ST,D/ST,Min,Bench,
+2021,Juulio Jones,10-4-0,,,,,IR,
+2021,Storm Coopers,13-1-0,Draft,"Jalen Hurts
+Q",QB,Phi,QB,Q
+2021,Storm Coopers,13-1-0,Draft,Jonathan Taylor,RB,Ind,RB,
+2021,Storm Coopers,13-1-0,Draft,Najee Harris,RB,Pit,RB,
+2021,Storm Coopers,13-1-0,Draft,Amari Cooper,WR,Dal,WR,
+2021,Storm Coopers,13-1-0,Draft,Cooper Kupp,WR,LAR,WR,
+2021,Storm Coopers,13-1-0,Free Agency,Dalton Schultz,TE,Dal,TE,
+2021,Storm Coopers,13-1-0,Free Agency,"Ronald Jones II
+Q",RB,TB,FLEX,Q
+2021,Storm Coopers,13-1-0,Free Agency,Saints D/ST,D/ST,NO,D/ST,
+2021,Storm Coopers,13-1-0,Free Agency,Nick Folk,K,NE,K,
+2021,Storm Coopers,13-1-0,Draft,Marquise Brown,WR,Bal,Bench,
+2021,Storm Coopers,13-1-0,Draft,DeVonta Smith,WR,Phi,Bench,
+2021,Storm Coopers,13-1-0,Free Agency,"Michael Gallup
+Q",WR,Dal,Bench,Q
+2021,Storm Coopers,13-1-0,Free Agency,Greg Zuerlein,K,Dal,Bench,
+2021,Storm Coopers,13-1-0,Free Agency,Trey Lance,QB,SF,Bench,
+2021,Storm Coopers,13-1-0,Free Agency,"C.J. Uzomah
+Q",TE,Cin,Bench,Q
+2021,Storm Coopers,13-1-0,Free Agency,Dare Ogunbowale,RB,Jax,Bench,
+2021,Storm Coopers,13-1-0,,,,,IR,
+2021,The Juice Is Loose,8-6-0,Draft,Patrick Mahomes,QB,KC,QB,
+2021,The Juice Is Loose,8-6-0,Draft,Myles Gaskin,RB,Mia,RB,
+2021,The Juice Is Loose,8-6-0,Free Agency,D'Onta Foreman,RB,Ten,RB,
+2021,The Juice Is Loose,8-6-0,Draft,"DK Metcalf
+Q",WR,Sea,WR,Q
+2021,The Juice Is Loose,8-6-0,Draft,Ja'Marr Chase,WR,Cin,WR,
+2021,The Juice Is Loose,8-6-0,Draft,Rob Gronkowski,TE,TB,TE,
+2021,The Juice Is Loose,8-6-0,Draft,CeeDee Lamb,WR,Dal,FLEX,
+2021,The Juice Is Loose,8-6-0,Draft,Buccaneers D/ST,D/ST,TB,D/ST,
+2021,The Juice Is Loose,8-6-0,Draft,Graham Gano,K,NYG,K,
+2021,The Juice Is Loose,8-6-0,Draft,Derrick Henry,RB,Ten,Bench,
+2021,The Juice Is Loose,8-6-0,Draft,Devin Singletary,RB,Buf,Bench,
+2021,The Juice Is Loose,8-6-0,Draft,Matt Ryan,QB,Atl,Bench,
+2021,The Juice Is Loose,8-6-0,Free Agency,Boston Scott,RB,Phi,Bench,
+2021,The Juice Is Loose,8-6-0,Free Agency,Pat Freiermuth,TE,Pit,Bench,
+2021,The Juice Is Loose,8-6-0,Free Agency,Mason Crosby,K,GB,Bench,
+2021,The Juice Is Loose,8-6-0,Free Agency,Rhamondre Stevenson,RB,NE,Bench,
+2021,The Juice Is Loose,8-6-0,Draft,"William Fuller V
+Q",WR,Mia,IR,Q
+2021,Team Goff Balls,7-7-0,Free Agency,Tyler Huntley,QB,Bal,QB,
+2021,Team Goff Balls,7-7-0,Draft,Aaron Jones,RB,GB,RB,
+2021,Team Goff Balls,7-7-0,Trade,Javonte Williams,RB,Den,RB,
+2021,Team Goff Balls,7-7-0,Draft,Tyreek Hill,WR,KC,WR,
+2021,Team Goff Balls,7-7-0,Draft,"Antonio Brown
+Q",WR,FA,WR,Q
+2021,Team Goff Balls,7-7-0,Free Agency,Mike Gesicki,TE,Mia,TE,
+2021,Team Goff Balls,7-7-0,Trade,A.J. Brown,WR,Ten,FLEX,
+2021,Team Goff Balls,7-7-0,Free Agency,Packers D/ST,D/ST,GB,D/ST,
+2021,Team Goff Balls,7-7-0,Free Agency,Matt Prater,K,Ari,K,
+2021,Team Goff Balls,7-7-0,Draft,Lamar Jackson,QB,Bal,Bench,
+2021,Team Goff Balls,7-7-0,Draft,Tony Pollard,RB,Dal,Bench,
+2021,Team Goff Balls,7-7-0,Free Agency,Dawson Knox,TE,Buf,Bench,
+2021,Team Goff Balls,7-7-0,Trade,Alvin Kamara,RB,NO,Bench,
+2021,Team Goff Balls,7-7-0,Free Agency,Russell Gage,WR,Atl,Bench,
+2021,Team Goff Balls,7-7-0,Free Agency,Rashaad Penny,RB,Sea,Bench,
+2021,Team Goff Balls,7-7-0,Free Agency,"Jeff Wilson Jr.
+Q",RB,SF,Bench,Q
+2021,Team Goff Balls,7-7-0,Draft,Jerry Jeudy,WR,Den,IR,
+2021,Rex On Rex,8-6-0,Draft,Kyler Murray,QB,Ari,QB,
+2021,Rex On Rex,8-6-0,Draft,"Ezekiel Elliott
+Q",RB,Dal,RB,Q
+2021,Rex On Rex,8-6-0,Free Agency,Cordarrelle Patterson,RB,Atl,RB,
+2021,Rex On Rex,8-6-0,Draft,Jaylen Waddle,WR,Mia,WR,
+2021,Rex On Rex,8-6-0,Free Agency,Amon-Ra St. Brown,WR,Det,WR,
+2021,Rex On Rex,8-6-0,Draft,Dallas Goedert,TE,Phi,TE,
+2021,Rex On Rex,8-6-0,Draft,Mike Evans,WR,TB,FLEX,
+2021,Rex On Rex,8-6-0,Free Agency,Bears D/ST,D/ST,Chi,D/ST,
+2021,Rex On Rex,8-6-0,Free Agency,Jake Elliott,K,Phi,K,
+2021,Rex On Rex,8-6-0,Draft,Antonio Gibson,RB,Wsh,Bench,
+2021,Rex On Rex,8-6-0,Draft,"Adam Thielen
+Q",WR,Min,Bench,Q
+2021,Rex On Rex,8-6-0,Draft,"Odell Beckham Jr.
+D",WR,LAR,Bench,D
+2021,Rex On Rex,8-6-0,Draft,DeVante Parker,WR,Mia,Bench,
+2021,Rex On Rex,8-6-0,Draft,Hunter Henry,TE,NE,Bench,
+2021,Rex On Rex,8-6-0,Free Agency,Cardinals D/ST,D/ST,Ari,Bench,
+2021,Rex On Rex,8-6-0,Free Agency,Jarvis Landry,WR,Cle,Bench,
+2021,Rex On Rex,8-6-0,,,,,IR,
+2021,Cancelled -,7-7-0,Draft,Aaron Rodgers,QB,GB,QB,
+2021,Cancelled -,7-7-0,Free Agency,Sony Michel,RB,LAR,RB,
+2021,Cancelled -,7-7-0,Free Agency,Devonta Freeman,RB,Bal,RB,
+2021,Cancelled -,7-7-0,Draft,Terry McLaurin,WR,Wsh,WR,
+2021,Cancelled -,7-7-0,Free Agency,Hunter Renfrow,WR,LV,WR,
+2021,Cancelled -,7-7-0,Draft,George Kittle,TE,SF,TE,
+2021,Cancelled -,7-7-0,Draft,Tee Higgins,WR,Cin,FLEX,
+2021,Cancelled -,7-7-0,Free Agency,Eagles D/ST,D/ST,Phi,D/ST,
+2021,Cancelled -,7-7-0,Free Agency,Matt Gay,K,LAR,K,
+2021,Cancelled -,7-7-0,Draft,Courtland Sutton,WR,Den,Bench,
+2021,Cancelled -,7-7-0,Draft,James Conner,RB,Ari,Bench,
+2021,Cancelled -,7-7-0,Draft,Michael Pittman Jr.,WR,Ind,Bench,
+2021,Cancelled -,7-7-0,Draft,Jakobi Meyers,WR,NE,Bench,
+2021,Cancelled -,7-7-0,Free Agency,K.J. Osborn,WR,Min,Bench,
+2021,Cancelled -,7-7-0,Free Agency,Chiefs D/ST,D/ST,KC,Bench,
+2021,Cancelled -,7-7-0,Free Agency,"Mike Davis
+Q",RB,Atl,Bench,Q
+2021,Cancelled -,7-7-0,Draft,"Christian McCaffrey
+Q",RB,Car,IR,Q
+2021,Team Ryan,6-8-0,Draft,Ryan Tannehill,QB,Ten,QB,
+2021,Team Ryan,6-8-0,Draft,Josh Jacobs,RB,LV,RB,
+2021,Team Ryan,6-8-0,Draft,"Kareem Hunt
+Q",RB,Cle,RB,Q
+2021,Team Ryan,6-8-0,Draft,Davante Adams,WR,GB,WR,
+2021,Team Ryan,6-8-0,Draft,Cole Beasley,WR,Buf,WR,
+2021,Team Ryan,6-8-0,Draft,Noah Fant,TE,Den,TE,
+2021,Team Ryan,6-8-0,Draft,Clyde Edwards-Helaire,RB,KC,FLEX,
+2021,Team Ryan,6-8-0,Free Agency,Cowboys D/ST,D/ST,Dal,D/ST,
+2021,Team Ryan,6-8-0,Free Agency,Chris Boswell,K,Pit,K,
+2021,Team Ryan,6-8-0,Draft,"Robert Woods
+Q",WR,LAR,Bench,Q
+2021,Team Ryan,6-8-0,Draft,"Kenyan Drake
+Q",RB,LV,Bench,Q
+2021,Team Ryan,6-8-0,Draft,"Elijah Moore
+O",WR,NYJ,Bench,O
+2021,Team Ryan,6-8-0,Draft,"J.D. McKissic
+Q",RB,Wsh,Bench,Q
+2021,Team Ryan,6-8-0,Free Agency,Samaje Perine,RB,Cin,Bench,
+2021,Team Ryan,6-8-0,Free Agency,Albert Okwuegbunam,TE,Den,Bench,
+2021,Team Ryan,6-8-0,Free Agency,Tyrod Taylor,QB,Hou,Bench,
+2021,Team Ryan,6-8-0,Draft,Eric Ebron,TE,Pit,IR,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Russell Wilson,QB,Sea,QB,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Joe Mixon,RB,Cin,RB,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,D'Andre Swift,RB,Det,RB,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Tyler Lockett,WR,Sea,WR,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Chase Claypool,WR,Pit,WR,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,Evan Engram,TE,NYG,TE,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,Tevin Coleman,RB,NYJ,FLEX,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,Patriots D/ST,D/ST,NE,D/ST,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Justin Tucker,K,Bal,K,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Travis Kelce,TE,KC,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Michael Carter,RB,NYJ,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,Marquez Callaway,WR,NO,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,Kenneth Gainwell,RB,Phi,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,D'Ernest Johnson,RB,Cle,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,T.Y. Hilton,WR,Ind,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Free Agency,Bryan Edwards,WR,LV,Bench,
+2021,THE EMPIRE DID NOTHING WRONG!1,6-8-0,Draft,"Michael Thomas
+Q",WR,NO,IR,Q
+2021,Electric Bass,5-9-0,Draft,Tom Brady,QB,TB,QB,
+2021,Electric Bass,5-9-0,Draft,Saquon Barkley,RB,NYG,RB,
+2021,Electric Bass,5-9-0,Free Agency,Darrel Williams,RB,KC,RB,
+2021,Electric Bass,5-9-0,Draft,Keenan Allen,WR,LAC,WR,
+2021,Electric Bass,5-9-0,Free Agency,Christian Kirk,WR,Ari,WR,
+2021,Electric Bass,5-9-0,Draft,Kyle Pitts,TE,Atl,TE,
+2021,Electric Bass,5-9-0,Draft,Damien Harris,RB,NE,FLEX,
+2021,Electric Bass,5-9-0,Draft,Bills D/ST,D/ST,Buf,D/ST,
+2021,Electric Bass,5-9-0,Draft,Tyler Bass,K,Buf,K,
+2021,Electric Bass,5-9-0,Draft,Julio Jones,WR,Ten,Bench,
+2021,Electric Bass,5-9-0,Draft,Matthew Stafford,QB,LAR,Bench,
+2021,Electric Bass,5-9-0,Free Agency,Zach Ertz,TE,Ari,Bench,
+2021,Electric Bass,5-9-0,Free Agency,Van Jefferson,WR,LAR,Bench,
+2021,Electric Bass,5-9-0,Free Agency,Ty Johnson,RB,NYJ,Bench,
+2021,Electric Bass,5-9-0,Free Agency,Chuba Hubbard,RB,Car,Bench,
+2021,Electric Bass,5-9-0,Free Agency,Chargers D/ST,D/ST,LAC,Bench,
+2021,Electric Bass,5-9-0,Draft,"DeAndre Hopkins
+Q",WR,Ari,IR,Q
+2021,Team Seattle,5-9-0,Draft,Josh Allen,QB,Buf,QB,
+2021,Team Seattle,5-9-0,Draft,Dalvin Cook,RB,Min,RB,
+2021,Team Seattle,5-9-0,Draft,Darrell Henderson Jr.,RB,LAR,RB,
+2021,Team Seattle,5-9-0,Draft,Justin Jefferson,WR,Min,WR,
+2021,Team Seattle,5-9-0,Free Agency,DJ Moore,WR,Car,WR,
+2021,Team Seattle,5-9-0,Free Agency,Tyler Conklin,TE,Min,TE,
+2021,Team Seattle,5-9-0,Draft,Darnell Mooney,WR,Chi,FLEX,
+2021,Team Seattle,5-9-0,Draft,49ers D/ST,D/ST,SF,D/ST,
+2021,Team Seattle,5-9-0,Free Agency,Greg Joseph,K,Min,K,
+2021,Team Seattle,5-9-0,Draft,Marvin Jones Jr.,WR,Jax,Bench,
+2021,Team Seattle,5-9-0,Draft,Alexander Mattison,RB,Min,Bench,
+2021,Team Seattle,5-9-0,Trade,Miles Sanders,RB,Phi,Bench,
+2021,Team Seattle,5-9-0,Free Agency,Ryan Succop,K,TB,Bench,
+2021,Team Seattle,5-9-0,Free Agency,Rondale Moore,WR,Ari,Bench,
+2021,Team Seattle,5-9-0,Free Agency,Ravens D/ST,D/ST,Bal,Bench,
+2021,Team Seattle,5-9-0,Free Agency,"Teddy Bridgewater
+Q",QB,Den,Bench,Q
+2021,Team Seattle,5-9-0,,,,,IR,
+2021,Justin Herbert,4-10-0,Draft,Justin Herbert,QB,LAC,QB,
+2021,Justin Herbert,4-10-0,Draft,Jamaal Williams,RB,Det,RB,
+2021,Justin Herbert,4-10-0,Trade,Elijah Mitchell,RB,SF,RB,
+2021,Justin Herbert,4-10-0,Draft,Brandon Aiyuk,WR,SF,WR,
+2021,Justin Herbert,4-10-0,Draft,"Jamison Crowder
+Q",WR,NYJ,WR,Q
+2021,Justin Herbert,4-10-0,Draft,Darren Waller,TE,LV,TE,
+2021,Justin Herbert,4-10-0,Draft,Mike Williams,WR,LAC,FLEX,
+2021,Justin Herbert,4-10-0,Draft,Rams D/ST,D/ST,LAR,D/ST,
+2021,Justin Herbert,4-10-0,Free Agency,Harrison Butker,K,KC,K,
+2021,Justin Herbert,4-10-0,Draft,Allen Robinson II,WR,Chi,Bench,
+2021,Justin Herbert,4-10-0,Draft,Tyler Boyd,WR,Cin,Bench,
+2021,Justin Herbert,4-10-0,Draft,A.J. Green,WR,Ari,Bench,
+2021,Justin Herbert,4-10-0,Free Agency,"Sterling Shepard
+Q",WR,NYG,Bench,Q
+2021,Justin Herbert,4-10-0,Trade,"Kadarius Toney
+Q",WR,NYG,Bench,Q
+2021,Justin Herbert,4-10-0,Trade,Zack Moss,RB,Buf,Bench,
+2021,Justin Herbert,4-10-0,Free Agency,Foster Moreau,TE,LV,Bench,
+2021,Justin Herbert,4-10-0,,,,,IR,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,"Joe Burrow
+Q",QB,Cin,QB,Q
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,David Montgomery,RB,Chi,RB,
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,Melvin Gordon III,RB,Den,RB,
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,Diontae Johnson,WR,Pit,WR,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,Emmanuel Sanders,WR,Buf,WR,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,"Dan Arnold
+Q",TE,Jax,TE,Q
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,"Corey Davis
+Q",WR,NYJ,FLEX,Q
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,Texans D/ST,D/ST,Hou,D/ST,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,"Zane Gonzalez
+Q",K,Car,K,Q
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,Nick Chubb,RB,Cle,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,"Calvin Ridley
+O",WR,Atl,Bench,O
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,Chase Edmonds,RB,Ari,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,Robby Anderson,WR,Car,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,Khalil Herbert,RB,Chi,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,Randall Cobb,WR,GB,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Free Agency,Jeremy McNichols,RB,Ten,Bench,
+2021,THE 🅱️AKE SHOW,5-9-0,Draft,"Curtis Samuel
+Q",WR,Wsh,IR,Q
+2022,Violence Of The Lambs,9-5-0,Draft,Joe Burrow,QB,Cin,QB,
+2022,Violence Of The Lambs,9-5-0,Draft,Austin Ekeler,RB,LAC,RB,
+2022,Violence Of The Lambs,9-5-0,Free Agency,Tyler Allgeier,RB,Atl,RB,
+2022,Violence Of The Lambs,9-5-0,Draft,CeeDee Lamb,WR,Dal,WR,
+2022,Violence Of The Lambs,9-5-0,Draft,"Christian Kirk
+Q",WR,Jax,WR,Q
+2022,Violence Of The Lambs,9-5-0,Free Agency,Cole Kmet,TE,Chi,TE,
+2022,Violence Of The Lambs,9-5-0,Draft,David Montgomery,RB,Det,FLEX,
+2022,Violence Of The Lambs,9-5-0,Free Agency,Jaguars D/ST,D/ST,Jax,D/ST,
+2022,Violence Of The Lambs,9-5-0,Draft,Daniel Carlson,K,LV,K,
+2022,Violence Of The Lambs,9-5-0,Draft,Nick Chubb,RB,Cle,Bench,
+2022,Violence Of The Lambs,9-5-0,Draft,Darren Waller,TE,NYG,Bench,
+2022,Violence Of The Lambs,9-5-0,Draft,Brandon Aiyuk,WR,SF,Bench,
+2022,Violence Of The Lambs,9-5-0,Free Agency,George Pickens,WR,Pit,Bench,
+2022,Violence Of The Lambs,9-5-0,Trade,Garrett Wilson,WR,NYJ,Bench,
+2022,Violence Of The Lambs,9-5-0,Free Agency,"Brian Robinson Jr.
+Q",RB,Wsh,Bench,Q
+2022,Violence Of The Lambs,9-5-0,Free Agency,Jets D/ST,D/ST,NYJ,Bench,
+2022,Violence Of The Lambs,9-5-0,,,,,IR,
+2022,Rex On Rex,7-7-0,Free Agency,Gardner Minshew,QB,Ind,QB,
+2022,Rex On Rex,7-7-0,Draft,"Dalvin Cook
+Q",RB,Min,RB,Q
+2022,Rex On Rex,7-7-0,Draft,Kenneth Walker III,RB,Sea,RB,
+2022,Rex On Rex,7-7-0,Draft,Chris Godwin,WR,TB,WR,
+2022,Rex On Rex,7-7-0,Free Agency,Zay Jones,WR,Jax,WR,
+2022,Rex On Rex,7-7-0,Free Agency,Dawson Knox,TE,Buf,TE,
+2022,Rex On Rex,7-7-0,Free Agency,Zack Moss,RB,Ind,FLEX,
+2022,Rex On Rex,7-7-0,Draft,49ers D/ST,D/ST,SF,D/ST,
+2022,Rex On Rex,7-7-0,Free Agency,Jason Myers,K,Sea,K,
+2022,Rex On Rex,7-7-0,Draft,Deebo Samuel,WR,SF,Bench,
+2022,Rex On Rex,7-7-0,Draft,"Lamar Jackson
+Q",QB,Bal,Bench,Q
+2022,Rex On Rex,7-7-0,Draft,"Antonio Gibson
+Q",RB,Wsh,Bench,Q
+2022,Rex On Rex,7-7-0,Free Agency,Curtis Samuel,WR,Wsh,Bench,
+2022,Rex On Rex,7-7-0,Free Agency,Parris Campbell,WR,NYG,Bench,
+2022,Rex On Rex,7-7-0,Free Agency,"Demarcus Robinson
+Q",WR,Bal,Bench,Q
+2022,Rex On Rex,7-7-0,Free Agency,Eddy Pineiro,K,Car,Bench,
+2022,Rex On Rex,7-7-0,Draft,"Breece Hall
+Q",RB,NYJ,IR,Q
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Tom Brady,QB,TB,QB,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Najee Harris,RB,Pit,RB,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Josh Jacobs,RB,LV,RB,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Michael Pittman Jr.,WR,Ind,WR,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Jaylen Waddle,WR,Mia,WR,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Travis Kelce,TE,KC,TE,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,AJ Dillon,RB,GB,FLEX,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Buccaneers D/ST,D/ST,TB,D/ST,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Justin Tucker,K,Bal,K,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,"Allen Robinson II
+Q",WR,LAR,Bench,Q
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Draft,Robert Woods,WR,FA,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Free Agency,David Njoku,TE,Cle,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Free Agency,Nyheim Hines,RB,Buf,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Free Agency,Broncos D/ST,D/ST,Den,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Free Agency,Van Jefferson,WR,LAR,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,Free Agency,Marquez Valdes-Scantling,WR,KC,Bench,
+2022,THE EMPIRE DID NOTHING WRONG!1,9-5-0,,,,,IR,
+2022,Allen Wrenches,9-5-0,Draft,Josh Allen,QB,Buf,QB,
+2022,Allen Wrenches,9-5-0,Draft,Aaron Jones,RB,GB,RB,
+2022,Allen Wrenches,9-5-0,Free Agency,Zonovan Knight,RB,NYJ,RB,
+2022,Allen Wrenches,9-5-0,Draft,JuJu Smith-Schuster,WR,NE,WR,
+2022,Allen Wrenches,9-5-0,Draft,Adam Thielen,WR,FA,WR,
+2022,Allen Wrenches,9-5-0,Free Agency,Evan Engram,TE,Jax,TE,
+2022,Allen Wrenches,9-5-0,Free Agency,Latavius Murray,RB,Den,FLEX,
+2022,Allen Wrenches,9-5-0,Free Agency,Eagles D/ST,D/ST,Phi,D/ST,
+2022,Allen Wrenches,9-5-0,Free Agency,Nick Folk,K,NE,K,
+2022,Allen Wrenches,9-5-0,Draft,Courtland Sutton,WR,Den,Bench,
+2022,Allen Wrenches,9-5-0,Draft,Damien Harris,RB,Buf,Bench,
+2022,Allen Wrenches,9-5-0,Draft,Jakobi Meyers,WR,LV,Bench,
+2022,Allen Wrenches,9-5-0,Draft,Michael Carter,RB,NYJ,Bench,
+2022,Allen Wrenches,9-5-0,Draft,Patriots D/ST,D/ST,NE,Bench,
+2022,Allen Wrenches,9-5-0,Free Agency,Juwan Johnson,TE,NO,Bench,
+2022,Allen Wrenches,9-5-0,Free Agency,K.J. Osborn,WR,Min,Bench,
+2022,Allen Wrenches,9-5-0,Draft,"Cooper Kupp
+Q",WR,LAR,IR,Q
+2022,Team Ryan,7-7-0,Draft,Aaron Rodgers,QB,GB,QB,
+2022,Team Ryan,7-7-0,Draft,Leonard Fournette,RB,FA,RB,
+2022,Team Ryan,7-7-0,Free Agency,Jerick McKinnon,RB,KC,RB,
+2022,Team Ryan,7-7-0,Draft,Mike Williams,WR,LAC,WR,
+2022,Team Ryan,7-7-0,Draft,Amon-Ra St. Brown,WR,Det,WR,
+2022,Team Ryan,7-7-0,Free Agency,Tyler Conklin,TE,NYJ,TE,
+2022,Team Ryan,7-7-0,Draft,Davante Adams,WR,LV,FLEX,
+2022,Team Ryan,7-7-0,Free Agency,Dolphins D/ST,D/ST,Mia,D/ST,
+2022,Team Ryan,7-7-0,Draft,Greg Zuerlein,K,NYJ,K,
+2022,Team Ryan,7-7-0,Draft,Cam Akers,RB,LAR,Bench,
+2022,Team Ryan,7-7-0,Draft,"Darnell Mooney
+Q",WR,Chi,Bench,Q
+2022,Team Ryan,7-7-0,Draft,Kareem Hunt,RB,Cle,Bench,
+2022,Team Ryan,7-7-0,Draft,Jahan Dotson,WR,Wsh,Bench,
+2022,Team Ryan,7-7-0,Draft,Mike Gesicki,TE,NE,Bench,
+2022,Team Ryan,7-7-0,Free Agency,Jeff Wilson Jr.,RB,Mia,Bench,
+2022,Team Ryan,7-7-0,Free Agency,Jared Goff,QB,Det,Bench,
+2022,Team Ryan,7-7-0,Draft,"Zach Ertz
+Q",TE,Ari,IR,Q
+2022,Team Goff Balls,7-7-0,Free Agency,Justin Fields,QB,Chi,QB,
+2022,Team Goff Balls,7-7-0,Trade,"James Conner
+Q",RB,Ari,RB,Q
+2022,Team Goff Balls,7-7-0,Free Agency,Isiah Pacheco,RB,KC,RB,
+2022,Team Goff Balls,7-7-0,Draft,Justin Jefferson,WR,Min,WR,
+2022,Team Goff Balls,7-7-0,Draft,"DeAndre Hopkins
+Q",WR,Ari,WR,Q
+2022,Team Goff Balls,7-7-0,Draft,Gerald Everett,TE,LAC,TE,
+2022,Team Goff Balls,7-7-0,Draft,Mike Evans,WR,TB,FLEX,
+2022,Team Goff Balls,7-7-0,Free Agency,Commanders D/ST,D/ST,Wsh,D/ST,
+2022,Team Goff Balls,7-7-0,Free Agency,Tyler Bass,K,Buf,K,
+2022,Team Goff Balls,7-7-0,Draft,Gabe Davis,WR,Buf,Bench,
+2022,Team Goff Balls,7-7-0,Draft,"Dameon Pierce
+Q",RB,Hou,Bench,Q
+2022,Team Goff Balls,7-7-0,Free Agency,Geno Smith,QB,Sea,Bench,
+2022,Team Goff Balls,7-7-0,Free Agency,D'Onta Foreman,RB,Chi,Bench,
+2022,Team Goff Balls,7-7-0,Trade,Tyler Higbee,TE,LAR,Bench,
+2022,Team Goff Balls,7-7-0,Free Agency,Treylon Burks,WR,Ten,Bench,
+2022,Team Goff Balls,7-7-0,Free Agency,Chuba Hubbard,RB,Car,Bench,
+2022,Team Goff Balls,7-7-0,,,,,IR,
+2022,Drake @ London O2,7-7-0,Free Agency,Daniel Jones,QB,NYG,QB,
+2022,Drake @ London O2,7-7-0,Draft,Saquon Barkley,RB,NYG,RB,
+2022,Drake @ London O2,7-7-0,Draft,Travis Etienne Jr.,RB,Jax,RB,
+2022,Drake @ London O2,7-7-0,Draft,Ja'Marr Chase,WR,Cin,WR,
+2022,Drake @ London O2,7-7-0,Draft,A.J. Brown,WR,Phi,WR,
+2022,Drake @ London O2,7-7-0,Draft,George Kittle,TE,SF,TE,
+2022,Drake @ London O2,7-7-0,Free Agency,Darius Slayton,WR,NYG,FLEX,
+2022,Drake @ London O2,7-7-0,Free Agency,Chiefs D/ST,D/ST,KC,D/ST,
+2022,Drake @ London O2,7-7-0,Free Agency,Harrison Butker,K,KC,K,
+2022,Drake @ London O2,7-7-0,Draft,Drake London,WR,Atl,Bench,
+2022,Drake @ London O2,7-7-0,Draft,"Tyler Boyd
+Q",WR,Cin,Bench,Q
+2022,Drake @ London O2,7-7-0,Free Agency,Robert Tonyan,TE,Chi,Bench,
+2022,Drake @ London O2,7-7-0,Free Agency,"Marcus Mariota
+Q",QB,Phi,Bench,Q
+2022,Drake @ London O2,7-7-0,Free Agency,"Odell Beckham Jr.
+Q",WR,FA,Bench,Q
+2022,Drake @ London O2,7-7-0,Free Agency,Christian Watson,WR,GB,Bench,
+2022,Drake @ London O2,7-7-0,Free Agency,Samaje Perine,RB,Den,Bench,
+2022,Drake @ London O2,7-7-0,Free Agency,"Elijah Mitchell
+Q",RB,SF,IR,Q
+2022,Team Seattle,7-7-0,Draft,"Patrick Mahomes
+Q",QB,KC,QB,Q
+2022,Team Seattle,7-7-0,Draft,Derrick Henry,RB,Ten,RB,
+2022,Team Seattle,7-7-0,Draft,"Tony Pollard
+Q",RB,Dal,RB,Q
+2022,Team Seattle,7-7-0,Draft,Keenan Allen,WR,LAC,WR,
+2022,Team Seattle,7-7-0,Draft,DeVonta Smith,WR,Phi,WR,
+2022,Team Seattle,7-7-0,Draft,T.J. Hockenson,TE,Min,TE,
+2022,Team Seattle,7-7-0,Draft,Jamaal Williams,RB,NO,FLEX,
+2022,Team Seattle,7-7-0,Free Agency,Panthers D/ST,D/ST,Car,D/ST,
+2022,Team Seattle,7-7-0,Draft,Greg Joseph,K,Min,K,
+2022,Team Seattle,7-7-0,Draft,Packers D/ST,D/ST,GB,Bench,
+2022,Team Seattle,7-7-0,Draft,"Jarvis Landry
+Q",WR,NO,Bench,Q
+2022,Team Seattle,7-7-0,Draft,Mac Jones,QB,NE,Bench,
+2022,Team Seattle,7-7-0,Free Agency,Kenyan Drake,RB,Bal,Bench,
+2022,Team Seattle,7-7-0,Free Agency,Corey Davis,WR,NYJ,Bench,
+2022,Team Seattle,7-7-0,Trade,Alexander Mattison,RB,Min,Bench,
+2022,Team Seattle,7-7-0,Trade,Taysom Hill,TE,NO,Bench,
+2022,Team Seattle,7-7-0,Draft,Marquise Brown,WR,Ari,IR,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Trevor Lawrence,QB,Jax,QB,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Christian McCaffrey,RB,SF,RB,
+2022,THE 🅱️AKE SHOW,6-8-0,Free Agency,Rex Burkhead,RB,Hou,RB,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Tyreek Hill,WR,Mia,WR,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Tee Higgins,WR,Cin,WR,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,"Pat Freiermuth
+Q",TE,Pit,TE,Q
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Amari Cooper,WR,Cle,FLEX,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Ravens D/ST,D/ST,Bal,D/ST,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Graham Gano,K,NYG,K,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Brandin Cooks,WR,Dal,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,J.K. Dobbins,RB,Bal,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Devin Singletary,RB,Hou,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Dak Prescott,QB,Dal,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,DJ Chark,WR,Det,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Draft,Joshua Palmer,WR,LAC,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,Trade,Tua Tagovailoa,QB,Mia,Bench,
+2022,THE 🅱️AKE SHOW,6-8-0,,,,,IR,
+2022,Hunter Gatherer,5-9-0,Draft,"Justin Herbert
+Q",QB,LAC,QB,Q
+2022,Hunter Gatherer,5-9-0,Draft,"Jonathan Taylor
+Q",RB,Ind,RB,Q
+2022,Hunter Gatherer,5-9-0,Draft,Miles Sanders,RB,Car,RB,
+2022,Hunter Gatherer,5-9-0,Draft,DK Metcalf,WR,Sea,WR,
+2022,Hunter Gatherer,5-9-0,Trade,Jerry Jeudy,WR,Den,WR,
+2022,Hunter Gatherer,5-9-0,Draft,Mark Andrews,TE,Bal,TE,
+2022,Hunter Gatherer,5-9-0,Draft,Allen Lazard,WR,NYJ,FLEX,
+2022,Hunter Gatherer,5-9-0,Draft,Bills D/ST,D/ST,Buf,D/ST,
+2022,Hunter Gatherer,5-9-0,Free Agency,Cairo Santos,K,Chi,K,
+2022,Hunter Gatherer,5-9-0,Draft,Hunter Henry,TE,NE,Bench,
+2022,Hunter Gatherer,5-9-0,Draft,Raheem Mostert,RB,Mia,Bench,
+2022,Hunter Gatherer,5-9-0,Draft,"Mecole Hardman
+Q",WR,KC,Bench,Q
+2022,Hunter Gatherer,5-9-0,Free Agency,Cowboys D/ST,D/ST,Dal,Bench,
+2022,Hunter Gatherer,5-9-0,Free Agency,"Michael Gallup
+Q",WR,Dal,Bench,Q
+2022,Hunter Gatherer,5-9-0,Free Agency,Julio Jones,WR,TB,Bench,
+2022,Hunter Gatherer,5-9-0,Free Agency,Brandon McManus,K,Den,Bench,
+2022,Hunter Gatherer,5-9-0,Draft,Hunter Renfrow,WR,LV,IR,
+2022,Juulio Jones,6-8-0,Draft,Jalen Hurts,QB,Phi,QB,
+2022,Juulio Jones,6-8-0,Draft,D'Andre Swift,RB,Det,RB,
+2022,Juulio Jones,6-8-0,Free Agency,Rachaad White,RB,TB,RB,
+2022,Juulio Jones,6-8-0,Draft,DJ Moore,WR,Chi,WR,
+2022,Juulio Jones,6-8-0,Draft,Tyler Lockett,WR,Sea,WR,
+2022,Juulio Jones,6-8-0,Draft,Dalton Schultz,TE,Hou,TE,
+2022,Juulio Jones,6-8-0,Free Agency,Eno Benjamin,RB,NO,FLEX,
+2022,Juulio Jones,6-8-0,Free Agency,Cardinals D/ST,D/ST,Ari,D/ST,
+2022,Juulio Jones,6-8-0,Draft,Matt Gay,K,Ind,K,
+2022,Juulio Jones,6-8-0,Draft,Joe Mixon,RB,Cin,Bench,
+2022,Juulio Jones,6-8-0,Draft,Diontae Johnson,WR,Pit,Bench,
+2022,Juulio Jones,6-8-0,Draft,Derek Carr,QB,NO,Bench,
+2022,Juulio Jones,6-8-0,Draft,Saints D/ST,D/ST,NO,Bench,
+2022,Juulio Jones,6-8-0,Draft,Marvin Jones Jr.,WR,Jax,Bench,
+2022,Juulio Jones,6-8-0,Draft,Noah Fant,TE,Sea,Bench,
+2022,Juulio Jones,6-8-0,Draft,Hayden Hurst,TE,Car,Bench,
+2022,Juulio Jones,6-8-0,Draft,Cordarrelle Patterson,RB,Atl,IR,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Kirk Cousins,QB,Min,QB,
+2022,Diggs In A Blanket,5-9-0,Draft,Ezekiel Elliott,RB,FA,RB,
+2022,Diggs In A Blanket,5-9-0,Draft,Rhamondre Stevenson,RB,NE,RB,
+2022,Diggs In A Blanket,5-9-0,Draft,Stefon Diggs,WR,Buf,WR,
+2022,Diggs In A Blanket,5-9-0,Draft,Terry McLaurin,WR,Wsh,WR,
+2022,Diggs In A Blanket,5-9-0,Draft,Dallas Goedert,TE,Phi,TE,
+2022,Diggs In A Blanket,5-9-0,Draft,Alvin Kamara,RB,NO,FLEX,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Steelers D/ST,D/ST,Pit,D/ST,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Brett Maher,K,Dal,K,
+2022,Diggs In A Blanket,5-9-0,Draft,"Kyler Murray
+Q",QB,Ari,Bench,Q
+2022,Diggs In A Blanket,5-9-0,Draft,Chris Olave,WR,NO,Bench,
+2022,Diggs In A Blanket,5-9-0,Free Agency,"Devin Duvernay
+Q",WR,Bal,Bench,Q
+2022,Diggs In A Blanket,5-9-0,Free Agency,Kyren Williams,RB,LAR,Bench,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Mack Hollins,WR,LV,Bench,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Titans D/ST,D/ST,Ten,Bench,
+2022,Diggs In A Blanket,5-9-0,Free Agency,Donovan Peoples-Jones,WR,Cle,Bench,
+2022,Diggs In A Blanket,5-9-0,Free Agency,"Greg Dulcich
+Q",TE,Den,IR,Q
+2023,Bed Bath And Bijan,10-4-0,Draft,Lamar Jackson,QB,Bal,QB,
+2023,Bed Bath And Bijan,10-4-0,Draft,Bijan Robinson,RB,Atl,RB,
+2023,Bed Bath And Bijan,10-4-0,Draft,Jonathan Taylor,RB,Ind,RB,
+2023,Bed Bath And Bijan,10-4-0,Draft,CeeDee Lamb,WR,Dal,WR,
+2023,Bed Bath And Bijan,10-4-0,Draft,DeAndre Hopkins,WR,Ten,WR,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Trey McBride,TE,Ari,TE,
+2023,Bed Bath And Bijan,10-4-0,Draft,Isiah Pacheco,RB,KC,FLEX,
+2023,Bed Bath And Bijan,10-4-0,Draft,49ers D/ST,D/ST,SF,D/ST,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Tyler Bass,K,Buf,K,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Jake Ferguson,TE,Dal,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Adam Thielen,WR,Car,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Kyler Murray,QB,Ari,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Ty Chandler,RB,Min,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Clyde Edwards-Helaire,RB,KC,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Zamir White,RB,LV,Bench,
+2023,Bed Bath And Bijan,10-4-0,Free Agency,Raiders D/ST,D/ST,LV,Bench,
+2023,Bed Bath And Bijan,10-4-0,Draft,"Courtland Sutton
+Q",WR,Den,IR,Q
+2023,Hurts Rent A Carr,8-6-0,Draft,Jalen Hurts,QB,Phi,QB,
+2023,Hurts Rent A Carr,8-6-0,Draft,Christian McCaffrey,RB,SF,RB,
+2023,Hurts Rent A Carr,8-6-0,Draft,Kenneth Walker III,RB,Sea,RB,
+2023,Hurts Rent A Carr,8-6-0,Draft,Chris Olave,WR,NO,WR,
+2023,Hurts Rent A Carr,8-6-0,Trade,Justin Jefferson,WR,Min,WR,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Isaiah Likely,TE,Bal,TE,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Amari Cooper,WR,Cle,FLEX,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Chiefs D/ST,D/ST,KC,D/ST,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Jason Sanders,K,Mia,K,
+2023,Hurts Rent A Carr,8-6-0,Draft,Tyler Lockett,WR,Sea,Bench,
+2023,Hurts Rent A Carr,8-6-0,Draft,Elijah Mitchell,RB,SF,Bench,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Zack Moss,RB,Cin,Bench,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Zach Charbonnet,RB,Sea,Bench,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Romeo Doubs,WR,GB,Bench,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Brandin Cooks,WR,Dal,Bench,
+2023,Hurts Rent A Carr,8-6-0,Free Agency,Demarcus Robinson,WR,LAR,Bench,
+2023,Hurts Rent A Carr,8-6-0,Draft,"Michael Thomas
+Q",WR,NO,IR,Q
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,Matthew Stafford,QB,LAR,QB,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Travis Etienne Jr.,RB,Jax,RB,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,Jerome Ford,RB,Cle,RB,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Tyreek Hill,WR,Mia,WR,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Terry McLaurin,WR,Wsh,WR,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,Hunter Henry,TE,NE,TE,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,Chuba Hubbard,RB,Car,FLEX,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Cowboys D/ST,D/ST,Dal,D/ST,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Evan McPherson,K,Cin,K,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Jaylen Waddle,WR,Mia,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Alexander Mattison,RB,LV,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,Draft,Jared Goff,QB,Det,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,C.J. Stroud,QB,Hou,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,Taysom Hill,TE,NO,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,Free Agency,"Noah Brown
+Q",WR,Hou,Bench,Q
+2023,Your Wildest Fantasy (Football),9-5-0,,,,,Bench,
+2023,Your Wildest Fantasy (Football),9-5-0,,,,,IR,
+2023,Team Rex,10-4-0,Free Agency,Jake Browning,QB,Cin,QB,
+2023,Team Rex,10-4-0,Draft,Austin Ekeler,RB,Wsh,RB,
+2023,Team Rex,10-4-0,Draft,Jahmyr Gibbs,RB,Det,RB,
+2023,Team Rex,10-4-0,Draft,"A.J. Brown
+Q",WR,Phi,WR,Q
+2023,Team Rex,10-4-0,Draft,Michael Pittman Jr.,WR,Ind,WR,
+2023,Team Rex,10-4-0,Draft,Sam LaPorta,TE,Det,TE,
+2023,Team Rex,10-4-0,Draft,Rachaad White,RB,TB,FLEX,
+2023,Team Rex,10-4-0,Free Agency,Rams D/ST,D/ST,LAR,D/ST,
+2023,Team Rex,10-4-0,Draft,Justin Tucker,K,Bal,K,
+2023,Team Rex,10-4-0,Draft,Diontae Johnson,WR,Car,Bench,
+2023,Team Rex,10-4-0,Draft,James Cook,RB,Buf,Bench,
+2023,Team Rex,10-4-0,Draft,Jaylen Warren,RB,Pit,Bench,
+2023,Team Rex,10-4-0,Free Agency,Sam Howell,QB,Sea,Bench,
+2023,Team Rex,10-4-0,Free Agency,Darren Waller,TE,NYG,Bench,
+2023,Team Rex,10-4-0,Free Agency,Bears D/ST,D/ST,Chi,Bench,
+2023,Team Rex,10-4-0,Free Agency,Curtis Samuel,WR,Buf,Bench,
+2023,Team Rex,10-4-0,,,,,IR,
+2023,Rex On Rex,7-7-0,Free Agency,Brock Purdy,QB,SF,QB,
+2023,Rex On Rex,7-7-0,Draft,Javonte Williams,RB,Den,RB,
+2023,Rex On Rex,7-7-0,Draft,"Kyren Williams
+Q",RB,LAR,RB,Q
+2023,Rex On Rex,7-7-0,Draft,DeVonta Smith,WR,Phi,WR,
+2023,Rex On Rex,7-7-0,Draft,Zay Flowers,WR,Bal,WR,
+2023,Rex On Rex,7-7-0,Free Agency,Tyler Conklin,TE,NYJ,TE,
+2023,Rex On Rex,7-7-0,Draft,Ja'Marr Chase,WR,Cin,FLEX,
+2023,Rex On Rex,7-7-0,Free Agency,Falcons D/ST,D/ST,Atl,D/ST,
+2023,Rex On Rex,7-7-0,Draft,Harrison Butker,K,KC,K,
+2023,Rex On Rex,7-7-0,Draft,Josh Jacobs,RB,GB,Bench,
+2023,Rex On Rex,7-7-0,Draft,"T.J. Hockenson
+Q",TE,Min,Bench,Q
+2023,Rex On Rex,7-7-0,Draft,Justin Fields,QB,Pit,Bench,
+2023,Rex On Rex,7-7-0,Draft,"Marquise Brown
+Q",WR,KC,Bench,Q
+2023,Rex On Rex,7-7-0,Draft,Jakobi Meyers,WR,LV,Bench,
+2023,Rex On Rex,7-7-0,Draft,Gus Edwards,RB,LAC,Bench,
+2023,Rex On Rex,7-7-0,Free Agency,Baker Mayfield,QB,TB,Bench,
+2023,Rex On Rex,7-7-0,,,,,IR,
+2023,The Ascension To Evan(S),7-7-0,Draft,Dak Prescott,QB,Dal,QB,
+2023,The Ascension To Evan(S),7-7-0,Draft,Najee Harris,RB,Pit,RB,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Antonio Gibson,RB,NE,RB,
+2023,The Ascension To Evan(S),7-7-0,Draft,Mike Evans,WR,TB,WR,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Jayden Reed,WR,GB,WR,
+2023,The Ascension To Evan(S),7-7-0,Draft,Evan Engram,TE,Jax,TE,
+2023,The Ascension To Evan(S),7-7-0,Draft,Drake London,WR,Atl,FLEX,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Chargers D/ST,D/ST,LAC,D/ST,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Chase McLaughlin,K,TB,K,
+2023,The Ascension To Evan(S),7-7-0,Draft,Tee Higgins,WR,Cin,Bench,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Ravens D/ST,D/ST,Bal,Bench,
+2023,The Ascension To Evan(S),7-7-0,Trade,Raheem Mostert,RB,Mia,Bench,
+2023,The Ascension To Evan(S),7-7-0,Trade,"Rhamondre Stevenson
+Q",RB,NE,Bench,Q
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Odell Beckham Jr.,WR,FA,Bench,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Geno Smith,QB,Sea,Bench,
+2023,The Ascension To Evan(S),7-7-0,Free Agency,Pat Freiermuth,TE,Pit,Bench,
+2023,The Ascension To Evan(S),7-7-0,Trade,"Christian Kirk
+Q",WR,Jax,IR,Q
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Patrick Mahomes,QB,KC,QB,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Breece Hall,RB,NYJ,RB,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,David Montgomery,RB,Det,RB,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,DK Metcalf,WR,Sea,WR,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Nico Collins,WR,Hou,WR,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Travis Kelce,TE,KC,TE,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Ezekiel Elliott,RB,NE,FLEX,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Free Agency,Buccaneers D/ST,D/ST,TB,D/ST,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Free Agency,Brandon Aubrey,K,Dal,K,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Christian Watson,WR,GB,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Jaxon Smith-Njigba,WR,Sea,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Eagles D/ST,D/ST,Phi,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Draft,Tyjae Spears,RB,Ten,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Free Agency,Treylon Burks,WR,Ten,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Free Agency,Vikings D/ST,D/ST,Min,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,Free Agency,Joshua Dobbs,QB,SF,Bench,
+2023,THE EMPIRE DID NOTHING WRONG!1,7-7-0,,,,,IR,
+2023,Judge Jeudy,5-9-0,Draft,Russell Wilson,QB,Pit,QB,
+2023,Judge Jeudy,5-9-0,Draft,Saquon Barkley,RB,Phi,RB,
+2023,Judge Jeudy,5-9-0,Draft,D'Andre Swift,RB,Chi,RB,
+2023,Judge Jeudy,5-9-0,Draft,Cooper Kupp,WR,LAR,WR,
+2023,Judge Jeudy,5-9-0,Draft,DJ Moore,WR,Chi,WR,
+2023,Judge Jeudy,5-9-0,Free Agency,Chigoziem Okonkwo,TE,Ten,TE,
+2023,Judge Jeudy,5-9-0,Free Agency,Puka Nacua,WR,LAR,FLEX,
+2023,Judge Jeudy,5-9-0,Draft,Steelers D/ST,D/ST,Pit,D/ST,
+2023,Judge Jeudy,5-9-0,Free Agency,Jake Moody,K,SF,K,
+2023,Judge Jeudy,5-9-0,Draft,Dameon Pierce,RB,Hou,Bench,
+2023,Judge Jeudy,5-9-0,Draft,"Joe Burrow
+Q",QB,Cin,Bench,Q
+2023,Judge Jeudy,5-9-0,Draft,Jerry Jeudy,WR,Cle,Bench,
+2023,Judge Jeudy,5-9-0,Draft,"JuJu Smith-Schuster
+Q",WR,NE,Bench,Q
+2023,Judge Jeudy,5-9-0,Draft,Elijah Moore,WR,Cle,Bench,
+2023,Judge Jeudy,5-9-0,Trade,"Tyler Higbee
+Q",TE,LAR,Bench,Q
+2023,Judge Jeudy,5-9-0,Free Agency,Devin Singletary,RB,NYG,Bench,
+2023,Judge Jeudy,5-9-0,Trade,"Mike Williams
+Q",WR,NYJ,IR,Q
+2023,Team Goff Balls,7-7-0,Free Agency,Jordan Love,QB,GB,QB,
+2023,Team Goff Balls,7-7-0,Draft,Tony Pollard,RB,Ten,RB,
+2023,Team Goff Balls,7-7-0,Draft,De'Von Achane,RB,Mia,RB,
+2023,Team Goff Balls,7-7-0,Draft,Stefon Diggs,WR,Buf,WR,
+2023,Team Goff Balls,7-7-0,Trade,Davante Adams,WR,LV,WR,
+2023,Team Goff Balls,7-7-0,Trade,Dalton Kincaid,TE,Buf,TE,
+2023,Team Goff Balls,7-7-0,Free Agency,Rashee Rice,WR,KC,FLEX,
+2023,Team Goff Balls,7-7-0,Free Agency,Colts D/ST,D/ST,Ind,D/ST,
+2023,Team Goff Balls,7-7-0,Free Agency,Jason Myers,K,Sea,K,
+2023,Team Goff Balls,7-7-0,Draft,Calvin Ridley,WR,Ten,Bench,
+2023,Team Goff Balls,7-7-0,Draft,"Justin Herbert
+Q",QB,LAC,Bench,Q
+2023,Team Goff Balls,7-7-0,Draft,Jordan Addison,WR,Min,Bench,
+2023,Team Goff Balls,7-7-0,Free Agency,"Logan Thomas
+Q",TE,Wsh,Bench,Q
+2023,Team Goff Balls,7-7-0,Free Agency,DeMario Douglas,WR,NE,Bench,
+2023,Team Goff Balls,7-7-0,Free Agency,"Keaton Mitchell
+Q",RB,Bal,Bench,Q
+2023,Team Goff Balls,7-7-0,Trade,James Conner,RB,Ari,Bench,
+2023,Team Goff Balls,7-7-0,,,,,IR,
+2023,Team Ryan,5-9-0,Draft,Tua Tagovailoa,QB,Mia,QB,
+2023,Team Ryan,5-9-0,Draft,"Alvin Kamara
+Q",RB,NO,RB,Q
+2023,Team Ryan,5-9-0,Draft,Kenneth Gainwell,RB,Phi,RB,
+2023,Team Ryan,5-9-0,Draft,Garrett Wilson,WR,NYJ,WR,
+2023,Team Ryan,5-9-0,Draft,Deebo Samuel,WR,SF,WR,
+2023,Team Ryan,5-9-0,Draft,"George Kittle
+Q",TE,SF,TE,Q
+2023,Team Ryan,5-9-0,Draft,George Pickens,WR,Pit,FLEX,
+2023,Team Ryan,5-9-0,Draft,Browns D/ST,D/ST,Cle,D/ST,
+2023,Team Ryan,5-9-0,Free Agency,Younghoe Koo,K,Atl,K,
+2023,Team Ryan,5-9-0,Draft,Keenan Allen,WR,Chi,Bench,
+2023,Team Ryan,5-9-0,Draft,Gabe Davis,WR,Jax,Bench,
+2023,Team Ryan,5-9-0,Draft,Tyler Allgeier,RB,Atl,Bench,
+2023,Team Ryan,5-9-0,Draft,Jets D/ST,D/ST,NYJ,Bench,
+2023,Team Ryan,5-9-0,Free Agency,"Gerald Everett
+Q",TE,Chi,Bench,Q
+2023,Team Ryan,5-9-0,Free Agency,Kenny Pickett,QB,Phi,Bench,
+2023,Team Ryan,5-9-0,Free Agency,Royce Freeman,RB,LAR,Bench,
+2023,Team Ryan,5-9-0,Draft,"Nick Chubb
+Q",RB,Cle,IR,Q
+2023,Juulio Jones,5-9-0,Free Agency,Derek Carr,QB,NO,QB,
+2023,Juulio Jones,5-9-0,Draft,Derrick Henry,RB,Bal,RB,
+2023,Juulio Jones,5-9-0,Draft,Aaron Jones,RB,Min,RB,
+2023,Juulio Jones,5-9-0,Draft,Amon-Ra St. Brown,WR,Det,WR,
+2023,Juulio Jones,5-9-0,Draft,Chris Godwin,WR,TB,WR,
+2023,Juulio Jones,5-9-0,Draft,David Njoku,TE,Cle,TE,
+2023,Juulio Jones,5-9-0,Free Agency,Rashid Shaheed,WR,NO,FLEX,
+2023,Juulio Jones,5-9-0,Free Agency,Jaguars D/ST,D/ST,Jax,D/ST,
+2023,Juulio Jones,5-9-0,Draft,Jake Elliott,K,Phi,K,
+2023,Juulio Jones,5-9-0,Draft,Kyle Pitts,TE,Atl,Bench,
+2023,Juulio Jones,5-9-0,Draft,Khalil Herbert,RB,Chi,Bench,
+2023,Juulio Jones,5-9-0,Free Agency,Michael Gallup,WR,Dal,Bench,
+2023,Juulio Jones,5-9-0,Free Agency,Rondale Moore,WR,Atl,Bench,
+2023,Juulio Jones,5-9-0,Free Agency,Trevor Lawrence,QB,Jax,Bench,
+2023,Juulio Jones,5-9-0,Free Agency,Samaje Perine,RB,Den,Bench,
+2023,Juulio Jones,5-9-0,Free Agency,Texans D/ST,D/ST,Hou,Bench,
+2023,Juulio Jones,5-9-0,,,,,IR,
+2023,The Adams Family,4-10-0,Draft,Josh Allen,QB,Buf,QB,
+2023,The Adams Family,4-10-0,Draft,Joe Mixon,RB,Hou,RB,
+2023,The Adams Family,4-10-0,Draft,Brian Robinson Jr.,RB,Wsh,RB,
+2023,The Adams Family,4-10-0,Draft,Brandon Aiyuk,WR,SF,WR,
+2023,The Adams Family,4-10-0,Draft,K.J. Osborn,WR,NE,WR,
+2023,The Adams Family,4-10-0,Draft,Dalton Schultz,TE,Hou,TE,
+2023,The Adams Family,4-10-0,Draft,"Cole Kmet
+Q",TE,Chi,FLEX,Q
+2023,The Adams Family,4-10-0,Draft,Bills D/ST,D/ST,Buf,D/ST,
+2023,The Adams Family,4-10-0,Draft,Matt Gay,K,Ind,K,
+2023,The Adams Family,4-10-0,Draft,Dallas Goedert,TE,Phi,Bench,
+2023,The Adams Family,4-10-0,Draft,AJ Dillon,RB,GB,Bench,
+2023,The Adams Family,4-10-0,Free Agency,Donovan Peoples-Jones,WR,Det,Bench,
+2023,The Adams Family,4-10-0,Free Agency,Josh Reynolds,WR,Det,Bench,
+2023,The Adams Family,4-10-0,Trade,Darrell Henderson Jr.,RB,FA,Bench,
+2023,The Adams Family,4-10-0,Trade,"Kareem Hunt
+Q",RB,Cle,Bench,Q
+2023,The Adams Family,4-10-0,,,,,Bench,
+2023,The Adams Family,4-10-0,,,,,IR,
+2024,Juulio Jones,8-6-0,Free Agency,Bo Nix,QB,Den,QB,
+2024,Juulio Jones,8-6-0,Draft,Jonathan Taylor,RB,Ind,RB,
+2024,Juulio Jones,8-6-0,Draft,Saquon Barkley,RB,Phi,RB,
+2024,Juulio Jones,8-6-0,Draft,Tee Higgins,WR,Cin,WR,
+2024,Juulio Jones,8-6-0,Draft,Keenan Allen,WR,Chi,WR,
+2024,Juulio Jones,8-6-0,Free Agency,Chig Okonkwo,TE,Ten,TE,
+2024,Juulio Jones,8-6-0,Draft,James Cook,RB,Buf,FLEX,
+2024,Juulio Jones,8-6-0,Free Agency,Seahawks D/ST,D/ST,Sea,D/ST,
+2024,Juulio Jones,8-6-0,Free Agency,Tyler Bass,K,Buf,K,
+2024,Juulio Jones,8-6-0,Draft,Deebo Samuel Sr.,WR,Wsh,Bench,
+2024,Juulio Jones,8-6-0,Draft,Jake Ferguson,TE,Dal,Bench,
+2024,Juulio Jones,8-6-0,Draft,Rome Odunze,WR,Chi,Bench,
+2024,Juulio Jones,8-6-0,Free Agency,Emanuel Wilson,RB,GB,Bench,
+2024,Juulio Jones,8-6-0,Free Agency,"Christian Watson
+Q",WR,GB,Bench,Q
+2024,Juulio Jones,8-6-0,Free Agency,Sam Darnold,QB,Sea,Bench,
+2024,Juulio Jones,8-6-0,Free Agency,Jeremy McNichols,RB,Wsh,Bench,
+2024,Juulio Jones,8-6-0,Free Agency,Miles Sanders,RB,Dal,IR,
+2024,Team Rex,8-6-0,Draft,Jayden Daniels,QB,Wsh,QB,
+2024,Team Rex,8-6-0,Draft,"Chase Brown
+Q",RB,Cin,RB,Q
+2024,Team Rex,8-6-0,Free Agency,Tyrone Tracy Jr.,RB,NYG,RB,
+2024,Team Rex,8-6-0,Draft,Davante Adams,WR,LAR,WR,
+2024,Team Rex,8-6-0,Draft,Drake London,WR,Atl,WR,
+2024,Team Rex,8-6-0,Draft,Mark Andrews,TE,Bal,TE,
+2024,Team Rex,8-6-0,Draft,"Darnell Mooney
+Q",WR,Atl,FLEX,Q
+2024,Team Rex,8-6-0,Free Agency,Ravens D/ST,D/ST,Bal,D/ST,
+2024,Team Rex,8-6-0,Free Agency,Cameron Dicker,K,LAC,K,
+2024,Team Rex,8-6-0,Free Agency,Zach Ertz,TE,Wsh,Bench,
+2024,Team Rex,8-6-0,Free Agency,Tank Bigsby,RB,Jax,Bench,
+2024,Team Rex,8-6-0,Free Agency,Parker Washington,WR,Jax,Bench,
+2024,Team Rex,8-6-0,Free Agency,Marvin Mims Jr.,WR,Den,Bench,
+2024,Team Rex,8-6-0,Free Agency,Brandin Cooks,WR,Dal,Bench,
+2024,Team Rex,8-6-0,Free Agency,Raheem Blackshear,RB,Car,Bench,
+2024,Team Rex,8-6-0,Free Agency,Mike Boone,RB,Car,Bench,
+2024,Team Rex,8-6-0,Draft,CeeDee Lamb,WR,Dal,IR,
+2024,Goff Balls,9-5-0,Draft,Jalen Hurts,QB,Phi,QB,
+2024,Goff Balls,9-5-0,Draft,Kyren Williams,RB,LAR,RB,
+2024,Goff Balls,9-5-0,Draft,De'Von Achane,RB,Mia,RB,
+2024,Goff Balls,9-5-0,Draft,A.J. Brown,WR,Phi,WR,
+2024,Goff Balls,9-5-0,Draft,Courtland Sutton,WR,Den,WR,
+2024,Goff Balls,9-5-0,Free Agency,"Hunter Henry
+Q",TE,NE,TE,Q
+2024,Goff Balls,9-5-0,Draft,Ladd McConkey,WR,LAC,FLEX,
+2024,Goff Balls,9-5-0,Free Agency,Eagles D/ST,D/ST,Phi,D/ST,
+2024,Goff Balls,9-5-0,Free Agency,Wil Lutz,K,Den,K,
+2024,Goff Balls,9-5-0,Draft,Dalton Kincaid,TE,Buf,Bench,
+2024,Goff Balls,9-5-0,Draft,Amari Cooper,WR,Buf,Bench,
+2024,Goff Balls,9-5-0,Free Agency,Josh Downs,WR,Ind,Bench,
+2024,Goff Balls,9-5-0,Free Agency,Jaylen Warren,RB,Pit,Bench,
+2024,Goff Balls,9-5-0,Free Agency,"Isaac Guerendo
+Q",RB,SF,Bench,Q
+2024,Goff Balls,9-5-0,Free Agency,"Brandon Aubrey
+Q",K,Dal,Bench,Q
+2024,Goff Balls,9-5-0,Free Agency,Chiefs D/ST,D/ST,KC,Bench,
+2024,Goff Balls,9-5-0,,,,,IR,
+2024,Pulled McCaff,10-4-0,Draft,Brock Purdy,QB,SF,QB,
+2024,Pulled McCaff,10-4-0,Draft,Rico Dowdle,RB,Car,RB,
+2024,Pulled McCaff,10-4-0,Free Agency,"Jerome Ford
+Q",RB,Cle,RB,Q
+2024,Pulled McCaff,10-4-0,Draft,Mike Evans,WR,TB,WR,
+2024,Pulled McCaff,10-4-0,Draft,Cooper Kupp,WR,Sea,WR,
+2024,Pulled McCaff,10-4-0,Draft,Trey McBride,TE,Ari,TE,
+2024,Pulled McCaff,10-4-0,Draft,Terry McLaurin,WR,Wsh,FLEX,
+2024,Pulled McCaff,10-4-0,Free Agency,Colts D/ST,D/ST,Ind,D/ST,
+2024,Pulled McCaff,10-4-0,Free Agency,Jake Moody,K,SF,K,
+2024,Pulled McCaff,10-4-0,Draft,Marvin Harrison Jr.,WR,Ari,Bench,
+2024,Pulled McCaff,10-4-0,Draft,Steelers D/ST,D/ST,Pit,Bench,
+2024,Pulled McCaff,10-4-0,Free Agency,Kareem Hunt,RB,KC,Bench,
+2024,Pulled McCaff,10-4-0,Free Agency,Adam Thielen,WR,Car,Bench,
+2024,Pulled McCaff,10-4-0,Free Agency,Nick Westbrook-Ikhine,WR,Mia,Bench,
+2024,Pulled McCaff,10-4-0,Free Agency,Tyler Allgeier,RB,Atl,Bench,
+2024,Pulled McCaff,10-4-0,Free Agency,Ray Davis,RB,Buf,Bench,
+2024,Pulled McCaff,10-4-0,Draft,"Christian McCaffrey
+Q",RB,SF,IR,Q
+2024,Rex On Rex,8-6-0,Free Agency,Aaron Rodgers,QB,FA,QB,
+2024,Rex On Rex,8-6-0,Draft,"Tyjae Spears
+Q",RB,Ten,RB,Q
+2024,Rex On Rex,8-6-0,Free Agency,"Ameer Abdullah
+Q",RB,LV,RB,Q
+2024,Rex On Rex,8-6-0,Draft,Justin Jefferson,WR,Min,WR,
+2024,Rex On Rex,8-6-0,Draft,Calvin Ridley,WR,Ten,WR,
+2024,Rex On Rex,8-6-0,Draft,Brock Bowers,TE,LV,TE,
+2024,Rex On Rex,8-6-0,Free Agency,Jalen McMillan,WR,TB,FLEX,
+2024,Rex On Rex,8-6-0,Free Agency,Dolphins D/ST,D/ST,Mia,D/ST,
+2024,Rex On Rex,8-6-0,Free Agency,Jason Sanders,K,Mia,K,
+2024,Rex On Rex,8-6-0,Draft,Isiah Pacheco,RB,KC,Bench,
+2024,Rex On Rex,8-6-0,Draft,"Alvin Kamara
+Q",RB,NO,Bench,Q
+2024,Rex On Rex,8-6-0,Draft,C.J. Stroud,QB,Hou,Bench,
+2024,Rex On Rex,8-6-0,Draft,T.J. Hockenson,TE,Min,Bench,
+2024,Rex On Rex,8-6-0,Free Agency,Marquez Valdes-Scantling,WR,Sea,Bench,
+2024,Rex On Rex,8-6-0,Free Agency,Will Levis,QB,Ten,Bench,
+2024,Rex On Rex,8-6-0,Free Agency,Commanders D/ST,D/ST,Wsh,Bench,
+2024,Rex On Rex,8-6-0,,,,,IR,
+2024,DK's Adventures,7-7-0,Draft,Lamar Jackson,QB,Bal,QB,
+2024,DK's Adventures,7-7-0,Draft,Travis Etienne Jr.,RB,Jax,RB,
+2024,DK's Adventures,7-7-0,Draft,Brian Robinson Jr.,RB,Wsh,RB,
+2024,DK's Adventures,7-7-0,Draft,Jordan Addison,WR,Min,WR,
+2024,DK's Adventures,7-7-0,Trade,"Tyreek Hill
+Q",WR,Mia,WR,Q
+2024,DK's Adventures,7-7-0,Free Agency,Cade Otton,TE,TB,TE,
+2024,DK's Adventures,7-7-0,Draft,DK Metcalf,WR,Pit,FLEX,
+2024,DK's Adventures,7-7-0,Free Agency,Bengals D/ST,D/ST,Cin,D/ST,
+2024,DK's Adventures,7-7-0,Free Agency,Jake Bates,K,Det,K,
+2024,DK's Adventures,7-7-0,Draft,George Pickens,WR,Pit,Bench,
+2024,DK's Adventures,7-7-0,Free Agency,Wan'Dale Robinson,WR,NYG,Bench,
+2024,DK's Adventures,7-7-0,Trade,Allen Lazard,WR,NYJ,Bench,
+2024,DK's Adventures,7-7-0,Free Agency,"Cedric Tillman
+Q",WR,Cle,Bench,Q
+2024,DK's Adventures,7-7-0,Free Agency,"Jameis Winston
+Q",QB,Cle,Bench,Q
+2024,DK's Adventures,7-7-0,Free Agency,"Kendre Miller
+Q",RB,NO,Bench,Q
+2024,DK's Adventures,7-7-0,Free Agency,Patrick Taylor Jr.,RB,SF,Bench,
+2024,DK's Adventures,7-7-0,Draft,Dallas Goedert,TE,Phi,IR,
+2024,LaPorta John,6-8-0,Draft,Joe Burrow,QB,Cin,QB,
+2024,LaPorta John,6-8-0,Draft,Jahmyr Gibbs,RB,Det,RB,
+2024,LaPorta John,6-8-0,Draft,Joe Mixon,RB,Hou,RB,
+2024,LaPorta John,6-8-0,Draft,Garrett Wilson,WR,NYJ,WR,
+2024,LaPorta John,6-8-0,Draft,Jaxon Smith-Njigba,WR,Sea,WR,
+2024,LaPorta John,6-8-0,Draft,Sam LaPorta,TE,Det,TE,
+2024,LaPorta John,6-8-0,Draft,Chuba Hubbard,RB,Car,FLEX,
+2024,LaPorta John,6-8-0,Draft,Browns D/ST,D/ST,Cle,D/ST,
+2024,LaPorta John,6-8-0,Free Agency,Jake Elliott,K,Phi,K,
+2024,LaPorta John,6-8-0,Draft,"Tank Dell
+Q",WR,Hou,Bench,Q
+2024,LaPorta John,6-8-0,Draft,Xavier Worthy,WR,KC,Bench,
+2024,LaPorta John,6-8-0,Draft,Jerry Jeudy,WR,Cle,Bench,
+2024,LaPorta John,6-8-0,Draft,Baker Mayfield,QB,TB,Bench,
+2024,LaPorta John,6-8-0,Draft,Ricky Pearsall,WR,SF,Bench,
+2024,LaPorta John,6-8-0,Free Agency,Dalton Schultz,TE,Hou,Bench,
+2024,LaPorta John,6-8-0,Free Agency,Panthers D/ST,D/ST,Car,Bench,
+2024,LaPorta John,6-8-0,,,,,IR,
+2024,Wet Willies,7-7-0,Draft,Jordan Love,QB,GB,QB,
+2024,Wet Willies,7-7-0,Draft,Josh Jacobs,RB,GB,RB,
+2024,Wet Willies,7-7-0,Draft,"James Conner
+Q",RB,Ari,RB,Q
+2024,Wet Willies,7-7-0,Draft,DeAndre Hopkins,WR,Bal,WR,
+2024,Wet Willies,7-7-0,Draft,Jameson Williams,WR,Det,WR,
+2024,Wet Willies,7-7-0,Free Agency,Jonnu Smith,TE,Mia,TE,
+2024,Wet Willies,7-7-0,Draft,Bijan Robinson,RB,Atl,FLEX,
+2024,Wet Willies,7-7-0,Free Agency,Chargers D/ST,D/ST,LAC,D/ST,
+2024,Wet Willies,7-7-0,Free Agency,Chris Boswell,K,Pit,K,
+2024,Wet Willies,7-7-0,Draft,"Michael Pittman Jr.
+Q",WR,Ind,Bench,Q
+2024,Wet Willies,7-7-0,Draft,Jaylen Waddle,WR,Mia,Bench,
+2024,Wet Willies,7-7-0,Draft,"David Njoku
+Q",TE,Cle,Bench,Q
+2024,Wet Willies,7-7-0,Draft,Keon Coleman,WR,Buf,Bench,
+2024,Wet Willies,7-7-0,Draft,Antonio Gibson,RB,NE,Bench,
+2024,Wet Willies,7-7-0,Free Agency,Justin Fields,QB,NYJ,Bench,
+2024,Wet Willies,7-7-0,Free Agency,Drake Maye,QB,NE,Bench,
+2024,Wet Willies,7-7-0,,,,,IR,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Patrick Mahomes,QB,KC,QB,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Aaron Jones,RB,Min,RB,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Tony Pollard,RB,Ten,RB,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Amon-Ra St. Brown,WR,Det,WR,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Brian Thomas Jr.,WR,Jax,WR,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Travis Kelce,TE,KC,TE,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Free Agency,Elijah Moore,WR,Cle,FLEX,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Free Agency,Buccaneers D/ST,D/ST,TB,D/ST,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Free Agency,Jason Myers,K,Sea,K,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Derrick Henry,RB,Bal,Bench,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,"Stefon Diggs
+Q",WR,Hou,Bench,Q
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Zach Charbonnet,RB,Sea,Bench,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Harrison Butker,K,KC,Bench,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,Jared Goff,QB,Det,Bench,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Free Agency,Justin Herbert,QB,LAC,Bench,
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Free Agency,"Kayshon Boutte
+Q",WR,NE,Bench,Q
+2024,THE EMPIRE DID NOTHING WRONG!1,5-9-0,Draft,"Chris Godwin
+Q",WR,TB,IR,Q
+2024,Moore Than A. Thielen,6-8-0,Draft,Josh Allen,QB,Buf,QB,
+2024,Moore Than A. Thielen,6-8-0,Draft,D'Andre Swift,RB,Chi,RB,
+2024,Moore Than A. Thielen,6-8-0,Trade,Rhamondre Stevenson,RB,NE,RB,
+2024,Moore Than A. Thielen,6-8-0,Trade,Puka Nacua,WR,LAR,WR,
+2024,Moore Than A. Thielen,6-8-0,Free Agency,Jauan Jennings,WR,SF,WR,
+2024,Moore Than A. Thielen,6-8-0,Draft,George Kittle,TE,SF,TE,
+2024,Moore Than A. Thielen,6-8-0,Draft,DJ Moore,WR,Chi,FLEX,
+2024,Moore Than A. Thielen,6-8-0,Free Agency,Vikings D/ST,D/ST,Min,D/ST,
+2024,Moore Than A. Thielen,6-8-0,Draft,Ka'imi Fairbairn,K,Hou,K,
+2024,Moore Than A. Thielen,6-8-0,Draft,Raheem Mostert,RB,LV,Bench,
+2024,Moore Than A. Thielen,6-8-0,Draft,Khalil Shakir,WR,Buf,Bench,
+2024,Moore Than A. Thielen,6-8-0,Draft,Braelon Allen,RB,NYJ,Bench,
+2024,Moore Than A. Thielen,6-8-0,Free Agency,"Xavier Legette
+Q",WR,Car,Bench,Q
+2024,Moore Than A. Thielen,6-8-0,Free Agency,"Tua Tagovailoa
+Q",QB,Mia,Bench,Q
+2024,Moore Than A. Thielen,6-8-0,Free Agency,Kimani Vidal,RB,LAC,Bench,
+2024,Moore Than A. Thielen,6-8-0,Free Agency,"Nick Folk
+Q",K,Ten,Bench,Q
+2024,Moore Than A. Thielen,6-8-0,Draft,Austin Ekeler,RB,Wsh,IR,
+2024,Phresh Meat,5-9-0,Free Agency,Geno Smith,QB,LV,QB,
+2024,Phresh Meat,5-9-0,Draft,Bucky Irving,RB,TB,RB,
+2024,Phresh Meat,5-9-0,Free Agency,Alexander Mattison,RB,Mia,RB,
+2024,Phresh Meat,5-9-0,Draft,Ja'Marr Chase,WR,Cin,WR,
+2024,Phresh Meat,5-9-0,Draft,Malik Nabers,WR,NYG,WR,
+2024,Phresh Meat,5-9-0,Free Agency,Pat Freiermuth,TE,Pit,TE,
+2024,Phresh Meat,5-9-0,Draft,Jakobi Meyers,WR,LV,FLEX,
+2024,Phresh Meat,5-9-0,Free Agency,Bills D/ST,D/ST,Buf,D/ST,
+2024,Phresh Meat,5-9-0,Free Agency,Chase McLaughlin,K,TB,K,
+2024,Phresh Meat,5-9-0,Draft,"Kenneth Walker III
+Q",RB,Sea,Bench,Q
+2024,Phresh Meat,5-9-0,Draft,Najee Harris,RB,LAC,Bench,
+2024,Phresh Meat,5-9-0,Free Agency,Tucker Kraft,TE,GB,Bench,
+2024,Phresh Meat,5-9-0,Free Agency,Quentin Johnston,WR,LAC,Bench,
+2024,Phresh Meat,5-9-0,Free Agency,Darius Slayton,WR,NYG,Bench,
+2024,Phresh Meat,5-9-0,Free Agency,Matthew Stafford,QB,LAR,Bench,
+2024,Phresh Meat,5-9-0,Free Agency,Jalen Coker,WR,Car,Bench,
+2024,Phresh Meat,5-9-0,Draft,"Nick Chubb
+Q",RB,Cle,IR,Q
+2024,Hall Of Heroes,5-9-0,Draft,Kyler Murray,QB,Ari,QB,
+2024,Hall Of Heroes,5-9-0,Draft,Breece Hall,RB,NYJ,RB,
+2024,Hall Of Heroes,5-9-0,Draft,Rachaad White,RB,TB,RB,
+2024,Hall Of Heroes,5-9-0,Draft,Nico Collins,WR,Hou,WR,
+2024,Hall Of Heroes,5-9-0,Draft,"Zay Flowers
+Q",WR,Bal,WR,Q
+2024,Hall Of Heroes,5-9-0,Draft,Kyle Pitts,TE,Atl,TE,
+2024,Hall Of Heroes,5-9-0,Draft,DeVonta Smith,WR,Phi,FLEX,
+2024,Hall Of Heroes,5-9-0,Free Agency,Broncos D/ST,D/ST,Den,D/ST,
+2024,Hall Of Heroes,5-9-0,Free Agency,Blake Grupe,K,NO,K,
+2024,Hall Of Heroes,5-9-0,Draft,Devin Singletary,RB,NYG,Bench,
+2024,Hall Of Heroes,5-9-0,Draft,"Jayden Reed
+Q",WR,GB,Bench,Q
+2024,Hall Of Heroes,5-9-0,Free Agency,Justice Hill,RB,Bal,Bench,
+2024,Hall Of Heroes,5-9-0,Free Agency,"Romeo Doubs
+Q",WR,GB,Bench,Q
+2024,Hall Of Heroes,5-9-0,Free Agency,"Anthony Richardson
+Q",QB,Ind,Bench,Q
+2024,Hall Of Heroes,5-9-0,Free Agency,Jets D/ST,D/ST,NYJ,Bench,
+2024,Hall Of Heroes,5-9-0,Free Agency,Javonte Williams,RB,Dal,Bench,
+2024,Hall Of Heroes,5-9-0,Draft,J.K. Dobbins,RB,LAC,IR,
+2025,Pukana Matatas,10-4-0,Free Agency,Malik Willis,QB,GB,QB,
+2025,Pukana Matatas,10-4-0,Draft,De'Von Achane,RB,Mia,RB,
+2025,Pukana Matatas,10-4-0,Draft,D'Andre Swift,RB,Chi,RB,
+2025,Pukana Matatas,10-4-0,Draft,Puka Nacua,WR,LAR,WR,
+2025,Pukana Matatas,10-4-0,Draft,Jaxon Smith-Njigba,WR,Sea,WR,
+2025,Pukana Matatas,10-4-0,Draft,Jake Ferguson,TE,Dal,TE,
+2025,Pukana Matatas,10-4-0,Draft,"Chris Olave
+Q",WR,NO,FLEX,Q
+2025,Pukana Matatas,10-4-0,Draft,Broncos D/ST,D/ST,Den,D/ST,
+2025,Pukana Matatas,10-4-0,Free Agency,Eddy Pineiro,K,SF,K,
+2025,Pukana Matatas,10-4-0,Draft,Justin Herbert,QB,LAC,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Rhamondre Stevenson,RB,NE,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Texans D/ST,D/ST,Hou,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Kareem Hunt,RB,KC,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Ollie Gordon II,RB,Mia,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Cooper Kupp,WR,Sea,Bench,
+2025,Pukana Matatas,10-4-0,Free Agency,Tony Pollard,RB,Ten,Bench,
+2025,Pukana Matatas,10-4-0,,,,,IR,
+2025,Rex On Rex,8-6-0,Draft,"Josh Allen
+Q",QB,Buf,QB,Q
+2025,Rex On Rex,8-6-0,Draft,Saquon Barkley,RB,Phi,RB,
+2025,Rex On Rex,8-6-0,Draft,RJ Harvey,RB,Den,RB,
+2025,Rex On Rex,8-6-0,Draft,Jakobi Meyers,WR,Jax,WR,
+2025,Rex On Rex,8-6-0,Free Agency,Michael Wilson,WR,Ari,WR,
+2025,Rex On Rex,8-6-0,Free Agency,Juwan Johnson,TE,NO,TE,
+2025,Rex On Rex,8-6-0,Free Agency,Kenneth Gainwell,RB,Pit,FLEX,
+2025,Rex On Rex,8-6-0,Draft,Seahawks D/ST,D/ST,Sea,D/ST,
+2025,Rex On Rex,8-6-0,Free Agency,Ka'imi Fairbairn,K,Hou,K,
+2025,Rex On Rex,8-6-0,Draft,Ladd McConkey,WR,LAC,Bench,
+2025,Rex On Rex,8-6-0,Draft,Zay Flowers,WR,Bal,Bench,
+2025,Rex On Rex,8-6-0,Free Agency,Rams D/ST,D/ST,LAR,Bench,
+2025,Rex On Rex,8-6-0,Free Agency,Rico Dowdle,RB,Car,Bench,
+2025,Rex On Rex,8-6-0,Free Agency,"Colston Loveland
+Q",TE,Chi,Bench,Q
+2025,Rex On Rex,8-6-0,Free Agency,"Taysom Hill
+Q",TE,NO,Bench,Q
+2025,Rex On Rex,8-6-0,,,,,Bench,
+2025,Rex On Rex,8-6-0,,,,,IR,
+2025,Wet Willies,7-7-0,Free Agency,Jaxson Dart,QB,NYG,QB,
+2025,Wet Willies,7-7-0,Draft,James Cook III,RB,Buf,RB,
+2025,Wet Willies,7-7-0,Draft,Travis Etienne Jr.,RB,Jax,RB,
+2025,Wet Willies,7-7-0,Draft,Amon-Ra St. Brown,WR,Det,WR,
+2025,Wet Willies,7-7-0,Free Agency,"Troy Franklin
+Q",WR,Den,WR,Q
+2025,Wet Willies,7-7-0,Draft,Dallas Goedert,TE,Phi,TE,
+2025,Wet Willies,7-7-0,Draft,"Aaron Jones Sr.
+Q",RB,Min,FLEX,Q
+2025,Wet Willies,7-7-0,Free Agency,Browns D/ST,D/ST,Cle,D/ST,
+2025,Wet Willies,7-7-0,Draft,Chris Boswell,K,Pit,K,
+2025,Wet Willies,7-7-0,Draft,Baker Mayfield,QB,TB,Bench,
+2025,Wet Willies,7-7-0,Draft,Michael Pittman Jr.,WR,Ind,Bench,
+2025,Wet Willies,7-7-0,Free Agency,Mark Andrews,TE,Bal,Bench,
+2025,Wet Willies,7-7-0,Free Agency,Chimere Dike,WR,Ten,Bench,
+2025,Wet Willies,7-7-0,Free Agency,Jaylen Wright,RB,Mia,Bench,
+2025,Wet Willies,7-7-0,Free Agency,49ers D/ST,D/ST,SF,Bench,
+2025,Wet Willies,7-7-0,,,,,Bench,
+2025,Wet Willies,7-7-0,Draft,"Alvin Kamara
+Q",RB,NO,IR,Q
+2025,OnlyFannins,9-5-0,Free Agency,Jacoby Brissett,QB,Ari,QB,
+2025,OnlyFannins,9-5-0,Draft,Josh Jacobs,RB,GB,RB,
+2025,OnlyFannins,9-5-0,Draft,"Javonte Williams
+Q",RB,Dal,RB,Q
+2025,OnlyFannins,9-5-0,Draft,Nico Collins,WR,Hou,WR,
+2025,OnlyFannins,9-5-0,Free Agency,Mike Evans,WR,TB,WR,
+2025,OnlyFannins,9-5-0,Draft,Kyle Pitts Sr.,TE,Atl,TE,
+2025,OnlyFannins,9-5-0,Free Agency,"Harold Fannin Jr.
+Q",TE,Cle,FLEX,Q
+2025,OnlyFannins,9-5-0,Free Agency,Buccaneers D/ST,D/ST,TB,D/ST,
+2025,OnlyFannins,9-5-0,Draft,Brandon Aubrey,K,Dal,K,
+2025,OnlyFannins,9-5-0,Draft,Lamar Jackson,QB,Bal,Bench,
+2025,OnlyFannins,9-5-0,Draft,Keenan Allen,WR,LAC,Bench,
+2025,OnlyFannins,9-5-0,Free Agency,Romeo Doubs,WR,GB,Bench,
+2025,OnlyFannins,9-5-0,Free Agency,Tyrone Tracy Jr.,RB,NYG,Bench,
+2025,OnlyFannins,9-5-0,Free Agency,Eagles D/ST,D/ST,Phi,Bench,
+2025,OnlyFannins,9-5-0,Free Agency,Chris Rodriguez Jr.,RB,Wsh,Bench,
+2025,OnlyFannins,9-5-0,Free Agency,Emanuel Wilson,RB,GB,Bench,
+2025,OnlyFannins,9-5-0,Draft,"Rashee Rice
+Q",WR,KC,IR,Q
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Matthew Stafford,QB,LAR,QB,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Christian McCaffrey,RB,SF,RB,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Omarion Hampton,RB,LAC,RB,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Courtland Sutton,WR,Den,WR,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Jameson Williams,WR,Det,WR,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Hunter Henry,TE,NE,TE,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Brian Thomas Jr.,WR,Jax,FLEX,
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Dolphins D/ST,D/ST,Mia,D/ST,
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Cam Little,K,Jax,K,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Jordan Addison,WR,Min,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,"Zach Charbonnet
+Q",RB,Sea,Bench,Q
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Brian Robinson Jr.,RB,SF,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,Patriots D/ST,D/ST,NE,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Kimani Vidal,RB,LAC,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Isaiah Likely,TE,Bal,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Free Agency,Jacory Croskey-Merritt,RB,Wsh,Bench,
+2025,Eat The Boutte Like Groceries,7-7-0,Draft,"Jayden Daniels
+Q",QB,Wsh,IR,Q
+2025,Juulio Jones,7-7-0,Draft,"Bo Nix
+Q",QB,Den,QB,Q
+2025,Juulio Jones,7-7-0,Draft,Jonathan Taylor,RB,Ind,RB,
+2025,Juulio Jones,7-7-0,Draft,TreVeyon Henderson,RB,NE,RB,
+2025,Juulio Jones,7-7-0,Draft,Justin Jefferson,WR,Min,WR,
+2025,Juulio Jones,7-7-0,Draft,Tee Higgins,WR,Cin,WR,
+2025,Juulio Jones,7-7-0,Free Agency,AJ Barner,TE,Sea,TE,
+2025,Juulio Jones,7-7-0,Draft,Tetairoa McMillan,WR,Car,FLEX,
+2025,Juulio Jones,7-7-0,Free Agency,Giants D/ST,D/ST,NYG,D/ST,
+2025,Juulio Jones,7-7-0,Free Agency,Jake Bates,K,Det,K,
+2025,Juulio Jones,7-7-0,Draft,"T.J. Hockenson
+Q",TE,Min,Bench,Q
+2025,Juulio Jones,7-7-0,Draft,Jayden Reed,WR,GB,Bench,
+2025,Juulio Jones,7-7-0,Draft,Darnell Mooney,WR,Atl,Bench,
+2025,Juulio Jones,7-7-0,Draft,Woody Marks,RB,Hou,Bench,
+2025,Juulio Jones,7-7-0,Free Agency,"Theo Johnson
+Q",TE,NYG,Bench,Q
+2025,Juulio Jones,7-7-0,Free Agency,Jared Goff,QB,Det,Bench,
+2025,Juulio Jones,7-7-0,Free Agency,Tyjae Spears,RB,Ten,Bench,
+2025,Juulio Jones,7-7-0,,,,,IR,
+2025,Team Rex,6-8-0,Free Agency,Tyler Shough,QB,NO,QB,
+2025,Team Rex,6-8-0,Draft,Chase Brown,RB,Cin,RB,
+2025,Team Rex,6-8-0,Free Agency,Kyle Monangai,RB,Chi,RB,
+2025,Team Rex,6-8-0,Draft,Ja'Marr Chase,WR,Cin,WR,
+2025,Team Rex,6-8-0,Draft,Khalil Shakir,WR,Buf,WR,
+2025,Team Rex,6-8-0,Draft,Trey McBride,TE,Ari,TE,
+2025,Team Rex,6-8-0,Free Agency,Dylan Sampson,RB,Cle,FLEX,
+2025,Team Rex,6-8-0,Free Agency,Jaguars D/ST,D/ST,Jax,D/ST,
+2025,Team Rex,6-8-0,Draft,Cameron Dicker,K,LAC,K,
+2025,Team Rex,6-8-0,Draft,DK Metcalf,WR,Pit,Bench,
+2025,Team Rex,6-8-0,Draft,DJ Moore,WR,Chi,Bench,
+2025,Team Rex,6-8-0,Draft,Ricky Pearsall,WR,SF,Bench,
+2025,Team Rex,6-8-0,Free Agency,Quentin Johnston,WR,LAC,Bench,
+2025,Team Rex,6-8-0,Free Agency,John Metchie III,WR,NYJ,Bench,
+2025,Team Rex,6-8-0,Free Agency,Jordan Love,QB,GB,Bench,
+2025,Team Rex,6-8-0,Free Agency,Saints D/ST,D/ST,NO,Bench,
+2025,Team Rex,6-8-0,,,,,IR,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Joe Burrow,QB,Cin,QB,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Ashton Jeanty,RB,LV,RB,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Derrick Henry,RB,Bal,RB,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,"Jaylen Waddle
+Q",WR,Mia,WR,Q
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Parker Washington,WR,Jax,WR,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Colby Parkinson,TE,LAR,TE,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Michael Carter,RB,Ari,FLEX,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Chargers D/ST,D/ST,LAC,D/ST,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Jason Myers,K,Sea,K,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Davante Adams,WR,LAR,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Emeka Egbuka,WR,TB,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Draft,Rachaad White,RB,TB,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Brock Purdy,QB,SF,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,"Dalton Schultz
+Q",TE,Hou,Bench,Q
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Josh Downs,WR,Ind,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Luther Burden III,WR,Chi,Bench,
+2025,Two-Point Conversion Therapy,5-9-0,Free Agency,Kayshon Boutte,WR,NE,IR,
+2025,Meet The Robinson's,6-8-0,Trade,Dak Prescott,QB,Dal,QB,
+2025,Meet The Robinson's,6-8-0,Draft,Bijan Robinson,RB,Atl,RB,
+2025,Meet The Robinson's,6-8-0,Free Agency,Blake Corum,RB,LAR,RB,
+2025,Meet The Robinson's,6-8-0,Draft,George Pickens,WR,Dal,WR,
+2025,Meet The Robinson's,6-8-0,Free Agency,Chris Godwin Jr.,WR,TB,WR,
+2025,Meet The Robinson's,6-8-0,Free Agency,Oronde Gadsden,TE,LAC,TE,
+2025,Meet The Robinson's,6-8-0,Free Agency,Christian Watson,WR,GB,FLEX,
+2025,Meet The Robinson's,6-8-0,Free Agency,Ravens D/ST,D/ST,Bal,D/ST,
+2025,Meet The Robinson's,6-8-0,Free Agency,Tyler Loop,K,Bal,K,
+2025,Meet The Robinson's,6-8-0,Draft,Terry McLaurin,WR,Wsh,Bench,
+2025,Meet The Robinson's,6-8-0,Draft,"Xavier Worthy
+Q",WR,KC,Bench,Q
+2025,Meet The Robinson's,6-8-0,Draft,"Breece Hall
+Q",RB,NYJ,Bench,Q
+2025,Meet The Robinson's,6-8-0,Draft,"Wan'Dale Robinson
+Q",WR,NYG,Bench,Q
+2025,Meet The Robinson's,6-8-0,Free Agency,Bhayshul Tuten,RB,Jax,Bench,
+2025,Meet The Robinson's,6-8-0,Free Agency,"Devaughn Vele
+Q",WR,NO,Bench,Q
+2025,Meet The Robinson's,6-8-0,Free Agency,Devin Singletary,RB,NYG,Bench,
+2025,Meet The Robinson's,6-8-0,,,,,IR,
+2025,Kittle League,6-8-0,Free Agency,Trevor Lawrence,QB,Jax,QB,
+2025,Kittle League,6-8-0,Draft,Kyren Williams,RB,LAR,RB,
+2025,Kittle League,6-8-0,Draft,Jaylen Warren,RB,Pit,RB,
+2025,Kittle League,6-8-0,Draft,CeeDee Lamb,WR,Dal,WR,
+2025,Kittle League,6-8-0,Draft,Rome Odunze,WR,Chi,WR,
+2025,Kittle League,6-8-0,Draft,"Zach Ertz
+Q",TE,Wsh,TE,Q
+2025,Kittle League,6-8-0,Draft,Bucky Irving,RB,TB,FLEX,
+2025,Kittle League,6-8-0,Draft,Steelers D/ST,D/ST,Pit,D/ST,
+2025,Kittle League,6-8-0,Draft,Jake Elliott,K,Phi,K,
+2025,Kittle League,6-8-0,Draft,"George Kittle
+Q",TE,SF,Bench,Q
+2025,Kittle League,6-8-0,Draft,"Kyler Murray
+Q",QB,Ari,Bench,Q
+2025,Kittle League,6-8-0,Draft,Deebo Samuel,WR,Wsh,Bench,
+2025,Kittle League,6-8-0,Draft,Rashid Shaheed,WR,Sea,Bench,
+2025,Kittle League,6-8-0,Draft,Cedric Tillman,WR,Cle,Bench,
+2025,Kittle League,6-8-0,Free Agency,Cairo Santos,K,Chi,Bench,
+2025,Kittle League,6-8-0,Free Agency,"J.J. McCarthy
+Q",QB,Min,Bench,Q
+2025,Kittle League,6-8-0,Draft,"Calvin Ridley
+Q",WR,Ten,IR,Q
+2025,Shayshawn Broccoli,7-7-0,Draft,Drake Maye,QB,NE,QB,
+2025,Shayshawn Broccoli,7-7-0,Draft,Jahmyr Gibbs,RB,Det,RB,
+2025,Shayshawn Broccoli,7-7-0,Draft,David Montgomery,RB,Hou,RB,
+2025,Shayshawn Broccoli,7-7-0,Draft,DeVonta Smith,WR,Phi,WR,
+2025,Shayshawn Broccoli,7-7-0,Free Agency,Jerry Jeudy,WR,Cle,WR,
+2025,Shayshawn Broccoli,7-7-0,Draft,"Brock Bowers
+Q",TE,LV,TE,Q
+2025,Shayshawn Broccoli,7-7-0,Draft,"Dalton Kincaid
+Q",TE,Buf,FLEX,Q
+2025,Shayshawn Broccoli,7-7-0,Draft,Lions D/ST,D/ST,Det,D/ST,
+2025,Shayshawn Broccoli,7-7-0,Free Agency,Harrison Mevis,K,LAR,K,
+2025,Shayshawn Broccoli,7-7-0,Draft,"Marvin Harrison Jr.
+Q",WR,Ari,Bench,Q
+2025,Shayshawn Broccoli,7-7-0,Draft,Travis Kelce,TE,KC,Bench,
+2025,Shayshawn Broccoli,7-7-0,Draft,Caleb Williams,QB,Chi,Bench,
+2025,Shayshawn Broccoli,7-7-0,Draft,Tank Bigsby,RB,Phi,Bench,
+2025,Shayshawn Broccoli,7-7-0,Free Agency,Michael Badgley,K,FA,Bench,
+2025,Shayshawn Broccoli,7-7-0,Free Agency,Marvin Mims Jr.,WR,Den,Bench,
+2025,Shayshawn Broccoli,7-7-0,Free Agency,"Tory Horton
+Q",WR,Sea,Bench,Q
+2025,Shayshawn Broccoli,7-7-0,Draft,"Tyreek Hill
+Q",WR,FA,IR,Q
+2025,Goff Balls,6-8-0,Draft,Jalen Hurts,QB,Phi,QB,
+2025,Goff Balls,6-8-0,Draft,Chuba Hubbard,RB,Car,RB,
+2025,Goff Balls,6-8-0,Draft,Kenneth Walker III,RB,Sea,RB,
+2025,Goff Balls,6-8-0,Draft,A.J. Brown,WR,Phi,WR,
+2025,Goff Balls,6-8-0,Free Agency,Adonai Mitchell,WR,NYJ,WR,
+2025,Goff Balls,6-8-0,Draft,Tyler Warren,TE,Ind,TE,
+2025,Goff Balls,6-8-0,Free Agency,Jordan Mason,RB,Min,FLEX,
+2025,Goff Balls,6-8-0,Free Agency,Colts D/ST,D/ST,Ind,D/ST,
+2025,Goff Balls,6-8-0,Free Agency,Matt Prater,K,Buf,K,
+2025,Goff Balls,6-8-0,Draft,Drake London,WR,Atl,Bench,
+2025,Goff Balls,6-8-0,Draft,Jauan Jennings,WR,SF,Bench,
+2025,Goff Balls,6-8-0,Draft,Tyler Allgeier,RB,Atl,Bench,
+2025,Goff Balls,6-8-0,Free Agency,Andy Borregales,K,NE,Bench,
+2025,Goff Balls,6-8-0,Free Agency,"Bam Knight
+Q",RB,Ari,Bench,Q
+2025,Goff Balls,6-8-0,Trade,Stefon Diggs,WR,NE,Bench,
+2025,Goff Balls,6-8-0,Free Agency,"Devin Neal
+Q",RB,NO,Bench,Q
+2025,Goff Balls,6-8-0,,,,,IR,
+2026,Jacks On - Jax Off,3-0-0,Draft,Lamar Jackson,QB,BAL,QB,
+2026,Jacks On - Jax Off,3-0-0,Draft,Ashton Jeanty,RB,LV,RB,
+2026,Jacks On - Jax Off,3-0-0,Draft,Chuba Hubbard,RB,CAR,RB,
+2026,Jacks On - Jax Off,3-0-0,Draft,Jaxon Smith-Njigba,WR,SEA,WR,
+2026,Jacks On - Jax Off,3-0-0,Draft,"DeVonta Smith
+Q",WR,PHI,WR,Q
+2026,Jacks On - Jax Off,3-0-0,Draft,Travis Kelce,TE,KC,TE,
+2026,Jacks On - Jax Off,3-0-0,Draft,Bhayshul Tuten,RB,JAX,FLEX,
+2026,Jacks On - Jax Off,3-0-0,Free Agency,Chiefs D/ST,D/ST,KC,D/ST,
+2026,Jacks On - Jax Off,3-0-0,Draft,Ka'imi Fairbairn,K,HOU,K,
+2026,Jacks On - Jax Off,3-0-0,Draft,Harold Fannin Jr.,TE,CLE,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,Carnell Tate,WR,TEN,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,RJ Harvey,RB,DEN,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,Bo Nix,QB,DEN,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,Deebo Samuel Sr.,WR,SF,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,Broncos D/ST,D/ST,DEN,Bench,
+2026,Jacks On - Jax Off,3-0-0,Draft,Justice Hill,RB,BAL,Bench,
+2026,Jacks On - Jax Off,3-0-0,,,,,IR,
+2026,Rex On Rex,3-0-0,Trade,Trevor Lawrence,QB,JAX,QB,
+2026,Rex On Rex,3-0-0,Draft,James Cook III,RB,BUF,RB,
+2026,Rex On Rex,3-0-0,Draft,Derrick Henry,RB,BAL,RB,
+2026,Rex On Rex,3-0-0,Draft,Rashee Rice,WR,KC,WR,
+2026,Rex On Rex,3-0-0,Draft,Zay Flowers,WR,BAL,WR,
+2026,Rex On Rex,3-0-0,Draft,George Kittle,TE,SF,TE,
+2026,Rex On Rex,3-0-0,Free Agency,Braelon Allen,RB,NYJ,FLEX,
+2026,Rex On Rex,3-0-0,Draft,Steelers D/ST,D/ST,PIT,D/ST,
+2026,Rex On Rex,3-0-0,Draft,Harrison Butker,K,KC,K,
+2026,Rex On Rex,3-0-0,Draft,Luther Burden III,WR,CHI,Bench,
+2026,Rex On Rex,3-0-0,Draft,MarShawn Lloyd,RB,GB,Bench,
+2026,Rex On Rex,3-0-0,Draft,Blake Corum,RB,LAR,Bench,
+2026,Rex On Rex,3-0-0,Draft,Woody Marks,RB,HOU,Bench,
+2026,Rex On Rex,3-0-0,Draft,Hunter Henry,TE,NE,Bench,
+2026,Rex On Rex,3-0-0,Free Agency,Tre Tucker,WR,LV,Bench,
+2026,Rex On Rex,3-0-0,Free Agency,Deshaun Watson,QB,CLE,Bench,
+2026,Rex On Rex,3-0-0,Draft,"Jayden Daniels
+Q",QB,WSH,IR,Q
+2026,Gibbs Me Moore,2-1-0,Draft,Josh Allen,QB,BUF,QB,
+2026,Gibbs Me Moore,2-1-0,Draft,Jahmyr Gibbs,RB,DET,RB,
+2026,Gibbs Me Moore,2-1-0,Draft,Kenneth Walker III,RB,KC,RB,
+2026,Gibbs Me Moore,2-1-0,Draft,Parker Washington,WR,JAX,WR,
+2026,Gibbs Me Moore,2-1-0,Draft,Josh Downs,WR,IND,WR,
+2026,Gibbs Me Moore,2-1-0,Draft,Tyler Warren,TE,IND,TE,
+2026,Gibbs Me Moore,2-1-0,Draft,"DJ Moore
+Q",WR,BUF,FLEX,Q
+2026,Gibbs Me Moore,2-1-0,Free Agency,Bills D/ST,D/ST,BUF,D/ST,
+2026,Gibbs Me Moore,2-1-0,Free Agency,Spencer Shrader,K,IND,K,
+2026,Gibbs Me Moore,2-1-0,Draft,Michael Pittman Jr.,WR,PIT,Bench,
+2026,Gibbs Me Moore,2-1-0,Draft,Kyle Monangai,RB,CHI,Bench,
+2026,Gibbs Me Moore,2-1-0,Draft,KC Concepcion,WR,CLE,Bench,
+2026,Gibbs Me Moore,2-1-0,Draft,Tyler Allgeier,RB,ARI,Bench,
+2026,Gibbs Me Moore,2-1-0,Draft,Dontayvion Wicks,WR,PHI,Bench,
+2026,Gibbs Me Moore,2-1-0,Free Agency,Marcus Mariota,QB,WSH,Bench,
+2026,Gibbs Me Moore,2-1-0,Free Agency,Tre' Harris,WR,LAC,Bench,
+2026,Gibbs Me Moore,2-1-0,Free Agency,"Tyreek Hill
+O",WR,FA,IR,O
+2026,Wet Willies,2-1-0,Free Agency,Bryce Young,QB,CAR,QB,
+2026,Wet Willies,2-1-0,Draft,Bijan Robinson,RB,ATL,RB,
+2026,Wet Willies,2-1-0,Draft,Kyren Williams,RB,LAR,RB,
+2026,Wet Willies,2-1-0,Draft,Chris Olave,WR,NO,WR,
+2026,Wet Willies,2-1-0,Free Agency,Kalif Raymond,WR,CHI,WR,
+2026,Wet Willies,2-1-0,Free Agency,Darren Waller,TE,CAR,TE,
+2026,Wet Willies,2-1-0,Draft,David Montgomery,RB,HOU,FLEX,
+2026,Wet Willies,2-1-0,Draft,Seahawks D/ST,D/ST,SEA,D/ST,
+2026,Wet Willies,2-1-0,Draft,Jason Myers,K,SEA,K,
+2026,Wet Willies,2-1-0,Draft,Emeka Egbuka,WR,TB,Bench,
+2026,Wet Willies,2-1-0,Draft,Justin Herbert,QB,LAC,Bench,
+2026,Wet Willies,2-1-0,Draft,Courtland Sutton,WR,DEN,Bench,
+2026,Wet Willies,2-1-0,Draft,J.K. Dobbins,RB,DEN,Bench,
+2026,Wet Willies,2-1-0,Draft,"Dallas Goedert
+D",TE,PHI,Bench,D
+2026,Wet Willies,2-1-0,Draft,Alvin Kamara,RB,NO,Bench,
+2026,Wet Willies,2-1-0,Draft,Brian Robinson Jr.,RB,ATL,Bench,
+2026,Wet Willies,2-1-0,,,,,IR,
+2026,Juulio Jones,2-1-0,Draft,Patrick Mahomes,QB,KC,QB,
+2026,Juulio Jones,2-1-0,Draft,Jonathan Taylor,RB,IND,RB,
+2026,Juulio Jones,2-1-0,Draft,"Bucky Irving
+Q",RB,TB,RB,Q
+2026,Juulio Jones,2-1-0,Draft,Garrett Wilson,WR,NYJ,WR,
+2026,Juulio Jones,2-1-0,Draft,Terry McLaurin,WR,WSH,WR,
+2026,Juulio Jones,2-1-0,Draft,Brock Bowers,TE,LV,TE,
+2026,Juulio Jones,2-1-0,Draft,Khalil Shakir,WR,BUF,FLEX,
+2026,Juulio Jones,2-1-0,Draft,Browns D/ST,D/ST,CLE,D/ST,
+2026,Juulio Jones,2-1-0,Draft,Tyler Loop,K,BAL,K,
+2026,Juulio Jones,2-1-0,Draft,Dak Prescott,QB,DAL,Bench,
+2026,Juulio Jones,2-1-0,Draft,TreVeyon Henderson,RB,NE,Bench,
+2026,Juulio Jones,2-1-0,Draft,Tucker Kraft,TE,GB,Bench,
+2026,Juulio Jones,2-1-0,Draft,"Jakobi Meyers
+Q",WR,JAX,Bench,Q
+2026,Juulio Jones,2-1-0,Draft,Tyler Shough,QB,NO,Bench,
+2026,Juulio Jones,2-1-0,Draft,"Baker Mayfield
+O",QB,TB,Bench,O
+2026,Juulio Jones,2-1-0,Free Agency,Bears D/ST,D/ST,CHI,Bench,
+2026,Juulio Jones,2-1-0,Draft,"Tank Dell
+IR",WR,HOU,IR,IR
+2026,You May Kiss McBride,2-1-0,Draft,Jared Goff,QB,DET,QB,
+2026,You May Kiss McBride,2-1-0,Draft,"D'Andre Swift
+Q",RB,CHI,RB,Q
+2026,You May Kiss McBride,2-1-0,Draft,Jaylen Warren,RB,PIT,RB,
+2026,You May Kiss McBride,2-1-0,Draft,"Puka Nacua
+Q",WR,LAR,WR,Q
+2026,You May Kiss McBride,2-1-0,Draft,Drake London,WR,ATL,WR,
+2026,You May Kiss McBride,2-1-0,Draft,Trey McBride,TE,ARI,TE,
+2026,You May Kiss McBride,2-1-0,Draft,"Jalen Coker
+Q",WR,CAR,FLEX,Q
+2026,You May Kiss McBride,2-1-0,Free Agency,Packers D/ST,D/ST,GB,D/ST,
+2026,You May Kiss McBride,2-1-0,Free Agency,Nick Folk,K,ATL,K,
+2026,You May Kiss McBride,2-1-0,Draft,Jaylen Waddle,WR,DEN,Bench,
+2026,You May Kiss McBride,2-1-0,Draft,Brian Thomas Jr.,WR,JAX,Bench,
+2026,You May Kiss McBride,2-1-0,Draft,Rashid Shaheed,WR,SEA,Bench,
+2026,You May Kiss McBride,2-1-0,Free Agency,"Caleb Douglas
+Q",WR,MIA,Bench,Q
+2026,You May Kiss McBride,2-1-0,Free Agency,"Kenyon Sadiq
+Q",TE,NYJ,Bench,Q
+2026,You May Kiss McBride,2-1-0,Free Agency,Makai Lemon,WR,PHI,Bench,
+2026,You May Kiss McBride,2-1-0,Free Agency,Jaylen Wright,RB,MIA,Bench,
+2026,You May Kiss McBride,2-1-0,,,,,IR,
+2026,Peloton Pickens,2-1-0,Draft,Drake Maye,QB,NE,QB,
+2026,Peloton Pickens,2-1-0,Draft,Christian McCaffrey,RB,SF,RB,
+2026,Peloton Pickens,2-1-0,Trade,Cam Skattebo,RB,NYG,RB,
+2026,Peloton Pickens,2-1-0,Draft,George Pickens,WR,DAL,WR,
+2026,Peloton Pickens,2-1-0,Draft,Davante Adams,WR,LAR,WR,
+2026,Peloton Pickens,2-1-0,Draft,Jake Ferguson,TE,DAL,TE,
+2026,Peloton Pickens,2-1-0,Draft,Jordan Addison,WR,MIN,FLEX,
+2026,Peloton Pickens,2-1-0,Free Agency,Vikings D/ST,D/ST,MIN,D/ST,
+2026,Peloton Pickens,2-1-0,Free Agency,Chase McLaughlin,K,TB,K,
+2026,Peloton Pickens,2-1-0,Draft,Tony Pollard,RB,TEN,Bench,
+2026,Peloton Pickens,2-1-0,Draft,Denzel Boston,WR,CLE,Bench,
+2026,Peloton Pickens,2-1-0,Draft,Malik Washington,WR,MIA,Bench,
+2026,Peloton Pickens,2-1-0,Free Agency,Devaughn Vele,WR,NO,Bench,
+2026,Peloton Pickens,2-1-0,Free Agency,Emanuel Wilson,RB,SEA,Bench,
+2026,Peloton Pickens,2-1-0,Free Agency,Wan'Dale Robinson,WR,TEN,Bench,
+2026,Peloton Pickens,2-1-0,Free Agency,Rashod Bateman,WR,BAL,Bench,
+2026,Peloton Pickens,2-1-0,Draft,"Rico Dowdle
+O",RB,PIT,IR,O
+2026,Shayshawn Broccoli,2-1-0,Free Agency,C.J. Stroud,QB,HOU,QB,
+2026,Shayshawn Broccoli,2-1-0,Draft,Quinshon Judkins,RB,CLE,RB,
+2026,Shayshawn Broccoli,2-1-0,Draft,Kenny Gainwell,RB,TB,RB,
+2026,Shayshawn Broccoli,2-1-0,Draft,Ja'Marr Chase,WR,CIN,WR,
+2026,Shayshawn Broccoli,2-1-0,Draft,"Nico Collins
+Q",WR,HOU,WR,Q
+2026,Shayshawn Broccoli,2-1-0,Draft,Dalton Kincaid,TE,BUF,TE,
+2026,Shayshawn Broccoli,2-1-0,Draft,Aaron Jones Sr.,RB,MIN,FLEX,
+2026,Shayshawn Broccoli,2-1-0,Draft,Lions D/ST,D/ST,DET,D/ST,
+2026,Shayshawn Broccoli,2-1-0,Draft,Jake Bates,K,DET,K,
+2026,Shayshawn Broccoli,2-1-0,Draft,"Breece Hall
+D",RB,NYJ,Bench,D
+2026,Shayshawn Broccoli,2-1-0,Draft,Jameson Williams,WR,DET,Bench,
+2026,Shayshawn Broccoli,2-1-0,Draft,Marvin Harrison Jr.,WR,ARI,Bench,
+2026,Shayshawn Broccoli,2-1-0,Draft,Juwan Johnson,TE,NO,Bench,
+2026,Shayshawn Broccoli,2-1-0,Draft,T.J. Hockenson,TE,MIN,Bench,
+2026,Shayshawn Broccoli,2-1-0,Free Agency,Darius Cooper,WR,PHI,Bench,
+2026,Shayshawn Broccoli,2-1-0,,,,,Bench,
+2026,Shayshawn Broccoli,2-1-0,,,,,IR,
+2026,The Price Is Wrong,0-3-0,Draft,Jordan Love,QB,GB,QB,
+2026,The Price Is Wrong,0-3-0,Draft,Javonte Williams,RB,DAL,RB,
+2026,The Price Is Wrong,0-3-0,Draft,"Jadarian Price
+Q",RB,SEA,RB,Q
+2026,The Price Is Wrong,0-3-0,Draft,Amon-Ra St. Brown,WR,DET,WR,
+2026,The Price Is Wrong,0-3-0,Trade,Tee Higgins,WR,CIN,WR,
+2026,The Price Is Wrong,0-3-0,Free Agency,Tyler Higbee,TE,LAR,TE,
+2026,The Price Is Wrong,0-3-0,Draft,Michael Wilson,WR,ARI,FLEX,
+2026,The Price Is Wrong,0-3-0,Draft,Rams D/ST,D/ST,LAR,D/ST,
+2026,The Price Is Wrong,0-3-0,Draft,Brandon Aubrey,K,DAL,K,
+2026,The Price Is Wrong,0-3-0,Draft,Kyle Pitts Sr.,TE,ATL,Bench,
+2026,The Price Is Wrong,0-3-0,Draft,"Alec Pierce
+IR",WR,IND,Bench,IR
+2026,The Price Is Wrong,0-3-0,Draft,"Jordan Mason
+IR",RB,MIN,Bench,IR
+2026,The Price Is Wrong,0-3-0,Draft,Mike Washington Jr.,RB,LV,Bench,
+2026,The Price Is Wrong,0-3-0,Free Agency,Emmett Johnson,RB,KC,Bench,
+2026,The Price Is Wrong,0-3-0,Free Agency,"Josh Jacobs
+DTD",RB,GB,Bench,
+2026,The Price Is Wrong,0-3-0,Free Agency,Kendre Miller,RB,NO,Bench,
+2026,The Price Is Wrong,0-3-0,Draft,"A.J. Brown
+IR",WR,NE,IR,IR
+2026,Kittle League,0-3-0,Draft,Brock Purdy,QB,SF,QB,
+2026,Kittle League,0-3-0,Draft,Tank Bigsby,RB,PHI,RB,
+2026,Kittle League,0-3-0,Free Agency,Ollie Gordon II,RB,MIA,RB,
+2026,Kittle League,0-3-0,Draft,CeeDee Lamb,WR,DAL,WR,
+2026,Kittle League,0-3-0,Trade,Matthew Golden,WR,GB,WR,
+2026,Kittle League,0-3-0,Draft,Isaiah Likely,TE,NYG,TE,
+2026,Kittle League,0-3-0,Draft,Tetairoa McMillan,WR,CAR,FLEX,
+2026,Kittle League,0-3-0,Draft,Buccaneers D/ST,D/ST,TB,D/ST,
+2026,Kittle League,0-3-0,Draft,Eddy Pineiro,K,SF,K,
+2026,Kittle League,0-3-0,Draft,"Travis Etienne Jr.
+IR",RB,NO,Bench,IR
+2026,Kittle League,0-3-0,Draft,Rome Odunze,WR,CHI,Bench,
+2026,Kittle League,0-3-0,Draft,Joe Burrow,QB,CIN,Bench,
+2026,Kittle League,0-3-0,Draft,Sam LaPorta,TE,DET,Bench,
+2026,Kittle League,0-3-0,Draft,DK Metcalf,WR,PIT,Bench,
+2026,Kittle League,0-3-0,Draft,Xavier Worthy,WR,KC,Bench,
+2026,Kittle League,0-3-0,Draft,"Jonah Coleman
+IR",RB,DEN,Bench,IR
+2026,Kittle League,0-3-0,,,,,IR,
+2026,Love Hurts,0-3-0,Draft,Jalen Hurts,QB,PHI,QB,
+2026,Love Hurts,0-3-0,Draft,Omarion Hampton,RB,LAC,RB,
+2026,Love Hurts,0-3-0,Draft,Jeremiyah Love,RB,ARI,RB,
+2026,Love Hurts,0-3-0,Draft,"Justin Jefferson
+Q",WR,MIN,WR,Q
+2026,Love Hurts,0-3-0,Draft,Stefon Diggs,WR,WSH,WR,
+2026,Love Hurts,0-3-0,Draft,Colston Loveland,TE,CHI,TE,
+2026,Love Hurts,0-3-0,Draft,"Mike Evans
+Q",WR,SF,FLEX,Q
+2026,Love Hurts,0-3-0,Draft,Patriots D/ST,D/ST,NE,D/ST,
+2026,Love Hurts,0-3-0,Draft,Harrison Mevis,K,LAR,K,
+2026,Love Hurts,0-3-0,Draft,"Rachaad White
+Q",RB,WSH,Bench,Q
+2026,Love Hurts,0-3-0,Draft,Matthew Stafford,QB,LAR,Bench,
+2026,Love Hurts,0-3-0,Draft,"Tyjae Spears
+Q",RB,TEN,Bench,Q
+2026,Love Hurts,0-3-0,Draft,"Isiah Pacheco
+IR",RB,DET,Bench,IR
+2026,Love Hurts,0-3-0,Free Agency,"Adonai Mitchell
+D",WR,NYJ,Bench,D
+2026,Love Hurts,0-3-0,Free Agency,Dalton Schultz,TE,HOU,Bench,
+2026,Love Hurts,0-3-0,Free Agency,"Keenan Allen
+Q",WR,IND,Bench,Q
+2026,Love Hurts,0-3-0,Draft,"Zach Charbonnet
+O",RB,SEA,IR,O
+2026,McConkey Kong,0-3-0,Draft,Kyler Murray,QB,MIN,QB,
+2026,McConkey Kong,0-3-0,Draft,Saquon Barkley,RB,PHI,RB,
+2026,McConkey Kong,0-3-0,Draft,Chase Brown,RB,CIN,RB,
+2026,McConkey Kong,0-3-0,Draft,Malik Nabers,WR,NYG,WR,
+2026,McConkey Kong,0-3-0,Draft,Christian Watson,WR,GB,WR,
+2026,McConkey Kong,0-3-0,Draft,Mark Andrews,TE,BAL,TE,
+2026,McConkey Kong,0-3-0,Draft,"Ladd McConkey
+Q",WR,LAC,FLEX,Q
+2026,McConkey Kong,0-3-0,Draft,Ravens D/ST,D/ST,BAL,D/ST,
+2026,McConkey Kong,0-3-0,Draft,Cam Little,K,JAX,K,
+2026,McConkey Kong,0-3-0,Draft,Rhamondre Stevenson,RB,NE,Bench,
+2026,McConkey Kong,0-3-0,Draft,Chris Godwin Jr.,WR,TB,Bench,
+2026,McConkey Kong,0-3-0,Draft,Jacory Croskey-Merritt,RB,WSH,Bench,
+2026,McConkey Kong,0-3-0,Free Agency,Romeo Doubs,WR,NE,Bench,
+2026,McConkey Kong,0-3-0,Free Agency,Sam Darnold,QB,SEA,Bench,
+2026,McConkey Kong,0-3-0,Free Agency,"Keaton Mitchell
+Q",RB,LAC,Bench,Q
+2026,McConkey Kong,0-3-0,Free Agency,Kaelon Black,RB,SF,Bench,
+2026,McConkey Kong,0-3-0,Draft,"Caleb Williams
+D",QB,CHI,IR,D

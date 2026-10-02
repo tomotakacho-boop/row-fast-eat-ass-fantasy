@@ -1,0 +1,1051 @@
+{
+  "as_of": "October 2, 2026",
+  "note": "Completed seasons are 2017\u20132025. The 2026 season is excluded from all-time totals. Co-managed 2023 results are shown as a shared owner entry.",
+  "all_time": [
+    {
+      "owner": "Jackson Herz",
+      "seasons": 9,
+      "wins": 67,
+      "losses": 55,
+      "ties": 1,
+      "pf": 14967.7,
+      "titles": 2,
+      "podiums": 3,
+      "playoffs": 4,
+      "win_pct": 0.549,
+      "pf_per_game": 121.7
+    },
+    {
+      "owner": "Seamus Mulcahy",
+      "seasons": 9,
+      "wins": 54,
+      "losses": 69,
+      "ties": 0,
+      "pf": 12711.9,
+      "titles": 2,
+      "podiums": 2,
+      "playoffs": 4,
+      "win_pct": 0.439,
+      "pf_per_game": 103.3
+    },
+    {
+      "owner": "Daniel Meyer",
+      "seasons": 8,
+      "wins": 63,
+      "losses": 46,
+      "ties": 0,
+      "pf": 13272.5,
+      "titles": 1,
+      "podiums": 3,
+      "playoffs": 4,
+      "win_pct": 0.578,
+      "pf_per_game": 121.8
+    },
+    {
+      "owner": "Liam Rex",
+      "seasons": 9,
+      "wins": 70,
+      "losses": 53,
+      "ties": 0,
+      "pf": 14742.8,
+      "titles": 1,
+      "podiums": 3,
+      "playoffs": 8,
+      "win_pct": 0.569,
+      "pf_per_game": 119.9
+    },
+    {
+      "owner": "Tom Cummins",
+      "seasons": 5,
+      "wins": 38,
+      "losses": 28,
+      "ties": 1,
+      "pf": 7632.3,
+      "titles": 1,
+      "podiums": 2,
+      "playoffs": 3,
+      "win_pct": 0.575,
+      "pf_per_game": 113.9
+    },
+    {
+      "owner": "Jack Coffman",
+      "seasons": 9,
+      "wins": 66,
+      "losses": 57,
+      "ties": 0,
+      "pf": 14137.6,
+      "titles": 1,
+      "podiums": 2,
+      "playoffs": 5,
+      "win_pct": 0.537,
+      "pf_per_game": 114.9
+    },
+    {
+      "owner": "Tim Harris",
+      "seasons": 9,
+      "wins": 64,
+      "losses": 59,
+      "ties": 0,
+      "pf": 14169.7,
+      "titles": 1,
+      "podiums": 2,
+      "playoffs": 5,
+      "win_pct": 0.52,
+      "pf_per_game": 115.2
+    },
+    {
+      "owner": "Drew Eckler & Andrew Eckler",
+      "seasons": 9,
+      "wins": 60,
+      "losses": 62,
+      "ties": 1,
+      "pf": 13515.6,
+      "titles": 0,
+      "podiums": 3,
+      "playoffs": 5,
+      "win_pct": 0.492,
+      "pf_per_game": 109.9
+    },
+    {
+      "owner": "John Olson",
+      "seasons": 9,
+      "wins": 63,
+      "losses": 59,
+      "ties": 1,
+      "pf": 14064.5,
+      "titles": 0,
+      "podiums": 2,
+      "playoffs": 5,
+      "win_pct": 0.516,
+      "pf_per_game": 114.3
+    },
+    {
+      "owner": "Tomotaka Cho & Will Cordonnier",
+      "seasons": 1,
+      "wins": 9,
+      "losses": 5,
+      "ties": 0,
+      "pf": 1727.0,
+      "titles": 0,
+      "podiums": 1,
+      "playoffs": 1,
+      "win_pct": 0.643,
+      "pf_per_game": 123.4
+    },
+    {
+      "owner": "Peter Rex",
+      "seasons": 3,
+      "wins": 24,
+      "losses": 18,
+      "ties": 0,
+      "pf": 5083.8,
+      "titles": 0,
+      "podiums": 1,
+      "playoffs": 2,
+      "win_pct": 0.571,
+      "pf_per_game": 121.0
+    },
+    {
+      "owner": "Will Cordonnier",
+      "seasons": 2,
+      "wins": 14,
+      "losses": 14,
+      "ties": 0,
+      "pf": 3230.4,
+      "titles": 0,
+      "podiums": 1,
+      "playoffs": 1,
+      "win_pct": 0.5,
+      "pf_per_game": 115.4
+    },
+    {
+      "owner": "Tomotaka Cho",
+      "seasons": 8,
+      "wins": 53,
+      "losses": 56,
+      "ties": 0,
+      "pf": 12500.5,
+      "titles": 0,
+      "podiums": 1,
+      "playoffs": 4,
+      "win_pct": 0.486,
+      "pf_per_game": 114.7
+    },
+    {
+      "owner": "Tim Ryan & Paul Ryan",
+      "seasons": 7,
+      "wins": 38,
+      "losses": 57,
+      "ties": 0,
+      "pf": 10677.6,
+      "titles": 0,
+      "podiums": 1,
+      "playoffs": 2,
+      "win_pct": 0.4,
+      "pf_per_game": 112.4
+    },
+    {
+      "owner": "Abraham Hill",
+      "seasons": 1,
+      "wins": 10,
+      "losses": 4,
+      "ties": 0,
+      "pf": 1848.2,
+      "titles": 0,
+      "podiums": 0,
+      "playoffs": 1,
+      "win_pct": 0.714,
+      "pf_per_game": 132.0
+    },
+    {
+      "owner": "Ethan Ashley",
+      "seasons": 1,
+      "wins": 7,
+      "losses": 7,
+      "ties": 0,
+      "pf": 1473.9,
+      "titles": 0,
+      "podiums": 0,
+      "playoffs": 0,
+      "win_pct": 0.5,
+      "pf_per_game": 105.3
+    },
+    {
+      "owner": "Parker Sikora",
+      "seasons": 2,
+      "wins": 10,
+      "losses": 18,
+      "ties": 0,
+      "pf": 3041.6,
+      "titles": 0,
+      "podiums": 0,
+      "playoffs": 0,
+      "win_pct": 0.357,
+      "pf_per_game": 108.6
+    },
+    {
+      "owner": "Sam Kumar",
+      "seasons": 7,
+      "wins": 26,
+      "losses": 69,
+      "ties": 0,
+      "pf": 9398.2,
+      "titles": 0,
+      "podiums": 0,
+      "playoffs": 0,
+      "win_pct": 0.274,
+      "pf_per_game": 98.9
+    }
+  ],
+  "champions": [
+    {
+      "season": 2017,
+      "team": "The Ballad of Younghoe Koo",
+      "owner": "Tim Harris",
+      "record": "11-3-0",
+      "pf": 1945.1
+    },
+    {
+      "season": 2018,
+      "team": "THE EMPIRE DID NOTHING WRONG!1",
+      "owner": "Daniel Meyer",
+      "record": "9-4-0",
+      "pf": 1671.0
+    },
+    {
+      "season": 2019,
+      "team": "The Bake Show",
+      "owner": "Tom Cummins",
+      "record": "8-5-0",
+      "pf": 1367.0
+    },
+    {
+      "season": 2020,
+      "team": "Rex On Rex",
+      "owner": "Liam Rex",
+      "record": "9-4-0",
+      "pf": 1712.3
+    },
+    {
+      "season": 2021,
+      "team": "Juulio Jones",
+      "owner": "Seamus Mulcahy",
+      "record": "10-4-0",
+      "pf": 1789.8
+    },
+    {
+      "season": 2022,
+      "team": "Violence Of The Lambs",
+      "owner": "Jackson Herz",
+      "record": "9-5-0",
+      "pf": 1734.0
+    },
+    {
+      "season": 2023,
+      "team": "Bed Bath and Bijan",
+      "owner": "Jack Coffman",
+      "record": "10-4-0",
+      "pf": 1737.4
+    },
+    {
+      "season": 2024,
+      "team": "Juulio Jones",
+      "owner": "Seamus Mulcahy",
+      "record": "8-6-0",
+      "pf": 1580.5
+    },
+    {
+      "season": 2025,
+      "team": "Pukana Matatas",
+      "owner": "Jackson Herz",
+      "record": "10-4-0",
+      "pf": 1978.5
+    }
+  ],
+  "scoring_records": {
+    "best_era": [
+      {
+        "season": 2025,
+        "owner": "Jackson Herz",
+        "team": "Pukana Matatas",
+        "ppg": 141.3,
+        "pf": 1978.5,
+        "era_z": 2.87
+      },
+      {
+        "season": 2021,
+        "owner": "Jackson Herz",
+        "team": "Storm Coopers",
+        "ppg": 145.5,
+        "pf": 2037.4,
+        "era_z": 2.41
+      },
+      {
+        "season": 2022,
+        "owner": "Jackson Herz",
+        "team": "Violence Of The Lambs",
+        "ppg": 123.9,
+        "pf": 1734.0,
+        "era_z": 2.0
+      },
+      {
+        "season": 2023,
+        "owner": "Peter Rex",
+        "team": "Team Rex",
+        "ppg": 131.0,
+        "pf": 1833.8,
+        "era_z": 1.78
+      },
+      {
+        "season": 2017,
+        "owner": "Tim Harris",
+        "team": "The Ballad of Younghoe Koo",
+        "ppg": 138.9,
+        "pf": 1945.1,
+        "era_z": 1.51
+      }
+    ],
+    "weekly": [
+      {
+        "owner": "Tim Harris",
+        "mean": 115.2,
+        "stdev": 23.1,
+        "high": 215.74,
+        "low": 58.0
+      },
+      {
+        "owner": "Tom Cummins",
+        "mean": 113.9,
+        "stdev": 26.0,
+        "high": 206.0,
+        "low": 66.0
+      },
+      {
+        "owner": "Liam Rex",
+        "mean": 119.9,
+        "stdev": 23.4,
+        "high": 191.0,
+        "low": 74.0
+      },
+      {
+        "owner": "John Olson",
+        "mean": 114.3,
+        "stdev": 25.2,
+        "high": 182.4,
+        "low": 50.0
+      },
+      {
+        "owner": "Jack Coffman",
+        "mean": 114.9,
+        "stdev": 23.4,
+        "high": 177.24,
+        "low": 54.0
+      }
+    ],
+    "consistency": [
+      {
+        "owner": "Peter Rex",
+        "mean": 121.0,
+        "stdev": 18.6,
+        "high": 172.06,
+        "low": 79.46
+      },
+      {
+        "owner": "Tomotaka Cho & Will Cordonnier",
+        "mean": 123.4,
+        "stdev": 18.7,
+        "high": 158.54,
+        "low": 91.74
+      },
+      {
+        "owner": "Abraham Hill",
+        "mean": 132.0,
+        "stdev": 20.0,
+        "high": 166.76,
+        "low": 94.96
+      },
+      {
+        "owner": "Parker Sikora",
+        "mean": 108.6,
+        "stdev": 22.6,
+        "high": 153.16,
+        "low": 56.48
+      },
+      {
+        "owner": "Tim Ryan & Paul Ryan",
+        "mean": 112.4,
+        "stdev": 22.7,
+        "high": 159.0,
+        "low": 48.0
+      }
+    ]
+  },
+  "luck": [
+    {
+      "owner": "Seamus Mulcahy",
+      "actual_wins": 54.0,
+      "expected_wins": 47.9,
+      "luck": 6.1,
+      "pa_per_game": 112.9,
+      "pa_percentile": 41
+    },
+    {
+      "owner": "Drew Eckler & Andrew Eckler",
+      "actual_wins": 60.5,
+      "expected_wins": 54.5,
+      "luck": 6.0,
+      "pa_per_game": 112.2,
+      "pa_percentile": 24
+    },
+    {
+      "owner": "Tom Cummins",
+      "actual_wins": 38.5,
+      "expected_wins": 33.5,
+      "luck": 5.0,
+      "pa_per_game": 111.4,
+      "pa_percentile": 12
+    },
+    {
+      "owner": "John Olson",
+      "actual_wins": 63.5,
+      "expected_wins": 60.6,
+      "luck": 2.9,
+      "pa_per_game": 112.6,
+      "pa_percentile": 29
+    },
+    {
+      "owner": "Jack Coffman",
+      "actual_wins": 66.0,
+      "expected_wins": 63.9,
+      "luck": 2.1,
+      "pa_per_game": 112.6,
+      "pa_percentile": 35
+    },
+    {
+      "owner": "Ethan Ashley",
+      "actual_wins": 7.0,
+      "expected_wins": 5.7,
+      "luck": 1.3,
+      "pa_per_game": 105.9,
+      "pa_percentile": 6
+    },
+    {
+      "owner": "Liam Rex",
+      "actual_wins": 70.0,
+      "expected_wins": 68.9,
+      "luck": 1.1,
+      "pa_per_game": 114.6,
+      "pa_percentile": 53
+    },
+    {
+      "owner": "Tim Harris",
+      "actual_wins": 64.0,
+      "expected_wins": 62.9,
+      "luck": 1.1,
+      "pa_per_game": 112.0,
+      "pa_percentile": 18
+    },
+    {
+      "owner": "Tomotaka Cho & Will Cordonnier",
+      "actual_wins": 9.0,
+      "expected_wins": 8.5,
+      "luck": 0.5,
+      "pa_per_game": 117.1,
+      "pa_percentile": 88
+    },
+    {
+      "owner": "Abraham Hill",
+      "actual_wins": 10.0,
+      "expected_wins": 10.0,
+      "luck": 0.0,
+      "pa_per_game": 104.4,
+      "pa_percentile": 0
+    },
+    {
+      "owner": "Will Cordonnier",
+      "actual_wins": 14.0,
+      "expected_wins": 14.5,
+      "luck": -0.5,
+      "pa_per_game": 117.4,
+      "pa_percentile": 94
+    },
+    {
+      "owner": "Parker Sikora",
+      "actual_wins": 10.0,
+      "expected_wins": 11.0,
+      "luck": -1.0,
+      "pa_per_game": 120.8,
+      "pa_percentile": 100
+    },
+    {
+      "owner": "Peter Rex",
+      "actual_wins": 24.0,
+      "expected_wins": 25.1,
+      "luck": -1.1,
+      "pa_per_game": 116.5,
+      "pa_percentile": 76
+    },
+    {
+      "owner": "Daniel Meyer",
+      "actual_wins": 63.0,
+      "expected_wins": 65.5,
+      "luck": -2.5,
+      "pa_per_game": 115.9,
+      "pa_percentile": 71
+    },
+    {
+      "owner": "Tomotaka Cho",
+      "actual_wins": 53.0,
+      "expected_wins": 56.0,
+      "luck": -3.0,
+      "pa_per_game": 115.7,
+      "pa_percentile": 65
+    },
+    {
+      "owner": "Sam Kumar",
+      "actual_wins": 26.0,
+      "expected_wins": 29.9,
+      "luck": -3.9,
+      "pa_per_game": 117.1,
+      "pa_percentile": 82
+    },
+    {
+      "owner": "Jackson Herz",
+      "actual_wins": 67.5,
+      "expected_wins": 72.8,
+      "luck": -5.3,
+      "pa_per_game": 115.0,
+      "pa_percentile": 59
+    },
+    {
+      "owner": "Tim Ryan & Paul Ryan",
+      "actual_wins": 38.0,
+      "expected_wins": 44.3,
+      "luck": -6.3,
+      "pa_per_game": 113.9,
+      "pa_percentile": 47
+    }
+  ],
+  "head_to_head": {
+    "owners": [
+      "Jackson Herz",
+      "Seamus Mulcahy",
+      "Daniel Meyer",
+      "Liam Rex",
+      "Tom Cummins",
+      "Jack Coffman",
+      "Tim Harris",
+      "Drew Eckler & Andrew Eckler",
+      "John Olson",
+      "Tomotaka Cho & Will Cordonnier",
+      "Peter Rex",
+      "Will Cordonnier",
+      "Tomotaka Cho",
+      "Tim Ryan & Paul Ryan",
+      "Abraham Hill",
+      "Ethan Ashley",
+      "Parker Sikora",
+      "Sam Kumar"
+    ],
+    "rows": [
+      {
+        "owner": "Jackson Herz",
+        "results": {
+          "Jackson Herz": "\u2014",
+          "Seamus Mulcahy": "5-5-0",
+          "Daniel Meyer": "2-9-0",
+          "Liam Rex": "8-3-0",
+          "Tom Cummins": "3-4-1",
+          "Jack Coffman": "5-8-0",
+          "Tim Harris": "4-4-0",
+          "Drew Eckler & Andrew Eckler": "6-7-0",
+          "John Olson": "5-2-0",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "5-1-0",
+          "Will Cordonnier": "1-1-0",
+          "Tomotaka Cho": "7-3-0",
+          "Tim Ryan & Paul Ryan": "5-3-0",
+          "Abraham Hill": "0-1-0",
+          "Ethan Ashley": "1-0-0",
+          "Parker Sikora": "2-0-0",
+          "Sam Kumar": "8-3-0"
+        }
+      },
+      {
+        "owner": "Seamus Mulcahy",
+        "results": {
+          "Jackson Herz": "5-5-0",
+          "Seamus Mulcahy": "\u2014",
+          "Daniel Meyer": "4-4-0",
+          "Liam Rex": "6-8-0",
+          "Tom Cummins": "2-3-0",
+          "Jack Coffman": "7-8-0",
+          "Tim Harris": "4-9-0",
+          "Drew Eckler & Andrew Eckler": "7-4-0",
+          "John Olson": "3-9-0",
+          "Tomotaka Cho & Will Cordonnier": "1-0-0",
+          "Peter Rex": "1-2-0",
+          "Will Cordonnier": "2-2-0",
+          "Tomotaka Cho": "1-5-0",
+          "Tim Ryan & Paul Ryan": "5-6-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-1-0",
+          "Parker Sikora": "2-0-0",
+          "Sam Kumar": "4-3-0"
+        }
+      },
+      {
+        "owner": "Daniel Meyer",
+        "results": {
+          "Jackson Herz": "9-2-0",
+          "Seamus Mulcahy": "4-4-0",
+          "Daniel Meyer": "\u2014",
+          "Liam Rex": "5-7-0",
+          "Tom Cummins": "3-1-0",
+          "Jack Coffman": "6-4-0",
+          "Tim Harris": "2-4-0",
+          "Drew Eckler & Andrew Eckler": "6-6-0",
+          "John Olson": "3-4-0",
+          "Tomotaka Cho & Will Cordonnier": "1-0-0",
+          "Peter Rex": "0-2-0",
+          "Will Cordonnier": "0-2-0",
+          "Tomotaka Cho": "10-2-0",
+          "Tim Ryan & Paul Ryan": "5-3-0",
+          "Abraham Hill": "0-1-0",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-1-0",
+          "Sam Kumar": "9-3-0"
+        }
+      },
+      {
+        "owner": "Liam Rex",
+        "results": {
+          "Jackson Herz": "3-8-0",
+          "Seamus Mulcahy": "8-6-0",
+          "Daniel Meyer": "7-5-0",
+          "Liam Rex": "\u2014",
+          "Tom Cummins": "4-4-0",
+          "Jack Coffman": "4-3-0",
+          "Tim Harris": "8-5-0",
+          "Drew Eckler & Andrew Eckler": "6-2-0",
+          "John Olson": "7-2-0",
+          "Tomotaka Cho & Will Cordonnier": "1-1-0",
+          "Peter Rex": "1-2-0",
+          "Will Cordonnier": "1-1-0",
+          "Tomotaka Cho": "6-6-0",
+          "Tim Ryan & Paul Ryan": "6-4-0",
+          "Abraham Hill": "0-1-0",
+          "Ethan Ashley": "2-0-0",
+          "Parker Sikora": "1-1-0",
+          "Sam Kumar": "5-2-0"
+        }
+      },
+      {
+        "owner": "Tom Cummins",
+        "results": {
+          "Jackson Herz": "4-3-1",
+          "Seamus Mulcahy": "3-2-0",
+          "Daniel Meyer": "1-3-0",
+          "Liam Rex": "4-4-0",
+          "Tom Cummins": "\u2014",
+          "Jack Coffman": "2-3-0",
+          "Tim Harris": "4-4-0",
+          "Drew Eckler & Andrew Eckler": "3-0-0",
+          "John Olson": "3-2-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "0-0-0",
+          "Will Cordonnier": "0-0-0",
+          "Tomotaka Cho": "3-3-0",
+          "Tim Ryan & Paul Ryan": "7-2-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-0-0",
+          "Sam Kumar": "4-2-0"
+        }
+      },
+      {
+        "owner": "Jack Coffman",
+        "results": {
+          "Jackson Herz": "8-5-0",
+          "Seamus Mulcahy": "8-7-0",
+          "Daniel Meyer": "4-6-0",
+          "Liam Rex": "3-4-0",
+          "Tom Cummins": "3-2-0",
+          "Jack Coffman": "\u2014",
+          "Tim Harris": "5-5-0",
+          "Drew Eckler & Andrew Eckler": "6-6-0",
+          "John Olson": "9-6-0",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "1-2-0",
+          "Will Cordonnier": "1-1-0",
+          "Tomotaka Cho": "2-6-0",
+          "Tim Ryan & Paul Ryan": "4-3-0",
+          "Abraham Hill": "1-0-0",
+          "Ethan Ashley": "1-0-0",
+          "Parker Sikora": "4-0-0",
+          "Sam Kumar": "6-3-0"
+        }
+      },
+      {
+        "owner": "Tim Harris",
+        "results": {
+          "Jackson Herz": "4-4-0",
+          "Seamus Mulcahy": "9-4-0",
+          "Daniel Meyer": "4-2-0",
+          "Liam Rex": "5-8-0",
+          "Tom Cummins": "4-4-0",
+          "Jack Coffman": "5-5-0",
+          "Tim Harris": "\u2014",
+          "Drew Eckler & Andrew Eckler": "8-4-0",
+          "John Olson": "4-7-0",
+          "Tomotaka Cho & Will Cordonnier": "0-2-0",
+          "Peter Rex": "2-1-0",
+          "Will Cordonnier": "0-2-0",
+          "Tomotaka Cho": "3-7-0",
+          "Tim Ryan & Paul Ryan": "7-4-0",
+          "Abraham Hill": "1-0-0",
+          "Ethan Ashley": "0-1-0",
+          "Parker Sikora": "2-2-0",
+          "Sam Kumar": "6-2-0"
+        }
+      },
+      {
+        "owner": "Drew Eckler & Andrew Eckler",
+        "results": {
+          "Jackson Herz": "7-6-0",
+          "Seamus Mulcahy": "4-7-0",
+          "Daniel Meyer": "6-6-0",
+          "Liam Rex": "2-6-0",
+          "Tom Cummins": "0-3-0",
+          "Jack Coffman": "6-6-0",
+          "Tim Harris": "4-8-0",
+          "Drew Eckler & Andrew Eckler": "\u2014",
+          "John Olson": "10-7-1",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "3-0-0",
+          "Will Cordonnier": "0-2-0",
+          "Tomotaka Cho": "4-3-0",
+          "Tim Ryan & Paul Ryan": "6-3-0",
+          "Abraham Hill": "0-1-0",
+          "Ethan Ashley": "2-0-0",
+          "Parker Sikora": "2-0-0",
+          "Sam Kumar": "4-3-0"
+        }
+      },
+      {
+        "owner": "John Olson",
+        "results": {
+          "Jackson Herz": "2-5-0",
+          "Seamus Mulcahy": "9-3-0",
+          "Daniel Meyer": "4-3-0",
+          "Liam Rex": "2-7-0",
+          "Tom Cummins": "2-3-0",
+          "Jack Coffman": "6-9-0",
+          "Tim Harris": "7-4-0",
+          "Drew Eckler & Andrew Eckler": "7-10-1",
+          "John Olson": "\u2014",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "2-1-0",
+          "Will Cordonnier": "2-2-0",
+          "Tomotaka Cho": "6-3-0",
+          "Tim Ryan & Paul Ryan": "5-4-0",
+          "Abraham Hill": "1-1-0",
+          "Ethan Ashley": "1-0-0",
+          "Parker Sikora": "0-2-0",
+          "Sam Kumar": "7-1-0"
+        }
+      },
+      {
+        "owner": "Tomotaka Cho & Will Cordonnier",
+        "results": {
+          "Jackson Herz": "1-0-0",
+          "Seamus Mulcahy": "0-1-0",
+          "Daniel Meyer": "0-1-0",
+          "Liam Rex": "1-1-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "1-0-0",
+          "Tim Harris": "2-0-0",
+          "Drew Eckler & Andrew Eckler": "1-0-0",
+          "John Olson": "1-0-0",
+          "Tomotaka Cho & Will Cordonnier": "\u2014",
+          "Peter Rex": "0-2-0",
+          "Will Cordonnier": "0-0-0",
+          "Tomotaka Cho": "0-0-0",
+          "Tim Ryan & Paul Ryan": "1-0-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-0-0",
+          "Sam Kumar": "1-0-0"
+        }
+      },
+      {
+        "owner": "Peter Rex",
+        "results": {
+          "Jackson Herz": "1-5-0",
+          "Seamus Mulcahy": "2-1-0",
+          "Daniel Meyer": "2-0-0",
+          "Liam Rex": "2-1-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "2-1-0",
+          "Tim Harris": "1-2-0",
+          "Drew Eckler & Andrew Eckler": "0-3-0",
+          "John Olson": "1-2-0",
+          "Tomotaka Cho & Will Cordonnier": "2-0-0",
+          "Peter Rex": "\u2014",
+          "Will Cordonnier": "2-0-0",
+          "Tomotaka Cho": "3-1-0",
+          "Tim Ryan & Paul Ryan": "0-1-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-1-0",
+          "Parker Sikora": "4-0-0",
+          "Sam Kumar": "2-0-0"
+        }
+      },
+      {
+        "owner": "Will Cordonnier",
+        "results": {
+          "Jackson Herz": "1-1-0",
+          "Seamus Mulcahy": "2-2-0",
+          "Daniel Meyer": "2-0-0",
+          "Liam Rex": "1-1-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "1-1-0",
+          "Tim Harris": "2-0-0",
+          "Drew Eckler & Andrew Eckler": "2-0-0",
+          "John Olson": "2-2-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "0-2-0",
+          "Will Cordonnier": "\u2014",
+          "Tomotaka Cho": "1-1-0",
+          "Tim Ryan & Paul Ryan": "0-0-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-2-0",
+          "Parker Sikora": "0-2-0",
+          "Sam Kumar": "0-0-0"
+        }
+      },
+      {
+        "owner": "Tomotaka Cho",
+        "results": {
+          "Jackson Herz": "3-7-0",
+          "Seamus Mulcahy": "5-1-0",
+          "Daniel Meyer": "2-10-0",
+          "Liam Rex": "6-6-0",
+          "Tom Cummins": "3-3-0",
+          "Jack Coffman": "6-2-0",
+          "Tim Harris": "7-3-0",
+          "Drew Eckler & Andrew Eckler": "3-4-0",
+          "John Olson": "3-6-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "1-3-0",
+          "Will Cordonnier": "1-1-0",
+          "Tomotaka Cho": "\u2014",
+          "Tim Ryan & Paul Ryan": "5-1-0",
+          "Abraham Hill": "1-2-0",
+          "Ethan Ashley": "0-1-0",
+          "Parker Sikora": "0-2-0",
+          "Sam Kumar": "7-4-0"
+        }
+      },
+      {
+        "owner": "Tim Ryan & Paul Ryan",
+        "results": {
+          "Jackson Herz": "3-5-0",
+          "Seamus Mulcahy": "6-5-0",
+          "Daniel Meyer": "3-5-0",
+          "Liam Rex": "4-6-0",
+          "Tom Cummins": "2-7-0",
+          "Jack Coffman": "3-4-0",
+          "Tim Harris": "4-7-0",
+          "Drew Eckler & Andrew Eckler": "3-6-0",
+          "John Olson": "4-5-0",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "1-0-0",
+          "Will Cordonnier": "0-0-0",
+          "Tomotaka Cho": "1-5-0",
+          "Tim Ryan & Paul Ryan": "\u2014",
+          "Abraham Hill": "0-1-0",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-0-0",
+          "Sam Kumar": "4-0-0"
+        }
+      },
+      {
+        "owner": "Abraham Hill",
+        "results": {
+          "Jackson Herz": "1-0-0",
+          "Seamus Mulcahy": "0-0-0",
+          "Daniel Meyer": "1-0-0",
+          "Liam Rex": "1-0-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "0-1-0",
+          "Tim Harris": "0-1-0",
+          "Drew Eckler & Andrew Eckler": "1-0-0",
+          "John Olson": "1-1-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "0-0-0",
+          "Will Cordonnier": "0-0-0",
+          "Tomotaka Cho": "2-1-0",
+          "Tim Ryan & Paul Ryan": "1-0-0",
+          "Abraham Hill": "\u2014",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-0-0",
+          "Sam Kumar": "2-0-0"
+        }
+      },
+      {
+        "owner": "Ethan Ashley",
+        "results": {
+          "Jackson Herz": "0-1-0",
+          "Seamus Mulcahy": "1-0-0",
+          "Daniel Meyer": "0-0-0",
+          "Liam Rex": "0-2-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "0-1-0",
+          "Tim Harris": "1-0-0",
+          "Drew Eckler & Andrew Eckler": "0-2-0",
+          "John Olson": "0-1-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "1-0-0",
+          "Will Cordonnier": "2-0-0",
+          "Tomotaka Cho": "1-0-0",
+          "Tim Ryan & Paul Ryan": "0-0-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "\u2014",
+          "Parker Sikora": "1-0-0",
+          "Sam Kumar": "0-0-0"
+        }
+      },
+      {
+        "owner": "Parker Sikora",
+        "results": {
+          "Jackson Herz": "0-2-0",
+          "Seamus Mulcahy": "0-2-0",
+          "Daniel Meyer": "1-0-0",
+          "Liam Rex": "1-1-0",
+          "Tom Cummins": "0-0-0",
+          "Jack Coffman": "0-4-0",
+          "Tim Harris": "2-2-0",
+          "Drew Eckler & Andrew Eckler": "0-2-0",
+          "John Olson": "2-0-0",
+          "Tomotaka Cho & Will Cordonnier": "0-0-0",
+          "Peter Rex": "0-4-0",
+          "Will Cordonnier": "2-0-0",
+          "Tomotaka Cho": "2-0-0",
+          "Tim Ryan & Paul Ryan": "0-0-0",
+          "Abraham Hill": "0-0-0",
+          "Ethan Ashley": "0-1-0",
+          "Parker Sikora": "\u2014",
+          "Sam Kumar": "0-0-0"
+        }
+      },
+      {
+        "owner": "Sam Kumar",
+        "results": {
+          "Jackson Herz": "3-8-0",
+          "Seamus Mulcahy": "3-4-0",
+          "Daniel Meyer": "3-9-0",
+          "Liam Rex": "2-5-0",
+          "Tom Cummins": "2-4-0",
+          "Jack Coffman": "3-6-0",
+          "Tim Harris": "2-6-0",
+          "Drew Eckler & Andrew Eckler": "3-4-0",
+          "John Olson": "1-7-0",
+          "Tomotaka Cho & Will Cordonnier": "0-1-0",
+          "Peter Rex": "0-2-0",
+          "Will Cordonnier": "0-0-0",
+          "Tomotaka Cho": "4-7-0",
+          "Tim Ryan & Paul Ryan": "0-4-0",
+          "Abraham Hill": "0-2-0",
+          "Ethan Ashley": "0-0-0",
+          "Parker Sikora": "0-0-0",
+          "Sam Kumar": "\u2014"
+        }
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "year": "2017",
+      "detail": "League launches with 12 teams."
+    },
+    {
+      "year": "2018",
+      "detail": "Tom Cummins joins; Abraham Hill exits."
+    },
+    {
+      "year": "2023",
+      "detail": "Peter Rex joins; Cho and Cordonnier co-manage one team."
+    },
+    {
+      "year": "2024",
+      "detail": "Will Cordonnier returns with Wet Willies; Parker Sikora joins."
+    },
+    {
+      "year": "2025",
+      "detail": "Ethan Ashley joins; Daniel Meyer exits."
+    }
+  ],
+  "rules": [
+    {
+      "year": "2017",
+      "title": "Original format",
+      "detail": "17-player rosters, 10 starters, 14 matchups, waiver priority."
+    },
+    {
+      "year": "2018\u201320",
+      "title": "Shorter regular season",
+      "detail": "16-player rosters, nine starters, 13 regular-season matchups."
+    },
+    {
+      "year": "2021\u201323",
+      "title": "14-game era",
+      "detail": "Regular season returns to 14 matchups; waiver priority remains."
+    },
+    {
+      "year": "2024\u2013present",
+      "title": "$100 FAAB",
+      "detail": "FAAB replaces waiver priority. Full PPR, 12 teams, and six playoff teams remain."
+    }
+  ]
+}

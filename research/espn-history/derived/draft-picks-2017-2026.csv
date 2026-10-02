@@ -1,0 +1,1933 @@
+season,round,slot,overall_pick,player,pro_team,position,fantasy_team
+2017,1,1,1,David Johnson,Ari,RB,Team Ryan
+2017,1,2,2,Le'Veon Bell,Pit,RB,Tom's Deflated Balls
+2017,1,3,3,Antonio Brown,Pit,WR,Rigga Please
+2017,1,4,4,Odell Beckham Jr.,NYG,WR,Team Subbukumar
+2017,1,5,5,Julio Jones,Atl,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,1,6,6,LeSean McCoy,Buf,RB,The Ballad of Younghoe Koo
+2017,1,7,7,Brandin Cooks,LAR,WR,The Juice Is Loose
+2017,1,8,8,Jordy Nelson,Oak,WR,Team Eckler
+2017,1,9,9,A.J. Green,Cin,WR,KAREEM THE DREAM
+2017,1,10,10,Devonta Freeman,Atl,RB,Acute Gronkitis
+2017,1,11,11,Mike Evans,TB,WR,Rex On Rex
+2017,1,12,12,Michael Thomas,NO,WR,Team Seattle
+2017,2,1,13,Melvin Gordon,LAC,RB,Team Seattle
+2017,2,2,14,Jay Ajayi,Phi,RB,Rex On Rex
+2017,2,3,15,Rob Gronkowski,NE,TE,Acute Gronkitis
+2017,2,4,16,Jordan Howard,Chi,RB,KAREEM THE DREAM
+2017,2,5,17,DeMarco Murray,Ten,RB,Team Eckler
+2017,2,6,18,Leonard Fournette,Jax,RB,The Juice Is Loose
+2017,2,7,19,Ezekiel Elliott,Dal,RB,The Ballad of Younghoe Koo
+2017,2,8,20,Dez Bryant,Dal,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,2,9,21,Demaryius Thomas,Den,WR,Team Subbukumar
+2017,2,10,22,Todd Gurley II,LAR,RB,Rigga Please
+2017,2,11,23,T.Y. Hilton,Ind,WR,Tom's Deflated Balls
+2017,2,12,24,Alshon Jeffery,Phi,WR,Team Ryan
+2017,3,1,25,Doug Baldwin,Sea,WR,Team Ryan
+2017,3,2,26,Lamar Miller,Hou,RB,Tom's Deflated Balls
+2017,3,3,27,Amari Cooper,Oak,WR,Rigga Please
+2017,3,4,28,Aaron Rodgers,GB,QB,Team Subbukumar
+2017,3,5,29,Tom Brady,NE,QB,THE EMPIRE DID NOTHING WRONG!1
+2017,3,6,30,Keenan Allen,LAC,WR,The Ballad of Younghoe Koo
+2017,3,7,31,DeAndre Hopkins,Hou,WR,The Juice Is Loose
+2017,3,8,32,Terrelle Pryor Sr.,NYJ,WR,Team Eckler
+2017,3,9,33,Michael Crabtree,Bal,WR,KAREEM THE DREAM
+2017,3,10,34,Kelvin Benjamin,Buf,WR,Acute Gronkitis
+2017,3,11,35,Christian McCaffrey,Car,RB,Rex On Rex
+2017,3,12,36,Russell Wilson,Sea,QB,Team Seattle
+2017,4,1,37,Jimmy Graham,GB,TE,Team Seattle
+2017,4,2,38,Davante Adams,GB,WR,Rex On Rex
+2017,4,3,39,Golden Tate,Det,WR,Acute Gronkitis
+2017,4,4,40,Kareem Hunt,KC,RB,KAREEM THE DREAM
+2017,4,5,41,Isaiah Crowell,NYJ,RB,Team Eckler
+2017,4,6,42,Marshawn Lynch,Oak,RB,The Juice Is Loose
+2017,4,7,43,Larry Fitzgerald,Ari,WR,The Ballad of Younghoe Koo
+2017,4,8,44,Travis Kelce,KC,TE,THE EMPIRE DID NOTHING WRONG!1
+2017,4,9,45,Jordan Reed,Wsh,TE,Team Subbukumar
+2017,4,10,46,Emmanuel Sanders,Den,WR,Rigga Please
+2017,4,11,47,Greg Olsen,Car,TE,Tom's Deflated Balls
+2017,4,12,48,Carlos Hyde,Cle,RB,Team Ryan
+2017,5,1,49,Jarvis Landry,Cle,WR,Team Ryan
+2017,5,2,50,Drew Brees,NO,QB,Tom's Deflated Balls
+2017,5,3,51,Matt Ryan,Atl,QB,Rigga Please
+2017,5,4,52,Jamison Crowder,Wsh,WR,Team Subbukumar
+2017,5,5,53,Dalvin Cook,Min,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,5,6,54,Tyreek Hill,KC,WR,The Ballad of Younghoe Koo
+2017,5,7,55,Kirk Cousins,Min,QB,The Juice Is Loose
+2017,5,8,56,Ty Montgomery,GB,RB,Team Eckler
+2017,5,9,57,Mark Ingram,NO,RB,KAREEM THE DREAM
+2017,5,10,58,Bilal Powell,NYJ,RB,Acute Gronkitis
+2017,5,11,59,Allen Robinson,Chi,WR,Rex On Rex
+2017,5,12,60,Sam Bradford,Ari,QB,Team Seattle
+2017,6,1,61,Martellus Bennett,NE,TE,Team Seattle
+2017,6,2,62,Kyle Rudolph,Min,TE,Rex On Rex
+2017,6,3,63,C.J. Anderson,Den,RB,Acute Gronkitis
+2017,6,4,64,Sammy Watkins,KC,WR,KAREEM THE DREAM
+2017,6,5,65,Pierre Garcon,SF,WR,Team Eckler
+2017,6,6,66,Martavis Bryant,Pit,WR,The Juice Is Loose
+2017,6,7,67,Theo Riddick,Det,RB,The Ballad of Younghoe Koo
+2017,6,8,68,Joe Mixon,Cin,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,6,9,69,Jeremy Maclin,Bal,WR,Team Subbukumar
+2017,6,10,70,Adrian Peterson,Ari,RB,Rigga Please
+2017,6,11,71,Brandon Marshall,NYG,WR,Tom's Deflated Balls
+2017,6,12,72,Danny Woodhead,Bal,RB,Team Ryan
+2017,7,1,73,Frank Gore,Mia,RB,Team Ryan
+2017,7,2,74,DeVante Parker,Mia,WR,Tom's Deflated Balls
+2017,7,3,75,DeSean Jackson,TB,WR,Rigga Please
+2017,7,4,76,Seahawks D/ST,Sea,D/ST,Team Subbukumar
+2017,7,5,77,Doug Martin,Oak,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,7,6,78,Zach Ertz,Phi,TE,The Ballad of Younghoe Koo
+2017,7,7,79,Tyler Eifert,Cin,TE,The Juice Is Loose
+2017,7,8,80,Stefon Diggs,Min,WR,Team Eckler
+2017,7,9,81,Delanie Walker,Ten,TE,KAREEM THE DREAM
+2017,7,10,82,Donte Moncrief,Jax,WR,Acute Gronkitis
+2017,7,11,83,Ameer Abdullah,Det,RB,Rex On Rex
+2017,7,12,84,Mike Gillislee,NE,RB,Team Seattle
+2017,8,1,85,Eric Decker,Ten,WR,Team Seattle
+2017,8,2,86,Kenny Britt,NE,WR,Rex On Rex
+2017,8,3,87,James White,NE,RB,Acute Gronkitis
+2017,8,4,88,Cam Newton,Car,QB,KAREEM THE DREAM
+2017,8,5,89,Rob Kelley,Wsh,RB,Team Eckler
+2017,8,6,90,Mike Wallace,Phi,WR,The Juice Is Loose
+2017,8,7,91,Darren McFadden,Dal,RB,The Ballad of Younghoe Koo
+2017,8,8,92,Chris Hogan,NE,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,8,9,93,Stephen Gostkowski,NE,K,Team Subbukumar
+2017,8,10,94,Eddie Lacy,Sea,RB,Rigga Please
+2017,8,11,95,Duke Johnson Jr.,Cle,RB,Tom's Deflated Balls
+2017,8,12,96,Hunter Henry,LAC,TE,Team Ryan
+2017,9,1,97,Derek Carr,Oak,QB,Team Ryan
+2017,9,2,98,Broncos D/ST,Den,D/ST,Tom's Deflated Balls
+2017,9,3,99,Randall Cobb,GB,WR,Rigga Please
+2017,9,4,100,LeGarrette Blount,Det,RB,Team Subbukumar
+2017,9,5,101,Adam Thielen,Min,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,9,6,102,Andrew Luck,Ind,QB,The Ballad of Younghoe Koo
+2017,9,7,103,Adam Vinatieri,Ind,K,The Juice Is Loose
+2017,9,8,104,Paul Perkins,NYG,RB,Team Eckler
+2017,9,9,105,Terrance West,Bal,RB,KAREEM THE DREAM
+2017,9,10,106,Tyrell Williams,LAC,WR,Acute Gronkitis
+2017,9,11,107,Tevin Coleman,Atl,RB,Rex On Rex
+2017,9,12,108,Willie Snead,NO,WR,Team Seattle
+2017,10,1,109,Matt Forte,NYJ,RB,Team Seattle
+2017,10,2,110,Marcus Mariota,Ten,QB,Rex On Rex
+2017,10,3,111,Rishard Matthews,Ten,WR,Acute Gronkitis
+2017,10,4,112,Dak Prescott,Dal,QB,KAREEM THE DREAM
+2017,10,5,113,Jameis Winston,TB,QB,Team Eckler
+2017,10,6,114,Texans D/ST,Hou,D/ST,The Juice Is Loose
+2017,10,7,115,Andy Dalton,Cin,QB,The Ballad of Younghoe Koo
+2017,10,8,116,John Brown,Bal,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,10,9,117,Jonathan Stewart,NYG,RB,Team Subbukumar
+2017,10,10,118,Kenny Stills,Mia,WR,Rigga Please
+2017,10,11,119,Matt Bryant,Atl,K,Tom's Deflated Balls
+2017,10,12,120,Kevin White,Chi,WR,Team Ryan
+2017,11,1,121,Austin Hooper,Atl,TE,Team Ryan
+2017,11,2,122,Giovani Bernard,Cin,RB,Tom's Deflated Balls
+2017,11,3,123,Jason Witten,Dal,TE,Rigga Please
+2017,11,4,124,Matthew Stafford,Det,QB,Team Subbukumar
+2017,11,5,125,Zay Jones,Buf,WR,THE EMPIRE DID NOTHING WRONG!1
+2017,11,6,126,Jordan Matthews,NE,WR,The Ballad of Younghoe Koo
+2017,11,7,127,Thomas Rawls,NYJ,RB,The Juice Is Loose
+2017,11,8,128,Darren Sproles,Phi,RB,Team Eckler
+2017,11,9,129,Ted Ginn Jr.,NO,WR,KAREEM THE DREAM
+2017,11,10,130,Philip Rivers,LAC,QB,Acute Gronkitis
+2017,11,11,131,Danny Amendola,Mia,WR,Rex On Rex
+2017,11,12,132,Mason Crosby,GB,K,Team Seattle
+2017,12,1,133,Tyler Lockett,Sea,WR,Team Seattle
+2017,12,2,134,Corey Coleman,Cle,WR,Rex On Rex
+2017,12,3,135,Justin Tucker,Bal,K,Acute Gronkitis
+2017,12,4,136,Marvin Jones Jr.,Det,WR,KAREEM THE DREAM
+2017,12,5,137,C.J. Prosise,Sea,RB,Team Eckler
+2017,12,6,138,Corey Davis,Ten,WR,The Juice Is Loose
+2017,12,7,139,Jack Doyle,Ind,TE,The Ballad of Younghoe Koo
+2017,12,8,140,Jacquizz Rodgers,TB,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,12,9,141,Rex Burkhead,NE,RB,Team Subbukumar
+2017,12,10,142,Chiefs D/ST,KC,D/ST,Rigga Please
+2017,12,11,143,Eli Manning,NYG,QB,Tom's Deflated Balls
+2017,12,12,144,Ben Roethlisberger,Pit,QB,Team Ryan
+2017,13,1,145,Dan Bailey,Dal,K,Team Ryan
+2017,13,2,146,Sterling Shepard,NYG,WR,Tom's Deflated Balls
+2017,13,3,147,Matt Prater,Det,K,Rigga Please
+2017,13,4,148,Kendall Wright,Min,WR,Team Subbukumar
+2017,13,5,149,Latavius Murray,Min,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,13,6,150,Vikings D/ST,Min,D/ST,The Ballad of Younghoe Koo
+2017,13,7,151,Chris Thompson,Wsh,RB,The Juice Is Loose
+2017,13,8,152,Derrick Henry,Ten,RB,Team Eckler
+2017,13,9,153,Torrey Smith,Car,WR,KAREEM THE DREAM
+2017,13,10,154,Cardinals D/ST,Ari,D/ST,Acute Gronkitis
+2017,13,11,155,Josh Doctson,Wsh,WR,Rex On Rex
+2017,13,12,156,Patriots D/ST,NE,D/ST,Team Seattle
+2017,14,1,157,Shane Vereen,NYG,RB,Team Seattle
+2017,14,2,158,Dustin Hopkins,Wsh,K,Rex On Rex
+2017,14,3,159,Charles Sims,TB,RB,Acute Gronkitis
+2017,14,4,160,Panthers D/ST,Car,D/ST,KAREEM THE DREAM
+2017,14,5,161,Eric Ebron,Ind,TE,Team Eckler
+2017,14,6,162,Charcandrick West,KC,RB,The Juice Is Loose
+2017,14,7,163,Cole Beasley,Dal,WR,The Ballad of Younghoe Koo
+2017,14,8,164,Jeremy Hill,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,14,9,165,Devin Funchess,Car,WR,Team Subbukumar
+2017,14,10,166,Carson Wentz,Phi,QB,Rigga Please
+2017,14,11,167,Robby Anderson,NYJ,WR,Tom's Deflated Balls
+2017,14,12,168,Giants D/ST,NYG,D/ST,Team Ryan
+2017,15,1,169,Alvin Kamara,NO,RB,Team Ryan
+2017,15,2,170,Tony Romo,Dal,QB,Tom's Deflated Balls
+2017,15,3,171,Jermaine Gresham,Ari,TE,Rigga Please
+2017,15,4,172,Cameron Brate,TB,TE,Team Subbukumar
+2017,15,5,173,Falcons D/ST,Atl,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2017,15,6,174,Marqise Lee,Jax,WR,The Ballad of Younghoe Koo
+2017,15,7,175,Joe Flacco,Bal,QB,The Juice Is Loose
+2017,15,8,176,Jaguars D/ST,Jax,D/ST,Team Eckler
+2017,15,9,177,Mohamed Sanu,Atl,WR,KAREEM THE DREAM
+2017,15,10,178,D'Onta Foreman,Hou,RB,Acute Gronkitis
+2017,15,11,179,Bengals D/ST,Cin,D/ST,Rex On Rex
+2017,15,12,180,Tyrod Taylor,Cle,QB,Team Seattle
+2017,16,1,181,Wendell Smallwood,Phi,RB,Team Seattle
+2017,16,2,182,Samaje Perine,Wsh,RB,Rex On Rex
+2017,16,3,183,Cairo Santos,NYJ,K,Acute Gronkitis
+2017,16,4,184,Taylor Gabriel,Chi,WR,KAREEM THE DREAM
+2017,16,5,185,Wil Lutz,NO,K,Team Eckler
+2017,16,6,186,Jamaal Charles,Den,RB,The Juice Is Loose
+2017,16,7,187,Dion Lewis,Ten,RB,The Ballad of Younghoe Koo
+2017,16,8,188,Jamaal Williams,GB,RB,THE EMPIRE DID NOTHING WRONG!1
+2017,16,9,189,Anquan Boldin,Buf,WR,Team Subbukumar
+2017,16,10,190,Will Fuller V,Hou,WR,Rigga Please
+2017,16,11,191,Robert Woods,LAR,WR,Tom's Deflated Balls
+2017,16,12,192,Cooper Kupp,LAR,WR,Team Ryan
+2017,17,1,193,DeAndre Washington,Oak,RB,Team Ryan
+2017,17,2,194,Jalen Richard,Oak,RB,Tom's Deflated Balls
+2017,17,3,195,Eagles D/ST,Phi,D/ST,Rigga Please
+2017,17,4,196,Wes Welker,LAR,WR,Team Subbukumar
+2017,17,5,197,Chris Boswell,Pit,K,THE EMPIRE DID NOTHING WRONG!1
+2017,17,6,198,Younghoe Koo,LAC,K,The Ballad of Younghoe Koo
+2017,17,7,199,Julius Thomas,Mia,TE,The Juice Is Loose
+2017,17,8,200,Carson Palmer,Ari,QB,Team Eckler
+2017,17,9,201,Caleb Sturgis,LAC,K,KAREEM THE DREAM
+2017,17,10,202,James Conner,Pit,RB,Acute Gronkitis
+2017,17,11,203,Devontae Booker,Den,RB,Rex On Rex
+2017,17,12,204,Breshad Perriman,Bal,WR,Team Seattle
+2018,1,1,1,Le'Veon Bell,Pit,RB,Team Goff Balls
+2018,1,2,2,Todd Gurley II,LAR,RB,Team Seattle
+2018,1,3,3,David Johnson,Ari,RB,Newtonâs Law of Winning
+2018,1,4,4,Ezekiel Elliott,Dal,RB,Juulio Jones
+2018,1,5,5,Antonio Brown,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2018,1,6,6,Saquon Barkley,NYG,RB,Team Ryan
+2018,1,7,7,Julio Jones,Atl,WR,The Juice Is Loose
+2018,1,8,8,Alvin Kamara,NO,RB,Rex On Rex
+2018,1,9,9,Odell Beckham Jr.,NYG,WR,The Bake Show
+2018,1,10,10,DeAndre Hopkins,Hou,WR,Rigga Please
+2018,1,11,11,Dalvin Cook,Min,RB,Tom's Deflated Balls
+2018,1,12,12,Kareem Hunt,FA,RB,The Ballad of Younghoe Koo
+2018,2,1,13,Leonard Fournette,Jax,RB,The Ballad of Younghoe Koo
+2018,2,2,14,Rob Gronkowski,NE,TE,Tom's Deflated Balls
+2018,2,3,15,Keenan Allen,LAC,WR,Rigga Please
+2018,2,4,16,Christian McCaffrey,Car,RB,The Bake Show
+2018,2,5,17,Michael Thomas,NO,WR,Rex On Rex
+2018,2,6,18,A.J. Green,Cin,WR,The Juice Is Loose
+2018,2,7,19,Mike Evans,TB,WR,Team Ryan
+2018,2,8,20,Melvin Gordon,LAC,RB,THE EMPIRE DID NOTHING WRONG!1
+2018,2,9,21,Devonta Freeman,Atl,RB,Juulio Jones
+2018,2,10,22,Davante Adams,GB,WR,Newtonâs Law of Winning
+2018,2,11,23,Travis Kelce,KC,TE,Team Seattle
+2018,2,12,24,Jerick McKinnon,SF,RB,Team Goff Balls
+2018,3,1,25,Tyreek Hill,KC,WR,Team Goff Balls
+2018,3,2,26,Tom Brady,NE,QB,Team Seattle
+2018,3,3,27,LeSean McCoy,Buf,RB,Newtonâs Law of Winning
+2018,3,4,28,Joe Mixon,Cin,RB,Juulio Jones
+2018,3,5,29,Larry Fitzgerald,Ari,WR,THE EMPIRE DID NOTHING WRONG!1
+2018,3,6,30,Jordan Howard,Chi,RB,Team Ryan
+2018,3,7,31,Adam Thielen,Min,WR,The Juice Is Loose
+2018,3,8,32,Stefon Diggs,Min,WR,Rex On Rex
+2018,3,9,33,Zach Ertz,Phi,TE,The Bake Show
+2018,3,10,34,T.Y. Hilton,Ind,WR,Rigga Please
+2018,3,11,35,Doug Baldwin,Sea,WR,Tom's Deflated Balls
+2018,3,12,36,Jarvis Landry,Cle,WR,The Ballad of Younghoe Koo
+2018,4,1,37,Demaryius Thomas,Hou,WR,The Ballad of Younghoe Koo
+2018,4,2,38,Golden Tate,Phi,WR,Tom's Deflated Balls
+2018,4,3,39,Kenyan Drake,Mia,RB,Rigga Please
+2018,4,4,40,Josh Gordon,NE,WR,The Bake Show
+2018,4,5,41,Alex Collins,Bal,RB,Rex On Rex
+2018,4,6,42,Aaron Rodgers,GB,QB,The Juice Is Loose
+2018,4,7,43,Amari Cooper,Dal,WR,Team Ryan
+2018,4,8,44,Royce Freeman,Den,RB,THE EMPIRE DID NOTHING WRONG!1
+2018,4,9,45,Allen Robinson,Chi,WR,Juulio Jones
+2018,4,10,46,Brandin Cooks,LAR,WR,Newtonâs Law of Winning
+2018,4,11,47,Ty Montgomery,Bal,RB,Team Seattle
+2018,4,12,48,Marvin Jones Jr.,Det,WR,Team Goff Balls
+2018,5,1,49,Jay Ajayi,Phi,RB,Team Goff Balls
+2018,5,2,50,Derrick Henry,Ten,RB,Team Seattle
+2018,5,3,51,Dion Lewis,Ten,RB,Newtonâs Law of Winning
+2018,5,4,52,Alshon Jeffery,Phi,WR,Juulio Jones
+2018,5,5,53,JuJu Smith-Schuster,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2018,5,6,54,Michael Crabtree,Bal,WR,Team Ryan
+2018,5,7,55,Lamar Miller,Hou,RB,The Juice Is Loose
+2018,5,8,56,Chris Hogan,NE,WR,Rex On Rex
+2018,5,9,57,Emmanuel Sanders,Den,WR,The Bake Show
+2018,5,10,58,Marshawn Lynch,Oak,RB,Rigga Please
+2018,5,11,59,Rex Burkhead,NE,RB,Tom's Deflated Balls
+2018,5,12,60,Mark Ingram II,NO,RB,The Ballad of Younghoe Koo
+2018,6,1,61,Marquise Goodwin,SF,WR,The Ballad of Younghoe Koo
+2018,6,2,62,Russell Wilson,Sea,QB,Tom's Deflated Balls
+2018,6,3,63,Greg Olsen,Car,TE,Rigga Please
+2018,6,4,64,Carlos Hyde,Jax,RB,The Bake Show
+2018,6,5,65,Delanie Walker,Ten,TE,Rex On Rex
+2018,6,6,66,Duke Johnson Jr.,Cle,RB,The Juice Is Loose
+2018,6,7,67,Tevin Coleman,Atl,RB,Team Ryan
+2018,6,8,68,Evan Engram,NYG,TE,THE EMPIRE DID NOTHING WRONG!1
+2018,6,9,69,Robert Woods,LAR,WR,Juulio Jones
+2018,6,10,70,Cam Newton,Car,QB,Newtonâs Law of Winning
+2018,6,11,71,Corey Davis,Ten,WR,Team Seattle
+2018,6,12,72,Randall Cobb,GB,WR,Team Goff Balls
+2018,7,1,73,Cooper Kupp,LAR,WR,Team Goff Balls
+2018,7,2,74,Pierre Garcon,SF,WR,Team Seattle
+2018,7,3,75,Jimmy Graham,GB,TE,Newtonâs Law of Winning
+2018,7,4,76,Carson Wentz,Phi,QB,Juulio Jones
+2018,7,5,77,Deshaun Watson,Hou,QB,THE EMPIRE DID NOTHING WRONG!1
+2018,7,6,78,Robby Anderson,NYJ,WR,Team Ryan
+2018,7,7,79,Chris Thompson,Wsh,RB,The Juice Is Loose
+2018,7,8,80,Kerryon Johnson,Det,RB,Rex On Rex
+2018,7,9,81,Jimmy Garoppolo,SF,QB,The Bake Show
+2018,7,10,82,Isaiah Crowell,NYJ,RB,Rigga Please
+2018,7,11,83,Jaguars D/ST,Jax,D/ST,Tom's Deflated Balls
+2018,7,12,84,Jordan Reed,Wsh,TE,The Ballad of Younghoe Koo
+2018,8,1,85,Julian Edelman,NE,WR,The Ballad of Younghoe Koo
+2018,8,2,86,Sammy Watkins,KC,WR,Tom's Deflated Balls
+2018,8,3,87,Devin Funchess,Car,WR,Rigga Please
+2018,8,4,88,Ben Roethlisberger,Pit,QB,The Bake Show
+2018,8,5,89,Will Fuller V,Hou,WR,Rex On Rex
+2018,8,6,90,Kyle Rudolph,Min,TE,The Juice Is Loose
+2018,8,7,91,Andrew Luck,Ind,QB,Team Ryan
+2018,8,8,92,Chris Carson,Sea,RB,THE EMPIRE DID NOTHING WRONG!1
+2018,8,9,93,Jamison Crowder,Wsh,WR,Juulio Jones
+2018,8,10,94,Sterling Shepard,NYG,WR,Newtonâs Law of Winning
+2018,8,11,95,Josh Doctson,Wsh,WR,Team Seattle
+2018,8,12,96,Rashaad Penny,Sea,RB,Team Goff Balls
+2018,9,1,97,Matthew Stafford,Det,QB,Team Goff Balls
+2018,9,2,98,Kelvin Benjamin,KC,WR,Team Seattle
+2018,9,3,99,Tarik Cohen,Chi,RB,Newtonâs Law of Winning
+2018,9,4,100,Ronald Jones,TB,RB,Juulio Jones
+2018,9,5,101,James White,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2018,9,6,102,Matt Ryan,Atl,QB,Team Ryan
+2018,9,7,103,Peyton Barber,TB,RB,The Juice Is Loose
+2018,9,8,104,Sony Michel,NE,RB,Rex On Rex
+2018,9,9,105,Jordy Nelson,Oak,WR,The Bake Show
+2018,9,10,106,DeVante Parker,Mia,WR,Rigga Please
+2018,9,11,107,Jamaal Williams,GB,RB,Tom's Deflated Balls
+2018,9,12,108,Kenny Stills,Mia,WR,The Ballad of Younghoe Koo
+2018,10,1,109,Michael Gallup,Dal,WR,The Ballad of Younghoe Koo
+2018,10,2,110,Jack Doyle,Ind,TE,Tom's Deflated Balls
+2018,10,3,111,Kirk Cousins,Min,QB,Rigga Please
+2018,10,4,112,Danny Amendola,Mia,WR,The Bake Show
+2018,10,5,113,Drew Brees,NO,QB,Rex On Rex
+2018,10,6,114,Calvin Ridley,Atl,WR,The Juice Is Loose
+2018,10,7,115,Tyler Eifert,Cin,TE,Team Ryan
+2018,10,8,116,Mohamed Sanu,Atl,WR,THE EMPIRE DID NOTHING WRONG!1
+2018,10,9,117,Trey Burton,Chi,TE,Juulio Jones
+2018,10,10,118,Allen Hurns,Dal,WR,Newtonâs Law of Winning
+2018,10,11,119,Marqise Lee,Jax,WR,Team Seattle
+2018,10,12,120,David Njoku,Cle,TE,Team Goff Balls
+2018,11,1,121,John Ross,Cin,WR,Team Goff Balls
+2018,11,2,122,Nelson Agholor,Phi,WR,Team Seattle
+2018,11,3,123,Jared Goff,LAR,QB,Newtonâs Law of Winning
+2018,11,4,124,Paul Richardson,Wsh,WR,Juulio Jones
+2018,11,5,125,Philip Rivers,LAC,QB,THE EMPIRE DID NOTHING WRONG!1
+2018,11,6,126,James Starks,GB,RB,Team Ryan
+2018,11,7,127,Jameis Winston,TB,QB,The Juice Is Loose
+2018,11,8,128,Kenny Golladay,Det,WR,Rex On Rex
+2018,11,9,129,Eagles D/ST,Phi,D/ST,The Bake Show
+2018,11,10,130,Cameron Meredith,NO,WR,Rigga Please
+2018,11,11,131,DeSean Jackson,TB,WR,Tom's Deflated Balls
+2018,11,12,132,Theo Riddick,Det,RB,The Ballad of Younghoe Koo
+2018,12,1,133,Alex Smith,Wsh,QB,The Ballad of Younghoe Koo
+2018,12,2,134,Giovani Bernard,Cin,RB,Tom's Deflated Balls
+2018,12,3,135,Tyler Lockett,Sea,WR,Rigga Please
+2018,12,4,136,Stephen Gostkowski,NE,K,The Bake Show
+2018,12,5,137,Marlon Mack,Ind,RB,Rex On Rex
+2018,12,6,138,Matt Bryant,Atl,K,The Juice Is Loose
+2018,12,7,139,Kenneth Dixon,Bal,RB,Team Ryan
+2018,12,8,140,Vikings D/ST,Min,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2018,12,9,141,Rishard Matthews,NYJ,WR,Juulio Jones
+2018,12,10,142,Charles Clay,Buf,TE,Newtonâs Law of Winning
+2018,12,11,143,DJ Moore,Car,WR,Team Seattle
+2018,12,12,144,George Kittle,SF,TE,Team Goff Balls
+2018,13,1,145,Aaron Jones,GB,RB,Team Goff Balls
+2018,13,2,146,Jordan Wilkins,Ind,RB,Team Seattle
+2018,13,3,147,Adrian Peterson,Wsh,RB,Newtonâs Law of Winning
+2018,13,4,148,Chris Godwin,TB,WR,Juulio Jones
+2018,13,5,149,Wil Lutz,NO,K,THE EMPIRE DID NOTHING WRONG!1
+2018,13,6,150,Austin Hooper,Atl,TE,Team Ryan
+2018,13,7,151,Rams D/ST,LAR,D/ST,The Juice Is Loose
+2018,13,8,152,James Washington,Pit,WR,Rex On Rex
+2018,13,9,153,Patrick Mahomes,KC,QB,The Bake Show
+2018,13,10,154,John Brown,Bal,WR,Rigga Please
+2018,13,11,155,Doug Martin,Oak,RB,Tom's Deflated Balls
+2018,13,12,156,Marcus Mariota,Ten,QB,The Ballad of Younghoe Koo
+2018,14,1,157,Latavius Murray,Min,RB,The Ballad of Younghoe Koo
+2018,14,2,158,Greg Zuerlein,LAR,K,Tom's Deflated Balls
+2018,14,3,159,Jeremy Hill,NE,RB,Rigga Please
+2018,14,4,160,Anthony Miller,Chi,WR,The Bake Show
+2018,14,5,161,Courtland Sutton,Den,WR,Rex On Rex
+2018,14,6,162,Bilal Powell,NYJ,RB,The Juice Is Loose
+2018,14,7,163,Sam Darnold,NYJ,QB,Team Ryan
+2018,14,8,164,O.J. Howard,TB,TE,THE EMPIRE DID NOTHING WRONG!1
+2018,14,9,165,Mike Williams,LAC,WR,Juulio Jones
+2018,14,10,166,Ravens D/ST,Bal,D/ST,Newtonâs Law of Winning
+2018,14,11,167,Mason Crosby,GB,K,Team Seattle
+2018,14,12,168,Derek Carr,Oak,QB,Team Goff Balls
+2018,15,1,169,Matt Prater,Det,K,Team Goff Balls
+2018,15,2,170,Texans D/ST,Hou,D/ST,Team Seattle
+2018,15,3,171,Justin Tucker,Bal,K,Newtonâs Law of Winning
+2018,15,4,172,Patriots D/ST,NE,D/ST,Juulio Jones
+2018,15,5,173,Dez Bryant,NO,WR,THE EMPIRE DID NOTHING WRONG!1
+2018,15,6,174,Younghoe Koo,LAC,K,Team Ryan
+2018,15,7,175,Donte Moncrief,Jax,WR,The Juice Is Loose
+2018,15,8,176,Chargers D/ST,LAC,D/ST,Rex On Rex
+2018,15,9,177,Devontae Booker,Den,RB,The Bake Show
+2018,15,10,178,Broncos D/ST,Den,D/ST,Rigga Please
+2018,15,11,179,Dak Prescott,Dal,QB,Tom's Deflated Balls
+2018,15,12,180,Saints D/ST,NO,D/ST,The Ballad of Younghoe Koo
+2018,16,1,181,Robbie Gould,SF,K,The Ballad of Younghoe Koo
+2018,16,2,182,Keelan Cole,Jax,WR,Tom's Deflated Balls
+2018,16,3,183,Chris Boswell,Pit,K,Rigga Please
+2018,16,4,184,Matt Breida,SF,RB,The Bake Show
+2018,16,5,185,Jake Elliott,Phi,K,Rex On Rex
+2018,16,6,186,Titans D/ST,Ten,D/ST,The Juice Is Loose
+2018,16,7,187,Panthers D/ST,Car,D/ST,Team Ryan
+2018,16,8,188,Nick Chubb,Cle,RB,THE EMPIRE DID NOTHING WRONG!1
+2018,16,9,189,Harrison Butker,KC,K,Juulio Jones
+2018,16,10,190,Taywan Taylor,Ten,WR,Newtonâs Law of Winning
+2018,16,11,191,Corey Clement,Phi,RB,Team Seattle
+2018,16,12,192,Falcons D/ST,Atl,D/ST,Team Goff Balls
+2019,1,1,1,Travis Kelce,KC,TE,Team Seattle
+2019,1,2,2,Christian McCaffrey,Car,RB,Juulio Jones
+2019,1,3,3,Saquon Barkley,NYG,RB,Team Ryan
+2019,1,4,4,Davante Adams,GB,WR,The Guice Is Loose
+2019,1,5,5,DeAndre Hopkins,Hou,WR,Rigga Please
+2019,1,6,6,Todd Gurley II,LAR,RB,Danny Dimes
+2019,1,7,7,Le'Veon Bell,NYJ,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,1,8,8,Ezekiel Elliott,Dal,RB,Team Goff Balls
+2019,1,9,9,Julio Jones,Atl,WR,The Bake Show
+2019,1,10,10,Alvin Kamara,NO,RB,Rex On Rex
+2019,1,11,11,Tyreek Hill,KC,WR,The Juice Is Loose
+2019,1,12,12,David Johnson,Ari,RB,David Ants In My Eyes Johnson
+2019,2,1,13,Patrick Mahomes,KC,QB,Team Seattle
+2019,2,2,14,Antonio Brown,FA,WR,Juulio Jones
+2019,2,3,15,Michael Thomas,NO,WR,Team Ryan
+2019,2,4,16,Odell Beckham Jr.,Cle,WR,The Guice Is Loose
+2019,2,5,17,JuJu Smith-Schuster,Pit,WR,Rigga Please
+2019,2,6,18,James Conner,Pit,RB,Danny Dimes
+2019,2,7,19,Dalvin Cook,Min,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,2,8,20,Joe Mixon,Cin,RB,Team Goff Balls
+2019,2,9,21,Leonard Fournette,Jax,RB,The Bake Show
+2019,2,10,22,Mike Evans,TB,WR,Rex On Rex
+2019,2,11,23,Nick Chubb,Cle,RB,The Juice Is Loose
+2019,2,12,24,Keenan Allen,LAC,WR,David Ants In My Eyes Johnson
+2019,3,1,25,Zach Ertz,Phi,TE,David Ants In My Eyes Johnson
+2019,3,2,26,Chris Carson,Sea,RB,The Juice Is Loose
+2019,3,3,27,Kerryon Johnson,Det,RB,Rex On Rex
+2019,3,4,28,Amari Cooper,Dal,WR,The Bake Show
+2019,3,5,29,Devonta Freeman,Atl,RB,Team Goff Balls
+2019,3,6,30,George Kittle,SF,TE,THE EMPIRE DID NOTHING WRONG!1
+2019,3,7,31,Julian Edelman,NE,WR,Danny Dimes
+2019,3,8,32,Melvin Gordon,LAC,RB,Rigga Please
+2019,3,9,33,Josh Jacobs,Oak,RB,The Guice Is Loose
+2019,3,10,34,Derrick Henry,Ten,RB,Team Ryan
+2019,3,11,35,Stefon Diggs,Min,WR,Juulio Jones
+2019,3,12,36,James White,NE,RB,Team Seattle
+2019,4,1,37,Adam Thielen,Min,WR,Team Seattle
+2019,4,2,38,Damien Williams,KC,RB,Juulio Jones
+2019,4,3,39,Aaron Jones,GB,RB,Team Ryan
+2019,4,4,40,Brandin Cooks,LAR,WR,The Guice Is Loose
+2019,4,5,41,Mike Williams,LAC,WR,Rigga Please
+2019,4,6,42,Robert Woods,LAR,WR,Danny Dimes
+2019,4,7,43,Deshaun Watson,Hou,QB,THE EMPIRE DID NOTHING WRONG!1
+2019,4,8,44,Cooper Kupp,LAR,WR,Team Goff Balls
+2019,4,9,45,Mark Ingram II,Bal,RB,The Bake Show
+2019,4,10,46,Chris Godwin,TB,WR,Rex On Rex
+2019,4,11,47,Kenny Golladay,Det,WR,The Juice Is Loose
+2019,4,12,48,T.Y. Hilton,Ind,WR,David Ants In My Eyes Johnson
+2019,5,1,49,Marlon Mack,Ind,RB,David Ants In My Eyes Johnson
+2019,5,2,50,Alshon Jeffery,Phi,WR,The Juice Is Loose
+2019,5,3,51,Tyler Lockett,Sea,WR,Rex On Rex
+2019,5,4,52,Josh Gordon,Sea,WR,The Bake Show
+2019,5,5,53,DJ Moore,Car,WR,Team Goff Balls
+2019,5,6,54,Phillip Lindsay,Den,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,5,7,55,Tyler Boyd,Cin,WR,Danny Dimes
+2019,5,8,56,Duke Johnson,Hou,RB,Rigga Please
+2019,5,9,57,Austin Ekeler,LAC,RB,The Guice Is Loose
+2019,5,10,58,Allen Robinson II,Chi,WR,Team Ryan
+2019,5,11,59,Calvin Ridley,Atl,WR,Juulio Jones
+2019,5,12,60,Sony Michel,NE,RB,Team Seattle
+2019,6,1,61,Sterling Shepard,NYG,WR,Team Seattle
+2019,6,2,62,Aaron Rodgers,GB,QB,Juulio Jones
+2019,6,3,63,Evan Engram,NYG,TE,Team Ryan
+2019,6,4,64,Derrius Guice,Wsh,RB,The Guice Is Loose
+2019,6,5,65,Jared Cook,NO,TE,Rigga Please
+2019,6,6,66,O.J. Howard,TB,TE,Danny Dimes
+2019,6,7,67,Jarvis Landry,Cle,WR,THE EMPIRE DID NOTHING WRONG!1
+2019,6,8,68,A.J. Green,Cin,WR,Team Goff Balls
+2019,6,9,69,Hunter Henry,LAC,TE,The Bake Show
+2019,6,10,70,David Montgomery,Chi,RB,Rex On Rex
+2019,6,11,71,Sammy Watkins,KC,WR,The Juice Is Loose
+2019,6,12,72,Robby Anderson,NYJ,WR,David Ants In My Eyes Johnson
+2019,7,1,73,Matt Ryan,Atl,QB,David Ants In My Eyes Johnson
+2019,7,2,74,Baker Mayfield,Cle,QB,The Juice Is Loose
+2019,7,3,75,Dede Westbrook,Jax,WR,Rex On Rex
+2019,7,4,76,Cam Newton,Car,QB,The Bake Show
+2019,7,5,77,Marvin Jones Jr.,Det,WR,Team Goff Balls
+2019,7,6,78,Corey Davis,Ten,WR,THE EMPIRE DID NOTHING WRONG!1
+2019,7,7,79,Tevin Coleman,SF,RB,Danny Dimes
+2019,7,8,80,Bears D/ST,Chi,D/ST,Rigga Please
+2019,7,9,81,Miles Sanders,Phi,RB,The Guice Is Loose
+2019,7,10,82,Kenyan Drake,Ari,RB,Team Ryan
+2019,7,11,83,Vance McDonald,Pit,TE,Juulio Jones
+2019,7,12,84,Tarik Cohen,Chi,RB,Team Seattle
+2019,8,1,85,Kenny Stills,Hou,WR,Team Seattle
+2019,8,2,86,Jaguars D/ST,Jax,D/ST,Juulio Jones
+2019,8,3,87,Carson Wentz,Phi,QB,Team Ryan
+2019,8,4,88,Larry Fitzgerald,Ari,WR,The Guice Is Loose
+2019,8,5,89,Delanie Walker,Ten,TE,Rigga Please
+2019,8,6,90,Ben Roethlisberger,Pit,QB,Danny Dimes
+2019,8,7,91,Greg Zuerlein,LAR,K,THE EMPIRE DID NOTHING WRONG!1
+2019,8,8,92,Rashaad Penny,Sea,RB,Team Goff Balls
+2019,8,9,93,Will Fuller V,Hou,WR,The Bake Show
+2019,8,10,94,Christian Kirk,Ari,WR,Rex On Rex
+2019,8,11,95,Nyheim Hines,Ind,RB,The Juice Is Loose
+2019,8,12,96,Jordan Howard,Phi,RB,David Ants In My Eyes Johnson
+2019,9,1,97,Curtis Samuel,Car,WR,David Ants In My Eyes Johnson
+2019,9,2,98,Austin Hooper,Atl,TE,The Juice Is Loose
+2019,9,3,99,Latavius Murray,NO,RB,Rex On Rex
+2019,9,4,100,Emmanuel Sanders,SF,WR,The Bake Show
+2019,9,5,101,David Njoku,Cle,TE,Team Goff Balls
+2019,9,6,102,James Washington,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2019,9,7,103,Keke Coutee,Hou,WR,Danny Dimes
+2019,9,8,104,Drew Brees,NO,QB,Rigga Please
+2019,9,9,105,Dante Pettis,SF,WR,The Guice Is Loose
+2019,9,10,106,Royce Freeman,Den,RB,Team Ryan
+2019,9,11,107,Justin Tucker,Bal,K,Juulio Jones
+2019,9,12,108,Saints D/ST,NO,D/ST,Team Seattle
+2019,10,1,109,Jalen Richard,Oak,RB,Team Seattle
+2019,10,2,110,Dak Prescott,Dal,QB,Juulio Jones
+2019,10,3,111,Peyton Barber,TB,RB,Team Ryan
+2019,10,4,112,Darrell Henderson Jr.,LAR,RB,The Guice Is Loose
+2019,10,5,113,Jamison Crowder,NYJ,WR,Rigga Please
+2019,10,6,114,Harrison Butker,KC,K,Danny Dimes
+2019,10,7,115,Marquez Valdes-Scantling,GB,WR,THE EMPIRE DID NOTHING WRONG!1
+2019,10,8,116,Trey Burton,Chi,TE,Team Goff Balls
+2019,10,9,117,Courtland Sutton,Den,WR,The Bake Show
+2019,10,10,118,Matt Breida,SF,RB,Rex On Rex
+2019,10,11,119,LeSean McCoy,KC,RB,The Juice Is Loose
+2019,10,12,120,Donte Moncrief,Car,WR,David Ants In My Eyes Johnson
+2019,11,1,121,Michael Gallup,Dal,WR,David Ants In My Eyes Johnson
+2019,11,2,122,Kyler Murray,Ari,QB,The Juice Is Loose
+2019,11,3,123,Russell Wilson,Sea,QB,Rex On Rex
+2019,11,4,124,Darwin Thompson,KC,RB,The Bake Show
+2019,11,5,125,Jared Goff,LAR,QB,Team Goff Balls
+2019,11,6,126,Jaylen Samuels,Pit,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,11,7,127,Geronimo Allison,GB,WR,Danny Dimes
+2019,11,8,128,Kareem Hunt,Cle,RB,Rigga Please
+2019,11,9,129,Tom Brady,NE,QB,The Guice Is Loose
+2019,11,10,130,Ronald Jones II,TB,RB,Team Ryan
+2019,11,11,131,DeSean Jackson,Phi,WR,Juulio Jones
+2019,11,12,132,Wil Lutz,NO,K,Team Seattle
+2019,12,1,133,Dion Lewis,Ten,RB,Team Seattle
+2019,12,2,134,Devin Singletary,Buf,RB,Juulio Jones
+2019,12,3,135,Tyrell Williams,Oak,WR,Team Ryan
+2019,12,4,136,Greg Olsen,Sea,TE,The Guice Is Loose
+2019,12,5,137,Stephen Gostkowski,NE,K,Rigga Please
+2019,12,6,138,Jordan Reed,Wsh,TE,Danny Dimes
+2019,12,7,139,Rams D/ST,LAR,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2019,12,8,140,Anthony Miller,Chi,WR,Team Goff Balls
+2019,12,9,141,Bills D/ST,Buf,D/ST,The Bake Show
+2019,12,10,142,Eric Ebron,Ind,TE,Rex On Rex
+2019,12,11,143,Matt Prater,Det,K,The Juice Is Loose
+2019,12,12,144,Ka'imi Fairbairn,Hou,K,David Ants In My Eyes Johnson
+2019,13,1,145,Lamar Jackson,Bal,QB,David Ants In My Eyes Johnson
+2019,13,2,146,Eagles D/ST,Phi,D/ST,The Juice Is Loose
+2019,13,3,147,Vikings D/ST,Min,D/ST,Rex On Rex
+2019,13,4,148,Mitchell Trubisky,Chi,QB,The Bake Show
+2019,13,5,149,Tony Pollard,Dal,RB,Team Goff Balls
+2019,13,6,150,Jimmy Graham,GB,TE,THE EMPIRE DID NOTHING WRONG!1
+2019,13,7,151,Chargers D/ST,LAC,D/ST,Danny Dimes
+2019,13,8,152,N'Keal Harry,NE,WR,Rigga Please
+2019,13,9,153,Kyle Rudolph,Min,TE,The Guice Is Loose
+2019,13,10,154,Adam Humphries,Ten,WR,Team Ryan
+2019,13,11,155,Mark Andrews,Bal,TE,Juulio Jones
+2019,13,12,156,DK Metcalf,Sea,WR,Team Seattle
+2019,14,1,157,Mohamed Sanu Sr.,NE,WR,Team Seattle
+2019,14,2,158,Patriots D/ST,NE,D/ST,Juulio Jones
+2019,14,3,159,Devin Funchess,Ind,WR,Team Ryan
+2019,14,4,160,Jameis Winston,TB,QB,The Guice Is Loose
+2019,14,5,161,Jerick McKinnon,SF,RB,Rigga Please
+2019,14,6,162,Tre'Quan Smith,NO,WR,Danny Dimes
+2019,14,7,163,Damien Harris,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,14,8,164,Kirk Cousins,Min,QB,Team Goff Balls
+2019,14,9,165,Adam Vinatieri,Ind,K,The Bake Show
+2019,14,10,166,Golden Tate,NYG,WR,Rex On Rex
+2019,14,11,167,Albert Wilson,Mia,WR,The Juice Is Loose
+2019,14,12,168,Jack Doyle,Ind,TE,David Ants In My Eyes Johnson
+2019,15,1,169,Broncos D/ST,Den,D/ST,David Ants In My Eyes Johnson
+2019,15,2,170,Giovani Bernard,Cin,RB,The Juice Is Loose
+2019,15,3,171,Michael Badgley,LAC,K,Rex On Rex
+2019,15,4,172,John Brown,Buf,WR,The Bake Show
+2019,15,5,173,Robbie Gould,SF,K,Team Goff Balls
+2019,15,6,174,Josh Allen,Buf,QB,THE EMPIRE DID NOTHING WRONG!1
+2019,15,7,175,Chris Thompson,Wsh,RB,Danny Dimes
+2019,15,8,176,Kalen Ballage,Mia,RB,Rigga Please
+2019,15,9,177,Ravens D/ST,Bal,D/ST,The Guice Is Loose
+2019,15,10,178,Colts D/ST,Ind,D/ST,Team Ryan
+2019,15,11,179,DaeSean Hamilton,Den,WR,Juulio Jones
+2019,15,12,180,Ted Ginn Jr.,NO,WR,Team Seattle
+2019,16,1,181,C.J. Anderson,Det,RB,Team Seattle
+2019,16,2,182,Titans D/ST,Ten,D/ST,Juulio Jones
+2019,16,3,183,Brett Maher,Dal,K,Team Ryan
+2019,16,4,184,Mason Crosby,GB,K,The Guice Is Loose
+2019,16,5,185,Carlos Hyde,Hou,RB,Rigga Please
+2019,16,6,186,Deebo Samuel,SF,WR,Danny Dimes
+2019,16,7,187,Ito Smith,Atl,RB,THE EMPIRE DID NOTHING WRONG!1
+2019,16,8,188,Texans D/ST,Hou,D/ST,Team Goff Balls
+2019,16,9,189,Chris Conley,Jax,WR,The Bake Show
+2019,16,10,190,Chris Herndon,NYJ,TE,Rex On Rex
+2019,16,11,191,Philip Rivers,LAC,QB,The Juice Is Loose
+2019,16,12,192,Theo Riddick,Den,RB,David Ants In My Eyes Johnson
+2020,1,1,1,Christian McCaffrey,Car,RB,Juulio Jones
+2020,1,2,2,Saquon Barkley,NYG,RB,Rigga Please
+2020,1,3,3,Ezekiel Elliott,Dal,RB,Team Seattle
+2020,1,4,4,Dalvin Cook,Min,RB,Whats up Mahomie
+2020,1,5,5,Alvin Kamara,NO,RB,Rex On Rex
+2020,1,6,6,Michael Thomas,NO,WR,Davante's Inferno
+2020,1,7,7,Derrick Henry,Ten,RB,The Juice Is Loose
+2020,1,8,8,Clyde Edwards-Helaire,KC,RB,Ninth Circle of Helaire
+2020,1,9,9,Austin Ekeler,LAC,RB,THE EMPIRE DID NOTHING WRONG!1
+2020,1,10,10,Miles Sanders,Phi,RB,Team Ryan
+2020,1,11,11,Joe Mixon,Cin,RB,Team Goff Balls
+2020,1,12,12,Nick Chubb,Cle,RB,THE 🅱️AKE SHOW
+2020,2,1,13,Travis Kelce,KC,TE,THE 🅱️AKE SHOW
+2020,2,2,14,Julio Jones,Atl,WR,Team Goff Balls
+2020,2,3,15,Kenyan Drake,Ari,RB,Team Ryan
+2020,2,4,16,Aaron Jones,GB,RB,THE EMPIRE DID NOTHING WRONG!1
+2020,2,5,17,Josh Jacobs,LV,RB,Ninth Circle of Helaire
+2020,2,6,18,Tyreek Hill,KC,WR,The Juice Is Loose
+2020,2,7,19,Davante Adams,GB,WR,Davante's Inferno
+2020,2,8,20,DeAndre Hopkins,Ari,WR,Rex On Rex
+2020,2,9,21,Patrick Mahomes,KC,QB,Whats up Mahomie
+2020,2,10,22,Chris Godwin,TB,WR,Team Seattle
+2020,2,11,23,George Kittle,SF,TE,Rigga Please
+2020,2,12,24,Lamar Jackson,Bal,QB,Juulio Jones
+2020,3,1,25,Allen Robinson II,Chi,WR,Juulio Jones
+2020,3,2,26,Kenny Golladay,Det,WR,Rigga Please
+2020,3,3,27,Chris Carson,Sea,RB,Team Seattle
+2020,3,4,28,Odell Beckham Jr.,Cle,WR,Whats up Mahomie
+2020,3,5,29,Mike Evans,TB,WR,Rex On Rex
+2020,3,6,30,DJ Moore,Car,WR,Davante's Inferno
+2020,3,7,31,Adam Thielen,Min,WR,The Juice Is Loose
+2020,3,8,32,Amari Cooper,Dal,WR,Ninth Circle of Helaire
+2020,3,9,33,JuJu Smith-Schuster,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2020,3,10,34,Courtland Sutton,Den,WR,Team Ryan
+2020,3,11,35,James Conner,Pit,RB,Team Goff Balls
+2020,3,12,36,Robert Woods,LAR,WR,THE 🅱️AKE SHOW
+2020,4,1,37,Todd Gurley II,Atl,RB,THE 🅱️AKE SHOW
+2020,4,2,38,A.J. Brown,Ten,WR,Team Goff Balls
+2020,4,3,39,Calvin Ridley,Atl,WR,Team Ryan
+2020,4,4,40,Zach Ertz,Phi,TE,THE EMPIRE DID NOTHING WRONG!1
+2020,4,5,41,T.Y. Hilton,Ind,WR,Ninth Circle of Helaire
+2020,4,6,42,Melvin Gordon III,Den,RB,The Juice Is Loose
+2020,4,7,43,David Johnson,Hou,RB,Davante's Inferno
+2020,4,8,44,Cam Akers,LAR,RB,Rex On Rex
+2020,4,9,45,Cooper Kupp,LAR,WR,Whats up Mahomie
+2020,4,10,46,Kareem Hunt,Cle,RB,Team Seattle
+2020,4,11,47,Tyler Lockett,Sea,WR,Rigga Please
+2020,4,12,48,Jonathan Taylor,Ind,RB,Juulio Jones
+2020,5,1,49,Keenan Allen,LAC,WR,Juulio Jones
+2020,5,2,50,Le'Veon Bell,KC,RB,Rigga Please
+2020,5,3,51,Drew Brees,NO,QB,Team Seattle
+2020,5,4,52,Mark Andrews,Bal,TE,Whats up Mahomie
+2020,5,5,53,Terry McLaurin,Wsh,WR,Rex On Rex
+2020,5,6,54,D'Andre Swift,Det,RB,Davante's Inferno
+2020,5,7,55,DK Metcalf,Sea,WR,The Juice Is Loose
+2020,5,8,56,A.J. Green,Cin,WR,Ninth Circle of Helaire
+2020,5,9,57,Antonio Gibson,Wsh,RB,THE EMPIRE DID NOTHING WRONG!1
+2020,5,10,58,Jarvis Landry,Cle,WR,Team Ryan
+2020,5,11,59,DJ Chark Jr.,Jax,WR,Team Goff Balls
+2020,5,12,60,Tyler Boyd,Cin,WR,THE 🅱️AKE SHOW
+2020,6,1,61,Will Fuller V,Hou,WR,THE 🅱️AKE SHOW
+2020,6,2,62,Marquise Brown,Bal,WR,Team Goff Balls
+2020,6,3,63,Darren Waller,LV,TE,Team Ryan
+2020,6,4,64,DeVante Parker,Mia,WR,THE EMPIRE DID NOTHING WRONG!1
+2020,6,5,65,Deshaun Watson,Hou,QB,Ninth Circle of Helaire
+2020,6,6,66,Kyler Murray,Ari,QB,The Juice Is Loose
+2020,6,7,67,Dak Prescott,Dal,QB,Davante's Inferno
+2020,6,8,68,Devin Singletary,Buf,RB,Rex On Rex
+2020,6,9,69,Raheem Mostert,SF,RB,Whats up Mahomie
+2020,6,10,70,Michael Gallup,Dal,WR,Team Seattle
+2020,6,11,71,Stefon Diggs,Buf,WR,Rigga Please
+2020,6,12,72,Tyler Higbee,LAR,TE,Juulio Jones
+2020,7,1,73,Kerryon Johnson,Det,RB,Juulio Jones
+2020,7,2,74,Russell Wilson,Sea,QB,Rigga Please
+2020,7,3,75,Evan Engram,NYG,TE,Team Seattle
+2020,7,4,76,Julian Edelman,NE,WR,Whats up Mahomie
+2020,7,5,77,David Montgomery,Chi,RB,Rex On Rex
+2020,7,6,78,Deebo Samuel,SF,WR,Davante's Inferno
+2020,7,7,79,Mark Ingram II,FA,RB,The Juice Is Loose
+2020,7,8,80,Marvin Jones Jr.,Det,WR,Ninth Circle of Helaire
+2020,7,9,81,Leonard Fournette,TB,RB,THE EMPIRE DID NOTHING WRONG!1
+2020,7,10,82,Tarik Cohen,Chi,RB,Team Ryan
+2020,7,11,83,J.K. Dobbins,Bal,RB,Team Goff Balls
+2020,7,12,84,Diontae Johnson,Pit,WR,THE 🅱️AKE SHOW
+2020,8,1,85,Ronald Jones II,TB,RB,THE 🅱️AKE SHOW
+2020,8,2,86,Brandin Cooks,Hou,WR,Team Goff Balls
+2020,8,3,87,Sterling Shepard,NYG,WR,Team Ryan
+2020,8,4,88,Christian Kirk,Ari,WR,THE EMPIRE DID NOTHING WRONG!1
+2020,8,5,89,James White,NE,RB,Ninth Circle of Helaire
+2020,8,6,90,Noah Fant,Den,TE,The Juice Is Loose
+2020,8,7,91,Phillip Lindsay,Den,RB,Davante's Inferno
+2020,8,8,92,John Brown,Buf,WR,Rex On Rex
+2020,8,9,93,Preston Williams,Mia,WR,Whats up Mahomie
+2020,8,10,94,Cam Newton,NE,QB,Team Seattle
+2020,8,11,95,Jamison Crowder,NYJ,WR,Rigga Please
+2020,8,12,96,Steelers D/ST,Pit,D/ST,Juulio Jones
+2020,9,1,97,Harrison Butker,KC,K,Juulio Jones
+2020,9,2,98,Jordan Howard,Phi,RB,Rigga Please
+2020,9,3,99,Matt Breida,Mia,RB,Team Seattle
+2020,9,4,100,Darius Slayton,NYG,WR,Whats up Mahomie
+2020,9,5,101,Hunter Henry,LAC,TE,Rex On Rex
+2020,9,6,102,Zack Moss,Buf,RB,Davante's Inferno
+2020,9,7,103,49ers D/ST,SF,D/ST,The Juice Is Loose
+2020,9,8,104,Golden Tate,FA,WR,Ninth Circle of Helaire
+2020,9,9,105,Josh Allen,Buf,QB,THE EMPIRE DID NOTHING WRONG!1
+2020,9,10,106,Darrell Henderson Jr.,LAR,RB,Team Ryan
+2020,9,11,107,Latavius Murray,NO,RB,Team Goff Balls
+2020,9,12,108,Matt Ryan,Atl,QB,THE 🅱️AKE SHOW
+2020,10,1,109,Emmanuel Sanders,NO,WR,THE 🅱️AKE SHOW
+2020,10,2,110,Tom Brady,TB,QB,Team Goff Balls
+2020,10,3,111,Robby Anderson,Car,WR,Team Ryan
+2020,10,4,112,Alexander Mattison,Min,RB,THE EMPIRE DID NOTHING WRONG!1
+2020,10,5,113,Jared Cook,FA,TE,Ninth Circle of Helaire
+2020,10,6,114,Rob Gronkowski,TB,TE,The Juice Is Loose
+2020,10,7,115,Hayden Hurst,Atl,TE,Davante's Inferno
+2020,10,8,116,Henry Ruggs III,LV,WR,Rex On Rex
+2020,10,9,117,Jerry Jeudy,Den,WR,Whats up Mahomie
+2020,10,10,118,CeeDee Lamb,Dal,WR,Team Seattle
+2020,10,11,119,N'Keal Harry,NE,WR,Rigga Please
+2020,10,12,120,DeSean Jackson,FA,WR,Juulio Jones
+2020,11,1,121,Matthew Stafford,LAR,QB,Juulio Jones
+2020,11,2,122,Mike Williams,LAC,WR,Rigga Please
+2020,11,3,123,Duke Johnson,FA,RB,Team Seattle
+2020,11,4,124,Tevin Coleman,SF,RB,Whats up Mahomie
+2020,11,5,125,Aaron Rodgers,GB,QB,Rex On Rex
+2020,11,6,126,Breshad Perriman,NYJ,WR,Davante's Inferno
+2020,11,7,127,Matt Prater,Det,K,The Juice Is Loose
+2020,11,8,128,Mecole Hardman,KC,WR,Ninth Circle of Helaire
+2020,11,9,129,Justin Tucker,Bal,K,THE EMPIRE DID NOTHING WRONG!1
+2020,11,10,130,Carson Wentz,Ind,QB,Team Ryan
+2020,11,11,131,T.J. Hockenson,Det,TE,Team Goff Balls
+2020,11,12,132,Austin Hooper,Cle,TE,THE 🅱️AKE SHOW
+2020,12,1,133,Curtis Samuel,Car,WR,THE 🅱️AKE SHOW
+2020,12,2,134,Mike Gesicki,Mia,TE,Team Goff Balls
+2020,12,3,135,Anthony Miller,Chi,WR,Team Ryan
+2020,12,4,136,Allen Lazard,GB,WR,THE EMPIRE DID NOTHING WRONG!1
+2020,12,5,137,Marlon Mack,Ind,RB,Ninth Circle of Helaire
+2020,12,6,138,Chris Thompson,Jax,RB,The Juice Is Loose
+2020,12,7,139,Justin Jefferson,Min,WR,Davante's Inferno
+2020,12,8,140,Boston Scott,Phi,RB,Rex On Rex
+2020,12,9,141,Tony Pollard,Dal,RB,Whats up Mahomie
+2020,12,10,142,Parris Campbell,Ind,WR,Team Seattle
+2020,12,11,143,Devine Ozigbo,Jax,RB,Rigga Please
+2020,12,12,144,Chase Edmonds,Ari,RB,Juulio Jones
+2020,13,1,145,Chris Herndon,NYJ,TE,Juulio Jones
+2020,13,2,146,Jalen Reagor,Phi,WR,Rigga Please
+2020,13,3,147,Randall Cobb,Hou,WR,Team Seattle
+2020,13,4,148,Nyheim Hines,Ind,RB,Whats up Mahomie
+2020,13,5,149,Daniel Jones,NYG,QB,Rex On Rex
+2020,13,6,150,Damien Harris,NE,RB,Davante's Inferno
+2020,13,7,151,Alshon Jeffery,Phi,WR,The Juice Is Loose
+2020,13,8,152,Sony Michel,NE,RB,Ninth Circle of Helaire
+2020,13,9,153,Blake Jarwin,Dal,TE,THE EMPIRE DID NOTHING WRONG!1
+2020,13,10,154,Justin Jackson,LAC,RB,Team Ryan
+2020,13,11,155,Bryce Love,Wsh,RB,Team Goff Balls
+2020,13,12,156,Larry Fitzgerald,Ari,WR,THE 🅱️AKE SHOW
+2020,14,1,157,Ravens D/ST,Bal,D/ST,THE 🅱️AKE SHOW
+2020,14,2,158,Wil Lutz,NO,K,Team Goff Balls
+2020,14,3,159,Brandon Aiyuk,SF,WR,Team Ryan
+2020,14,4,160,Ryan Tannehill,Ten,QB,THE EMPIRE DID NOTHING WRONG!1
+2020,14,5,161,Sammy Watkins,KC,WR,Ninth Circle of Helaire
+2020,14,6,162,Jack Doyle,Ind,TE,The Juice Is Loose
+2020,14,7,163,Bills D/ST,Buf,D/ST,Davante's Inferno
+2020,14,8,164,Patriots D/ST,NE,D/ST,Rex On Rex
+2020,14,9,165,Michael Pittman Jr.,Ind,WR,Whats up Mahomie
+2020,14,10,166,Bears D/ST,Chi,D/ST,Team Seattle
+2020,14,11,167,Greg Zuerlein,Dal,K,Rigga Please
+2020,14,12,168,Colts D/ST,Ind,D/ST,Juulio Jones
+2020,15,1,169,Chris Boswell,Pit,K,Juulio Jones
+2020,15,2,170,Vikings D/ST,Min,D/ST,Rigga Please
+2020,15,3,171,Robbie Gould,SF,K,Team Seattle
+2020,15,4,172,Broncos D/ST,Den,D/ST,Whats up Mahomie
+2020,15,5,173,Zane Gonzalez,FA,K,Rex On Rex
+2020,15,6,174,Steven Sims Jr.,Wsh,WR,Davante's Inferno
+2020,15,7,175,Denzel Mims,NYJ,WR,The Juice Is Loose
+2020,15,8,176,Buccaneers D/ST,TB,D/ST,Ninth Circle of Helaire
+2020,15,9,177,Laviska Shenault Jr.,Jax,WR,THE EMPIRE DID NOTHING WRONG!1
+2020,15,10,178,Saints D/ST,NO,D/ST,Team Ryan
+2020,15,11,179,Joe Burrow,Cin,QB,Team Goff Balls
+2020,15,12,180,Jake Elliott,Phi,K,THE 🅱️AKE SHOW
+2020,16,1,181,Baker Mayfield,Cle,QB,THE 🅱️AKE SHOW
+2020,16,2,182,Chargers D/ST,LAC,D/ST,Team Goff Balls
+2020,16,3,183,Austin Seibert,Cin,K,Team Ryan
+2020,16,4,184,Rams D/ST,LAR,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2020,16,5,185,Younghoe Koo,Atl,K,Ninth Circle of Helaire
+2020,16,6,186,Darrynton Evans,Ten,RB,The Juice Is Loose
+2020,16,7,187,Rodrigo Blankenship,Ind,K,Davante's Inferno
+2020,16,8,188,Ryquell Armstead,Jax,RB,Rex On Rex
+2020,16,9,189,Ka'imi Fairbairn,Hou,K,Whats up Mahomie
+2020,16,10,190,Irv Smith Jr.,Min,TE,Team Seattle
+2020,16,11,191,Jerick McKinnon,SF,RB,Rigga Please
+2020,16,12,192,Chase Claypool,Pit,WR,Juulio Jones
+2021,1,1,1,Christian McCaffrey,Car,RB,cancelled -
+2021,1,2,2,Dalvin Cook,Min,RB,Team Seattle
+2021,1,3,3,Alvin Kamara,NO,RB,Justin Herbert
+2021,1,4,4,Derrick Henry,Ten,RB,The Juice Is Loose
+2021,1,5,5,Saquon Barkley,NYG,RB,Electric Bass
+2021,1,6,6,Davante Adams,GB,WR,Team Ryan
+2021,1,7,7,Travis Kelce,KC,TE,THE EMPIRE DID NOTHING WRONG!1
+2021,1,8,8,Austin Ekeler,LAC,RB,Juulio Jones
+2021,1,9,9,Nick Chubb,Cle,RB,THE 🅱️AKE SHOW
+2021,1,10,10,Ezekiel Elliott,Dal,RB,Rex On Rex
+2021,1,11,11,Aaron Jones,GB,RB,Team Goff Balls
+2021,1,12,12,Jonathan Taylor,Ind,RB,Storm Coopers
+2021,2,1,13,Najee Harris,Pit,RB,Storm Coopers
+2021,2,2,14,Tyreek Hill,KC,WR,Team Goff Balls
+2021,2,3,15,Antonio Gibson,Wsh,RB,Rex On Rex
+2021,2,4,16,Calvin Ridley,Atl,WR,THE 🅱️AKE SHOW
+2021,2,5,17,Stefon Diggs,Buf,WR,Juulio Jones
+2021,2,6,18,Joe Mixon,Cin,RB,THE EMPIRE DID NOTHING WRONG!1
+2021,2,7,19,Clyde Edwards-Helaire,KC,RB,Team Ryan
+2021,2,8,20,DeAndre Hopkins,Ari,WR,Electric Bass
+2021,2,9,21,DK Metcalf,Sea,WR,The Juice Is Loose
+2021,2,10,22,Darren Waller,LV,TE,Justin Herbert
+2021,2,11,23,A.J. Brown,Ten,WR,Team Seattle
+2021,2,12,24,George Kittle,SF,TE,cancelled -
+2021,3,1,25,Terry McLaurin,Wsh,WR,cancelled -
+2021,3,2,26,Justin Jefferson,Min,WR,Team Seattle
+2021,3,3,27,Allen Robinson II,Chi,WR,Justin Herbert
+2021,3,4,28,CeeDee Lamb,Dal,WR,The Juice Is Loose
+2021,3,5,29,Keenan Allen,LAC,WR,Electric Bass
+2021,3,6,30,Robert Woods,LAR,WR,Team Ryan
+2021,3,7,31,D'Andre Swift,Det,RB,THE EMPIRE DID NOTHING WRONG!1
+2021,3,8,32,James Robinson,Jax,RB,Juulio Jones
+2021,3,9,33,David Montgomery,Chi,RB,THE 🅱️AKE SHOW
+2021,3,10,34,Mike Evans,TB,WR,Rex On Rex
+2021,3,11,35,Chris Carson,Sea,RB,Team Goff Balls
+2021,3,12,36,Amari Cooper,Dal,WR,Storm Coopers
+2021,4,1,37,Cooper Kupp,LAR,WR,Storm Coopers
+2021,4,2,38,Miles Sanders,Phi,RB,Team Goff Balls
+2021,4,3,39,Adam Thielen,Min,WR,Rex On Rex
+2021,4,4,40,Diontae Johnson,Pit,WR,THE 🅱️AKE SHOW
+2021,4,5,41,Chris Godwin,TB,WR,Juulio Jones
+2021,4,6,42,Tyler Lockett,Sea,WR,THE EMPIRE DID NOTHING WRONG!1
+2021,4,7,43,Josh Jacobs,LV,RB,Team Ryan
+2021,4,8,44,Julio Jones,Ten,WR,Electric Bass
+2021,4,9,45,Patrick Mahomes,KC,QB,The Juice Is Loose
+2021,4,10,46,Brandon Aiyuk,SF,WR,Justin Herbert
+2021,4,11,47,DJ Moore,Car,WR,Team Seattle
+2021,4,12,48,Gus Edwards,Bal,RB,cancelled -
+2021,5,1,49,Tee Higgins,Cin,WR,cancelled -
+2021,5,2,50,Josh Allen,Buf,QB,Team Seattle
+2021,5,3,51,Javonte Williams,Den,RB,Justin Herbert
+2021,5,4,52,Myles Gaskin,Mia,RB,The Juice Is Loose
+2021,5,5,53,Kyle Pitts,Atl,TE,Electric Bass
+2021,5,6,54,Kareem Hunt,Cle,RB,Team Ryan
+2021,5,7,55,JuJu Smith-Schuster,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2021,5,8,56,Mark Andrews,Bal,TE,Juulio Jones
+2021,5,9,57,Chase Edmonds,Ari,RB,THE 🅱️AKE SHOW
+2021,5,10,58,Kyler Murray,Ari,QB,Rex On Rex
+2021,5,11,59,Lamar Jackson,Bal,QB,Team Goff Balls
+2021,5,12,60,T.J. Hockenson,Det,TE,Storm Coopers
+2021,6,1,61,Mike Davis,Atl,RB,Storm Coopers
+2021,6,2,62,Jerry Jeudy,Den,WR,Team Goff Balls
+2021,6,3,63,Odell Beckham Jr.,LAR,WR,Rex On Rex
+2021,6,4,64,Robby Anderson,Car,WR,THE 🅱️AKE SHOW
+2021,6,5,65,Dak Prescott,Dal,QB,Juulio Jones
+2021,6,6,66,Russell Wilson,Sea,QB,THE EMPIRE DID NOTHING WRONG!1
+2021,6,7,67,Kenny Golladay,NYG,WR,Team Ryan
+2021,6,8,68,Damien Harris,NE,RB,Electric Bass
+2021,6,9,69,Ja'Marr Chase,Cin,WR,The Juice Is Loose
+2021,6,10,70,Tyler Boyd,Cin,WR,Justin Herbert
+2021,6,11,71,Darrell Henderson Jr.,LAR,RB,Team Seattle
+2021,6,12,72,Courtland Sutton,Den,WR,cancelled -
+2021,7,1,73,Aaron Rodgers,GB,QB,cancelled -
+2021,7,2,74,Logan Thomas,Wsh,TE,Team Seattle
+2021,7,3,75,Justin Herbert,LAC,QB,Justin Herbert
+2021,7,4,76,William Fuller V,Mia,WR,The Juice Is Loose
+2021,7,5,77,Raheem Mostert,SF,RB,Electric Bass
+2021,7,6,78,Noah Fant,Den,TE,Team Ryan
+2021,7,7,79,Chase Claypool,Pit,WR,THE EMPIRE DID NOTHING WRONG!1
+2021,7,8,80,Brandin Cooks,Hou,WR,Juulio Jones
+2021,7,9,81,Corey Davis,NYJ,WR,THE 🅱️AKE SHOW
+2021,7,10,82,Laviska Shenault Jr.,Jax,WR,Rex On Rex
+2021,7,11,83,Trey Sermon,SF,RB,Team Goff Balls
+2021,7,12,84,Marquise Brown,Bal,WR,Storm Coopers
+2021,8,1,85,DeVonta Smith,Phi,WR,Storm Coopers
+2021,8,2,86,Antonio Brown,FA,WR,Team Goff Balls
+2021,8,3,87,Dallas Goedert,Phi,TE,Rex On Rex
+2021,8,4,88,Jonnu Smith,NE,TE,THE 🅱️AKE SHOW
+2021,8,5,89,Deebo Samuel,SF,WR,Juulio Jones
+2021,8,6,90,Michael Thomas,NO,WR,THE EMPIRE DID NOTHING WRONG!1
+2021,8,7,91,Kenyan Drake,LV,RB,Team Ryan
+2021,8,8,92,Tom Brady,TB,QB,Electric Bass
+2021,8,9,93,Buccaneers D/ST,TB,D/ST,The Juice Is Loose
+2021,8,10,94,Rams D/ST,LAR,D/ST,Justin Herbert
+2021,8,11,95,Michael Gallup,Dal,WR,Team Seattle
+2021,8,12,96,Jarvis Landry,Cle,WR,cancelled -
+2021,9,1,97,James Conner,Ari,RB,cancelled -
+2021,9,2,98,Marvin Jones Jr.,Jax,WR,Team Seattle
+2021,9,3,99,Mike Williams,LAC,WR,Justin Herbert
+2021,9,4,100,Robert Tonyan,GB,TE,The Juice Is Loose
+2021,9,5,101,DJ Chark Jr.,Jax,WR,Electric Bass
+2021,9,6,102,Ryan Tannehill,Ten,QB,Team Ryan
+2021,9,7,103,Michael Carter,NYJ,RB,THE EMPIRE DID NOTHING WRONG!1
+2021,9,8,104,Sony Michel,LAR,RB,Juulio Jones
+2021,9,9,105,Curtis Samuel,Wsh,WR,THE 🅱️AKE SHOW
+2021,9,10,106,Ronald Jones II,TB,RB,Rex On Rex
+2021,9,11,107,Zack Moss,Buf,RB,Team Goff Balls
+2021,9,12,108,Jalen Hurts,Phi,QB,Storm Coopers
+2021,10,1,109,Leonard Fournette,TB,RB,Storm Coopers
+2021,10,2,110,Mike Gesicki,Mia,TE,Team Goff Balls
+2021,10,3,111,Jaylen Waddle,Mia,WR,Rex On Rex
+2021,10,4,112,Melvin Gordon III,Den,RB,THE 🅱️AKE SHOW
+2021,10,5,113,AJ Dillon,GB,RB,Juulio Jones
+2021,10,6,114,Justin Tucker,Bal,K,THE EMPIRE DID NOTHING WRONG!1
+2021,10,7,115,Cole Beasley,Buf,WR,Team Ryan
+2021,10,8,116,David Johnson,Hou,RB,Electric Bass
+2021,10,9,117,Devin Singletary,Buf,RB,The Juice Is Loose
+2021,10,10,118,Jamaal Williams,Det,RB,Justin Herbert
+2021,10,11,119,Henry Ruggs III,FA,WR,Team Seattle
+2021,10,12,120,Michael Pittman Jr.,Ind,WR,cancelled -
+2021,11,1,121,Jakobi Meyers,NE,WR,cancelled -
+2021,11,2,122,Nyheim Hines,Ind,RB,Team Seattle
+2021,11,3,123,Harrison Butker,KC,K,Justin Herbert
+2021,11,4,124,Graham Gano,NYG,K,The Juice Is Loose
+2021,11,5,125,Matthew Stafford,LAR,QB,Electric Bass
+2021,11,6,126,Elijah Moore,NYJ,WR,Team Ryan
+2021,11,7,127,Marquez Callaway,NO,WR,THE EMPIRE DID NOTHING WRONG!1
+2021,11,8,128,Tyler Higbee,LAR,TE,Juulio Jones
+2021,11,9,129,Austin Hooper,Cle,TE,THE 🅱️AKE SHOW
+2021,11,10,130,DeVante Parker,Mia,WR,Rex On Rex
+2021,11,11,131,Mecole Hardman,KC,WR,Team Goff Balls
+2021,11,12,132,Joe Burrow,Cin,QB,Storm Coopers
+2021,12,1,133,Younghoe Koo,Atl,K,Storm Coopers
+2021,12,2,134,Tony Pollard,Dal,RB,Team Goff Balls
+2021,12,3,135,Hunter Henry,NE,TE,Rex On Rex
+2021,12,4,136,Baker Mayfield,Cle,QB,THE 🅱️AKE SHOW
+2021,12,5,137,Tua Tagovailoa,Mia,QB,Juulio Jones
+2021,12,6,138,James White,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2021,12,7,139,J.D. McKissic,Wsh,RB,Team Ryan
+2021,12,8,140,Jalen Reagor,Phi,WR,Electric Bass
+2021,12,9,141,Rob Gronkowski,TB,TE,The Juice Is Loose
+2021,12,10,142,Giovani Bernard,TB,RB,Justin Herbert
+2021,12,11,143,Tyrell Williams,FA,WR,Team Seattle
+2021,12,12,144,Ravens D/ST,Bal,D/ST,cancelled -
+2021,13,1,145,Wayne Gallman,Min,RB,cancelled -
+2021,13,2,146,Darnell Mooney,Chi,WR,Team Seattle
+2021,13,3,147,A.J. Green,Ari,WR,Justin Herbert
+2021,13,4,148,Ty'Son Williams,Bal,RB,The Juice Is Loose
+2021,13,5,149,Russell Gage,Atl,WR,Electric Bass
+2021,13,6,150,Eric Ebron,Pit,TE,Team Ryan
+2021,13,7,151,Phillip Lindsay,Mia,RB,THE EMPIRE DID NOTHING WRONG!1
+2021,13,8,152,Steelers D/ST,Pit,D/ST,Juulio Jones
+2021,13,9,153,Parris Campbell,Ind,WR,THE 🅱️AKE SHOW
+2021,13,10,154,Commanders D/ST,Wsh,D/ST,Rex On Rex
+2021,13,11,155,Anthony Firkser,Ten,TE,Team Goff Balls
+2021,13,12,156,Evan Engram,NYG,TE,Storm Coopers
+2021,14,1,157,Sterling Shepard,NYG,WR,Storm Coopers
+2021,14,2,158,Rondale Moore,Ari,WR,Team Goff Balls
+2021,14,3,159,Jason Myers,Sea,K,Rex On Rex
+2021,14,4,160,Malcolm Brown,Mia,RB,THE 🅱️AKE SHOW
+2021,14,5,161,Brandon McManus,Den,K,Juulio Jones
+2021,14,6,162,Trevor Lawrence,Jax,QB,THE EMPIRE DID NOTHING WRONG!1
+2021,14,7,163,Trey Lance,SF,QB,Team Ryan
+2021,14,8,164,Devontae Booker,NYG,RB,Electric Bass
+2021,14,9,165,Matt Ryan,Atl,QB,The Juice Is Loose
+2021,14,10,166,Tevin Coleman,NYJ,RB,Justin Herbert
+2021,14,11,167,Alexander Mattison,Min,RB,Team Seattle
+2021,14,12,168,Rhamondre Stevenson,NE,RB,cancelled -
+2021,15,1,169,Jason Sanders,Mia,K,cancelled -
+2021,15,2,170,49ers D/ST,SF,D/ST,Team Seattle
+2021,15,3,171,Jamison Crowder,NYJ,WR,Justin Herbert
+2021,15,4,172,Nelson Agholor,NE,WR,The Juice Is Loose
+2021,15,5,173,Bills D/ST,Buf,D/ST,Electric Bass
+2021,15,6,174,Daniel Carlson,LV,K,Team Ryan
+2021,15,7,175,Gerald Everett,Sea,TE,THE EMPIRE DID NOTHING WRONG!1
+2021,15,8,176,Terrace Marshall Jr.,Car,WR,Juulio Jones
+2021,15,9,177,Broncos D/ST,Den,D/ST,THE 🅱️AKE SHOW
+2021,15,10,178,Carlos Hyde,Jax,RB,Rex On Rex
+2021,15,11,179,Patriots D/ST,NE,D/ST,Team Goff Balls
+2021,15,12,180,Browns D/ST,Cle,D/ST,Storm Coopers
+2021,16,1,181,Bryan Edwards,LV,WR,Storm Coopers
+2021,16,2,182,Greg Zuerlein,Dal,K,Team Goff Balls
+2021,16,3,183,Chuba Hubbard,Car,RB,Rex On Rex
+2021,16,4,184,Matt Gay,LAR,K,THE 🅱️AKE SHOW
+2021,16,5,185,Daniel Jones,NYG,QB,Juulio Jones
+2021,16,6,186,Colts D/ST,Ind,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2021,16,7,187,Saints D/ST,NO,D/ST,Team Ryan
+2021,16,8,188,Tyler Bass,Buf,K,Electric Bass
+2021,16,9,189,Cole Kmet,Chi,TE,The Juice Is Loose
+2021,16,10,190,Ben Roethlisberger,Pit,QB,Justin Herbert
+2021,16,11,191,Josh Lambo,FA,K,Team Seattle
+2021,16,12,192,Justin Fields,Chi,QB,cancelled -
+2022,1,1,1,Jonathan Taylor,Ind,RB,Hunter Gatherer
+2022,1,2,2,Justin Jefferson,Min,WR,Team Goff Balls
+2022,1,3,3,Christian McCaffrey,SF,RB,THE 🅱️AKE SHOW
+2022,1,4,4,Cooper Kupp,LAR,WR,Allen Wrenches
+2022,1,5,5,Austin Ekeler,LAC,RB,Violence Of The Lambs
+2022,1,6,6,Ja'Marr Chase,Cin,WR,Drake @ London O2
+2022,1,7,7,Najee Harris,Pit,RB,THE EMPIRE DID NOTHING WRONG!1
+2022,1,8,8,Derrick Henry,Ten,RB,Team Seattle
+2022,1,9,9,Dalvin Cook,Min,RB,Rex On Rex
+2022,1,10,10,Davante Adams,LV,WR,Team Ryan
+2022,1,11,11,D'Andre Swift,Det,RB,Juulio Jones
+2022,1,12,12,Alvin Kamara,NO,RB,Diggs In a Blanket
+2022,2,1,13,Stefon Diggs,Buf,WR,Diggs In a Blanket
+2022,2,2,14,Joe Mixon,Cin,RB,Juulio Jones
+2022,2,3,15,Leonard Fournette,FA,RB,Team Ryan
+2022,2,4,16,Deebo Samuel,SF,WR,Rex On Rex
+2022,2,5,17,Keenan Allen,LAC,WR,Team Seattle
+2022,2,6,18,Travis Kelce,KC,TE,THE EMPIRE DID NOTHING WRONG!1
+2022,2,7,19,Saquon Barkley,NYG,RB,Drake @ London O2
+2022,2,8,20,CeeDee Lamb,Dal,WR,Violence Of The Lambs
+2022,2,9,21,Aaron Jones,GB,RB,Allen Wrenches
+2022,2,10,22,Tyreek Hill,Mia,WR,THE 🅱️AKE SHOW
+2022,2,11,23,Mike Evans,TB,WR,Team Goff Balls
+2022,2,12,24,James Conner,Ari,RB,Hunter Gatherer
+2022,3,1,25,Mark Andrews,Bal,TE,Hunter Gatherer
+2022,3,2,26,Javonte Williams,Den,RB,Team Goff Balls
+2022,3,3,27,Tee Higgins,Cin,WR,THE 🅱️AKE SHOW
+2022,3,4,28,Josh Allen,Buf,QB,Allen Wrenches
+2022,3,5,29,Nick Chubb,Cle,RB,Violence Of The Lambs
+2022,3,6,30,A.J. Brown,Phi,WR,Drake @ London O2
+2022,3,7,31,Michael Pittman Jr.,Ind,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,3,8,32,Patrick Mahomes,KC,QB,Team Seattle
+2022,3,9,33,Kyle Pitts,Atl,TE,Rex On Rex
+2022,3,10,34,Cam Akers,LAR,RB,Team Ryan
+2022,3,11,35,DJ Moore,Chi,WR,Juulio Jones
+2022,3,12,36,Terry McLaurin,Wsh,WR,Diggs In a Blanket
+2022,4,1,37,Ezekiel Elliott,FA,RB,Diggs In a Blanket
+2022,4,2,38,Diontae Johnson,Pit,WR,Juulio Jones
+2022,4,3,39,Mike Williams,LAC,WR,Team Ryan
+2022,4,4,40,Breece Hall,NYJ,RB,Rex On Rex
+2022,4,5,41,Marquise Brown,Ari,WR,Team Seattle
+2022,4,6,42,Jaylen Waddle,Mia,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,4,7,43,Travis Etienne Jr.,Jax,RB,Drake @ London O2
+2022,4,8,44,David Montgomery,Det,RB,Violence Of The Lambs
+2022,4,9,45,Clyde Edwards-Helaire,KC,RB,Allen Wrenches
+2022,4,10,46,Brandin Cooks,Dal,WR,THE 🅱️AKE SHOW
+2022,4,11,47,Gabe Davis,Buf,WR,Team Goff Balls
+2022,4,12,48,DK Metcalf,Sea,WR,Hunter Gatherer
+2022,5,1,49,Justin Herbert,LAC,QB,Hunter Gatherer
+2022,5,2,50,Jerry Jeudy,Den,WR,Team Goff Balls
+2022,5,3,51,J.K. Dobbins,Bal,RB,THE 🅱️AKE SHOW
+2022,5,4,52,Courtland Sutton,Den,WR,Allen Wrenches
+2022,5,5,53,Darren Waller,NYG,TE,Violence Of The Lambs
+2022,5,6,54,George Kittle,SF,TE,Drake @ London O2
+2022,5,7,55,Josh Jacobs,LV,RB,THE EMPIRE DID NOTHING WRONG!1
+2022,5,8,56,Elijah Mitchell,SF,RB,Team Seattle
+2022,5,9,57,Lamar Jackson,Bal,QB,Rex On Rex
+2022,5,10,58,Darnell Mooney,Chi,WR,Team Ryan
+2022,5,11,59,Dalton Schultz,Hou,TE,Juulio Jones
+2022,5,12,60,Kyler Murray,Ari,QB,Diggs In a Blanket
+2022,6,1,61,Michael Thomas,NO,WR,Diggs In a Blanket
+2022,6,2,62,Jalen Hurts,Phi,QB,Juulio Jones
+2022,6,3,63,Amon-Ra St. Brown,Det,WR,Team Ryan
+2022,6,4,64,Chris Godwin,TB,WR,Rex On Rex
+2022,6,5,65,T.J. Hockenson,Min,TE,Team Seattle
+2022,6,6,66,Allen Robinson II,LAR,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,6,7,67,Russell Wilson,Den,QB,Drake @ London O2
+2022,6,8,68,Rashod Bateman,Bal,WR,Violence Of The Lambs
+2022,6,9,69,JuJu Smith-Schuster,NE,WR,Allen Wrenches
+2022,6,10,70,Devin Singletary,Hou,RB,THE 🅱️AKE SHOW
+2022,6,11,71,Dameon Pierce,Hou,RB,Team Goff Balls
+2022,6,12,72,Hunter Renfrow,LV,WR,Hunter Gatherer
+2022,7,1,73,Miles Sanders,Car,RB,Hunter Gatherer
+2022,7,2,74,Chase Edmonds,TB,RB,Team Goff Balls
+2022,7,3,75,Amari Cooper,Cle,WR,THE 🅱️AKE SHOW
+2022,7,4,76,Adam Thielen,FA,WR,Allen Wrenches
+2022,7,5,77,Christian Kirk,Jax,WR,Violence Of The Lambs
+2022,7,6,78,Drake London,Atl,WR,Drake @ London O2
+2022,7,7,79,AJ Dillon,GB,RB,THE EMPIRE DID NOTHING WRONG!1
+2022,7,8,80,DeVonta Smith,Phi,WR,Team Seattle
+2022,7,9,81,Antonio Gibson,Wsh,RB,Rex On Rex
+2022,7,10,82,Kareem Hunt,Cle,RB,Team Ryan
+2022,7,11,83,Tyler Lockett,Sea,WR,Juulio Jones
+2022,7,12,84,Dallas Goedert,Phi,TE,Diggs In a Blanket
+2022,8,1,85,Rhamondre Stevenson,NE,RB,Diggs In a Blanket
+2022,8,2,86,Cordarrelle Patterson,Atl,RB,Juulio Jones
+2022,8,3,87,Zach Ertz,Ari,TE,Team Ryan
+2022,8,4,88,Elijah Moore,NYJ,WR,Rex On Rex
+2022,8,5,89,Tony Pollard,Dal,RB,Team Seattle
+2022,8,6,90,Robert Woods,FA,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,8,7,91,Rashaad Penny,Phi,RB,Drake @ London O2
+2022,8,8,92,Joe Burrow,Cin,QB,Violence Of The Lambs
+2022,8,9,93,Damien Harris,Buf,RB,Allen Wrenches
+2022,8,10,94,Dak Prescott,Dal,QB,THE 🅱️AKE SHOW
+2022,8,11,95,Trey Lance,SF,QB,Team Goff Balls
+2022,8,12,96,Allen Lazard,NYJ,WR,Hunter Gatherer
+2022,9,1,97,Bills D/ST,Buf,D/ST,Hunter Gatherer
+2022,9,2,98,DeAndre Hopkins,Ari,WR,Team Goff Balls
+2022,9,3,99,Pat Freiermuth,Pit,TE,THE 🅱️AKE SHOW
+2022,9,4,100,Dawson Knox,Buf,TE,Allen Wrenches
+2022,9,5,101,Brandon Aiyuk,SF,WR,Violence Of The Lambs
+2022,9,6,102,Kadarius Toney,KC,WR,Drake @ London O2
+2022,9,7,103,Tom Brady,TB,QB,THE EMPIRE DID NOTHING WRONG!1
+2022,9,8,104,Packers D/ST,GB,D/ST,Team Seattle
+2022,9,9,105,Chase Claypool,Chi,WR,Rex On Rex
+2022,9,10,106,Aaron Rodgers,GB,QB,Team Ryan
+2022,9,11,107,Derek Carr,NO,QB,Juulio Jones
+2022,9,12,108,Chris Olave,NO,WR,Diggs In a Blanket
+2022,10,1,109,Melvin Gordon III,FA,RB,Diggs In a Blanket
+2022,10,2,110,Saints D/ST,NO,D/ST,Juulio Jones
+2022,10,3,111,Matthew Stafford,LAR,QB,Team Ryan
+2022,10,4,112,Kenneth Walker III,Sea,RB,Rex On Rex
+2022,10,5,113,Greg Joseph,Min,K,Team Seattle
+2022,10,6,114,Justin Tucker,Bal,K,THE EMPIRE DID NOTHING WRONG!1
+2022,10,7,115,James Cook,Buf,RB,Drake @ London O2
+2022,10,8,116,James Robinson,NE,RB,Violence Of The Lambs
+2022,10,9,117,Jakobi Meyers,LV,WR,Allen Wrenches
+2022,10,10,118,Garrett Wilson,NYJ,WR,THE 🅱️AKE SHOW
+2022,10,11,119,Cole Kmet,Chi,TE,Team Goff Balls
+2022,10,12,120,Hunter Henry,NE,TE,Hunter Gatherer
+2022,11,1,121,Treylon Burks,Ten,WR,Hunter Gatherer
+2022,11,2,122,Kirk Cousins,Min,QB,Team Goff Balls
+2022,11,3,123,Russell Gage,TB,WR,THE 🅱️AKE SHOW
+2022,11,4,124,Michael Carter,NYJ,RB,Allen Wrenches
+2022,11,5,125,Skyy Moore,KC,WR,Violence Of The Lambs
+2022,11,6,126,Tyler Boyd,Cin,WR,Drake @ London O2
+2022,11,7,127,Marquez Valdes-Scantling,KC,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,11,8,128,Jarvis Landry,NO,WR,Team Seattle
+2022,11,9,129,Brian Robinson Jr.,Wsh,RB,Rex On Rex
+2022,11,10,130,Jahan Dotson,Wsh,WR,Team Ryan
+2022,11,11,131,Marvin Jones Jr.,Jax,WR,Juulio Jones
+2022,11,12,132,George Pickens,Pit,WR,Diggs In a Blanket
+2022,12,1,133,Julio Jones,TB,WR,Diggs In a Blanket
+2022,12,2,134,Noah Fant,Sea,TE,Juulio Jones
+2022,12,3,135,Mike Gesicki,NE,TE,Team Ryan
+2022,12,4,136,DeVante Parker,NE,WR,Rex On Rex
+2022,12,5,137,Tyler Higbee,LAR,TE,Team Seattle
+2022,12,6,138,Buccaneers D/ST,TB,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2022,12,7,139,Nico Collins,Hou,WR,Drake @ London O2
+2022,12,8,140,Tua Tagovailoa,Mia,QB,Violence Of The Lambs
+2022,12,9,141,Nyheim Hines,Buf,RB,Allen Wrenches
+2022,12,10,142,Ravens D/ST,Bal,D/ST,THE 🅱️AKE SHOW
+2022,12,11,143,Alexander Mattison,Min,RB,Team Goff Balls
+2022,12,12,144,Raheem Mostert,Mia,RB,Hunter Gatherer
+2022,13,1,145,Evan McPherson,Cin,K,Hunter Gatherer
+2022,13,2,146,Darrell Henderson Jr.,FA,RB,Team Goff Balls
+2022,13,3,147,Trevor Lawrence,Jax,QB,THE 🅱️AKE SHOW
+2022,13,4,148,David Njoku,Cle,TE,Allen Wrenches
+2022,13,5,149,Irv Smith Jr.,Min,TE,Violence Of The Lambs
+2022,13,6,150,Harrison Butker,KC,K,Drake @ London O2
+2022,13,7,151,Michael Gallup,Dal,WR,THE EMPIRE DID NOTHING WRONG!1
+2022,13,8,152,Jamaal Williams,NO,RB,Team Seattle
+2022,13,9,153,49ers D/ST,SF,D/ST,Rex On Rex
+2022,13,10,154,J.D. McKissic,FA,RB,Team Ryan
+2022,13,11,155,Matt Gay,Ind,K,Juulio Jones
+2022,13,12,156,Khalil Herbert,Chi,RB,Diggs In a Blanket
+2022,14,1,157,Colts D/ST,Ind,D/ST,Diggs In a Blanket
+2022,14,2,158,Jalen Tolbert,Dal,WR,Juulio Jones
+2022,14,3,159,Robbie Anderson,FA,WR,Team Ryan
+2022,14,4,160,Kenny Golladay,FA,WR,Rex On Rex
+2022,14,5,161,Mac Jones,NE,QB,Team Seattle
+2022,14,6,162,Isiah Pacheco,KC,RB,THE EMPIRE DID NOTHING WRONG!1
+2022,14,7,163,Justin Fields,Chi,QB,Drake @ London O2
+2022,14,8,164,Daniel Carlson,LV,K,Violence Of The Lambs
+2022,14,9,165,Rondale Moore,Ari,WR,Allen Wrenches
+2022,14,10,166,DJ Chark,Det,WR,THE 🅱️AKE SHOW
+2022,14,11,167,Nick Folk,NE,K,Team Goff Balls
+2022,14,12,168,Daniel Jones,NYG,QB,Hunter Gatherer
+2022,15,1,169,Jameson Williams,Det,WR,Hunter Gatherer
+2022,15,2,170,Cowboys D/ST,Dal,D/ST,Team Goff Balls
+2022,15,3,171,Joshua Palmer,LAC,WR,THE 🅱️AKE SHOW
+2022,15,4,172,Patriots D/ST,NE,D/ST,Allen Wrenches
+2022,15,5,173,Commanders D/ST,Wsh,D/ST,Violence Of The Lambs
+2022,15,6,174,Steelers D/ST,Pit,D/ST,Drake @ London O2
+2022,15,7,175,Zamir White,LV,RB,THE EMPIRE DID NOTHING WRONG!1
+2022,15,8,176,Jerick McKinnon,KC,RB,Team Seattle
+2022,15,9,177,Tyler Bass,Buf,K,Rex On Rex
+2022,15,10,178,Jets D/ST,NYJ,D/ST,Team Ryan
+2022,15,11,179,Kenneth Gainwell,Phi,RB,Juulio Jones
+2022,15,12,180,Romeo Doubs,GB,WR,Diggs In a Blanket
+2022,16,1,181,Matt Prater,Ari,K,Diggs In a Blanket
+2022,16,2,182,Hayden Hurst,Car,TE,Juulio Jones
+2022,16,3,183,Greg Zuerlein,NYJ,K,Team Ryan
+2022,16,4,184,Tyler Allgeier,Atl,RB,Rex On Rex
+2022,16,5,185,Chargers D/ST,LAC,D/ST,Team Seattle
+2022,16,6,186,Brandon McManus,Den,K,THE EMPIRE DID NOTHING WRONG!1
+2022,16,7,187,Isaiah McKenzie,FA,WR,Drake @ London O2
+2022,16,8,188,Isaiah Spiller,LAC,RB,Violence Of The Lambs
+2022,16,9,189,Jake Elliott,Phi,K,Allen Wrenches
+2022,16,10,190,Graham Gano,NYG,K,THE 🅱️AKE SHOW
+2022,16,11,191,Gerald Everett,LAC,TE,Team Goff Balls
+2022,16,12,192,Mecole Hardman,KC,WR,Hunter Gatherer
+2023,1,1,1,Justin Jefferson,Min,WR,The Ascension To Evan(s)
+2023,1,2,2,Travis Kelce,KC,TE,THE EMPIRE DID NOTHING WRONG!1
+2023,1,3,3,Ja'Marr Chase,Cin,WR,Rex On Rex
+2023,1,4,4,Christian McCaffrey,SF,RB,Hurts Rent a Carr
+2023,1,5,5,Tyreek Hill,Mia,WR,Your Wildest Fantasy (Football)
+2023,1,6,6,Austin Ekeler,Wsh,RB,Team Rex
+2023,1,7,7,Derrick Henry,Bal,RB,Juulio Jones
+2023,1,8,8,Bijan Robinson,Atl,RB,Bed Bath and Bijan
+2023,1,9,9,Davante Adams,LV,WR,The Adams Family
+2023,1,10,10,Stefon Diggs,Buf,WR,Team Goff Balls
+2023,1,11,11,Nick Chubb,Cle,RB,Team Ryan
+2023,1,12,12,Saquon Barkley,Phi,RB,Judge Jeudy
+2023,2,1,13,Cooper Kupp,LAR,WR,Judge Jeudy
+2023,2,2,14,Garrett Wilson,NYJ,WR,Team Ryan
+2023,2,3,15,Tony Pollard,Ten,RB,Team Goff Balls
+2023,2,4,16,Joe Mixon,Hou,RB,The Adams Family
+2023,2,5,17,CeeDee Lamb,Dal,WR,Bed Bath and Bijan
+2023,2,6,18,Amon-Ra St. Brown,Det,WR,Juulio Jones
+2023,2,7,19,A.J. Brown,Phi,WR,Team Rex
+2023,2,8,20,Jaylen Waddle,Mia,WR,Your Wildest Fantasy (Football)
+2023,2,9,21,Jalen Hurts,Phi,QB,Hurts Rent a Carr
+2023,2,10,22,Josh Jacobs,GB,RB,Rex On Rex
+2023,2,11,23,DK Metcalf,Sea,WR,THE EMPIRE DID NOTHING WRONG!1
+2023,2,12,24,Tee Higgins,Cin,WR,The Ascension To Evan(s)
+2023,3,1,25,Najee Harris,Pit,RB,The Ascension To Evan(s)
+2023,3,2,26,Patrick Mahomes,KC,QB,THE EMPIRE DID NOTHING WRONG!1
+2023,3,3,27,DeVonta Smith,Phi,WR,Rex On Rex
+2023,3,4,28,Chris Olave,NO,WR,Hurts Rent a Carr
+2023,3,5,29,Travis Etienne Jr.,Jax,RB,Your Wildest Fantasy (Football)
+2023,3,6,30,Jahmyr Gibbs,Det,RB,Team Rex
+2023,3,7,31,Aaron Jones,Min,RB,Juulio Jones
+2023,3,8,32,Mark Andrews,Bal,TE,Bed Bath and Bijan
+2023,3,9,33,Josh Allen,Buf,QB,The Adams Family
+2023,3,10,34,Calvin Ridley,Ten,WR,Team Goff Balls
+2023,3,11,35,Deebo Samuel,SF,WR,Team Ryan
+2023,3,12,36,Dameon Pierce,Hou,RB,Judge Jeudy
+2023,4,1,37,Joe Burrow,Cin,QB,Judge Jeudy
+2023,4,2,38,Keenan Allen,Chi,WR,Team Ryan
+2023,4,3,39,Rhamondre Stevenson,NE,RB,Team Goff Balls
+2023,4,4,40,Amari Cooper,Cle,WR,The Adams Family
+2023,4,5,41,Lamar Jackson,Bal,QB,Bed Bath and Bijan
+2023,4,6,42,Chris Godwin,TB,WR,Juulio Jones
+2023,4,7,43,Rachaad White,TB,RB,Team Rex
+2023,4,8,44,Alexander Mattison,LV,RB,Your Wildest Fantasy (Football)
+2023,4,9,45,Kenneth Walker III,Sea,RB,Hurts Rent a Carr
+2023,4,10,46,T.J. Hockenson,Min,TE,Rex On Rex
+2023,4,11,47,Christian Watson,GB,WR,THE EMPIRE DID NOTHING WRONG!1
+2023,4,12,48,Miles Sanders,Car,RB,The Ascension To Evan(s)
+2023,5,1,49,James Conner,Ari,RB,The Ascension To Evan(s)
+2023,5,2,50,Breece Hall,NYJ,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,5,3,51,Justin Fields,Pit,QB,Rex On Rex
+2023,5,4,52,Tyler Lockett,Sea,WR,Hurts Rent a Carr
+2023,5,5,53,Terry McLaurin,Wsh,WR,Your Wildest Fantasy (Football)
+2023,5,6,54,Diontae Johnson,Car,WR,Team Rex
+2023,5,7,55,Deshaun Watson,Cle,QB,Juulio Jones
+2023,5,8,56,DeAndre Hopkins,Ten,WR,Bed Bath and Bijan
+2023,5,9,57,Cam Akers,Min,RB,The Adams Family
+2023,5,10,58,Justin Herbert,LAC,QB,Team Goff Balls
+2023,5,11,59,Alvin Kamara,NO,RB,Team Ryan
+2023,5,12,60,Darren Waller,NYG,TE,Judge Jeudy
+2023,6,1,61,DJ Moore,Chi,WR,Judge Jeudy
+2023,6,2,62,George Kittle,SF,TE,Team Ryan
+2023,6,3,63,Mike Williams,NYJ,WR,Team Goff Balls
+2023,6,4,64,Dallas Goedert,Phi,TE,The Adams Family
+2023,6,5,65,Isiah Pacheco,KC,RB,Bed Bath and Bijan
+2023,6,6,66,Kyle Pitts,Atl,TE,Juulio Jones
+2023,6,7,67,James Cook,Buf,RB,Team Rex
+2023,6,8,68,Trevor Lawrence,Jax,QB,Your Wildest Fantasy (Football)
+2023,6,9,69,Christian Kirk,Jax,WR,Hurts Rent a Carr
+2023,6,10,70,Javonte Williams,Den,RB,Rex On Rex
+2023,6,11,71,J.K. Dobbins,Bal,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,6,12,72,Drake London,Atl,WR,The Ascension To Evan(s)
+2023,7,1,73,Mike Evans,TB,WR,The Ascension To Evan(s)
+2023,7,2,74,David Montgomery,Det,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,7,3,75,Marquise Brown,KC,WR,Rex On Rex
+2023,7,4,76,Michael Thomas,NO,WR,Hurts Rent a Carr
+2023,7,5,77,Dalton Kincaid,Buf,TE,Your Wildest Fantasy (Football)
+2023,7,6,78,Pat Freiermuth,Pit,TE,Team Rex
+2023,7,7,79,Brandin Cooks,Dal,WR,Juulio Jones
+2023,7,8,80,Jonathan Taylor,Ind,RB,Bed Bath and Bijan
+2023,7,9,81,Brandon Aiyuk,SF,WR,The Adams Family
+2023,7,10,82,Jahan Dotson,Wsh,WR,Team Goff Balls
+2023,7,11,83,Dalvin Cook,Bal,RB,Team Ryan
+2023,7,12,84,Jerry Jeudy,Cle,WR,Judge Jeudy
+2023,8,1,85,D'Andre Swift,Chi,RB,Judge Jeudy
+2023,8,2,86,George Pickens,Pit,WR,Team Ryan
+2023,8,3,87,Jordan Addison,Min,WR,Team Goff Balls
+2023,8,4,88,Brian Robinson Jr.,Wsh,RB,The Adams Family
+2023,8,5,89,Courtland Sutton,Den,WR,Bed Bath and Bijan
+2023,8,6,90,Khalil Herbert,Chi,RB,Juulio Jones
+2023,8,7,91,Michael Pittman Jr.,Ind,WR,Team Rex
+2023,8,8,92,Skyy Moore,KC,WR,Your Wildest Fantasy (Football)
+2023,8,9,93,Raheem Mostert,Mia,RB,Hurts Rent a Carr
+2023,8,10,94,Jakobi Meyers,LV,WR,Rex On Rex
+2023,8,11,95,Jaxon Smith-Njigba,Sea,WR,THE EMPIRE DID NOTHING WRONG!1
+2023,8,12,96,Evan Engram,Jax,TE,The Ascension To Evan(s)
+2023,9,1,97,Dak Prescott,Dal,QB,The Ascension To Evan(s)
+2023,9,2,98,Antonio Gibson,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,9,3,99,Zay Flowers,Bal,WR,Rex On Rex
+2023,9,4,100,Elijah Mitchell,SF,RB,Hurts Rent a Carr
+2023,9,5,101,Cowboys D/ST,Dal,D/ST,Your Wildest Fantasy (Football)
+2023,9,6,102,Kirk Cousins,Atl,QB,Team Rex
+2023,9,7,103,David Njoku,Cle,TE,Juulio Jones
+2023,9,8,104,49ers D/ST,SF,D/ST,Bed Bath and Bijan
+2023,9,9,105,AJ Dillon,GB,RB,The Adams Family
+2023,9,10,106,Samaje Perine,Den,RB,Team Goff Balls
+2023,9,11,107,Gabe Davis,Jax,WR,Team Ryan
+2023,9,12,108,JuJu Smith-Schuster,NE,WR,Judge Jeudy
+2023,10,1,109,Steelers D/ST,Pit,D/ST,Judge Jeudy
+2023,10,2,110,Tua Tagovailoa,Mia,QB,Team Ryan
+2023,10,3,111,Tyler Higbee,LAR,TE,Team Goff Balls
+2023,10,4,112,Cole Kmet,Chi,TE,The Adams Family
+2023,10,5,113,Odell Beckham Jr.,FA,WR,Bed Bath and Bijan
+2023,10,6,114,Rondale Moore,Atl,WR,Juulio Jones
+2023,10,7,115,Treylon Burks,Ten,WR,Team Rex
+2023,10,8,116,Rashaad Penny,Phi,RB,Your Wildest Fantasy (Football)
+2023,10,9,117,Chigoziem Okonkwo,Ten,TE,Hurts Rent a Carr
+2023,10,10,118,Jamaal Williams,NO,RB,Rex On Rex
+2023,10,11,119,Nico Collins,Hou,WR,THE EMPIRE DID NOTHING WRONG!1
+2023,10,12,120,Jerick McKinnon,KC,RB,The Ascension To Evan(s)
+2023,11,1,121,Daniel Jones,NYG,QB,The Ascension To Evan(s)
+2023,11,2,122,Ezekiel Elliott,NE,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,11,3,123,Aaron Rodgers,NYJ,QB,Rex On Rex
+2023,11,4,124,Quentin Johnston,LAC,WR,Hurts Rent a Carr
+2023,11,5,125,Kenny Pickett,Phi,QB,Your Wildest Fantasy (Football)
+2023,11,6,126,Jaylen Warren,Pit,RB,Team Rex
+2023,11,7,127,Geno Smith,Sea,QB,Juulio Jones
+2023,11,8,128,Zach Charbonnet,Sea,RB,Bed Bath and Bijan
+2023,11,9,129,Dalton Schultz,Hou,TE,The Adams Family
+2023,11,10,130,Anthony Richardson,Ind,QB,Team Goff Balls
+2023,11,11,131,Tyler Allgeier,Atl,RB,Team Ryan
+2023,11,12,132,Elijah Moore,Cle,WR,Judge Jeudy
+2023,12,1,133,Russell Wilson,Pit,QB,Judge Jeudy
+2023,12,2,134,Allen Lazard,NYJ,WR,Team Ryan
+2023,12,3,135,Damien Harris,Buf,RB,Team Goff Balls
+2023,12,4,136,DJ Chark Jr.,Car,WR,The Adams Family
+2023,12,5,137,Kadarius Toney,KC,WR,Bed Bath and Bijan
+2023,12,6,138,Saints D/ST,NO,D/ST,Juulio Jones
+2023,12,7,139,Justin Tucker,Bal,K,Team Rex
+2023,12,8,140,Evan McPherson,Cin,K,Your Wildest Fantasy (Football)
+2023,12,9,141,Evan Hull,Ind,RB,Hurts Rent a Carr
+2023,12,10,142,Harrison Butker,KC,K,Rex On Rex
+2023,12,11,143,Juwan Johnson,NO,TE,THE EMPIRE DID NOTHING WRONG!1
+2023,12,12,144,Darnell Mooney,Atl,WR,The Ascension To Evan(s)
+2023,13,1,145,Daniel Carlson,LV,K,The Ascension To Evan(s)
+2023,13,2,146,Eagles D/ST,Phi,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2023,13,3,147,Adam Thielen,Car,WR,Rex On Rex
+2023,13,4,148,Van Jefferson,Pit,WR,Hurts Rent a Carr
+2023,13,5,149,Michael Gallup,Dal,WR,Your Wildest Fantasy (Football)
+2023,13,6,150,Zay Jones,Jax,WR,Team Rex
+2023,13,7,151,Devin Singletary,NYG,RB,Juulio Jones
+2023,13,8,152,Deon Jackson,NYG,RB,Bed Bath and Bijan
+2023,13,9,153,Bills D/ST,Buf,D/ST,The Adams Family
+2023,13,10,154,Gerald Everett,Chi,TE,Team Goff Balls
+2023,13,11,155,Jets D/ST,NYJ,D/ST,Team Ryan
+2023,13,12,156,Jason Myers,Sea,K,Judge Jeudy
+2023,14,1,157,Parris Campbell,Phi,WR,Judge Jeudy
+2023,14,2,158,Tyler Bass,Buf,K,Team Ryan
+2023,14,3,159,De'Von Achane,Mia,RB,Team Goff Balls
+2023,14,4,160,Graham Gano,NYG,K,The Adams Family
+2023,14,5,161,Tank Bigsby,Jax,RB,Bed Bath and Bijan
+2023,14,6,162,Jake Elliott,Phi,K,Juulio Jones
+2023,14,7,163,Sam LaPorta,Det,TE,Team Rex
+2023,14,8,164,Tyler Boyd,Cin,WR,Your Wildest Fantasy (Football)
+2023,14,9,165,Patriots D/ST,NE,D/ST,Hurts Rent a Carr
+2023,14,10,166,Kyren Williams,LAR,RB,Rex On Rex
+2023,14,11,167,Jake Moody,SF,K,THE EMPIRE DID NOTHING WRONG!1
+2023,14,12,168,Tyler Conklin,NYJ,TE,The Ascension To Evan(s)
+2023,15,1,169,Packers D/ST,GB,D/ST,The Ascension To Evan(s)
+2023,15,2,170,Tyjae Spears,Ten,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,15,3,171,Gus Edwards,LAC,RB,Rex On Rex
+2023,15,4,172,Commanders D/ST,Wsh,D/ST,Hurts Rent a Carr
+2023,15,5,173,Dolphins D/ST,Mia,D/ST,Your Wildest Fantasy (Football)
+2023,15,6,174,Jayden Reed,GB,WR,Team Rex
+2023,15,7,175,Zach Ertz,Wsh,TE,Juulio Jones
+2023,15,8,176,Hunter Renfrow,LV,WR,Bed Bath and Bijan
+2023,15,9,177,K.J. Osborn,NE,WR,The Adams Family
+2023,15,10,178,Ravens D/ST,Bal,D/ST,Team Goff Balls
+2023,15,11,179,Kenneth Gainwell,Phi,RB,Team Ryan
+2023,15,12,180,Clyde Edwards-Helaire,KC,RB,Judge Jeudy
+2023,16,1,181,Rashod Bateman,Bal,WR,Judge Jeudy
+2023,16,2,182,Browns D/ST,Cle,D/ST,Team Ryan
+2023,16,3,183,Brandon McManus,Wsh,K,Team Goff Balls
+2023,16,4,184,Matt Gay,Ind,K,The Adams Family
+2023,16,5,185,Greg Zuerlein,NYJ,K,Bed Bath and Bijan
+2023,16,6,186,D'Onta Foreman,Cle,RB,Juulio Jones
+2023,16,7,187,Jaguars D/ST,Jax,D/ST,Team Rex
+2023,16,8,188,Jared Goff,Det,QB,Your Wildest Fantasy (Football)
+2023,16,9,189,Younghoe Koo,Atl,K,Hurts Rent a Carr
+2023,16,10,190,Panthers D/ST,Car,D/ST,Rex On Rex
+2023,16,11,191,Zamir White,LV,RB,THE EMPIRE DID NOTHING WRONG!1
+2023,16,12,192,Tom Brady,TB,QB,The Ascension To Evan(s)
+2024,1,1,1,Christian McCaffrey,SF,RB,Pulled McCaff
+2024,1,2,2,Tyreek Hill,Mia,WR,Moore Than A. Thielen
+2024,1,3,3,Bijan Robinson,Atl,RB,Wet Willies
+2024,1,4,4,Breece Hall,NYJ,RB,Hall of Heroes
+2024,1,5,5,CeeDee Lamb,Dal,WR,Team Rex
+2024,1,6,6,Amon-Ra St. Brown,Det,WR,THE EMPIRE DID NOTHING WRONG!1
+2024,1,7,7,Ja'Marr Chase,Cin,WR,Phresh Meat
+2024,1,8,8,Justin Jefferson,Min,WR,Rex On Rex
+2024,1,9,9,A.J. Brown,Phi,WR,Goff Balls
+2024,1,10,10,Garrett Wilson,NYJ,WR,LaPorta John
+2024,1,11,11,Jonathan Taylor,Ind,RB,Juulio Jones
+2024,1,12,12,Travis Etienne Jr.,Jax,RB,DK's Adventures
+2024,2,1,13,Puka Nacua,LAR,WR,DK's Adventures
+2024,2,2,14,Saquon Barkley,Phi,RB,Juulio Jones
+2024,2,3,15,Jahmyr Gibbs,Det,RB,LaPorta John
+2024,2,4,16,Kyren Williams,LAR,RB,Goff Balls
+2024,2,5,17,Isiah Pacheco,KC,RB,Rex On Rex
+2024,2,6,18,Chris Olave,NO,WR,Phresh Meat
+2024,2,7,19,Derrick Henry,Bal,RB,THE EMPIRE DID NOTHING WRONG!1
+2024,2,8,20,Davante Adams,LAR,WR,Team Rex
+2024,2,9,21,Rachaad White,TB,RB,Hall of Heroes
+2024,2,10,22,Michael Pittman Jr.,Ind,WR,Wet Willies
+2024,2,11,23,Josh Allen,Buf,QB,Moore Than A. Thielen
+2024,2,12,24,Marvin Harrison Jr.,Ari,WR,Pulled McCaff
+2024,3,1,25,Mike Evans,TB,WR,Pulled McCaff
+2024,3,2,26,DJ Moore,Chi,WR,Moore Than A. Thielen
+2024,3,3,27,Josh Jacobs,GB,RB,Wet Willies
+2024,3,4,28,Nico Collins,Hou,WR,Hall of Heroes
+2024,3,5,29,Drake London,Atl,WR,Team Rex
+2024,3,6,30,Travis Kelce,KC,TE,THE EMPIRE DID NOTHING WRONG!1
+2024,3,7,31,Malik Nabers,NYG,WR,Phresh Meat
+2024,3,8,32,Alvin Kamara,NO,RB,Rex On Rex
+2024,3,9,33,Jalen Hurts,Phi,QB,Goff Balls
+2024,3,10,34,Sam LaPorta,Det,TE,LaPorta John
+2024,3,11,35,James Cook,Buf,RB,Juulio Jones
+2024,3,12,36,DK Metcalf,Pit,WR,DK's Adventures
+2024,4,1,37,Lamar Jackson,Bal,QB,DK's Adventures
+2024,4,2,38,Deebo Samuel Sr.,Wsh,WR,Juulio Jones
+2024,4,3,39,Joe Mixon,Hou,RB,LaPorta John
+2024,4,4,40,De'Von Achane,Mia,RB,Goff Balls
+2024,4,5,41,Brandon Aiyuk,SF,WR,Rex On Rex
+2024,4,6,42,Kenneth Walker III,Sea,RB,Phresh Meat
+2024,4,7,43,Patrick Mahomes,KC,QB,THE EMPIRE DID NOTHING WRONG!1
+2024,4,8,44,Mark Andrews,Bal,TE,Team Rex
+2024,4,9,45,DeVonta Smith,Phi,WR,Hall of Heroes
+2024,4,10,46,Jaylen Waddle,Mia,WR,Wet Willies
+2024,4,11,47,Raheem Mostert,LV,RB,Moore Than A. Thielen
+2024,4,12,48,Cooper Kupp,Sea,WR,Pulled McCaff
+2024,5,1,49,Trey McBride,Ari,TE,Pulled McCaff
+2024,5,2,50,Rashee Rice,KC,WR,Moore Than A. Thielen
+2024,5,3,51,James Conner,Ari,RB,Wet Willies
+2024,5,4,52,Zay Flowers,Bal,WR,Hall of Heroes
+2024,5,5,53,Zamir White,LV,RB,Team Rex
+2024,5,6,54,Stefon Diggs,Hou,WR,THE EMPIRE DID NOTHING WRONG!1
+2024,5,7,55,Evan Engram,Den,TE,Phresh Meat
+2024,5,8,56,Calvin Ridley,Ten,WR,Rex On Rex
+2024,5,9,57,Dalton Kincaid,Buf,TE,Goff Balls
+2024,5,10,58,Tank Dell,Hou,WR,LaPorta John
+2024,5,11,59,Tee Higgins,Cin,WR,Juulio Jones
+2024,5,12,60,George Pickens,Pit,WR,DK's Adventures
+2024,6,1,61,Rhamondre Stevenson,NE,RB,DK's Adventures
+2024,6,2,62,Anthony Richardson,Ind,QB,Juulio Jones
+2024,6,3,63,Joe Burrow,Cin,QB,LaPorta John
+2024,6,4,64,Amari Cooper,Buf,WR,Goff Balls
+2024,6,5,65,C.J. Stroud,Hou,QB,Rex On Rex
+2024,6,6,66,Dak Prescott,Dal,QB,Phresh Meat
+2024,6,7,67,Aaron Jones,Min,RB,THE EMPIRE DID NOTHING WRONG!1
+2024,6,8,68,Jaylen Warren,Pit,RB,Team Rex
+2024,6,9,69,Kyler Murray,Ari,QB,Hall of Heroes
+2024,6,10,70,David Njoku,Cle,TE,Wet Willies
+2024,6,11,71,D'Andre Swift,Chi,RB,Moore Than A. Thielen
+2024,6,12,72,Terry McLaurin,Wsh,WR,Pulled McCaff
+2024,7,1,73,David Montgomery,Det,RB,Pulled McCaff
+2024,7,2,74,George Kittle,SF,TE,Moore Than A. Thielen
+2024,7,3,75,Jordan Love,GB,QB,Wet Willies
+2024,7,4,76,Kyle Pitts,Atl,TE,Hall of Heroes
+2024,7,5,77,Javonte Williams,Dal,RB,Team Rex
+2024,7,6,78,Chris Godwin,TB,WR,THE EMPIRE DID NOTHING WRONG!1
+2024,7,7,79,Najee Harris,LAC,RB,Phresh Meat
+2024,7,8,80,Diontae Johnson,Bal,WR,Rex On Rex
+2024,7,9,81,Jerome Ford,Cle,RB,Goff Balls
+2024,7,10,82,Jaxon Smith-Njigba,Sea,WR,LaPorta John
+2024,7,11,83,Keenan Allen,Chi,WR,Juulio Jones
+2024,7,12,84,Jordan Addison,Min,WR,DK's Adventures
+2024,8,1,85,Brian Robinson Jr.,Wsh,RB,DK's Adventures
+2024,8,2,86,Jake Ferguson,Dal,TE,Juulio Jones
+2024,8,3,87,Xavier Worthy,KC,WR,LaPorta John
+2024,8,4,88,Ladd McConkey,LAC,WR,Goff Balls
+2024,8,5,89,Tyjae Spears,Ten,RB,Rex On Rex
+2024,8,6,90,Christian Kirk,Hou,WR,Phresh Meat
+2024,8,7,91,Tony Pollard,Ten,RB,THE EMPIRE DID NOTHING WRONG!1
+2024,8,8,92,Jayden Daniels,Wsh,QB,Team Rex
+2024,8,9,93,Devin Singletary,NYG,RB,Hall of Heroes
+2024,8,10,94,DeAndre Hopkins,Bal,WR,Wet Willies
+2024,8,11,95,Austin Ekeler,Wsh,RB,Moore Than A. Thielen
+2024,8,12,96,Brock Purdy,SF,QB,Pulled McCaff
+2024,9,1,97,Zack Moss,Cin,RB,Pulled McCaff
+2024,9,2,98,Christian Watson,GB,WR,Moore Than A. Thielen
+2024,9,3,99,Keon Coleman,Buf,WR,Wet Willies
+2024,9,4,100,Jayden Reed,GB,WR,Hall of Heroes
+2024,9,5,101,Chase Brown,Cin,RB,Team Rex
+2024,9,6,102,Brian Thomas Jr.,Jax,WR,THE EMPIRE DID NOTHING WRONG!1
+2024,9,7,103,Jakobi Meyers,LV,WR,Phresh Meat
+2024,9,8,104,Brock Bowers,LV,TE,Rex On Rex
+2024,9,9,105,Courtland Sutton,Den,WR,Goff Balls
+2024,9,10,106,Ezekiel Elliott,FA,RB,LaPorta John
+2024,9,11,107,Rome Odunze,Chi,WR,Juulio Jones
+2024,9,12,108,Jonathon Brooks,Car,RB,DK's Adventures
+2024,10,1,109,Dallas Goedert,Phi,TE,DK's Adventures
+2024,10,2,110,Hollywood Brown,KC,WR,Juulio Jones
+2024,10,3,111,Chuba Hubbard,Car,RB,LaPorta John
+2024,10,4,112,Gus Edwards,FA,RB,Goff Balls
+2024,10,5,113,T.J. Hockenson,Min,TE,Rex On Rex
+2024,10,6,114,Nick Chubb,Cle,RB,Phresh Meat
+2024,10,7,115,Taysom Hill,NO,TE,THE EMPIRE DID NOTHING WRONG!1
+2024,10,8,116,Justin Herbert,LAC,QB,Team Rex
+2024,10,9,117,J.K. Dobbins,LAC,RB,Hall of Heroes
+2024,10,10,118,Justin Tucker,Bal,K,Wet Willies
+2024,10,11,119,Tyler Lockett,FA,WR,Moore Than A. Thielen
+2024,10,12,120,Blake Corum,LAR,RB,Pulled McCaff
+2024,11,1,121,Joshua Palmer,Buf,WR,Pulled McCaff
+2024,11,2,122,Adam Thielen,Car,WR,Moore Than A. Thielen
+2024,11,3,123,Jameson Williams,Det,WR,Wet Willies
+2024,11,4,124,Pat Freiermuth,Pit,TE,Hall of Heroes
+2024,11,5,125,Darnell Mooney,Atl,WR,Team Rex
+2024,11,6,126,Zach Charbonnet,Sea,RB,THE EMPIRE DID NOTHING WRONG!1
+2024,11,7,127,Ty Chandler,Min,RB,Phresh Meat
+2024,11,8,128,Jaleel McLaughlin,Den,RB,Rex On Rex
+2024,11,9,129,Brandin Cooks,Dal,WR,Goff Balls
+2024,11,10,130,Jerry Jeudy,Cle,WR,LaPorta John
+2024,11,11,131,Mike Williams,LAC,WR,Juulio Jones
+2024,11,12,132,Tyler Allgeier,Atl,RB,DK's Adventures
+2024,12,1,133,Ja'Lynn Polk,NE,WR,DK's Adventures
+2024,12,2,134,Aaron Rodgers,FA,QB,Juulio Jones
+2024,12,3,135,Browns D/ST,Cle,D/ST,LaPorta John
+2024,12,4,136,Caleb Williams,Chi,QB,Goff Balls
+2024,12,5,137,Kirk Cousins,Atl,QB,Rex On Rex
+2024,12,6,138,Dalton Schultz,Hou,TE,Phresh Meat
+2024,12,7,139,Harrison Butker,KC,K,THE EMPIRE DID NOTHING WRONG!1
+2024,12,8,140,DeMario Douglas,NE,WR,Team Rex
+2024,12,9,141,Trevor Lawrence,Jax,QB,Hall of Heroes
+2024,12,10,142,Antonio Gibson,NE,RB,Wet Willies
+2024,12,11,143,Khalil Shakir,Buf,WR,Moore Than A. Thielen
+2024,12,12,144,Rico Dowdle,Car,RB,Pulled McCaff
+2024,13,1,145,Tua Tagovailoa,Mia,QB,Pulled McCaff
+2024,13,2,146,Cowboys D/ST,Dal,D/ST,Moore Than A. Thielen
+2024,13,3,147,Adonai Mitchell,Ind,WR,Wet Willies
+2024,13,4,148,Gabe Davis,Jax,WR,Hall of Heroes
+2024,13,5,149,Jaylen Wright,Mia,RB,Team Rex
+2024,13,6,150,Jared Goff,Det,QB,THE EMPIRE DID NOTHING WRONG!1
+2024,13,7,151,Matthew Stafford,LAR,QB,Phresh Meat
+2024,13,8,152,Curtis Samuel,Buf,WR,Rex On Rex
+2024,13,9,153,Trey Benson,Ari,RB,Goff Balls
+2024,13,10,154,Rashid Shaheed,NO,WR,LaPorta John
+2024,13,11,155,Deshaun Watson,Cle,QB,Juulio Jones
+2024,13,12,156,Bryce Young,Car,QB,DK's Adventures
+2024,14,1,157,MarShawn Lloyd,GB,RB,DK's Adventures
+2024,14,2,158,Jets D/ST,NYJ,D/ST,Juulio Jones
+2024,14,3,159,Brandon Aubrey,Dal,K,LaPorta John
+2024,14,4,160,Jordan Mason,Min,RB,Goff Balls
+2024,14,5,161,49ers D/ST,SF,D/ST,Rex On Rex
+2024,14,6,162,Saints D/ST,NO,D/ST,Phresh Meat
+2024,14,7,163,Dontayvion Wicks,GB,WR,THE EMPIRE DID NOTHING WRONG!1
+2024,14,8,164,Michael Wilson,Ari,WR,Team Rex
+2024,14,9,165,Jake Elliott,Phi,K,Hall of Heroes
+2024,14,10,166,Ravens D/ST,Bal,D/ST,Wet Willies
+2024,14,11,167,Braelon Allen,NYJ,RB,Moore Than A. Thielen
+2024,14,12,168,Younghoe Koo,Atl,K,Pulled McCaff
+2024,15,1,169,Steelers D/ST,Pit,D/ST,Pulled McCaff
+2024,15,2,170,Ka'imi Fairbairn,Hou,K,Moore Than A. Thielen
+2024,15,3,171,Tyrone Tracy Jr.,NYG,RB,Wet Willies
+2024,15,4,172,Dolphins D/ST,Mia,D/ST,Hall of Heroes
+2024,15,5,173,Bengals D/ST,Cin,D/ST,Team Rex
+2024,15,6,174,Eagles D/ST,Phi,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2024,15,7,175,Greg Zuerlein,NYJ,K,Phresh Meat
+2024,15,8,176,Tre Tucker,LV,WR,Rex On Rex
+2024,15,9,177,Jaguars D/ST,Jax,D/ST,Goff Balls
+2024,15,10,178,Baker Mayfield,TB,QB,LaPorta John
+2024,15,11,179,Evan McPherson,Cin,K,Juulio Jones
+2024,15,12,180,Jake Moody,SF,K,DK's Adventures
+2024,16,1,181,Seahawks D/ST,Sea,D/ST,DK's Adventures
+2024,16,2,182,Tyler Conklin,NYJ,TE,Juulio Jones
+2024,16,3,183,Ricky Pearsall,SF,WR,LaPorta John
+2024,16,4,184,Cairo Santos,Chi,K,Goff Balls
+2024,16,5,185,Cameron Dicker,LAC,K,Rex On Rex
+2024,16,6,186,Bucky Irving,TB,RB,Phresh Meat
+2024,16,7,187,Texans D/ST,Hou,D/ST,THE EMPIRE DID NOTHING WRONG!1
+2024,16,8,188,Jake Bates,Det,K,Team Rex
+2024,16,9,189,Khalil Herbert,Ind,RB,Hall of Heroes
+2024,16,10,190,Hunter Henry,NE,TE,Wet Willies
+2024,16,11,191,Jamaal Williams,FA,RB,Moore Than A. Thielen
+2024,16,12,192,Cole Kmet,Chi,TE,Pulled McCaff
+2025,1,1,1,Ja'Marr Chase,Cin,WR,Team Rex
+2025,1,2,2,Bijan Robinson,Atl,RB,Meet The Robinson's
+2025,1,3,3,Justin Jefferson,Min,WR,Juulio Jones
+2025,1,4,4,Saquon Barkley,Phi,RB,Rex On Rex
+2025,1,5,5,CeeDee Lamb,Dal,WR,Kittle League
+2025,1,6,6,Amon-Ra St. Brown,Det,WR,Wet Willies
+2025,1,7,7,Jahmyr Gibbs,Det,RB,Shayshawn Broccoli
+2025,1,8,8,Malik Nabers,NYG,WR,OnlyFannins
+2025,1,9,9,Nico Collins,Hou,WR,OnlyFannins
+2025,1,10,10,Christian McCaffrey,SF,RB,Eat The Boutte Like Groceries
+2025,1,11,11,Ashton Jeanty,LV,RB,Two-Point Conversion Therapy
+2025,1,12,12,Puka Nacua,LAR,WR,Pukana Matatas
+2025,2,1,13,De'Von Achane,Mia,RB,Pukana Matatas
+2025,2,2,14,Derrick Henry,Bal,RB,Two-Point Conversion Therapy
+2025,2,3,15,Brian Thomas Jr.,Jax,WR,Eat The Boutte Like Groceries
+2025,2,4,16,Drake London,Atl,WR,Goff Balls
+2025,2,5,17,A.J. Brown,Phi,WR,Goff Balls
+2025,2,6,18,Brock Bowers,LV,TE,Shayshawn Broccoli
+2025,2,7,19,James Cook III,Buf,RB,Wet Willies
+2025,2,8,20,Bucky Irving,TB,RB,Kittle League
+2025,2,9,21,Josh Allen,Buf,QB,Rex On Rex
+2025,2,10,22,Jonathan Taylor,Ind,RB,Juulio Jones
+2025,2,11,23,Josh Jacobs,GB,RB,OnlyFannins
+2025,2,12,24,Trey McBride,Ari,TE,Team Rex
+2025,3,1,25,Chase Brown,Cin,RB,Team Rex
+2025,3,2,26,Lamar Jackson,Bal,QB,OnlyFannins
+2025,3,3,27,Tee Higgins,Cin,WR,Juulio Jones
+2025,3,4,28,Ladd McConkey,LAC,WR,Rex On Rex
+2025,3,5,29,Kyren Williams,LAR,RB,Kittle League
+2025,3,6,30,Alvin Kamara,NO,RB,Wet Willies
+2025,3,7,31,Tyreek Hill,FA,WR,Shayshawn Broccoli
+2025,3,8,32,Chuba Hubbard,Car,RB,Goff Balls
+2025,3,9,33,Jalen Hurts,Phi,QB,Goff Balls
+2025,3,10,34,Jayden Daniels,Wsh,QB,Eat The Boutte Like Groceries
+2025,3,11,35,Joe Burrow,Cin,QB,Two-Point Conversion Therapy
+2025,3,12,36,James Conner,Ari,RB,Pukana Matatas
+2025,4,1,37,Jaxon Smith-Njigba,Sea,WR,Pukana Matatas
+2025,4,2,38,Davante Adams,LAR,WR,Two-Point Conversion Therapy
+2025,4,3,39,Omarion Hampton,LAC,RB,Eat The Boutte Like Groceries
+2025,4,4,40,Terry McLaurin,Wsh,WR,Meet The Robinson's
+2025,4,5,41,Kenneth Walker III,Sea,RB,Goff Balls
+2025,4,6,42,Marvin Harrison Jr.,Ari,WR,Shayshawn Broccoli
+2025,4,7,43,Mike Evans,TB,WR,Wet Willies
+2025,4,8,44,George Kittle,SF,TE,Kittle League
+2025,4,9,45,Garrett Wilson,NYJ,WR,Rex On Rex
+2025,4,10,46,TreVeyon Henderson,NE,RB,Juulio Jones
+2025,4,11,47,Rashee Rice,KC,WR,OnlyFannins
+2025,4,12,48,DK Metcalf,Pit,WR,Team Rex
+2025,5,1,49,DJ Moore,Chi,WR,Team Rex
+2025,5,2,50,Xavier Worthy,KC,WR,Meet The Robinson's
+2025,5,3,51,Tetairoa McMillan,Car,WR,Juulio Jones
+2025,5,4,52,Zay Flowers,Bal,WR,Rex On Rex
+2025,5,5,53,Calvin Ridley,Ten,WR,Kittle League
+2025,5,6,54,Aaron Jones Sr.,Min,RB,Wet Willies
+2025,5,7,55,DeVonta Smith,Phi,WR,Shayshawn Broccoli
+2025,5,8,56,Tony Pollard,Ten,RB,Goff Balls
+2025,5,9,57,Breece Hall,NYJ,RB,Meet The Robinson's
+2025,5,10,58,Courtland Sutton,Den,WR,Eat The Boutte Like Groceries
+2025,5,11,59,Jaylen Waddle,Mia,WR,Two-Point Conversion Therapy
+2025,5,12,60,D'Andre Swift,Chi,RB,Pukana Matatas
+2025,6,1,61,Patrick Mahomes,KC,QB,Pukana Matatas
+2025,6,2,62,Sam LaPorta,Det,TE,Two-Point Conversion Therapy
+2025,6,3,63,Jameson Williams,Det,WR,Eat The Boutte Like Groceries
+2025,6,4,64,George Pickens,Dal,WR,Meet The Robinson's
+2025,6,5,65,Travis Hunter,Jax,WR,Goff Balls
+2025,6,6,66,David Montgomery,Hou,RB,Shayshawn Broccoli
+2025,6,7,67,Baker Mayfield,TB,QB,Wet Willies
+2025,6,8,68,Rome Odunze,Chi,WR,Kittle League
+2025,6,9,69,RJ Harvey,Den,RB,Rex On Rex
+2025,6,10,70,T.J. Hockenson,Min,TE,Juulio Jones
+2025,6,11,71,Isiah Pacheco,KC,RB,OnlyFannins
+2025,6,12,72,Ricky Pearsall,SF,WR,Team Rex
+2025,7,1,73,Jacory Croskey-Merritt,Wsh,RB,Team Rex
+2025,7,2,74,Jerry Jeudy,Cle,WR,OnlyFannins
+2025,7,3,75,Bo Nix,Den,QB,Juulio Jones
+2025,7,4,76,Jakobi Meyers,Jax,WR,Rex On Rex
+2025,7,5,77,Kyler Murray,Ari,QB,Kittle League
+2025,7,6,78,Michael Pittman Jr.,Ind,WR,Wet Willies
+2025,7,7,79,Travis Kelce,KC,TE,Shayshawn Broccoli
+2025,7,8,80,Mark Andrews,Bal,TE,Meet The Robinson's
+2025,7,9,81,Brock Purdy,SF,QB,Meet The Robinson's
+2025,7,10,82,Matthew Golden,GB,WR,Eat The Boutte Like Groceries
+2025,7,11,83,David Njoku,Cle,TE,Two-Point Conversion Therapy
+2025,7,12,84,Chris Olave,NO,WR,Pukana Matatas
+2025,8,1,85,Evan Engram,Den,TE,Pukana Matatas
+2025,8,2,86,Emeka Egbuka,TB,WR,Two-Point Conversion Therapy
+2025,8,3,87,Jordan Addison,Min,WR,Eat The Boutte Like Groceries
+2025,8,4,88,Stefon Diggs,NE,WR,Meet The Robinson's
+2025,8,5,89,Tyler Warren,Ind,TE,Goff Balls
+2025,8,6,90,Caleb Williams,Chi,QB,Shayshawn Broccoli
+2025,8,7,91,Dallas Goedert,Phi,TE,Wet Willies
+2025,8,8,92,Jaylen Warren,Pit,RB,Kittle League
+2025,8,9,93,Tyrone Tracy Jr.,NYG,RB,Rex On Rex
+2025,8,10,94,Austin Ekeler,Wsh,RB,Juulio Jones
+2025,8,11,95,Javonte Williams,Dal,RB,OnlyFannins
+2025,8,12,96,Bhayshul Tuten,Jax,RB,Team Rex
+2025,9,1,97,Khalil Shakir,Buf,WR,Team Rex
+2025,9,2,98,Cooper Kupp,Sea,WR,OnlyFannins
+2025,9,3,99,J.K. Dobbins,Den,RB,Juulio Jones
+2025,9,4,100,Kaleb Johnson,Pit,RB,Rex On Rex
+2025,9,5,101,Deebo Samuel,Wsh,WR,Kittle League
+2025,9,6,102,Keon Coleman,Buf,WR,Wet Willies
+2025,9,7,103,Rhamondre Stevenson,NE,RB,Shayshawn Broccoli
+2025,9,8,104,Jauan Jennings,SF,WR,Goff Balls
+2025,9,9,105,Jordan Mason,Min,RB,Meet The Robinson's
+2025,9,10,106,Zach Charbonnet,Sea,RB,Eat The Boutte Like Groceries
+2025,9,11,107,Cam Skattebo,NYG,RB,Two-Point Conversion Therapy
+2025,9,12,108,Chris Godwin Jr.,TB,WR,Pukana Matatas
+2025,10,1,109,Justin Herbert,LAC,QB,Pukana Matatas
+2025,10,2,110,Josh Downs,Ind,WR,Two-Point Conversion Therapy
+2025,10,3,111,Braelon Allen,NYJ,RB,Eat The Boutte Like Groceries
+2025,10,4,112,Jayden Higgins,Hou,WR,Meet The Robinson's
+2025,10,5,113,Dak Prescott,Dal,QB,Goff Balls
+2025,10,6,114,Drake Maye,NE,QB,Shayshawn Broccoli
+2025,10,7,115,Travis Etienne Jr.,Jax,RB,Wet Willies
+2025,10,8,116,Rashid Shaheed,Sea,WR,Kittle League
+2025,10,9,117,Colston Loveland,Chi,TE,Rex On Rex
+2025,10,10,118,Jayden Reed,GB,WR,Juulio Jones
+2025,10,11,119,Nick Chubb,Hou,RB,OnlyFannins
+2025,10,12,120,Jordan Love,GB,QB,Team Rex
+2025,11,1,121,Trey Benson,Ari,RB,Team Rex
+2025,11,2,122,Keenan Allen,LAC,WR,OnlyFannins
+2025,11,3,123,Darnell Mooney,Atl,WR,Juulio Jones
+2025,11,4,124,Xavier Legette,Car,WR,Rex On Rex
+2025,11,5,125,Jerome Ford,Cle,RB,Kittle League
+2025,11,6,126,Vikings D/ST,Min,D/ST,Wet Willies
+2025,11,7,127,Tank Bigsby,Phi,RB,Shayshawn Broccoli
+2025,11,8,128,Tucker Kraft,GB,TE,Goff Balls
+2025,11,9,129,Jaydon Blue,Dal,RB,Meet The Robinson's
+2025,11,10,130,Hunter Henry,NE,TE,Eat The Boutte Like Groceries
+2025,11,11,131,Rachaad White,TB,RB,Two-Point Conversion Therapy
+2025,11,12,132,Jake Ferguson,Dal,TE,Pukana Matatas
+2025,12,1,133,Najee Harris,LAC,RB,Pukana Matatas
+2025,12,2,134,Brandon Aiyuk,SF,WR,Two-Point Conversion Therapy
+2025,12,3,135,Brian Robinson Jr.,SF,RB,Eat The Boutte Like Groceries
+2025,12,4,136,Jared Goff,Det,QB,Meet The Robinson's
+2025,12,5,137,Tyler Allgeier,Atl,RB,Goff Balls
+2025,12,6,138,Dalton Kincaid,Buf,TE,Shayshawn Broccoli
+2025,12,7,139,Chris Boswell,Pit,K,Wet Willies
+2025,12,8,140,Cedric Tillman,Cle,WR,Kittle League
+2025,12,9,141,Quinshon Judkins,Cle,RB,Rex On Rex
+2025,12,10,142,Justin Fields,NYJ,QB,Juulio Jones
+2025,12,11,143,Marvin Mims Jr.,Den,WR,OnlyFannins
+2025,12,12,144,J.J. McCarthy,Min,QB,Team Rex
+2025,13,1,145,Ray Davis,Buf,RB,Team Rex
+2025,13,2,146,Kyle Pitts Sr.,Atl,TE,OnlyFannins
+2025,13,3,147,C.J. Stroud,Hou,QB,Juulio Jones
+2025,13,4,148,DeMario Douglas,NE,WR,Rex On Rex
+2025,13,5,149,Steelers D/ST,Pit,D/ST,Kittle League
+2025,13,6,150,Joe Mixon,Hou,RB,Wet Willies
+2025,13,7,151,Will Shipley,Phi,RB,Shayshawn Broccoli
+2025,13,8,152,Ollie Gordon II,Mia,RB,Goff Balls
+2025,13,9,153,Wan'Dale Robinson,NYG,WR,Meet The Robinson's
+2025,13,10,154,Rashod Bateman,Bal,WR,Eat The Boutte Like Groceries
+2025,13,11,155,Justice Hill,Bal,RB,Two-Point Conversion Therapy
+2025,13,12,156,Broncos D/ST,Den,D/ST,Pukana Matatas
+2025,14,1,157,Chase McLaughlin,TB,K,Pukana Matatas
+2025,14,2,158,Tua Tagovailoa,Mia,QB,Two-Point Conversion Therapy
+2025,14,3,159,Dylan Sampson,Cle,RB,Eat The Boutte Like Groceries
+2025,14,4,160,Jake Bates,Det,K,Meet The Robinson's
+2025,14,5,161,Ravens D/ST,Bal,D/ST,Goff Balls
+2025,14,6,162,Matthew Stafford,LAR,QB,Shayshawn Broccoli
+2025,14,7,163,Christian Kirk,Hou,WR,Wet Willies
+2025,14,8,164,Zach Ertz,Wsh,TE,Kittle League
+2025,14,9,165,Darren Waller,Mia,TE,Rex On Rex
+2025,14,10,166,Texans D/ST,Hou,D/ST,Juulio Jones
+2025,14,11,167,Brandon Aubrey,Dal,K,OnlyFannins
+2025,14,12,168,Cameron Dicker,LAC,K,Team Rex
+2025,15,1,169,Tre' Harris,LAC,WR,Team Rex
+2025,15,2,170,Amari Cooper,LV,WR,OnlyFannins
+2025,15,3,171,Tyler Bass,Buf,K,Juulio Jones
+2025,15,4,172,Seahawks D/ST,Sea,D/ST,Rex On Rex
+2025,15,5,173,Jake Elliott,Phi,K,Kittle League
+2025,15,6,174,Hollywood Brown,KC,WR,Wet Willies
+2025,15,7,175,Lions D/ST,Det,D/ST,Shayshawn Broccoli
+2025,15,8,176,Ka'imi Fairbairn,Hou,K,Goff Balls
+2025,15,9,177,Luther Burden III,Chi,WR,Meet The Robinson's
+2025,15,10,178,Patriots D/ST,NE,D/ST,Eat The Boutte Like Groceries
+2025,15,11,179,Jets D/ST,NYJ,D/ST,Two-Point Conversion Therapy
+2025,15,12,180,Jalen Coker,Car,WR,Pukana Matatas
+2025,16,1,181,Joshua Palmer,Buf,WR,Pukana Matatas
+2025,16,2,182,Harrison Butker,KC,K,Two-Point Conversion Therapy
+2025,16,3,183,Cam Little,Jax,K,Eat The Boutte Like Groceries
+2025,16,4,184,Bengals D/ST,Cin,D/ST,Meet The Robinson's
+2025,16,5,185,Bills D/ST,Buf,D/ST,Goff Balls
+2025,16,6,186,Cairo Santos,Chi,K,Shayshawn Broccoli
+2025,16,7,187,Chig Okonkwo,Ten,TE,Wet Willies
+2025,16,8,188,Romeo Doubs,GB,WR,Kittle League
+2025,16,9,189,Matt Gay,FA,K,Rex On Rex
+2025,16,10,190,Woody Marks,Hou,RB,Juulio Jones
+2025,16,11,191,Eagles D/ST,Phi,D/ST,OnlyFannins
+2025,16,12,192,Cardinals D/ST,Ari,D/ST,Team Rex
+2026,1,1,1,Jahmyr Gibbs,DET,RB,Gibbs Me Moore
+2026,1,2,2,Bijan Robinson,ATL,RB,Wet Willies
+2026,1,3,3,Jonathan Taylor,IND,RB,Juulio Jones
+2026,1,4,4,Ja'Marr Chase,CIN,WR,Shayshawn Broccoli
+2026,1,5,5,Puka Nacua,LAR,WR,You May Kiss McBride
+2026,1,6,6,Christian McCaffrey,SF,RB,Peloton Pickens
+2026,1,7,7,Amon-Ra St. Brown,DET,WR,The Price is Wrong
+2026,1,8,8,Jaxon Smith-Njigba,SEA,WR,Jacks On - Jax Off
+2026,1,9,9,James Cook III,BUF,RB,Rex On Rex
+2026,1,10,10,Justin Jefferson,MIN,WR,Love Hurts
+2026,1,11,11,Saquon Barkley,PHI,RB,McConkey Kong
+2026,1,12,12,CeeDee Lamb,DAL,WR,Kittle League
+2026,2,1,13,De'Von Achane,MIA,RB,Kittle League
+2026,2,2,14,Chase Brown,CIN,RB,McConkey Kong
+2026,2,3,15,Omarion Hampton,LAC,RB,Love Hurts
+2026,2,4,16,Derrick Henry,BAL,RB,Rex On Rex
+2026,2,5,17,Ashton Jeanty,LV,RB,Jacks On - Jax Off
+2026,2,6,18,A.J. Brown,NE,WR,The Price is Wrong
+2026,2,7,19,George Pickens,DAL,WR,Peloton Pickens
+2026,2,8,20,Drake London,ATL,WR,You May Kiss McBride
+2026,2,9,21,Nico Collins,HOU,WR,Shayshawn Broccoli
+2026,2,10,22,Brock Bowers,LV,TE,Juulio Jones
+2026,2,11,23,Chris Olave,NO,WR,Wet Willies
+2026,2,12,24,Kenneth Walker III,KC,RB,Gibbs Me Moore
+2026,3,1,25,Josh Allen,BUF,QB,Gibbs Me Moore
+2026,3,2,26,Kyren Williams,LAR,RB,Wet Willies
+2026,3,3,27,Garrett Wilson,NYJ,WR,Juulio Jones
+2026,3,4,28,Breece Hall,NYJ,RB,Shayshawn Broccoli
+2026,3,5,29,Trey McBride,ARI,TE,You May Kiss McBride
+2026,3,6,30,Drake Maye,NE,QB,Peloton Pickens
+2026,3,7,31,Javonte Williams,DAL,RB,The Price is Wrong
+2026,3,8,32,DeVonta Smith,PHI,WR,Jacks On - Jax Off
+2026,3,9,33,Rashee Rice,KC,WR,Rex On Rex
+2026,3,10,34,Jeremiyah Love,ARI,RB,Love Hurts
+2026,3,11,35,Malik Nabers,NYG,WR,McConkey Kong
+2026,3,12,36,Travis Etienne Jr.,NO,RB,Kittle League
+2026,4,1,37,Tetairoa McMillan,CAR,WR,Kittle League
+2026,4,2,38,Ladd McConkey,LAC,WR,McConkey Kong
+2026,4,3,39,Colston Loveland,CHI,TE,Love Hurts
+2026,4,4,40,Zay Flowers,BAL,WR,Rex On Rex
+2026,4,5,41,Lamar Jackson,BAL,QB,Jacks On - Jax Off
+2026,4,6,42,Cam Skattebo,NYG,RB,The Price is Wrong
+2026,4,7,43,Davante Adams,LAR,WR,Peloton Pickens
+2026,4,8,44,Jaylen Waddle,DEN,WR,You May Kiss McBride
+2026,4,9,45,Quinshon Judkins,CLE,RB,Shayshawn Broccoli
+2026,4,10,46,Bucky Irving,TB,RB,Juulio Jones
+2026,4,11,47,Emeka Egbuka,TB,WR,Wet Willies
+2026,4,12,48,DJ Moore,BUF,WR,Gibbs Me Moore
+2026,5,1,49,Tyler Warren,IND,TE,Gibbs Me Moore
+2026,5,2,50,David Montgomery,HOU,RB,Wet Willies
+2026,5,3,51,Terry McLaurin,WSH,WR,Juulio Jones
+2026,5,4,52,Jameson Williams,DET,WR,Shayshawn Broccoli
+2026,5,5,53,D'Andre Swift,CHI,RB,You May Kiss McBride
+2026,5,6,54,Tee Higgins,CIN,WR,Peloton Pickens
+2026,5,7,55,Jadarian Price,SEA,RB,The Price is Wrong
+2026,5,8,56,Bhayshul Tuten,JAX,RB,Jacks On - Jax Off
+2026,5,9,57,Jayden Daniels,WSH,QB,Rex On Rex
+2026,5,10,58,Mike Evans,SF,WR,Love Hurts
+2026,5,11,59,Christian Watson,GB,WR,McConkey Kong
+2026,5,12,60,Rome Odunze,CHI,WR,Kittle League
+2026,6,1,61,Joe Burrow,CIN,QB,Kittle League
+2026,6,2,62,Rhamondre Stevenson,NE,RB,McConkey Kong
+2026,6,3,63,Jalen Hurts,PHI,QB,Love Hurts
+2026,6,4,64,Luther Burden III,CHI,WR,Rex On Rex
+2026,6,5,65,Harold Fannin Jr.,CLE,TE,Jacks On - Jax Off
+2026,6,6,66,Kyle Pitts Sr.,ATL,TE,The Price is Wrong
+2026,6,7,67,Tony Pollard,TEN,RB,Peloton Pickens
+2026,6,8,68,Jaylen Warren,PIT,RB,You May Kiss McBride
+2026,6,9,69,Marvin Harrison Jr.,ARI,WR,Shayshawn Broccoli
+2026,6,10,70,Dak Prescott,DAL,QB,Juulio Jones
+2026,6,11,71,Justin Herbert,LAC,QB,Wet Willies
+2026,6,12,72,Parker Washington,JAX,WR,Gibbs Me Moore
+2026,7,1,73,Michael Pittman Jr.,PIT,WR,Gibbs Me Moore
+2026,7,2,74,Courtland Sutton,DEN,WR,Wet Willies
+2026,7,3,75,TreVeyon Henderson,NE,RB,Juulio Jones
+2026,7,4,76,Kenny Gainwell,TB,RB,Shayshawn Broccoli
+2026,7,5,77,Jonathon Brooks,CAR,RB,You May Kiss McBride
+2026,7,6,78,Rico Dowdle,PIT,RB,Peloton Pickens
+2026,7,7,79,Michael Wilson,ARI,WR,The Price is Wrong
+2026,7,8,80,Carnell Tate,TEN,WR,Jacks On - Jax Off
+2026,7,9,81,George Kittle,SF,TE,Rex On Rex
+2026,7,10,82,Stefon Diggs,WSH,WR,Love Hurts
+2026,7,11,83,Caleb Williams,CHI,QB,McConkey Kong
+2026,7,12,84,Sam LaPorta,DET,TE,Kittle League
+2026,8,1,85,DK Metcalf,PIT,WR,Kittle League
+2026,8,2,86,Chris Godwin Jr.,TB,WR,McConkey Kong
+2026,8,3,87,Josh Jacobs,GB,RB,Love Hurts
+2026,8,4,88,MarShawn Lloyd,GB,RB,Rex On Rex
+2026,8,5,89,Chuba Hubbard,CAR,RB,Jacks On - Jax Off
+2026,8,6,90,Alec Pierce,IND,WR,The Price is Wrong
+2026,8,7,91,Wan'Dale Robinson,TEN,WR,Peloton Pickens
+2026,8,8,92,De'Zhaun Stribling,SF,WR,You May Kiss McBride
+2026,8,9,93,Jaxson Dart,NYG,QB,Shayshawn Broccoli
+2026,8,10,94,Tucker Kraft,GB,TE,Juulio Jones
+2026,8,11,95,J.K. Dobbins,DEN,RB,Wet Willies
+2026,8,12,96,Josh Downs,IND,WR,Gibbs Me Moore
+2026,9,1,97,Kyle Monangai,CHI,RB,Gibbs Me Moore
+2026,9,2,98,Dallas Goedert,PHI,TE,Wet Willies
+2026,9,3,99,Jakobi Meyers,JAX,WR,Juulio Jones
+2026,9,4,100,Aaron Jones Sr.,MIN,RB,Shayshawn Broccoli
+2026,9,5,101,Brian Thomas Jr.,JAX,WR,You May Kiss McBride
+2026,9,6,102,Jordan Addison,MIN,WR,Peloton Pickens
+2026,9,7,103,Quentin Johnston,LAC,WR,The Price is Wrong
+2026,9,8,104,RJ Harvey,DEN,RB,Jacks On - Jax Off
+2026,9,9,105,Blake Corum,LAR,RB,Rex On Rex
+2026,9,10,106,Rachaad White,WSH,RB,Love Hurts
+2026,9,11,107,Jacory Croskey-Merritt,WSH,RB,McConkey Kong
+2026,9,12,108,Trevor Lawrence,JAX,QB,Kittle League
+2026,10,1,109,Brock Purdy,SF,QB,Kittle League
+2026,10,2,110,Mark Andrews,BAL,TE,McConkey Kong
+2026,10,3,111,Matthew Stafford,LAR,QB,Love Hurts
+2026,10,4,112,Matthew Golden,GB,WR,Rex On Rex
+2026,10,5,113,Travis Kelce,KC,TE,Jacks On - Jax Off
+2026,10,6,114,Jordan Mason,MIN,RB,The Price is Wrong
+2026,10,7,115,Jake Ferguson,DAL,TE,Peloton Pickens
+2026,10,8,116,Jalen Coker,CAR,WR,You May Kiss McBride
+2026,10,9,117,Makai Lemon,PHI,WR,Shayshawn Broccoli
+2026,10,10,118,Patrick Mahomes,KC,QB,Juulio Jones
+2026,10,11,119,Jason Myers,SEA,K,Wet Willies
+2026,10,12,120,KC Concepcion,CLE,WR,Gibbs Me Moore
+2026,11,1,121,Tyler Allgeier,ARI,RB,Gibbs Me Moore
+2026,11,2,122,Alvin Kamara,NO,RB,Wet Willies
+2026,11,3,123,Khalil Shakir,BUF,WR,Juulio Jones
+2026,11,4,124,Dalton Kincaid,BUF,TE,Shayshawn Broccoli
+2026,11,5,125,Rashid Shaheed,SEA,WR,You May Kiss McBride
+2026,11,6,126,Romeo Doubs,NE,WR,Peloton Pickens
+2026,11,7,127,Brandon Aubrey,DAL,K,The Price is Wrong
+2026,11,8,128,Bo Nix,DEN,QB,Jacks On - Jax Off
+2026,11,9,129,Jalen McMillan,TB,WR,Rex On Rex
+2026,11,10,130,Jayden Reed,GB,WR,Love Hurts
+2026,11,11,131,Kyler Murray,MIN,QB,McConkey Kong
+2026,11,12,132,Isaiah Likely,NYG,TE,Kittle League
+2026,12,1,133,Xavier Worthy,KC,WR,Kittle League
+2026,12,2,134,Chris Rodriguez Jr.,JAX,RB,McConkey Kong
+2026,12,3,135,Tyjae Spears,TEN,RB,Love Hurts
+2026,12,4,136,Woody Marks,HOU,RB,Rex On Rex
+2026,12,5,137,Deebo Samuel Sr.,SF,WR,Jacks On - Jax Off
+2026,12,6,138,Mike Washington Jr.,LV,RB,The Price is Wrong
+2026,12,7,139,Denzel Boston,CLE,WR,Peloton Pickens
+2026,12,8,140,Jared Goff,DET,QB,You May Kiss McBride
+2026,12,9,141,Travis Hunter,JAX,WR,Shayshawn Broccoli
+2026,12,10,142,Tyler Shough,NO,QB,Juulio Jones
+2026,12,11,143,Seahawks D/ST,SEA,D/ST,Wet Willies
+2026,12,12,144,Malik Willis,MIA,QB,Gibbs Me Moore
+2026,13,1,145,Dontayvion Wicks,PHI,WR,Gibbs Me Moore
+2026,13,2,146,Keenan Allen,IND,WR,Wet Willies
+2026,13,3,147,Tank Dell,HOU,WR,Juulio Jones
+2026,13,4,148,Juwan Johnson,NO,TE,Shayshawn Broccoli
+2026,13,5,149,Omar Cooper Jr.,NYJ,WR,You May Kiss McBride
+2026,13,6,150,Texans D/ST,HOU,D/ST,Peloton Pickens
+2026,13,7,151,Jordyn Tyson,NO,WR,The Price is Wrong
+2026,13,8,152,Broncos D/ST,DEN,D/ST,Jacks On - Jax Off
+2026,13,9,153,Hunter Henry,NE,TE,Rex On Rex
+2026,13,10,154,Zach Charbonnet,SEA,RB,Love Hurts
+2026,13,11,155,Ravens D/ST,BAL,D/ST,McConkey Kong
+2026,13,12,156,Jonah Coleman,DEN,RB,Kittle League
+2026,14,1,157,Tank Bigsby,PHI,RB,Kittle League
+2026,14,2,158,Keaton Mitchell,LAC,RB,McConkey Kong
+2026,14,3,159,Isiah Pacheco,DET,RB,Love Hurts
+2026,14,4,160,Steelers D/ST,PIT,D/ST,Rex On Rex
+2026,14,5,161,Ka'imi Fairbairn,HOU,K,Jacks On - Jax Off
+2026,14,6,162,Rams D/ST,LAR,D/ST,The Price is Wrong
+2026,14,7,163,Malik Washington,MIA,WR,Peloton Pickens
+2026,14,8,164,Kaelon Black,SF,RB,You May Kiss McBride
+2026,14,9,165,T.J. Hockenson,MIN,TE,Shayshawn Broccoli
+2026,14,10,166,Baker Mayfield,TB,QB,Juulio Jones
+2026,14,11,167,Brian Robinson Jr.,ATL,RB,Wet Willies
+2026,14,12,168,Dylan Sampson,CLE,RB,Gibbs Me Moore
+2026,15,1,169,Eagles D/ST,PHI,D/ST,Gibbs Me Moore
+2026,15,2,170,Calvin Ridley,TEN,WR,Wet Willies
+2026,15,3,171,Browns D/ST,CLE,D/ST,Juulio Jones
+2026,15,4,172,Lions D/ST,DET,D/ST,Shayshawn Broccoli
+2026,15,5,173,Cameron Dicker,LAC,K,You May Kiss McBride
+2026,15,6,174,Chris Boswell,PIT,K,Peloton Pickens
+2026,15,7,175,Tre Tucker,LV,WR,The Price is Wrong
+2026,15,8,176,Justice Hill,BAL,RB,Jacks On - Jax Off
+2026,15,9,177,Daniel Jones,IND,QB,Rex On Rex
+2026,15,10,178,Patriots D/ST,NE,D/ST,Love Hurts
+2026,15,11,179,Caleb Douglas,MIA,WR,McConkey Kong
+2026,15,12,180,Eddy Pineiro,SF,K,Kittle League
+2026,16,1,181,Buccaneers D/ST,TB,D/ST,Kittle League
+2026,16,2,182,Cam Little,JAX,K,McConkey Kong
+2026,16,3,183,Harrison Mevis,LAR,K,Love Hurts
+2026,16,4,184,Harrison Butker,KC,K,Rex On Rex
+2026,16,5,185,Jerry Jeudy,CLE,WR,Jacks On - Jax Off
+2026,16,6,186,Jordan Love,GB,QB,The Price is Wrong
+2026,16,7,187,Samaje Perine,CIN,RB,Peloton Pickens
+2026,16,8,188,Chargers D/ST,LAC,D/ST,You May Kiss McBride
+2026,16,9,189,Jake Bates,DET,K,Shayshawn Broccoli
+2026,16,10,190,Tyler Loop,BAL,K,Juulio Jones
+2026,16,11,191,Najee Harris,NYG,RB,Wet Willies
+2026,16,12,192,Cairo Santos,CHI,K,Gibbs Me Moore

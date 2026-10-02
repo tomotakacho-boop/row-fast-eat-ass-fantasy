@@ -1,0 +1,2257 @@
+{
+  "leagueId": 416026,
+  "exportedAt": "2026-10-02",
+  "source": "Authenticated ESPN Fantasy web UI",
+  "data": {
+    "2017": {
+      "season": 2017,
+      "rows": [
+        {
+          "awayRecord": null,
+          "diff": 33.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1476.72,
+          "paPerGame": 105.5,
+          "pf": 1945.14,
+          "pfPerGame": 138.9,
+          "rank": 1,
+          "record": "11-3-0",
+          "streak": null,
+          "team": "The Ballad of Younghoe Koo"
+        },
+        {
+          "awayRecord": null,
+          "diff": -0.3,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1712.5,
+          "paPerGame": 122.3,
+          "pf": 1708.96,
+          "pfPerGame": 122.1,
+          "rank": 2,
+          "record": "8-6-0",
+          "streak": null,
+          "team": "Tom's Deflated Balls"
+        },
+        {
+          "awayRecord": null,
+          "diff": 2.8,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1740.08,
+          "paPerGame": 124.3,
+          "pf": 1779.62,
+          "pfPerGame": 127.1,
+          "rank": 3,
+          "record": "9-5-0",
+          "streak": null,
+          "team": "Rigga Please"
+        },
+        {
+          "awayRecord": null,
+          "diff": 27.6,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Abraham Hill"
+          ],
+          "pa": 1462.2,
+          "paPerGame": 104.4,
+          "pf": 1848.24,
+          "pfPerGame": 132,
+          "rank": 4,
+          "record": "10-4-0",
+          "streak": null,
+          "team": "KAREEM THE DREAM"
+        },
+        {
+          "awayRecord": null,
+          "diff": 5.3,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1537.04,
+          "paPerGame": 109.8,
+          "pf": 1611.5,
+          "pfPerGame": 115.1,
+          "rank": 5,
+          "record": "8-6-0",
+          "streak": null,
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": null,
+          "diff": 13.3,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1484.6,
+          "paPerGame": 106,
+          "pf": 1670.58,
+          "pfPerGame": 119.3,
+          "rank": 6,
+          "record": "9-5-0",
+          "streak": null,
+          "team": "The Juice Is Loose"
+        },
+        {
+          "awayRecord": null,
+          "diff": -23.8,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1661.08,
+          "paPerGame": 118.6,
+          "pf": 1328.12,
+          "pfPerGame": 94.9,
+          "rank": 7,
+          "record": "3-11-0",
+          "streak": null,
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": null,
+          "diff": -13.6,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1637.38,
+          "paPerGame": 117,
+          "pf": 1447.46,
+          "pfPerGame": 103.4,
+          "rank": 8,
+          "record": "5-9-0",
+          "streak": null,
+          "team": "Acute Gronkitis"
+        },
+        {
+          "awayRecord": null,
+          "diff": 5.7,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1629.72,
+          "paPerGame": 116.4,
+          "pf": 1709.92,
+          "pfPerGame": 122.1,
+          "rank": 9,
+          "record": "7-7-0",
+          "streak": null,
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": null,
+          "diff": -25.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1633.84,
+          "paPerGame": 116.7,
+          "pf": 1277.24,
+          "pfPerGame": 91.2,
+          "rank": 10,
+          "record": "2-12-0",
+          "streak": null,
+          "team": "Team Eckler"
+        },
+        {
+          "awayRecord": null,
+          "diff": 4.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1687.76,
+          "paPerGame": 120.6,
+          "pf": 1751.36,
+          "pfPerGame": 125.1,
+          "rank": 11,
+          "record": "7-7-0",
+          "streak": null,
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": null,
+          "diff": -29.7,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Seamus Mulcahy"
+          ],
+          "pa": 1661.72,
+          "paPerGame": 118.7,
+          "pf": 1246.5,
+          "pfPerGame": 89,
+          "rank": 12,
+          "record": "5-9-0",
+          "streak": null,
+          "team": "Team Subbukumar"
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "rows": [
+        {
+          "awayRecord": null,
+          "diff": 27.8,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1310,
+          "paPerGame": 100.8,
+          "pf": 1671,
+          "pfPerGame": 128.5,
+          "rank": 1,
+          "record": "9-4-0",
+          "streak": null,
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": null,
+          "diff": -4.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1479,
+          "paPerGame": 113.8,
+          "pf": 1421,
+          "pfPerGame": 109.3,
+          "rank": 2,
+          "record": "8-5-0",
+          "streak": null,
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": null,
+          "diff": 30.4,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tom Cummins"
+          ],
+          "pa": 1387,
+          "paPerGame": 106.7,
+          "pf": 1782,
+          "pfPerGame": 137.1,
+          "rank": 3,
+          "record": "10-2-1",
+          "streak": null,
+          "team": "The Bake Show"
+        },
+        {
+          "awayRecord": null,
+          "diff": 11.8,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1547,
+          "paPerGame": 119,
+          "pf": 1700,
+          "pfPerGame": 130.8,
+          "rank": 4,
+          "record": "9-4-0",
+          "streak": null,
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": null,
+          "diff": 11.3,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1351,
+          "paPerGame": 103.9,
+          "pf": 1498,
+          "pfPerGame": 115.2,
+          "rank": 5,
+          "record": "8-5-0",
+          "streak": null,
+          "team": "The Juice Is Loose"
+        },
+        {
+          "awayRecord": null,
+          "diff": 18.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1383,
+          "paPerGame": 106.4,
+          "pf": 1624,
+          "pfPerGame": 124.9,
+          "rank": 6,
+          "record": "9-4-0",
+          "streak": null,
+          "team": "Tom's Deflated Balls"
+        },
+        {
+          "awayRecord": null,
+          "diff": 7.2,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1314,
+          "paPerGame": 101.1,
+          "pf": 1408,
+          "pfPerGame": 108.3,
+          "rank": 7,
+          "record": "7-6-0",
+          "streak": null,
+          "team": "Rigga Please"
+        },
+        {
+          "awayRecord": null,
+          "diff": -59.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1728,
+          "paPerGame": 132.9,
+          "pf": 955,
+          "pfPerGame": 73.5,
+          "rank": 8,
+          "record": "0-13-0",
+          "streak": null,
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": null,
+          "diff": 3.2,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1303,
+          "paPerGame": 100.2,
+          "pf": 1345,
+          "pfPerGame": 103.5,
+          "rank": 9,
+          "record": "6-7-0",
+          "streak": null,
+          "team": "The Ballad of Younghoe Koo"
+        },
+        {
+          "awayRecord": null,
+          "diff": -5.8,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1366,
+          "paPerGame": 105.1,
+          "pf": 1290,
+          "pfPerGame": 99.2,
+          "rank": 10,
+          "record": "3-10-0",
+          "streak": null,
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": null,
+          "diff": 8.5,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1484,
+          "paPerGame": 114.2,
+          "pf": 1594,
+          "pfPerGame": 122.6,
+          "rank": 11,
+          "record": "7-5-1",
+          "streak": null,
+          "team": "Newtonâs Law of Winning"
+        },
+        {
+          "awayRecord": null,
+          "diff": -48.9,
+          "divisionRecord": null,
+          "homeRecord": null,
+          "moves": null,
+          "owners": [
+            "Seamus Mulcahy"
+          ],
+          "pa": 1561,
+          "paPerGame": 120.1,
+          "pf": 925,
+          "pfPerGame": 71.2,
+          "rank": 12,
+          "record": "1-12-0",
+          "streak": null,
+          "team": "Juulio Jones"
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "rows": [
+        {
+          "awayRecord": "4-2-0",
+          "diff": 0.7,
+          "divisionRecord": "4-2-0",
+          "homeRecord": "4-3-0",
+          "moves": 31,
+          "owners": [
+            "Tom Cummins"
+          ],
+          "pa": 1358,
+          "paPerGame": 104.5,
+          "pf": 1367,
+          "pfPerGame": 105.2,
+          "rank": 1,
+          "record": "8-5-0",
+          "streak": "L1",
+          "team": "The Bake Show"
+        },
+        {
+          "awayRecord": "5-2-0",
+          "diff": 7.2,
+          "divisionRecord": "4-1-1",
+          "homeRecord": "3-2-1",
+          "moves": 29,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1290,
+          "paPerGame": 99.2,
+          "pf": 1383,
+          "pfPerGame": 106.4,
+          "rank": 2,
+          "record": "8-4-1",
+          "streak": "W1",
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": 9.5,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "5-2-0",
+          "moves": 7,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1397,
+          "paPerGame": 107.5,
+          "pf": 1521,
+          "pfPerGame": 117,
+          "rank": 3,
+          "record": "8-5-0",
+          "streak": "W1",
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": "5-1-0",
+          "diff": 17.6,
+          "divisionRecord": "5-1-0",
+          "homeRecord": "6-1-0",
+          "moves": 33,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1339,
+          "paPerGame": 103,
+          "pf": 1568,
+          "pfPerGame": 120.6,
+          "rank": 4,
+          "record": "11-2-0",
+          "streak": "L1",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -2.2,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "4-2-0",
+          "moves": 23,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1409,
+          "paPerGame": 108.4,
+          "pf": 1380,
+          "pfPerGame": 106.2,
+          "rank": 5,
+          "record": "8-5-0",
+          "streak": "W1",
+          "team": "The Guice Is Loose"
+        },
+        {
+          "awayRecord": "4-2-1",
+          "diff": 7.6,
+          "divisionRecord": "2-3-1",
+          "homeRecord": "3-3-0",
+          "moves": 9,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1336,
+          "paPerGame": 102.8,
+          "pf": 1435,
+          "pfPerGame": 110.4,
+          "rank": 6,
+          "record": "7-5-1",
+          "streak": "W1",
+          "team": "The Juice Is Loose"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": 3.2,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "2-5-0",
+          "moves": 22,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1474,
+          "paPerGame": 113.4,
+          "pf": 1516,
+          "pfPerGame": 116.6,
+          "rank": 7,
+          "record": "5-8-0",
+          "streak": "L2",
+          "team": "David Ants In My Eyes Johnson"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": 6.7,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "4-2-0",
+          "moves": 15,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1478,
+          "paPerGame": 113.7,
+          "pf": 1565,
+          "pfPerGame": 120.4,
+          "rank": 8,
+          "record": "6-7-0",
+          "streak": "L1",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": -15.1,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "2-4-0",
+          "moves": 35,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1543,
+          "paPerGame": 118.7,
+          "pf": 1347,
+          "pfPerGame": 103.6,
+          "rank": 9,
+          "record": "5-8-0",
+          "streak": "W2",
+          "team": "Danny Dimes"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -11.2,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "0-6-0",
+          "moves": 0,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1342,
+          "paPerGame": 103.2,
+          "pf": 1196,
+          "pfPerGame": 92,
+          "rank": 10,
+          "record": "4-9-0",
+          "streak": "W1",
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": -8.7,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "1-6-0",
+          "moves": 20,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1351,
+          "paPerGame": 103.9,
+          "pf": 1238,
+          "pfPerGame": 95.2,
+          "rank": 11,
+          "record": "4-9-0",
+          "streak": "L1",
+          "team": "Rigga Please"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -15.3,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "1-6-0",
+          "moves": 0,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1448,
+          "paPerGame": 111.4,
+          "pf": 1249,
+          "pfPerGame": 96.1,
+          "rank": 12,
+          "record": "3-10-0",
+          "streak": "L7",
+          "team": "Juulio Jones"
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "rows": [
+        {
+          "awayRecord": "4-3-0",
+          "diff": 6.2,
+          "divisionRecord": "5-1-0",
+          "homeRecord": "5-1-0",
+          "moves": 24,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1631.46,
+          "paPerGame": 125.5,
+          "pf": 1712.32,
+          "pfPerGame": 131.7,
+          "rank": 1,
+          "record": "9-4-0",
+          "streak": "W2",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "5-2-0",
+          "diff": 22.1,
+          "divisionRecord": "5-1-0",
+          "homeRecord": "4-2-0",
+          "moves": 3,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1435.14,
+          "paPerGame": 110.4,
+          "pf": 1721.94,
+          "pfPerGame": 132.5,
+          "rank": 2,
+          "record": "9-4-0",
+          "streak": "L1",
+          "team": "The Juice Is Loose"
+        },
+        {
+          "awayRecord": "4-2-0",
+          "diff": 6.7,
+          "divisionRecord": "6-0-0",
+          "homeRecord": "5-2-0",
+          "moves": 29,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1577.42,
+          "paPerGame": 121.3,
+          "pf": 1663.88,
+          "pfPerGame": 128,
+          "rank": 3,
+          "record": "9-4-0",
+          "streak": "W3",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "5-1-0",
+          "diff": 12.3,
+          "divisionRecord": "5-1-0",
+          "homeRecord": "4-3-0",
+          "moves": 25,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1379.92,
+          "paPerGame": 106.1,
+          "pf": 1540.26,
+          "pfPerGame": 118.5,
+          "rank": 4,
+          "record": "9-4-0",
+          "streak": "W3",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "5-2-0",
+          "diff": -0.1,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "2-4-0",
+          "moves": 17,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1590,
+          "paPerGame": 122.3,
+          "pf": 1589.12,
+          "pfPerGame": 122.2,
+          "rank": 5,
+          "record": "7-6-0",
+          "streak": "L1",
+          "team": "Whats up Mahomie"
+        },
+        {
+          "awayRecord": "4-2-0",
+          "diff": 17.2,
+          "divisionRecord": "5-1-0",
+          "homeRecord": "5-2-0",
+          "moves": 23,
+          "owners": [
+            "Tom Cummins"
+          ],
+          "pa": 1404.98,
+          "paPerGame": 108.1,
+          "pf": 1628.12,
+          "pfPerGame": 125.2,
+          "rank": 6,
+          "record": "9-4-0",
+          "streak": "W4",
+          "team": "THE 🅱️AKE SHOW"
+        },
+        {
+          "awayRecord": "1-5-0",
+          "diff": -2.6,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "5-2-0",
+          "moves": 51,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1502.38,
+          "paPerGame": 115.6,
+          "pf": 1468.8,
+          "pfPerGame": 113,
+          "rank": 7,
+          "record": "6-7-0",
+          "streak": "W1",
+          "team": "Davante's Inferno"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": -14.3,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "1-5-0",
+          "moves": 12,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1480.68,
+          "paPerGame": 113.9,
+          "pf": 1294.14,
+          "pfPerGame": 99.5,
+          "rank": 8,
+          "record": "3-10-0",
+          "streak": "L6",
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": -12.9,
+          "divisionRecord": "1-5-0",
+          "homeRecord": "2-5-0",
+          "moves": 23,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1613.36,
+          "paPerGame": 124.1,
+          "pf": 1445.22,
+          "pfPerGame": 111.2,
+          "rank": 9,
+          "record": "5-8-0",
+          "streak": "L4",
+          "team": "Rigga Please"
+        },
+        {
+          "awayRecord": "1-5-0",
+          "diff": -18.9,
+          "divisionRecord": "0-6-0",
+          "homeRecord": "1-6-0",
+          "moves": 7,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1627.78,
+          "paPerGame": 125.2,
+          "pf": 1381.74,
+          "pfPerGame": 106.3,
+          "rank": 10,
+          "record": "2-11-0",
+          "streak": "L6",
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -2.7,
+          "divisionRecord": "1-5-0",
+          "homeRecord": "2-4-0",
+          "moves": 26,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1539.22,
+          "paPerGame": 118.4,
+          "pf": 1504.7,
+          "pfPerGame": 115.7,
+          "rank": 11,
+          "record": "6-7-0",
+          "streak": "W1",
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": -12.9,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "1-5-0",
+          "moves": 27,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1598.92,
+          "paPerGame": 123,
+          "pf": 1431.02,
+          "pfPerGame": 110.1,
+          "rank": 12,
+          "record": "4-9-0",
+          "streak": "L2",
+          "team": "Ninth Circle of Helaire"
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "rows": [
+        {
+          "awayRecord": "4-2-0",
+          "diff": 16,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "6-2-0",
+          "moves": 6,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1565.54,
+          "paPerGame": 111.8,
+          "pf": 1789.78,
+          "pfPerGame": 127.8,
+          "rank": 1,
+          "record": "10-4-0",
+          "streak": "L2",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "6-1-0",
+          "diff": 33.4,
+          "divisionRecord": "6-1-0",
+          "homeRecord": "7-0-0",
+          "moves": 31,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1570.04,
+          "paPerGame": 112.1,
+          "pf": 2037.38,
+          "pfPerGame": 145.5,
+          "rank": 2,
+          "record": "13-1-0",
+          "streak": "W12",
+          "team": "Storm Coopers"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 8,
+          "divisionRecord": "4-2-0",
+          "homeRecord": "4-3-0",
+          "moves": 6,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1539.8,
+          "paPerGame": 110,
+          "pf": 1651.28,
+          "pfPerGame": 117.9,
+          "rank": 3,
+          "record": "8-6-0",
+          "streak": "L1",
+          "team": "The Juice Is Loose"
+        },
+        {
+          "awayRecord": "4-4-0",
+          "diff": -2.4,
+          "divisionRecord": "3-3-0",
+          "homeRecord": "3-3-0",
+          "moves": 33,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1607.28,
+          "paPerGame": 114.8,
+          "pf": 1573.88,
+          "pfPerGame": 112.4,
+          "rank": 4,
+          "record": "7-7-0",
+          "streak": "W1",
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": "3-5-0",
+          "diff": 1.4,
+          "divisionRecord": "6-1-0",
+          "homeRecord": "5-1-0",
+          "moves": 27,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1630.14,
+          "paPerGame": 116.4,
+          "pf": 1650.32,
+          "pfPerGame": 117.9,
+          "rank": 5,
+          "record": "8-6-0",
+          "streak": "L1",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 7.6,
+          "divisionRecord": "2-4-0",
+          "homeRecord": "3-4-0",
+          "moves": 31,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1476.86,
+          "paPerGame": 105.5,
+          "pf": 1583.88,
+          "pfPerGame": 113.1,
+          "rank": 6,
+          "record": "7-7-0",
+          "streak": "W2",
+          "team": "cancelled -"
+        },
+        {
+          "awayRecord": "4-4-0",
+          "diff": 0.1,
+          "divisionRecord": "2-5-0",
+          "homeRecord": "2-4-0",
+          "moves": 10,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1548.88,
+          "paPerGame": 110.6,
+          "pf": 1550.2,
+          "pfPerGame": 110.7,
+          "rank": 7,
+          "record": "6-8-0",
+          "streak": "W1",
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": -4.6,
+          "divisionRecord": "5-2-0",
+          "homeRecord": "4-3-0",
+          "moves": 14,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1716.02,
+          "paPerGame": 122.6,
+          "pf": 1651.44,
+          "pfPerGame": 118,
+          "rank": 8,
+          "record": "6-8-0",
+          "streak": "L2",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "1-6-0",
+          "diff": -6.9,
+          "divisionRecord": "2-5-0",
+          "homeRecord": "4-3-0",
+          "moves": 21,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1686.64,
+          "paPerGame": 120.5,
+          "pf": 1589.96,
+          "pfPerGame": 113.6,
+          "rank": 9,
+          "record": "5-9-0",
+          "streak": "L1",
+          "team": "Electric Bass"
+        },
+        {
+          "awayRecord": "0-6-0",
+          "diff": -12.6,
+          "divisionRecord": "2-5-0",
+          "homeRecord": "5-3-0",
+          "moves": 13,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1749.48,
+          "paPerGame": 125,
+          "pf": 1573.54,
+          "pfPerGame": 112.4,
+          "rank": 10,
+          "record": "5-9-0",
+          "streak": "W1",
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": "1-5-0",
+          "diff": -17.2,
+          "divisionRecord": "1-6-0",
+          "homeRecord": "3-5-0",
+          "moves": 13,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1633.7,
+          "paPerGame": 116.7,
+          "pf": 1393.36,
+          "pfPerGame": 99.5,
+          "rank": 11,
+          "record": "4-10-0",
+          "streak": "W3",
+          "team": "Justin Herbert"
+        },
+        {
+          "awayRecord": "1-6-0",
+          "diff": -22.9,
+          "divisionRecord": "4-3-0",
+          "homeRecord": "4-3-0",
+          "moves": 16,
+          "owners": [
+            "Tom Cummins"
+          ],
+          "pa": 1615.94,
+          "paPerGame": 115.4,
+          "pf": 1295.3,
+          "pfPerGame": 92.5,
+          "rank": 12,
+          "record": "5-9-0",
+          "streak": "L3",
+          "team": "THE 🅱️AKE SHOW"
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "rows": [
+        {
+          "awayRecord": "3-3-0",
+          "diff": 8.2,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "6-2-0",
+          "moves": 46,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1618.64,
+          "paPerGame": 115.6,
+          "pf": 1734.04,
+          "pfPerGame": 123.9,
+          "rank": 1,
+          "record": "9-5-0",
+          "streak": "L1",
+          "team": "Violence Of The Lambs"
+        },
+        {
+          "awayRecord": "5-4-0",
+          "diff": 3.2,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "2-3-0",
+          "moves": 24,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1560.7,
+          "paPerGame": 111.5,
+          "pf": 1605,
+          "pfPerGame": 114.6,
+          "rank": 2,
+          "record": "7-7-0",
+          "streak": "W1",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 6.2,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "5-2-0",
+          "moves": 10,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1507.64,
+          "paPerGame": 107.7,
+          "pf": 1593.78,
+          "pfPerGame": 113.8,
+          "rank": 3,
+          "record": "9-5-0",
+          "streak": "L2",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 7.5,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "5-2-0",
+          "moves": 13,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1491.04,
+          "paPerGame": 106.5,
+          "pf": 1596.64,
+          "pfPerGame": 114,
+          "rank": 4,
+          "record": "9-5-0",
+          "streak": "W1",
+          "team": "Allen Wrenches"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": 4.5,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "5-2-0",
+          "moves": 8,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1534,
+          "paPerGame": 109.6,
+          "pf": 1597.18,
+          "pfPerGame": 114.1,
+          "rank": 5,
+          "record": "7-7-0",
+          "streak": "L1",
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": "5-3-0",
+          "diff": 7.1,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-4-0",
+          "moves": 28,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1530.88,
+          "paPerGame": 109.3,
+          "pf": 1630.08,
+          "pfPerGame": 116.4,
+          "rank": 6,
+          "record": "7-7-0",
+          "streak": "W1",
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": "5-3-0",
+          "diff": -1.5,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-4-0",
+          "moves": 29,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1603.56,
+          "paPerGame": 114.5,
+          "pf": 1582.5,
+          "pfPerGame": 113,
+          "rank": 7,
+          "record": "7-7-0",
+          "streak": "L1",
+          "team": "Drake @ London O2"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": 2.1,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "5-3-0",
+          "moves": 6,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1561.74,
+          "paPerGame": 111.6,
+          "pf": 1591.72,
+          "pfPerGame": 113.7,
+          "rank": 8,
+          "record": "7-7-0",
+          "streak": "W4",
+          "team": "Team Seattle"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -9.7,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-5-0",
+          "moves": 1,
+          "owners": [
+            "Tom Cummins"
+          ],
+          "pa": 1695.66,
+          "paPerGame": 121.1,
+          "pf": 1559.84,
+          "pfPerGame": 111.4,
+          "rank": 9,
+          "record": "6-8-0",
+          "streak": "W1",
+          "team": "THE 🅱️AKE SHOW"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": -10.9,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "2-6-0",
+          "moves": 9,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1631.76,
+          "paPerGame": 116.6,
+          "pf": 1479.68,
+          "pfPerGame": 105.7,
+          "rank": 10,
+          "record": "5-9-0",
+          "streak": "W3",
+          "team": "Hunter Gatherer"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -7.6,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "4-4-0",
+          "moves": 7,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1528.68,
+          "paPerGame": 109.2,
+          "pf": 1422.02,
+          "pfPerGame": 101.6,
+          "rank": 11,
+          "record": "6-8-0",
+          "streak": "L1",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": -9.2,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "3-4-0",
+          "moves": 19,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1768.24,
+          "paPerGame": 126.3,
+          "pf": 1640.06,
+          "pfPerGame": 117.1,
+          "rank": 12,
+          "record": "5-9-0",
+          "streak": "L4",
+          "team": "Diggs In a Blanket"
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "rows": [
+        {
+          "awayRecord": "3-4-0",
+          "diff": 9.9,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "7-0-0",
+          "moves": 25,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1598.66,
+          "paPerGame": 114.2,
+          "pf": 1737.36,
+          "pfPerGame": 124.1,
+          "rank": 1,
+          "record": "10-4-0",
+          "streak": "W3",
+          "team": "Bed Bath and Bijan"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": 8,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "5-2-0",
+          "moves": 31,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1481.62,
+          "paPerGame": 105.8,
+          "pf": 1593.04,
+          "pfPerGame": 113.8,
+          "rank": 2,
+          "record": "8-6-0",
+          "streak": "W1",
+          "team": "Hurts Rent a Carr"
+        },
+        {
+          "awayRecord": "5-3-0",
+          "diff": 6.2,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "4-2-0",
+          "moves": 16,
+          "owners": [
+            "Tomotaka Cho",
+            "Will Cordonnier"
+          ],
+          "pa": 1640.1,
+          "paPerGame": 117.1,
+          "pf": 1727.02,
+          "pfPerGame": 123.4,
+          "rank": 3,
+          "record": "9-5-0",
+          "streak": "L1",
+          "team": "Your Wildest Fantasy (Football)"
+        },
+        {
+          "awayRecord": "5-2-0",
+          "diff": 19.2,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "5-2-0",
+          "moves": 30,
+          "owners": [
+            "Peter Rex"
+          ],
+          "pa": 1565.12,
+          "paPerGame": 111.8,
+          "pf": 1833.82,
+          "pfPerGame": 131,
+          "rank": 4,
+          "record": "10-4-0",
+          "streak": "W2",
+          "team": "Team Rex"
+        },
+        {
+          "awayRecord": "5-4-0",
+          "diff": 8.9,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-3-0",
+          "moves": 22,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1528.9,
+          "paPerGame": 109.2,
+          "pf": 1652.94,
+          "pfPerGame": 118.1,
+          "rank": 5,
+          "record": "7-7-0",
+          "streak": "L1",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": 5.1,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "5-3-0",
+          "moves": 38,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1591.16,
+          "paPerGame": 113.7,
+          "pf": 1661.94,
+          "pfPerGame": 118.7,
+          "rank": 6,
+          "record": "7-7-0",
+          "streak": "W1",
+          "team": "The Ascension To Evan(s)"
+        },
+        {
+          "awayRecord": "1-6-0",
+          "diff": -5.1,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "6-1-0",
+          "moves": 11,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1702.08,
+          "paPerGame": 121.6,
+          "pf": 1630.94,
+          "pfPerGame": 116.5,
+          "rank": 7,
+          "record": "7-7-0",
+          "streak": "W4",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -17.3,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "3-5-0",
+          "moves": 7,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1717.58,
+          "paPerGame": 122.7,
+          "pf": 1475.58,
+          "pfPerGame": 105.4,
+          "rank": 8,
+          "record": "5-9-0",
+          "streak": "L7",
+          "team": "Judge Jeudy"
+        },
+        {
+          "awayRecord": "2-6-0",
+          "diff": -3.1,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "5-1-0",
+          "moves": 31,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1595.96,
+          "paPerGame": 114,
+          "pf": 1552.68,
+          "pfPerGame": 110.9,
+          "rank": 9,
+          "record": "7-7-0",
+          "streak": "L1",
+          "team": "Team Goff Balls"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": -6.6,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "3-4-0",
+          "moves": 4,
+          "owners": [
+            "Tim Ryan",
+            "Paul Ryan"
+          ],
+          "pa": 1719.92,
+          "paPerGame": 122.9,
+          "pf": 1627.58,
+          "pfPerGame": 116.3,
+          "rank": 10,
+          "record": "5-9-0",
+          "streak": "W1",
+          "team": "Team Ryan"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -14.9,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-5-0",
+          "moves": 22,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1574.4,
+          "paPerGame": 112.5,
+          "pf": 1365.28,
+          "pfPerGame": 97.5,
+          "rank": 11,
+          "record": "5-9-0",
+          "streak": "L2",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "0-6-0",
+          "diff": -10.2,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "4-4-0",
+          "moves": 2,
+          "owners": [
+            "Sam Kumar"
+          ],
+          "pa": 1602.36,
+          "paPerGame": 114.5,
+          "pf": 1459.68,
+          "pfPerGame": 104.3,
+          "rank": 12,
+          "record": "4-10-0",
+          "streak": "L3",
+          "team": "The Adams Family"
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "rows": [
+        {
+          "awayRecord": "2-4-0",
+          "diff": -2.2,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "6-2-0",
+          "moves": 26,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1610.64,
+          "paPerGame": 115,
+          "pf": 1580.5,
+          "pfPerGame": 112.9,
+          "rank": 1,
+          "record": "8-6-0",
+          "streak": "L2",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": -1.9,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "5-2-0",
+          "moves": 44,
+          "owners": [
+            "Peter Rex"
+          ],
+          "pa": 1632.12,
+          "paPerGame": 116.6,
+          "pf": 1605.38,
+          "pfPerGame": 114.7,
+          "rank": 2,
+          "record": "8-6-0",
+          "streak": "L1",
+          "team": "Team Rex"
+        },
+        {
+          "awayRecord": "5-3-0",
+          "diff": 7.4,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "4-2-0",
+          "moves": 22,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1599.56,
+          "paPerGame": 114.3,
+          "pf": 1703.42,
+          "pfPerGame": 121.7,
+          "rank": 3,
+          "record": "9-5-0",
+          "streak": "W3",
+          "team": "Goff Balls"
+        },
+        {
+          "awayRecord": "5-2-0",
+          "diff": 19.4,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "5-2-0",
+          "moves": 21,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1451,
+          "paPerGame": 103.6,
+          "pf": 1722.56,
+          "pfPerGame": 123,
+          "rank": 4,
+          "record": "10-4-0",
+          "streak": "W5",
+          "team": "Pulled McCaff"
+        },
+        {
+          "awayRecord": "5-4-0",
+          "diff": 4.1,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-2-0",
+          "moves": 29,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1555.02,
+          "paPerGame": 111.1,
+          "pf": 1611.78,
+          "pfPerGame": 115.1,
+          "rank": 5,
+          "record": "8-6-0",
+          "streak": "W3",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "3-5-0",
+          "diff": 5,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "4-2-0",
+          "moves": 29,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1571.36,
+          "paPerGame": 112.2,
+          "pf": 1641.38,
+          "pfPerGame": 117.2,
+          "rank": 6,
+          "record": "7-7-0",
+          "streak": "W2",
+          "team": "DK's Adventures"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": -8.6,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "3-5-0",
+          "moves": 4,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1814.16,
+          "paPerGame": 129.6,
+          "pf": 1693.7,
+          "pfPerGame": 121,
+          "rank": 7,
+          "record": "6-8-0",
+          "streak": "L3",
+          "team": "LaPorta John"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -6.4,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "3-4-0",
+          "moves": 9,
+          "owners": [
+            "Will Cordonnier"
+          ],
+          "pa": 1717.96,
+          "paPerGame": 122.7,
+          "pf": 1628.44,
+          "pfPerGame": 116.3,
+          "rank": 8,
+          "record": "7-7-0",
+          "streak": "W2",
+          "team": "Wet Willies"
+        },
+        {
+          "awayRecord": "2-5-0",
+          "diff": -3.6,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "3-4-0",
+          "moves": 12,
+          "owners": [
+            "Daniel Meyer"
+          ],
+          "pa": 1792.74,
+          "paPerGame": 128.1,
+          "pf": 1742.12,
+          "pfPerGame": 124.4,
+          "rank": 9,
+          "record": "5-9-0",
+          "streak": "L5",
+          "team": "THE EMPIRE DID NOTHING WRONG!1"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 2.1,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-5-0",
+          "moves": 19,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1655.22,
+          "paPerGame": 118.2,
+          "pf": 1684.8,
+          "pfPerGame": 120.3,
+          "rank": 10,
+          "record": "6-8-0",
+          "streak": "W1",
+          "team": "Moore Than A. Thielen"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -12.3,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-5-0",
+          "moves": 21,
+          "owners": [
+            "Parker Sikora"
+          ],
+          "pa": 1703.24,
+          "paPerGame": 121.7,
+          "pf": 1530.8,
+          "pfPerGame": 109.3,
+          "rank": 11,
+          "record": "5-9-0",
+          "streak": "L3",
+          "team": "Phresh Meat"
+        },
+        {
+          "awayRecord": "1-5-0",
+          "diff": -3,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "4-4-0",
+          "moves": 27,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1571.44,
+          "paPerGame": 112.2,
+          "pf": 1529.58,
+          "pfPerGame": 109.3,
+          "rank": 12,
+          "record": "5-9-0",
+          "streak": "L5",
+          "team": "Hall of Heroes"
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "rows": [
+        {
+          "awayRecord": "5-1-0",
+          "diff": 20.4,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "5-3-0",
+          "moves": 17,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 1693.46,
+          "paPerGame": 121,
+          "pf": 1978.52,
+          "pfPerGame": 141.3,
+          "rank": 1,
+          "record": "10-4-0",
+          "streak": "W1",
+          "team": "Pukana Matatas"
+        },
+        {
+          "awayRecord": "5-4-0",
+          "diff": 0.8,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-2-0",
+          "moves": 23,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 1622.32,
+          "paPerGame": 115.9,
+          "pf": 1633.94,
+          "pfPerGame": 116.7,
+          "rank": 2,
+          "record": "8-6-0",
+          "streak": "W2",
+          "team": "Rex On Rex"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": 2.3,
+          "divisionRecord": "4-1-0",
+          "homeRecord": "4-3-0",
+          "moves": 13,
+          "owners": [
+            "Will Cordonnier"
+          ],
+          "pa": 1569.46,
+          "paPerGame": 112.1,
+          "pf": 1601.98,
+          "pfPerGame": 114.4,
+          "rank": 3,
+          "record": "7-7-0",
+          "streak": "L2",
+          "team": "Wet Willies"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": 3,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "5-2-0",
+          "moves": 28,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 1541.28,
+          "paPerGame": 110.1,
+          "pf": 1582.92,
+          "pfPerGame": 113.1,
+          "rank": 4,
+          "record": "9-5-0",
+          "streak": "W4",
+          "team": "OnlyFannins"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -4.7,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-4-0",
+          "moves": 22,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 1669.28,
+          "paPerGame": 119.2,
+          "pf": 1604.14,
+          "pfPerGame": 114.6,
+          "rank": 5,
+          "record": "7-7-0",
+          "streak": "W2",
+          "team": "Eat The Boutte Like Groceries"
+        },
+        {
+          "awayRecord": "4-2-0",
+          "diff": 2.6,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "3-5-0",
+          "moves": 23,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 1557.48,
+          "paPerGame": 111.2,
+          "pf": 1593.54,
+          "pfPerGame": 113.8,
+          "rank": 6,
+          "record": "7-7-0",
+          "streak": "L3",
+          "team": "Juulio Jones"
+        },
+        {
+          "awayRecord": "3-4-0",
+          "diff": -3.6,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "3-4-0",
+          "moves": 39,
+          "owners": [
+            "Peter Rex"
+          ],
+          "pa": 1695.2,
+          "paPerGame": 121.1,
+          "pf": 1644.58,
+          "pfPerGame": 117.5,
+          "rank": 7,
+          "record": "6-8-0",
+          "streak": "W2",
+          "team": "Team Rex"
+        },
+        {
+          "awayRecord": "3-3-0",
+          "diff": -12,
+          "divisionRecord": "2-3-0",
+          "homeRecord": "2-6-0",
+          "moves": 23,
+          "owners": [
+            "Parker Sikora"
+          ],
+          "pa": 1679,
+          "paPerGame": 119.9,
+          "pf": 1510.84,
+          "pfPerGame": 107.9,
+          "rank": 8,
+          "record": "5-9-0",
+          "streak": "L2",
+          "team": "Two-Point Conversion Therapy"
+        },
+        {
+          "awayRecord": "3-5-0",
+          "diff": 2.6,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "3-3-0",
+          "moves": 48,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 1578.44,
+          "paPerGame": 112.7,
+          "pf": 1614.16,
+          "pfPerGame": 115.3,
+          "rank": 9,
+          "record": "6-8-0",
+          "streak": "L2",
+          "team": "Meet The Robinson's"
+        },
+        {
+          "awayRecord": "2-4-0",
+          "diff": -6.9,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "4-4-0",
+          "moves": 7,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 1536.02,
+          "paPerGame": 109.7,
+          "pf": 1438.78,
+          "pfPerGame": 102.8,
+          "rank": 10,
+          "record": "6-8-0",
+          "streak": "W1",
+          "team": "Kittle League"
+        },
+        {
+          "awayRecord": "4-3-0",
+          "diff": -0.6,
+          "divisionRecord": "3-2-0",
+          "homeRecord": "3-4-0",
+          "moves": 7,
+          "owners": [
+            "Ethan Ashley"
+          ],
+          "pa": 1482.7,
+          "paPerGame": 105.9,
+          "pf": 1473.9,
+          "pfPerGame": 105.3,
+          "rank": 11,
+          "record": "7-7-0",
+          "streak": "L1",
+          "team": "Shayshawn Broccoli"
+        },
+        {
+          "awayRecord": "3-5-0",
+          "diff": -3.8,
+          "divisionRecord": "1-4-0",
+          "homeRecord": "3-3-0",
+          "moves": 24,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 1522.22,
+          "paPerGame": 108.7,
+          "pf": 1469.56,
+          "pfPerGame": 105,
+          "rank": 12,
+          "record": "6-8-0",
+          "streak": "L1",
+          "team": "Goff Balls"
+        }
+      ]
+    },
+    "2026": {
+      "season": 2026,
+      "asOf": "2026-10-02",
+      "status": "in-progress after Week 3; Week 4 active",
+      "rows": [
+        {
+          "awayRecord": "1-0-0",
+          "division": "West",
+          "divisionRank": 1,
+          "divisionRecord": "2-0-0",
+          "gamesBack": "--",
+          "homeRecord": "2-0-0",
+          "moves": 1,
+          "owners": [
+            "Jackson Herz"
+          ],
+          "pa": 343.46,
+          "pf": 410.06,
+          "playoffPct": 85,
+          "record": "3-0-0",
+          "streak": "W3",
+          "team": "Jacks On - Jax Off",
+          "winPct": 1
+        },
+        {
+          "awayRecord": "2-0-0",
+          "division": "East",
+          "divisionRank": 1,
+          "divisionRecord": "2-0-0",
+          "gamesBack": "--",
+          "homeRecord": "1-0-0",
+          "moves": 4,
+          "owners": [
+            "Liam Rex"
+          ],
+          "pa": 309.66,
+          "pf": 406.06,
+          "playoffPct": 84,
+          "record": "3-0-0",
+          "streak": "W3",
+          "team": "Rex On Rex",
+          "winPct": 1
+        },
+        {
+          "awayRecord": "0-1-0",
+          "division": "West",
+          "divisionRank": 2,
+          "divisionRecord": "1-0-0",
+          "gamesBack": "1",
+          "homeRecord": "2-0-0",
+          "moves": 9,
+          "owners": [
+            "Peter Rex"
+          ],
+          "pa": 327.48,
+          "pf": 454.84,
+          "playoffPct": 74,
+          "record": "2-1-0",
+          "streak": "L1",
+          "team": "Gibbs Me Moore",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "0-1-0",
+          "division": "East",
+          "divisionRank": 2,
+          "divisionRecord": "2-0-0",
+          "gamesBack": "1",
+          "homeRecord": "2-0-0",
+          "moves": 3,
+          "owners": [
+            "Will Cordonnier"
+          ],
+          "pa": 400.56,
+          "pf": 395.08,
+          "playoffPct": 69,
+          "record": "2-1-0",
+          "streak": "W1",
+          "team": "Wet Willies",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "1-0-0",
+          "division": "East",
+          "divisionRank": 3,
+          "divisionRecord": "0-0-0",
+          "gamesBack": "1",
+          "homeRecord": "1-1-0",
+          "moves": 2,
+          "owners": [
+            "Seamus Mulcahy",
+            "Seamus Mulcahy"
+          ],
+          "pa": 307.74,
+          "pf": 348.6,
+          "playoffPct": 55,
+          "record": "2-1-0",
+          "streak": "W2",
+          "team": "Juulio Jones",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "2-0-0",
+          "division": "East",
+          "divisionRank": 4,
+          "divisionRecord": "0-0-0",
+          "gamesBack": "1",
+          "homeRecord": "0-1-0",
+          "moves": 14,
+          "owners": [
+            "Tomotaka Cho"
+          ],
+          "pa": 324.66,
+          "pf": 336.78,
+          "playoffPct": 56,
+          "record": "2-1-0",
+          "streak": "L1",
+          "team": "You May Kiss McBride",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "0-1-0",
+          "division": "West",
+          "divisionRank": 3,
+          "divisionRecord": "0-1-0",
+          "gamesBack": "1",
+          "homeRecord": "2-0-0",
+          "moves": 9,
+          "owners": [
+            "Tim Harris"
+          ],
+          "pa": 349.66,
+          "pf": 322.6,
+          "playoffPct": 59,
+          "record": "2-1-0",
+          "streak": "W2",
+          "team": "Peloton Pickens",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "2-0-0",
+          "division": "West",
+          "divisionRank": 4,
+          "divisionRecord": "1-0-0",
+          "gamesBack": "1",
+          "homeRecord": "0-1-0",
+          "moves": 2,
+          "owners": [
+            "Ethan Ashley"
+          ],
+          "pa": 304,
+          "pf": 295.18,
+          "playoffPct": 53,
+          "record": "2-1-0",
+          "streak": "W1",
+          "team": "Shayshawn Broccoli",
+          "winPct": 0.667
+        },
+        {
+          "awayRecord": "0-2-0",
+          "division": "East",
+          "divisionRank": 5,
+          "divisionRecord": "0-2-0",
+          "gamesBack": "3",
+          "homeRecord": "0-1-0",
+          "moves": 8,
+          "owners": [
+            "Jack Coffman"
+          ],
+          "pa": 403.82,
+          "pf": 322.46,
+          "playoffPct": 17,
+          "record": "0-3-0",
+          "streak": "L3",
+          "team": "The Price is Wrong",
+          "winPct": 0
+        },
+        {
+          "awayRecord": "0-2-0",
+          "division": "West",
+          "divisionRank": 5,
+          "divisionRecord": "0-1-0",
+          "gamesBack": "3",
+          "homeRecord": "0-1-0",
+          "moves": 1,
+          "owners": [
+            "John Olson"
+          ],
+          "pa": 377.58,
+          "pf": 311.52,
+          "playoffPct": 10,
+          "record": "0-3-0",
+          "streak": "L3",
+          "team": "Kittle League",
+          "winPct": 0
+        },
+        {
+          "awayRecord": "0-1-0",
+          "division": "West",
+          "divisionRank": 6,
+          "divisionRecord": "0-2-0",
+          "gamesBack": "3",
+          "homeRecord": "0-2-0",
+          "moves": 5,
+          "owners": [
+            "Parker Sikora"
+          ],
+          "pa": 336.1,
+          "pf": 291.4,
+          "playoffPct": 17,
+          "record": "0-3-0",
+          "streak": "L3",
+          "team": "Love Hurts",
+          "winPct": 0
+        },
+        {
+          "awayRecord": "0-2-0",
+          "division": "East",
+          "divisionRank": 6,
+          "divisionRecord": "0-2-0",
+          "gamesBack": "3",
+          "homeRecord": "0-1-0",
+          "moves": 7,
+          "owners": [
+            "Drew Eckler",
+            "Andrew Eckler"
+          ],
+          "pa": 396.46,
+          "pf": 286.6,
+          "playoffPct": 22,
+          "record": "0-3-0",
+          "streak": "L3",
+          "team": "McConkey Kong",
+          "winPct": 0
+        }
+      ]
+    }
+  }
+}

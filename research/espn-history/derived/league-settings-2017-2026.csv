@@ -1,0 +1,2360 @@
+season,table_index,headers,row_index,field,value
+2017,0,,1,League Name,row fast eat ass
+2017,0,,2,Number of Teams,12
+2017,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2017,0,,4,Format,League Manager
+2017,0,,5,Make League Viewable to Public,No
+2017,0,,6,Auto Reactivate,No
+2017,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2017,1,,1,Draft Type,Snake
+2017,1,,2,Draft Date,"Sep 6, 2017 @ 1:00 AM GMT+8"
+2017,1,,3,Time Per Pick,90 seconds
+2017,1,,4,Draft Order,Manually Set by League Manager
+2017,1,,5,Allow Draft Pick Trading,No
+2017,2,,1,Roster Size,17
+2017,2,,2,Total Starters,10
+2017,2,,3,Total on Bench,7 (1 IR)
+2017,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2017,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2017,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),3 | 8
+2017,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2017,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2017,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2017,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2017,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2017,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2017,4,,1,Passing,
+2017,4,,2,"Passing Yards (PY)
+0.04",
+2017,4,,3,"TD Pass (PTD)
+4",
+2017,4,,4,"Interceptions Thrown (INT)
+-2",
+2017,4,,5,"2pt Passing Conversion (2PC)
+2",
+2017,5,,1,Rushing,
+2017,5,,2,"Rushing Yards (RY)
+0.1",
+2017,5,,3,"TD Rush (RTD)
+6",
+2017,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2017,5,,5,,
+2017,6,,1,Receiving,
+2017,6,,2,"Receiving Yards (REY)
+0.1",
+2017,6,,3,"Each reception (REC)
+1",
+2017,6,,4,"TD Reception (RETD)
+6",
+2017,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2017,7,,1,Kicking,
+2017,7,,2,"Each PAT Made (PAT)
+1",
+2017,7,,3,"Total FG Missed (FGM)
+-1",
+2017,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2017,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2017,8,,1,Team Defense / Special Teams,
+2017,8,,2,"Kickoff Return TD (KRTD)
+6",
+2017,8,,3,"Punt Return TD (PRTD)
+6",
+2017,8,,4,"Interception Return TD (INTTD)
+6",
+2017,8,,5,"Fumble Return TD (FRTD)
+6",
+2017,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2017,8,,7,"2pt Return (2PTRET)
+2",
+2017,8,,8,"1pt Safety (1PSF)
+1",
+2017,8,,9,"Each Sack (SK)
+1",
+2017,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2017,8,,11,"Each Interception (INT)
+2",
+2017,8,,12,"Each Fumble Recovered (FR)
+2",
+2017,8,,13,"Each Safety (SF)
+2",
+2017,8,,14,"0 points allowed (PA0)
+5",
+2017,8,,15,"1-6 points allowed (PA1)
+4",
+2017,8,,16,"7-13 points allowed (PA7)
+3",
+2017,8,,17,"14-17 points allowed (PA14)
+1",
+2017,8,,18,"28-34 points allowed (PA28)
+-1",
+2017,8,,19,"35-45 points allowed (PA35)
+-3",
+2017,8,,20,"46+ points allowed (PA46)
+-5",
+2017,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2017,8,,22,"100-199 total yards allowed (YA199)
+3",
+2017,8,,23,"200-299 total yards allowed (YA299)
+2",
+2017,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2017,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2017,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2017,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2017,8,,28,"550+ total yards allowed (YA550)
+-7",
+2017,9,,1,Miscellaneous,
+2017,9,,2,"Kickoff Return TD (KRTD)
+6",
+2017,9,,3,"Punt Return TD (PRTD)
+6",
+2017,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2017,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2017,9,,6,"Interception Return TD (INTTD)
+6",
+2017,9,,7,"Fumble Return TD (FRTD)
+6",
+2017,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2017,9,,9,"2pt Return (2PTRET)
+2",
+2017,9,,10,"1pt Safety (1PSF)
+1",
+2017,9,,11,,
+2017,9,,12,,
+2017,9,,13,,
+2017,9,,14,,
+2017,9,,15,,
+2017,9,,16,,
+2017,9,,17,,
+2017,9,,18,,
+2017,9,,19,,
+2017,9,,20,,
+2017,9,,21,,
+2017,9,,22,,
+2017,9,,23,,
+2017,9,,24,,
+2017,9,,25,,
+2017,9,,26,,
+2017,9,,27,,
+2017,9,,28,,
+2017,10,EAST | WEST | CENTRAL,1,"Tom's Deflated Balls
+KAREEM THE DREAM
+The Juice Is Loose
+Team Seattle","Tom's Deflated Balls | KAREEM THE DREAM | The Juice Is Loose | Team Seattle | Acute Gronkitis
+Rex On Rex
+Team Subbukumar
+Team Ryan | Acute Gronkitis | Rex On Rex | Team Subbukumar | Team Ryan | The Ballad of Younghoe Koo
+Team Eckler
+Rigga Please
+THE EMPIRE DID NOTHING WRONG!1 | The Ballad of Younghoe Koo | Team Eckler | Rigga Please | THE EMPIRE DID NOTHING WRONG!1"
+2017,10,EAST | WEST | CENTRAL,2,Tom's Deflated Balls,
+2017,10,EAST | WEST | CENTRAL,3,KAREEM THE DREAM,
+2017,10,EAST | WEST | CENTRAL,4,The Juice Is Loose,
+2017,10,EAST | WEST | CENTRAL,5,Team Seattle,
+2017,10,EAST | WEST | CENTRAL,6,Acute Gronkitis,
+2017,10,EAST | WEST | CENTRAL,7,Rex On Rex,
+2017,10,EAST | WEST | CENTRAL,8,Team Subbukumar,
+2017,10,EAST | WEST | CENTRAL,9,Team Ryan,
+2017,10,EAST | WEST | CENTRAL,10,The Ballad of Younghoe Koo,
+2017,10,EAST | WEST | CENTRAL,11,Team Eckler,
+2017,10,EAST | WEST | CENTRAL,12,Rigga Please,
+2017,10,EAST | WEST | CENTRAL,13,THE EMPIRE DID NOTHING WRONG!1,
+2017,11,,1,Tom's Deflated Balls,
+2017,11,,2,KAREEM THE DREAM,
+2017,11,,3,The Juice Is Loose,
+2017,11,,4,Team Seattle,
+2017,12,,1,Acute Gronkitis,
+2017,12,,2,Rex On Rex,
+2017,12,,3,Team Subbukumar,
+2017,12,,4,Team Ryan,
+2017,13,,1,The Ballad of Younghoe Koo,
+2017,13,,2,Team Eckler,
+2017,13,,3,Rigga Please,
+2017,13,,4,THE EMPIRE DID NOTHING WRONG!1,
+2017,14,,1,Observe ESPN's Undroppable Players List,Yes
+2017,14,,2,Player Universe,NFL
+2017,15,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2017,15,,2,Player Acquisition System,Waivers
+2017,15,,3,Season Acquisition Limit,No Limit
+2017,15,,4,Waiver Period,1 Day
+2017,15,,5,Waiver Order,Reset Each Week to Inverse Order of Standings
+2017,15,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2017,16,,1,Trade Limit,No Limit
+2017,16,,2,Trade Deadline,"Nov 22, 2017 @ 5:00 PM GMT+8"
+2017,16,,3,Trade Review Period,2 Days
+2017,16,,4,Votes Required to Veto Trade,4
+2017,17,,1,Use Keepers for 2017 Season,No
+2017,17,,2,Use Keepers for 2018 Season,No
+2017,18,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2017,18,,2,Weeks Per Matchup,1
+2017,18,,3,Regular Season Matchups,14
+2017,18,,4,Matchup Tie Breaker,No tie breakers
+2017,18,,5,Home Field Advantage,None
+2017,18,,6,Bonus Wins and Losses,No
+2017,19,,1,Playoff Teams,6
+2017,19,,2,Weeks In Round 1 Playoff Matchup,1
+2017,19,,3,Weeks In Round 2 Playoff Matchup,1
+2017,19,,4,Weeks In Championship Round,1
+2017,19,,5,Playoff Seeding Tie Breaker,Head to Head Record
+2017,19,,6,Playoff Home Field Advantage,None
+2017,19,,7,Allow for Playoff Bracket Reseeding,Off
+2017,19,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2017,19,,9,Consolation Ladder,Yes
+2018,0,,1,League Name,row fast eat ass s2
+2018,0,,2,Number of Teams,12
+2018,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2018,0,,4,Format,League Manager
+2018,0,,5,Make League Viewable to Public,No
+2018,0,,6,Auto Reactivate,No
+2018,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2018,1,,1,Draft Type,Snake
+2018,1,,2,Draft Date,"Aug 28, 2018 @ 2:00 AM GMT+8"
+2018,1,,3,Time Per Pick,90 seconds
+2018,1,,4,Draft Order,Manually Set by League Manager
+2018,1,,5,Allow Draft Pick Trading,Yes
+2018,2,,1,Roster Size,16
+2018,2,,2,Total Starters,9
+2018,2,,3,Total on Bench,7 (1 IR)
+2018,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2018,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2018,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2018,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2018,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2018,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2018,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2018,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2018,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2018,4,,1,Passing,
+2018,4,,2,"Every 25 passing yards (PY25)
+1",
+2018,4,,3,"TD Pass (PTD)
+4",
+2018,4,,4,"Interceptions Thrown (INT)
+-2",
+2018,4,,5,"2pt Passing Conversion (2PC)
+2",
+2018,5,,1,Rushing,
+2018,5,,2,"Every 10 rushing yards (RY10)
+1",
+2018,5,,3,"TD Rush (RTD)
+6",
+2018,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2018,5,,5,,
+2018,6,,1,Receiving,
+2018,6,,2,"Every 10 receiving yards (REY10)
+1",
+2018,6,,3,"Each reception (REC)
+1",
+2018,6,,4,"TD Reception (RETD)
+6",
+2018,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2018,7,,1,Kicking,
+2018,7,,2,"Each PAT Made (PAT)
+1",
+2018,7,,3,"Total FG Missed (FGM)
+-1",
+2018,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2018,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2018,8,,1,Team Defense / Special Teams,
+2018,8,,2,"Kickoff Return TD (KRTD)
+6",
+2018,8,,3,"Punt Return TD (PRTD)
+6",
+2018,8,,4,"Interception Return TD (INTTD)
+6",
+2018,8,,5,"Fumble Return TD (FRTD)
+6",
+2018,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2018,8,,7,"2pt Return (2PTRET)
+2",
+2018,8,,8,"1pt Safety (1PSF)
+1",
+2018,8,,9,"Each Sack (SK)
+1",
+2018,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2018,8,,11,"Each Interception (INT)
+2",
+2018,8,,12,"Each Fumble Recovered (FR)
+2",
+2018,8,,13,"Each Safety (SF)
+2",
+2018,8,,14,"0 points allowed (PA0)
+5",
+2018,8,,15,"1-6 points allowed (PA1)
+4",
+2018,8,,16,"7-13 points allowed (PA7)
+3",
+2018,8,,17,"14-17 points allowed (PA14)
+1",
+2018,8,,18,"28-34 points allowed (PA28)
+-1",
+2018,8,,19,"35-45 points allowed (PA35)
+-3",
+2018,8,,20,"46+ points allowed (PA46)
+-5",
+2018,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2018,8,,22,"100-199 total yards allowed (YA199)
+3",
+2018,8,,23,"200-299 total yards allowed (YA299)
+2",
+2018,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2018,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2018,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2018,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2018,8,,28,"550+ total yards allowed (YA550)
+-7",
+2018,9,,1,Miscellaneous,
+2018,9,,2,"Kickoff Return TD (KRTD)
+6",
+2018,9,,3,"Punt Return TD (PRTD)
+6",
+2018,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2018,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2018,9,,6,"Interception Return TD (INTTD)
+6",
+2018,9,,7,"Fumble Return TD (FRTD)
+6",
+2018,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2018,9,,9,"2pt Return (2PTRET)
+2",
+2018,9,,10,"1pt Safety (1PSF)
+1",
+2018,9,,11,,
+2018,9,,12,,
+2018,9,,13,,
+2018,9,,14,,
+2018,9,,15,,
+2018,9,,16,,
+2018,9,,17,,
+2018,9,,18,,
+2018,9,,19,,
+2018,9,,20,,
+2018,9,,21,,
+2018,9,,22,,
+2018,9,,23,,
+2018,9,,24,,
+2018,9,,25,,
+2018,9,,26,,
+2018,9,,27,,
+2018,9,,28,,
+2018,10,EAST | WEST | CENTRAL,1,"The Ballad of Younghoe Koo
+Team Goff Balls
+The Juice Is Loose
+Team Ryan","The Ballad of Younghoe Koo | Team Goff Balls | The Juice Is Loose | Team Ryan | Tom's Deflated Balls
+Rex On Rex
+Team Seattle
+THE EMPIRE DID NOTHING WRONG!1 | Tom's Deflated Balls | Rex On Rex | Team Seattle | THE EMPIRE DID NOTHING WRONG!1 | The Bake Show
+Newtonâs Law of Winning
+Rigga Please
+Juulio Jones | The Bake Show | Newtonâs Law of Winning | Rigga Please | Juulio Jones"
+2018,10,EAST | WEST | CENTRAL,2,The Ballad of Younghoe Koo,
+2018,10,EAST | WEST | CENTRAL,3,Team Goff Balls,
+2018,10,EAST | WEST | CENTRAL,4,The Juice Is Loose,
+2018,10,EAST | WEST | CENTRAL,5,Team Ryan,
+2018,10,EAST | WEST | CENTRAL,6,Tom's Deflated Balls,
+2018,10,EAST | WEST | CENTRAL,7,Rex On Rex,
+2018,10,EAST | WEST | CENTRAL,8,Team Seattle,
+2018,10,EAST | WEST | CENTRAL,9,THE EMPIRE DID NOTHING WRONG!1,
+2018,10,EAST | WEST | CENTRAL,10,The Bake Show,
+2018,10,EAST | WEST | CENTRAL,11,Newtonâs Law of Winning,
+2018,10,EAST | WEST | CENTRAL,12,Rigga Please,
+2018,10,EAST | WEST | CENTRAL,13,Juulio Jones,
+2018,11,,1,The Ballad of Younghoe Koo,
+2018,11,,2,Team Goff Balls,
+2018,11,,3,The Juice Is Loose,
+2018,11,,4,Team Ryan,
+2018,12,,1,Tom's Deflated Balls,
+2018,12,,2,Rex On Rex,
+2018,12,,3,Team Seattle,
+2018,12,,4,THE EMPIRE DID NOTHING WRONG!1,
+2018,13,,1,The Bake Show,
+2018,13,,2,Newtonâs Law of Winning,
+2018,13,,3,Rigga Please,
+2018,13,,4,Juulio Jones,
+2018,14,,1,Observe ESPN's Undroppable Players List,Yes
+2018,14,,2,Player Universe,NFL
+2018,15,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2018,15,,2,Player Acquisition System,Waivers
+2018,15,,3,Season Acquisition Limit,No Limit
+2018,15,,4,Waiver Period,1 Day
+2018,15,,5,Waiver Order,Reset Each Week to Inverse Order of Standings
+2018,15,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2018,16,,1,Trade Limit,No Limit
+2018,16,,2,Trade Deadline,"Nov 21, 2018 @ 5:00 PM GMT+8"
+2018,16,,3,Trade Review Period,3 Days
+2018,16,,4,Votes Required to Veto Trade,4
+2018,17,,1,Use Keepers for 2018 Season,No
+2018,17,,2,Use Keepers for 2019 Season,Yes
+2018,17,,3,2019 Keepers Per Team,1
+2018,17,,4,2019 Keeper Lock Date,"Aug 19, 2019 @ 5:00 AM GMT+8"
+2018,18,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2018,18,,2,Weeks Per Matchup,1
+2018,18,,3,Regular Season Matchups,13
+2018,18,,4,Matchup Tie Breaker,No tie breakers
+2018,18,,5,Home Field Advantage,None
+2018,18,,6,Bonus Wins and Losses,No
+2018,19,,1,Playoff Teams,6
+2018,19,,2,Weeks In Round 1 Playoff Matchup,1
+2018,19,,3,Weeks In Round 2 Playoff Matchup,1
+2018,19,,4,Weeks In Championship Round,1
+2018,19,,5,Playoff Seeding Tie Breaker,Total Points For
+2018,19,,6,Playoff Home Field Advantage,None
+2018,19,,7,Allow for Playoff Bracket Reseeding,Off
+2018,19,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2018,19,,9,Consolation Ladder,Yes
+2019,0,,1,League Name,row fast eat ass s2
+2019,0,,2,Number of Teams,12
+2019,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2019,0,,4,Format,League Manager
+2019,0,,5,Make League Viewable to Public,No
+2019,0,,6,Auto Reactivate,No
+2019,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2019,1,,1,Draft Type,Snake
+2019,1,,2,Draft Date,"Aug 26, 2019 @ 8:00 AM GMT+8"
+2019,1,,3,Time Per Pick,90 seconds
+2019,1,,4,Draft Order,Manually Set by League Manager
+2019,1,,5,Allow Draft Pick Trading,No
+2019,2,,1,Roster Size,16
+2019,2,,2,Total Starters,9
+2019,2,,3,Total on Bench,7 (1 IR)
+2019,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2019,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2019,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2019,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2019,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2019,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2019,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2019,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2019,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2019,4,,1,Passing,
+2019,4,,2,"Every 25 passing yards (PY25)
+1",
+2019,4,,3,"TD Pass (PTD)
+4",
+2019,4,,4,"Interceptions Thrown (INT)
+-2",
+2019,4,,5,"2pt Passing Conversion (2PC)
+2",
+2019,5,,1,Rushing,
+2019,5,,2,"Every 10 rushing yards (RY10)
+1",
+2019,5,,3,"TD Rush (RTD)
+6",
+2019,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2019,5,,5,,
+2019,6,,1,Receiving,
+2019,6,,2,"Every 10 receiving yards (REY10)
+1",
+2019,6,,3,"Each reception (REC)
+1",
+2019,6,,4,"TD Reception (RETD)
+6",
+2019,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2019,7,,1,Kicking,
+2019,7,,2,"Each PAT Made (PAT)
+1",
+2019,7,,3,"Total FG Missed (FGM)
+-1",
+2019,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2019,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2019,8,,1,Team Defense / Special Teams,
+2019,8,,2,"Kickoff Return TD (KRTD)
+6",
+2019,8,,3,"Punt Return TD (PRTD)
+6",
+2019,8,,4,"Interception Return TD (INTTD)
+6",
+2019,8,,5,"Fumble Return TD (FRTD)
+6",
+2019,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2019,8,,7,"2pt Return (2PTRET)
+2",
+2019,8,,8,"1pt Safety (1PSF)
+1",
+2019,8,,9,"Each Sack (SK)
+1",
+2019,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2019,8,,11,"Each Interception (INT)
+2",
+2019,8,,12,"Each Fumble Recovered (FR)
+2",
+2019,8,,13,"Each Safety (SF)
+2",
+2019,8,,14,"0 points allowed (PA0)
+5",
+2019,8,,15,"1-6 points allowed (PA1)
+4",
+2019,8,,16,"7-13 points allowed (PA7)
+3",
+2019,8,,17,"14-17 points allowed (PA14)
+1",
+2019,8,,18,"28-34 points allowed (PA28)
+-1",
+2019,8,,19,"35-45 points allowed (PA35)
+-3",
+2019,8,,20,"46+ points allowed (PA46)
+-5",
+2019,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2019,8,,22,"100-199 total yards allowed (YA199)
+3",
+2019,8,,23,"200-299 total yards allowed (YA299)
+2",
+2019,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2019,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2019,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2019,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2019,8,,28,"550+ total yards allowed (YA550)
+-7",
+2019,9,,1,Miscellaneous,
+2019,9,,2,"Kickoff Return TD (KRTD)
+6",
+2019,9,,3,"Punt Return TD (PRTD)
+6",
+2019,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2019,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2019,9,,6,"Interception Return TD (INTTD)
+6",
+2019,9,,7,"Fumble Return TD (FRTD)
+6",
+2019,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2019,9,,9,"2pt Return (2PTRET)
+2",
+2019,9,,10,"1pt Safety (1PSF)
+1",
+2019,9,,11,,
+2019,9,,12,,
+2019,9,,13,,
+2019,9,,14,,
+2019,9,,15,,
+2019,9,,16,,
+2019,9,,17,,
+2019,9,,18,,
+2019,9,,19,,
+2019,9,,20,,
+2019,9,,21,,
+2019,9,,22,,
+2019,9,,23,,
+2019,9,,24,,
+2019,9,,25,,
+2019,9,,26,,
+2019,9,,27,,
+2019,9,,28,,
+2019,10,EAST | WEST | CENTRAL,1,"The Guice Is Loose
+The Bake Show
+Rex On Rex
+Team Ryan","The Guice Is Loose | The Bake Show | Rex On Rex | Team Ryan | Danny Dimes
+David Ants In My Eyes Johnson
+Team Seattle
+THE EMPIRE DID NOTHING WRONG!1 | Danny Dimes | David Ants In My Eyes Johnson | Team Seattle | THE EMPIRE DID NOTHING WRONG!1 | Team Goff Balls
+Rigga Please
+The Juice Is Loose
+Juulio Jones | Team Goff Balls | Rigga Please | The Juice Is Loose | Juulio Jones"
+2019,10,EAST | WEST | CENTRAL,2,The Guice Is Loose,
+2019,10,EAST | WEST | CENTRAL,3,The Bake Show,
+2019,10,EAST | WEST | CENTRAL,4,Rex On Rex,
+2019,10,EAST | WEST | CENTRAL,5,Team Ryan,
+2019,10,EAST | WEST | CENTRAL,6,Danny Dimes,
+2019,10,EAST | WEST | CENTRAL,7,David Ants In My Eyes Johnson,
+2019,10,EAST | WEST | CENTRAL,8,Team Seattle,
+2019,10,EAST | WEST | CENTRAL,9,THE EMPIRE DID NOTHING WRONG!1,
+2019,10,EAST | WEST | CENTRAL,10,Team Goff Balls,
+2019,10,EAST | WEST | CENTRAL,11,Rigga Please,
+2019,10,EAST | WEST | CENTRAL,12,The Juice Is Loose,
+2019,10,EAST | WEST | CENTRAL,13,Juulio Jones,
+2019,11,,1,The Guice Is Loose,
+2019,11,,2,The Bake Show,
+2019,11,,3,Rex On Rex,
+2019,11,,4,Team Ryan,
+2019,12,,1,Danny Dimes,
+2019,12,,2,David Ants In My Eyes Johnson,
+2019,12,,3,Team Seattle,
+2019,12,,4,THE EMPIRE DID NOTHING WRONG!1,
+2019,13,,1,Team Goff Balls,
+2019,13,,2,Rigga Please,
+2019,13,,3,The Juice Is Loose,
+2019,13,,4,Juulio Jones,
+2019,14,,1,Observe ESPN's Undroppable Players List,Yes
+2019,14,,2,Player Universe,NFL
+2019,15,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2019,15,,2,Player Acquisition System,Waivers
+2019,15,,3,Season Acquisition Limit,No Limit
+2019,15,,4,Waiver Period,1 Day
+2019,15,,5,Waiver Order,Reset Each Week to Inverse Order of Standings
+2019,15,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2019,16,,1,Trade Limit,No Limit
+2019,16,,2,Trade Deadline,"Nov 22, 2019 @ 4:00 PM GMT+8"
+2019,16,,3,Trade Review Period,3 Days
+2019,16,,4,Votes Required to Veto Trade,4
+2019,17,,1,Use Keepers for 2019 Season,Yes
+2019,17,,2,2019 Keepers Per Team,1
+2019,17,,3,2019 Keeper Lock Date,"Aug 26, 2019 @ 7:00 AM GMT+8"
+2019,17,,4,2019 Keeper Designated Round,Beginning of Draft (Default)
+2019,17,,5,Use Keepers for 2020 Season,Yes
+2019,17,,6,2020 Keepers Per Team,1
+2019,17,,7,2020 Keeper Lock Date,"Aug 19, 2020 @ 5:00 AM GMT+8"
+2019,18,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2019,18,,2,Weeks Per Matchup,1
+2019,18,,3,Regular Season Matchups,13
+2019,18,,4,Matchup Tie Breaker,No tie breakers
+2019,18,,5,Home Field Advantage,None
+2019,18,,6,Bonus Wins and Losses,No
+2019,19,,1,Playoff Teams,6
+2019,19,,2,Weeks In Round 1 Playoff Matchup,1
+2019,19,,3,Weeks In Round 2 Playoff Matchup,1
+2019,19,,4,Weeks In Championship Round,1
+2019,19,,5,Playoff Seeding Tie Breaker,Head to Head Record
+2019,19,,6,Playoff Home Field Advantage,None
+2019,19,,7,Allow for Playoff Bracket Reseeding,Off
+2019,19,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2019,19,,9,Consolation Ladder,Yes
+2020,0,,1,League Name,row fast eat ass s2
+2020,0,,2,Number of Teams,12
+2020,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2020,0,,4,Format,League Manager
+2020,0,,5,Make League Viewable to Public,No
+2020,0,,6,Auto Reactivate,No
+2020,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2020,1,,1,Draft Type,Snake
+2020,1,,2,Draft Date,"Sep 7, 2020 @ 7:45 AM GMT+8"
+2020,1,,3,Time Per Pick,90 seconds
+2020,1,,4,Draft Order,Manually Set by League Manager
+2020,1,,5,Allow Draft Pick Trading,No
+2020,2,,1,Roster Size,16
+2020,2,,2,Total Starters,9
+2020,2,,3,Total on Bench,7 (1 IR)
+2020,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2020,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2020,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2020,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2020,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2020,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2020,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2020,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2020,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2020,4,,1,Passing,
+2020,4,,2,"Passing Yards (PY)
+0.04",
+2020,4,,3,"TD Pass (PTD)
+4",
+2020,4,,4,"Interceptions Thrown (INT)
+-2",
+2020,4,,5,"2pt Passing Conversion (2PC)
+2",
+2020,5,,1,Rushing,
+2020,5,,2,"Rushing Yards (RY)
+0.1",
+2020,5,,3,"TD Rush (RTD)
+6",
+2020,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2020,5,,5,,
+2020,6,,1,Receiving,
+2020,6,,2,"Receiving Yards (REY)
+0.1",
+2020,6,,3,"Each reception (REC)
+1",
+2020,6,,4,"TD Reception (RETD)
+6",
+2020,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2020,6,,6,,
+2020,6,,7,,
+2020,7,,1,Kicking,
+2020,7,,2,"Each PAT Made (PAT)
+1",
+2020,7,,3,"Total FG Missed (FGM)
+-1",
+2020,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2020,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2020,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2020,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2020,8,,1,Team Defense / Special Teams,
+2020,8,,2,"Kickoff Return TD (KRTD)
+6",
+2020,8,,3,"Punt Return TD (PRTD)
+6",
+2020,8,,4,"Interception Return TD (INTTD)
+6",
+2020,8,,5,"Fumble Return TD (FRTD)
+6",
+2020,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2020,8,,7,"2pt Return (2PTRET)
+2",
+2020,8,,8,"1pt Safety (1PSF)
+1",
+2020,8,,9,"Each Sack (SK)
+1",
+2020,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2020,8,,11,"Each Interception (INT)
+2",
+2020,8,,12,"Each Fumble Recovered (FR)
+2",
+2020,8,,13,"Each Safety (SF)
+2",
+2020,8,,14,"0 points allowed (PA0)
+5",
+2020,8,,15,"1-6 points allowed (PA1)
+4",
+2020,8,,16,"7-13 points allowed (PA7)
+3",
+2020,8,,17,"14-17 points allowed (PA14)
+1",
+2020,8,,18,"28-34 points allowed (PA28)
+-1",
+2020,8,,19,"35-45 points allowed (PA35)
+-3",
+2020,8,,20,"46+ points allowed (PA46)
+-5",
+2020,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2020,8,,22,"100-199 total yards allowed (YA199)
+3",
+2020,8,,23,"200-299 total yards allowed (YA299)
+2",
+2020,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2020,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2020,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2020,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2020,8,,28,"550+ total yards allowed (YA550)
+-7",
+2020,9,,1,Miscellaneous,
+2020,9,,2,"Kickoff Return TD (KRTD)
+6",
+2020,9,,3,"Punt Return TD (PRTD)
+6",
+2020,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2020,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2020,9,,6,"Interception Return TD (INTTD)
+6",
+2020,9,,7,"Fumble Return TD (FRTD)
+6",
+2020,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2020,9,,9,"2pt Return (2PTRET)
+2",
+2020,9,,10,"1pt Safety (1PSF)
+1",
+2020,9,,11,,
+2020,9,,12,,
+2020,9,,13,,
+2020,9,,14,,
+2020,9,,15,,
+2020,9,,16,,
+2020,9,,17,,
+2020,9,,18,,
+2020,9,,19,,
+2020,9,,20,,
+2020,9,,21,,
+2020,9,,22,,
+2020,9,,23,,
+2020,9,,24,,
+2020,9,,25,,
+2020,9,,26,,
+2020,9,,27,,
+2020,9,,28,,
+2020,10,EAST | WEST | CENTRAL,1,"Ninth Circle of Helaire
+THE 🅱️AKE SHOW
+Rex On Rex
+Team Ryan","Ninth Circle of Helaire | THE 🅱️AKE SHOW | Rex On Rex | Team Ryan | Whats up Mahomie
+Davante's Inferno
+Team Seattle
+THE EMPIRE DID NOTHING WRONG!1 | Whats up Mahomie | Davante's Inferno | Team Seattle | THE EMPIRE DID NOTHING WRONG!1 | Team Goff Balls
+Rigga Please
+The Juice Is Loose
+Juulio Jones | Team Goff Balls | Rigga Please | The Juice Is Loose | Juulio Jones"
+2020,10,EAST | WEST | CENTRAL,2,Ninth Circle of Helaire,
+2020,10,EAST | WEST | CENTRAL,3,THE 🅱️AKE SHOW,
+2020,10,EAST | WEST | CENTRAL,4,Rex On Rex,
+2020,10,EAST | WEST | CENTRAL,5,Team Ryan,
+2020,10,EAST | WEST | CENTRAL,6,Whats up Mahomie,
+2020,10,EAST | WEST | CENTRAL,7,Davante's Inferno,
+2020,10,EAST | WEST | CENTRAL,8,Team Seattle,
+2020,10,EAST | WEST | CENTRAL,9,THE EMPIRE DID NOTHING WRONG!1,
+2020,10,EAST | WEST | CENTRAL,10,Team Goff Balls,
+2020,10,EAST | WEST | CENTRAL,11,Rigga Please,
+2020,10,EAST | WEST | CENTRAL,12,The Juice Is Loose,
+2020,10,EAST | WEST | CENTRAL,13,Juulio Jones,
+2020,11,,1,Ninth Circle of Helaire,
+2020,11,,2,THE 🅱️AKE SHOW,
+2020,11,,3,Rex On Rex,
+2020,11,,4,Team Ryan,
+2020,12,,1,Whats up Mahomie,
+2020,12,,2,Davante's Inferno,
+2020,12,,3,Team Seattle,
+2020,12,,4,THE EMPIRE DID NOTHING WRONG!1,
+2020,13,,1,Team Goff Balls,
+2020,13,,2,Rigga Please,
+2020,13,,3,The Juice Is Loose,
+2020,13,,4,Juulio Jones,
+2020,14,,1,Observe ESPN's Undroppable Players List,Yes
+2020,14,,2,Player Universe,NFL
+2020,15,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2020,15,,2,Player Acquisition System,Waivers
+2020,15,,3,Season Acquisition Limit,No Limit
+2020,15,,4,Waiver Period,1 Day
+2020,15,,5,Waiver Order,Reset Each Week to Inverse Order of Standings
+2020,15,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2020,16,,1,Trade Limit,No Limit
+2020,16,,2,Trade Deadline,"Nov 27, 2020 @ 4:00 PM GMT+8"
+2020,16,,3,Trade Review Period,3 Days
+2020,16,,4,Votes Required to Veto Trade,4
+2020,17,,1,Use Keepers for 2020 Season,No
+2020,17,,2,Use Keepers for 2021 Season,No
+2020,18,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2020,18,,2,Weeks Per Matchup,1
+2020,18,,3,Regular Season Matchups,13
+2020,18,,4,Matchup Tie Breaker,No tie breakers
+2020,18,,5,Home Field Advantage,None
+2020,18,,6,Bonus Wins and Losses,No
+2020,19,,1,Playoff Teams,6
+2020,19,,2,Weeks In Round 1 Playoff Matchup,1
+2020,19,,3,Weeks In Round 2 Playoff Matchup,1
+2020,19,,4,Weeks In Championship Round,1
+2020,19,,5,Playoff Seeding Tie Breaker,Head to Head Record
+2020,19,,6,Playoff Home Field Advantage,None
+2020,19,,7,Allow for Playoff Bracket Reseeding,Off
+2020,19,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2020,19,,9,Consolation Ladder,Yes
+2021,0,,1,League Name,row fast eat ass s5
+2021,0,,2,Number of Teams,12
+2021,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2021,0,,4,Format,League Manager
+2021,0,,5,Make League Viewable to Public,No
+2021,0,,6,Auto Reactivate,No
+2021,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2021,1,,1,Draft Type,Snake
+2021,1,,2,Draft Date,"Sep 7, 2021 @ 7:00 AM GMT+8"
+2021,1,,3,Time Per Pick,90 seconds
+2021,1,,4,Draft Order,Randomized One Hour Prior to Draft Time
+2021,2,,1,Roster Size,16
+2021,2,,2,Total Starters,9
+2021,2,,3,Total on Bench,7 (1 IR)
+2021,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2021,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2021,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2021,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2021,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2021,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2021,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2021,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2021,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2021,4,,1,Passing,
+2021,4,,2,"Passing Yards (PY)
+0.04",
+2021,4,,3,"TD Pass (PTD)
+4",
+2021,4,,4,"Interceptions Thrown (INT)
+-2",
+2021,4,,5,"2pt Passing Conversion (2PC)
+2",
+2021,5,,1,Rushing,
+2021,5,,2,"Rushing Yards (RY)
+0.1",
+2021,5,,3,"TD Rush (RTD)
+6",
+2021,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2021,5,,5,,
+2021,6,,1,Receiving,
+2021,6,,2,"Receiving Yards (REY)
+0.1",
+2021,6,,3,"Each reception (REC)
+1",
+2021,6,,4,"TD Reception (RETD)
+6",
+2021,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2021,6,,6,,
+2021,6,,7,,
+2021,7,,1,Kicking,
+2021,7,,2,"Each PAT Made (PAT)
+1",
+2021,7,,3,"Total FG Missed (FGM)
+-1",
+2021,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2021,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2021,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2021,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2021,8,,1,Team Defense / Special Teams,
+2021,8,,2,"Kickoff Return TD (KRTD)
+6",
+2021,8,,3,"Punt Return TD (PRTD)
+6",
+2021,8,,4,"Interception Return TD (INTTD)
+6",
+2021,8,,5,"Fumble Return TD (FRTD)
+6",
+2021,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2021,8,,7,"2pt Return (2PTRET)
+2",
+2021,8,,8,"1pt Safety (1PSF)
+1",
+2021,8,,9,"Each Sack (SK)
+1",
+2021,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2021,8,,11,"Each Interception (INT)
+2",
+2021,8,,12,"Each Fumble Recovered (FR)
+2",
+2021,8,,13,"Each Safety (SF)
+2",
+2021,8,,14,"0 points allowed (PA0)
+5",
+2021,8,,15,"1-6 points allowed (PA1)
+4",
+2021,8,,16,"7-13 points allowed (PA7)
+3",
+2021,8,,17,"14-17 points allowed (PA14)
+1",
+2021,8,,18,"28-34 points allowed (PA28)
+-1",
+2021,8,,19,"35-45 points allowed (PA35)
+-3",
+2021,8,,20,"46+ points allowed (PA46)
+-5",
+2021,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2021,8,,22,"100-199 total yards allowed (YA199)
+3",
+2021,8,,23,"200-299 total yards allowed (YA299)
+2",
+2021,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2021,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2021,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2021,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2021,8,,28,"550+ total yards allowed (YA550)
+-7",
+2021,9,,1,Miscellaneous,
+2021,9,,2,"Kickoff Return TD (KRTD)
+6",
+2021,9,,3,"Punt Return TD (PRTD)
+6",
+2021,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2021,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2021,9,,6,"Interception Return TD (INTTD)
+6",
+2021,9,,7,"Fumble Return TD (FRTD)
+6",
+2021,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2021,9,,9,"2pt Return (2PTRET)
+2",
+2021,9,,10,"1pt Safety (1PSF)
+1",
+2021,9,,11,,
+2021,9,,12,,
+2021,9,,13,,
+2021,9,,14,,
+2021,9,,15,,
+2021,9,,16,,
+2021,9,,17,,
+2021,9,,18,,
+2021,9,,19,,
+2021,9,,20,,
+2021,9,,21,,
+2021,9,,22,,
+2021,9,,23,,
+2021,9,,24,,
+2021,9,,25,,
+2021,9,,26,,
+2021,9,,27,,
+2021,9,,28,,
+2021,10,EAST | WEST | CENTRAL,1,"Electric Bass
+THE 🅱️AKE SHOW
+Rex On Rex
+Team Ryan","Electric Bass | THE 🅱️AKE SHOW | Rex On Rex | Team Ryan | Justin Herbert
+Storm Coopers
+Team Seattle
+THE EMPIRE DID NOTHING WRONG!1 | Justin Herbert | Storm Coopers | Team Seattle | THE EMPIRE DID NOTHING WRONG!1 | Team Goff Balls
+cancelled -
+The Juice Is Loose
+Juulio Jones | Team Goff Balls | cancelled - | The Juice Is Loose | Juulio Jones"
+2021,10,EAST | WEST | CENTRAL,2,Electric Bass,
+2021,10,EAST | WEST | CENTRAL,3,THE 🅱️AKE SHOW,
+2021,10,EAST | WEST | CENTRAL,4,Rex On Rex,
+2021,10,EAST | WEST | CENTRAL,5,Team Ryan,
+2021,10,EAST | WEST | CENTRAL,6,Justin Herbert,
+2021,10,EAST | WEST | CENTRAL,7,Storm Coopers,
+2021,10,EAST | WEST | CENTRAL,8,Team Seattle,
+2021,10,EAST | WEST | CENTRAL,9,THE EMPIRE DID NOTHING WRONG!1,
+2021,10,EAST | WEST | CENTRAL,10,Team Goff Balls,
+2021,10,EAST | WEST | CENTRAL,11,cancelled -,
+2021,10,EAST | WEST | CENTRAL,12,The Juice Is Loose,
+2021,10,EAST | WEST | CENTRAL,13,Juulio Jones,
+2021,11,,1,Electric Bass,
+2021,11,,2,THE 🅱️AKE SHOW,
+2021,11,,3,Rex On Rex,
+2021,11,,4,Team Ryan,
+2021,12,,1,Justin Herbert,
+2021,12,,2,Storm Coopers,
+2021,12,,3,Team Seattle,
+2021,12,,4,THE EMPIRE DID NOTHING WRONG!1,
+2021,13,,1,Team Goff Balls,
+2021,13,,2,cancelled -,
+2021,13,,3,The Juice Is Loose,
+2021,13,,4,Juulio Jones,
+2021,14,,1,Observe ESPN's Undroppable Players List,Yes
+2021,14,,2,Player Universe,NFL
+2021,15,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2021,15,,2,Player Acquisition System,Waivers
+2021,15,,3,Season Acquisition Limit,No Limit
+2021,15,,4,Waiver Period,1 Day
+2021,15,,5,Waiver Order,"Move to Last After Claim, Never Reset Order"
+2021,15,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2021,16,,1,Trade Limit,No Limit
+2021,16,,2,Trade Deadline,"Dec 3, 2021 @ 4:00 PM GMT+8"
+2021,16,,3,Trade Review Period,2 Days
+2021,16,,4,Votes Required to Veto Trade,6
+2021,17,,1,Use Keepers for 2021 Season,No
+2021,17,,2,Use Keepers for 2022 Season,No
+2021,18,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2021,18,,2,Weeks Per Matchup,1
+2021,18,,3,Regular Season Matchups,14
+2021,18,,4,Matchup Tie Breaker,No tie breakers
+2021,18,,5,Home Field Advantage,None
+2021,18,,6,Bonus Wins and Losses,No
+2021,19,,1,Playoff Teams,6
+2021,19,,2,Weeks In Round 1 Playoff Matchup,1
+2021,19,,3,Weeks In Round 2 Playoff Matchup,1
+2021,19,,4,Weeks In Championship Round,1
+2021,19,,5,Playoff Seeding Tie Breaker,Head to Head Record
+2021,19,,6,Playoff Home Field Advantage,None
+2021,19,,7,Allow for Playoff Bracket Reseeding,Off
+2021,19,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2021,19,,9,Consolation Ladder,Yes
+2022,0,,1,League Name,row fast eat ass s5
+2022,0,,2,Number of Teams,12
+2022,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2022,0,,4,Format,League Manager
+2022,0,,5,Make League Viewable to Public,No
+2022,0,,6,Auto Reactivate,No
+2022,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2022,1,,1,Draft Type,Snake
+2022,1,,2,Draft Date,"Aug 31, 2022 @ 8:00 AM GMT+8"
+2022,1,,3,Time Per Pick,90 seconds
+2022,1,,4,Draft Order,Manually Set by League Manager
+2022,1,,5,Allow Draft Pick Trading,No
+2022,2,,1,Roster Size,16
+2022,2,,2,Total Starters,9
+2022,2,,3,Total on Bench,7 (1 IR)
+2022,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2022,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2022,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2022,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2022,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2022,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2022,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2022,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2022,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2022,4,,1,Passing,
+2022,4,,2,"Passing Yards (PY)
+0.04",
+2022,4,,3,"TD Pass (PTD)
+4",
+2022,4,,4,"Interceptions Thrown (INT)
+-2",
+2022,4,,5,"2pt Passing Conversion (2PC)
+2",
+2022,5,,1,Rushing,
+2022,5,,2,"Rushing Yards (RY)
+0.1",
+2022,5,,3,"TD Rush (RTD)
+6",
+2022,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2022,5,,5,,
+2022,6,,1,Receiving,
+2022,6,,2,"Receiving Yards (REY)
+0.1",
+2022,6,,3,"Each reception (REC)
+1",
+2022,6,,4,"TD Reception (RETD)
+6",
+2022,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2022,6,,6,,
+2022,6,,7,,
+2022,7,,1,Kicking,
+2022,7,,2,"Each PAT Made (PAT)
+1",
+2022,7,,3,"Total FG Missed (FGM)
+-1",
+2022,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2022,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2022,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2022,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2022,8,,1,Team Defense / Special Teams,
+2022,8,,2,"Kickoff Return TD (KRTD)
+6",
+2022,8,,3,"Punt Return TD (PRTD)
+6",
+2022,8,,4,"Interception Return TD (INTTD)
+6",
+2022,8,,5,"Fumble Return TD (FRTD)
+6",
+2022,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2022,8,,7,"2pt Return (2PTRET)
+2",
+2022,8,,8,"1pt Safety (1PSF)
+1",
+2022,8,,9,"Each Sack (SK)
+1",
+2022,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2022,8,,11,"Each Interception (INT)
+2",
+2022,8,,12,"Each Fumble Recovered (FR)
+2",
+2022,8,,13,"Each Safety (SF)
+2",
+2022,8,,14,"0 points allowed (PA0)
+5",
+2022,8,,15,"1-6 points allowed (PA1)
+4",
+2022,8,,16,"7-13 points allowed (PA7)
+3",
+2022,8,,17,"14-17 points allowed (PA14)
+1",
+2022,8,,18,"28-34 points allowed (PA28)
+-1",
+2022,8,,19,"35-45 points allowed (PA35)
+-3",
+2022,8,,20,"46+ points allowed (PA46)
+-5",
+2022,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2022,8,,22,"100-199 total yards allowed (YA199)
+3",
+2022,8,,23,"200-299 total yards allowed (YA299)
+2",
+2022,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2022,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2022,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2022,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2022,8,,28,"550+ total yards allowed (YA550)
+-7",
+2022,9,,1,Miscellaneous,
+2022,9,,2,"Kickoff Return TD (KRTD)
+6",
+2022,9,,3,"Punt Return TD (PRTD)
+6",
+2022,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2022,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2022,9,,6,"Interception Return TD (INTTD)
+6",
+2022,9,,7,"Fumble Return TD (FRTD)
+6",
+2022,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2022,9,,9,"2pt Return (2PTRET)
+2",
+2022,9,,10,"1pt Safety (1PSF)
+1",
+2022,9,,11,,
+2022,9,,12,,
+2022,9,,13,,
+2022,9,,14,,
+2022,9,,15,,
+2022,9,,16,,
+2022,9,,17,,
+2022,9,,18,,
+2022,9,,19,,
+2022,9,,20,,
+2022,9,,21,,
+2022,9,,22,,
+2022,9,,23,,
+2022,9,,24,,
+2022,9,,25,,
+2022,9,,26,,
+2022,9,,27,,
+2022,9,,28,,
+2022,10,EAST | WEST,1,"Allen Wrenches
+THE 🅱️AKE SHOW
+Team Goff Balls
+Diggs In a Blanket
+Rex On Rex
+Team Ryan","Allen Wrenches | THE 🅱️AKE SHOW | Team Goff Balls | Diggs In a Blanket | Rex On Rex | Team Ryan | Drake @ London O2
+Violence Of The Lambs
+Hunter Gatherer
+Team Seattle
+Juulio Jones
+THE EMPIRE DID NOTHING WRONG!1 | Drake @ London O2 | Violence Of The Lambs | Hunter Gatherer | Team Seattle | Juulio Jones | THE EMPIRE DID NOTHING WRONG!1"
+2022,10,EAST | WEST,2,Allen Wrenches,
+2022,10,EAST | WEST,3,THE 🅱️AKE SHOW,
+2022,10,EAST | WEST,4,Team Goff Balls,
+2022,10,EAST | WEST,5,Diggs In a Blanket,
+2022,10,EAST | WEST,6,Rex On Rex,
+2022,10,EAST | WEST,7,Team Ryan,
+2022,10,EAST | WEST,8,Drake @ London O2,
+2022,10,EAST | WEST,9,Violence Of The Lambs,
+2022,10,EAST | WEST,10,Hunter Gatherer,
+2022,10,EAST | WEST,11,Team Seattle,
+2022,10,EAST | WEST,12,Juulio Jones,
+2022,10,EAST | WEST,13,THE EMPIRE DID NOTHING WRONG!1,
+2022,11,,1,Allen Wrenches,
+2022,11,,2,THE 🅱️AKE SHOW,
+2022,11,,3,Team Goff Balls,
+2022,11,,4,Diggs In a Blanket,
+2022,11,,5,Rex On Rex,
+2022,11,,6,Team Ryan,
+2022,12,,1,Drake @ London O2,
+2022,12,,2,Violence Of The Lambs,
+2022,12,,3,Hunter Gatherer,
+2022,12,,4,Team Seattle,
+2022,12,,5,Juulio Jones,
+2022,12,,6,THE EMPIRE DID NOTHING WRONG!1,
+2022,13,,1,Observe ESPN's Undroppable Players List,Yes
+2022,13,,2,Player Universe,NFL
+2022,14,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2022,14,,2,Player Acquisition System,Waivers
+2022,14,,3,Season Acquisition Limit,No Limit
+2022,14,,4,Waiver Period,1 Day
+2022,14,,5,Waiver Order,"Move to Last After Claim, Never Reset Order"
+2022,14,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2022,15,,1,Trade Limit,No Limit
+2022,15,,2,Trade Deadline,"Dec 2, 2022 @ 4:00 PM GMT+8"
+2022,15,,3,Trade Review Period,2 Days
+2022,15,,4,Votes Required to Veto Trade,6
+2022,16,,1,Use Keepers for 2022 Season,No
+2022,16,,2,Use Keepers for 2023 Season,No
+2022,17,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2022,17,,2,Weeks Per Matchup,1
+2022,17,,3,Regular Season Matchups,14
+2022,17,,4,Matchup Tie Breaker,No tie breakers
+2022,17,,5,Home Field Advantage,None
+2022,17,,6,Bonus Wins and Losses,No
+2022,18,,1,Playoff Teams,6
+2022,18,,2,Weeks In Round 1 Playoff Matchup,1
+2022,18,,3,Weeks In Round 2 Playoff Matchup,1
+2022,18,,4,Weeks In Championship Round,1
+2022,18,,5,Playoff Seeding Tie Breaker,Head to Head Record
+2022,18,,6,Playoff Home Field Advantage,None
+2022,18,,7,Allow for Playoff Bracket Reseeding,Off
+2022,18,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2022,18,,9,Consolation Ladder,Yes
+2023,0,,1,League Name,row fast eat ass s7
+2023,0,,2,Number of Teams,12
+2023,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2023,0,,4,Format,League Manager
+2023,0,,5,Make League Viewable to Public,No
+2023,0,,6,Auto Reactivate,No
+2023,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2023,1,,1,Draft Type,Snake
+2023,1,,2,Draft Date,"Sep 6, 2023 @ 8:00 AM GMT+8"
+2023,1,,3,Time Per Pick,90 seconds
+2023,1,,4,Draft Order,Manually Set by League Manager
+2023,1,,5,Allow Draft Pick Trading,No
+2023,2,,1,Roster Size,16
+2023,2,,2,Total Starters,9
+2023,2,,3,Total on Bench,7 (1 IR)
+2023,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2023,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | No Limit
+2023,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2023,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2023,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2023,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2023,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2023,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2023,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2023,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2023,4,,1,Passing,
+2023,4,,2,"Passing Yards (PY)
+0.04",
+2023,4,,3,"TD Pass (PTD)
+4",
+2023,4,,4,"Interceptions Thrown (INT)
+-2",
+2023,4,,5,"2pt Passing Conversion (2PC)
+2",
+2023,5,,1,Rushing,
+2023,5,,2,"Rushing Yards (RY)
+0.1",
+2023,5,,3,"TD Rush (RTD)
+6",
+2023,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2023,5,,5,,
+2023,6,,1,Receiving,
+2023,6,,2,"Receiving Yards (REY)
+0.1",
+2023,6,,3,"Each reception (REC)
+1",
+2023,6,,4,"TD Reception (RETD)
+6",
+2023,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2023,6,,6,,
+2023,6,,7,,
+2023,7,,1,Kicking,
+2023,7,,2,"Each PAT Made (PAT)
+1",
+2023,7,,3,"Total FG Missed (FGM)
+-1",
+2023,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2023,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2023,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2023,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2023,8,,1,Team Defense / Special Teams,
+2023,8,,2,"Kickoff Return TD (KRTD)
+6",
+2023,8,,3,"Punt Return TD (PRTD)
+6",
+2023,8,,4,"Interception Return TD (INTTD)
+6",
+2023,8,,5,"Fumble Return TD (FRTD)
+6",
+2023,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2023,8,,7,"2pt Return (2PTRET)
+2",
+2023,8,,8,"1pt Safety (1PSF)
+1",
+2023,8,,9,"Each Sack (SK)
+1",
+2023,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2023,8,,11,"Each Interception (INT)
+2",
+2023,8,,12,"Each Fumble Recovered (FR)
+2",
+2023,8,,13,"Each Safety (SF)
+2",
+2023,8,,14,"0 points allowed (PA0)
+5",
+2023,8,,15,"1-6 points allowed (PA1)
+4",
+2023,8,,16,"7-13 points allowed (PA7)
+3",
+2023,8,,17,"14-17 points allowed (PA14)
+1",
+2023,8,,18,"28-34 points allowed (PA28)
+-1",
+2023,8,,19,"35-45 points allowed (PA35)
+-3",
+2023,8,,20,"46+ points allowed (PA46)
+-5",
+2023,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2023,8,,22,"100-199 total yards allowed (YA199)
+3",
+2023,8,,23,"200-299 total yards allowed (YA299)
+2",
+2023,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2023,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2023,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2023,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2023,8,,28,"550+ total yards allowed (YA550)
+-7",
+2023,9,,1,Miscellaneous,
+2023,9,,2,"Kickoff Return TD (KRTD)
+6",
+2023,9,,3,"Punt Return TD (PRTD)
+6",
+2023,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2023,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2023,9,,6,"Interception Return TD (INTTD)
+6",
+2023,9,,7,"Fumble Return TD (FRTD)
+6",
+2023,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2023,9,,9,"2pt Return (2PTRET)
+2",
+2023,9,,10,"1pt Safety (1PSF)
+1",
+2023,9,,11,,
+2023,9,,12,,
+2023,9,,13,,
+2023,9,,14,,
+2023,9,,15,,
+2023,9,,16,,
+2023,9,,17,,
+2023,9,,18,,
+2023,9,,19,,
+2023,9,,20,,
+2023,9,,21,,
+2023,9,,22,,
+2023,9,,23,,
+2023,9,,24,,
+2023,9,,25,,
+2023,9,,26,,
+2023,9,,27,,
+2023,9,,28,,
+2023,10,EAST | WEST,1,"Hurts Rent a Carr
+Team Rex
+Team Goff Balls
+Bed Bath and Bijan
+Rex On Rex
+Team Ryan","Hurts Rent a Carr | Team Rex | Team Goff Balls | Bed Bath and Bijan | Rex On Rex | Team Ryan | Your Wildest Fantasy (Football)
+The Ascension To Evan(s)
+Judge Jeudy
+The Adams Family
+Juulio Jones
+THE EMPIRE DID NOTHING WRONG!1 | Your Wildest Fantasy (Football) | The Ascension To Evan(s) | Judge Jeudy | The Adams Family | Juulio Jones | THE EMPIRE DID NOTHING WRONG!1"
+2023,10,EAST | WEST,2,Hurts Rent a Carr,
+2023,10,EAST | WEST,3,Team Rex,
+2023,10,EAST | WEST,4,Team Goff Balls,
+2023,10,EAST | WEST,5,Bed Bath and Bijan,
+2023,10,EAST | WEST,6,Rex On Rex,
+2023,10,EAST | WEST,7,Team Ryan,
+2023,10,EAST | WEST,8,Your Wildest Fantasy (Football),
+2023,10,EAST | WEST,9,The Ascension To Evan(s),
+2023,10,EAST | WEST,10,Judge Jeudy,
+2023,10,EAST | WEST,11,The Adams Family,
+2023,10,EAST | WEST,12,Juulio Jones,
+2023,10,EAST | WEST,13,THE EMPIRE DID NOTHING WRONG!1,
+2023,11,,1,Hurts Rent a Carr,
+2023,11,,2,Team Rex,
+2023,11,,3,Team Goff Balls,
+2023,11,,4,Bed Bath and Bijan,
+2023,11,,5,Rex On Rex,
+2023,11,,6,Team Ryan,
+2023,12,,1,Your Wildest Fantasy (Football),
+2023,12,,2,The Ascension To Evan(s),
+2023,12,,3,Judge Jeudy,
+2023,12,,4,The Adams Family,
+2023,12,,5,Juulio Jones,
+2023,12,,6,THE EMPIRE DID NOTHING WRONG!1,
+2023,13,,1,Observe ESPN's Undroppable Players List,Yes
+2023,13,,2,Player Universe,NFL
+2023,14,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2023,14,,2,Player Acquisition System,Waivers
+2023,14,,3,Season Acquisition Limit,No Limit
+2023,14,,4,Waiver Period,1 Day
+2023,14,,5,Waiver Order,"Move to Last After Claim, Never Reset Order"
+2023,14,,6,Lock Transactions for Eliminated Teams During Playoffs,No
+2023,15,,1,Trade Limit,No Limit
+2023,15,,2,Trade Deadline,"Dec 1, 2023 @ 4:00 PM GMT+8"
+2023,15,,3,Trade Review Period,2 Days
+2023,15,,4,Votes Required to Veto Trade,6
+2023,16,,1,Use Keepers for 2023 Season,No
+2023,16,,2,Use Keepers for 2024 Season,No
+2023,17,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2023,17,,2,Weeks Per Matchup,1
+2023,17,,3,Regular Season Matchups,14
+2023,17,,4,Matchup Tie Breaker,No tie breakers
+2023,17,,5,Home Field Advantage,None
+2023,17,,6,Bonus Wins and Losses,No
+2023,18,,1,Playoff Teams,6
+2023,18,,2,Weeks In Round 1 Playoff Matchup,1
+2023,18,,3,Weeks In Round 2 Playoff Matchup,1
+2023,18,,4,Weeks In Championship Round,1
+2023,18,,5,Playoff Seeding Tie Breaker,Total Points For
+2023,18,,6,Playoff Home Field Advantage,None
+2023,18,,7,Allow for Playoff Bracket Reseeding,Off
+2023,18,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2023,18,,9,Consolation Ladder,Yes
+2024,0,,1,League Name,row fast eat ass s8
+2024,0,,2,Number of Teams,12
+2024,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2024,0,,4,Format,League Manager
+2024,0,,5,Make League Viewable to Public,No
+2024,0,,6,Auto Reactivate,No
+2024,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2024,1,,1,Draft Type,Snake
+2024,1,,2,Draft Date,"Sep 5, 2024 @ 8:00 AM GMT+8"
+2024,1,,3,Time Per Pick,90 seconds
+2024,1,,4,Draft Order,Manually Set by League Manager
+2024,1,,5,Allow Draft Pick Trading,No
+2024,2,,1,Roster Size,16
+2024,2,,2,Total Starters,9
+2024,2,,3,Total on Bench,7 (1 IR)
+2024,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2024,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | No Limit
+2024,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2024,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2024,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2024,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2024,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2024,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2024,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2024,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2024,4,,1,Passing,
+2024,4,,2,"Passing Yards (PY)
+0.04",
+2024,4,,3,"TD Pass (PTD)
+4",
+2024,4,,4,"Interceptions Thrown (INT)
+-2",
+2024,4,,5,"2pt Passing Conversion (2PC)
+2",
+2024,5,,1,Rushing,
+2024,5,,2,"Rushing Yards (RY)
+0.1",
+2024,5,,3,"TD Rush (RTD)
+6",
+2024,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2024,5,,5,,
+2024,6,,1,Receiving,
+2024,6,,2,"Receiving Yards (REY)
+0.1",
+2024,6,,3,"Each reception (REC)
+1",
+2024,6,,4,"TD Reception (RETD)
+6",
+2024,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2024,6,,6,,
+2024,6,,7,,
+2024,7,,1,Kicking,
+2024,7,,2,"Each PAT Made (PAT)
+1",
+2024,7,,3,"Total FG Missed (FGM)
+-1",
+2024,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2024,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2024,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2024,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2024,8,,1,Team Defense / Special Teams,
+2024,8,,2,"Kickoff Return TD (KRTD)
+6",
+2024,8,,3,"Punt Return TD (PRTD)
+6",
+2024,8,,4,"Interception Return TD (INTTD)
+6",
+2024,8,,5,"Fumble Return TD (FRTD)
+6",
+2024,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2024,8,,7,"2pt Return (2PTRET)
+2",
+2024,8,,8,"1pt Safety (1PSF)
+1",
+2024,8,,9,"Each Sack (SK)
+1",
+2024,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2024,8,,11,"Each Interception (INT)
+2",
+2024,8,,12,"Each Fumble Recovered (FR)
+2",
+2024,8,,13,"Each Safety (SF)
+2",
+2024,8,,14,"0 points allowed (PA0)
+5",
+2024,8,,15,"1-6 points allowed (PA1)
+4",
+2024,8,,16,"7-13 points allowed (PA7)
+3",
+2024,8,,17,"14-17 points allowed (PA14)
+1",
+2024,8,,18,"28-34 points allowed (PA28)
+-1",
+2024,8,,19,"35-45 points allowed (PA35)
+-3",
+2024,8,,20,"46+ points allowed (PA46)
+-5",
+2024,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2024,8,,22,"100-199 total yards allowed (YA199)
+3",
+2024,8,,23,"200-299 total yards allowed (YA299)
+2",
+2024,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2024,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2024,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2024,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2024,8,,28,"550+ total yards allowed (YA550)
+-7",
+2024,9,,1,Miscellaneous,
+2024,9,,2,"Kickoff Return TD (KRTD)
+6",
+2024,9,,3,"Punt Return TD (PRTD)
+6",
+2024,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2024,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2024,9,,6,"Interception Return TD (INTTD)
+6",
+2024,9,,7,"Fumble Return TD (FRTD)
+6",
+2024,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2024,9,,9,"2pt Return (2PTRET)
+2",
+2024,9,,10,"1pt Safety (1PSF)
+1",
+2024,9,,11,,
+2024,9,,12,,
+2024,9,,13,,
+2024,9,,14,,
+2024,9,,15,,
+2024,9,,16,,
+2024,9,,17,,
+2024,9,,18,,
+2024,9,,19,,
+2024,9,,20,,
+2024,9,,21,,
+2024,9,,22,,
+2024,9,,23,,
+2024,9,,24,,
+2024,9,,25,,
+2024,9,,26,,
+2024,9,,27,,
+2024,9,,28,,
+2024,10,EAST | WEST,1,"Moore Than A. Thielen
+Team Rex
+Goff Balls
+Pulled McCaff
+Rex On Rex
+Wet Willies","Moore Than A. Thielen | Team Rex | Goff Balls | Pulled McCaff | Rex On Rex | Wet Willies | DK's Adventures
+Hall of Heroes
+LaPorta John
+Phresh Meat
+Juulio Jones
+THE EMPIRE DID NOTHING WRONG!1 | DK's Adventures | Hall of Heroes | LaPorta John | Phresh Meat | Juulio Jones | THE EMPIRE DID NOTHING WRONG!1"
+2024,10,EAST | WEST,2,Moore Than A. Thielen,
+2024,10,EAST | WEST,3,Team Rex,
+2024,10,EAST | WEST,4,Goff Balls,
+2024,10,EAST | WEST,5,Pulled McCaff,
+2024,10,EAST | WEST,6,Rex On Rex,
+2024,10,EAST | WEST,7,Wet Willies,
+2024,10,EAST | WEST,8,DK's Adventures,
+2024,10,EAST | WEST,9,Hall of Heroes,
+2024,10,EAST | WEST,10,LaPorta John,
+2024,10,EAST | WEST,11,Phresh Meat,
+2024,10,EAST | WEST,12,Juulio Jones,
+2024,10,EAST | WEST,13,THE EMPIRE DID NOTHING WRONG!1,
+2024,11,,1,Moore Than A. Thielen,
+2024,11,,2,Team Rex,
+2024,11,,3,Goff Balls,
+2024,11,,4,Pulled McCaff,
+2024,11,,5,Rex On Rex,
+2024,11,,6,Wet Willies,
+2024,12,,1,DK's Adventures,
+2024,12,,2,Hall of Heroes,
+2024,12,,3,LaPorta John,
+2024,12,,4,Phresh Meat,
+2024,12,,5,Juulio Jones,
+2024,12,,6,THE EMPIRE DID NOTHING WRONG!1,
+2024,13,,1,Observe ESPN's Undroppable Players List,Yes
+2024,13,,2,Player Universe,NFL
+2024,14,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2024,14,,2,Player Acquisition System,Free Agent Budget
+2024,14,,3,Season Acquisition Limit,No Limit
+2024,14,,4,Waiver Period,1 Day
+2024,14,,5,Player Acquisition Budget,100
+2024,14,,6,Minimum Offer,0
+2024,14,,7,Free Agent Budget Tiebreaker,"Move to Last After Claim, Never Reset Order"
+2024,14,,8,Lock Transactions for Eliminated Teams During Playoffs,No
+2024,15,,1,Trade Limit,No Limit
+2024,15,,2,Trade Deadline,"Nov 29, 2024 @ 4:00 PM GMT+8"
+2024,15,,3,Trade Review Period,2 Days
+2024,15,,4,Votes Required to Veto Trade,6
+2024,16,,1,Use Keepers for 2024 Season,No
+2024,16,,2,Use Keepers for 2025 Season,No
+2024,17,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2024,17,,2,Weeks Per Matchup,1
+2024,17,,3,Regular Season Matchups,14
+2024,17,,4,Matchup Tie Breaker,No tie breakers
+2024,17,,5,Home Field Advantage,None
+2024,17,,6,Bonus Wins and Losses,No
+2024,18,,1,Playoff Teams,6
+2024,18,,2,Weeks In Round 1 Playoff Matchup,1
+2024,18,,3,Weeks In Round 2 Playoff Matchup,1
+2024,18,,4,Weeks In Championship Round,1
+2024,18,,5,Playoff Seeding Tie Breaker,Total Points For
+2024,18,,6,Playoff Home Field Advantage,None
+2024,18,,7,Allow for Playoff Bracket Reseeding,Off
+2024,18,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2024,18,,9,Consolation Ladder,Yes
+2025,0,,1,League Name,row fast eat ass s9
+2025,0,,2,Number of Teams,12
+2025,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2025,0,,4,Format,League Manager
+2025,0,,5,Make League Viewable to Public,No
+2025,0,,6,Auto Reactivate,No
+2025,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2025,1,,1,Draft Type,Snake
+2025,1,,2,Draft Date,"Aug 29, 2025 @ 8:00 AM GMT+8"
+2025,1,,3,Time Per Pick,90 seconds
+2025,1,,4,Draft Order,Manually Set by League Manager
+2025,1,,5,Allow Draft Pick Trading,Yes
+2025,2,,1,Roster Size,16
+2025,2,,2,Total Starters,9
+2025,2,,3,Total on Bench,7 (1 IR)
+2025,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2025,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | No Limit
+2025,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2025,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2025,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2025,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2025,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2025,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2025,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2025,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2025,4,,1,Passing,
+2025,4,,2,"Passing Yards (PY)
+0.04",
+2025,4,,3,"TD Pass (PTD)
+4",
+2025,4,,4,"Interceptions Thrown (INT)
+-2",
+2025,4,,5,"2pt Passing Conversion (2PC)
+2",
+2025,5,,1,Rushing,
+2025,5,,2,"Rushing Yards (RY)
+0.1",
+2025,5,,3,"TD Rush (RTD)
+6",
+2025,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2025,5,,5,,
+2025,6,,1,Receiving,
+2025,6,,2,"Receiving Yards (REY)
+0.1",
+2025,6,,3,"Each reception (REC)
+1",
+2025,6,,4,"TD Reception (RETD)
+6",
+2025,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2025,6,,6,,
+2025,6,,7,,
+2025,7,,1,Kicking,
+2025,7,,2,"Each PAT Made (PAT)
+1",
+2025,7,,3,"Total FG Missed (FGM)
+-1",
+2025,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2025,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2025,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2025,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2025,8,,1,Team Defense / Special Teams,
+2025,8,,2,"Kickoff Return TD (KRTD)
+6",
+2025,8,,3,"Punt Return TD (PRTD)
+6",
+2025,8,,4,"Interception Return TD (INTTD)
+6",
+2025,8,,5,"Fumble Return TD (FRTD)
+6",
+2025,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2025,8,,7,"2pt Return (2PTRET)
+2",
+2025,8,,8,"1pt Safety (1PSF)
+1",
+2025,8,,9,"Each Sack (SK)
+1",
+2025,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2025,8,,11,"Each Interception (INT)
+2",
+2025,8,,12,"Each Fumble Recovered (FR)
+2",
+2025,8,,13,"Each Safety (SF)
+2",
+2025,8,,14,"0 points allowed (PA0)
+5",
+2025,8,,15,"1-6 points allowed (PA1)
+4",
+2025,8,,16,"7-13 points allowed (PA7)
+3",
+2025,8,,17,"14-17 points allowed (PA14)
+1",
+2025,8,,18,"28-34 points allowed (PA28)
+-1",
+2025,8,,19,"35-45 points allowed (PA35)
+-3",
+2025,8,,20,"46+ points allowed (PA46)
+-5",
+2025,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2025,8,,22,"100-199 total yards allowed (YA199)
+3",
+2025,8,,23,"200-299 total yards allowed (YA299)
+2",
+2025,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2025,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2025,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2025,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2025,8,,28,"550+ total yards allowed (YA550)
+-7",
+2025,9,,1,Miscellaneous,
+2025,9,,2,"Kickoff Return TD (KRTD)
+6",
+2025,9,,3,"Punt Return TD (PRTD)
+6",
+2025,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2025,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2025,9,,6,"Interception Return TD (INTTD)
+6",
+2025,9,,7,"Fumble Return TD (FRTD)
+6",
+2025,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2025,9,,9,"2pt Return (2PTRET)
+2",
+2025,9,,10,"1pt Safety (1PSF)
+1",
+2025,9,,11,,
+2025,9,,12,,
+2025,9,,13,,
+2025,9,,14,,
+2025,9,,15,,
+2025,9,,16,,
+2025,9,,17,,
+2025,9,,18,,
+2025,9,,19,,
+2025,9,,20,,
+2025,9,,21,,
+2025,9,,22,,
+2025,9,,23,,
+2025,9,,24,,
+2025,9,,25,,
+2025,9,,26,,
+2025,9,,27,,
+2025,9,,28,,
+2025,10,EAST | WEST,1,"Eat The Boutte Like Groceries
+Team Rex
+Goff Balls
+OnlyFannins
+Rex On Rex
+Wet Willies","Eat The Boutte Like Groceries | Team Rex | Goff Balls | OnlyFannins | Rex On Rex | Wet Willies | Meet The Robinson's
+Pukana Matatas
+Kittle League
+Two-Point Conversion Therapy
+Juulio Jones
+Shayshawn Broccoli | Meet The Robinson's | Pukana Matatas | Kittle League | Two-Point Conversion Therapy | Juulio Jones | Shayshawn Broccoli"
+2025,10,EAST | WEST,2,Eat The Boutte Like Groceries,
+2025,10,EAST | WEST,3,Team Rex,
+2025,10,EAST | WEST,4,Goff Balls,
+2025,10,EAST | WEST,5,OnlyFannins,
+2025,10,EAST | WEST,6,Rex On Rex,
+2025,10,EAST | WEST,7,Wet Willies,
+2025,10,EAST | WEST,8,Meet The Robinson's,
+2025,10,EAST | WEST,9,Pukana Matatas,
+2025,10,EAST | WEST,10,Kittle League,
+2025,10,EAST | WEST,11,Two-Point Conversion Therapy,
+2025,10,EAST | WEST,12,Juulio Jones,
+2025,10,EAST | WEST,13,Shayshawn Broccoli,
+2025,11,,1,Eat The Boutte Like Groceries,
+2025,11,,2,Team Rex,
+2025,11,,3,Goff Balls,
+2025,11,,4,OnlyFannins,
+2025,11,,5,Rex On Rex,
+2025,11,,6,Wet Willies,
+2025,12,,1,Meet The Robinson's,
+2025,12,,2,Pukana Matatas,
+2025,12,,3,Kittle League,
+2025,12,,4,Two-Point Conversion Therapy,
+2025,12,,5,Juulio Jones,
+2025,12,,6,Shayshawn Broccoli,
+2025,13,,1,Observe ESPN's Undroppable Players List,Yes
+2025,13,,2,Player Universe,NFL
+2025,14,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2025,14,,2,Player Acquisition System,Free Agent Budget
+2025,14,,3,Season Acquisition Limit,No Limit
+2025,14,,4,Waiver Period,1 Day
+2025,14,,5,Player Acquisition Budget,100
+2025,14,,6,Minimum Offer,0
+2025,14,,7,Free Agent Budget Tiebreaker,"Move to Last After Claim, Never Reset Order"
+2025,14,,8,Lock Transactions for Eliminated Teams During Playoffs,No
+2025,15,,1,Trade Limit,No Limit
+2025,15,,2,Trade Deadline,"Nov 28, 2025 @ 4:00 PM GMT+8"
+2025,15,,3,Trade Review Period,2 Days
+2025,15,,4,Votes Required to Veto Trade,6
+2025,16,,1,Use Keepers for 2025 Season,No
+2025,16,,2,Use Keepers for 2026 Season,No
+2025,17,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2025,17,,2,Weeks Per Matchup,1
+2025,17,,3,Regular Season Matchups,14
+2025,17,,4,Matchup Tie Breaker,No tie breakers
+2025,17,,5,Home Field Advantage,None
+2025,17,,6,Bonus Wins and Losses,No
+2025,18,,1,Playoff Teams,6
+2025,18,,2,Weeks In Round 1 Playoff Matchup,1
+2025,18,,3,Weeks In Round 2 Playoff Matchup,1
+2025,18,,4,Weeks In Championship Round,1
+2025,18,,5,Playoff Seeding Tie Breaker,Total Points For
+2025,18,,6,Playoff Home Field Advantage,None
+2025,18,,7,Allow for Playoff Bracket Reseeding,Off
+2025,18,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2025,18,,9,Consolation Ladder,Yes
+2026,0,,1,League Name,row fast eat ass s10
+2026,0,,2,Number of Teams,12
+2026,0,,3,Scoring Type,"Head to Head Points, Point Per Reception"
+2026,0,,4,Format,League Manager
+2026,0,,5,Make League Viewable to Public,No
+2026,0,,6,Auto Reactivate,No
+2026,0,,7,Lineup Protection,"Off
+Lineup protection allows for all teams in the league to have injured players swapped out of the starting lineup with another player who is active and has a game on that given day."
+2026,1,,1,Draft Type,Snake
+2026,1,,2,Draft Date,"Sep 9, 2026 @ 7:30 AM GMT+8"
+2026,1,,3,Time Per Pick,90 seconds
+2026,1,,4,Draft Order,Manually Set by League Manager
+2026,1,,5,Allow Draft Pick Trading,No
+2026,2,,1,Roster Size,16
+2026,2,,2,Total Starters,9
+2026,2,,3,Total on Bench,7 (1 IR)
+2026,3,POSITION | STARTERS | MAXIMUMS,1,Quarterback (QB),1 | 4
+2026,3,POSITION | STARTERS | MAXIMUMS,2,Team Quarterback (TQB),0 | No Limit
+2026,3,POSITION | STARTERS | MAXIMUMS,3,Running Back (RB),2 | 8
+2026,3,POSITION | STARTERS | MAXIMUMS,4,Running Back/Wide Receiver (RB/WR),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,5,Wide Receiver (WR),2 | 8
+2026,3,POSITION | STARTERS | MAXIMUMS,6,Wide Receiver/Tight End (WR/TE),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,7,Tight End (TE),1 | 3
+2026,3,POSITION | STARTERS | MAXIMUMS,8,Flex (FLEX),1 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,9,Superflex (SFLEX),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,10,Defensive Tackle (DT),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,11,Defensive End (DE),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,12,Linebacker (LB),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,13,Defensive Line (DL),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,14,Cornerback (CB),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,15,Safety (S),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,16,Defensive Back (DB),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,17,Defensive Player Utility (DP),0 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,18,Team Defense/Special Teams (D/ST),1 | 3
+2026,3,POSITION | STARTERS | MAXIMUMS,19,Place Kicker (K),1 | 3
+2026,3,POSITION | STARTERS | MAXIMUMS,20,Punter (P),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,21,Head Coach (HC),0 | 0
+2026,3,POSITION | STARTERS | MAXIMUMS,22,Bench (BE),7 | N/A
+2026,3,POSITION | STARTERS | MAXIMUMS,23,Injured Reserve (IR),1 | N/A
+2026,4,,1,Passing,
+2026,4,,2,"Passing Yards (PY)
+0.04",
+2026,4,,3,"TD Pass (PTD)
+4",
+2026,4,,4,"Interceptions Thrown (INT)
+-2",
+2026,4,,5,"2pt Passing Conversion (2PC)
+2",
+2026,5,,1,Rushing,
+2026,5,,2,"Rushing Yards (RY)
+0.1",
+2026,5,,3,"TD Rush (RTD)
+6",
+2026,5,,4,"2pt Rushing Conversion (2PR)
+2",
+2026,5,,5,,
+2026,6,,1,Receiving,
+2026,6,,2,"Receiving Yards (REY)
+0.1",
+2026,6,,3,"Each reception (REC)
+1",
+2026,6,,4,"TD Reception (RETD)
+6",
+2026,6,,5,"2pt Receiving Conversion (2PRE)
+2",
+2026,6,,6,,
+2026,6,,7,,
+2026,7,,1,Kicking,
+2026,7,,2,"Each PAT Made (PAT)
+1",
+2026,7,,3,"Total FG Missed (FGM)
+-1",
+2026,7,,4,"FG Made (0-39 yards) (FG0)
+3",
+2026,7,,5,"FG Made (40-49 yards) (FG40)
+4",
+2026,7,,6,"FG Made (50-59 yards) (FG50)
+5",
+2026,7,,7,"FG Made (60+ yards) (FG60)
+5",
+2026,8,,1,Team Defense / Special Teams,
+2026,8,,2,"Kickoff Return TD (KRTD)
+6",
+2026,8,,3,"Punt Return TD (PRTD)
+6",
+2026,8,,4,"Interception Return TD (INTTD)
+6",
+2026,8,,5,"Fumble Return TD (FRTD)
+6",
+2026,8,,6,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2026,8,,7,"2pt Return (2PTRET)
+2",
+2026,8,,8,"1pt Safety (1PSF)
+1",
+2026,8,,9,"Each Sack (SK)
+1",
+2026,8,,10,"Blocked Punt, PAT or FG (BLKK)
+2",
+2026,8,,11,"Each Interception (INT)
+2",
+2026,8,,12,"Each Fumble Recovered (FR)
+2",
+2026,8,,13,"Each Safety (SF)
+2",
+2026,8,,14,"0 points allowed (PA0)
+5",
+2026,8,,15,"1-6 points allowed (PA1)
+4",
+2026,8,,16,"7-13 points allowed (PA7)
+3",
+2026,8,,17,"14-17 points allowed (PA14)
+1",
+2026,8,,18,"28-34 points allowed (PA28)
+-1",
+2026,8,,19,"35-45 points allowed (PA35)
+-3",
+2026,8,,20,"46+ points allowed (PA46)
+-5",
+2026,8,,21,"Less than 100 total yards allowed (YA100)
+5",
+2026,8,,22,"100-199 total yards allowed (YA199)
+3",
+2026,8,,23,"200-299 total yards allowed (YA299)
+2",
+2026,8,,24,"350-399 total yards allowed (YA399)
+-1",
+2026,8,,25,"400-449 total yards allowed (YA449)
+-3",
+2026,8,,26,"450-499 total yards allowed (YA499)
+-5",
+2026,8,,27,"500-549 total yards allowed (YA549)
+-6",
+2026,8,,28,"550+ total yards allowed (YA550)
+-7",
+2026,9,,1,Miscellaneous,
+2026,9,,2,"Kickoff Return TD (KRTD)
+6",
+2026,9,,3,"Punt Return TD (PRTD)
+6",
+2026,9,,4,"Fumble Recovered for TD (FTD)
+6",
+2026,9,,5,"Total Fumbles Lost (FUML)
+-2",
+2026,9,,6,"Interception Return TD (INTTD)
+6",
+2026,9,,7,"Fumble Return TD (FRTD)
+6",
+2026,9,,8,"Blocked Punt or FG return for TD (BLKKRTD)
+6",
+2026,9,,9,"2pt Return (2PTRET)
+2",
+2026,9,,10,"1pt Safety (1PSF)
+1",
+2026,9,,11,,
+2026,9,,12,,
+2026,9,,13,,
+2026,9,,14,,
+2026,9,,15,,
+2026,9,,16,,
+2026,9,,17,,
+2026,9,,18,,
+2026,9,,19,,
+2026,9,,20,,
+2026,9,,21,,
+2026,9,,22,,
+2026,9,,23,,
+2026,9,,24,,
+2026,9,,25,,
+2026,9,,26,,
+2026,9,,27,,
+2026,9,,28,,
+2026,10,EAST | WEST,1,"You May Kiss McBride
+McConkey Kong
+The Price is Wrong
+Rex On Rex
+Juulio Jones
+Wet Willies","You May Kiss McBride | McConkey Kong | The Price is Wrong | Rex On Rex | Juulio Jones | Wet Willies | Peloton Pickens
+Gibbs Me Moore
+Jacks On - Jax Off
+Kittle League
+Love Hurts
+Shayshawn Broccoli | Peloton Pickens | Gibbs Me Moore | Jacks On - Jax Off | Kittle League | Love Hurts | Shayshawn Broccoli"
+2026,10,EAST | WEST,2,You May Kiss McBride,
+2026,10,EAST | WEST,3,McConkey Kong,
+2026,10,EAST | WEST,4,The Price is Wrong,
+2026,10,EAST | WEST,5,Rex On Rex,
+2026,10,EAST | WEST,6,Juulio Jones,
+2026,10,EAST | WEST,7,Wet Willies,
+2026,10,EAST | WEST,8,Peloton Pickens,
+2026,10,EAST | WEST,9,Gibbs Me Moore,
+2026,10,EAST | WEST,10,Jacks On - Jax Off,
+2026,10,EAST | WEST,11,Kittle League,
+2026,10,EAST | WEST,12,Love Hurts,
+2026,10,EAST | WEST,13,Shayshawn Broccoli,
+2026,11,,1,You May Kiss McBride,
+2026,11,,2,McConkey Kong,
+2026,11,,3,The Price is Wrong,
+2026,11,,4,Rex On Rex,
+2026,11,,5,Juulio Jones,
+2026,11,,6,Wet Willies,
+2026,12,,1,Peloton Pickens,
+2026,12,,2,Gibbs Me Moore,
+2026,12,,3,Jacks On - Jax Off,
+2026,12,,4,Kittle League,
+2026,12,,5,Love Hurts,
+2026,12,,6,Shayshawn Broccoli,
+2026,13,,1,Observe ESPN's Undroppable Players List,Yes
+2026,13,,2,Player Universe,NFL
+2026,14,,1,Lineup Changes,Lock individually at Scheduled Gametime
+2026,14,,2,Player Acquisition System,Free Agent Budget
+2026,14,,3,Season Acquisition Limit,No Limit
+2026,14,,4,Waiver Period,1 Day
+2026,14,,5,Player Acquisition Budget,100
+2026,14,,6,Minimum Offer,0
+2026,14,,7,Free Agent Budget Tiebreaker,"Move to Last After Claim, Never Reset Order"
+2026,14,,8,Lock Transactions for Eliminated Teams During Playoffs,No
+2026,15,,1,Trade Limit,No Limit
+2026,15,,2,Trade Deadline,"Oct 29, 2026 @ 1:00 AM GMT+8"
+2026,15,,3,Trade Review Period,2 Days
+2026,15,,4,Votes Required to Veto Trade,6
+2026,16,,1,Use Keepers for 2026 Season,No
+2026,16,,2,Use Keepers for 2027 Season,No
+2026,17,,1,Start of Regular Season,NFL Week 1 (Start of Season)
+2026,17,,2,Weeks Per Matchup,1
+2026,17,,3,Regular Season Matchups,14
+2026,17,,4,Matchup Tie Breaker,No tie breakers
+2026,17,,5,Home Field Advantage,None
+2026,17,,6,Bonus Wins and Losses,No
+2026,18,,1,Playoff Teams,6
+2026,18,,2,Weeks In Round 1 Playoff Matchup,1
+2026,18,,3,Weeks In Round 2 Playoff Matchup,1
+2026,18,,4,Weeks In Championship Round,1
+2026,18,,5,Playoff Seeding Tie Breaker,Total Points For
+2026,18,,6,Playoff Home Field Advantage,None
+2026,18,,7,Allow for Playoff Bracket Reseeding,Off
+2026,18,,8,Lock Transactions for Eliminated Teams During Playoffs,"No
+To edit, go to Settings > Transactions and Keepers"
+2026,18,,9,Consolation Ladder,Yes

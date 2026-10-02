@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=19" />
+    <link rel="stylesheet" href="/styles.css?v=20" />
   </head>
   <body>
     <header class="site-header">
@@ -21,6 +21,7 @@
         <nav class="primary-nav" aria-label="League navigation">
           <button class="nav-link is-active" data-view="overview">Overview</button>
           <button class="nav-link" data-view="power">Power rankings</button>
+          <button class="nav-link" data-view="history">History</button>
           <button class="nav-link" data-view="methods">Methodology</button>
           <button class="nav-link" data-view="feed">League feed</button>
         </nav>
@@ -67,6 +68,18 @@
         </div>
       </section>
 
+      <section class="view" data-view-panel="history">
+        <div class="page-shell history-shell">
+          <header class="history-hero"><p class="eyebrow eyebrow-light">2017–2025 · NINE COMPLETED SEASONS</p><h1>League history</h1><p>Every completed season, built from verified ESPN results. Owner totals use the manager shown by ESPN for that season; 2026 remains in progress and is not included.</p></header>
+          <div class="history-note" id="history-note">Loading the verified archive…</div>
+          <section class="history-section"><div class="section-heading"><div><p class="eyebrow">ALL-TIME</p><h2>Owner leaderboard</h2></div><span>Regular season · 2017–2025</span></div><div class="history-table-wrap"><table class="history-table"><thead><tr><th>Owner</th><th>SZN</th><th>W–L–T</th><th>WIN%</th><th>PF/G</th><th>PO</th><th>TOP 3</th><th>🏆</th></tr></thead><tbody id="history-all-time"></tbody></table></div></section>
+          <section class="history-section"><div class="section-heading"><div><p class="eyebrow">TROPHY CASE</p><h2>Champions</h2></div></div><div class="champion-grid" id="history-champions"></div></section>
+          <section class="history-section history-two-col"><article><div class="section-heading"><div><p class="eyebrow">SCORING</p><h2>Records</h2></div></div><div id="history-scoring"></div></article><article><div class="section-heading"><div><p class="eyebrow">LUCK</p><h2>Wins vs. all-play</h2></div></div><div class="history-table-wrap compact"><table class="history-table"><thead><tr><th>Owner</th><th>W</th><th>EXP</th><th>±</th><th>PA/G</th><th>PA PCTL</th></tr></thead><tbody id="history-luck"></tbody></table></div></article></section>
+          <section class="history-section"><div class="section-heading"><div><p class="eyebrow">HEAD TO HEAD</p><h2>Owner matrix</h2></div><span>W–L–T · regular season only</span></div><div class="history-table-wrap matrix-wrap"><table class="history-table matrix-table" id="history-matrix"></table></div></section>
+          <section class="history-section history-two-col"><article><div class="section-heading"><div><p class="eyebrow">PEOPLE</p><h2>Owner timeline</h2></div></div><div class="timeline" id="history-timeline"></div></article><article><div class="section-heading"><div><p class="eyebrow">FORMAT</p><h2>Rules timeline</h2></div></div><div class="timeline" id="history-rules"></div></article></section>
+        </div>
+      </section>
+
       <section class="view" data-view-panel="methods">
         <div class="page-shell methods-shell">
           <div class="page-heading"><div><h1>Methodology</h1><p class="lede">Week 0 uses projected roster strength. Each postgame issue progressively blends that forecast with average actual scoring.</p></div></div>
@@ -94,7 +107,7 @@
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
     <div class="modal-backdrop" id="tool-modal" hidden><div class="tool-modal"><button class="modal-close" id="modal-close" type="button">×</button><p class="eyebrow" id="modal-kicker">TRADE BLOCK</p><h2 id="modal-title">Put a player on the block</h2><div id="modal-content"></div></div></div>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="/app.js?v=19"></script>
+    <script src="/app.js?v=20"></script>
     <script src="/rankings-v2.js?v=19"></script>
     <script src="/tools.js?v=19"></script>
     <script src="/social.js?v=19"></script>
